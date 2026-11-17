@@ -1,0 +1,10 @@
+# Regenerable artifacts >256 KiB
+/audio_trace.csv
+/param_search.csv
+/selected_candidates.csv
+/timeline_true_only_point_07.png
+/timeline_true_plus_uncertain_point_07.png
+/timeline_true_plus_uncertain_point_09.png
+/timeline_true_plus_uncertain_point_10.png
+__pycache__/
+*.wav

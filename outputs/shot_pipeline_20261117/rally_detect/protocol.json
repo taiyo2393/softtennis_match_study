@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-11-17T18:21:48.556924+00:00",
+  "points": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "frame_convention": "0-based closed frame intervals; inventory upper bound exclusive",
+  "fps": "60000/1001",
+  "v1_config": {
+    "config_id": "cfg_427",
+    "low_hz": 4000,
+    "high_hz": 12000,
+    "median_sec": 0.5,
+    "threshold": 1.0,
+    "min_interval_sec": 0.15,
+    "method": "bandpass_log_energy_minus_local_median",
+    "energy_ms": 2.0,
+    "hop_ms": 1.0,
+    "filter_order": 4,
+    "channel": "mono_ffmpeg_downmix",
+    "time_offset_sec": 0.0
+  },
+  "search": {
+    "gap_sec": [
+      0.8,
+      1.0,
+      1.2,
+      1.4,
+      1.6,
+      1.8,
+      2.0
+    ],
+    "min_candidates": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "shape": [
+      "none",
+      "sharp",
+      "v2"
+    ],
+    "serve_trim": [
+      "none",
+      "rhythmic_jump1",
+      "rhythmic_jump2"
+    ]
+  },
+  "selection_score": "0.5 * candidate_F1 + 0.5 * (2*sum(matched rally IoU)/(n_GT+n_pred))",
+  "tie_breaks": [
+    "max matched clear",
+    "min start/end MAE sum",
+    "min candidates",
+    "min complexity",
+    "config ID"
+  ],
+  "candidate_matching": "max cardinality then min absolute error, same point, inclusive +/-10F",
+  "rally_matching": "max cardinality then max IoU, positive closed-interval overlap, same point",
+  "include_a_false": "A is non-target; A-only predictions are extras, not ignored",
+  "label_input_to_inference": false,
+  "pose_used": false,
+  "caveats": [
+    "v1 fixed upstream fitted on 7/8; LOO tests rally rule only",
+    "scene references include labels from 9/10; not independent pipeline holdout",
+    "prior v2 hypotheses include observation of point 9; exploratory reused test",
+    "Claude labels not independent complete human ground truth"
+  ]
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "file": "point_07_rally_A.mp4",
+    "frame_count": 376,
+    "attempts": [
+      {
+        "seek_mode": "input",
+        "endpoints": [
+          {
+            "clip_frame": 0,
+            "source_frame": 22716,
+            "mae_0_to_255": 0.690316,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 4.437122,
+              "-2": 3.032971,
+              "-1": 1.720417,
+              "0": 0.690316,
+              "1": 1.731782,
+              "2": 1.888326,
+              "3": 1.862801
+            },
+            "passed": true
+          },
+          {
+            "clip_frame": 375,
+            "source_frame": 23091,
+            "mae_0_to_255": 0.746991,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 1.032901,
+              "-2": 0.950301,
+              "-1": 0.838627,
+              "0": 0.746991,
+              "1": 0.870617,
+              "2": 1.009961,
+              "3": 1.139059
+            },
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  {
+    "file": "point_07_rally_B.mp4",
+    "frame_count": 770,
+    "attempts": [
+      {
+        "seek_mode": "input",
+        "endpoints": [
+          {
+            "clip_frame": 0,
+            "source_frame": 23364,
+            "mae_0_to_255": 0.698796,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 0.788681,
+              "-2": 0.761914,
+              "-1": 0.733673,
+              "0": 0.698796,
+              "1": 0.72696,
+              "2": 0.756998,
+              "3": 0.780255
+            },
+            "passed": true
+          },
+          {
+            "clip_frame": 769,
+            "source_frame": 24133,
+            "mae_0_to_255": 1.531049,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 21.865749,
+              "-2": 18.886103,
+              "-1": 13.54544,
+              "0": 1.531049,
+              "1": 13.945131,
+              "2": 19.437569,
+              "3": 22.350084
+            },
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  {
+    "file": "point_08_rally_B.mp4",
+    "frame_count": 872,
+    "attempts": [
+      {
+        "seek_mode": "input",
+        "endpoints": [
+          {
+            "clip_frame": 0,
+            "source_frame": 25102,
+            "mae_0_to_255": 0.690069,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 2.553989,
+              "-2": 2.284846,
+              "-1": 2.285864,
+              "0": 0.690069,
+              "1": 2.164514,
+              "2": 3.621366,
+              "3": 5.008133
+            },
+            "passed": true
+          },
+          {
+            "clip_frame": 871,
+            "source_frame": 25973,
+            "mae_0_to_255": 1.568303,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 14.628627,
+              "-2": 13.059737,
+              "-1": 10.572593,
+              "0": 1.568303,
+              "1": 11.108457,
+              "2": 14.597747,
+              "3": 17.047384
+            },
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  {
+    "file": "point_09_rally_B.mp4",
+    "frame_count": 482,
+    "attempts": [
+      {
+        "seek_mode": "input",
+        "endpoints": [
+          {
+            "clip_frame": 0,
+            "source_frame": 27830,
+            "mae_0_to_255": 0.695077,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 0.924576,
+              "-2": 0.855309,
+              "-1": 0.76909,
+              "0": 0.695077,
+              "1": 0.776412,
+              "2": 0.865934,
+              "3": 0.949668
+            },
+            "passed": true
+          },
+          {
+            "clip_frame": 481,
+            "source_frame": 28311,
+            "mae_0_to_255": 0.733912,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 1.209468,
+              "-2": 1.099437,
+              "-1": 0.939375,
+              "0": 0.733912,
+              "1": 0.95017,
+              "2": 1.127369,
+              "3": 1.234861
+            },
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  {
+    "file": "point_10_rally_B.mp4",
+    "frame_count": 438,
+    "attempts": [
+      {
+        "seek_mode": "input",
+        "endpoints": [
+          {
+            "clip_frame": 0,
+            "source_frame": 30337,
+            "mae_0_to_255": 0.664236,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 1.131829,
+              "-2": 1.021173,
+              "-1": 0.857685,
+              "0": 0.664236,
+              "1": 0.880648,
+              "2": 1.043951,
+              "3": 1.196019
+            },
+            "passed": true
+          },
+          {
+            "clip_frame": 437,
+            "source_frame": 30774,
+            "mae_0_to_255": 0.861798,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 1.341458,
+              "-2": 1.214313,
+              "-1": 1.030316,
+              "0": 0.861798,
+              "1": 1.06912,
+              "2": 2.574599,
+              "3": 3.717323
+            },
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "passed": true
+  },
+  {
+    "file": "point_11_rally_B.mp4",
+    "frame_count": 554,
+    "attempts": [
+      {
+        "seek_mode": "input",
+        "endpoints": [
+          {
+            "clip_frame": 0,
+            "source_frame": 32658,
+            "mae_0_to_255": 0.669506,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 0.79902,
+              "-2": 0.746026,
+              "-1": 0.704444,
+              "0": 0.669506,
+              "1": 0.72142,
+              "2": 0.765887,
+              "3": 0.811003
+            },
+            "passed": true
+          },
+          {
+            "clip_frame": 553,
+            "source_frame": 33211,
+            "mae_0_to_255": 1.440563,
+            "best_offset": 0,
+            "neighbor_mae": {
+              "-3": 20.731358,
+              "-2": 17.551397,
+              "-1": 12.232183,
+              "0": 1.440563,
+              "1": 13.020123,
+              "2": 18.888519,
+              "3": 22.130671
+            },
+            "passed": true
+          }
+        ]
+      }
+    ],
+    "passed": true
+  }
+]

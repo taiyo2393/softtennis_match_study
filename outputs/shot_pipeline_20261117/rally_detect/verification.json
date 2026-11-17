@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "verified_point_model_rows": 120,
+  "independent_matching": "ordered dynamic programming maximum-cardinality +/-10F",
+  "checks": [
+    "CSV candidate and label uniqueness",
+    "exported counts equal point metrics",
+    "clear/all matches and missing counts",
+    "rally interval endpoints and candidate membership",
+    "old 136-candidate +/-15F baseline: legacy greedy F1=166/227, maximum matching F1=168/227"
+  ],
+  "historical_reproduced_candidates": 136,
+  "historical_reproduced_f1": 0.7312775330396476,
+  "historical_maximum_matching_f1": 0.7400881057268722
+}
