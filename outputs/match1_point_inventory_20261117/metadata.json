@@ -1,0 +1,5937 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-17T10:55:59.352285+00:00",
+  "video_path": "C:\\Users\\ta239\\Research\\softtennis_match_study\\study\\data\\raw\\match1.mp4",
+  "video_size_bytes": 4836075193,
+  "output_dir": "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\match1_point_inventory_20261117",
+  "opencv_version": "5.0.0",
+  "fps": 59.94005994005994,
+  "frame_count_declared": 175608,
+  "frame_count_observed": 175608,
+  "width": 3840,
+  "height": 2160,
+  "duration_sec": 2929.7268,
+  "crop_xyxy": [
+    0,
+    48,
+    1172,
+    300
+  ],
+  "analysis_shape_hw": [
+    69,
+    320
+  ],
+  "opencv_backend": "FFMPEG",
+  "pass_1_seconds": 305.69164979999186,
+  "step": 15,
+  "sample_interval_sec": 0.25025000000000003,
+  "sample_count": 11708,
+  "min_stable_sec": 1.5,
+  "thresholds": {
+    "units": "mean absolute difference of uint8 gray pixels, range 0..255",
+    "distribution_count": 11707,
+    "excluded_first_sample": true,
+    "diff_quantiles": {
+      "q00": 0.0001358695652173913,
+      "q05": 0.015307971014492754,
+      "q10": 0.01847826086956522,
+      "q25": 0.02676630434782609,
+      "q50": 0.1578804347826087,
+      "q75": 3.3211730072463768,
+      "q90": 7.759048913043478,
+      "q95": 10.461503623188404,
+      "q99": 16.46867391304349,
+      "q100": 44.518614130434784
+    },
+    "diff_median": 0.1578804347826087,
+    "diff_iqr": 3.294406702898551,
+    "automatic_change_formula": "max(0.25, min(12.0, q50 + 1.5 * (q75 - q25)))",
+    "automatic_merge_formula": "max(0.05, min(effective_change * 0.5, q50 + 0.5 * (q75 - q25)))",
+    "automatic_change_value": 5.099490489130435,
+    "automatic_merge_value": 0.75,
+    "change_threshold": 1.5,
+    "merge_threshold": 1.0,
+    "change_source": "argument",
+    "merge_source": "argument",
+    "comparison": "strictly less than threshold means stable/similar"
+  },
+  "frame_convention": "zero-based; start/end are inclusive observed sample frames",
+  "duration_convention": "(end_frame - start_frame) / fps; no extrapolation to transitions",
+  "representative_convention": "stable sample nearest interval midpoint; earlier on ties",
+  "mean_brightness_convention": "mean of reduced grayscale representative, range 0..255",
+  "merge_convention": "adjacent retained intervals, representative AND fixed-anchor diff < merge_threshold; no gap-length limit",
+  "merged_duration_includes_unstable_gaps": true,
+  "raw_stable_segment_count": 181,
+  "discarded_short_run_count": 3677,
+  "stable_sample_count_before_merging": 7701,
+  "stable_sample_fraction_before_merging": 0.6577553809361121,
+  "raw_stable_spans_frames": [
+    [
+      0,
+      570
+    ],
+    [
+      780,
+      1020
+    ],
+    [
+      1110,
+      1305
+    ],
+    [
+      1725,
+      2625
+    ],
+    [
+      2955,
+      3315
+    ],
+    [
+      3345,
+      4050
+    ],
+    [
+      4080,
+      4680
+    ],
+    [
+      4950,
+      5415
+    ],
+    [
+      5925,
+      6885
+    ],
+    [
+      7065,
+      7245
+    ],
+    [
+      7935,
+      9105
+    ],
+    [
+      10365,
+      12480
+    ],
+    [
+      14100,
+      14340
+    ],
+    [
+      14385,
+      14520
+    ],
+    [
+      14820,
+      16275
+    ],
+    [
+      16680,
+      17655
+    ],
+    [
+      17895,
+      19170
+    ],
+    [
+      19215,
+      19350
+    ],
+    [
+      19590,
+      19830
+    ],
+    [
+      19995,
+      20475
+    ],
+    [
+      21045,
+      22155
+    ],
+    [
+      22470,
+      23010
+    ],
+    [
+      23040,
+      23505
+    ],
+    [
+      23535,
+      24375
+    ],
+    [
+      25050,
+      25620
+    ],
+    [
+      25830,
+      25935
+    ],
+    [
+      26130,
+      29010
+    ],
+    [
+      29760,
+      31395
+    ],
+    [
+      31935,
+      32235
+    ],
+    [
+      33795,
+      34170
+    ],
+    [
+      34845,
+      35160
+    ],
+    [
+      35235,
+      36675
+    ],
+    [
+      36765,
+      37095
+    ],
+    [
+      37155,
+      37290
+    ],
+    [
+      37380,
+      37560
+    ],
+    [
+      38100,
+      38505
+    ],
+    [
+      38535,
+      39180
+    ],
+    [
+      39405,
+      39690
+    ],
+    [
+      39735,
+      40155
+    ],
+    [
+      40545,
+      40845
+    ],
+    [
+      41835,
+      42420
+    ],
+    [
+      42990,
+      43155
+    ],
+    [
+      43635,
+      44265
+    ],
+    [
+      44445,
+      44550
+    ],
+    [
+      45105,
+      45285
+    ],
+    [
+      45825,
+      46740
+    ],
+    [
+      47025,
+      47655
+    ],
+    [
+      47955,
+      48270
+    ],
+    [
+      49980,
+      50400
+    ],
+    [
+      51570,
+      52515
+    ],
+    [
+      52575,
+      52905
+    ],
+    [
+      53190,
+      53340
+    ],
+    [
+      53460,
+      53580
+    ],
+    [
+      53625,
+      53790
+    ],
+    [
+      53835,
+      55215
+    ],
+    [
+      55680,
+      56205
+    ],
+    [
+      56910,
+      57180
+    ],
+    [
+      57225,
+      57600
+    ],
+    [
+      57870,
+      58005
+    ],
+    [
+      58035,
+      58605
+    ],
+    [
+      59595,
+      60570
+    ],
+    [
+      60645,
+      60810
+    ],
+    [
+      61080,
+      61170
+    ],
+    [
+      61200,
+      61365
+    ],
+    [
+      61500,
+      64125
+    ],
+    [
+      64530,
+      64815
+    ],
+    [
+      64860,
+      65175
+    ],
+    [
+      65625,
+      65880
+    ],
+    [
+      66120,
+      67305
+    ],
+    [
+      67365,
+      67590
+    ],
+    [
+      67665,
+      68220
+    ],
+    [
+      68265,
+      69630
+    ],
+    [
+      70200,
+      71055
+    ],
+    [
+      71100,
+      72435
+    ],
+    [
+      73980,
+      74070
+    ],
+    [
+      74685,
+      76425
+    ],
+    [
+      77490,
+      78870
+    ],
+    [
+      78915,
+      79485
+    ],
+    [
+      79515,
+      81270
+    ],
+    [
+      81375,
+      81615
+    ],
+    [
+      81795,
+      82395
+    ],
+    [
+      82425,
+      82830
+    ],
+    [
+      82905,
+      84015
+    ],
+    [
+      84540,
+      85320
+    ],
+    [
+      86400,
+      86550
+    ],
+    [
+      86565,
+      86685
+    ],
+    [
+      86700,
+      87015
+    ],
+    [
+      87510,
+      87795
+    ],
+    [
+      88140,
+      88545
+    ],
+    [
+      88755,
+      89025
+    ],
+    [
+      89040,
+      89625
+    ],
+    [
+      89655,
+      90150
+    ],
+    [
+      90420,
+      90810
+    ],
+    [
+      90840,
+      91050
+    ],
+    [
+      91545,
+      91965
+    ],
+    [
+      92610,
+      92700
+    ],
+    [
+      92745,
+      92880
+    ],
+    [
+      93465,
+      95400
+    ],
+    [
+      95940,
+      96480
+    ],
+    [
+      97305,
+      98070
+    ],
+    [
+      98280,
+      99000
+    ],
+    [
+      99030,
+      100140
+    ],
+    [
+      100200,
+      100335
+    ],
+    [
+      100575,
+      101010
+    ],
+    [
+      101085,
+      101670
+    ],
+    [
+      101730,
+      102720
+    ],
+    [
+      102990,
+      103095
+    ],
+    [
+      103200,
+      104160
+    ],
+    [
+      104190,
+      105105
+    ],
+    [
+      105585,
+      105675
+    ],
+    [
+      105705,
+      106500
+    ],
+    [
+      106530,
+      106815
+    ],
+    [
+      107445,
+      107955
+    ],
+    [
+      108525,
+      109935
+    ],
+    [
+      110115,
+      111105
+    ],
+    [
+      111810,
+      112770
+    ],
+    [
+      113175,
+      113535
+    ],
+    [
+      113985,
+      114135
+    ],
+    [
+      114645,
+      115785
+    ],
+    [
+      116190,
+      117270
+    ],
+    [
+      117315,
+      118170
+    ],
+    [
+      118275,
+      118590
+    ],
+    [
+      118620,
+      119595
+    ],
+    [
+      119625,
+      120315
+    ],
+    [
+      120720,
+      120840
+    ],
+    [
+      121650,
+      122130
+    ],
+    [
+      122175,
+      123270
+    ],
+    [
+      123765,
+      123930
+    ],
+    [
+      124080,
+      124245
+    ],
+    [
+      124605,
+      124710
+    ],
+    [
+      124740,
+      124890
+    ],
+    [
+      124935,
+      125145
+    ],
+    [
+      125505,
+      125595
+    ],
+    [
+      125715,
+      127395
+    ],
+    [
+      130080,
+      130245
+    ],
+    [
+      130380,
+      130905
+    ],
+    [
+      131340,
+      131430
+    ],
+    [
+      131640,
+      133230
+    ],
+    [
+      133605,
+      133755
+    ],
+    [
+      133785,
+      134025
+    ],
+    [
+      134790,
+      134940
+    ],
+    [
+      135375,
+      137160
+    ],
+    [
+      137430,
+      138405
+    ],
+    [
+      138420,
+      139230
+    ],
+    [
+      139275,
+      141870
+    ],
+    [
+      141945,
+      142140
+    ],
+    [
+      142440,
+      142950
+    ],
+    [
+      142980,
+      143850
+    ],
+    [
+      143880,
+      144300
+    ],
+    [
+      144615,
+      144705
+    ],
+    [
+      144915,
+      145215
+    ],
+    [
+      145245,
+      146385
+    ],
+    [
+      146985,
+      148155
+    ],
+    [
+      148200,
+      149070
+    ],
+    [
+      151425,
+      152415
+    ],
+    [
+      152490,
+      152580
+    ],
+    [
+      152595,
+      152685
+    ],
+    [
+      152820,
+      153030
+    ],
+    [
+      153555,
+      153660
+    ],
+    [
+      153690,
+      153780
+    ],
+    [
+      153930,
+      154920
+    ],
+    [
+      155235,
+      155910
+    ],
+    [
+      156225,
+      157035
+    ],
+    [
+      157305,
+      157395
+    ],
+    [
+      157590,
+      159285
+    ],
+    [
+      159750,
+      160350
+    ],
+    [
+      161145,
+      161880
+    ],
+    [
+      162210,
+      162855
+    ],
+    [
+      163275,
+      163950
+    ],
+    [
+      164400,
+      165135
+    ],
+    [
+      165165,
+      166200
+    ],
+    [
+      167385,
+      167520
+    ],
+    [
+      167715,
+      168435
+    ],
+    [
+      168795,
+      168915
+    ],
+    [
+      169095,
+      169530
+    ],
+    [
+      170535,
+      171030
+    ],
+    [
+      171495,
+      172530
+    ],
+    [
+      172950,
+      173580
+    ],
+    [
+      173595,
+      173880
+    ],
+    [
+      174030,
+      174255
+    ],
+    [
+      174360,
+      175605
+    ]
+  ],
+  "segment_count": 180,
+  "sheet_count": 8,
+  "segment_stable_spans": [
+    {
+      "segment_id": 1,
+      "spans_frames": [
+        [
+          0,
+          570
+        ]
+      ]
+    },
+    {
+      "segment_id": 2,
+      "spans_frames": [
+        [
+          780,
+          1020
+        ]
+      ]
+    },
+    {
+      "segment_id": 3,
+      "spans_frames": [
+        [
+          1110,
+          1305
+        ]
+      ]
+    },
+    {
+      "segment_id": 4,
+      "spans_frames": [
+        [
+          1725,
+          2625
+        ]
+      ]
+    },
+    {
+      "segment_id": 5,
+      "spans_frames": [
+        [
+          2955,
+          3315
+        ]
+      ]
+    },
+    {
+      "segment_id": 6,
+      "spans_frames": [
+        [
+          3345,
+          4050
+        ]
+      ]
+    },
+    {
+      "segment_id": 7,
+      "spans_frames": [
+        [
+          4080,
+          4680
+        ]
+      ]
+    },
+    {
+      "segment_id": 8,
+      "spans_frames": [
+        [
+          4950,
+          5415
+        ]
+      ]
+    },
+    {
+      "segment_id": 9,
+      "spans_frames": [
+        [
+          5925,
+          6885
+        ]
+      ]
+    },
+    {
+      "segment_id": 10,
+      "spans_frames": [
+        [
+          7065,
+          7245
+        ]
+      ]
+    },
+    {
+      "segment_id": 11,
+      "spans_frames": [
+        [
+          7935,
+          9105
+        ]
+      ]
+    },
+    {
+      "segment_id": 12,
+      "spans_frames": [
+        [
+          10365,
+          12480
+        ]
+      ]
+    },
+    {
+      "segment_id": 13,
+      "spans_frames": [
+        [
+          14100,
+          14340
+        ]
+      ]
+    },
+    {
+      "segment_id": 14,
+      "spans_frames": [
+        [
+          14385,
+          14520
+        ]
+      ]
+    },
+    {
+      "segment_id": 15,
+      "spans_frames": [
+        [
+          14820,
+          16275
+        ]
+      ]
+    },
+    {
+      "segment_id": 16,
+      "spans_frames": [
+        [
+          16680,
+          17655
+        ]
+      ]
+    },
+    {
+      "segment_id": 17,
+      "spans_frames": [
+        [
+          17895,
+          19170
+        ]
+      ]
+    },
+    {
+      "segment_id": 18,
+      "spans_frames": [
+        [
+          19215,
+          19350
+        ]
+      ]
+    },
+    {
+      "segment_id": 19,
+      "spans_frames": [
+        [
+          19590,
+          19830
+        ]
+      ]
+    },
+    {
+      "segment_id": 20,
+      "spans_frames": [
+        [
+          19995,
+          20475
+        ]
+      ]
+    },
+    {
+      "segment_id": 21,
+      "spans_frames": [
+        [
+          21045,
+          22155
+        ]
+      ]
+    },
+    {
+      "segment_id": 22,
+      "spans_frames": [
+        [
+          22470,
+          23010
+        ]
+      ]
+    },
+    {
+      "segment_id": 23,
+      "spans_frames": [
+        [
+          23040,
+          23505
+        ]
+      ]
+    },
+    {
+      "segment_id": 24,
+      "spans_frames": [
+        [
+          23535,
+          24375
+        ]
+      ]
+    },
+    {
+      "segment_id": 25,
+      "spans_frames": [
+        [
+          25050,
+          25620
+        ]
+      ]
+    },
+    {
+      "segment_id": 26,
+      "spans_frames": [
+        [
+          25830,
+          25935
+        ]
+      ]
+    },
+    {
+      "segment_id": 27,
+      "spans_frames": [
+        [
+          26130,
+          29010
+        ]
+      ]
+    },
+    {
+      "segment_id": 28,
+      "spans_frames": [
+        [
+          29760,
+          31395
+        ]
+      ]
+    },
+    {
+      "segment_id": 29,
+      "spans_frames": [
+        [
+          31935,
+          32235
+        ]
+      ]
+    },
+    {
+      "segment_id": 30,
+      "spans_frames": [
+        [
+          33795,
+          34170
+        ]
+      ]
+    },
+    {
+      "segment_id": 31,
+      "spans_frames": [
+        [
+          34845,
+          35160
+        ]
+      ]
+    },
+    {
+      "segment_id": 32,
+      "spans_frames": [
+        [
+          35235,
+          36675
+        ]
+      ]
+    },
+    {
+      "segment_id": 33,
+      "spans_frames": [
+        [
+          36765,
+          37095
+        ]
+      ]
+    },
+    {
+      "segment_id": 34,
+      "spans_frames": [
+        [
+          37155,
+          37290
+        ]
+      ]
+    },
+    {
+      "segment_id": 35,
+      "spans_frames": [
+        [
+          37380,
+          37560
+        ]
+      ]
+    },
+    {
+      "segment_id": 36,
+      "spans_frames": [
+        [
+          38100,
+          38505
+        ]
+      ]
+    },
+    {
+      "segment_id": 37,
+      "spans_frames": [
+        [
+          38535,
+          39180
+        ]
+      ]
+    },
+    {
+      "segment_id": 38,
+      "spans_frames": [
+        [
+          39405,
+          39690
+        ]
+      ]
+    },
+    {
+      "segment_id": 39,
+      "spans_frames": [
+        [
+          39735,
+          40155
+        ]
+      ]
+    },
+    {
+      "segment_id": 40,
+      "spans_frames": [
+        [
+          40545,
+          40845
+        ]
+      ]
+    },
+    {
+      "segment_id": 41,
+      "spans_frames": [
+        [
+          41835,
+          42420
+        ]
+      ]
+    },
+    {
+      "segment_id": 42,
+      "spans_frames": [
+        [
+          42990,
+          43155
+        ]
+      ]
+    },
+    {
+      "segment_id": 43,
+      "spans_frames": [
+        [
+          43635,
+          44265
+        ]
+      ]
+    },
+    {
+      "segment_id": 44,
+      "spans_frames": [
+        [
+          44445,
+          44550
+        ]
+      ]
+    },
+    {
+      "segment_id": 45,
+      "spans_frames": [
+        [
+          45105,
+          45285
+        ]
+      ]
+    },
+    {
+      "segment_id": 46,
+      "spans_frames": [
+        [
+          45825,
+          46740
+        ]
+      ]
+    },
+    {
+      "segment_id": 47,
+      "spans_frames": [
+        [
+          47025,
+          47655
+        ]
+      ]
+    },
+    {
+      "segment_id": 48,
+      "spans_frames": [
+        [
+          47955,
+          48270
+        ]
+      ]
+    },
+    {
+      "segment_id": 49,
+      "spans_frames": [
+        [
+          49980,
+          50400
+        ]
+      ]
+    },
+    {
+      "segment_id": 50,
+      "spans_frames": [
+        [
+          51570,
+          52515
+        ]
+      ]
+    },
+    {
+      "segment_id": 51,
+      "spans_frames": [
+        [
+          52575,
+          52905
+        ]
+      ]
+    },
+    {
+      "segment_id": 52,
+      "spans_frames": [
+        [
+          53190,
+          53340
+        ]
+      ]
+    },
+    {
+      "segment_id": 53,
+      "spans_frames": [
+        [
+          53460,
+          53580
+        ]
+      ]
+    },
+    {
+      "segment_id": 54,
+      "spans_frames": [
+        [
+          53625,
+          53790
+        ]
+      ]
+    },
+    {
+      "segment_id": 55,
+      "spans_frames": [
+        [
+          53835,
+          55215
+        ]
+      ]
+    },
+    {
+      "segment_id": 56,
+      "spans_frames": [
+        [
+          55680,
+          56205
+        ]
+      ]
+    },
+    {
+      "segment_id": 57,
+      "spans_frames": [
+        [
+          56910,
+          57180
+        ]
+      ]
+    },
+    {
+      "segment_id": 58,
+      "spans_frames": [
+        [
+          57225,
+          57600
+        ]
+      ]
+    },
+    {
+      "segment_id": 59,
+      "spans_frames": [
+        [
+          57870,
+          58005
+        ]
+      ]
+    },
+    {
+      "segment_id": 60,
+      "spans_frames": [
+        [
+          58035,
+          58605
+        ]
+      ]
+    },
+    {
+      "segment_id": 61,
+      "spans_frames": [
+        [
+          59595,
+          60570
+        ]
+      ]
+    },
+    {
+      "segment_id": 62,
+      "spans_frames": [
+        [
+          60645,
+          60810
+        ]
+      ]
+    },
+    {
+      "segment_id": 63,
+      "spans_frames": [
+        [
+          61080,
+          61170
+        ]
+      ]
+    },
+    {
+      "segment_id": 64,
+      "spans_frames": [
+        [
+          61200,
+          61365
+        ]
+      ]
+    },
+    {
+      "segment_id": 65,
+      "spans_frames": [
+        [
+          61500,
+          64125
+        ]
+      ]
+    },
+    {
+      "segment_id": 66,
+      "spans_frames": [
+        [
+          64530,
+          64815
+        ]
+      ]
+    },
+    {
+      "segment_id": 67,
+      "spans_frames": [
+        [
+          64860,
+          65175
+        ]
+      ]
+    },
+    {
+      "segment_id": 68,
+      "spans_frames": [
+        [
+          65625,
+          65880
+        ]
+      ]
+    },
+    {
+      "segment_id": 69,
+      "spans_frames": [
+        [
+          66120,
+          67305
+        ]
+      ]
+    },
+    {
+      "segment_id": 70,
+      "spans_frames": [
+        [
+          67365,
+          67590
+        ]
+      ]
+    },
+    {
+      "segment_id": 71,
+      "spans_frames": [
+        [
+          67665,
+          68220
+        ]
+      ]
+    },
+    {
+      "segment_id": 72,
+      "spans_frames": [
+        [
+          68265,
+          69630
+        ]
+      ]
+    },
+    {
+      "segment_id": 73,
+      "spans_frames": [
+        [
+          70200,
+          71055
+        ]
+      ]
+    },
+    {
+      "segment_id": 74,
+      "spans_frames": [
+        [
+          71100,
+          72435
+        ]
+      ]
+    },
+    {
+      "segment_id": 75,
+      "spans_frames": [
+        [
+          73980,
+          74070
+        ]
+      ]
+    },
+    {
+      "segment_id": 76,
+      "spans_frames": [
+        [
+          74685,
+          76425
+        ]
+      ]
+    },
+    {
+      "segment_id": 77,
+      "spans_frames": [
+        [
+          77490,
+          78870
+        ]
+      ]
+    },
+    {
+      "segment_id": 78,
+      "spans_frames": [
+        [
+          78915,
+          79485
+        ]
+      ]
+    },
+    {
+      "segment_id": 79,
+      "spans_frames": [
+        [
+          79515,
+          81270
+        ]
+      ]
+    },
+    {
+      "segment_id": 80,
+      "spans_frames": [
+        [
+          81375,
+          81615
+        ]
+      ]
+    },
+    {
+      "segment_id": 81,
+      "spans_frames": [
+        [
+          81795,
+          82395
+        ]
+      ]
+    },
+    {
+      "segment_id": 82,
+      "spans_frames": [
+        [
+          82425,
+          82830
+        ]
+      ]
+    },
+    {
+      "segment_id": 83,
+      "spans_frames": [
+        [
+          82905,
+          84015
+        ]
+      ]
+    },
+    {
+      "segment_id": 84,
+      "spans_frames": [
+        [
+          84540,
+          85320
+        ]
+      ]
+    },
+    {
+      "segment_id": 85,
+      "spans_frames": [
+        [
+          86400,
+          86550
+        ]
+      ]
+    },
+    {
+      "segment_id": 86,
+      "spans_frames": [
+        [
+          86565,
+          86685
+        ]
+      ]
+    },
+    {
+      "segment_id": 87,
+      "spans_frames": [
+        [
+          86700,
+          87015
+        ]
+      ]
+    },
+    {
+      "segment_id": 88,
+      "spans_frames": [
+        [
+          87510,
+          87795
+        ]
+      ]
+    },
+    {
+      "segment_id": 89,
+      "spans_frames": [
+        [
+          88140,
+          88545
+        ]
+      ]
+    },
+    {
+      "segment_id": 90,
+      "spans_frames": [
+        [
+          88755,
+          89025
+        ]
+      ]
+    },
+    {
+      "segment_id": 91,
+      "spans_frames": [
+        [
+          89040,
+          89625
+        ]
+      ]
+    },
+    {
+      "segment_id": 92,
+      "spans_frames": [
+        [
+          89655,
+          90150
+        ]
+      ]
+    },
+    {
+      "segment_id": 93,
+      "spans_frames": [
+        [
+          90420,
+          90810
+        ]
+      ]
+    },
+    {
+      "segment_id": 94,
+      "spans_frames": [
+        [
+          90840,
+          91050
+        ]
+      ]
+    },
+    {
+      "segment_id": 95,
+      "spans_frames": [
+        [
+          91545,
+          91965
+        ]
+      ]
+    },
+    {
+      "segment_id": 96,
+      "spans_frames": [
+        [
+          92610,
+          92700
+        ]
+      ]
+    },
+    {
+      "segment_id": 97,
+      "spans_frames": [
+        [
+          92745,
+          92880
+        ]
+      ]
+    },
+    {
+      "segment_id": 98,
+      "spans_frames": [
+        [
+          93465,
+          95400
+        ]
+      ]
+    },
+    {
+      "segment_id": 99,
+      "spans_frames": [
+        [
+          95940,
+          96480
+        ]
+      ]
+    },
+    {
+      "segment_id": 100,
+      "spans_frames": [
+        [
+          97305,
+          98070
+        ]
+      ]
+    },
+    {
+      "segment_id": 101,
+      "spans_frames": [
+        [
+          98280,
+          99000
+        ]
+      ]
+    },
+    {
+      "segment_id": 102,
+      "spans_frames": [
+        [
+          99030,
+          100140
+        ]
+      ]
+    },
+    {
+      "segment_id": 103,
+      "spans_frames": [
+        [
+          100200,
+          100335
+        ]
+      ]
+    },
+    {
+      "segment_id": 104,
+      "spans_frames": [
+        [
+          100575,
+          101010
+        ]
+      ]
+    },
+    {
+      "segment_id": 105,
+      "spans_frames": [
+        [
+          101085,
+          101670
+        ]
+      ]
+    },
+    {
+      "segment_id": 106,
+      "spans_frames": [
+        [
+          101730,
+          102720
+        ]
+      ]
+    },
+    {
+      "segment_id": 107,
+      "spans_frames": [
+        [
+          102990,
+          103095
+        ]
+      ]
+    },
+    {
+      "segment_id": 108,
+      "spans_frames": [
+        [
+          103200,
+          104160
+        ]
+      ]
+    },
+    {
+      "segment_id": 109,
+      "spans_frames": [
+        [
+          104190,
+          105105
+        ]
+      ]
+    },
+    {
+      "segment_id": 110,
+      "spans_frames": [
+        [
+          105585,
+          105675
+        ]
+      ]
+    },
+    {
+      "segment_id": 111,
+      "spans_frames": [
+        [
+          105705,
+          106500
+        ]
+      ]
+    },
+    {
+      "segment_id": 112,
+      "spans_frames": [
+        [
+          106530,
+          106815
+        ]
+      ]
+    },
+    {
+      "segment_id": 113,
+      "spans_frames": [
+        [
+          107445,
+          107955
+        ]
+      ]
+    },
+    {
+      "segment_id": 114,
+      "spans_frames": [
+        [
+          108525,
+          109935
+        ]
+      ]
+    },
+    {
+      "segment_id": 115,
+      "spans_frames": [
+        [
+          110115,
+          111105
+        ]
+      ]
+    },
+    {
+      "segment_id": 116,
+      "spans_frames": [
+        [
+          111810,
+          112770
+        ]
+      ]
+    },
+    {
+      "segment_id": 117,
+      "spans_frames": [
+        [
+          113175,
+          113535
+        ]
+      ]
+    },
+    {
+      "segment_id": 118,
+      "spans_frames": [
+        [
+          113985,
+          114135
+        ]
+      ]
+    },
+    {
+      "segment_id": 119,
+      "spans_frames": [
+        [
+          114645,
+          115785
+        ]
+      ]
+    },
+    {
+      "segment_id": 120,
+      "spans_frames": [
+        [
+          116190,
+          117270
+        ]
+      ]
+    },
+    {
+      "segment_id": 121,
+      "spans_frames": [
+        [
+          117315,
+          118170
+        ]
+      ]
+    },
+    {
+      "segment_id": 122,
+      "spans_frames": [
+        [
+          118275,
+          118590
+        ]
+      ]
+    },
+    {
+      "segment_id": 123,
+      "spans_frames": [
+        [
+          118620,
+          119595
+        ]
+      ]
+    },
+    {
+      "segment_id": 124,
+      "spans_frames": [
+        [
+          119625,
+          120315
+        ]
+      ]
+    },
+    {
+      "segment_id": 125,
+      "spans_frames": [
+        [
+          120720,
+          120840
+        ]
+      ]
+    },
+    {
+      "segment_id": 126,
+      "spans_frames": [
+        [
+          121650,
+          122130
+        ]
+      ]
+    },
+    {
+      "segment_id": 127,
+      "spans_frames": [
+        [
+          122175,
+          123270
+        ]
+      ]
+    },
+    {
+      "segment_id": 128,
+      "spans_frames": [
+        [
+          123765,
+          123930
+        ]
+      ]
+    },
+    {
+      "segment_id": 129,
+      "spans_frames": [
+        [
+          124080,
+          124245
+        ]
+      ]
+    },
+    {
+      "segment_id": 130,
+      "spans_frames": [
+        [
+          124605,
+          124710
+        ]
+      ]
+    },
+    {
+      "segment_id": 131,
+      "spans_frames": [
+        [
+          124740,
+          124890
+        ]
+      ]
+    },
+    {
+      "segment_id": 132,
+      "spans_frames": [
+        [
+          124935,
+          125145
+        ]
+      ]
+    },
+    {
+      "segment_id": 133,
+      "spans_frames": [
+        [
+          125505,
+          125595
+        ]
+      ]
+    },
+    {
+      "segment_id": 134,
+      "spans_frames": [
+        [
+          125715,
+          127395
+        ]
+      ]
+    },
+    {
+      "segment_id": 135,
+      "spans_frames": [
+        [
+          130080,
+          130245
+        ]
+      ]
+    },
+    {
+      "segment_id": 136,
+      "spans_frames": [
+        [
+          130380,
+          130905
+        ]
+      ]
+    },
+    {
+      "segment_id": 137,
+      "spans_frames": [
+        [
+          131340,
+          131430
+        ]
+      ]
+    },
+    {
+      "segment_id": 138,
+      "spans_frames": [
+        [
+          131640,
+          133230
+        ]
+      ]
+    },
+    {
+      "segment_id": 139,
+      "spans_frames": [
+        [
+          133605,
+          133755
+        ]
+      ]
+    },
+    {
+      "segment_id": 140,
+      "spans_frames": [
+        [
+          133785,
+          134025
+        ]
+      ]
+    },
+    {
+      "segment_id": 141,
+      "spans_frames": [
+        [
+          134790,
+          134940
+        ]
+      ]
+    },
+    {
+      "segment_id": 142,
+      "spans_frames": [
+        [
+          135375,
+          137160
+        ]
+      ]
+    },
+    {
+      "segment_id": 143,
+      "spans_frames": [
+        [
+          137430,
+          138405
+        ]
+      ]
+    },
+    {
+      "segment_id": 144,
+      "spans_frames": [
+        [
+          138420,
+          139230
+        ]
+      ]
+    },
+    {
+      "segment_id": 145,
+      "spans_frames": [
+        [
+          139275,
+          141870
+        ]
+      ]
+    },
+    {
+      "segment_id": 146,
+      "spans_frames": [
+        [
+          141945,
+          142140
+        ]
+      ]
+    },
+    {
+      "segment_id": 147,
+      "spans_frames": [
+        [
+          142440,
+          142950
+        ],
+        [
+          142980,
+          143850
+        ]
+      ]
+    },
+    {
+      "segment_id": 148,
+      "spans_frames": [
+        [
+          143880,
+          144300
+        ]
+      ]
+    },
+    {
+      "segment_id": 149,
+      "spans_frames": [
+        [
+          144615,
+          144705
+        ]
+      ]
+    },
+    {
+      "segment_id": 150,
+      "spans_frames": [
+        [
+          144915,
+          145215
+        ]
+      ]
+    },
+    {
+      "segment_id": 151,
+      "spans_frames": [
+        [
+          145245,
+          146385
+        ]
+      ]
+    },
+    {
+      "segment_id": 152,
+      "spans_frames": [
+        [
+          146985,
+          148155
+        ]
+      ]
+    },
+    {
+      "segment_id": 153,
+      "spans_frames": [
+        [
+          148200,
+          149070
+        ]
+      ]
+    },
+    {
+      "segment_id": 154,
+      "spans_frames": [
+        [
+          151425,
+          152415
+        ]
+      ]
+    },
+    {
+      "segment_id": 155,
+      "spans_frames": [
+        [
+          152490,
+          152580
+        ]
+      ]
+    },
+    {
+      "segment_id": 156,
+      "spans_frames": [
+        [
+          152595,
+          152685
+        ]
+      ]
+    },
+    {
+      "segment_id": 157,
+      "spans_frames": [
+        [
+          152820,
+          153030
+        ]
+      ]
+    },
+    {
+      "segment_id": 158,
+      "spans_frames": [
+        [
+          153555,
+          153660
+        ]
+      ]
+    },
+    {
+      "segment_id": 159,
+      "spans_frames": [
+        [
+          153690,
+          153780
+        ]
+      ]
+    },
+    {
+      "segment_id": 160,
+      "spans_frames": [
+        [
+          153930,
+          154920
+        ]
+      ]
+    },
+    {
+      "segment_id": 161,
+      "spans_frames": [
+        [
+          155235,
+          155910
+        ]
+      ]
+    },
+    {
+      "segment_id": 162,
+      "spans_frames": [
+        [
+          156225,
+          157035
+        ]
+      ]
+    },
+    {
+      "segment_id": 163,
+      "spans_frames": [
+        [
+          157305,
+          157395
+        ]
+      ]
+    },
+    {
+      "segment_id": 164,
+      "spans_frames": [
+        [
+          157590,
+          159285
+        ]
+      ]
+    },
+    {
+      "segment_id": 165,
+      "spans_frames": [
+        [
+          159750,
+          160350
+        ]
+      ]
+    },
+    {
+      "segment_id": 166,
+      "spans_frames": [
+        [
+          161145,
+          161880
+        ]
+      ]
+    },
+    {
+      "segment_id": 167,
+      "spans_frames": [
+        [
+          162210,
+          162855
+        ]
+      ]
+    },
+    {
+      "segment_id": 168,
+      "spans_frames": [
+        [
+          163275,
+          163950
+        ]
+      ]
+    },
+    {
+      "segment_id": 169,
+      "spans_frames": [
+        [
+          164400,
+          165135
+        ]
+      ]
+    },
+    {
+      "segment_id": 170,
+      "spans_frames": [
+        [
+          165165,
+          166200
+        ]
+      ]
+    },
+    {
+      "segment_id": 171,
+      "spans_frames": [
+        [
+          167385,
+          167520
+        ]
+      ]
+    },
+    {
+      "segment_id": 172,
+      "spans_frames": [
+        [
+          167715,
+          168435
+        ]
+      ]
+    },
+    {
+      "segment_id": 173,
+      "spans_frames": [
+        [
+          168795,
+          168915
+        ]
+      ]
+    },
+    {
+      "segment_id": 174,
+      "spans_frames": [
+        [
+          169095,
+          169530
+        ]
+      ]
+    },
+    {
+      "segment_id": 175,
+      "spans_frames": [
+        [
+          170535,
+          171030
+        ]
+      ]
+    },
+    {
+      "segment_id": 176,
+      "spans_frames": [
+        [
+          171495,
+          172530
+        ]
+      ]
+    },
+    {
+      "segment_id": 177,
+      "spans_frames": [
+        [
+          172950,
+          173580
+        ]
+      ]
+    },
+    {
+      "segment_id": 178,
+      "spans_frames": [
+        [
+          173595,
+          173880
+        ]
+      ]
+    },
+    {
+      "segment_id": 179,
+      "spans_frames": [
+        [
+          174030,
+          174255
+        ]
+      ]
+    },
+    {
+      "segment_id": 180,
+      "spans_frames": [
+        [
+          174360,
+          175605
+        ]
+      ]
+    }
+  ],
+  "merge_log": [
+    {
+      "left_rep_frame": 285,
+      "right_rep_frame": 900,
+      "anchor_frame": 285,
+      "gap_start_frame": 570,
+      "gap_end_frame": 780,
+      "representative_diff": 8.824411231884058,
+      "anchor_diff": 8.824411231884058,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 900,
+      "right_rep_frame": 1200,
+      "anchor_frame": 900,
+      "gap_start_frame": 1020,
+      "gap_end_frame": 1110,
+      "representative_diff": 3.833469202898551,
+      "anchor_diff": 3.833469202898551,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 1200,
+      "right_rep_frame": 2175,
+      "anchor_frame": 1200,
+      "gap_start_frame": 1305,
+      "gap_end_frame": 1725,
+      "representative_diff": 8.891485507246378,
+      "anchor_diff": 8.891485507246378,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 2175,
+      "right_rep_frame": 3135,
+      "anchor_frame": 2175,
+      "gap_start_frame": 2625,
+      "gap_end_frame": 2955,
+      "representative_diff": 5.786458333333333,
+      "anchor_diff": 5.786458333333333,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 3135,
+      "right_rep_frame": 3690,
+      "anchor_frame": 3135,
+      "gap_start_frame": 3315,
+      "gap_end_frame": 3345,
+      "representative_diff": 5.523007246376811,
+      "anchor_diff": 5.523007246376811,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 3690,
+      "right_rep_frame": 4380,
+      "anchor_frame": 3690,
+      "gap_start_frame": 4050,
+      "gap_end_frame": 4080,
+      "representative_diff": 7.576132246376812,
+      "anchor_diff": 7.576132246376812,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 4380,
+      "right_rep_frame": 5175,
+      "anchor_frame": 4380,
+      "gap_start_frame": 4680,
+      "gap_end_frame": 4950,
+      "representative_diff": 11.50072463768116,
+      "anchor_diff": 11.50072463768116,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 5175,
+      "right_rep_frame": 6405,
+      "anchor_frame": 5175,
+      "gap_start_frame": 5415,
+      "gap_end_frame": 5925,
+      "representative_diff": 11.174909420289856,
+      "anchor_diff": 11.174909420289856,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 6405,
+      "right_rep_frame": 7155,
+      "anchor_frame": 6405,
+      "gap_start_frame": 6885,
+      "gap_end_frame": 7065,
+      "representative_diff": 11.26875,
+      "anchor_diff": 11.26875,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 7155,
+      "right_rep_frame": 8520,
+      "anchor_frame": 7155,
+      "gap_start_frame": 7245,
+      "gap_end_frame": 7935,
+      "representative_diff": 14.044429347826087,
+      "anchor_diff": 14.044429347826087,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 8520,
+      "right_rep_frame": 11415,
+      "anchor_frame": 8520,
+      "gap_start_frame": 9105,
+      "gap_end_frame": 10365,
+      "representative_diff": 1.370697463768116,
+      "anchor_diff": 1.370697463768116,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 11415,
+      "right_rep_frame": 14220,
+      "anchor_frame": 11415,
+      "gap_start_frame": 12480,
+      "gap_end_frame": 14100,
+      "representative_diff": 10.031204710144927,
+      "anchor_diff": 10.031204710144927,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 14220,
+      "right_rep_frame": 14445,
+      "anchor_frame": 14220,
+      "gap_start_frame": 14340,
+      "gap_end_frame": 14385,
+      "representative_diff": 1.3838315217391304,
+      "anchor_diff": 1.3838315217391304,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 14445,
+      "right_rep_frame": 15540,
+      "anchor_frame": 14445,
+      "gap_start_frame": 14520,
+      "gap_end_frame": 14820,
+      "representative_diff": 9.714583333333334,
+      "anchor_diff": 9.714583333333334,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 15540,
+      "right_rep_frame": 17160,
+      "anchor_frame": 15540,
+      "gap_start_frame": 16275,
+      "gap_end_frame": 16680,
+      "representative_diff": 6.214311594202899,
+      "anchor_diff": 6.214311594202899,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 17160,
+      "right_rep_frame": 18525,
+      "anchor_frame": 17160,
+      "gap_start_frame": 17655,
+      "gap_end_frame": 17895,
+      "representative_diff": 5.876313405797101,
+      "anchor_diff": 5.876313405797101,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 18525,
+      "right_rep_frame": 19275,
+      "anchor_frame": 18525,
+      "gap_start_frame": 19170,
+      "gap_end_frame": 19215,
+      "representative_diff": 10.141666666666667,
+      "anchor_diff": 10.141666666666667,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 19275,
+      "right_rep_frame": 19710,
+      "anchor_frame": 19275,
+      "gap_start_frame": 19350,
+      "gap_end_frame": 19590,
+      "representative_diff": 2.5856884057971015,
+      "anchor_diff": 2.5856884057971015,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 19710,
+      "right_rep_frame": 20235,
+      "anchor_frame": 19710,
+      "gap_start_frame": 19830,
+      "gap_end_frame": 19995,
+      "representative_diff": 2.694610507246377,
+      "anchor_diff": 2.694610507246377,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 20235,
+      "right_rep_frame": 21600,
+      "anchor_frame": 20235,
+      "gap_start_frame": 20475,
+      "gap_end_frame": 21045,
+      "representative_diff": 8.694836956521739,
+      "anchor_diff": 8.694836956521739,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 21600,
+      "right_rep_frame": 22740,
+      "anchor_frame": 21600,
+      "gap_start_frame": 22155,
+      "gap_end_frame": 22470,
+      "representative_diff": 5.829076086956522,
+      "anchor_diff": 5.829076086956522,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 22740,
+      "right_rep_frame": 23265,
+      "anchor_frame": 22740,
+      "gap_start_frame": 23010,
+      "gap_end_frame": 23040,
+      "representative_diff": 5.672599637681159,
+      "anchor_diff": 5.672599637681159,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 23265,
+      "right_rep_frame": 23955,
+      "anchor_frame": 23265,
+      "gap_start_frame": 23505,
+      "gap_end_frame": 23535,
+      "representative_diff": 7.226086956521739,
+      "anchor_diff": 7.226086956521739,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 23955,
+      "right_rep_frame": 25335,
+      "anchor_frame": 23955,
+      "gap_start_frame": 24375,
+      "gap_end_frame": 25050,
+      "representative_diff": 5.897282608695652,
+      "anchor_diff": 5.897282608695652,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 25335,
+      "right_rep_frame": 25875,
+      "anchor_frame": 25335,
+      "gap_start_frame": 25620,
+      "gap_end_frame": 25830,
+      "representative_diff": 8.852083333333333,
+      "anchor_diff": 8.852083333333333,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 25875,
+      "right_rep_frame": 27570,
+      "anchor_frame": 25875,
+      "gap_start_frame": 25935,
+      "gap_end_frame": 26130,
+      "representative_diff": 9.134601449275362,
+      "anchor_diff": 9.134601449275362,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 27570,
+      "right_rep_frame": 30570,
+      "anchor_frame": 27570,
+      "gap_start_frame": 29010,
+      "gap_end_frame": 29760,
+      "representative_diff": 11.36413043478261,
+      "anchor_diff": 11.36413043478261,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 30570,
+      "right_rep_frame": 32085,
+      "anchor_frame": 30570,
+      "gap_start_frame": 31395,
+      "gap_end_frame": 31935,
+      "representative_diff": 10.146467391304348,
+      "anchor_diff": 10.146467391304348,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 32085,
+      "right_rep_frame": 33975,
+      "anchor_frame": 32085,
+      "gap_start_frame": 32235,
+      "gap_end_frame": 33795,
+      "representative_diff": 1.8414855072463767,
+      "anchor_diff": 1.8414855072463767,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 33975,
+      "right_rep_frame": 34995,
+      "anchor_frame": 33975,
+      "gap_start_frame": 34170,
+      "gap_end_frame": 34845,
+      "representative_diff": 11.371648550724638,
+      "anchor_diff": 11.371648550724638,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 34995,
+      "right_rep_frame": 35955,
+      "anchor_frame": 34995,
+      "gap_start_frame": 35160,
+      "gap_end_frame": 35235,
+      "representative_diff": 10.704936594202898,
+      "anchor_diff": 10.704936594202898,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 35955,
+      "right_rep_frame": 36930,
+      "anchor_frame": 35955,
+      "gap_start_frame": 36675,
+      "gap_end_frame": 36765,
+      "representative_diff": 11.418161231884058,
+      "anchor_diff": 11.418161231884058,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 36930,
+      "right_rep_frame": 37215,
+      "anchor_frame": 36930,
+      "gap_start_frame": 37095,
+      "gap_end_frame": 37155,
+      "representative_diff": 1.2205615942028984,
+      "anchor_diff": 1.2205615942028984,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 37215,
+      "right_rep_frame": 37470,
+      "anchor_frame": 37215,
+      "gap_start_frame": 37290,
+      "gap_end_frame": 37380,
+      "representative_diff": 6.896603260869565,
+      "anchor_diff": 6.896603260869565,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 37470,
+      "right_rep_frame": 38295,
+      "anchor_frame": 37470,
+      "gap_start_frame": 37560,
+      "gap_end_frame": 38100,
+      "representative_diff": 7.3159873188405795,
+      "anchor_diff": 7.3159873188405795,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 38295,
+      "right_rep_frame": 38850,
+      "anchor_frame": 38295,
+      "gap_start_frame": 38505,
+      "gap_end_frame": 38535,
+      "representative_diff": 14.83233695652174,
+      "anchor_diff": 14.83233695652174,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 38850,
+      "right_rep_frame": 39540,
+      "anchor_frame": 38850,
+      "gap_start_frame": 39180,
+      "gap_end_frame": 39405,
+      "representative_diff": 12.82463768115942,
+      "anchor_diff": 12.82463768115942,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 39540,
+      "right_rep_frame": 39945,
+      "anchor_frame": 39540,
+      "gap_start_frame": 39690,
+      "gap_end_frame": 39735,
+      "representative_diff": 12.314039855072464,
+      "anchor_diff": 12.314039855072464,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 39945,
+      "right_rep_frame": 40695,
+      "anchor_frame": 39945,
+      "gap_start_frame": 40155,
+      "gap_end_frame": 40545,
+      "representative_diff": 6.388677536231884,
+      "anchor_diff": 6.388677536231884,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 40695,
+      "right_rep_frame": 42120,
+      "anchor_frame": 40695,
+      "gap_start_frame": 40845,
+      "gap_end_frame": 41835,
+      "representative_diff": 1.646014492753623,
+      "anchor_diff": 1.646014492753623,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 42120,
+      "right_rep_frame": 43065,
+      "anchor_frame": 42120,
+      "gap_start_frame": 42420,
+      "gap_end_frame": 42990,
+      "representative_diff": 9.253577898550725,
+      "anchor_diff": 9.253577898550725,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 43065,
+      "right_rep_frame": 43950,
+      "anchor_frame": 43065,
+      "gap_start_frame": 43155,
+      "gap_end_frame": 43635,
+      "representative_diff": 8.64429347826087,
+      "anchor_diff": 8.64429347826087,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 43950,
+      "right_rep_frame": 44490,
+      "anchor_frame": 43950,
+      "gap_start_frame": 44265,
+      "gap_end_frame": 44445,
+      "representative_diff": 12.26064311594203,
+      "anchor_diff": 12.26064311594203,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 44490,
+      "right_rep_frame": 45195,
+      "anchor_frame": 44490,
+      "gap_start_frame": 44550,
+      "gap_end_frame": 45105,
+      "representative_diff": 1.920108695652174,
+      "anchor_diff": 1.920108695652174,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 45195,
+      "right_rep_frame": 46275,
+      "anchor_frame": 45195,
+      "gap_start_frame": 45285,
+      "gap_end_frame": 45825,
+      "representative_diff": 10.563360507246378,
+      "anchor_diff": 10.563360507246378,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 46275,
+      "right_rep_frame": 47340,
+      "anchor_frame": 46275,
+      "gap_start_frame": 46740,
+      "gap_end_frame": 47025,
+      "representative_diff": 4.59927536231884,
+      "anchor_diff": 4.59927536231884,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 47340,
+      "right_rep_frame": 48105,
+      "anchor_frame": 47340,
+      "gap_start_frame": 47655,
+      "gap_end_frame": 47955,
+      "representative_diff": 4.262047101449276,
+      "anchor_diff": 4.262047101449276,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 48105,
+      "right_rep_frame": 50190,
+      "anchor_frame": 48105,
+      "gap_start_frame": 48270,
+      "gap_end_frame": 49980,
+      "representative_diff": 3.939673913043478,
+      "anchor_diff": 3.939673913043478,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 50190,
+      "right_rep_frame": 52035,
+      "anchor_frame": 50190,
+      "gap_start_frame": 50400,
+      "gap_end_frame": 51570,
+      "representative_diff": 1.435733695652174,
+      "anchor_diff": 1.435733695652174,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 52035,
+      "right_rep_frame": 52740,
+      "anchor_frame": 52035,
+      "gap_start_frame": 52515,
+      "gap_end_frame": 52575,
+      "representative_diff": 10.606838768115942,
+      "anchor_diff": 10.606838768115942,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 52740,
+      "right_rep_frame": 53265,
+      "anchor_frame": 52740,
+      "gap_start_frame": 52905,
+      "gap_end_frame": 53190,
+      "representative_diff": 1.8477807971014493,
+      "anchor_diff": 1.8477807971014493,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 53265,
+      "right_rep_frame": 53520,
+      "anchor_frame": 53265,
+      "gap_start_frame": 53340,
+      "gap_end_frame": 53460,
+      "representative_diff": 1.7980072463768115,
+      "anchor_diff": 1.7980072463768115,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 53520,
+      "right_rep_frame": 53700,
+      "anchor_frame": 53520,
+      "gap_start_frame": 53580,
+      "gap_end_frame": 53625,
+      "representative_diff": 9.222644927536232,
+      "anchor_diff": 9.222644927536232,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 53700,
+      "right_rep_frame": 54525,
+      "anchor_frame": 53700,
+      "gap_start_frame": 53790,
+      "gap_end_frame": 53835,
+      "representative_diff": 12.920199275362318,
+      "anchor_diff": 12.920199275362318,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 54525,
+      "right_rep_frame": 55935,
+      "anchor_frame": 54525,
+      "gap_start_frame": 55215,
+      "gap_end_frame": 55680,
+      "representative_diff": 8.392436594202898,
+      "anchor_diff": 8.392436594202898,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 55935,
+      "right_rep_frame": 57045,
+      "anchor_frame": 55935,
+      "gap_start_frame": 56205,
+      "gap_end_frame": 56910,
+      "representative_diff": 6.637545289855073,
+      "anchor_diff": 6.637545289855073,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 57045,
+      "right_rep_frame": 57405,
+      "anchor_frame": 57045,
+      "gap_start_frame": 57180,
+      "gap_end_frame": 57225,
+      "representative_diff": 11.60883152173913,
+      "anchor_diff": 11.60883152173913,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 57405,
+      "right_rep_frame": 57930,
+      "anchor_frame": 57405,
+      "gap_start_frame": 57600,
+      "gap_end_frame": 57870,
+      "representative_diff": 10.765036231884057,
+      "anchor_diff": 10.765036231884057,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 57930,
+      "right_rep_frame": 58320,
+      "anchor_frame": 57930,
+      "gap_start_frame": 58005,
+      "gap_end_frame": 58035,
+      "representative_diff": 4.996648550724638,
+      "anchor_diff": 4.996648550724638,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 58320,
+      "right_rep_frame": 60075,
+      "anchor_frame": 58320,
+      "gap_start_frame": 58605,
+      "gap_end_frame": 59595,
+      "representative_diff": 11.522735507246377,
+      "anchor_diff": 11.522735507246377,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 60075,
+      "right_rep_frame": 60720,
+      "anchor_frame": 60075,
+      "gap_start_frame": 60570,
+      "gap_end_frame": 60645,
+      "representative_diff": 10.439402173913043,
+      "anchor_diff": 10.439402173913043,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 60720,
+      "right_rep_frame": 61125,
+      "anchor_frame": 60720,
+      "gap_start_frame": 60810,
+      "gap_end_frame": 61080,
+      "representative_diff": 1.4333786231884058,
+      "anchor_diff": 1.4333786231884058,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 61125,
+      "right_rep_frame": 61275,
+      "anchor_frame": 61125,
+      "gap_start_frame": 61170,
+      "gap_end_frame": 61200,
+      "representative_diff": 1.10606884057971,
+      "anchor_diff": 1.10606884057971,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 61275,
+      "right_rep_frame": 62805,
+      "anchor_frame": 61275,
+      "gap_start_frame": 61365,
+      "gap_end_frame": 61500,
+      "representative_diff": 10.342028985507246,
+      "anchor_diff": 10.342028985507246,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 62805,
+      "right_rep_frame": 64665,
+      "anchor_frame": 62805,
+      "gap_start_frame": 64125,
+      "gap_end_frame": 64530,
+      "representative_diff": 12.74008152173913,
+      "anchor_diff": 12.74008152173913,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 64665,
+      "right_rep_frame": 65010,
+      "anchor_frame": 64665,
+      "gap_start_frame": 64815,
+      "gap_end_frame": 64860,
+      "representative_diff": 11.690353260869566,
+      "anchor_diff": 11.690353260869566,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 65010,
+      "right_rep_frame": 65745,
+      "anchor_frame": 65010,
+      "gap_start_frame": 65175,
+      "gap_end_frame": 65625,
+      "representative_diff": 11.908922101449276,
+      "anchor_diff": 11.908922101449276,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 65745,
+      "right_rep_frame": 66705,
+      "anchor_frame": 65745,
+      "gap_start_frame": 65880,
+      "gap_end_frame": 66120,
+      "representative_diff": 12.062228260869565,
+      "anchor_diff": 12.062228260869565,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 66705,
+      "right_rep_frame": 67470,
+      "anchor_frame": 66705,
+      "gap_start_frame": 67305,
+      "gap_end_frame": 67365,
+      "representative_diff": 10.851630434782608,
+      "anchor_diff": 10.851630434782608,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 67470,
+      "right_rep_frame": 67935,
+      "anchor_frame": 67470,
+      "gap_start_frame": 67590,
+      "gap_end_frame": 67665,
+      "representative_diff": 1.0553894927536231,
+      "anchor_diff": 1.0553894927536231,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 67935,
+      "right_rep_frame": 68940,
+      "anchor_frame": 67935,
+      "gap_start_frame": 68220,
+      "gap_end_frame": 68265,
+      "representative_diff": 10.139356884057971,
+      "anchor_diff": 10.139356884057971,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 68940,
+      "right_rep_frame": 70620,
+      "anchor_frame": 68940,
+      "gap_start_frame": 69630,
+      "gap_end_frame": 70200,
+      "representative_diff": 7.614221014492753,
+      "anchor_diff": 7.614221014492753,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 70620,
+      "right_rep_frame": 71760,
+      "anchor_frame": 70620,
+      "gap_start_frame": 71055,
+      "gap_end_frame": 71100,
+      "representative_diff": 6.978034420289855,
+      "anchor_diff": 6.978034420289855,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 71760,
+      "right_rep_frame": 74025,
+      "anchor_frame": 71760,
+      "gap_start_frame": 72435,
+      "gap_end_frame": 73980,
+      "representative_diff": 13.859420289855073,
+      "anchor_diff": 13.859420289855073,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 74025,
+      "right_rep_frame": 75555,
+      "anchor_frame": 74025,
+      "gap_start_frame": 74070,
+      "gap_end_frame": 74685,
+      "representative_diff": 13.610507246376812,
+      "anchor_diff": 13.610507246376812,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 75555,
+      "right_rep_frame": 78180,
+      "anchor_frame": 75555,
+      "gap_start_frame": 76425,
+      "gap_end_frame": 77490,
+      "representative_diff": 10.44189311594203,
+      "anchor_diff": 10.44189311594203,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 78180,
+      "right_rep_frame": 79200,
+      "anchor_frame": 78180,
+      "gap_start_frame": 78870,
+      "gap_end_frame": 78915,
+      "representative_diff": 12.50955615942029,
+      "anchor_diff": 12.50955615942029,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 79200,
+      "right_rep_frame": 80385,
+      "anchor_frame": 79200,
+      "gap_start_frame": 79485,
+      "gap_end_frame": 79515,
+      "representative_diff": 7.4340126811594205,
+      "anchor_diff": 7.4340126811594205,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 80385,
+      "right_rep_frame": 81495,
+      "anchor_frame": 80385,
+      "gap_start_frame": 81270,
+      "gap_end_frame": 81375,
+      "representative_diff": 10.865217391304348,
+      "anchor_diff": 10.865217391304348,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 81495,
+      "right_rep_frame": 82095,
+      "anchor_frame": 81495,
+      "gap_start_frame": 81615,
+      "gap_end_frame": 81795,
+      "representative_diff": 1.1371376811594203,
+      "anchor_diff": 1.1371376811594203,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 82095,
+      "right_rep_frame": 82620,
+      "anchor_frame": 82095,
+      "gap_start_frame": 82395,
+      "gap_end_frame": 82425,
+      "representative_diff": 3.0731884057971013,
+      "anchor_diff": 3.0731884057971013,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 82620,
+      "right_rep_frame": 83460,
+      "anchor_frame": 82620,
+      "gap_start_frame": 82830,
+      "gap_end_frame": 82905,
+      "representative_diff": 9.482653985507246,
+      "anchor_diff": 9.482653985507246,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 83460,
+      "right_rep_frame": 84930,
+      "anchor_frame": 83460,
+      "gap_start_frame": 84015,
+      "gap_end_frame": 84540,
+      "representative_diff": 4.931159420289855,
+      "anchor_diff": 4.931159420289855,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 84930,
+      "right_rep_frame": 86475,
+      "anchor_frame": 84930,
+      "gap_start_frame": 85320,
+      "gap_end_frame": 86400,
+      "representative_diff": 13.566485507246377,
+      "anchor_diff": 13.566485507246377,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 86475,
+      "right_rep_frame": 86625,
+      "anchor_frame": 86475,
+      "gap_start_frame": 86550,
+      "gap_end_frame": 86565,
+      "representative_diff": 3.910099637681159,
+      "anchor_diff": 3.910099637681159,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 86625,
+      "right_rep_frame": 86850,
+      "anchor_frame": 86625,
+      "gap_start_frame": 86685,
+      "gap_end_frame": 86700,
+      "representative_diff": 2.0410778985507245,
+      "anchor_diff": 2.0410778985507245,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 86850,
+      "right_rep_frame": 87645,
+      "anchor_frame": 86850,
+      "gap_start_frame": 87015,
+      "gap_end_frame": 87510,
+      "representative_diff": 8.472463768115942,
+      "anchor_diff": 8.472463768115942,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 87645,
+      "right_rep_frame": 88335,
+      "anchor_frame": 87645,
+      "gap_start_frame": 87795,
+      "gap_end_frame": 88140,
+      "representative_diff": 9.350271739130434,
+      "anchor_diff": 9.350271739130434,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 88335,
+      "right_rep_frame": 88890,
+      "anchor_frame": 88335,
+      "gap_start_frame": 88545,
+      "gap_end_frame": 88755,
+      "representative_diff": 13.092481884057971,
+      "anchor_diff": 13.092481884057971,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 88890,
+      "right_rep_frame": 89325,
+      "anchor_frame": 88890,
+      "gap_start_frame": 89025,
+      "gap_end_frame": 89040,
+      "representative_diff": 5.298913043478261,
+      "anchor_diff": 5.298913043478261,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 89325,
+      "right_rep_frame": 89895,
+      "anchor_frame": 89325,
+      "gap_start_frame": 89625,
+      "gap_end_frame": 89655,
+      "representative_diff": 7.347871376811594,
+      "anchor_diff": 7.347871376811594,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 89895,
+      "right_rep_frame": 90615,
+      "anchor_frame": 89895,
+      "gap_start_frame": 90150,
+      "gap_end_frame": 90420,
+      "representative_diff": 8.6143115942029,
+      "anchor_diff": 8.6143115942029,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 90615,
+      "right_rep_frame": 90945,
+      "anchor_frame": 90615,
+      "gap_start_frame": 90810,
+      "gap_end_frame": 90840,
+      "representative_diff": 5.910597826086956,
+      "anchor_diff": 5.910597826086956,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 90945,
+      "right_rep_frame": 91755,
+      "anchor_frame": 90945,
+      "gap_start_frame": 91050,
+      "gap_end_frame": 91545,
+      "representative_diff": 10.059646739130434,
+      "anchor_diff": 10.059646739130434,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 91755,
+      "right_rep_frame": 92655,
+      "anchor_frame": 91755,
+      "gap_start_frame": 91965,
+      "gap_end_frame": 92610,
+      "representative_diff": 8.293432971014493,
+      "anchor_diff": 8.293432971014493,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 92655,
+      "right_rep_frame": 92805,
+      "anchor_frame": 92655,
+      "gap_start_frame": 92700,
+      "gap_end_frame": 92745,
+      "representative_diff": 6.21875,
+      "anchor_diff": 6.21875,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 92805,
+      "right_rep_frame": 94425,
+      "anchor_frame": 92805,
+      "gap_start_frame": 92880,
+      "gap_end_frame": 93465,
+      "representative_diff": 10.624909420289855,
+      "anchor_diff": 10.624909420289855,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 94425,
+      "right_rep_frame": 96210,
+      "anchor_frame": 94425,
+      "gap_start_frame": 95400,
+      "gap_end_frame": 95940,
+      "representative_diff": 10.546467391304347,
+      "anchor_diff": 10.546467391304347,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 96210,
+      "right_rep_frame": 97680,
+      "anchor_frame": 96210,
+      "gap_start_frame": 96480,
+      "gap_end_frame": 97305,
+      "representative_diff": 10.199230072463768,
+      "anchor_diff": 10.199230072463768,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 97680,
+      "right_rep_frame": 98640,
+      "anchor_frame": 97680,
+      "gap_start_frame": 98070,
+      "gap_end_frame": 98280,
+      "representative_diff": 7.899184782608696,
+      "anchor_diff": 7.899184782608696,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 98640,
+      "right_rep_frame": 99585,
+      "anchor_frame": 98640,
+      "gap_start_frame": 99000,
+      "gap_end_frame": 99030,
+      "representative_diff": 7.261775362318841,
+      "anchor_diff": 7.261775362318841,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 99585,
+      "right_rep_frame": 100260,
+      "anchor_frame": 99585,
+      "gap_start_frame": 100140,
+      "gap_end_frame": 100200,
+      "representative_diff": 10.984420289855073,
+      "anchor_diff": 10.984420289855073,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 100260,
+      "right_rep_frame": 100785,
+      "anchor_frame": 100260,
+      "gap_start_frame": 100335,
+      "gap_end_frame": 100575,
+      "representative_diff": 5.04116847826087,
+      "anchor_diff": 5.04116847826087,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 100785,
+      "right_rep_frame": 101370,
+      "anchor_frame": 100785,
+      "gap_start_frame": 101010,
+      "gap_end_frame": 101085,
+      "representative_diff": 1.0979619565217391,
+      "anchor_diff": 1.0979619565217391,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 101370,
+      "right_rep_frame": 102225,
+      "anchor_frame": 101370,
+      "gap_start_frame": 101670,
+      "gap_end_frame": 101730,
+      "representative_diff": 10.303079710144928,
+      "anchor_diff": 10.303079710144928,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 102225,
+      "right_rep_frame": 103035,
+      "anchor_frame": 102225,
+      "gap_start_frame": 102720,
+      "gap_end_frame": 102990,
+      "representative_diff": 12.712409420289855,
+      "anchor_diff": 12.712409420289855,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 103035,
+      "right_rep_frame": 103680,
+      "anchor_frame": 103035,
+      "gap_start_frame": 103095,
+      "gap_end_frame": 103200,
+      "representative_diff": 4.805344202898551,
+      "anchor_diff": 4.805344202898551,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 103680,
+      "right_rep_frame": 104640,
+      "anchor_frame": 103680,
+      "gap_start_frame": 104160,
+      "gap_end_frame": 104190,
+      "representative_diff": 7.689764492753623,
+      "anchor_diff": 7.689764492753623,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 104640,
+      "right_rep_frame": 105630,
+      "anchor_frame": 104640,
+      "gap_start_frame": 105105,
+      "gap_end_frame": 105585,
+      "representative_diff": 11.203215579710145,
+      "anchor_diff": 11.203215579710145,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 105630,
+      "right_rep_frame": 106095,
+      "anchor_frame": 105630,
+      "gap_start_frame": 105675,
+      "gap_end_frame": 105705,
+      "representative_diff": 9.694429347826087,
+      "anchor_diff": 9.694429347826087,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 106095,
+      "right_rep_frame": 106665,
+      "anchor_frame": 106095,
+      "gap_start_frame": 106500,
+      "gap_end_frame": 106530,
+      "representative_diff": 4.581295289855072,
+      "anchor_diff": 4.581295289855072,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 106665,
+      "right_rep_frame": 107700,
+      "anchor_frame": 106665,
+      "gap_start_frame": 106815,
+      "gap_end_frame": 107445,
+      "representative_diff": 5.138994565217391,
+      "anchor_diff": 5.138994565217391,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 107700,
+      "right_rep_frame": 109230,
+      "anchor_frame": 107700,
+      "gap_start_frame": 107955,
+      "gap_end_frame": 108525,
+      "representative_diff": 4.605434782608696,
+      "anchor_diff": 4.605434782608696,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 109230,
+      "right_rep_frame": 110610,
+      "anchor_frame": 109230,
+      "gap_start_frame": 109935,
+      "gap_end_frame": 110115,
+      "representative_diff": 7.879393115942029,
+      "anchor_diff": 7.879393115942029,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 110610,
+      "right_rep_frame": 112290,
+      "anchor_frame": 110610,
+      "gap_start_frame": 111105,
+      "gap_end_frame": 111810,
+      "representative_diff": 7.546286231884058,
+      "anchor_diff": 7.546286231884058,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 112290,
+      "right_rep_frame": 113355,
+      "anchor_frame": 112290,
+      "gap_start_frame": 112770,
+      "gap_end_frame": 113175,
+      "representative_diff": 8.078079710144927,
+      "anchor_diff": 8.078079710144927,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 113355,
+      "right_rep_frame": 114060,
+      "anchor_frame": 113355,
+      "gap_start_frame": 113535,
+      "gap_end_frame": 113985,
+      "representative_diff": 9.92703804347826,
+      "anchor_diff": 9.92703804347826,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 114060,
+      "right_rep_frame": 115215,
+      "anchor_frame": 114060,
+      "gap_start_frame": 114135,
+      "gap_end_frame": 114645,
+      "representative_diff": 9.169882246376812,
+      "anchor_diff": 9.169882246376812,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 115215,
+      "right_rep_frame": 116730,
+      "anchor_frame": 115215,
+      "gap_start_frame": 115785,
+      "gap_end_frame": 116190,
+      "representative_diff": 8.677717391304348,
+      "anchor_diff": 8.677717391304348,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 116730,
+      "right_rep_frame": 117735,
+      "anchor_frame": 116730,
+      "gap_start_frame": 117270,
+      "gap_end_frame": 117315,
+      "representative_diff": 7.793659420289855,
+      "anchor_diff": 7.793659420289855,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 117735,
+      "right_rep_frame": 118425,
+      "anchor_frame": 117735,
+      "gap_start_frame": 118170,
+      "gap_end_frame": 118275,
+      "representative_diff": 12.994791666666666,
+      "anchor_diff": 12.994791666666666,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 118425,
+      "right_rep_frame": 119100,
+      "anchor_frame": 118425,
+      "gap_start_frame": 118590,
+      "gap_end_frame": 118620,
+      "representative_diff": 10.739402173913044,
+      "anchor_diff": 10.739402173913044,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 119100,
+      "right_rep_frame": 119970,
+      "anchor_frame": 119100,
+      "gap_start_frame": 119595,
+      "gap_end_frame": 119625,
+      "representative_diff": 4.786413043478261,
+      "anchor_diff": 4.786413043478261,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 119970,
+      "right_rep_frame": 120780,
+      "anchor_frame": 119970,
+      "gap_start_frame": 120315,
+      "gap_end_frame": 120720,
+      "representative_diff": 11.943251811594203,
+      "anchor_diff": 11.943251811594203,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 120780,
+      "right_rep_frame": 121890,
+      "anchor_frame": 120780,
+      "gap_start_frame": 120840,
+      "gap_end_frame": 121650,
+      "representative_diff": 1.3409873188405796,
+      "anchor_diff": 1.3409873188405796,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 121890,
+      "right_rep_frame": 122715,
+      "anchor_frame": 121890,
+      "gap_start_frame": 122130,
+      "gap_end_frame": 122175,
+      "representative_diff": 11.942391304347826,
+      "anchor_diff": 11.942391304347826,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 122715,
+      "right_rep_frame": 123840,
+      "anchor_frame": 122715,
+      "gap_start_frame": 123270,
+      "gap_end_frame": 123765,
+      "representative_diff": 10.613677536231885,
+      "anchor_diff": 10.613677536231885,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 123840,
+      "right_rep_frame": 124155,
+      "anchor_frame": 123840,
+      "gap_start_frame": 123930,
+      "gap_end_frame": 124080,
+      "representative_diff": 1.6615036231884057,
+      "anchor_diff": 1.6615036231884057,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 124155,
+      "right_rep_frame": 124650,
+      "anchor_frame": 124155,
+      "gap_start_frame": 124245,
+      "gap_end_frame": 124605,
+      "representative_diff": 4.947101449275363,
+      "anchor_diff": 4.947101449275363,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 124650,
+      "right_rep_frame": 124815,
+      "anchor_frame": 124650,
+      "gap_start_frame": 124710,
+      "gap_end_frame": 124740,
+      "representative_diff": 4.6701539855072465,
+      "anchor_diff": 4.6701539855072465,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 124815,
+      "right_rep_frame": 125040,
+      "anchor_frame": 124815,
+      "gap_start_frame": 124890,
+      "gap_end_frame": 124935,
+      "representative_diff": 5.625226449275362,
+      "anchor_diff": 5.625226449275362,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 125040,
+      "right_rep_frame": 125550,
+      "anchor_frame": 125040,
+      "gap_start_frame": 125145,
+      "gap_end_frame": 125505,
+      "representative_diff": 5.313360507246377,
+      "anchor_diff": 5.313360507246377,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 125550,
+      "right_rep_frame": 126555,
+      "anchor_frame": 125550,
+      "gap_start_frame": 125595,
+      "gap_end_frame": 125715,
+      "representative_diff": 10.205797101449276,
+      "anchor_diff": 10.205797101449276,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 126555,
+      "right_rep_frame": 130155,
+      "anchor_frame": 126555,
+      "gap_start_frame": 127395,
+      "gap_end_frame": 130080,
+      "representative_diff": 11.821195652173913,
+      "anchor_diff": 11.821195652173913,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 130155,
+      "right_rep_frame": 130635,
+      "anchor_frame": 130155,
+      "gap_start_frame": 130245,
+      "gap_end_frame": 130380,
+      "representative_diff": 9.980842391304348,
+      "anchor_diff": 9.980842391304348,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 130635,
+      "right_rep_frame": 131385,
+      "anchor_frame": 130635,
+      "gap_start_frame": 130905,
+      "gap_end_frame": 131340,
+      "representative_diff": 8.375452898550725,
+      "anchor_diff": 8.375452898550725,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 131385,
+      "right_rep_frame": 132435,
+      "anchor_frame": 131385,
+      "gap_start_frame": 131430,
+      "gap_end_frame": 131640,
+      "representative_diff": 10.06286231884058,
+      "anchor_diff": 10.06286231884058,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 132435,
+      "right_rep_frame": 133680,
+      "anchor_frame": 132435,
+      "gap_start_frame": 133230,
+      "gap_end_frame": 133605,
+      "representative_diff": 7.2876811594202895,
+      "anchor_diff": 7.2876811594202895,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 133680,
+      "right_rep_frame": 133905,
+      "anchor_frame": 133680,
+      "gap_start_frame": 133755,
+      "gap_end_frame": 133785,
+      "representative_diff": 6.823188405797102,
+      "anchor_diff": 6.823188405797102,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 133905,
+      "right_rep_frame": 134865,
+      "anchor_frame": 133905,
+      "gap_start_frame": 134025,
+      "gap_end_frame": 134790,
+      "representative_diff": 9.533559782608696,
+      "anchor_diff": 9.533559782608696,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 134865,
+      "right_rep_frame": 136260,
+      "anchor_frame": 134865,
+      "gap_start_frame": 134940,
+      "gap_end_frame": 135375,
+      "representative_diff": 9.912092391304348,
+      "anchor_diff": 9.912092391304348,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 136260,
+      "right_rep_frame": 137910,
+      "anchor_frame": 136260,
+      "gap_start_frame": 137160,
+      "gap_end_frame": 137430,
+      "representative_diff": 7.766983695652174,
+      "anchor_diff": 7.766983695652174,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 137910,
+      "right_rep_frame": 138825,
+      "anchor_frame": 137910,
+      "gap_start_frame": 138405,
+      "gap_end_frame": 138420,
+      "representative_diff": 3.8776268115942027,
+      "anchor_diff": 3.8776268115942027,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 138825,
+      "right_rep_frame": 140565,
+      "anchor_frame": 138825,
+      "gap_start_frame": 139230,
+      "gap_end_frame": 139275,
+      "representative_diff": 6.286684782608695,
+      "anchor_diff": 6.286684782608695,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 140565,
+      "right_rep_frame": 142035,
+      "anchor_frame": 140565,
+      "gap_start_frame": 141870,
+      "gap_end_frame": 141945,
+      "representative_diff": 12.675271739130435,
+      "anchor_diff": 12.675271739130435,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 142035,
+      "right_rep_frame": 142695,
+      "anchor_frame": 142035,
+      "gap_start_frame": 142140,
+      "gap_end_frame": 142440,
+      "representative_diff": 11.920335144927536,
+      "anchor_diff": 11.920335144927536,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 142695,
+      "right_rep_frame": 143415,
+      "anchor_frame": 142695,
+      "gap_start_frame": 142950,
+      "gap_end_frame": 142980,
+      "representative_diff": 0.8736865942028985,
+      "anchor_diff": 0.8736865942028985,
+      "merged": true
+    },
+    {
+      "left_rep_frame": 143145,
+      "right_rep_frame": 144090,
+      "anchor_frame": 142695,
+      "gap_start_frame": 143850,
+      "gap_end_frame": 143880,
+      "representative_diff": 6.432336956521739,
+      "anchor_diff": 6.394882246376811,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 144090,
+      "right_rep_frame": 144660,
+      "anchor_frame": 144090,
+      "gap_start_frame": 144300,
+      "gap_end_frame": 144615,
+      "representative_diff": 7.115987318840579,
+      "anchor_diff": 7.115987318840579,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 144660,
+      "right_rep_frame": 145065,
+      "anchor_frame": 144660,
+      "gap_start_frame": 144705,
+      "gap_end_frame": 144915,
+      "representative_diff": 3.3560688405797103,
+      "anchor_diff": 3.3560688405797103,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 145065,
+      "right_rep_frame": 145815,
+      "anchor_frame": 145065,
+      "gap_start_frame": 145215,
+      "gap_end_frame": 145245,
+      "representative_diff": 9.033333333333333,
+      "anchor_diff": 9.033333333333333,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 145815,
+      "right_rep_frame": 147570,
+      "anchor_frame": 145815,
+      "gap_start_frame": 146385,
+      "gap_end_frame": 146985,
+      "representative_diff": 9.986865942028986,
+      "anchor_diff": 9.986865942028986,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 147570,
+      "right_rep_frame": 148635,
+      "anchor_frame": 147570,
+      "gap_start_frame": 148155,
+      "gap_end_frame": 148200,
+      "representative_diff": 9.312590579710145,
+      "anchor_diff": 9.312590579710145,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 148635,
+      "right_rep_frame": 151920,
+      "anchor_frame": 148635,
+      "gap_start_frame": 149070,
+      "gap_end_frame": 151425,
+      "representative_diff": 3.4115489130434784,
+      "anchor_diff": 3.4115489130434784,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 151920,
+      "right_rep_frame": 152535,
+      "anchor_frame": 151920,
+      "gap_start_frame": 152415,
+      "gap_end_frame": 152490,
+      "representative_diff": 9.717934782608696,
+      "anchor_diff": 9.717934782608696,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 152535,
+      "right_rep_frame": 152640,
+      "anchor_frame": 152535,
+      "gap_start_frame": 152580,
+      "gap_end_frame": 152595,
+      "representative_diff": 1.757608695652174,
+      "anchor_diff": 1.757608695652174,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 152640,
+      "right_rep_frame": 152925,
+      "anchor_frame": 152640,
+      "gap_start_frame": 152685,
+      "gap_end_frame": 152820,
+      "representative_diff": 7.907110507246377,
+      "anchor_diff": 7.907110507246377,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 152925,
+      "right_rep_frame": 153600,
+      "anchor_frame": 152925,
+      "gap_start_frame": 153030,
+      "gap_end_frame": 153555,
+      "representative_diff": 7.973233695652174,
+      "anchor_diff": 7.973233695652174,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 153600,
+      "right_rep_frame": 153735,
+      "anchor_frame": 153600,
+      "gap_start_frame": 153660,
+      "gap_end_frame": 153690,
+      "representative_diff": 1.6804347826086956,
+      "anchor_diff": 1.6804347826086956,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 153735,
+      "right_rep_frame": 154425,
+      "anchor_frame": 153735,
+      "gap_start_frame": 153780,
+      "gap_end_frame": 153930,
+      "representative_diff": 9.703985507246378,
+      "anchor_diff": 9.703985507246378,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 154425,
+      "right_rep_frame": 155565,
+      "anchor_frame": 154425,
+      "gap_start_frame": 154920,
+      "gap_end_frame": 155235,
+      "representative_diff": 7.820153985507246,
+      "anchor_diff": 7.820153985507246,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 155565,
+      "right_rep_frame": 156630,
+      "anchor_frame": 155565,
+      "gap_start_frame": 155910,
+      "gap_end_frame": 156225,
+      "representative_diff": 5.749773550724638,
+      "anchor_diff": 5.749773550724638,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 156630,
+      "right_rep_frame": 157350,
+      "anchor_frame": 156630,
+      "gap_start_frame": 157035,
+      "gap_end_frame": 157305,
+      "representative_diff": 9.95828804347826,
+      "anchor_diff": 9.95828804347826,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 157350,
+      "right_rep_frame": 158430,
+      "anchor_frame": 157350,
+      "gap_start_frame": 157395,
+      "gap_end_frame": 157590,
+      "representative_diff": 13.76471920289855,
+      "anchor_diff": 13.76471920289855,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 158430,
+      "right_rep_frame": 160050,
+      "anchor_frame": 158430,
+      "gap_start_frame": 159285,
+      "gap_end_frame": 159750,
+      "representative_diff": 9.183016304347825,
+      "anchor_diff": 9.183016304347825,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 160050,
+      "right_rep_frame": 161505,
+      "anchor_frame": 160050,
+      "gap_start_frame": 160350,
+      "gap_end_frame": 161145,
+      "representative_diff": 8.552717391304348,
+      "anchor_diff": 8.552717391304348,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 161505,
+      "right_rep_frame": 162525,
+      "anchor_frame": 161505,
+      "gap_start_frame": 161880,
+      "gap_end_frame": 162210,
+      "representative_diff": 10.168432971014493,
+      "anchor_diff": 10.168432971014493,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 162525,
+      "right_rep_frame": 163605,
+      "anchor_frame": 162525,
+      "gap_start_frame": 162855,
+      "gap_end_frame": 163275,
+      "representative_diff": 7.84080615942029,
+      "anchor_diff": 7.84080615942029,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 163605,
+      "right_rep_frame": 164760,
+      "anchor_frame": 163605,
+      "gap_start_frame": 163950,
+      "gap_end_frame": 164400,
+      "representative_diff": 8.695516304347827,
+      "anchor_diff": 8.695516304347827,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 164760,
+      "right_rep_frame": 165675,
+      "anchor_frame": 164760,
+      "gap_start_frame": 165135,
+      "gap_end_frame": 165165,
+      "representative_diff": 8.014175724637681,
+      "anchor_diff": 8.014175724637681,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 165675,
+      "right_rep_frame": 167445,
+      "anchor_frame": 165675,
+      "gap_start_frame": 166200,
+      "gap_end_frame": 167385,
+      "representative_diff": 10.893161231884058,
+      "anchor_diff": 10.893161231884058,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 167445,
+      "right_rep_frame": 168075,
+      "anchor_frame": 167445,
+      "gap_start_frame": 167520,
+      "gap_end_frame": 167715,
+      "representative_diff": 10.198505434782609,
+      "anchor_diff": 10.198505434782609,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 168075,
+      "right_rep_frame": 168855,
+      "anchor_frame": 168075,
+      "gap_start_frame": 168435,
+      "gap_end_frame": 168795,
+      "representative_diff": 10.412047101449275,
+      "anchor_diff": 10.412047101449275,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 168855,
+      "right_rep_frame": 169305,
+      "anchor_frame": 168855,
+      "gap_start_frame": 168915,
+      "gap_end_frame": 169095,
+      "representative_diff": 2.9472373188405796,
+      "anchor_diff": 2.9472373188405796,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 169305,
+      "right_rep_frame": 170775,
+      "anchor_frame": 169305,
+      "gap_start_frame": 169530,
+      "gap_end_frame": 170535,
+      "representative_diff": 7.786141304347826,
+      "anchor_diff": 7.786141304347826,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 170775,
+      "right_rep_frame": 172005,
+      "anchor_frame": 170775,
+      "gap_start_frame": 171030,
+      "gap_end_frame": 171495,
+      "representative_diff": 1.2273097826086956,
+      "anchor_diff": 1.2273097826086956,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 172005,
+      "right_rep_frame": 173265,
+      "anchor_frame": 172005,
+      "gap_start_frame": 172530,
+      "gap_end_frame": 172950,
+      "representative_diff": 11.765896739130435,
+      "anchor_diff": 11.765896739130435,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 173265,
+      "right_rep_frame": 173730,
+      "anchor_frame": 173265,
+      "gap_start_frame": 173580,
+      "gap_end_frame": 173595,
+      "representative_diff": 2.79981884057971,
+      "anchor_diff": 2.79981884057971,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 173730,
+      "right_rep_frame": 174135,
+      "anchor_frame": 173730,
+      "gap_start_frame": 173880,
+      "gap_end_frame": 174030,
+      "representative_diff": 1.4435235507246378,
+      "anchor_diff": 1.4435235507246378,
+      "merged": false
+    },
+    {
+      "left_rep_frame": 174135,
+      "right_rep_frame": 174975,
+      "anchor_frame": 174135,
+      "gap_start_frame": 174255,
+      "gap_end_frame": 174360,
+      "representative_diff": 9.95643115942029,
+      "anchor_diff": 9.95643115942029,
+      "merged": false
+    }
+  ],
+  "crops": [
+    {
+      "file": "crops/segment_0001.jpg",
+      "bytes": 49909,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0002.jpg",
+      "bytes": 50064,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0003.png",
+      "bytes": 99950,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0004.jpg",
+      "bytes": 49228,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0005.jpg",
+      "bytes": 52849,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0006.jpg",
+      "bytes": 52652,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0007.jpg",
+      "bytes": 49837,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0008.jpg",
+      "bytes": 55443,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0009.jpg",
+      "bytes": 49882,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0010.jpg",
+      "bytes": 45211,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0011.jpg",
+      "bytes": 49380,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0012.jpg",
+      "bytes": 48748,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0013.png",
+      "bytes": 96630,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0014.png",
+      "bytes": 97371,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0015.jpg",
+      "bytes": 49275,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0016.jpg",
+      "bytes": 52739,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0017.jpg",
+      "bytes": 49479,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0018.png",
+      "bytes": 92828,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0019.jpg",
+      "bytes": 48794,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0020.jpg",
+      "bytes": 45293,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0021.jpg",
+      "bytes": 48765,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0022.jpg",
+      "bytes": 49369,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0023.jpg",
+      "bytes": 53638,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0024.jpg",
+      "bytes": 49391,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0025.jpg",
+      "bytes": 50925,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0026.jpg",
+      "bytes": 54021,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0027.jpg",
+      "bytes": 49392,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0028.jpg",
+      "bytes": 52591,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0029.jpg",
+      "bytes": 49573,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0030.jpg",
+      "bytes": 48472,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0031.png",
+      "bytes": 98663,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0032.jpg",
+      "bytes": 49243,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0033.png",
+      "bytes": 87445,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0034.png",
+      "bytes": 92792,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0035.jpg",
+      "bytes": 53279,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0036.png",
+      "bytes": 99308,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0037.jpg",
+      "bytes": 48390,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0038.png",
+      "bytes": 92688,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0039.jpg",
+      "bytes": 50671,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0040.jpg",
+      "bytes": 49145,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0041.jpg",
+      "bytes": 47000,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0042.jpg",
+      "bytes": 44318,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0043.jpg",
+      "bytes": 47704,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0044.png",
+      "bytes": 99079,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0045.jpg",
+      "bytes": 43585,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0046.jpg",
+      "bytes": 48413,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0047.jpg",
+      "bytes": 47338,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0048.jpg",
+      "bytes": 48129,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0049.jpg",
+      "bytes": 49095,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0050.jpg",
+      "bytes": 48719,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0051.jpg",
+      "bytes": 44075,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0052.jpg",
+      "bytes": 46739,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0053.jpg",
+      "bytes": 45072,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0054.jpg",
+      "bytes": 48267,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0055.jpg",
+      "bytes": 49452,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0056.jpg",
+      "bytes": 52725,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0057.png",
+      "bytes": 98868,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0058.jpg",
+      "bytes": 49229,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0059.png",
+      "bytes": 92223,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0060.jpg",
+      "bytes": 52114,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0061.jpg",
+      "bytes": 49983,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0062.jpg",
+      "bytes": 44790,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0063.png",
+      "bytes": 98786,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0064.png",
+      "bytes": 95396,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0065.jpg",
+      "bytes": 49314,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0066.jpg",
+      "bytes": 42655,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0067.jpg",
+      "bytes": 59269,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0068.png",
+      "bytes": 82802,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0069.jpg",
+      "bytes": 48724,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0070.jpg",
+      "bytes": 44406,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0071.png",
+      "bytes": 96212,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0072.jpg",
+      "bytes": 49477,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0073.jpg",
+      "bytes": 47726,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0074.jpg",
+      "bytes": 49760,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0075.jpg",
+      "bytes": 52766,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0076.jpg",
+      "bytes": 49969,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0077.jpg",
+      "bytes": 54621,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0078.jpg",
+      "bytes": 50376,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0079.jpg",
+      "bytes": 50100,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0080.jpg",
+      "bytes": 44747,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0081.png",
+      "bytes": 98801,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0082.jpg",
+      "bytes": 47259,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0083.jpg",
+      "bytes": 50042,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0084.jpg",
+      "bytes": 49186,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0085.jpg",
+      "bytes": 50151,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0086.jpg",
+      "bytes": 50691,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0087.jpg",
+      "bytes": 50434,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0088.jpg",
+      "bytes": 45907,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0089.jpg",
+      "bytes": 50163,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0090.png",
+      "bytes": 86651,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0091.jpg",
+      "bytes": 47860,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0092.jpg",
+      "bytes": 49749,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0093.jpg",
+      "bytes": 52209,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0094.png",
+      "bytes": 99819,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0095.jpg",
+      "bytes": 50290,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0096.jpg",
+      "bytes": 54151,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0097.jpg",
+      "bytes": 44194,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0098.jpg",
+      "bytes": 49626,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0099.jpg",
+      "bytes": 53873,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0100.jpg",
+      "bytes": 49709,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0101.jpg",
+      "bytes": 48439,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0102.jpg",
+      "bytes": 50381,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0103.png",
+      "bytes": 95955,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0104.jpg",
+      "bytes": 44281,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0105.png",
+      "bytes": 98123,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0106.jpg",
+      "bytes": 50285,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0107.jpg",
+      "bytes": 43592,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0108.jpg",
+      "bytes": 49284,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0109.jpg",
+      "bytes": 49419,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0110.png",
+      "bytes": 91410,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0111.jpg",
+      "bytes": 50219,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0112.jpg",
+      "bytes": 49752,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0113.jpg",
+      "bytes": 49682,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0114.jpg",
+      "bytes": 49472,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0115.jpg",
+      "bytes": 53833,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0116.jpg",
+      "bytes": 49341,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0117.jpg",
+      "bytes": 53536,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0118.png",
+      "bytes": 97712,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0119.jpg",
+      "bytes": 50163,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0120.jpg",
+      "bytes": 49227,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0121.jpg",
+      "bytes": 49415,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0122.png",
+      "bytes": 99037,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0123.jpg",
+      "bytes": 48050,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0124.jpg",
+      "bytes": 48685,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0125.jpg",
+      "bytes": 44339,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0126.png",
+      "bytes": 86795,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0127.jpg",
+      "bytes": 49455,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0128.jpg",
+      "bytes": 45548,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0129.jpg",
+      "bytes": 43942,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0130.jpg",
+      "bytes": 49469,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0131.jpg",
+      "bytes": 48136,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0132.jpg",
+      "bytes": 48498,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0133.jpg",
+      "bytes": 51101,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0134.jpg",
+      "bytes": 50099,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0135.jpg",
+      "bytes": 45195,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0136.jpg",
+      "bytes": 50216,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0137.jpg",
+      "bytes": 46516,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0138.jpg",
+      "bytes": 50150,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0139.jpg",
+      "bytes": 55463,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0140.jpg",
+      "bytes": 52696,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0141.jpg",
+      "bytes": 45895,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0142.jpg",
+      "bytes": 50310,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0143.jpg",
+      "bytes": 52732,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0144.jpg",
+      "bytes": 50696,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0145.jpg",
+      "bytes": 49792,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0146.png",
+      "bytes": 96180,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0147.jpg",
+      "bytes": 51986,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0148.jpg",
+      "bytes": 54489,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0149.jpg",
+      "bytes": 47698,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0150.jpg",
+      "bytes": 45092,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0151.jpg",
+      "bytes": 49365,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0152.jpg",
+      "bytes": 53485,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0153.jpg",
+      "bytes": 48729,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0154.jpg",
+      "bytes": 48250,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0155.jpg",
+      "bytes": 45528,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0156.jpg",
+      "bytes": 44187,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0157.jpg",
+      "bytes": 53569,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0158.png",
+      "bytes": 95191,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0159.png",
+      "bytes": 97047,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0160.jpg",
+      "bytes": 49036,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0161.jpg",
+      "bytes": 47653,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0162.jpg",
+      "bytes": 49174,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0163.jpg",
+      "bytes": 48828,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0164.jpg",
+      "bytes": 48692,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0165.jpg",
+      "bytes": 57041,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0166.jpg",
+      "bytes": 49246,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0167.jpg",
+      "bytes": 50054,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0168.jpg",
+      "bytes": 49397,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0169.jpg",
+      "bytes": 48254,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0170.jpg",
+      "bytes": 49639,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0171.jpg",
+      "bytes": 44363,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0172.jpg",
+      "bytes": 49178,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0173.png",
+      "bytes": 94501,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0174.jpg",
+      "bytes": 48554,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0175.jpg",
+      "bytes": 49011,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0176.jpg",
+      "bytes": 49605,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0177.jpg",
+      "bytes": 48594,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0178.png",
+      "bytes": 97323,
+      "width": 1172,
+      "height": 252,
+      "encoding": "PNG compression=9, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0179.jpg",
+      "bytes": 46153,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    },
+    {
+      "file": "crops/segment_0180.jpg",
+      "bytes": 50332,
+      "width": 1172,
+      "height": 252,
+      "encoding": "JPEG quality=90, subsampling=2, optimize=True",
+      "over_100kb_target": false
+    }
+  ],
+  "review_sheets": [
+    {
+      "file": "review_sheets/sheet_01.jpg",
+      "bytes": 481755,
+      "width": 1077,
+      "height": 4709,
+      "jpeg_quality": 40,
+      "scale": 0.9,
+      "segment_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "file": "review_sheets/sheet_02.jpg",
+      "bytes": 499491,
+      "width": 1077,
+      "height": 4709,
+      "jpeg_quality": 45,
+      "scale": 0.9,
+      "segment_ids": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "file": "review_sheets/sheet_03.jpg",
+      "bytes": 499707,
+      "width": 1077,
+      "height": 4709,
+      "jpeg_quality": 45,
+      "scale": 0.9,
+      "segment_ids": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "file": "review_sheets/sheet_04.jpg",
+      "bytes": 481471,
+      "width": 1077,
+      "height": 4709,
+      "jpeg_quality": 40,
+      "scale": 0.9,
+      "segment_ids": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "file": "review_sheets/sheet_05.jpg",
+      "bytes": 478934,
+      "width": 1077,
+      "height": 4709,
+      "jpeg_quality": 40,
+      "scale": 0.9,
+      "segment_ids": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ]
+    },
+    {
+      "file": "review_sheets/sheet_06.jpg",
+      "bytes": 478431,
+      "width": 1077,
+      "height": 4709,
+      "jpeg_quality": 40,
+      "scale": 0.9,
+      "segment_ids": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144
+      ]
+    },
+    {
+      "file": "review_sheets/sheet_07.jpg",
+      "bytes": 480754,
+      "width": 1077,
+      "height": 4709,
+      "jpeg_quality": 40,
+      "scale": 0.9,
+      "segment_ids": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "file": "review_sheets/sheet_08.jpg",
+      "bytes": 492015,
+      "width": 1197,
+      "height": 2616,
+      "jpeg_quality": 85,
+      "scale": 1.0,
+      "segment_ids": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ]
+    }
+  ],
+  "crop_target_bytes_approximate": 100000,
+  "sheet_limit_bytes_exclusive": 500000,
+  "temporary_gray_cache_bytes_removed": 258512640,
+  "pass_2_seconds": 237.52042610000353,
+  "processing_seconds": 547.9896139000193,
+  "warnings": [
+    "Some sheets required strong compression; read original crops for ambiguous digits."
+  ],
+  "interpretation": "Display candidates only. Segment count is not point count; human video review is required."
+}
