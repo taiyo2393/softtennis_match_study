@@ -1,0 +1,8 @@
+# Regenerable cache and generated files larger than 256 KiB
+logmel_cache.npy
+fit_log.json
+label_matches.csv
+logmel_examples.png
+predictions.csv
+split_audit.json
+threshold_curves.csv

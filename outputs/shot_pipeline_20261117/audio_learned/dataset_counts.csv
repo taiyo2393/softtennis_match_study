@@ -1,0 +1,6 @@
+point,n_candidates,positive_f10,negative_f10,positive_f6,negative_f6,n_clear,n_labels
+7,63,32,31,27,36,21,30
+8,51,31,20,20,31,19,29
+9,26,14,12,11,15,5,11
+10,20,8,12,5,15,4,7
+11,30,19,11,11,19,9,14

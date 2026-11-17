@@ -1,0 +1,29 @@
+{
+  "input_sha256": {
+    "audio\\candidates.csv": "b6783e36eff4ce895f97b07009b7bd8deb7b40235de33b24c2632fb66ff3c510",
+    "audio\\intervals.csv": "bedf14a0014c25c92421d96651f77fb715935b95d0593968331b814c809f8752"
+  },
+  "video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "bytes": 1439072083,
+  "mtime": 1794310950796319400,
+  "sr": 48000,
+  "n_fft": 1024,
+  "hop_samples": 96,
+  "mel_bands": 64,
+  "hz": [
+    100,
+    16000
+  ],
+  "window_ms": [
+    -50,
+    150
+  ],
+  "shifts_ms": [
+    0,
+    -5,
+    -2,
+    2,
+    5
+  ],
+  "version": 1
+}

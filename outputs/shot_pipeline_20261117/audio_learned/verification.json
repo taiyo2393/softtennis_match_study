@@ -1,0 +1,8 @@
+{
+  "saved_prediction_groups_recomputed": 48,
+  "earlier_evaluator_agreement": true,
+  "split_nonoverlap_and_purge_passed": true,
+  "n_split_checks": 580,
+  "previous_evaluator_sha256": "affb0e63df6591d8001d98125651e91cf3fb3b1fdad940f180daf5720103dc2e",
+  "n_wav_files": 0
+}
