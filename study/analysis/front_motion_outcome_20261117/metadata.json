@@ -1,0 +1,119 @@
+{
+  "created_at_utc": "2026-11-17T12:01:15.643292+00:00",
+  "script": "study\\scripts\\102_link_front_motion_to_point_outcome.py",
+  "script_sha256": "fcb249201e9bc9fe502b9b7f296bc58da2a3d6a14164e5c6f412aae78cc2bc0d",
+  "inputs": {
+    "main80": {
+      "path": "study\\analysis\\rear_hitter_main80\\main80_event_timepoints.csv",
+      "sha256": "5055b7aff3edc0f331947117bf401f4943acdb898e68d7f8dc24264b5ea1ea72"
+    },
+    "points": {
+      "path": "outputs\\match1_point_inventory_20261117\\point_inventory.csv",
+      "sha256": "ca435d605f710cfae329d102964952f7298b1b7568c78e81a75878be6174ca28"
+    },
+    "identity": {
+      "path": "study\\annotations\\match1_hitter_identity_review.csv",
+      "sha256": "3e698ebb475835b8fe792dc8d77e4d2ae510766962969b6348c56d814868efd1"
+    },
+    "previous_direction_auc": {
+      "path": "study\\analysis\\reanalysis_20261117\\threshold_free.csv",
+      "sha256": "3af51848d3fe57dc364766fa531e854c79055c6d14ed4854c2cac5f498759ea5"
+    },
+    "reference_script": {
+      "path": "study\\scripts\\101_reanalyze_direction_agreement.py",
+      "sha256": "77a2938f78e30802713a4580ff5ff94a71f7fe4ba08a562744a705a98de8ee27"
+    }
+  },
+  "seed": 20261117,
+  "bootstrap_reps": 10000,
+  "timepoints_sec": [
+    -0.5,
+    -0.3,
+    -0.2,
+    -0.1
+  ],
+  "threshold_court_width": 0.015,
+  "alpha": 0.05,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1"
+  },
+  "python_executable": "C:\\Users\\ta239\\Research\\softtennis_match_study\\study\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "pair_mapping": {
+    "front": {
+      "P1": "H",
+      "P2": "K"
+    },
+    "hitter": {
+      "H1": "H",
+      "H2": "K"
+    },
+    "hitter_names": {
+      "H1": "橋場",
+      "H2": "上岡"
+    },
+    "H": "橋場・菊山",
+    "K": "上岡・丸山",
+    "evidence": "study\\annotations\\match1_hitter_identity_review.csv"
+  },
+  "definitions": {
+    "point_assignment": "display_from_frame <= impact_source_frame < next_display_from_frame; last interval has no upper bound",
+    "point_interval_gaps": "Allowed, but every one of the 80 events must match exactly one interval; overlapping intervals forbidden",
+    "front_pair_won_point": "front_pair == point_winner; nullable boolean; unknown remains blank, excluded from A/B/D only",
+    "order_and_last": "Chronological impact order among the 80 labeled events in each point; last is not necessarily the actual final stroke",
+    "d": "signed_displacement_toward_actual_court_width; positive toward actual ball direction; unit=court width",
+    "movement": "toward: d >= 0.015; away: d <= -0.015; stay: abs(d) < 0.015",
+    "baseline": "All outcome-known events pooled, event-weighted; not a point-weighted win rate",
+    "binomial_ci": "Two-sided Clopper-Pearson 95%; assumes independent events (not cluster-adjusted)",
+    "fisher": "Two-sided, rows=toward/away, columns=front win/loss; undefined if any margin is zero; repeated within each timepoint's category rows",
+    "holm": "Four-timepoint families separately for A and D, including undefined tests in family size; no additional B/C adjustment",
+    "mannwhitney": "Two-sided asymptotic, tie-corrected, continuity correction; event-level reference p, not cluster-adjusted; same as 101",
+    "outcome_auc": "P(d_won > d_lost) + 0.5*P(equal), pooled across eligible events including within-point event pairs",
+    "v": "d if actual_direction_target_front_view == front_right else -d; checked against lateral displacement and near/far orientation",
+    "direction_auc": "P(v_actual_right > v_actual_left) + 0.5*P(equal), same estimator and all 80 events as 101",
+    "bootstrap": "G actual represented eligible points drawn G times uniformly with replacement; keep all events and duplicated draws; pooled event-weighted AUC; percentile CI with numpy linear quantile; omit and count one-class replicates",
+    "bootstrap_rng": "numpy.default_rng(20261117), PCG64; B times [-0.5,-0.3,-0.2,-0.1] then C same order, one sequential stream",
+    "previous_direction_ci": "Read main80 rows from 101 threshold_free.csv, estimated gap600 clusters; not recomputed or overwritten",
+    "partition_comparison": "Reconstruct 101's frame-gap clusters on the same 80 events; compare point-to-estimated and estimated-to-point memberships, not just counts"
+  },
+  "validation": {
+    "all_events_assigned_once": true,
+    "front_pair_differs_from_hitter_pair_all_events": true,
+    "identity_review_matches_all_events": true,
+    "v_orientation_matches_lateral": true,
+    "direction_auc_matches_101": true,
+    "auc_matches_mannwhitney_U": true,
+    "bootstrap_first_five_each_call_match_explicit_resampling": true,
+    "input_hashes_unchanged": true
+  },
+  "counts": {
+    "matches": 1,
+    "events": 80,
+    "input_points": 63,
+    "represented_points": 34,
+    "unknown_outcome_events": 0,
+    "front_won_events": 35,
+    "front_lost_events": 45,
+    "last_labeled_events": 34,
+    "previous_estimated_partition_matches_actual_points": true
+  },
+  "csv_encoding": "utf-8-sig",
+  "missing_csv_values": "empty field",
+  "output_rows": {
+    "event_point_outcome.csv": 80,
+    "point_event_counts.csv": 63,
+    "movement_by_outcome.csv": 16,
+    "displacement_by_outcome.csv": 4,
+    "direction_auc_point_clusters.csv": 4,
+    "last_impact_sensitivity.csv": 16
+  },
+  "limitations": [
+    "One match, selected events",
+    "Events within a point are not independent",
+    "Point winner may be determined by many later strokes; no causal inference",
+    "Adding outcome does not identify feints or return-to-origin motions; d is retrospective"
+  ]
+}
