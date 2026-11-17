@@ -969,3 +969,7 @@ node_modules/
 /outputs/shot_pipeline_20261117/tracking/*/ultralytics_config/
 # Parameter grids for hit-sound detection (>256KB, regenerable with detect_hit_sounds*.py)
 /outputs/shot_pipeline_20261117/audio/param_search*.csv
+# Audio-video time series and wide candidate tables (>256KB, regenerable with combine_audio_video.py)
+/outputs/shot_pipeline_20261117/audiovisual/audio_plot_timeseries.csv
+/outputs/shot_pipeline_20261117/audiovisual/motion_timeseries.csv
+/outputs/shot_pipeline_20261117/audiovisual/selected_candidates.csv

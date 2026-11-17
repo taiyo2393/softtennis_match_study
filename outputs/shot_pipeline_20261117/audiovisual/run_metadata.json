@@ -1,0 +1,41 @@
+{
+  "input_sha256": {
+    "audio\\candidate_features_v2.csv": "88a02074a28f0eb79ed48deef2efae3cbb78a56d17ae13914e24f902f75186ed",
+    "audio\\candidates.csv": "b6783e36eff4ce895f97b07009b7bd8deb7b40235de33b24c2632fb66ff3c510",
+    "audio\\candidates_v2.csv": "b515f57ffd4a6af8c74a1c8396568d624fe0fc2a7dc14b113326e61ba05fa86a",
+    "audio\\intervals.csv": "bedf14a0014c25c92421d96651f77fb715935b95d0593968331b814c809f8752",
+    "labels\\point_07.csv": "40d4b1f398d34c176a493c537c57a1b2687486c852c68ec8bf60e5312d6ac2af",
+    "labels\\point_08.csv": "322ed9304ff2da63cd5f45588249f8c1fd03a0c2a5b19b075d47f50578e7b428",
+    "labels\\point_09.csv": "3b30d42456ccce2765b1b771aee57bb675abeab3a58e5f68fe01a9003e0f9027",
+    "labels\\point_10.csv": "8a21345afcf3b0cc32425d8d017367865d67a9d327c38cadc9ef67d924713f33",
+    "labels\\point_11.csv": "a433ac9c401db1813ffcc9b3a39e8c134c07c6197fff20a7f7600914f0aa4248",
+    "tracking\\point_07\\protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+    "tracking\\point_07\\player_court_proxies.csv": "2160ccb6f5ac660f0f0106d875d459c7a114a421ee124e42f11520685c3e6a3d",
+    "tracking\\point_08\\protocol.json": "6804e61428202e591b682a21e3562e915fb0bc4878a3c0a3431b3abbf0dede70",
+    "tracking\\point_08\\player_court_proxies.csv": "73fac804d7ccb502968d89007d176e4277a6d9f734cf9bdcc419bdc69df0f000",
+    "tracking\\point_09\\protocol.json": "5b8aae748be1ffaf42632561602b3234c496a73422c4aef43e1e2a7ce89bdbb5",
+    "tracking\\point_09\\player_court_proxies.csv": "a16f6adb3c44c45ceb88ee07c87b9b80a06283e8869f2c17d81ec0dcf6a82845",
+    "tracking\\point_10\\protocol.json": "77504c9e33132b93c8e0c365047070804683d0e5c9b465d6b836dca08a78113b",
+    "tracking\\point_10\\player_court_proxies.csv": "b9e88d7846404f8b8448b3a8a67dc1e7fbf7ce2011c86856b79ccedd7ecffd58",
+    "tracking\\point_11\\protocol.json": "b5bd48d8f04ee6f3ad552c69113dd0b26ae6b3add0eaa09ddd85f7dc8a4d31e8",
+    "tracking\\point_11\\player_court_proxies.csv": "3c38b9ba3be7b5ab4d45ceb12aab3b38e074b6e138e5d25b805bb97be9cdbc7b"
+  },
+  "inputs_unchanged": true,
+  "script_sha256": "affb0e63df6591d8001d98125651e91cf3fb3b1fdad940f180daf5720103dc2e",
+  "selected_config_sha256_before_test": "374fdaf371c0551c9cc65dde52b111a72cc5e86a9754a25d42d0322b8e1e7167",
+  "selected_config_sha256_after_test": "374fdaf371c0551c9cc65dde52b111a72cc5e86a9754a25d42d0322b8e1e7167",
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "video_bytes": 1439072083,
+  "source_fps": 59.94005994005994,
+  "phase": "evaluate",
+  "train_motion_from_cache": null,
+  "all_motion_from_cache": true,
+  "elapsed_sec": 6.044934800011106,
+  "test_result_used_for_tuning": false,
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.1.1",
+    "opencv": "5.0.0",
+    "matplotlib": "3.11.1"
+  }
+}

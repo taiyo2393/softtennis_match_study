@@ -1,0 +1,97 @@
+{
+  "verified_utc": "2026-11-17T16:04:00.975434+00:00",
+  "auditor": "independent child agent evaluation_audit",
+  "all_checks_passed": true,
+  "checks": {
+    "independent_metric_recalculation": {
+      "rows": 48,
+      "numeric_values": 1296,
+      "label_tolerance_records": 3544,
+      "passed": true
+    },
+    "audio_baseline_compatibility": {
+      "methods": 2,
+      "scopes_per_method": 7,
+      "shared_numeric_values": 168,
+      "passed": true
+    },
+    "selection_and_dp_final_data": {
+      "A_threshold_membership_exact": true,
+      "B_intervals_independent_skip_take_optimum": 6,
+      "B_alternation_and_min_gap_passed": true,
+      "passed": true
+    },
+    "train_scales_input_hashes_frozen_config": {
+      "passed": true,
+      "test_result_used_for_tuning": false
+    },
+    "earlier_synthetic_validation": {
+      "dp_random_seed": 63091,
+      "dp_random_cases": 160,
+      "nodes_per_case": 7,
+      "exhaustive_subsets_and_unknown_side_assignments": true,
+      "negative_scores_included": true,
+      "metric_edge_sum_ratio": 0.41,
+      "metric_edge_union_ratio": 0.36,
+      "metric_edge_side_correct": 1,
+      "metric_edge_side_known": 1,
+      "metric_edge_side_unknown": 1,
+      "passed": true
+    }
+  },
+  "test_metrics": [
+    {
+      "method": "audio_v1",
+      "n_candidates": 76,
+      "n_matched_clear_f10": 18,
+      "n_labels_clear": 18,
+      "recall_clear_f10": 1.0,
+      "review_window_sum_ratio": 1.343806104129264,
+      "candidates_per_sec": 4.0892680030920605,
+      "n_side_correct": 17,
+      "n_side_known": 32,
+      "side_accuracy_f10": 0.53125
+    },
+    {
+      "method": "audio_v2",
+      "n_candidates": 58,
+      "n_matched_clear_f10": 17,
+      "n_labels_clear": 18,
+      "recall_clear_f10": 0.9444444444444444,
+      "review_window_sum_ratio": 1.0251346499102334,
+      "candidates_per_sec": 3.120757160254467,
+      "n_side_correct": 15,
+      "n_side_known": 28,
+      "side_accuracy_f10": 0.5357142857142857
+    },
+    {
+      "method": "audio_v1_A",
+      "n_candidates": 63,
+      "n_matched_clear_f10": 18,
+      "n_labels_clear": 18,
+      "recall_clear_f10": 1.0,
+      "review_window_sum_ratio": 1.1202872531418313,
+      "candidates_per_sec": 3.389787949931576,
+      "n_side_correct": 17,
+      "n_side_known": 32,
+      "side_accuracy_f10": 0.53125
+    },
+    {
+      "method": "audio_v1_A_B",
+      "n_candidates": 15,
+      "n_matched_clear_f10": 6,
+      "n_labels_clear": 18,
+      "recall_clear_f10": 0.3333333333333333,
+      "review_window_sum_ratio": 0.26929982046678635,
+      "candidates_per_sec": 0.8070923690313276,
+      "n_side_correct": 4,
+      "n_side_known": 11,
+      "side_accuracy_f10": 0.36363636363636365
+    }
+  ],
+  "scope_7A_sensitivity": {
+    "train_with_7A_duration_sec": 27.660966666666667,
+    "train_without_7A_duration_sec": 23.390033333333335,
+    "all_methods_independently_recomputed": true
+  }
+}

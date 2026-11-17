@@ -1,0 +1,100 @@
+{
+  "feature_definition": {
+    "width_multiplier": 1.6,
+    "upward_fraction": 0.3,
+    "peak_radius_frames": 8,
+    "baseline_radius_frames": 30,
+    "min_gap_frames": 12,
+    "missing_motion_score": 0.0,
+    "unknown_side": "both DP states; excluded from visual-side accuracy"
+  },
+  "train_points": [
+    7,
+    8
+  ],
+  "test_points": [
+    9,
+    10,
+    11
+  ],
+  "train_includes_point7_A": true,
+  "scales": {
+    "audio": 1.4990259925847482,
+    "motion": 0.560378591366027
+  },
+  "grid": {
+    "audio_weight": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "shape_weight": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "threshold": [
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0
+    ]
+  },
+  "recall_floor_fraction_of_v1": 0.9,
+  "recall_floors": {
+    "n_matched_clear_f10": 35,
+    "n_matched_all_f10": 46
+  },
+  "selection_order": [
+    "min normalized recall-floor deficit (zero required if feasible)",
+    "min summed review-window ratio",
+    "max clear +/-6F matches",
+    "max all +/-10F matches",
+    "config ID"
+  ],
+  "selected": {
+    "audio_v1_A": {
+      "config_id": 85,
+      "audio_weight": 0.5,
+      "shape_weight": 1.0,
+      "threshold": 1.5,
+      "feasible": true,
+      "recall_floor_deficit": 0.0
+    },
+    "audio_v1_A_B": {
+      "config_id": 20,
+      "audio_weight": 0.25,
+      "shape_weight": 0.5,
+      "threshold": 1.25,
+      "feasible": false,
+      "recall_floor_deficit": 1.2304347826086957
+    }
+  },
+  "test_result_used_for_tuning": false,
+  "test_labels_loaded_before_freeze": false,
+  "training_provenance": {
+    "input_sha256": {
+      "labels\\point_07.csv": "40d4b1f398d34c176a493c537c57a1b2687486c852c68ec8bf60e5312d6ac2af",
+      "labels\\point_08.csv": "322ed9304ff2da63cd5f45588249f8c1fd03a0c2a5b19b075d47f50578e7b428",
+      "tracking\\point_07\\protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+      "tracking\\point_07\\player_court_proxies.csv": "2160ccb6f5ac660f0f0106d875d459c7a114a421ee124e42f11520685c3e6a3d",
+      "tracking\\point_08\\protocol.json": "6804e61428202e591b682a21e3562e915fb0bc4878a3c0a3431b3abbf0dede70",
+      "tracking\\point_08\\player_court_proxies.csv": "73fac804d7ccb502968d89007d176e4277a6d9f734cf9bdcc419bdc69df0f000"
+    },
+    "video_bytes": 1439072083,
+    "video_mtime_ns": 1794310950796319400
+  },
+  "frozen_utc": "2026-11-17T16:00:52.785258+00:00"
+}
