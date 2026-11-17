@@ -1,0 +1,12 @@
+point,rally,shot_index,contact_frame,hitter_side,hitter_slot,is_serve,shot_outcome,confidence,tracking_issue,note
+9,B,1,27980,F,F1,True,continue,clear,,サーブ（F27906-27978はトス。F27582-27722はF2が球をつく準備の動きで打球ではない）
+9,B,2,28004,N,,False,continue,inferred,,手前のレシーブ（画面右外のピンク）。前後の打球から推定
+9,B,3,28020,F,F2,False,continue,clear,,球がF2の近くに見える
+9,B,4,28046,N,,False,continue,inferred,,前後の打球から推定
+9,B,5,28066,F,F2,False,continue,inferred,,F2の振り
+9,B,6,28074,N,,False,continue,inferred,,F28074に手前右端のピンクが見える
+9,B,7,28086,F,F2,False,continue,clear,,球がF2の近くに見える
+9,B,8,28100,N,,False,continue,inferred,,前後の打球から推定
+9,B,9,28116,F,F1,False,continue,clear,,左へ踏み込んでバック側
+9,B,10,28138,N,,False,continue,inferred,,前後の打球から推定
+9,B,11,28162,F,F1,False,unknown,clear,,高い打点で打つ（スマッシュ）。F28206以降は打球なし。得点は奥（内本・内田）。決め球かどうかは読めない

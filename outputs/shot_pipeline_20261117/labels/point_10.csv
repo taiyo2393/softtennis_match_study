@@ -1,0 +1,8 @@
+point,rally,shot_index,contact_frame,hitter_side,hitter_slot,is_serve,shot_outcome,confidence,tracking_issue,note
+10,B,1,30487,F,F1,True,continue,clear,,サーブ（F30447-30483はトス）。通常シートでは手前の赤がN1、ピンクがN2で、線審には印なし
+10,B,2,30549,N,N1,False,continue,clear,,赤（手前左）のレシーブ
+10,B,3,30577,F,F1,False,continue,clear,,右へ踏み込んでボレー
+10,B,4,30597,N,,False,continue,inferred,,前後の打球から推定
+10,B,5,30605,F,F1,False,continue,inferred,,ネット前で踏み込む
+10,B,6,30617,N,N1,False,continue,clear,,赤の低い打球
+10,B,7,30625,F,F1,False,unknown,inferred,,F1のボレーで終わったと推定。このあと手前の2人は上を見上げ、F30687以降に奥の2人が喜ぶ。得点は奥（内本・内田）。決め球かミスかは読めない

@@ -1,0 +1,15 @@
+point,rally,shot_index,contact_frame,hitter_side,hitter_slot,is_serve,shot_outcome,confidence,tracking_issue,note
+11,B,1,32808,F,F1,True,continue,clear,,サーブ（ピンク）。F32742-32802はトスの準備。この点からエンドが入れ替わり、手前が内本・内田
+11,B,2,32852,N,N1,False,continue,clear,,レシーブ（手前右の白）
+11,B,3,32870,F,F2,False,continue,clear,,ボレー（赤）
+11,B,4,32884,N,N1,False,continue,clear,,
+11,B,5,32910,F,F1,False,continue,clear,,ピンクが左へ踏み込んで打つ
+11,B,6,32926,N,,False,continue,inferred,,前後の打球から推定
+11,B,7,32944,F,F2,False,continue,clear,swapped,ピンクのフォア。F32930以降、F1とF2の印が入れ替わる（F1=赤、F2=ピンク）
+11,B,8,32964,N,N2,False,continue,inferred,swapped,前後の打球から推定
+11,B,9,32984,F,F1,False,continue,clear,swapped,赤のスマッシュ
+11,B,10,33000,N,N2,False,continue,inferred,swapped,前後の打球から推定
+11,B,11,33016,F,F1,False,continue,clear,swapped,赤のボレー
+11,B,12,33034,N,,False,continue,clear,swapped,手前の白がネット前で打つ
+11,B,13,33046,F,F2,False,continue,inferred,swapped,ピンクのボレーと推定
+11,B,14,33062,N,,False,winner,inferred,swapped,手前の白の決め球と推定。直後に手前の選手が両手を広げる。得点は手前（内本・内田）

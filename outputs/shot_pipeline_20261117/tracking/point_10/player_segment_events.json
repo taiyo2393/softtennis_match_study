@@ -1,0 +1,40 @@
+[
+  {
+    "point": 10,
+    "segment": 1,
+    "start": 30399,
+    "events": [
+      {
+        "event": "initialized",
+        "frame": 30406,
+        "window_start": 30399,
+        "seed_ids": {
+          "near_front": 2672,
+          "near_rear": 2681,
+          "far_rear": 2701,
+          "far_front": 2673
+        },
+        "identity_status": "candidate_not_ground_truth"
+      }
+    ]
+  },
+  {
+    "point": 10,
+    "segment": 2,
+    "start": 32520,
+    "events": [
+      {
+        "event": "initialized",
+        "frame": 32528,
+        "window_start": 32521,
+        "seed_ids": {
+          "near_front": 7473,
+          "near_rear": 8158,
+          "far_rear": 8526,
+          "far_front": 8525
+        },
+        "identity_status": "candidate_not_ground_truth"
+      }
+    ]
+  }
+]

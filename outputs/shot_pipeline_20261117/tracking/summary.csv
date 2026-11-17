@@ -1,0 +1,6 @@
+﻿point,first_frame,last_frame,interval_frames,camera_line_supported_frames,four_player_frames,four_player_ratio,three_or_fewer_player_frames
+7,21600,25139,3540,1306,1006,0.770291,300
+8,25140,26684,1545,826,717,0.868039,109
+9,26685,29009,2325,1408,1272,0.903409,136
+10,29010,32549,3540,415,381,0.918072,34
+11,32550,33584,1035,565,535,0.946903,30

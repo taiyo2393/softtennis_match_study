@@ -961,3 +961,7 @@ node_modules/
 /outputs/match2_point_inventory_20261117/samples.csv
 /outputs/match1_point_inventory_20261117/samples.csv
 /.claude/settings.local.json
+
+# Per-frame player tracking for match2 points 7-11 (>256KB, regenerable with track_points.py)
+/outputs/shot_pipeline_20261117/tracking/*/player_court_proxies.csv
+/outputs/shot_pipeline_20261117/tracking/*/ultralytics_config/
