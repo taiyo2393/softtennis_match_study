@@ -1,0 +1,46 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_video_bytes": 1439072083,
+  "source_video_mtime_ns": 1794310950796319400,
+  "input_sha256": {
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_07\\protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_07.csv": "40d4b1f398d34c176a493c537c57a1b2687486c852c68ec8bf60e5312d6ac2af",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_08.csv": "322ed9304ff2da63cd5f45588249f8c1fd03a0c2a5b19b075d47f50578e7b428",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_09.csv": "3b30d42456ccce2765b1b771aee57bb675abeab3a58e5f68fe01a9003e0f9027",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_10.csv": "8a21345afcf3b0cc32425d8d017367865d67a9d327c38cadc9ef67d924713f33",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_11.csv": "a433ac9c401db1813ffcc9b3a39e8c134c07c6197fff20a7f7600914f0aa4248"
+  },
+  "script_sha256": "e5d1dacbe20f5d694bb0bbd2bc7b67f382ea90347a5ef7a619aa288cedb9df90",
+  "baseline_script_sha256": "cc5304658b45c382ab5490c1def32e0f000177ff615f38c231a68ca942ff24e5",
+  "frozen_config_sha256_before_evaluation": "a2be498f9c9dc99972289653968715d4af20968d550b491258c30bf04b81ea6b",
+  "frozen_config_sha256_after_evaluation": "a2be498f9c9dc99972289653968715d4af20968d550b491258c30bf04b81ea6b",
+  "baseline_artifact_sha256": {
+    "candidates.csv": "b6783e36eff4ce895f97b07009b7bd8deb7b40235de33b24c2632fb66ff3c510",
+    "evaluation.csv": "a4f190fdc619a74d99a3f6bb5b3f4d7044249646dce6b834cf82db06671944fd",
+    "intervals.csv": "bedf14a0014c25c92421d96651f77fb715935b95d0593968331b814c809f8752",
+    "label_matches.csv": "c002de9237297e9864b3e0d6c2b9c2d3c9d0d37d7f17028a64d3c04ed10cd375",
+    "param_search.csv": "c743008f084a476e39f971a3c57b1da9ae176caf97141f68c6fc350528810b22",
+    "selected_config.json": "73567ef348777763221fedbf44a4f682503265ab7b15b5d477d79a79bdea4a4d",
+    "run_metadata.json": "a0623415af555aa131e17aaa4a44dfe6bab92373df2249797642732b347820da",
+    "spectrogram_point_07.png": "71e59ac71a2c2303551beefa52be1d5e4150b21e56e0e84731c157130b27719d",
+    "spectrogram_point_08.png": "feee1525675c7709feab8519e3704804b1bc320a3df78bb044800df7e8b32e10",
+    "spectrogram_point_09.png": "5eb7fd78d5bfb9828cae262dfa22aa5b012d2ef943088e19e36ca6731867e40a",
+    "spectrogram_point_10.png": "54b038dd912236fabba20a29b1d4e0b0797011445b83b7da9e818d54d32c1579",
+    "spectrogram_point_11.png": "24e43f225c51028593069ac42a64b732b5ec5478367438f5e820aa82f690b72b"
+  },
+  "baseline_artifacts_unchanged": true,
+  "baseline_candidates_and_metrics_reproduced": true,
+  "held_out_retuning": false,
+  "feature_design_used_point9_observations": true,
+  "scratch_deleted": true,
+  "elapsed_sec": 11.591270399978384,
+  "ffmpeg_version": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "main_review_metric": "sum of separately clipped continuous +/-10F windows / duration; overlaps retained",
+  "matching": "unchanged v1 closest-first greedy 1-to-1 on all labels, separately at +/-6 and +/-10F"
+}

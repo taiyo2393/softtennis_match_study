@@ -1,0 +1,38 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_video_bytes": 1439072083,
+  "source_video_mtime_ns": 1794310950796319400,
+  "input_sha256": {
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_07\\protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_07.csv": "40d4b1f398d34c176a493c537c57a1b2687486c852c68ec8bf60e5312d6ac2af",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_08.csv": "322ed9304ff2da63cd5f45588249f8c1fd03a0c2a5b19b075d47f50578e7b428",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_09.csv": "3b30d42456ccce2765b1b771aee57bb675abeab3a58e5f68fe01a9003e0f9027",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_10.csv": "8a21345afcf3b0cc32425d8d017367865d67a9d327c38cadc9ef67d924713f33",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels\\point_11.csv": "a433ac9c401db1813ffcc9b3a39e8c134c07c6197fff20a7f7600914f0aa4248"
+  },
+  "ffmpeg_version": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "frame_sec": 0.016683333333333335,
+  "sample_rate": 48000,
+  "scratch_deleted": true,
+  "elapsed_sec": 25.191647900035605,
+  "matching": "global closest-first greedy on all labels within point/rally; rounded integer frames",
+  "train_points": [
+    7,
+    8
+  ],
+  "test_points": [
+    9,
+    10,
+    11
+  ],
+  "n_configs": 480,
+  "script_sha256_at_analysis_run": "1f4522d82136ff92a4593fcc9b1a4879a46e83a70383129298e52dbf88ea55f7",
+  "script_sha256": "65f21f70337df910a667188641095473d9c12b447df6410e7932a75485c159c8",
+  "post_run_changes": "README formatting and interpretation only; detection, selection, matching, metrics unchanged"
+}

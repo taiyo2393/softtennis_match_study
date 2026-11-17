@@ -1,0 +1,24 @@
+{
+  "config_id": "cfg_427",
+  "low_hz": 4000,
+  "high_hz": 12000,
+  "median_sec": 0.5,
+  "threshold": 1.0,
+  "min_interval_sec": 0.15,
+  "method": "bandpass_log_energy_minus_local_median",
+  "energy_ms": 2.0,
+  "hop_ms": 1.0,
+  "filter_order": 4,
+  "channel": "mono_ffmpeg_downmix",
+  "time_offset_sec": 0.0,
+  "selected_on": [
+    7,
+    8
+  ],
+  "density_limit": "n_candidates <= 2 * n_labels_all (pooled train)",
+  "order": [
+    "max n_matched_clear_f6",
+    "min n_candidates",
+    "config_id ascending"
+  ]
+}
