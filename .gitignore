@@ -960,3 +960,4 @@ node_modules/
 /study/data/balltrack/racketvision/match1/match1_motion_expand_01_004/runs/threshold030_median120/balltrack_predictions.csv
 /outputs/match2_point_inventory_20261117/samples.csv
 /outputs/match1_point_inventory_20261117/samples.csv
+/.claude/settings.local.json
