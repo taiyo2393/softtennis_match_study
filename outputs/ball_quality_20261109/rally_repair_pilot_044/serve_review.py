@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0,'C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103')
+sys.path.insert(0,'C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\ball_quality_20261103')
 """Local prediction-assisted usability review with explicit, bounded timing."""
 import argparse,datetime,json,math,os,re,secrets,tempfile,threading,time
 from pathlib import Path

@@ -1,6 +1,6 @@
 import csv,json,math,cv2,numpy as np
 from pathlib import Path
-p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study');H=np.array(json.loads((root/'config/match1_court_plane_calibration.json').read_text())['image_to_court_homography'],np.float32)
+p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study');H=np.array(json.loads((root/'config/match1_court_plane_calibration.json').read_text())['image_to_court_homography'],np.float32)
 allpos=[];features=[];summ=[]
 specs=[('044',115395,115403,p/'full_rally_044/bytetrack.csv',{1:'near_rear',2:'near_front',20:'far_front',422:'far_rear'}),('056',154111,154116,p/'serve_phase_056_deferred/bytetrack_four_player_reconnection.csv',{1:'near_front',2:'near_rear',4:'far_front',42:'far_rear'})]
 for n,lo,hi,path,slots in specs:

@@ -1,7 +1,7 @@
 from pathlib import Path
 import cv2,numpy as np
 p=Path(__file__).resolve().parent
-cap=cv2.VideoCapture(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw\match1.mp4')
+cap=cv2.VideoCapture(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw\match1.mp4')
 for label,first,last,box in [('044',115365,115373,(1250,750,1750,1250)),('056',154079,154087,(750,700,1550,1750))]:
  cells=[]
  for f in range(first,last+1):

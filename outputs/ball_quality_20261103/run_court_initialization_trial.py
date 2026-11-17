@@ -6,7 +6,7 @@ import cv2,numpy as np
 from confirmed_continuity_guard import confirmed_class,adaptive,old
 from court_initialization_guard import court_initialization_class,PARAMETERS,court_point
 ROOT=Path(__file__).resolve().parent;BASE=ROOT.parent/'ball_quality_20261110';OUT=BASE/'court_initialization_trial'
-SOURCE=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+SOURCE=Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 def load(p):return json.loads(p.read_text(encoding='utf-8'))
 def read(p):
     with p.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))

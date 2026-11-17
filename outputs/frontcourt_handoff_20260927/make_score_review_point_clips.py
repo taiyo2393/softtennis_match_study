@@ -4,7 +4,7 @@ import subprocess
 from pathlib import Path
 
 OUT=Path(__file__).resolve().parent
-SOURCE=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw\match1.mp4')
+SOURCE=Path(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw\match1.mp4')
 FFMPEG=Path(r'C:\ffmpeg\bin\ffmpeg.exe')
 FPS=60000/1001
 with (OUT/'rally_label_review.csv').open(encoding='utf-8-sig',newline='') as file:

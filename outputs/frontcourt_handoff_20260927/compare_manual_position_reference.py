@@ -14,7 +14,7 @@ for r in read('six_service_selected_position_candidates.csv'):
 slots={'near_front':'near_right','near_rear':'near_left','far_front':'far_left','far_rear':'far_right'}
 for r in read('serve_phase_position_snapshot_candidates.csv'):
  if r['candidate_id'].endswith('_056'):auto[('056',slots[r['player_slot']])]=(int(r['sample_source_frame']),float(r['bottom_center_x_px']),float(r['bottom_center_y_px']))
-root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study');H=np.array(json.loads((root/'config/match1_court_plane_calibration.json').read_text(encoding='utf-8'))['image_to_court_homography'],np.float32)
+root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study');H=np.array(json.loads((root/'config/match1_court_plane_calibration.json').read_text(encoding='utf-8'))['image_to_court_homography'],np.float32)
 rows=[]
 for a in annotations:
  n=a['candidate_id'];slot=a['image_slot'];assert(n,a['source_frame']) in expected;frame,x,y=auto[(n,slot)];assert frame==a['source_frame'];r=dict(candidate_id=n,source_frame=frame,image_slot=slot,manual_status=a['status'],auto_x_px=x,auto_y_px=y,manual_x_px='',manual_y_px='',dx_auto_minus_manual_px='',dy_auto_minus_manual_px='',image_distance_px='',court_x_delta_candidate='',court_y_delta_candidate='',scope='manual_image_reference_disagreement_not_physical_ground_truth')

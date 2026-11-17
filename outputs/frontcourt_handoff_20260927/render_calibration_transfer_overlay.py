@@ -5,7 +5,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-ROOT = Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+ROOT = Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 OUT = Path(__file__).resolve().parent
 cal = json.loads((ROOT / 'config/match1_court_plane_calibration.json').read_text(encoding='utf-8'))
 corners = np.rint(np.asarray(cal['image_points_px'][:4], dtype=float) / 2).astype(np.int32)

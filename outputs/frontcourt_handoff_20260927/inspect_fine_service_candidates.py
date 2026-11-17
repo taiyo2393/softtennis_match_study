@@ -1,6 +1,6 @@
 import csv,cv2,numpy as np
 from pathlib import Path
-p=Path(__file__).resolve().parent;rs=list(csv.DictReader((p/'effective_service_search_intervals.csv').open(encoding='utf-8-sig')));cap=cv2.VideoCapture(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw\match1.mp4');boxes={'002':(200,500,1000,1700),'003':(1800,500,2600,1700),'004':(950,500,1750,1700),'005':(2650,500,3450,1700),'006':(650,500,1450,1700),'007':(2400,500,3200,1700),'048':(1500,400,2300,1600)};manifest=[]
+p=Path(__file__).resolve().parent;rs=list(csv.DictReader((p/'effective_service_search_intervals.csv').open(encoding='utf-8-sig')));cap=cv2.VideoCapture(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw\match1.mp4');boxes={'002':(200,500,1000,1700),'003':(1800,500,2600,1700),'004':(950,500,1750,1700),'005':(2650,500,3450,1700),'006':(650,500,1450,1700),'007':(2400,500,3200,1700),'048':(1500,400,2300,1600)};manifest=[]
 for r in rs:
  n=r['candidate_id'][-3:];a=float(r['service_leading_to_play_search_start_sec']);b=float(r['service_leading_to_play_search_end_sec']);cells=[]
  for t in np.linspace(a,b,12):

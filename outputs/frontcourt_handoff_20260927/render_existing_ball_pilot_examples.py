@@ -1,6 +1,6 @@
 import csv,cv2,subprocess,json
 from pathlib import Path
-p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study');fps=60000/1001;source=root/'data/raw/match1.mp4';cap=cv2.VideoCapture(str(source))
+p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study');fps=60000/1001;source=root/'data/raw/match1.mp4';cap=cv2.VideoCapture(str(source))
 for tag,cid,start in [('001','match1_motion_pilot_001',0),('007','match1_motion_pilot_002',700)]:
  folder=root/'data/balltrack/racketvision/match1'/cid/'runs/threshold030_median120'
  with (folder/'balltrack_predictions.csv').open(encoding='utf-8-sig') as f:rs=list(csv.DictReader(f))

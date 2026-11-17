@@ -3,7 +3,7 @@ from pathlib import Path
 p=Path(__file__).resolve().parent;os.environ['YOLO_CONFIG_DIR']=str(p/'ultralytics_local')
 import cv2,torch
 from ultralytics import YOLO
-root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study');model=YOLO(root/'models/yolo11m.pt');cap=cv2.VideoCapture(str(root/'data/raw/match1.mp4'));rows=[]
+root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study');model=YOLO(root/'models/yolo11m.pt');cap=cv2.VideoCapture(str(root/'data/raw/match1.mp4'));rows=[]
 for n,t in [('001',1.450950),('025',1000.601100)]:
  f=round(t*60000/1001)+30;cap.set(1,f);ok,im=cap.read();assert ok;preview=cv2.resize(im,(1920,1080));result=model.predict(im,classes=[0],conf=.25,imgsz=1280,device=0 if torch.cuda.is_available() else 'cpu',verbose=False)[0]
  for i,b in enumerate(result.boxes):

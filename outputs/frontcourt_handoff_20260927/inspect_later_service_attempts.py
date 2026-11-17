@@ -1,6 +1,6 @@
 import cv2,numpy as np
 from pathlib import Path
-p=Path(__file__).resolve().parent;cap=cv2.VideoCapture(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw\match1.mp4')
+p=Path(__file__).resolve().parent;cap=cv2.VideoCapture(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw\match1.mp4')
 for n,ts in [('002',range(34,43)),('004',np.arange(108.5,117,1)),('005',np.arange(138.5,147,1)),('007',range(253,262))]:
  cells=[]
  for t in ts:

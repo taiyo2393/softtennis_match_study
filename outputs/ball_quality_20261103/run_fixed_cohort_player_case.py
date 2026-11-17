@@ -7,7 +7,7 @@ import numpy as np
 
 ROOT=Path(__file__).resolve().parent
 BASE=ROOT.parent/'ball_quality_20261110'
-SOURCE=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+SOURCE=Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 FPS=60000/1001
 def read(p):
     with p.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))

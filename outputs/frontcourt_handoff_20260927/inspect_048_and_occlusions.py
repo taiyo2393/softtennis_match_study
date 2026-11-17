@@ -3,7 +3,7 @@ from pathlib import Path
 p=Path(__file__).resolve().parent;os.environ['YOLO_CONFIG_DIR']=str(p)
 from ultralytics import YOLO
 import torch
-root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study');cap=cv2.VideoCapture(str(root/'data/raw/match1.mp4'))
+root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study');cap=cv2.VideoCapture(str(root/'data/raw/match1.mp4'))
 for n,center in [('005',8648),('006',10536)]:
  cells=[]
  for offset in [-24,-18,-12,-6,0,6,12,18,24]:

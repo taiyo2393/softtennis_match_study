@@ -6,7 +6,7 @@ from collections import defaultdict
 from pathlib import Path
 from statistics import median
 
-ROOT = Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+ROOT = Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 OUT = Path(__file__).resolve().parent
 spec = importlib.util.spec_from_file_location('select_four', ROOT/'scripts/96_select_four_players_pilot.py')
 module = importlib.util.module_from_spec(spec)

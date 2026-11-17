@@ -3,7 +3,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-ROOT=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+ROOT=Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 OUT=Path(__file__).resolve().parent
 windows={
     '044_start':(114635,114900,10),

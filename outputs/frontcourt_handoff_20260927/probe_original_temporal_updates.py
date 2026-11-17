@@ -1,6 +1,6 @@
 import subprocess,numpy as np,csv
 from pathlib import Path
-p=Path('outputs/frontcourt_handoff_20260927'); root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw');rows=[]
+p=Path('outputs/frontcourt_handoff_20260927'); root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw');rows=[]
 for name,t in [('match1_original.mp4',2828),('match1.mp4',115360*1001/60000)]:
  cmd=[r'C:\ffmpeg\bin\ffmpeg.exe','-v','error','-ss',str(t),'-i',str(root/name),'-frames:v','30','-vf','scale=960:540','-pix_fmt','gray','-f','rawvideo','pipe:1']
  r=subprocess.run(cmd,capture_output=True,check=True);a=np.frombuffer(r.stdout,np.uint8).reshape(-1,540,960)[:,180:480,100:850]

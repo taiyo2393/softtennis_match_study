@@ -1,6 +1,6 @@
 import csv,json,cv2,numpy as np
 from pathlib import Path
-p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study');H=np.array(json.loads((root/'config/match1_court_plane_calibration.json').read_text(encoding='utf-8'))['image_to_court_homography'],np.float32)
+p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study');H=np.array(json.loads((root/'config/match1_court_plane_calibration.json').read_text(encoding='utf-8'))['image_to_court_homography'],np.float32)
 with (p/'additional_snapshot_person_detections.csv').open(encoding='utf-8-sig') as f:ds=list(csv.DictReader(f))
 selected={'001':{0:'near_right',1:'near_left',4:'far_left',5:'far_right'},'025':{0:'near_right',1:'near_left',3:'far_left',5:'far_right'}};out=[]
 for r in ds:

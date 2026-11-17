@@ -3,7 +3,7 @@ import csv
 import subprocess
 from pathlib import Path
 
-ROOT = Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+ROOT = Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 OUT = Path(__file__).resolve().parent
 FFMPEG = Path(r'C:\ffmpeg\bin\ffmpeg.exe')
 with (OUT / 'score_change_suggestions.csv').open(encoding='utf-8-sig', newline='') as stream:

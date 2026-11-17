@@ -1,7 +1,7 @@
 import csv,json,math,statistics
 from pathlib import Path
 from collections import Counter
-root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study');p=Path(__file__).resolve().parent
+root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study');p=Path(__file__).resolve().parent
 with (root/'annotations/balltrack_groundtruth_match1_pilot.csv').open(encoding='utf-8-sig',newline='') as f:labels=list(csv.DictReader(f))
 cache={};continuity=[]
 for cid in sorted({r['candidate_id'] for r in labels}):

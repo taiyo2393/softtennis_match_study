@@ -3,7 +3,7 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+ROOT = Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 OUT = Path(__file__).resolve().parent
 PILOTS = {
     'pilot_011': ('match1_rally_window_044', 115380, 115559),

@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0,'C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103')
+sys.path.insert(0,'C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\ball_quality_20261103')
 """Seal assisted-review labels and timing; never call acceptance independent accuracy."""
 import collections,datetime,json,math,shutil
 from pathlib import Path

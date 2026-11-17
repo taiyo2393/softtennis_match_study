@@ -3,7 +3,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 OUT=Path(__file__).resolve().parent
-SOURCE=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw\match1.mp4')
+SOURCE=Path(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw\match1.mp4')
 cap=cv2.VideoCapture(str(SOURCE))
 tiles=[]
 for index in range(114635,115806,30):

@@ -1,6 +1,6 @@
 import subprocess,cv2,numpy as np,json
 from pathlib import Path
-p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw');fps=60000/1001
+p=Path(__file__).resolve().parent;root=Path(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw');fps=60000/1001
 cap=cv2.VideoCapture(str(root/'match1.mp4'));cap.set(1,154081);ok,target=cap.read();assert ok;cap.release();target=cv2.resize(target,(960,540));roi=(slice(180,440),slice(180,400));tg=cv2.cvtColor(target,cv2.COLOR_BGR2GRAY)[roi].astype(np.float32)
 cmd=[r'C:\ffmpeg\bin\ffmpeg.exe','-v','error','-ss','2747','-i',str(root/'match1_original.mp4'),'-frames:v','180','-vf','scale=960:540','-pix_fmt','bgr24','-f','rawvideo','pipe:1'];res=subprocess.run(cmd,capture_output=True,check=True);a=np.frombuffer(res.stdout,np.uint8).reshape(-1,540,960,3)
 errors=[]

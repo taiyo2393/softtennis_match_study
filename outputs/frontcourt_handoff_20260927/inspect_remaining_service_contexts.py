@@ -1,6 +1,6 @@
 import csv,cv2,numpy as np
 from pathlib import Path
-p=Path(__file__).resolve().parent;r=list(csv.DictReader((p/'rally_label_review.csv').open(encoding='utf-8-sig')));cap=cv2.VideoCapture(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw\match1.mp4');manifest=[]
+p=Path(__file__).resolve().parent;r=list(csv.DictReader((p/'rally_label_review.csv').open(encoding='utf-8-sig')));cap=cv2.VideoCapture(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw\match1.mp4');manifest=[]
 for x in r:
  n=x['candidate_id'][-3:]
  if n not in ['002','003','004','005','006','007','048']:continue

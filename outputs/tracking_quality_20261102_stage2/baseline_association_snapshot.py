@@ -17,7 +17,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-SOURCE = Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+SOURCE = Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 BASE = Path(__file__).resolve().parent.parent/'frontcourt_handoff_20260927'
 OUT = Path(__file__).resolve().parent
 SLOTS = ('near_front', 'near_rear', 'far_rear', 'far_front')

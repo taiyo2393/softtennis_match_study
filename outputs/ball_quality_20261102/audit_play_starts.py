@@ -4,7 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 
-SOURCE=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+SOURCE=Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 WORKSPACE=Path(__file__).resolve().parents[2]
 HANDOFF=WORKSPACE/'outputs/frontcourt_handoff_20260927'
 OUT=WORKSPACE/'outputs/ball_quality_20261103/play_start_audit'

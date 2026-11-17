@@ -13,7 +13,7 @@ from PIL import Image,ImageDraw,ImageFont
 ROOT=Path(__file__).resolve().parent
 COMPARE=ROOT/'totnet_comparison'
 OUT=COMPARE/'joint_failure_review'
-SOURCE=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study')
+SOURCE=Path(r'C:\Users\ta239\Research\softtennis_match_study\study')
 FFMPEG=Path(r'C:\ffmpeg\bin\ffmpeg.exe')
 
 

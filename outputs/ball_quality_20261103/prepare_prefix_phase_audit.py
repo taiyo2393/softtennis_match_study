@@ -7,7 +7,7 @@ import numpy as np
 ROOT=Path(__file__).resolve().parent
 INPUT=ROOT.parent/'ball_quality_20261109/rally_player_prefix_expansion'
 OUT=ROOT.parent/'ball_quality_20261110/prefix_phase_audit'
-VIDEO=Path(r'C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\data\raw\match1.mp4')
+VIDEO=Path(r'C:\Users\ta239\Research\softtennis_match_study\study\data\raw\match1.mp4')
 FPS=60000/1001
 
 def sha(p):
