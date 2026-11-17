@@ -958,3 +958,4 @@ node_modules/
 /study/analysis/person_tracker_comparison/pilot_013_botsort/botsort_reid.csv
 /study/data/balltrack/racketvision/match1/match1_motion_expand_01_003/runs/threshold030_median120/balltrack_predictions.csv
 /study/data/balltrack/racketvision/match1/match1_motion_expand_01_004/runs/threshold030_median120/balltrack_predictions.csv
+/outputs/match2_point_inventory_20261117/samples.csv
