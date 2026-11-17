@@ -1,0 +1,700 @@
+{
+  "scope": "match2 第4〜6点・打球候補デモ。独立な打球結果/座標精度の検証ではない。",
+  "source_fps": "60000/1001",
+  "source_sha256": {
+    "outputs/ball_quality_20261111/match2_points_4_6_stroke_review/stroke_observations.json": "cbee079d4f68bee8fbcdfbec3dd56081aa93fe63b6cb89705083317c86502191",
+    "outputs/ball_quality_20261111/match2_points_4_6_stroke_review/guarded_positions.json": "5294b8508818b228e7ad1fd9ca8ed3072962a4571b04801400ba53a495244926",
+    "outputs/ball_quality_20261111/match2_points_4_6_contact_sensitivity/contact_sensitivity.json": "ec3b11684becc044c2787901aa12b53d4aad9ce600e31981b11b18a5550d4fff",
+    "outputs/ball_quality_20261111/analyze_match2_points_4_6_contact_sensitivity.py": "0a7a90d957819f5e209e70512676aa1364faa73b439e8b5cf9a7ff932799d9c9",
+    "outputs/ball_quality_20261111/summarize_match2_receiving_positions.py": "39c08dda309831355586676b22ceea47f0df01b1279f5a5a94ae492bdf5fa119",
+    "outputs/ball_quality_20261111/review_match2_stroke_routes.py": "77911a669ce959e1a4c683e4b92819833137beba1e24cb70a4be52743a2adb21",
+    "outputs/ball_quality_20261111/match2_points_4_6_contact_sensitivity/接触時刻と守備配置.md": "c0e4072152c53f3b4206ea5b81816e09945b0c9ee1fffebfa2c7aee0f04f1dcf",
+    "outputs/ball_quality_20261111/match2_points_4_6_stroke_review/打球候補.md": "5a5fb2799972637fd7ed3a13133570d2a6cb516fbc1c47ec7265762d4c14da3d"
+  },
+  "method": {
+    "coordinate_conversion": "Copied constants/formula; no imports of existing analysis modules.",
+    "reference_court_size_m": [
+      10.97,
+      23.77
+    ],
+    "net_y_m": 11.885,
+    "service_line_y_m_schematic": [
+      5.49087,
+      18.27913
+    ],
+    "singles_line_x_m_schematic": [
+      1.37125,
+      9.59875
+    ],
+    "reference_frame": "(first + last) // 2; nearest available per player inside inclusive window; ties earlier",
+    "frame_offset": "selected_source_frame - contact_frame_ref",
+    "pair_metrics": "abs(x1-x2), abs(y1-y2); per-player frames may differ",
+    "evidence_base": "outputs/ball_quality_20261111/match2_points_4_6_stroke_review",
+    "missing": "CSV empty cell / JSON null; no interpolation, extrapolation or coordinate clamping"
+  },
+  "total": {
+    "shot_candidates": 22,
+    "excluding_serves": 19,
+    "four_players_available": 16,
+    "four_players_available_excluding_serves": 16,
+    "outcomes": {
+      "continue": 19,
+      "error_net": 1,
+      "unknown": 2
+    },
+    "statuses": {
+      "candidate": 20,
+      "offscreen": 1,
+      "user_confirmed": 1
+    }
+  },
+  "by_point": {
+    "4": {
+      "shot_candidates": 6,
+      "excluding_serves": 5,
+      "four_players_available": 2,
+      "four_players_available_excluding_serves": 2,
+      "outcomes": {
+        "continue": 5,
+        "error_net": 0,
+        "unknown": 1
+      },
+      "statuses": {
+        "candidate": 5,
+        "offscreen": 1
+      }
+    },
+    "5": {
+      "shot_candidates": 7,
+      "excluding_serves": 6,
+      "four_players_available": 6,
+      "four_players_available_excluding_serves": 6,
+      "outcomes": {
+        "continue": 6,
+        "error_net": 0,
+        "unknown": 1
+      },
+      "statuses": {
+        "candidate": 7
+      }
+    },
+    "6": {
+      "shot_candidates": 9,
+      "excluding_serves": 8,
+      "four_players_available": 8,
+      "four_players_available_excluding_serves": 8,
+      "outcomes": {
+        "continue": 8,
+        "error_net": 1,
+        "unknown": 0
+      },
+      "statuses": {
+        "candidate": 8,
+        "user_confirmed": 1
+      }
+    }
+  },
+  "opponent_pair_by_hitter_point_result": {
+    "interpretation": "傾向の例。点の勝敗で群分けし、同一点の複数打球を含む。検定なし。",
+    "all_shots": [
+      {
+        "group": "hitter_won",
+        "hitter_won_point": true,
+        "n_shots": 10,
+        "n_points": 3,
+        "opponent_pair_lateral_n": 9,
+        "opponent_pair_lateral_median_m": 3.7498347071886684,
+        "opponent_pair_depth_n": 9,
+        "opponent_pair_depth_median_m": 3.155589928683362
+      },
+      {
+        "group": "hitter_lost",
+        "hitter_won_point": false,
+        "n_shots": 12,
+        "n_points": 3,
+        "opponent_pair_lateral_n": 9,
+        "opponent_pair_lateral_median_m": 5.477895441114107,
+        "opponent_pair_depth_n": 9,
+        "opponent_pair_depth_median_m": 4.023087860116213
+      }
+    ],
+    "excluding_serves": [
+      {
+        "group": "hitter_won",
+        "hitter_won_point": true,
+        "n_shots": 9,
+        "n_points": 3,
+        "opponent_pair_lateral_n": 9,
+        "opponent_pair_lateral_median_m": 3.7498347071886684,
+        "opponent_pair_depth_n": 9,
+        "opponent_pair_depth_median_m": 3.155589928683362
+      },
+      {
+        "group": "hitter_lost",
+        "hitter_won_point": false,
+        "n_shots": 10,
+        "n_points": 3,
+        "opponent_pair_lateral_n": 9,
+        "opponent_pair_lateral_median_m": 5.477895441114107,
+        "opponent_pair_depth_n": 9,
+        "opponent_pair_depth_median_m": 4.023087860116213
+      }
+    ]
+  },
+  "position_selection_audit": [
+    {
+      "point": 4,
+      "shot_index": 1,
+      "contact_frame_ref": 16707,
+      "selected_players": {
+        "N1": null,
+        "N2": null,
+        "F1": null,
+        "F2": null
+      }
+    },
+    {
+      "point": 4,
+      "shot_index": 2,
+      "contact_frame_ref": 16781,
+      "selected_players": {
+        "N1": {
+          "source_frame": 16781,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 16781,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 16781,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 16781,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 4,
+      "shot_index": 3,
+      "contact_frame_ref": 16872,
+      "selected_players": {
+        "N1": {
+          "source_frame": 16872,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 16872,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 16872,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 16872,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 4,
+      "shot_index": 4,
+      "contact_frame_ref": 16951,
+      "selected_players": {
+        "N1": {
+          "source_frame": 16951,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 16951,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": null,
+        "F2": {
+          "source_frame": 16951,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 4,
+      "shot_index": 5,
+      "contact_frame_ref": 17087,
+      "selected_players": {
+        "N1": {
+          "source_frame": 17087,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 17087,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 17087,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": null
+      }
+    },
+    {
+      "point": 4,
+      "shot_index": 6,
+      "contact_frame_ref": 17229,
+      "selected_players": {
+        "N1": null,
+        "N2": {
+          "source_frame": 17229,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 17229,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 17229,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 5,
+      "shot_index": 1,
+      "contact_frame_ref": 18715,
+      "selected_players": {
+        "N1": null,
+        "N2": null,
+        "F1": null,
+        "F2": null
+      }
+    },
+    {
+      "point": 5,
+      "shot_index": 2,
+      "contact_frame_ref": 18816,
+      "selected_players": {
+        "N1": {
+          "source_frame": 18816,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 18816,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 18816,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 18816,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 5,
+      "shot_index": 3,
+      "contact_frame_ref": 18847,
+      "selected_players": {
+        "N1": {
+          "source_frame": 18847,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 18847,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 18847,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 18847,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 5,
+      "shot_index": 4,
+      "contact_frame_ref": 18880,
+      "selected_players": {
+        "N1": {
+          "source_frame": 18880,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 18880,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 18880,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 18880,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 5,
+      "shot_index": 5,
+      "contact_frame_ref": 18914,
+      "selected_players": {
+        "N1": {
+          "source_frame": 18914,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 18914,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 18914,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 18914,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 5,
+      "shot_index": 6,
+      "contact_frame_ref": 18984,
+      "selected_players": {
+        "N1": {
+          "source_frame": 18984,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 18984,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 18984,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 18984,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 5,
+      "shot_index": 7,
+      "contact_frame_ref": 19016,
+      "selected_players": {
+        "N1": {
+          "source_frame": 19016,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 19016,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 19016,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 19016,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 1,
+      "contact_frame_ref": 20784,
+      "selected_players": {
+        "N1": null,
+        "N2": null,
+        "F1": null,
+        "F2": null
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 2,
+      "contact_frame_ref": 20863,
+      "selected_players": {
+        "N1": {
+          "source_frame": 20863,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 20863,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 20863,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 20863,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 3,
+      "contact_frame_ref": 20931,
+      "selected_players": {
+        "N1": {
+          "source_frame": 20931,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 20931,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 20932,
+          "frame_offset": 1,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 20931,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 4,
+      "contact_frame_ref": 20975,
+      "selected_players": {
+        "N1": {
+          "source_frame": 20975,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 20975,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 20975,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 20975,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 5,
+      "contact_frame_ref": 21017,
+      "selected_players": {
+        "N1": {
+          "source_frame": 21017,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 21017,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 21017,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 21017,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 6,
+      "contact_frame_ref": 21116,
+      "selected_players": {
+        "N1": {
+          "source_frame": 21116,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 21116,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 21116,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 21116,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 7,
+      "contact_frame_ref": 21205,
+      "selected_players": {
+        "N1": {
+          "source_frame": 21205,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 21205,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 21205,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 21205,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 8,
+      "contact_frame_ref": 21269,
+      "selected_players": {
+        "N1": {
+          "source_frame": 21269,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 21269,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 21269,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 21269,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    },
+    {
+      "point": 6,
+      "shot_index": 9,
+      "contact_frame_ref": 21349,
+      "selected_players": {
+        "N1": {
+          "source_frame": 21349,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "N2": {
+          "source_frame": 21349,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F1": {
+          "source_frame": 21349,
+          "frame_offset": 0,
+          "position_status": "projected_box_bottom"
+        },
+        "F2": {
+          "source_frame": 21338,
+          "frame_offset": -11,
+          "position_status": "projected_box_bottom"
+        }
+      }
+    }
+  ],
+  "terminal_notes": {
+    "4": "画面右から球が戻った後の最終接触・終了事象は未判定。",
+    "5": "最後の候補後、返球がネットに掛かったか、どこに落ちたかは未判定。",
+    "6": "最終打球はF2のネット。映像レビューで接触と結果を確認。"
+  },
+  "figure": {
+    "dpi": 120,
+    "bytes": 103350,
+    "target_bytes": 256000,
+    "under_target": true,
+    "indexed_png": true,
+    "font": "Yu Gothic",
+    "font_path": "C:\\Windows\\Fonts\\YuGothR.ttc"
+  },
+  "outputs": [
+    "shot_table.csv",
+    "shot_positions_points_4_6.png",
+    "shot_summary.json",
+    "README.md"
+  ]
+}
