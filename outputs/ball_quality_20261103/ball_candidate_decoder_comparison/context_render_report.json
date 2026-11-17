@@ -1,0 +1,13 @@
+{
+  "output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_decoder_comparison\\area_vs_peak_training_context_h264.mp4",
+  "source_context_frames": 147,
+  "decoded_display_frames": 237,
+  "duration_seconds": 7.9079,
+  "source_aspect_ratio_preserved": true,
+  "target_prediction_coordinates_match_sparse_export": true,
+  "protected_inputs_unchanged": true,
+  "repeated_frames_are_display_holds_not_new_observations": true,
+  "manual_target_count": 3,
+  "context_accuracy_unknown": true,
+  "sha256": "1c39812a442a4452631921e9eb2a02b10a6b1aa848af981381d3cb0eadd040e4"
+}

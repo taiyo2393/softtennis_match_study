@@ -1,0 +1,3 @@
+﻿camera_side,scored_points,source_contexts,conditional_mean_distance_px,conditional_median_distance_px,mean_dx_px,mean_dy_px,positive_dy_points
+near,18,9,30.170339363024873,29.55371927042437,-4.885896979437932,22.85189073350692,17
+far,16,8,11.762512033269562,11.517654945070277,-0.6468528747558508,6.0446548461914205,12

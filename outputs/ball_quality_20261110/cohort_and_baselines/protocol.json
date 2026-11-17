@@ -1,0 +1,36 @@
+{
+  "date_jst": "2026-11-10",
+  "selection_fixed_before_new_tracking": true,
+  "sampling": "First30 existing candidate-point groups in source timestamp order; include every candidate status, outcome and observed/missing pattern. This is a chronological one-match feasibility cohort, not30 verified independent rallies.",
+  "already_exposed": "Existing footage, labels and prior development have been viewed. Do not call this an untouched holdout. Current044/048/056 are supplementary development examples outside the first30.",
+  "no_replacement": "No replacement for occlusion, double fault, missing serve, edit, ambiguous outcome, invalid interval or tracking failure. Record each reason and stage separately. New group discoveries must be versioned and propagated before fitting.",
+  "existing_score_validation": "Retain the previous frozen16-case score-suggestion validation sample unchanged; this technical cohort does not replace it or certify its labels.",
+  "primary_construction": "Reuse the fixed contact-last+30 through+90 window; legacy point contacts retain uncertainty flags. No quality-based time shifts or last-observed-frame snapshot.",
+  "basic_inputs": "Server camera side is a provisional AI attribute. Current metadata permit this one basic covariate. Do not import old winner-relative features, winner team IDs, score differences, final score or post-point reactions.",
+  "comparisons": [
+    "B0 training-fold majority/probability only",
+    "B1 B0 plus pre-outcome serving side",
+    "B2 same base plus early-window player arrangement",
+    "B3 B2 plus ball data on exactly the same rally groups/time window",
+    "Diagnostic: base plus missingness masks only, to test whether observation patterns explain apparent gains"
+  ],
+  "additional_pre_outcome_conditions": "Serving court half, first/second attempt, pre-point score and pre-point team mapping are desired but incomplete; leave unknown and record provenance. Winner_team_id is never a source for input team identity. Stale score overlays and game resets require separate checks.",
+  "role": "Technical-quality and data-feasibility expansion for the existing research question; not a final thesis-topic decision or a prespecified confirmatory study.",
+  "evaluation": "Do not fit a performance model to the current8 cases. First30 is one-match development/feasibility. Later fix additional matches before inspecting outcomes/tracking success, split by match and preserve point groups. Fit imputation/scaling/model selection on training folds only. Number of points/matches must be justified by observed variability, not declared sufficient by a fixed30 or50 rule.",
+  "scope": "No causal loss explanation or tactical recommendation. Offline tracking may use future frames; selecting pre-score coordinates does not establish a causal online pipeline.",
+  "ball": "Existing two assisted ball cases remain supplementary development; same-outcome data do not establish added predictive value or independent detector precision.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\rally_label_review.csv": "4ed13dd37b790eeb200ac675f84f453c83fdae5dbb8eff84af1590e8b221fe21",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\human_review_log.csv": "b97ed8d251fdbb1a2d522747e91ca43f4804ea10e071cf35dd0fbef9b1a0d9d6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\candidate_point_group_map.csv": "f15291f31014e5142bb3f9b10d44808fe35cd1fffa597ebf461e0b6310703c6c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\exploratory_position_outcome_features.csv": "a9672e02f03d5a001f03582b9fd916dbf9fd1ecbdf5454c3da371d7137c49a4a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\compute_exploratory_position_outcome.py": "72d4269003f114694d42e533cbdaa91bf65c1d83a94e45e337fe4a93653bd210",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\score_suggestion_validation_sample.csv": "2b909d67950ddd495acc50910239b6527bbc2bf588cd5c89aa4a9fd26d5bc8fb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\rally_metadata.csv": "f5ba876b7867764595930b123b94f5eaa7b7df36358ce187cd7a1da0eddbf4a1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\human_outcomes.csv": "2e597d90ed77e69b9d3e0233a6a492b45aec6502ff503486723428afd01c96bf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\prefix_player_summary_features.csv": "fbcd344489300f89f80977fcc7905fbbd955c8b9a611ea4988837a0bc51273f1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\snapshot_player_features.csv": "7162f0683362fe36cee810548e822dcf4d57c884493f0a6cf03e221942299094",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\prefix_phase_audit\\eight_candidate_phase_evidence.csv": "2a1c6e7e7c3feb483d2d805513b3c3d23129b6684c1230b09bcc45c71d35c25e"
+  },
+  "script_sha256": "a15b587497e30d54a49adf7f6fd083f8db98af2ccc0d45f3c1397cb4a32811dd"
+}

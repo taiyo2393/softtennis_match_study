@@ -1,0 +1,181 @@
+[
+  {
+    "point": 1,
+    "player": "F1",
+    "first_frame": 12566,
+    "last_frame": 12569,
+    "missing_frames": 4,
+    "missing_seconds": 0.06673333333333334,
+    "reasons": {
+      "foot_overlap": 4
+    },
+    "bracketed": false,
+    "same_track_id": null,
+    "endpoint_displacement_m": null,
+    "clear_test_endpoint_comparators_in_rally": 66,
+    "clear_test_endpoint_p95_m": 0.6372851257447982
+  },
+  {
+    "point": 1,
+    "player": "F2",
+    "first_frame": 12490,
+    "last_frame": 12528,
+    "missing_frames": 39,
+    "missing_seconds": 0.6506500000000001,
+    "reasons": {
+      "foot_overlap": 37,
+      "no_detection": 2
+    },
+    "bracketed": true,
+    "same_track_id": false,
+    "endpoint_displacement_m": 0.7088873815092134,
+    "clear_test_endpoint_comparators_in_rally": 8,
+    "clear_test_endpoint_p95_m": 2.971646459600265
+  },
+  {
+    "point": 1,
+    "player": "F2",
+    "first_frame": 12533,
+    "last_frame": 12569,
+    "missing_frames": 37,
+    "missing_seconds": 0.6172833333333333,
+    "reasons": {
+      "foot_overlap": 37
+    },
+    "bracketed": false,
+    "same_track_id": null,
+    "endpoint_displacement_m": null,
+    "clear_test_endpoint_comparators_in_rally": 10,
+    "clear_test_endpoint_p95_m": 2.7673017548696293
+  },
+  {
+    "point": 2,
+    "player": "F2",
+    "first_frame": 14010,
+    "last_frame": 14055,
+    "missing_frames": 46,
+    "missing_seconds": 0.7674333333333333,
+    "reasons": {
+      "foot_overlap": 42,
+      "no_detection": 4
+    },
+    "bracketed": false,
+    "same_track_id": null,
+    "endpoint_displacement_m": null,
+    "clear_test_endpoint_comparators_in_rally": 15,
+    "clear_test_endpoint_p95_m": 3.1636509784517677
+  },
+  {
+    "point": 3,
+    "player": "F1",
+    "first_frame": 15386,
+    "last_frame": 15387,
+    "missing_frames": 2,
+    "missing_seconds": 0.03336666666666667,
+    "reasons": {
+      "unstable_foot_position": 2
+    },
+    "bracketed": true,
+    "same_track_id": true,
+    "endpoint_displacement_m": 0.4863914286562525,
+    "clear_test_endpoint_comparators_in_rally": 104,
+    "clear_test_endpoint_p95_m": 0.47333050500175317
+  },
+  {
+    "point": 3,
+    "player": "F1",
+    "first_frame": 15401,
+    "last_frame": 15402,
+    "missing_frames": 2,
+    "missing_seconds": 0.03336666666666667,
+    "reasons": {
+      "unstable_foot_position": 2
+    },
+    "bracketed": true,
+    "same_track_id": true,
+    "endpoint_displacement_m": 1.002060173808217,
+    "clear_test_endpoint_comparators_in_rally": 104,
+    "clear_test_endpoint_p95_m": 0.47333050500175317
+  },
+  {
+    "point": 3,
+    "player": "F1",
+    "first_frame": 15455,
+    "last_frame": 15457,
+    "missing_frames": 3,
+    "missing_seconds": 0.050050000000000004,
+    "reasons": {
+      "unstable_foot_position": 3
+    },
+    "bracketed": true,
+    "same_track_id": true,
+    "endpoint_displacement_m": 1.5911114197706313,
+    "clear_test_endpoint_comparators_in_rally": 83,
+    "clear_test_endpoint_p95_m": 0.4995002073046763
+  },
+  {
+    "point": 3,
+    "player": "F1",
+    "first_frame": 15464,
+    "last_frame": 15465,
+    "missing_frames": 2,
+    "missing_seconds": 0.03336666666666667,
+    "reasons": {
+      "unstable_foot_position": 2
+    },
+    "bracketed": true,
+    "same_track_id": true,
+    "endpoint_displacement_m": 1.2635755161110447,
+    "clear_test_endpoint_comparators_in_rally": 104,
+    "clear_test_endpoint_p95_m": 0.47333050500175317
+  },
+  {
+    "point": 3,
+    "player": "F2",
+    "first_frame": 15223,
+    "last_frame": 15238,
+    "missing_frames": 16,
+    "missing_seconds": 0.26693333333333336,
+    "reasons": {
+      "airborne_serve_visual_review": 5,
+      "foot_overlap": 11
+    },
+    "bracketed": false,
+    "same_track_id": null,
+    "endpoint_displacement_m": null,
+    "clear_test_endpoint_comparators_in_rally": 20,
+    "clear_test_endpoint_p95_m": 1.2196368585174637
+  },
+  {
+    "point": 3,
+    "player": "F2",
+    "first_frame": 15260,
+    "last_frame": 15367,
+    "missing_frames": 108,
+    "missing_seconds": 1.8018,
+    "reasons": {
+      "foot_overlap": 108
+    },
+    "bracketed": true,
+    "same_track_id": false,
+    "endpoint_displacement_m": 3.769320800839304,
+    "clear_test_endpoint_comparators_in_rally": 1,
+    "clear_test_endpoint_p95_m": 2.991469030399158
+  },
+  {
+    "point": 3,
+    "player": "F2",
+    "first_frame": 15403,
+    "last_frame": 15406,
+    "missing_frames": 4,
+    "missing_seconds": 0.06673333333333334,
+    "reasons": {
+      "unstable_foot_position": 4
+    },
+    "bracketed": true,
+    "same_track_id": true,
+    "endpoint_displacement_m": 0.6327223970878066,
+    "clear_test_endpoint_comparators_in_rally": 68,
+    "clear_test_endpoint_p95_m": 0.6229285734115872
+  }
+]

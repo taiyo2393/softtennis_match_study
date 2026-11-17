@@ -1,0 +1,17 @@
+{
+  "match": "match2",
+  "point": 1,
+  "question_item_id": "[\"request_user_input_async\",\"call_1aa9f0cf55b94315ad6e2377a23d0c16\",0]",
+  "question": "match2第1点の動画で、手前ベースライン付近に球が落ちるF12574前後がラリー終端で合っていますか？ 終わり方が分かれば、アウトなど一言添えてください。",
+  "answer": "アウト",
+  "ending_type": "out",
+  "event_scope": "User classified the indicated near-baseline ending as out.",
+  "AI_estimated_end_frame_range": [
+    12570,
+    12578
+  ],
+  "exact_contact_frame_human_validated": false,
+  "video_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_ball_first_point\\match2_first_point_raw_review.mp4",
+  "video_sha256": "f37a63feda40ce40ff41d1e4a1235df629646c04616bcac5f20f6625fabcb86f",
+  "score_winner_human_validated": false
+}

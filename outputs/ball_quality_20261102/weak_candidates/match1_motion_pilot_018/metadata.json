@@ -1,0 +1,33 @@
+{
+  "candidate_id": "match1_motion_pilot_018",
+  "frames": 240,
+  "baseline_missing_frames": 69,
+  "weak_components": 70,
+  "baseline_checks": [
+    {
+      "local_frame": 1,
+      "baseline_coordinate_delta_px": 0.0
+    },
+    {
+      "local_frame": 117,
+      "baseline_coordinate_delta_px": 0.0
+    },
+    {
+      "local_frame": 239,
+      "baseline_coordinate_delta_px": 0.0
+    }
+  ],
+  "parameters": {
+    "heatmap_floor": 0.1,
+    "components_per_frame": 6,
+    "batch_size": 16,
+    "component_position": "half-peak weighted centroid",
+    "context": "t-3,t-2,t-1,t",
+    "cache_resized_frames": 96
+  },
+  "baseline_csv_sha256": "2ca3b8d4d5b52b7d486cbcb9e588d220a16afa7689aa62f68601b57308c99bc0",
+  "fps": 59.94005994005994,
+  "width": 1920,
+  "height": 1080,
+  "note": "Weak components are not verified ball detections or calibrated probabilities."
+}

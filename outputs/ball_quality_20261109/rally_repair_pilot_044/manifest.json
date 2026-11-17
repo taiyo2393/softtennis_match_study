@@ -1,0 +1,32 @@
+{
+  "status": "review_ready_human_not_started",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv": "95934c96fa9a11425a493c2e73d9345df4664810e7ff879689ff67fe27d33ecc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_labels.csv": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\run_metadata.json": "4ae097224978d4ede018b24f02f66bdf6bba9c3f88f254e44116c5e7a2af6ef7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\play_start_audit\\044_scope_report.json": "2fa952b6480af2ab9b21de172831d7c3e82276903d13b4566ad85137d64e0aa6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\rally_label_review.csv": "4ed13dd37b790eeb200ac675f84f453c83fdae5dbb8eff84af1590e8b221fe21",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\human_review_log.csv": "b97ed8d251fdbb1a2d522747e91ca43f4804ea10e071cf35dd0fbef9b1a0d9d6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v4\\frame_observation_status.csv": "a8fdff0ded4ca91d4d81cf9cec8d5016def2ae94624861846baa470f039df9d5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v4\\protocol.json": "d55b4d20b60e76c2368bfaff4be692c1d5d5585e98b02970c1e94cbe5b5ba3b3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_rally_repair_pilot.py": "307d620182bf14b432083c04657d6e38851b298fc80815d50dab3882e90673be",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\rally_repair_pilot.html": "1f233222d81ca403a0025202ed4f3484dba62fac64df2b3b67ab5fe628b1c8e3"
+  },
+  "frozen_artifact_hashes": {
+    "protocol.json": "c22823fa6983f08efed637078fe1d866fb140bb3933ce6d34534fb4d26827ed8",
+    "executed_prepare_source.py": "578ccd6ca6ccfa3b5abcd23e3df493f881f0afd0c4631e0dce847316b0e9f08b",
+    "initial_labels_snapshot.csv": "576b9f65db6da429d5c022aeed157da051e90bbd96ac70841925d1efeca1b576",
+    "baseline_predictions.csv": "c888225bdd6390ac2cd19888d7e8e9fa2e349b9ef0f15e04d516898c071776b7",
+    "cases.json": "3f2f6b22b7bdc32e27d37c342abd719232a5e55d64580fb64a02a5616f7075e0",
+    "source_image_hashes.json": "c8e88a725db52f8981336a24a1b39d6bbd5dbe319640567fbcaa93f363055a57",
+    "context.mp4": "02b9ad50a261f725c67749bba65f7857c2739839af56571b2b0c5a6779af2ea6",
+    "review.html": "1f233222d81ca403a0025202ed4f3484dba62fac64df2b3b67ab5fe628b1c8e3",
+    "serve_review.py": "46c44322969ec93b5ddb66d6bd702be5c071b3a27d1ee39ca82e17c8faf8f714",
+    "start_review.ps1": "261926b3bcf5ef8bb6c7e8b625bc3dc531dfdc63be240cf672a2a2c9e592b274",
+    "rally_readiness_inventory.csv": "854f70119aca1df008ee9385e9c8399b1c96f9cf276d8503f7330e6e6ae20640",
+    "initial_readiness.json": "0cb933823f9b295592aed4875194027c1b543852712051afa2b0411ac3bc5338"
+  }
+}

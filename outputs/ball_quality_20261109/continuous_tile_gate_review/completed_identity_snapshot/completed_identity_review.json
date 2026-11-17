@@ -1,0 +1,65 @@
+{
+  "status": "three_target_outputs_human_confirmed_not_rally_ball",
+  "recorded_at_utc": "2026-11-09T06:39:48.932051+00:00",
+  "request_call_id": "call_407b39dd5c74451ea7af6df4cc11aec8",
+  "original_responses": [
+    {
+      "question_item": 0,
+      "answer": "別物体",
+      "targets": [
+        "D515",
+        "D516"
+      ]
+    },
+    {
+      "question_item": 1,
+      "answer": "別物体",
+      "targets": [
+        "B275"
+      ]
+    }
+  ],
+  "confirmed_targets": [
+    {
+      "window_id": "B",
+      "local_frame": "275",
+      "source_frame": "57488",
+      "output_source": "original_temporal",
+      "x_px": "954",
+      "y_px": "586",
+      "identity_status": "confirmed_not_rally_ball"
+    },
+    {
+      "window_id": "D",
+      "local_frame": "515",
+      "source_frame": "154441",
+      "output_source": "added_native_candidate",
+      "x_px": "265",
+      "y_px": "533",
+      "identity_status": "confirmed_not_rally_ball"
+    },
+    {
+      "window_id": "D",
+      "local_frame": "516",
+      "source_frame": "154442",
+      "output_source": "added_native_candidate",
+      "x_px": "265",
+      "y_px": "533",
+      "identity_status": "confirmed_not_rally_ball"
+    }
+  ],
+  "confirmed_incorrect_output_frames": 3,
+  "confirmed_added_incorrect_frames": 2,
+  "confirmed_existing_incorrect_frames": 1,
+  "distinct_reviewed_failure_segments": 2,
+  "interpretation": "D515/516 are adjacent observations of one reviewed reacquisition failure; B275 is one existing transient wrong target. Not3independent experiments.",
+  "scope": "Identity of displayed target outputs only; no true ball center,physical ball absence,phase boundary or neighbouring-label propagation.",
+  "no_accuracy_estimate_for_724frames": true,
+  "no_accuracy_estimate_for_72additions": true,
+  "initial_labels_sha256": "261e9fba5a7e31fea3e01d2516128ef5d759ba3f2c1438765dc053eb677d0e8f",
+  "labels_sha256": "e35c307ac4ea4e11b199f46ba86c357d39a0940a3f78e432c2f290bb5f09cbf6",
+  "events_sha256": "1ddb70b3fb35fb8303be8073625f4058bb8e7dfaac138b5d2ca8eeea8f68a042",
+  "frozen_52target_report_unchanged": true,
+  "model_or_canonical_tracking_changed": false,
+  "script_sha256": "b536d591724de525527e5ed16134af81313bbecd9748ee0d8e7b425e70ea3df3"
+}

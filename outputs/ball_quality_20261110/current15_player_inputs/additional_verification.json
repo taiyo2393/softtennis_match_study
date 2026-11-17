@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "previous14_input_rows_exactly_retained": true,
+  "confirmed_human_outcomes_preserved": 11,
+  "unreviewed_outcomes": 4,
+  "known_wrong_automatic_output_rejected_before_writing": true,
+  "model_input_uses_explicit_AI_assisted_variant": true,
+  "all124_fixed_prefix_slot_raw_box_assignments_unchanged": true,
+  "prefix_feature_values_unchanged": true,
+  "unchanged_N1_observations": 2900,
+  "native_N2_observations_bound": 2882,
+  "native_N2_missing_frames_retained": 18,
+  "far_search_rerun_with_retained_numeric_parameters": true,
+  "existing_score_validation_sample_unchanged": true,
+  "comparison_video_frames_decoded": 241,
+  "fully_automatic_success_claimed": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "performance_evaluation_performed": false
+}

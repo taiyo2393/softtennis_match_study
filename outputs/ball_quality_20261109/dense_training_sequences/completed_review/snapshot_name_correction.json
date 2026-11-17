@@ -1,0 +1,10 @@
+{
+  "reason": "Preparation and finalization verification files initially shared a basename. Restore preparation report under its own name; retain final report and pre-correction result.",
+  "changed_result_fields": [
+    "source_snapshot_hashes key verification.json -> preparation_verification.json"
+  ],
+  "labels_or_training_exports_changed": false,
+  "pre_correction_result_sha256": "a5e9d36ba2d0103231bc3898b0de7e85445450691d8a64a2c50ae47695635f5d",
+  "corrected_result_sha256": "8e1d14666f764edebce10fe162121261da052c40ffb659c80e54194e8fbd7a1e",
+  "preparation_report_sha256": "7b082d1dccdd83b72271331a48dec1e594f3110957c62dadae4753193031039a"
+}

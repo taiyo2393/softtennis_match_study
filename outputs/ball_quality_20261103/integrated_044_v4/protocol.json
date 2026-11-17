@@ -1,0 +1,26 @@
+{
+  "rally_candidate_id": "match1_rally_window_044",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "local_frames": [
+    739,
+    1140
+  ],
+  "source_frame_offset": 114635,
+  "clock": "legacy edited match1",
+  "alignment_key": "exact integer source_frame, never nearest timestamp",
+  "player_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\observed_player_paths.csv",
+  "player_input_sha256": "55f4ffdbfea897a1df679ff11ac12a383fae370f8d2853ea73d4ac4070ec8b42",
+  "ball_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "ball_input_sha256": "95934c96fa9a11425a493c2e73d9345df4664810e7ff879689ff67fe27d33ecc",
+  "image_coordinate_system": [
+    1920,
+    1080
+  ],
+  "player_scale_from_original": 0.5,
+  "max_original_timestamp_difference_sec": 0.006083666666654608,
+  "timestamp_note": "Player times derive from global frame/fps; ball times from clip start+local/fps. Source-frame IDs are the join key.",
+  "missing_positions_filled": false,
+  "score_labels_joined": false,
+  "output_presence_is_not_physical_visibility_groundtruth": true,
+  "script_sha256": "cd06ba6d626bdf1b9698fc094dd1f56043c9b760b619c98f78d90635f4f62305"
+}

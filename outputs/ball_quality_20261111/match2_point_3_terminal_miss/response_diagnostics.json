@@ -1,0 +1,12 @@
+[
+  {
+    "method": "full",
+    "peak_in_search_region": 0.17724609375,
+    "global_peak": 0.17724609375
+  },
+  {
+    "method": "local",
+    "peak_in_search_region": 0.03753662109375,
+    "global_peak": 0.050994873046875
+  }
+]

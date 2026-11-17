@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "detectors_checked": 8,
+  "changed_trainable_tensor_counts": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "matched_optimizer_updates_verified": 6429,
+  "matched_batch_sizes_and_sample_trace_verified": true,
+  "held_clip_fit_and_input_hash_exclusion": true,
+  "all_frozen_weights_and_bn_exact": true,
+  "source_heatmap_components_reconstructed": 4374,
+  "legacy_sparse_candidate_replay_targets": 123,
+  "held_outputs_reconstructed": 732,
+  "summaries_and_paired_outcomes_recomputed": true,
+  "dense_sampled_pairs": 120,
+  "pair_observable_count": 113,
+  "sparse_pair_both_correct": 106,
+  "dense_pair_both_correct": 104,
+  "protected_inputs_unchanged": true,
+  "operational_adoption": false,
+  "script_sha256": "7ae2db0854334c524fde429aa0307405d994e2c76f0bde71ba834bb1fbc7b22a"
+}

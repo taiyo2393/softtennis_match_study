@@ -1,0 +1,92 @@
+{
+  "status": "temporal_only_policies_fail_existing_reviewed_counterexamples",
+  "automatic_adoption": false,
+  "reviewed_output_unchanged": true,
+  "source_annotations_unchanged": true,
+  "forward_endpoint_connected": true,
+  "backward_endpoint_connected": true,
+  "any_policy_retains_all8_and_rejects_all4": false,
+  "policy_summary": [
+    {
+      "policy": "highest_peak",
+      "reviewed_ball_candidates_retained": 8,
+      "reviewed_ball_candidates_total": 8,
+      "reviewed_false_candidates_selected": 3,
+      "reviewed_false_candidates_total": 4,
+      "retained_ball_candidate_ids": "1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A;1091:B",
+      "selected_false_candidate_ids": "1090:A;1092:A;1093:A",
+      "missed_ball_candidate_ids": "",
+      "unreviewed_candidate_selections_in_scored_window": 0,
+      "qualifies_for_adoption": 0
+    },
+    {
+      "policy": "forward_nearest",
+      "reviewed_ball_candidates_retained": 7,
+      "reviewed_ball_candidates_total": 8,
+      "reviewed_false_candidates_selected": 4,
+      "reviewed_false_candidates_total": 4,
+      "retained_ball_candidate_ids": "1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A",
+      "selected_false_candidate_ids": "1090:A;1091:A;1092:A;1093:A",
+      "missed_ball_candidate_ids": "1091:B",
+      "unreviewed_candidate_selections_in_scored_window": 0,
+      "qualifies_for_adoption": 0
+    },
+    {
+      "policy": "backward_nearest",
+      "reviewed_ball_candidates_retained": 8,
+      "reviewed_ball_candidates_total": 8,
+      "reviewed_false_candidates_selected": 3,
+      "reviewed_false_candidates_total": 4,
+      "retained_ball_candidate_ids": "1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A;1091:B",
+      "selected_false_candidate_ids": "1090:A;1092:A;1093:A",
+      "missed_ball_candidate_ids": "",
+      "unreviewed_candidate_selections_in_scored_window": 0,
+      "qualifies_for_adoption": 0
+    },
+    {
+      "policy": "two_direction_agreement",
+      "reviewed_ball_candidates_retained": 7,
+      "reviewed_ball_candidates_total": 8,
+      "reviewed_false_candidates_selected": 3,
+      "reviewed_false_candidates_total": 4,
+      "retained_ball_candidate_ids": "1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A",
+      "selected_false_candidate_ids": "1090:A;1092:A;1093:A",
+      "missed_ball_candidate_ids": "1091:B",
+      "unreviewed_candidate_selections_in_scored_window": 0,
+      "qualifies_for_adoption": 0
+    },
+    {
+      "policy": "velocity_gate",
+      "reviewed_ball_candidates_retained": 8,
+      "reviewed_ball_candidates_total": 8,
+      "reviewed_false_candidates_selected": 2,
+      "reviewed_false_candidates_total": 4,
+      "retained_ball_candidate_ids": "1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A;1091:B",
+      "selected_false_candidate_ids": "1092:A;1093:A",
+      "missed_ball_candidate_ids": "",
+      "unreviewed_candidate_selections_in_scored_window": 0,
+      "qualifies_for_adoption": 0
+    }
+  ],
+  "counterexample1092": {
+    "candidate": "1092:A",
+    "review_label": "user_confirmed_is_not_ball",
+    "preceding_confirmed_ball": "1091:B",
+    "preceding_distance_px": 4.083180055262674,
+    "velocity_gate_selected": true,
+    "velocity_context": {
+      "last_observation_frame": 1091,
+      "prediction_xy": [
+        766.6158418342843,
+        547.2492051282837
+      ],
+      "gate_px": 20.0,
+      "nearest_residual_px": 3.9093034486149807,
+      "decision": "observed_candidate_selected"
+    },
+    "warning": "Motion prediction is a candidate-association aid; passing its gate is not evidence that the object is a ball."
+  },
+  "conclusion": "Do not globally filter, interpolate, or select solely by peak/position/velocity. Existing local reviewed corrections remain authoritative.",
+  "next": "Before adding more local rules, compare object appearance and heatmap shape on the exact reviewed true/false cases. Separate detector evidence from trajectory association and retain an abstain state.",
+  "scope": "Retrospective development failure check on one selected rally, not an independent accuracy evaluation"
+}

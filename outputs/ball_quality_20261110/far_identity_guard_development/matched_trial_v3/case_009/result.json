@@ -1,0 +1,10 @@
+{
+  "tag": "009",
+  "baseline_far_observations": 1625,
+  "far_observations": 1625,
+  "removed_baseline_boxes": 0,
+  "added_boxes": 0,
+  "path_cost": 979.3659093477268,
+  "same_output_as_baseline": true,
+  "candidate_ID_bindings": false
+}

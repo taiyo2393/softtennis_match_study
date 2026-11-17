@@ -1,0 +1,22 @@
+{
+  "selection": "Review around large native-pixel steps and short one-frame reversals. This is a selected error audit, not a whole-rally accuracy sample.",
+  "groups": [
+    {"point": 4, "frames": [16788, 16789, 16790, 16791, 16794, 16795], "reason": "racket_head", "evidence": "continuity_context_F16788.jpg"},
+    {"point": 4, "frames": [16824, 16826, 16828, 16829, 16830, 16831, 16832], "reason": "racket_head", "evidence": "continuity_context_F16820.jpg"},
+    {"point": 4, "frames": [17136], "reason": "off_trajectory_background_candidate", "evidence": "spike_context_F17136.jpg"},
+    {"point": 5, "frames": [18723], "reason": "off_trajectory_spectator_side_candidate", "evidence": "spike_context_F18723.jpg"},
+    {"point": 5, "frames": [18895], "reason": "off_trajectory_spectator_side_candidate", "evidence": "spike_context_F18895.jpg"},
+    {"point": 5, "frames": [18947], "reason": "off_trajectory_object_near_far_player", "evidence": "spike_context_F18947.jpg"},
+    {"point": 5, "frames": [18989], "reason": "racket_or_sign_candidate", "evidence": "spike_context_F18989.jpg"},
+    {"point": 6, "frames": [20883], "reason": "racket_head", "evidence": "spike_context_F20883.jpg"},
+    {"point": 6, "frames": [20930], "reason": "off_trajectory_object_near_far_player", "evidence": "spike_context_F20930.jpg"},
+    {"point": 6, "frames": [21211], "reason": "racket_head", "evidence": "spike_context_F21211.jpg"},
+    {"point": 6, "frames": [21396], "reason": "scene_transition_off_trajectory_candidate", "evidence": "continuity_context_F21390.jpg"}
+  ],
+  "retained_counterexample": {
+    "point": 4,
+    "source_frame": 16825,
+    "evidence": "continuity_context_F16820.jpg",
+    "reason": "The model position follows the ball-shaped streak even though the two neighboring detector positions are both on the racket."
+  }
+}

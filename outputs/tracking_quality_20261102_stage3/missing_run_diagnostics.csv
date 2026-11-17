@@ -1,0 +1,10 @@
+﻿tag,player_slot,start_frame,end_frame,frames,duration_sec,last_raw_id,same_raw_id_present_frames,exceeds_90_frame_reactivation_limit,interpretation
+002,near_rear,2370,2451,82,1.3680333333333334,2,0,False,assignment_gap_not_ground_truth_error
+002,far_front,2290,2296,7,0.11678333333333334,4,7,False,assignment_gap_not_ground_truth_error
+002,far_front,2394,2577,184,3.069733333333333,1000003,0,True,assignment_gap_not_ground_truth_error
+048,far_rear,126181,126201,21,0.35035,1000004,0,False,assignment_gap_not_ground_truth_error
+048,far_rear,126209,126211,3,0.050050000000000004,1000484,2,False,assignment_gap_not_ground_truth_error
+048,far_rear,126213,126758,546,9.1091,1000496,0,True,assignment_gap_not_ground_truth_error
+048,far_front,126239,126249,11,0.18351666666666666,2,0,False,assignment_gap_not_ground_truth_error
+048,far_front,126601,126613,13,0.21688333333333334,1000516,0,False,assignment_gap_not_ground_truth_error
+048,far_front,126667,126675,9,0.15015,100,0,False,assignment_gap_not_ground_truth_error

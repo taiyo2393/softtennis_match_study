@@ -1,0 +1,23 @@
+{
+  "prior_publication_files_unchanged": 63,
+  "changed_display_frames": [
+    154780
+  ],
+  "all_other400rows_exact": true,
+  "original_observation_fields_retained": true,
+  "estimated21positions_unchanged": true,
+  "all_player_stroke_bounce_route_tables_exact": true,
+  "display_counts": {
+    "missing": 47,
+    "observed_assisted": 333,
+    "estimated": 21
+  },
+  "reviewed_candidate_rejections": 1,
+  "new_true_ball_centers": 0,
+  "ball_absence_labels_created": 0,
+  "replacement_positions_created": 0,
+  "video_source_map_exact": true,
+  "video_frames_decoded": 401,
+  "frame154780_not_used_in_existing_bounce_fits": true,
+  "independent_automatic_accuracy_not_established": true
+}

@@ -1,0 +1,3 @@
+﻿start_utc,end_utc,captured_ms,wall_ms,close_kind,reason
+2026-11-09T14:04:01.119153+00:00,2026-11-09T14:04:50.388003+00:00,49266,49269,pause,window_blur
+2026-11-09T14:05:02.300911+00:00,2026-11-09T14:15:36.045374+00:00,633735,633744,pause,all_targets_completed

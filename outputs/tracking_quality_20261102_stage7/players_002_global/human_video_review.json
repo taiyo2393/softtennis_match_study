@@ -1,0 +1,8 @@
+{
+  "reviewer": "human_user",
+  "response": "合ってる",
+  "reviewed_artifact": "global_review_h264.mp4",
+  "status": "human_video_level_identity_confirmation",
+  "scope": "User confirmed F1/F2 correspondence in the displayed stage7 updated 002 video",
+  "limitations": "Video-level confirmation, not an independently annotated per-frame benchmark or position-accuracy measurement. Does not validate missing frames, other rallies, or stage6 002."
+}

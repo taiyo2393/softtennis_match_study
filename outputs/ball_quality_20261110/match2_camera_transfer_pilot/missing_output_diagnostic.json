@@ -1,0 +1,276 @@
+{
+  "after_initialization": [
+    {
+      "source_frame": 12506,
+      "missing_slots": [
+        "far_front"
+      ]
+    },
+    {
+      "source_frame": 12507,
+      "missing_slots": [
+        "far_front"
+      ]
+    }
+  ],
+  "initialization_wait_frames": [
+    12288,
+    12289,
+    12290,
+    12291,
+    12292,
+    12293,
+    12294
+  ],
+  "raw_detection_at_missing_frames": [
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "1",
+      "x1": "563.3553466796875",
+      "y1": "528.7888793945312",
+      "x2": "681.2030639648438",
+      "y2": "790.259765625",
+      "bottom_center_x": "622.2792053222656",
+      "bottom_center_y": "790.259765625",
+      "confidence": "0.9025552272796631",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "2",
+      "x1": "1166.5333251953125",
+      "y1": "507.8540954589844",
+      "x2": "1281.5054931640625",
+      "y2": "697.7411499023438",
+      "bottom_center_x": "1224.0194091796875",
+      "bottom_center_y": "697.7411499023438",
+      "confidence": "0.9166600108146667",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "3",
+      "x1": "1730.574951171875",
+      "y1": "477.3849182128906",
+      "x2": "1799.9378662109375",
+      "y2": "645.59716796875",
+      "bottom_center_x": "1765.2564086914062",
+      "bottom_center_y": "645.59716796875",
+      "confidence": "0.7123329639434814",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "5",
+      "x1": "886.9921875",
+      "y1": "462.5430908203125",
+      "x2": "954.0838623046875",
+      "y2": "576.8427734375",
+      "bottom_center_x": "920.5380249023438",
+      "bottom_center_y": "576.8427734375",
+      "confidence": "0.9156204462051392",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "6",
+      "x1": "628.3279418945312",
+      "y1": "439.0397644042969",
+      "x2": "649.7537231445312",
+      "y2": "510.7039794921875",
+      "bottom_center_x": "639.0408325195312",
+      "bottom_center_y": "510.7039794921875",
+      "confidence": "0.7552650570869446",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "7",
+      "x1": "1277.32861328125",
+      "y1": "443.9127502441406",
+      "x2": "1299.0081787109375",
+      "y2": "514.9259643554688",
+      "bottom_center_x": "1288.1683959960938",
+      "bottom_center_y": "514.9259643554688",
+      "confidence": "0.7606249451637268",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "8",
+      "x1": "1535.706298828125",
+      "y1": "468.91693115234375",
+      "x2": "1575.603515625",
+      "y2": "540.0634155273438",
+      "bottom_center_x": "1555.6549072265625",
+      "bottom_center_y": "540.0634155273438",
+      "confidence": "0.7316027283668518",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "9",
+      "x1": "1492.2415771484375",
+      "y1": "446.1415100097656",
+      "x2": "1512.90087890625",
+      "y2": "492.763671875",
+      "bottom_center_x": "1502.5712280273438",
+      "bottom_center_y": "492.763671875",
+      "confidence": "0.6116805672645569",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12506",
+      "timestamp_sec": "208.64176666666665",
+      "track_id": "10",
+      "x1": "299.06890869140625",
+      "y1": "361.17462158203125",
+      "x2": "362.54132080078125",
+      "y2": "465.2035217285156",
+      "bottom_center_x": "330.80511474609375",
+      "bottom_center_y": "465.2035217285156",
+      "confidence": "0.39707064628601074",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "1",
+      "x1": "568.198486328125",
+      "y1": "531.3916015625",
+      "x2": "683.5653686523438",
+      "y2": "791.1717529296875",
+      "bottom_center_x": "625.8819274902344",
+      "bottom_center_y": "791.1717529296875",
+      "confidence": "0.9086583852767944",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "2",
+      "x1": "1165.99609375",
+      "y1": "505.2756042480469",
+      "x2": "1280.289306640625",
+      "y2": "694.4432373046875",
+      "bottom_center_x": "1223.1427001953125",
+      "bottom_center_y": "694.4432373046875",
+      "confidence": "0.9213255047798157",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "3",
+      "x1": "1723.97265625",
+      "y1": "476.73614501953125",
+      "x2": "1794.4658203125",
+      "y2": "645.2993774414062",
+      "bottom_center_x": "1759.21923828125",
+      "bottom_center_y": "645.2993774414062",
+      "confidence": "0.7937182188034058",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "5",
+      "x1": "887.426513671875",
+      "y1": "462.46136474609375",
+      "x2": "954.7529296875",
+      "y2": "576.6023559570312",
+      "bottom_center_x": "921.0897216796875",
+      "bottom_center_y": "576.6023559570312",
+      "confidence": "0.9134207963943481",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "6",
+      "x1": "628.3248291015625",
+      "y1": "439.0229187011719",
+      "x2": "649.7404174804688",
+      "y2": "510.7139892578125",
+      "bottom_center_x": "639.0326232910156",
+      "bottom_center_y": "510.7139892578125",
+      "confidence": "0.7516873478889465",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "7",
+      "x1": "1277.2652587890625",
+      "y1": "443.9933166503906",
+      "x2": "1299.00390625",
+      "y2": "514.9033813476562",
+      "bottom_center_x": "1288.1345825195312",
+      "bottom_center_y": "514.9033813476562",
+      "confidence": "0.7605100274085999",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "8",
+      "x1": "1535.673828125",
+      "y1": "468.9141540527344",
+      "x2": "1575.58154296875",
+      "y2": "540.07177734375",
+      "bottom_center_x": "1555.627685546875",
+      "bottom_center_y": "540.07177734375",
+      "confidence": "0.7293413281440735",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "9",
+      "x1": "1492.23388671875",
+      "y1": "446.1451416015625",
+      "x2": "1512.889892578125",
+      "y2": "492.7740478515625",
+      "bottom_center_x": "1502.5618896484375",
+      "bottom_center_y": "492.7740478515625",
+      "confidence": "0.6122307181358337",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "10",
+      "x1": "299.03302001953125",
+      "y1": "361.1072998046875",
+      "x2": "362.5429992675781",
+      "y2": "465.1489562988281",
+      "bottom_center_x": "330.7880096435547",
+      "bottom_center_y": "465.1489562988281",
+      "confidence": "0.3910232186317444",
+      "candidate_origin": "full_frame_only"
+    },
+    {
+      "source_frame": "12507",
+      "timestamp_sec": "208.65845",
+      "track_id": "11",
+      "x1": "1272.00439453125",
+      "y1": "382.0392150878906",
+      "x2": "1295.7645263671875",
+      "y2": "411.1680908203125",
+      "bottom_center_x": "1283.8844604492188",
+      "bottom_center_y": "411.1680908203125",
+      "confidence": "0.2508297264575958",
+      "candidate_origin": "full_frame_only"
+    }
+  ],
+  "new_ID_or_position_imputation": false,
+  "independent_reason_label": false
+}

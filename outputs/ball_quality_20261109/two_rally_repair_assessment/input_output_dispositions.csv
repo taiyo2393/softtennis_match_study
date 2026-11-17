@@ -1,0 +1,12 @@
+﻿rally,input_output_present,decision,times
+044,0,correct_center,22
+044,0,not_visible,33
+044,1,accept_prediction,135
+044,1,correct_center,1
+044,1,not_visible,4
+044,1,existing_manual_center,6
+056,0,correct_center,97
+056,0,not_visible,38
+056,1,accept_prediction,225
+056,1,correct_center,12
+056,1,not_visible,4

@@ -1,0 +1,1 @@
+背中向きの身体も扱う位置注意の診断版。肩腰で胴体を作り、頭部円には鼻の確信度を要求。元IDは保持し、位置マスクは未採用。正式入力にはモデル足首を追加しない。全固定時点の別表は各caseのfixed_prefix_position_support_complete.csv。親README.md参照。

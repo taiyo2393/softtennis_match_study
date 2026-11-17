@@ -1,0 +1,25 @@
+{
+  "reviewer": "Codex AI saved diagnostic image inspection",
+  "first_trial_images_inspected": 29,
+  "v3_images_inspected": 11,
+  "selection": "All nine changed rows in final trial plus both retained known failure/ambiguity probes; first trial longest removed runs and all new additions were also inspected.",
+  "observations": "Broad per-frame color veto removes visibly correct players in controls. Narrow unstable-tracklet veto preserves8/9 complete control paths, but loses016 actual-server frames40625/40626 and019 visible server fragment46352.019 official/contaminated boxes46501/46502/46503/46505 and near-player F2 boxes46665/46666 become missing. Mixed boxes46511 and46634 remain. No newly created coordinates in narrow trial.",
+  "prior_AI_probes_rejected_source_frames": [
+    46501,
+    46503,
+    46505,
+    46665,
+    46666
+  ],
+  "newly_inspected_extra_official_row_rejected": 46502,
+  "known_or_ambiguous_remaining_source_frames": [
+    46511,
+    46634
+  ],
+  "individual_ID_binding": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "model_predictions_not_used_as_human_GT": true,
+  "not_an_accuracy_estimate": true,
+  "not_all_rows_or_all_clips_independently_annotated": true,
+  "comparison_video_includes_true_player_loss": true
+}

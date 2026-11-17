@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "annotations\\match1_hitter_identity_review.csv": "3e698ebb475835b8fe792dc8d77e4d2ae510766962969b6348c56d814868efd1",
+    "analysis\\match1_court_plane_directional_motion_t0p015_event_timepoints.csv": "84fedfe1293cadb6a8fac1b5550f6696149553e9799a9a33d402276a70ed6658"
+  },
+  "selection": "User-approved original rear hitters H1 and H2; H3/H4 retained separately.",
+  "movement_threshold_court_width": 0.015,
+  "preceding_window_seconds": 0.1,
+  "main_unique_events": 80,
+  "secondary_unique_events": 18,
+  "common_directional_events_minus02_minus01": 8,
+  "interpretation": "Directional agreement conditional on classifiable displacement; not poach success, conscious prediction accuracy, or optimal onset timing."
+}

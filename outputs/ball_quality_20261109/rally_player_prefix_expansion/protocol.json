@@ -1,0 +1,115 @@
+{
+  "status": "fixed_before_feature_extraction",
+  "date_jst": "2026-11-09",
+  "anchors": {
+    "002": {
+      "first": 2223,
+      "last": 2229,
+      "stratum": "ai_service_sequence",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\six_service_contact_brackets.csv",
+      "evidence": "002_effective_service_fine_grid.jpg",
+      "validity": "AI sequence supported; human validity pending",
+      "end_first": null
+    },
+    "003": {
+      "first": 4201,
+      "last": 4223,
+      "stratum": "ai_service_sequence",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\six_service_contact_brackets.csv",
+      "evidence": "003_effective_service_fine_grid.jpg",
+      "validity": "AI sequence supported; human validity pending",
+      "end_first": null
+    },
+    "005": {
+      "first": 8607,
+      "last": 8618,
+      "stratum": "ai_service_sequence",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\six_service_contact_brackets.csv",
+      "evidence": "005_effective_service_fine_grid.jpg",
+      "validity": "AI sequence supported; human validity pending",
+      "end_first": null
+    },
+    "007": {
+      "first": 15552,
+      "last": 15563,
+      "stratum": "ai_service_sequence",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\six_service_contact_brackets.csv",
+      "evidence": "007_effective_service_fine_grid.jpg",
+      "validity": "AI sequence supported; human validity pending",
+      "end_first": null
+    },
+    "025": {
+      "first": 59976,
+      "last": 59976,
+      "stratum": "legacy_manual_contact",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\rally_label_review.csv",
+      "evidence": "reviewed_serve_impact_sec; legacy_start_method=manual_valid_serve_impact; historical snapshot script uses round(sec*60000/1001)",
+      "validity": "Legacy manual impact record reused; effective validity and precision not independently reverified",
+      "end_first": null
+    },
+    "044": {
+      "first": 115365,
+      "last": 115373,
+      "stratum": "human_valid_service_ai_timing",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\play_start_audit\\044_scope_report.json",
+      "evidence": "Human valid second serve; AI contact/end brackets",
+      "validity": "Human confirmed valid second serve; exact contact pending",
+      "end_first": 115776
+    },
+    "048": {
+      "first": 125859,
+      "last": 125881,
+      "stratum": "ai_service_sequence",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\048_selected_position_candidates.csv",
+      "evidence": "048_revised_contact_detail.jpg;048_refined_anchor_person_candidates.jpg",
+      "validity": "AI revised service bracket; human validity pending",
+      "end_first": null
+    },
+    "056": {
+      "first": 154081,
+      "last": 154086,
+      "stratum": "human_valid_service_ai_timing",
+      "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\protocol.json",
+      "evidence": "Human valid opening serve; inherited broad contact/end brackets retained",
+      "validity": "Human confirmed valid opening serve; exact contact pending",
+      "end_first": 154840
+    }
+  },
+  "selection": "All eight inventoried candidates with existing human winner-side labels and continuous player exports. Convenience sample of one match; not outcome-blind or population representative.",
+  "sampling": "t0=last inherited possible contact frame+30;31 requested times at stride2 through t0+60. Never move to first/best tracked frame. Legacy025 nominal rounded timestamp has no established uncertainty interval.",
+  "relation_to_previous_prototype": "New common 0.5-to-1.5-second post-contact window, not the previous044/056 immediate post-contact window. Older outputs remain unchanged.",
+  "timing": "~0.5005sec after last possible contact to ~1.5015sec after it. Actual contact-relative timing varies with bracket width. All contact brackets remain provisional.",
+  "representations": "Eight normalized image-coordinate pair centroid/absolute-gap features; bbox-bottom proxies, not metres/true feet. Missing pairs remain blank. Snapshot=last requested time; summary uses requested window only.",
+  "temporal_sensitivity": "Repeat deterministic construction at every integer contact in inherited bracket, plus30. This is an uncertainty diagnostic, not independent repeats or temporal GT. Do not choose best availability. Legacy025 precision remains unknown.",
+  "phase_and_future": "Only044/056 have inherited early point-end brackets checked here; other six are provisional service-aligned candidate inputs, not confirmed pre-outcome samples. No camera-exit/score-update time substitutes for point end. Underlying tracking may use future observations, so all processing is offline.",
+  "feature_isolation": "Outcomes, source frame, absolute time, group, anchor status, paths, whole-rally duration and coverage are metadata only. No model or outcome association is fitted.",
+  "ball": "No new ball positions or labels; ball comparison still limited to two same-outcome assisted examples. Do not encode missing ball datasets as physical absence.",
+  "label_provenance": "Existing latest human camera-side labels, including025 near correction; team labels not independently confirmed. Pair swapping cannot fix wrong-person/wrong-side assignments.",
+  "split": "One candidate per row; preserve point groups and match grouping. Eight rows are not independent frames or sufficient external performance evidence.",
+  "no_new_human_annotation": true,
+  "canonical_tracking_changed": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\play_start_audit\\044_scope_report.json": "2fa952b6480af2ab9b21de172831d7c3e82276903d13b4566ad85137d64e0aa6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\048_selected_position_candidates.csv": "d2a6c2cce3517511fe525a59dddf3c932e318d7e9e05041940b313454a2cdfbe",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_048_temporal\\four_player_path.csv": "8ca0e22798791da12e46e422801d3119cfe460c3d9465ff7573456cf23ad60aa",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\detect_additional_labeled_snapshots.py": "22708a89b88d0f47481074661aacf31552321c567a7b5a16a7bd601ea55f4899",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_002_temporal\\four_player_path.csv": "6eb932307499f82960a618b862bf85e9ba9802ef2710f6f17170bd52200c65b0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_025_global\\far_pair_path.csv": "9028e977dfbe6828bd23bc15f5628277bb4ff25b19a8e1add73d008374e8a671",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\candidate_point_group_map.csv": "f15291f31014e5142bb3f9b10d44808fe35cd1fffa597ebf461e0b6310703c6c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\six_service_contact_brackets.csv": "1ffd0ec46fff000ea5552a0340b1cf3bae49fe69393949a82c68137a00ab3e95",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\human_review_log.csv": "b97ed8d251fdbb1a2d522747e91ca43f4804ea10e071cf35dd0fbef9b1a0d9d6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage4\\players_025_temporal\\selected_four.csv": "aaaa7a0d4426441d30eacedc94e0ce1a832288c6b5863415cf5dc4f82ef1c0f6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\players_056_appearance_motion_guarded\\selected_four.csv": "c652de9043376b340eaafe3f1ea0d4dac669e2cd598ec8c46b0c7b707a81cc13",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_007_temporal\\four_player_path.csv": "a17f074e8891da06c90347cc21310559df19e3afdb8647286908122655a0676f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_003_temporal\\four_player_path.csv": "080c64b44bf5d17bd2d0c33f0ad8cc6a8cf9d712bd5190816fdad6cfd0f5bdf3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\observed_player_paths.csv": "55f4ffdbfea897a1df679ff11ac12a383fae370f8d2853ea73d4ac4070ec8b42",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\protocol.json": "c5b1b8b4d0bcf896bf9e0376f02652e36ef664c2955ac509f290ff2158b25513",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\rally_label_review.csv": "4ed13dd37b790eeb200ac675f84f453c83fdae5dbb8eff84af1590e8b221fe21",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_analysis_prototype\\existing_rally_inventory.csv": "37aec5e0b0d0ce3afe29885ee739b98629e7422e2f9fd0f370a8cac13b78019f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_005_temporal\\four_player_path.csv": "8e0c6489832904d78d776374b05c3a5db19a99c09525bc17e01f269d7514a3b5"
+  },
+  "script_sha256": "c7cfcc952b61a6d6e0852a0abb0540c8a0eb3c945341a8c07fe11cdf26ec3773"
+}

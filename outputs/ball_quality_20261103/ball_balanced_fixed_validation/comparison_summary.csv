@@ -1,0 +1,5 @@
+﻿role,frames,correct_before,correct_after,errors_before,errors_after,correct_lost,correct_gained
+validation,120,81,82,2,2,0,1
+challenge,4,4,4,0,0,0,0
+short_sequence,26,26,26,0,0,0,0
+audit,60,35,34,4,4,1,0

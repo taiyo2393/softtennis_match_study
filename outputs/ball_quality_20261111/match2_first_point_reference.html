@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>match2 第1点の球位置</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0 auto; padding: 18px; max-width: 1320px; color: #e9f1f5; background: #101b25; font: 16px/1.5 system-ui, sans-serif; }
+  h1 { margin: 0; font-size: 23px; }
+  p { margin: 8px 0; }
+  .bar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 9px 0; }
+  button, select { padding: 8px 12px; border-radius: 7px; border: 1px solid #698496; color: inherit; background: #243c50; font: inherit; }
+  button:enabled, select { cursor: pointer; }
+  button:disabled { opacity: .55; }
+  #save { background: #17644f; }
+  #viewer { overflow: auto; max-height: 69vh; border: 1px solid #40586b; background: #091119; }
+  canvas { width: min(100%, calc(68vh * 16 / 9)); height: auto; display: block; cursor: crosshair; }
+  canvas.zoom { width: 200%; }
+  #message { color: #ffe29c; min-height: 24px; }
+</style>
+<h1>match2 第1点の球位置</h1>
+<p>球が見えたら中心をクリックし、保存して次へ進んでください。見づらいときは拡大できます。</p>
+<div class="bar">
+  <label>元フレーム <select id="jump" aria-label="元フレーム"></select></label>
+  <span id="progress"></span>
+  <button id="zoom" type="button">2倍表示</button>
+</div>
+<div id="viewer"><canvas id="canvas" width="1920" height="1080" tabindex="0" aria-label="球中心をクリックする画像"></canvas></div>
+<div class="bar">
+  <button id="save" type="button" disabled>中心を保存して次へ</button>
+  <button id="invisible" type="button" disabled>見えない</button>
+  <button id="uncertain" type="button" disabled>判断できない</button>
+</div>
+<p id="message" role="status"></p>
+<script>
+  'use strict';
+  const el = id => document.getElementById(id);
+  const canvas = el('canvas');
+  const ctx = canvas.getContext('2d');
+  let cases = [], index = 0, picture = null, point = null, loading = 0, dirty = false, saving = false;
+
+  function paint() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    if (picture) ctx.drawImage(picture, 0, 0);
+    if (!point) return;
+    ctx.beginPath();
+    ctx.arc(point.x, point.y, 10, 0, Math.PI * 2);
+    ctx.lineWidth = 4; ctx.strokeStyle = '#101b25'; ctx.stroke();
+    ctx.lineWidth = 2; ctx.strokeStyle = '#49ecb2'; ctx.stroke();
+  }
+
+  function buttons() {
+    el('save').disabled = saving || !picture || !point;
+    el('invisible').disabled = saving || !picture;
+    el('uncertain').disabled = saving || !picture;
+    el('jump').disabled = saving;
+  }
+
+  function show() {
+    const current = cases[index];
+    const request = ++loading;
+    const done = cases.filter(row => row.truth_visibility).length;
+    el('jump').replaceChildren(...cases.map((row, i) => new Option(
+      `F${row.source_frame}${row.truth_visibility ? ' ✓' : ''}`, i)));
+    el('jump').value = index;
+    el('progress').textContent = `保存済み ${done} / ${cases.length}`;
+    el('message').textContent = done === cases.length ? 'すべて保存しました。チャットで「終わった」と伝えてください。' : '';
+    point = current.truth_visibility === 'visible' ? {x: Number(current.truth_x_px), y: Number(current.truth_y_px)} : null;
+    picture = null;
+    dirty = false;
+    paint(); buttons();
+    const image = new Image();
+    image.onload = () => {
+      if (request !== loading) return;
+      if (image.naturalWidth !== canvas.width || image.naturalHeight !== canvas.height) {
+        el('message').textContent = '画像の寸法が一致しません。'; return;
+      }
+      picture = image; paint(); buttons();
+    };
+    image.onerror = () => { if (request === loading) el('message').textContent = '画像を読み込めませんでした。'; };
+    image.src = `image/${current.source_frame}.png`;
+  }
+
+  canvas.onclick = event => {
+    if (!picture || saving) return;
+    const rect = canvas.getBoundingClientRect();
+    point = {
+      x: Math.max(0, Math.min(1919, Math.round((event.clientX - rect.left) * 1920 / rect.width))),
+      y: Math.max(0, Math.min(1079, Math.round((event.clientY - rect.top) * 1080 / rect.height)))
+    };
+    dirty = true; paint(); buttons();
+    el('message').textContent = '球中心を指定しました。';
+  };
+  el('zoom').onclick = () => {
+    const zoomed = canvas.classList.toggle('zoom');
+    el('zoom').textContent = zoomed ? '全体表示' : '2倍表示';
+    el('viewer').scrollLeft = zoomed ? (canvas.clientWidth - el('viewer').clientWidth) / 2 : 0;
+  };
+  el('jump').onchange = () => {
+    if (dirty && !confirm('未保存の球中心があります。移動しますか？')) {
+      el('jump').value = index; return;
+    }
+    index = Number(el('jump').value); show();
+  };
+
+  async function save(visibility) {
+    if (saving || !picture || (visibility === 'visible' && !point)) return;
+    saving = true; buttons();
+    try {
+      const response = await fetch('api/save', {method: 'POST', headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({case_id: cases[index].source_frame, truth_visibility: visibility, x: point?.x, y: point?.y})});
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || '保存できませんでした。');
+      cases = result.cases;
+      const following = cases.findIndex((row, i) => i > index && !row.truth_visibility);
+      const pending = cases.findIndex(row => !row.truth_visibility);
+      if (following >= 0) index = following;
+      else if (pending >= 0) index = pending;
+      show();
+    } catch (error) {
+      el('message').textContent = error.message;
+    } finally {
+      saving = false; buttons();
+    }
+  }
+  el('save').onclick = () => save('visible');
+  el('invisible').onclick = () => save('not_visible');
+  el('uncertain').onclick = () => save('uncertain');
+  window.addEventListener('beforeunload', event => { if (dirty) event.preventDefault(); });
+  fetch('api/cases').then(response => {
+    if (!response.ok) throw new Error('確認データを読み込めませんでした。');
+    return response.json();
+  }).then(result => {
+    cases = result.cases;
+    index = Math.max(0, cases.findIndex(row => !row.truth_visibility)); show();
+  }).catch(error => { el('message').textContent = error.message; });
+</script>
+</html>

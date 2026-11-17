@@ -1,0 +1,159 @@
+{
+  "diagnostics": [
+    {
+      "candidate_id": "match1_motion_pilot_001",
+      "local_frame": 390,
+      "reason": "unsupported_excursion",
+      "error_px": 459.6976478487157,
+      "model_points": 16,
+      "support_before": 3,
+      "support_after": 13
+    },
+    {
+      "candidate_id": "match1_motion_pilot_002",
+      "local_frame": 318,
+      "reason": "unsupported_excursion",
+      "error_px": 739.9647054462276,
+      "model_points": 20,
+      "support_before": 8,
+      "support_after": 12
+    },
+    {
+      "candidate_id": "match1_motion_pilot_004",
+      "local_frame": 313,
+      "reason": "unsupported_excursion",
+      "error_px": 791.7204557165363,
+      "model_points": 28,
+      "support_before": 10,
+      "support_after": 18
+    },
+    {
+      "candidate_id": "match1_motion_pilot_005",
+      "local_frame": 279,
+      "reason": "unsupported_excursion",
+      "error_px": 392.36839651006756,
+      "model_points": 37,
+      "support_before": 8,
+      "support_after": 29
+    },
+    {
+      "candidate_id": "match1_motion_pilot_006",
+      "local_frame": 884,
+      "reason": "unsupported_excursion",
+      "error_px": 1050.2423767626076,
+      "model_points": 30,
+      "support_before": 12,
+      "support_after": 18
+    },
+    {
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": 603,
+      "reason": "unsupported_excursion",
+      "error_px": 1075.2893889166608,
+      "model_points": 9,
+      "support_before": 2,
+      "support_after": 7
+    },
+    {
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": 633,
+      "reason": "unsupported_excursion",
+      "error_px": 681.1904399743623,
+      "model_points": 28,
+      "support_before": 2,
+      "support_after": 26
+    },
+    {
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": 635,
+      "reason": "unsupported_excursion",
+      "error_px": 661.4285262149333,
+      "model_points": 28,
+      "support_before": 3,
+      "support_after": 25
+    },
+    {
+      "candidate_id": "match1_motion_pilot_008",
+      "local_frame": 503,
+      "reason": "unsupported_excursion",
+      "error_px": 314.84145454214956,
+      "model_points": 39,
+      "support_before": 24,
+      "support_after": 15
+    },
+    {
+      "candidate_id": "match1_motion_pilot_008",
+      "local_frame": 1345,
+      "reason": "unsupported_excursion",
+      "error_px": 412.786679169762,
+      "model_points": 30,
+      "support_before": 2,
+      "support_after": 28
+    },
+    {
+      "candidate_id": "match1_motion_pilot_009",
+      "local_frame": 123,
+      "reason": "unsupported_excursion",
+      "error_px": 587.939740865413,
+      "model_points": 22,
+      "support_before": 6,
+      "support_after": 16
+    },
+    {
+      "candidate_id": "match1_motion_pilot_009",
+      "local_frame": 125,
+      "reason": "unsupported_excursion",
+      "error_px": 592.6180881032129,
+      "model_points": 23,
+      "support_before": 2,
+      "support_after": 21
+    },
+    {
+      "candidate_id": "match1_motion_pilot_009",
+      "local_frame": 379,
+      "reason": "unsupported_excursion",
+      "error_px": 213.33600096439227,
+      "model_points": 7,
+      "support_before": 5,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 262,
+      "reason": "unsupported_excursion",
+      "error_px": 542.8836276183825,
+      "model_points": 19,
+      "support_before": 7,
+      "support_after": 12
+    },
+    {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 362,
+      "reason": "unsupported_excursion",
+      "error_px": 310.17716960345405,
+      "model_points": 38,
+      "support_before": 29,
+      "support_after": 9
+    },
+    {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 1024,
+      "reason": "unsupported_excursion",
+      "error_px": 609.3819127243239,
+      "model_points": 9,
+      "support_before": 7,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 1026,
+      "reason": "unsupported_excursion",
+      "error_px": 628.0677741206667,
+      "model_points": 9,
+      "support_before": 7,
+      "support_after": 2
+    }
+  ],
+  "source": "Frozen radius128, camera off component",
+  "code_sha256": "02dc15ce22f931e169d9b9bb4af43b032bb2a0a3108e5bd31f2ababb533e6d0d"
+}

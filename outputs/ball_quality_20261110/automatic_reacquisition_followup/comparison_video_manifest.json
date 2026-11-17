@@ -1,0 +1,13 @@
+{
+  "first_source_frame": 27500,
+  "last_source_frame": 27740,
+  "frames": 241,
+  "each_panel": [
+    960,
+    540
+  ],
+  "left": "Original automatic output",
+  "right": "Confirmed-continuity experimental automatic output, no AI raw-ID binding",
+  "aspect_preserved": true,
+  "video_sha256": "9f99224f912b705fbc38e863020b7bf32d73139567ac9e923208702f4d8b5aba"
+}

@@ -1,0 +1,23 @@
+{
+  "next_candidate": "match1_rally_window_015",
+  "fixed_before_012_inspection": true,
+  "source_code": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\confirmed_continuity_guard.py",
+  "source_code_sha256": "72ea68f93575ded43cac6381b3ce045c8fae529c41be181157cd18854b72c4a3",
+  "comparison": "Retained baseline and follow-up use exactly same detections and fixed early time window. Determine contact proposal from raw video before tracking; do not move feature window for visibility.",
+  "manual_ID_binding": false,
+  "threshold_tuning_on_012": false,
+  "scope": "Next same-match transfer probe, not independent other-match accuracy validation.",
+  "retain_failures": true,
+  "canonical_adoption": "Not authorized by successful development probes alone; report individual known regressions and limits.",
+  "fixed_before_013_inspection": true,
+  "case012_result": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\automatic_reacquisition_transfer_012\\result.json",
+  "case012_result_sha256": "8052927c36791ccc299c40df70c118f73f0fa6e8d419fa18661a4e41c7750fd0",
+  "previous_case_interpretation": "No actual near-ID switch; stable-input nonregression only, not a new prevention success.",
+  "selection": "Next chronological pending group, retaining stable, ambiguous and failed cases. No selection for improved outputs only.",
+  "previous_transfer_result": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\automatic_reacquisition_transfer_014\\result.json",
+  "previous_transfer_result_sha256": "316f619ddaff26cc9d2e46164fa3533f08abedd0bcdfd711fe1dc32e80104df1",
+  "fixed_before_014_inspection": true,
+  "threshold_tuning_on_014": false,
+  "fixed_before_015_inspection": true,
+  "threshold_tuning_on_015": false
+}

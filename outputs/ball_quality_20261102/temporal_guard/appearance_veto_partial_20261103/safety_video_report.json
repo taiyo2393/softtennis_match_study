@@ -1,0 +1,27 @@
+[
+  {
+    "candidate_id": "match1_motion_pilot_002",
+    "start_frame": 298,
+    "end_frame": 338,
+    "targets": [
+      318
+    ],
+    "decoded_frames": 194,
+    "speed": 0.25,
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\appearance_veto_partial_20261103\\review_videos\\002_safety_slow.mp4",
+    "full_decode_verified": true
+  },
+  {
+    "candidate_id": "match1_motion_pilot_014",
+    "start_frame": 610,
+    "end_frame": 646,
+    "targets": [
+      626,
+      630
+    ],
+    "decoded_frames": 208,
+    "speed": 0.25,
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\appearance_veto_partial_20261103\\review_videos\\014_safety_slow.mp4",
+    "full_decode_verified": true
+  }
+]

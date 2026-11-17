@@ -1,0 +1,22 @@
+{
+  "modes": {
+    "resolution_only_legacy_gates": {
+      "initialized_frame": null,
+      "observations": 0,
+      "four_candidate_frames": 0,
+      "total_frames": 239,
+      "independent_accuracy_established": false
+    },
+    "court_mapped_camera_gates": {
+      "initialized_frame": 12295,
+      "observations": 926,
+      "four_candidate_frames": 230,
+      "total_frames": 239,
+      "independent_accuracy_established": false
+    }
+  },
+  "raw_native_boxes": 2556,
+  "source_clip_unchanged": true,
+  "method_or_threshold_tuning_after_match2_predictions": false,
+  "independent_accuracy_claim": false
+}

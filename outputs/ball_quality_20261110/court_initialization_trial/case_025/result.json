@@ -1,0 +1,64 @@
+{
+  "tag": "025",
+  "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+  "baseline_replay_exact": true,
+  "modes": {
+    "baseline": {
+      "initialized_frame": 60013,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 6,
+        "far_front": 4
+      },
+      "near_observations": 745,
+      "near_raw_ID_changes": 2,
+      "total_temporal_observations": 1730,
+      "removed_assignments": 0,
+      "added_assignments": 0
+    },
+    "court_seed_only": {
+      "initialized_frame": 60013,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 6,
+        "far_front": 4
+      },
+      "near_observations": 745,
+      "near_raw_ID_changes": 2,
+      "total_temporal_observations": 1730,
+      "removed_assignments": 0,
+      "added_assignments": 0
+    },
+    "old_guard": {
+      "initialized_frame": 60013,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 6,
+        "far_front": 4
+      },
+      "near_observations": 744,
+      "near_raw_ID_changes": 1,
+      "total_temporal_observations": 1729,
+      "removed_assignments": 1,
+      "added_assignments": 0
+    },
+    "court_seed_plus_old_guard": {
+      "initialized_frame": 60013,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 6,
+        "far_front": 4
+      },
+      "near_observations": 744,
+      "near_raw_ID_changes": 1,
+      "total_temporal_observations": 1729,
+      "removed_assignments": 1,
+      "added_assignments": 0
+    }
+  },
+  "independent_identity_accuracy_established": false
+}

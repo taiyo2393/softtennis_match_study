@@ -1,0 +1,152 @@
+[
+  {
+    "player_slot": "near_rear",
+    "before_source_frame": 27526,
+    "after_source_frame": 27652,
+    "missing_frames": 125,
+    "before_raw_id": "409",
+    "after_raw_id": "409",
+    "image_file": "gap_01_near_rear.jpg",
+    "source_frames": [
+      27514,
+      27526,
+      27589,
+      27652,
+      27658,
+      27664
+    ],
+    "constant_crop_xyxy": [
+      1787,
+      921,
+      2414,
+      1404
+    ],
+    "aspect_preserved": true,
+    "sha256": "def1e7c8c5bef0b0be43546d2403c3cc0159122296b081f4e41c59566277981b"
+  },
+  {
+    "player_slot": "near_rear",
+    "before_source_frame": 27854,
+    "after_source_frame": 27892,
+    "missing_frames": 37,
+    "before_raw_id": "409",
+    "after_raw_id": "409",
+    "image_file": "gap_02_near_rear.jpg",
+    "source_frames": [
+      27842,
+      27854,
+      27873,
+      27892,
+      27898,
+      27904
+    ],
+    "constant_crop_xyxy": [
+      2019,
+      949,
+      2610,
+      1405
+    ],
+    "aspect_preserved": true,
+    "sha256": "6f89a8dbe734fbf45b40307afebec942295897331e63188ca7b465047d1f8d97"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 28009,
+    "after_source_frame": 28271,
+    "missing_frames": 261,
+    "before_raw_id": "409",
+    "after_raw_id": "409",
+    "image_file": "gap_03_far_rear.jpg",
+    "source_frames": [
+      27997,
+      28009,
+      28140,
+      28271,
+      28277,
+      28283
+    ],
+    "constant_crop_xyxy": [
+      1478,
+      938,
+      2044,
+      1420
+    ],
+    "aspect_preserved": true,
+    "sha256": "84f034a93c5c399ea017e950bea74a4b63840d66e2cc976520935d90409f51ae"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 27658,
+    "after_source_frame": 27832,
+    "missing_frames": 173,
+    "before_raw_id": "409",
+    "after_raw_id": "409",
+    "image_file": "gap_04_far_rear.jpg",
+    "source_frames": [
+      27646,
+      27658,
+      27745,
+      27832,
+      27838,
+      27844
+    ],
+    "constant_crop_xyxy": [
+      1786,
+      912,
+      2526,
+      1403
+    ],
+    "aspect_preserved": true,
+    "sha256": "ebbef4eacc46606c717f5adb1f232da405b88a63323cb849d65cc296bb610ffc"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 27846,
+    "after_source_frame": 27899,
+    "missing_frames": 52,
+    "before_raw_id": "1000395",
+    "after_raw_id": "1000584",
+    "image_file": "gap_05_far_front.jpg",
+    "source_frames": [
+      27834,
+      27846,
+      27872,
+      27899,
+      27905,
+      27911
+    ],
+    "constant_crop_xyxy": [
+      1509,
+      921,
+      1975,
+      1345
+    ],
+    "aspect_preserved": true,
+    "sha256": "a872bd8c0deea9874d6458913aae948d08b3af6b4753a22c906d9a84c1de6847"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 27782,
+    "after_source_frame": 27811,
+    "missing_frames": 28,
+    "before_raw_id": "1000395",
+    "after_raw_id": "1000395",
+    "image_file": "gap_06_far_front.jpg",
+    "source_frames": [
+      27770,
+      27782,
+      27796,
+      27811,
+      27817,
+      27823
+    ],
+    "constant_crop_xyxy": [
+      1417,
+      938,
+      1906,
+      1346
+    ],
+    "aspect_preserved": true,
+    "sha256": "39193d80b3ccc396e69b1f53b44c1c921f18b067c5e8c394413610eae8baecb7"
+  }
+]

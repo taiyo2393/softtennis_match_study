@@ -1,0 +1,23 @@
+{
+  "status": "two_final_epoch3_models_frozen_before_evaluation",
+  "checkpoints": {
+    "positive_control": {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\positive_control_epoch03_delta.pth",
+      "sha256": "6f5f4e8077315dce922133e9cf939649a30e446aa2224f7aaf180f527ffea45e",
+      "epoch": 3,
+      "updates": 153,
+      "trainable_parameter_tensors": 8,
+      "frozen_state_unchanged": true
+    },
+    "point_negative": {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\point_negative_epoch03_delta.pth",
+      "sha256": "05cbc2f9d8737b945a9cd305333d03d494d62fdfdcbb7f4caf939a349caf327c",
+      "epoch": 3,
+      "updates": 153,
+      "trainable_parameter_tensors": 8,
+      "frozen_state_unchanged": true
+    }
+  },
+  "source_weight_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "protected_inputs_unchanged": true
+}

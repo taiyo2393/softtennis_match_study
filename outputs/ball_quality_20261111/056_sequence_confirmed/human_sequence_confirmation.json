@@ -1,0 +1,37 @@
+{
+  "recorded_on": "2026-11-11",
+  "rally": "056",
+  "user_message": "13打球の順番は合ってる．ボレーやスマッシュを打った後の球の軌道を追うのは難しい？",
+  "confirmation_quote": "13打球の順番は合ってる．",
+  "confirmed_scope": [
+    "displayed stroke count: 13",
+    "displayed hitter order"
+  ],
+  "hitter_order": [
+    "N2",
+    "F1",
+    "N1",
+    "F1",
+    "N1",
+    "F2",
+    "N2",
+    "F1",
+    "N2",
+    "F2",
+    "N1",
+    "F1",
+    "N1"
+  ],
+  "not_confirmed": [
+    "exact impact frames or intervals",
+    "shot types including volley/smash",
+    "ball centers, bounces or trajectories",
+    "continuous player identity accuracy"
+  ],
+  "review_method": "human confirmation after viewing model-assisted presentation; not blinded independent trajectory ground truth",
+  "reviewed_rallies": 1,
+  "review_actions": 1,
+  "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reviewed_exclusion_F154780\\056_transfer_bounces_and_routes.mp4",
+  "context_video_sha256": "22b8dcf0f14cb278af26b0f185b58b066d132f03f7f4c97129436614ddf7cefd",
+  "prior_wrong_candidate_exclusion_preserved": 154780
+}

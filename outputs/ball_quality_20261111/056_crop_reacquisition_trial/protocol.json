@@ -1,0 +1,63 @@
+{
+  "fixed_before_crop_heatmaps": true,
+  "crop_native_size": [
+    960,
+    540
+  ],
+  "cached_image_size": [
+    1920,
+    1080
+  ],
+  "model_input_size": [
+    512,
+    288
+  ],
+  "image_scale_change": "2x linear ball scale relative to full-image input. Crop context also changes; not a pure isolated resolution manipulation.",
+  "coordinates": "All returned centers mapped from crop512x288 to cached1920x1080 coordinates. Not original4K coordinates.",
+  "crop_center": "Search guide from other frames; fixed crop across all4frames and background for each target, bounded in image.",
+  "guides": "Gap endpoints include previous human clicks. Control guide excludes target coordinates but uses other reviewed frames, including future frames. Human-assisted offline development, not an autonomous independent test.",
+  "original_weight_inputs": "Same checkpoint, BGR, /255,4consecutiveframes plus same whole-context median, CUDA AMP. No training or threshold sweep.",
+  "primary_decoder": {
+    "candidate_threshold": 0.1,
+    "search_radius_native_px": 32.0,
+    "rule": "Same weak-component rule as prior trial: exactly1component center within fixed32px guide radius; otherwise abstain."
+  },
+  "diagnostic_decoder": "Original0.3 largest-bbox output shown only in diagnostic columns; not an alternative selected after results.",
+  "target_roles": {
+    "previously_unresolved_gap": 10,
+    "known_other_object_coordinate_diagnostic": 1,
+    "previously_ball_enclosing_candidate": 19
+  },
+  "controls": "19 previously ball-enclosing points: report coordinate displacement only, not pixel accuracy or new identity truth. One known other-object coordinate is not a full-frame negative label.",
+  "review_selection": "If candidates on missing targets exist, review at most4, uniformly spaced in chronological candidate list; retain ALL other candidates and failed targets.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\all_missing_frame_eligibility.csv": "21e13f84171f49a926d9849deac088384cd7d0067a2ceed6945b57738cdaaf07",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\all_weak_components.csv": "b514a0067ce6cfc21a33c377a74bd17346e54b865e5df067b24d7248328c6850",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\baseline_reproduction.csv": "ba0f64f43d49ee6171b85bb06c451e6bd8976d46597992c0f29f50889fb1f172",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\decision.json": "85f104dc568b23140a58a380d19d4cedcfb86deb64d709ed4e1f0b53d2e0c623",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\executed_finalize.py": "f056ba1c5c449c64cf98c4e9190c5386c295c34ece5c615714a690d4505b1dd0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\executed_trial.py": "e98557c00ccc38759ddce0d7c1e3e1ec7bbcb7d60da9eda506123670957c2daf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\failure_diagnostics.csv": "f77ef99f8f4cfd8bdefffec2e02e34050aec2dedd96effb710ab141e20ef8e7a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\full_heatmaps.npz": "68fb5b04a73c4bd04feba3599829e802417e138af5b5fae76f7a82b500760b71",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\proposed_candidates.csv": "6dee03d7de249089576250ce7f8559721deea14fb8592d43d41edc6a459fee7b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\protocol.json": "d7f059264224d632f5305dad20191c21383fa4fa1fb30afc51d7b37d1eb8ee42",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\README.md": "c9e98438d02cc02513c8288897c5a5bbb71404d104359050a98a52173d5e10f6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\result.json": "b0f8ad2b449f5bcee983b0dd6a9ff2ccc57140adf51affed9f890f7d5c3461b6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\source_images.json": "0515a337f2d3f8daddf9fbf6e1dce5c6d10282b0f9dbf5f939b2355319c90081",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_reacquisition_other_gaps\\verification.json": "06c9d12b269b05c843e8157f4adccafa169dcaf49a6826df22ec2031bba12e59",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_temporal_reacquisition_confirmed\\candidate_rows_with_confirmation.csv": "dfe413dbd244fde29be2f834775c0e7ce1562d7eccfb724d30d73e6ede323a6b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_temporal_reacquisition_confirmed\\executed_confirmation.py": "2d7c1248ce86f439f8262c86a6167cecf0fe31ce6e0d885a6277ab84904a620a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_temporal_reacquisition_confirmed\\human_candidate_confirmation.json": "6fe659876e18a472e823fe3cbce2501a4021e83d15c7ad03ed1dd80659dd23c7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_temporal_reacquisition_confirmed\\post_H13_ball_path_reviewed.csv": "95560d110422d3579ed57bc597c4507718df5b673d49db87da73b329ba3766aa",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_temporal_reacquisition_confirmed\\README.md": "314ea8dd568effb4c07885375737ff56b25cf9d6ef4a48f91cc8b9a4fda99887",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_temporal_reacquisition_confirmed\\verification.json": "f65e734cd1b3ebc6647eb9f95f77fa6e0a38b2ab2cb5ea6d60aafa504efe4a67",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\configs\\tracknetv3_base.py": "9afbcaa5b77c8234c28693773e1976abad4f1655baecac24835387c0c0c3dfae",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\median.npz": "f8e2edf7c93ebd8e9d5440596da1d8309fe0b3087432f16424210ea90e10539d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\baseline_all_frames.csv": "9bdd22a9489722e6c32c35979af64db6b752a457c675fafe4d4beb2ea726cb4b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\completed_review\\assisted_states_sampled.csv": "dca944ca14f4e8ca84ecd109559b40ab6a26ecf87e5752e1b4296be325c685dd",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\trial_056_crop_reacquisition.py": "e640a9464d3b9c5574837d012902adc3972fc594d850e36b99269d68d2a33a71"
+  },
+  "new_human_truth_generated": false,
+  "automatic_adoption": false
+}

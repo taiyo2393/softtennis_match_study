@@ -1,0 +1,191 @@
+{
+  "selection_fixed_before_new_reference_labels": true,
+  "rng": "Python random.Random(20261110),one requested time per sorted context,then fixed4 warning examples,then deterministic shuffle",
+  "uniform_samples": [
+    {
+      "tag": "002",
+      "source_frame": 2277,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "005",
+      "source_frame": 8688,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10546,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "009",
+      "source_frame": 21951,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "012",
+      "source_frame": 32108,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "015",
+      "source_frame": 38890,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "016",
+      "source_frame": 40715,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "017",
+      "source_frame": 42138,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "018",
+      "source_frame": 43884,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    },
+    {
+      "tag": "019",
+      "source_frame": 46418,
+      "selection": "Single rng.choice of the original31 requested times; no replacement for missing predictions or difficult images."
+    }
+  ],
+  "items": [
+    {
+      "tag": "005",
+      "source_frame": 8688,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P001"
+    },
+    {
+      "tag": "002",
+      "source_frame": 2277,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P002"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46418,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P003"
+    },
+    {
+      "tag": "017",
+      "source_frame": 42138,
+      "sampling_groups": [
+        "uniform_one_per_context",
+        "known_body_warning_challenge"
+      ],
+      "target_slot": "far_front",
+      "image_id": "P004"
+    },
+    {
+      "tag": "012",
+      "source_frame": 32108,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P005"
+    },
+    {
+      "tag": "002",
+      "source_frame": 2303,
+      "sampling_groups": [
+        "known_body_warning_challenge"
+      ],
+      "target_slot": "far_front",
+      "image_id": "P006"
+    },
+    {
+      "tag": "016",
+      "source_frame": 40715,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P007"
+    },
+    {
+      "tag": "009",
+      "source_frame": 21951,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P008"
+    },
+    {
+      "tag": "017",
+      "source_frame": 42132,
+      "sampling_groups": [
+        "known_body_warning_challenge"
+      ],
+      "target_slot": "far_front",
+      "image_id": "P009"
+    },
+    {
+      "tag": "018",
+      "source_frame": 43884,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P010"
+    },
+    {
+      "tag": "006",
+      "source_frame": 10546,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P011"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46396,
+      "sampling_groups": [
+        "known_body_warning_challenge"
+      ],
+      "target_slot": "far_rear",
+      "image_id": "P012"
+    },
+    {
+      "tag": "015",
+      "source_frame": 38890,
+      "sampling_groups": [
+        "uniform_one_per_context"
+      ],
+      "target_slot": null,
+      "image_id": "P013"
+    }
+  ],
+  "reference_slots": [
+    "near_left",
+    "near_right",
+    "far_left",
+    "far_right"
+  ],
+  "reference_definition": "Approximate image point at midpoint x between the two shoes and the lower shoe-bottom y, if those locations can be placed from the image. Jumping does not itself invalidate a visible shoe. Mark unplaceable/absent/uncertain instead of guessing hidden feet.",
+  "prediction_blinding": "Viewer serves original images and manual labels only; no model IDs, keypoints, quality flags, predictions or sampling groups exposed.",
+  "same_match_development": true,
+  "reviewer_may_have_seen_prior_examples": true,
+  "independent_reference_coordinates_pending": true,
+  "not_independent_match_test": true,
+  "primary_reporting": "Uniform10 contexts only, grouped by context and near/far side. Known-warning4 examples reported separately and never pooled into representative accuracy.",
+  "evaluation": "Within-side unordered point-set matching; report localization and pair arrangement error only when both reference positions and both predicted proxies exist. Report all incomplete/unplaceable/reference-missing denominators separately. No ID-continuity score, contact-time task, coordinate-error pass threshold, model fitting, outcome prediction or tactical-cause inference.",
+  "new_manual_labels_created": false
+}

@@ -1,0 +1,2 @@
+session_id,annotator_id,method,video_id,trial_set_id,started_at,ended_at,duration_sec,instructions_version,notes
+match1_manual_pilot_01,annotator_01,manual,match1,match1_ready_012,2026-09-10T19:01:25+09:00,,,v1,

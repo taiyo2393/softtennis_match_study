@@ -1,0 +1,129 @@
+{
+  "total_rows": 1240,
+  "requested_times": 310,
+  "before_initialization_times_explicitly_added": [
+    {
+      "tag": "006",
+      "source_frame": 10536,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10538,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10540,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10542,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10544,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10546,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10548,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10550,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10552,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10554,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10556,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10558,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10560,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10562,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10564,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10566,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10568,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10570,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10572,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    },
+    {
+      "tag": "006",
+      "source_frame": 10574,
+      "missing_native_identity_slots": 4,
+      "reason": "Fixed input time precedes retained four-person initialization; no pose identity or proxy substituted."
+    }
+  ],
+  "additional_missing_slot_rows": 80,
+  "original_partial_sidecar_files_retained": true,
+  "feature_values_changed": false
+}

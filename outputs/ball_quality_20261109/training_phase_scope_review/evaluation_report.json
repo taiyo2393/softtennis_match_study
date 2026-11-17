@@ -1,0 +1,103 @@
+{
+  "status": "all_training_phases_human_reviewed_comparison_complete",
+  "phase_counts": {
+    "play": 77,
+    "nonplay": 46
+  },
+  "mixed_phase_results_retained": [
+    {
+      "method": "current_temporal",
+      "correct16px": 66,
+      "errors": 4
+    },
+    {
+      "method": "native_missing_only",
+      "correct16px": 77,
+      "errors": 14
+    },
+    {
+      "method": "crossscale_agreement16",
+      "correct16px": 72,
+      "errors": 5
+    },
+    {
+      "method": "logistic10_oof",
+      "correct16px": 77,
+      "errors": 7
+    }
+  ],
+  "phase_conditional_totals": [
+    {
+      "method": "current_temporal",
+      "target_times": 123,
+      "play_visible": 68,
+      "play_not_observable": 9,
+      "correct16px": 52,
+      "wrong_position": 0,
+      "missing_visible_ball": 16,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 8,
+      "excluded_nonplay": 46,
+      "excluded_phase_uncertain": 0,
+      "pooled_visible_recall16px": 0.7647058823529411,
+      "macro_clip_recall16px": 0.772362012987013,
+      "clips_with_visible_play": 8
+    },
+    {
+      "method": "native_missing_only",
+      "target_times": 123,
+      "play_visible": 68,
+      "play_not_observable": 9,
+      "correct16px": 60,
+      "wrong_position": 1,
+      "missing_visible_ball": 7,
+      "output_when_not_observable": 3,
+      "no_output_when_not_observable": 6,
+      "excluded_nonplay": 46,
+      "excluded_phase_uncertain": 0,
+      "pooled_visible_recall16px": 0.8823529411764706,
+      "macro_clip_recall16px": 0.8777732683982684,
+      "clips_with_visible_play": 8
+    },
+    {
+      "method": "crossscale_agreement16",
+      "target_times": 123,
+      "play_visible": 68,
+      "play_not_observable": 9,
+      "correct16px": 56,
+      "wrong_position": 0,
+      "missing_visible_ball": 12,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 8,
+      "excluded_nonplay": 46,
+      "excluded_phase_uncertain": 0,
+      "pooled_visible_recall16px": 0.8235294117647058,
+      "macro_clip_recall16px": 0.8256358225108226,
+      "clips_with_visible_play": 8
+    },
+    {
+      "method": "logistic10_oof",
+      "target_times": 123,
+      "play_visible": 68,
+      "play_not_observable": 9,
+      "correct16px": 60,
+      "wrong_position": 0,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 8,
+      "excluded_nonplay": 46,
+      "excluded_phase_uncertain": 0,
+      "pooled_visible_recall16px": 0.8823529411764706,
+      "macro_clip_recall16px": 0.8777732683982684,
+      "clips_with_visible_play": 8
+    }
+  ],
+  "phase_labels_sha256": "654a3e60441fd57a64b9c17f5de5520ad5788e477154cfd8bd4bfacd8820dd47",
+  "events_sha256": "f89ff9a113e5bdcd41d1283957b0f3b5e3f8ba14f862ac5608b677b597dc071e",
+  "comparison_is_same_match_development": true,
+  "phase_scope_is_human_not_automatic": true,
+  "no_retraining_or_threshold_selection": true,
+  "no_automatic_adoption": true,
+  "canonical_tracking_changed": false,
+  "limitations": "Phase choices cover all fixed targets equally,not error-only exclusions. Same8training clips; no independent match,full-track or automatic start/end performance claim."
+}

@@ -1,0 +1,10 @@
+﻿name,unknown_cost,switch_cost,correct,errors,correct_lost,lost_sample_ids,eligible,withheld
+unknown1.2_switch0.25,1.2,0.25,66,2,0,,1,2
+unknown1.2_switch0.5,1.2,0.5,63,2,3,match1_motion_pilot_003_frame_000261;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736,0,5
+unknown1.2_switch1,1.2,1.0,61,2,5,match1_motion_pilot_003_frame_000261;match1_motion_pilot_003_frame_000725;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736;match1_motion_pilot_009_frame_001159,0,7
+unknown1.8_switch0.25,1.8,0.25,66,4,0,,1,0
+unknown1.8_switch0.5,1.8,0.5,66,2,0,,1,2
+unknown1.8_switch1,1.8,1.0,63,2,3,match1_motion_pilot_003_frame_000261;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736,0,5
+unknown2.4_switch0.25,2.4,0.25,66,4,0,,1,0
+unknown2.4_switch0.5,2.4,0.5,66,4,0,,1,0
+unknown2.4_switch1,2.4,1.0,63,2,3,match1_motion_pilot_003_frame_000261;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736,0,5

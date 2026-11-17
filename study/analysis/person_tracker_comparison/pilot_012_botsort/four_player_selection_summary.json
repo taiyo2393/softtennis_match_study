@@ -1,0 +1,71 @@
+[
+  {
+    "mode": "botsort_reid",
+    "seed_frame": 140901,
+    "analysis_ready_end_frame": 141728,
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 4,
+      "far_front": 5
+    },
+    "stitches": [
+      {
+        "slot": "far_front",
+        "old_id": 5,
+        "new_id": 16,
+        "start_frame": 141012,
+        "link_type": "overlap_or_short_gap",
+        "link_score": 0.714
+      }
+    ],
+    "slots": {
+      "near_front": {
+        "raw_track_ids": [
+          1
+        ],
+        "observed_frames": 180,
+        "total_frames": 180,
+        "missing_runs": []
+      },
+      "near_rear": {
+        "raw_track_ids": [
+          2
+        ],
+        "observed_frames": 180,
+        "total_frames": 180,
+        "missing_runs": []
+      },
+      "far_rear": {
+        "raw_track_ids": [
+          4
+        ],
+        "observed_frames": 180,
+        "total_frames": 180,
+        "missing_runs": []
+      },
+      "far_front": {
+        "raw_track_ids": [
+          5,
+          16
+        ],
+        "observed_frames": 164,
+        "total_frames": 180,
+        "missing_runs": [
+          [
+            140981,
+            140992
+          ],
+          [
+            141059,
+            141060
+          ],
+          [
+            141077,
+            141078
+          ]
+        ]
+      }
+    }
+  }
+]

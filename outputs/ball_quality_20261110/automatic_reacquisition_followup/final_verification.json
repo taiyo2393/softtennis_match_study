@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "baseline_exact_replay_cases": 5,
+  "baseline_core_serialized_values_compared": 170900,
+  "all_variant_observations_matched_to_native_boxes": 68971,
+  "duplicate_slot_or_raw_ID_assignments": false,
+  "interpolation": false,
+  "guardBC_near_outputs_identical_in_five_cases": true,
+  "known_failure_probe_repaired_by_automatic_candidate": true,
+  "sustained_control_added_delay_frames": [
+    7,
+    5,
+    0
+  ],
+  "one_frame_edge_observation_sacrificed": true,
+  "stable005_near_rows_preserved": 854,
+  "comparison_video_frames_decoded": 241,
+  "full_four_player_video_frames_decoded": 2907,
+  "independent_identity_or_position_accuracy_established": false,
+  "current15_inputs_and_label_hashes_unchanged": true,
+  "manual_raw_ID_binding_in_candidate": false,
+  "canonical_pipeline_changed": false,
+  "new_case012_inspected": false
+}

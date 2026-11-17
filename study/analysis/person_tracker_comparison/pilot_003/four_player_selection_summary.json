@@ -1,0 +1,114 @@
+[
+  {
+    "mode": "bytetrack",
+    "seed_frame": 428,
+    "analysis_ready_end_frame": 539,
+    "seed_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 4,
+      "far_front": 3
+    },
+    "stitches": [],
+    "slots": {
+      "near_front": {
+        "raw_track_ids": [
+          2
+        ],
+        "observed_frames": 112,
+        "total_frames": 112,
+        "missing_runs": []
+      },
+      "near_rear": {
+        "raw_track_ids": [
+          1
+        ],
+        "observed_frames": 112,
+        "total_frames": 112,
+        "missing_runs": []
+      },
+      "far_rear": {
+        "raw_track_ids": [
+          4
+        ],
+        "observed_frames": 108,
+        "total_frames": 112,
+        "missing_runs": [
+          [
+            512,
+            515
+          ]
+        ]
+      },
+      "far_front": {
+        "raw_track_ids": [
+          3
+        ],
+        "observed_frames": 112,
+        "total_frames": 112,
+        "missing_runs": []
+      }
+    }
+  },
+  {
+    "mode": "botsort_reid",
+    "seed_frame": 428,
+    "analysis_ready_end_frame": 539,
+    "seed_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 4,
+      "far_front": 3
+    },
+    "stitches": [
+      {
+        "slot": "far_rear",
+        "old_id": 4,
+        "new_id": 19,
+        "start_frame": 519,
+        "link_type": "overlap_or_short_gap",
+        "link_score": 0.596
+      }
+    ],
+    "slots": {
+      "near_front": {
+        "raw_track_ids": [
+          2
+        ],
+        "observed_frames": 112,
+        "total_frames": 112,
+        "missing_runs": []
+      },
+      "near_rear": {
+        "raw_track_ids": [
+          1
+        ],
+        "observed_frames": 112,
+        "total_frames": 112,
+        "missing_runs": []
+      },
+      "far_rear": {
+        "raw_track_ids": [
+          4,
+          19
+        ],
+        "observed_frames": 110,
+        "total_frames": 112,
+        "missing_runs": [
+          [
+            512,
+            513
+          ]
+        ]
+      },
+      "far_front": {
+        "raw_track_ids": [
+          3
+        ],
+        "observed_frames": 112,
+        "total_frames": 112,
+        "missing_runs": []
+      }
+    }
+  }
+]

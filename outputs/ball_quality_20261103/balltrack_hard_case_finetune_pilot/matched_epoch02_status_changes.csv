@@ -1,0 +1,4 @@
+﻿sample_id,candidate_id,local_frame,truth_visibility,truth_x_px,truth_y_px,ordinary_status,weighted_status,ordinary_x,ordinary_y,weighted_x,weighted_y
+match1_motion_pilot_012_frame_000391,match1_motion_pilot_012,391,visible,854,569,wrong_position,missed_visible,1539,543,0,0
+match1_motion_pilot_015_frame_000285,match1_motion_pilot_015,285,visible,1118,603,wrong_position,correct_position,1117,586,1117,588
+match1_motion_pilot_017_frame_000951,match1_motion_pilot_017,951,not_visible,,,false_output,correct_no_output,999,547,0,0

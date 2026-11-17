@@ -1,0 +1,10 @@
+{
+  "status": "fixed_application_failed_to_supply_starts_not_adopted_as_tracking_gate",
+  "pilots": ["003", "008"],
+  "retained_start_candidates": {"003": 0, "008": 0},
+  "frozen_conditions_unchanged": true,
+  "independent_start_accuracy_established": false,
+  "automatic_start_rule_expansion": "deferred",
+  "source_annotations_changed": false,
+  "next": "Improve tracking using available reviewed/provisional starts; retain unknown boundaries as unknown and preserve failed clips."
+}

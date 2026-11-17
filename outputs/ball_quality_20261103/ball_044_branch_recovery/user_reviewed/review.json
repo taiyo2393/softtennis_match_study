@@ -1,0 +1,89 @@
+{
+  "review_id": "20261103_044_ball_branch_five_real_one_false",
+  "recorded_date": "2026-11-03",
+  "reviewer": "human_user",
+  "rally_candidate_id": "match1_rally_window_044",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "questions": [
+    "緑の丸で示した5候補は、実球を囲めていますか？",
+    "frame968の橙の丸は、球ですか、それとも誤検出ですか？"
+  ],
+  "answers": [
+    "緑の丸で示した5候補は、実球を囲めている",
+    "frame968の橙の丸は、誤検出"
+  ],
+  "scope": "Five displayed green components enclose the ball; orange raw968 is not a ball. No precise-center or full-track confirmation.",
+  "confirmed_ball_candidate_local_frames": [
+    891,
+    892,
+    893,
+    960,
+    970
+  ],
+  "confirmed_false_raw_local_frames": [
+    968
+  ],
+  "confirmed_observations": [
+    {
+      "local_frame": 891,
+      "source_frame": 115526,
+      "component_xy_px": [
+        788.676346212702,
+        559.900048046704
+      ],
+      "component_peak": 0.277099609375
+    },
+    {
+      "local_frame": 892,
+      "source_frame": 115527,
+      "component_xy_px": [
+        801.3989425777114,
+        558.607221136681
+      ],
+      "component_peak": 0.333984375
+    },
+    {
+      "local_frame": 893,
+      "source_frame": 115528,
+      "component_xy_px": [
+        802.1389844359223,
+        558.7276633587215
+      ],
+      "component_peak": 0.424560546875
+    },
+    {
+      "local_frame": 960,
+      "source_frame": 115595,
+      "component_xy_px": [
+        1617.6684394181996,
+        685.6248076142092
+      ],
+      "component_peak": 0.1959228515625
+    },
+    {
+      "local_frame": 970,
+      "source_frame": 115605,
+      "component_xy_px": [
+        1616.7140782353686,
+        626.475437938683
+      ],
+      "component_peak": 0.232177734375
+    }
+  ],
+  "rejected_raw_observations": [
+    {
+      "local_frame": 968,
+      "source_frame": 115603,
+      "rejected_xy_px": [
+        1186.0,
+        579.0
+      ]
+    }
+  ],
+  "physical_ball_visibility_at968": "not_established",
+  "precise_center_groundtruth_created": false,
+  "previous_review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json",
+  "video_sha256": "2f45bf70dc976a7df224b5718fafa6485953561941ec101cf7d5ee9776c28d55",
+  "proposal_sha256": "575023337ea45d755442ad256f1534492c5f8d108aac9fa5ff2ece7b4c0020ee",
+  "independent_accuracy_evaluation": false
+}

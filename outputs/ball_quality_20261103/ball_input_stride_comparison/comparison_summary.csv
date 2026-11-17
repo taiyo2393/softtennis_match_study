@@ -1,0 +1,13 @@
+﻿role,method,frames,correct,errors,missing_visible,outputs
+train,fresh_stride1,123,63,7,34,70
+train,stride2,123,69,8,28,77
+train,prior_temporal,123,66,4,34,70
+validation,fresh_stride1,120,80,3,23,83
+validation,stride2,120,85,3,17,88
+validation,prior_temporal,120,81,2,23,83
+challenge,fresh_stride1,4,2,2,0,4
+challenge,stride2,4,2,2,0,4
+challenge,prior_temporal,4,4,0,0,4
+short_sequence,fresh_stride1,26,26,0,0,26
+short_sequence,stride2,26,26,0,0,26
+short_sequence,prior_temporal,26,26,0,0,26

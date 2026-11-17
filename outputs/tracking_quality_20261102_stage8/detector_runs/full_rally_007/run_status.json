@@ -1,0 +1,18 @@
+{
+  "tag": "007",
+  "first_frame": 15552,
+  "last_frame": 16151,
+  "frames": 600,
+  "boundary_status": "candidate_interval_not_human_confirmed_full_rally",
+  "source_fps": 59.94005994005994,
+  "source_width": 3840,
+  "source_height": 2160,
+  "initialization_status": "four_seeds_proposed",
+  "seed_ids": {
+    "near_front": 1,
+    "near_rear": 2,
+    "far_rear": 4,
+    "far_front": 3
+  },
+  "seed_review_status": "not_human_confirmed"
+}

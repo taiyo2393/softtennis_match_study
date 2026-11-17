@@ -1,0 +1,33 @@
+{
+  "candidate_id": "match1_rally_window_015",
+  "target_slot": "near_front",
+  "native_detector_raw_id": "3",
+  "seed_source_frame": 38548,
+  "confirmation_context": [
+    38541,
+    38548
+  ],
+  "seed_box": {
+    "x1": "2529.487548828125",
+    "y1": "1111.4810791015625",
+    "x2": "2695.075439453125",
+    "y2": "1453.5301513671875"
+  },
+  "seed_image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_015\\identity_diagnosis\\F38548.jpg",
+  "seed_image_sha256": "9b57bd58a6dc45e2be43b71f120723e2560218f7c597fe42b415ff18d453a755",
+  "diagnostic_manifest_sha256": "65608b7d949355d49e8aaf91c7a1340e1b8ef641f1922bda3c38ec3c1c1e05db",
+  "native_detections_sha256": "f2655961015bd06d1887dff76a3d380c5c84952dcb58e23e550a0edc60e825e5",
+  "selection": "AI correspondence at original initialization time: raw3 is near-right white/red player; raw1 is the official. Design saved before assisted path construction.",
+  "export_scope": [
+    38548,
+    39200
+  ],
+  "fixed_input_frames_unchanged": true,
+  "AI_identity_binding_added": true,
+  "human_identity_GT": false,
+  "fully_automatic_result": false,
+  "independent_accuracy_evaluation": false,
+  "interpolation": false,
+  "valid_only_for_this_existing_raw_track_and_scope": true,
+  "far_search": "Rerun same offline far search with corrected near exclusions and corrected seed negative set; thresholds unchanged."
+}

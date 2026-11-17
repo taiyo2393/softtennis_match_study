@@ -1,0 +1,62 @@
+{
+  "tag": "018",
+  "role": "known_AI_diagnosed_initial_nonplayer_failure",
+  "court_filter_temporal_replay_exact": true,
+  "modes": {
+    "court_seed_only": {
+      "initialized_frame": 43646,
+      "seed_ids": {
+        "near_front": 3,
+        "near_rear": 1,
+        "far_rear": 4,
+        "far_front": 5
+      },
+      "initialization_delta_from_court_filter": 0,
+      "temporal_rows": 2457,
+      "near_rows": 1237,
+      "same_temporal_output_as_court_filter": true,
+      "removed_box_rows": 0,
+      "added_box_rows": 0,
+      "new_person_ID_bindings": false,
+      "abstained_frames": 0,
+      "ambiguous_candidate_frames": 0
+    },
+    "pair_rank": {
+      "initialized_frame": 43643,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 4,
+        "far_front": 5
+      },
+      "initialization_delta_from_court_filter": -3,
+      "temporal_rows": 2472,
+      "near_rows": 1246,
+      "same_temporal_output_as_court_filter": false,
+      "removed_box_rows": 617,
+      "added_box_rows": 632,
+      "new_person_ID_bindings": false,
+      "abstained_frames": 0,
+      "ambiguous_candidate_frames": 8
+    },
+    "pair_rank_abstain": {
+      "initialized_frame": 43643,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 4,
+        "far_front": 5
+      },
+      "initialization_delta_from_court_filter": -3,
+      "temporal_rows": 2472,
+      "near_rows": 1246,
+      "same_temporal_output_as_court_filter": false,
+      "removed_box_rows": 617,
+      "added_box_rows": 632,
+      "new_person_ID_bindings": false,
+      "abstained_frames": 0,
+      "ambiguous_candidate_frames": 8
+    }
+  },
+  "independent_identity_accuracy_established": false
+}

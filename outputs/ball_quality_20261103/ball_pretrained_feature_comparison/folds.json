@@ -1,0 +1,172 @@
+[
+  {
+    "regime": "train016_only_check_other8",
+    "heldout": "other_clips",
+    "method": "handcrafted672",
+    "train_cases": 28,
+    "check_cases": 8,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "fitted_head_file": "train016_only_check_other8__other_clips__handcrafted672.npz",
+    "fitted_head_sha256": "323ef69cefcef19e41614d918bab84625a323c22303b08e82c2b168edda361be"
+  },
+  {
+    "regime": "train016_only_check_other8",
+    "heldout": "other_clips",
+    "method": "frozen_resnet18_512",
+    "train_cases": 28,
+    "check_cases": 8,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "fitted_head_file": "train016_only_check_other8__other_clips__frozen_resnet18_512.npz",
+    "fitted_head_sha256": "dd1df509af9f995f508dfacef7dd66052166bb0003441e6817902d69faf8e786"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_002",
+    "method": "handcrafted672",
+    "train_cases": 35,
+    "check_cases": 1,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_016",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_002"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_002__handcrafted672.npz",
+    "fitted_head_sha256": "fc1b150c245f3759b1c4a62aa0134270968c244907aa7fe273645c4700841c84"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_002",
+    "method": "frozen_resnet18_512",
+    "train_cases": 35,
+    "check_cases": 1,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_016",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_002"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_002__frozen_resnet18_512.npz",
+    "fitted_head_sha256": "b92814aadbddd863e08f328554e48ee41fcf000916a34481ca530a46629160f7"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_008",
+    "method": "handcrafted672",
+    "train_cases": 32,
+    "check_cases": 4,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_016",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_008"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_008__handcrafted672.npz",
+    "fitted_head_sha256": "b40bcf6f5a4ae9aaba60e45620a8dcb0d574155a9a5082460aac3a56fd0f4d6c"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_008",
+    "method": "frozen_resnet18_512",
+    "train_cases": 32,
+    "check_cases": 4,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_016",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_008"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_008__frozen_resnet18_512.npz",
+    "fitted_head_sha256": "450c468a8725730ccd927ec6a4356214ebbe057910e3fa0e3b32395283429c8c"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_016",
+    "method": "handcrafted672",
+    "train_cases": 8,
+    "check_cases": 28,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_016__handcrafted672.npz",
+    "fitted_head_sha256": "0223274c34e72485581d42780b6081a87509e4f54f3cbd299cf29a6b05bfbc4d"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_016",
+    "method": "frozen_resnet18_512",
+    "train_cases": 8,
+    "check_cases": 28,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_016__frozen_resnet18_512.npz",
+    "fitted_head_sha256": "9e645cecda2d950abfc5fe88eee6030fb2c17763175d42d9602d5d32f46a32a1"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_018",
+    "method": "handcrafted672",
+    "train_cases": 33,
+    "check_cases": 3,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_018__handcrafted672.npz",
+    "fitted_head_sha256": "fb1315e70df2e930e829eb6c14b93089e31af154275706629df7597a362fa383"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_018",
+    "method": "frozen_resnet18_512",
+    "train_cases": 33,
+    "check_cases": 3,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "check_groups": [
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "fitted_head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_018__frozen_resnet18_512.npz",
+    "fitted_head_sha256": "908093f7290834e81cdfe546027eb75ebde3a5bbf7fa713887a90a19ba708296"
+  }
+]

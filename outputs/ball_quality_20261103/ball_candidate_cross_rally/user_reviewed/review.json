@@ -1,0 +1,108 @@
+{
+  "review_id": "20261103_008_four_candidates_AC_real_BD_false",
+  "recorded_date": "2026-11-03",
+  "reviewer": "human_user",
+  "answer": "ACは実球，他は誤検出",
+  "ball_pilot_id": "match1_motion_pilot_008",
+  "rally_candidate_id": "match1_rally_window_026",
+  "scope": "Exactly the four displayed blue raw detector candidates; no neighbouring-frame or whole-track confirmation.",
+  "confirmed_ball_candidate_local_frames": [
+    391,
+    615
+  ],
+  "confirmed_false_raw_local_frames": [
+    503,
+    1623
+  ],
+  "candidates": [
+    {
+      "display_label": "A",
+      "local_frame": 391,
+      "source_frame": 62849,
+      "xy_px": [
+        1008.0,
+        382.0
+      ],
+      "candidate_is_ball": true,
+      "case_id": "008_391"
+    },
+    {
+      "display_label": "B",
+      "local_frame": 503,
+      "source_frame": 62961,
+      "xy_px": [
+        1113.0,
+        555.0
+      ],
+      "candidate_is_ball": false,
+      "case_id": "008_503"
+    },
+    {
+      "display_label": "C",
+      "local_frame": 615,
+      "source_frame": 63073,
+      "xy_px": [
+        279.0,
+        601.0
+      ],
+      "candidate_is_ball": true,
+      "case_id": "008_615"
+    },
+    {
+      "display_label": "D",
+      "local_frame": 1623,
+      "source_frame": 64081,
+      "xy_px": [
+        1074.0,
+        596.0
+      ],
+      "candidate_is_ball": false,
+      "case_id": "008_1623"
+    }
+  ],
+  "confirmed_observations": [
+    {
+      "local_frame": 391,
+      "source_frame": 62849,
+      "xy_px": [
+        1008.0,
+        382.0
+      ]
+    },
+    {
+      "local_frame": 615,
+      "source_frame": 63073,
+      "xy_px": [
+        279.0,
+        601.0
+      ]
+    }
+  ],
+  "rejected_raw_observations": [
+    {
+      "local_frame": 503,
+      "source_frame": 62961,
+      "rejected_xy_px": [
+        1113.0,
+        555.0
+      ]
+    },
+    {
+      "local_frame": 1623,
+      "source_frame": 64081,
+      "rejected_xy_px": [
+        1074.0,
+        596.0
+      ]
+    }
+  ],
+  "precise_center_groundtruth_created": false,
+  "physical_ball_visibility_at_rejected_frames": "not_established",
+  "exact_rally_boundaries_confirmed": false,
+  "independent_accuracy_evaluation": false,
+  "video_sha256": "4632d513eeb17dd274ddf0e06ea766c09729cc1c25127d00c66762a47a929e90",
+  "candidate_table_sha256": "1f4076d8754aeb81a8db9a23516ed160f27a78d86d7200bd804d052db3d77a50",
+  "frozen_model_sha256": "485c88299646a16f4bbb4f64f78bed39ba8c1c7542288d28de80f15dad8784e1",
+  "frozen_predictions_sha256": "2b6d1204e9aa00fa24a7a0c6b5e3c445dff753faa9013fe6d11b08bcb25c00f1",
+  "model_refitted_after_answer": false
+}

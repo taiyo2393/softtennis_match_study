@@ -1,0 +1,9 @@
+{
+  "recorded_date": "2026-11-03",
+  "question": "上の002の動画で、緑の丸は左手前の選手の球を追い、右側の別の球へ乗り換えていませんか？",
+  "answer": "球が二球ある",
+  "accepted_scope": "scene contains two balls",
+  "full_branch_identity_confirmed": false,
+  "precise_positions_annotated": false,
+  "note": "The answer is not treated as confirmation of every green marker or of which ball will be served."
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "hypothesis": "Suppress a ball candidate attached to a raised wrist of a blue-torso person, to reject line-judge gloves in this match.",
+  "status": "match-specific experimental guard, not universal semantic official recognition",
+  "context": "Features use frame and baseline candidate only, no truth coordinates or phase seeds.",
+  "pose_model": "yolo11m-pose.pt",
+  "pose_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+  "roi": [
+    384,
+    384
+  ],
+  "roi_anchor": "candidate x-192,y-128, clamped to source image",
+  "imgsz": 960,
+  "person_conf": 0.15,
+  "iou": 0.7,
+  "torso": "polygon shoulders5,6 and hips12,11; every keypoint confidence >=0.4",
+  "blue_hsv": {
+    "h_min": 80,
+    "h_max": 115,
+    "s_min": 65,
+    "v_min": 55
+  },
+  "min_blue_fraction": 0.5,
+  "wrist_min_conf": 0.6,
+  "shoulder_min_conf": 0.5,
+  "raised_wrist": "wrist_y <= corresponding_shoulder_y+0.05*person_height",
+  "distance_thresholds": [
+    0.0,
+    0.08,
+    0.12,
+    0.16
+  ],
+  "selection": "Most nonlocalized validation outputs suppressed with zero lost localized validation TP; ties fewer total suppressions then smaller distance.",
+  "test": "Freeze validation selection before test inference; no retuning on already seen same-match test.",
+  "label_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "warning": "Legacy label provenance unverified, and visible balls exist in some not_visible labels. No independent accuracy claim."
+}

@@ -1,0 +1,105 @@
+{
+  "candidate_id": "match1_motion_pilot_013",
+  "frames": 450,
+  "suppressed_frames": 6,
+  "flags": [
+    {
+      "local_frame": 434,
+      "raw_x_px": "635",
+      "raw_y_px": "541",
+      "evidence": {
+        "distance_by_person_height": 0.04506437107920647,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.8570333123207092,
+        "shoulder_conf": 0.9814234375953674,
+        "raised_wrist": true,
+        "wrist_x": 635.281494140625,
+        "wrist_y": 543.6163940429688,
+        "person_height": 58.39409637451172
+      }
+    },
+    {
+      "local_frame": 436,
+      "raw_x_px": "637",
+      "raw_y_px": "538",
+      "evidence": {
+        "distance_by_person_height": 0.01671806164085865,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.9354094862937927,
+        "shoulder_conf": 0.9873210191726685,
+        "raised_wrist": true,
+        "wrist_x": 636.1617431640625,
+        "wrist_y": 538.513671875,
+        "person_height": 58.806114196777344
+      }
+    },
+    {
+      "local_frame": 437,
+      "raw_x_px": "635",
+      "raw_y_px": "538",
+      "evidence": {
+        "distance_by_person_height": 0.017570121213793755,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.9636819958686829,
+        "shoulder_conf": 0.9896537661552429,
+        "raised_wrist": true,
+        "wrist_x": 635.2886352539062,
+        "wrist_y": 538.9834594726562,
+        "person_height": 58.33428192138672
+      }
+    },
+    {
+      "local_frame": 438,
+      "raw_x_px": "635",
+      "raw_y_px": "534",
+      "evidence": {
+        "distance_by_person_height": 0.04863283783197403,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.9732341766357422,
+        "shoulder_conf": 0.9932585954666138,
+        "raised_wrist": true,
+        "wrist_x": 636.8605346679688,
+        "wrist_y": 536.1966552734375,
+        "person_height": 59.192405700683594
+      }
+    },
+    {
+      "local_frame": 439,
+      "raw_x_px": "633",
+      "raw_y_px": "532",
+      "evidence": {
+        "distance_by_person_height": 0.08201221376657486,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.9652116298675537,
+        "shoulder_conf": 0.9908499717712402,
+        "raised_wrist": true,
+        "wrist_x": 635.936279296875,
+        "wrist_y": 535.9286499023438,
+        "person_height": 59.80443572998047
+      }
+    },
+    {
+      "local_frame": 440,
+      "raw_x_px": "637",
+      "raw_y_px": "528",
+      "evidence": {
+        "distance_by_person_height": 0.04554682597517967,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.9672915935516357,
+        "shoulder_conf": 0.9854241013526917,
+        "raised_wrist": true,
+        "wrist_x": 636.472412109375,
+        "wrist_y": 530.7359008789062,
+        "person_height": 61.17454528808594
+      }
+    }
+  ],
+  "seconds": 4.649671999999555,
+  "original_csv_sha256": "cbbd5362a86f636f50b461452a887d0514a1c378cf257c667a68914281fd6c34",
+  "selection_sha256": "9fda8d87de5c51c847750ce80ba58446368c04424fb109115e258467e15d2161",
+  "full_video_decoded_frames": 450,
+  "unchanged_rows_exactly_preserved": true,
+  "interpolation": false,
+  "rerender_from_cached_flags": true,
+  "warning": "Continuous raw output generated but full-interval identity/localization accuracy not established; no active baseline overwrite."
+}

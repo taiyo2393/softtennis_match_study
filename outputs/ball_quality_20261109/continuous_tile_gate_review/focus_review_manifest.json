@@ -1,0 +1,49 @@
+{
+  "status": "target_identity_review_pending",
+  "videos": [
+    {
+      "window_id": "B",
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\B_focus_review.mp4",
+      "sha256": "bcbc71ecb802f814ced328d7d72a21d04c236743bc4e25eaa21257bc345867a8",
+      "source_frames": 181,
+      "display_frames": 422,
+      "duration_sec": 7.040366666666666,
+      "held_local_frames": [
+        275
+      ],
+      "predictions_unchanged": true
+    },
+    {
+      "window_id": "D",
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\D_focus_review.mp4",
+      "sha256": "1e916ff40e2677bde0acc3b249fe4a569e88385cb00917013c758ace6c9401f9",
+      "source_frames": 181,
+      "display_frames": 482,
+      "duration_sec": 8.041366666666667,
+      "held_local_frames": [
+        515,
+        516
+      ],
+      "predictions_unchanged": true
+    }
+  ],
+  "target_frames": 3,
+  "selection": "Largest adjacent-output displacement and largest post-gap reappearance displacement among the13predefined review flags. D516shares the selected515candidate and is displayed separately. Error diagnosis is pending,not assumed.",
+  "ai_visual_note": "D515marker appears on spectator area after a14frame output gap; suspect erroneous reacquisition. B275is an existing original output with150pxout-and-back jump. These are AI inspection notes,not human center GT.",
+  "holds_are_not_new_observations": true,
+  "identity_accuracy": null,
+  "new_human_answers": 0,
+  "canonical_tracking_changed": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\protocol.json": "8a2a363f5ff7d3c9de20145bbef483e141f81dcdf91f8ce7ac6bb9b5f4dc31f3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\continuous_predictions.csv": "fc4d7d2904da70f6c66a3533b576ba7d6441f4c06d4402a3f3cf4feea23f8a4b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\review_flags.csv": "0187d0d44922f8708fc3c907f5436c052a57cf0387aa17e03b7b633fd68956f1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\inference_manifest.json": "7bae7c84a533d9ed2332e9152af1cc65766c99c2e1354f0c9e95244508cbfce9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\render_report.json": "6affdafa72988fd6e844fa2af0f62939ac44c9b42fda93b67ab6d168fd67e56f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\verification.json": "2c5f45a7fbe3d8557a5c9fa72d5252f1d5b08c677c3b55799d4f77ed0887e7db",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\B_continuous_review.mp4": "73e758b91f7a294d30a75cd1b3a85362716cdeee43a892526e49b976bab96811",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\D_continuous_review.mp4": "c62e003220cf598bf50439cb1e05eb511922a27904898a63d69972757fd29542"
+  },
+  "initial_labels_sha256": "261e9fba5a7e31fea3e01d2516128ef5d759ba3f2c1438765dc053eb677d0e8f",
+  "script_sha256": "1315e52583d28ec9b205158d5a0c19c4a380dea5e89f46dfd0418fc9ab198f8c"
+}

@@ -1,0 +1,8 @@
+{
+  "changes": [
+    "MoveC02/C04 labels off explanatory sentence onto the same row asC01/C03",
+    "Move active-candidate text away from source scoreboard to below-video status row"
+  ],
+  "numerical_data_or_event_candidates_changed": false,
+  "source_images_changed": false
+}

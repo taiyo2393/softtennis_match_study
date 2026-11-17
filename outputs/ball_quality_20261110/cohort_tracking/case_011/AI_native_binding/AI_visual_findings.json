@@ -1,0 +1,50 @@
+{
+  "reviewer": "Codex AI chronological image inspection",
+  "candidate_id": "match1_rally_window_011",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": false,
+  "AI_identity_binding_added": true,
+  "fully_automatic_result": false,
+  "assistance": "AI maps original detector raw1 to capped white/red near server; observed boxes only, native missing18 frames remain empty. Retained far search rerun with corrected near boxes.",
+  "input_evidence_reused": "All31 requested source frames have exactly the same slot/raw/box assignments as inspected original fixed_input_identity sheets; independently asserted before publishing.",
+  "input_correspondence": {
+    "N1": "white/red non-cap teammate",
+    "N2": "white/red capped server",
+    "F1": "orange far player",
+    "F2": "dark far player"
+  },
+  "inspected_variant_images": [
+    "candidate_sequence_grid.jpg",
+    "repair_detail_grid.jpg"
+  ],
+  "inspected_variant_frames": [
+    26873,
+    26933,
+    26993,
+    27222,
+    27223,
+    27237,
+    27385,
+    27514,
+    27854,
+    28140,
+    28286,
+    28881,
+    28326,
+    28327,
+    28329,
+    28331,
+    28337,
+    28343
+  ],
+  "repair_observation": "At shown formerly wrong bindings N2 is on capped white/red server and F1 is on orange opponent where observed; N2 stays empty during inspected native gaps. Partial far boxes and other missing times remain.",
+  "original_automatic_path_rejected": true,
+  "independent_human_identity_GT_added": false,
+  "whole_context_identity_or_position_accuracy_established": false,
+  "contact_status": "AI visual contact bracket frozen before tracking; first stopped attempt fault/let not formally adjudicated",
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "new_human_annotation_requested": false,
+  "offline_future_context_used_for_person_association": true,
+  "model_fit_or_performance_estimate": false
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "label_origin": "automated_qa_fixture",
+  "revision": 3,
+  "labels": {
+    "P001": {
+      "near_left": {
+        "state": "pending",
+        "x": null,
+        "y": null
+      },
+      "far_left": {
+        "state": "unplaceable",
+        "x": null,
+        "y": null
+      }
+    }
+  },
+  "updated_at_utc": "2026-11-10T10:02:45.928483+00:00"
+}

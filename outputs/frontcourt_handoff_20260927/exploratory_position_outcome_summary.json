@@ -1,0 +1,22 @@
+{
+  "lateral": {
+    "n": 9,
+    "winner_larger": 3,
+    "winner_smaller": 6,
+    "median_winner_minus_loser": -0.04351460188627243,
+    "range": [
+      -0.3881760239601135,
+      0.09663381427526474
+    ]
+  },
+  "longitudinal": {
+    "n": 9,
+    "winner_larger": 7,
+    "winner_smaller": 2,
+    "median_winner_minus_loser": 0.1941072642803192,
+    "range": [
+      -0.23389782384037971,
+      0.36616
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "fixed_scale_diagnostic_only",
+  "frames": 12,
+  "inference_jobs": 120,
+  "target_counts": [
+    {
+      "local_frame": 464,
+      "full_weak_candidates": 1,
+      "tiled_candidates": 2,
+      "deduplicated_all_view_candidates": 2,
+      "verified_alternative_ball_candidates": 0
+    },
+    {
+      "local_frame": 467,
+      "full_weak_candidates": 1,
+      "tiled_candidates": 4,
+      "deduplicated_all_view_candidates": 2,
+      "verified_alternative_ball_candidates": 0
+    },
+    {
+      "local_frame": 470,
+      "full_weak_candidates": 1,
+      "tiled_candidates": 0,
+      "deduplicated_all_view_candidates": 1,
+      "verified_alternative_ball_candidates": 0
+    },
+    {
+      "local_frame": 554,
+      "full_weak_candidates": 1,
+      "tiled_candidates": 3,
+      "deduplicated_all_view_candidates": 2,
+      "verified_alternative_ball_candidates": 0
+    }
+  ],
+  "no_alternative_identity_confirmed_by_this_script": true,
+  "outputs_filled": 0,
+  "protected_inputs_unchanged": true
+}

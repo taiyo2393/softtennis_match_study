@@ -1,0 +1,19 @@
+{
+  "source_frame": 6863,
+  "missing_slot": "far_front",
+  "preceding_selected_raw_id": "3",
+  "full_frame_same_raw_id_present": false,
+  "far_crop_candidate_raw_id": "1000004",
+  "far_crop_candidate_confidence": 0.8327600955963135,
+  "far_crop_candidate_bbox": {
+    "x1": 1623.7566528320312,
+    "y1": 1082.3760070800781,
+    "x2": 1682.4468383789062,
+    "y2": 1212.6506958007812
+  },
+  "overlap_with_near_front": 0.6494666819401331,
+  "retained_veto_threshold": 0.55,
+  "diagnosis": "A far-crop candidate near the missing player exists but exceeds retained near-player overlap veto; do not describe this as no detector candidate. Exact role/foot position is not independent GT.",
+  "threshold_changed": false,
+  "interpolated": false
+}

@@ -1,0 +1,15 @@
+{
+  "match": "match2",
+  "point": 1,
+  "source_frame": 12389,
+  "question_item_id": "[\"request_user_input_async\",\"call_2a73a44a5a6a438ea590631f116a8a88\",0]",
+  "question": "match2第1点の短い確認動画で、F12389に止まったときの青いひし形は、実球を囲めていますか？ 今回はこの1候補だけです。",
+  "answer": "実球を囲めている",
+  "candidate_x_px": 1114.875,
+  "candidate_y_px": 497.0,
+  "ball_enclosure_human_confirmed": true,
+  "exact_center_validated": false,
+  "video_sha256": "942b81efc3ea3d808600773b8cc8d48db1b1cd84cbbea9e578f49d498788281f",
+  "original_blind_evaluation_sha256": "3f3304a1faa023df6afe18185532edd28d68d89b76b2e540cdbced1ea53d07ca",
+  "scope": "Model-visible identity review of a single candidate outside the 12 preselected reference frames."
+}

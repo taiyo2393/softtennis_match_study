@@ -1,0 +1,53 @@
+{
+  "candidates": [
+    {
+      "person_track_id": 0,
+      "raised_first_local_frame": 98,
+      "raised_last_local_frame": 170,
+      "raised_pose_samples": 35,
+      "prior_body_motion_by_height": 0.022357813017377534,
+      "audio_peak_local_sec": 2.85,
+      "audio_rise_db": 8.559974670410156,
+      "contact_candidate_first_local_frame": 155,
+      "contact_candidate_last_local_frame": 186,
+      "status": "motion_audio_start_proposal_not_confirmed_contact",
+      "serve_outcome": "unknown",
+      "score": 8.559974670410156,
+      "phase_before": "unknown",
+      "baseline_distance_roi": 0.0035269389619820846,
+      "quiet_context_frame": 96,
+      "four_player_quiet": false,
+      "decision": "missing_or_moving_four_player_context",
+      "accepted_candidate": false,
+      "last_four_player_quiet_frame": null,
+      "quiet_evidence_age_sec": null,
+      "outcome": "unknown",
+      "point_id": null,
+      "review_action": "defer_insufficient_start_evidence"
+    }
+  ],
+  "accepted_candidates": [],
+  "state_transitions": [],
+  "limitation": "Activity lock and quiet reset are candidate phases only; reset does not establish point end, fault, retry number, or winner.",
+  "labels_read": false,
+  "serve_outcome_inferred": false,
+  "feature_sha256": "500687be77ed034076b44f2b103d774bb7086bbb237c3bc93120baa8a21cf49a",
+  "frozen_protocol_file_sha256": "7cc0f5ee3d0218b8087793c469564bd299c0c913d70dd1475387cd03be290b4d",
+  "runner_sha256": "d006125eb0695373623b2bbbb32d722e0ac5c34c31cb153b58df31f517a9af1d",
+  "repaired_only_candidates": [
+    {
+      "person_track_id": 8,
+      "raised_first_local_frame": 98,
+      "raised_last_local_frame": 170,
+      "raised_pose_samples": 35,
+      "prior_body_motion_by_height": 0.037176064116209113,
+      "audio_peak_local_sec": 2.85,
+      "audio_rise_db": 8.559974670410156,
+      "contact_candidate_first_local_frame": 155,
+      "contact_candidate_last_local_frame": 186,
+      "status": "motion_audio_start_proposal_not_confirmed_contact",
+      "serve_outcome": "unknown",
+      "score": 8.559974670410156
+    }
+  ]
+}

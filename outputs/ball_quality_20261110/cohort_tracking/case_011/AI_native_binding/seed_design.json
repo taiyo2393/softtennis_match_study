@@ -1,0 +1,18 @@
+{
+  "candidate_id": "match1_rally_window_011",
+  "seed_source_frame": 26873,
+  "native_detector_raw_id": 1,
+  "target_slot": "near_rear",
+  "selection": "Existing QA time contact-last-30 and AI correspondence on drift diagnosis. Bind original observed raw1 only, missing18 frames remain empty.",
+  "export_scope": [
+    26141,
+    29040
+  ],
+  "native_observations": 2882,
+  "AI_identity_assistance": true,
+  "human_identity_GT": false,
+  "fully_automatic_result": false,
+  "interpolation": false,
+  "baseline_known_wrong_person": true,
+  "far_search": "Recompute retained offline far search because incorrect near boxes had excluded actual far players. Numerical settings unchanged."
+}

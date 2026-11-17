@@ -1,0 +1,10 @@
+{
+  "status": "separated_candidate_export_ready_reference_collection_pending",
+  "canonical_pipeline_replaced": false,
+  "current22_unchanged": true,
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "confirmed_human_outcomes": 11,
+  "reference_accuracy_evaluated": false,
+  "next_action": "Collect independent-of-prediction approximate image-position references through the13-image UI. Keep unknowns, retain sampled missing predictions, and evaluate uniform/challenge groups separately. No ID-continuity or physical ground-contact claims."
+}

@@ -1,0 +1,5 @@
+{
+  "status": "rejected_preserved",
+  "failure": "All9 frames rejected, including3 main-view images: near-baseline raw paint-pixel spread was about3.04px, incorrectly treated as centerline alignment error against3px gate.",
+  "correction": "Separate paint thickness from centerline fit residual;20-bin median paint centers. Constants unchanged; no person tracking outputs used. Failure files retained."
+}

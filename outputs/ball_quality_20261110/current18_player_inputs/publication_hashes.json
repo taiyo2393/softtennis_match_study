@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "eb8f894f07e55ae03eb2ab5dc75f274eb8ffb230598a5cb22a1827b33271da9f",
+  "additional_verification.json": "e1dc5562f06f8878c66e72a17bc1d8fe7470aca3fe634dc4632bd31705bbd386",
+  "B1_server_side.csv": "01d6543e68fda5081196ff02a860ca202f3d825890bb0ec898699009e733f661",
+  "B2_snapshot.csv": "c299aeab6cf76aff51873f7dab8639634d95cb5a85fc3c34845ee1daa4211945",
+  "B2_window_means.csv": "e4d120b978f6bb4300407980793b54603c4690e7664612b99914ee91f71ff3c3",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "e1a838bb2dadd40fbdea56a03d31fd112dc068d0b5d0c0a6529d15737362f236",
+  "diagnostic_window_masks_only.csv": "ccaa421fb675cc21dff95dea5ffe23c75f01e9251034db745623ca15544aee2a",
+  "executed_source.py": "73be7c1fb554b899ef43d923eab10a7f43e35e539e9e1ca49044cb5bc4d8f926",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "d0b66af295d3d3f7154764ba03c7f889fd45622eda80153d3abc3c0a76e7afe3",
+  "human_outcomes.csv": "defa7f138936bd40fe9bcc353130e7ffa34a642a6affb25dc660ee7f9fc9cdda",
+  "outcome_label_status.csv": "c742117e72232d7589a8bb0d5db1f827edb88a338e61b2226ecc5fb352cd5da0",
+  "processing_interventions.csv": "d64bccbc0573a3cc467426a42197043705b36f6cdf42a528fdc5ea47fedd312f",
+  "protocol.json": "1613efcd50be2f6921966f4d14b8506fc6c5b63491561227d46e4b2df9f84105",
+  "rally_metadata.csv": "3f87d2d7117c72f7b1d4f02852910fc55a0efb14f7360f8481760789a0cfb78f",
+  "README.md": "9363b2ab9fd7f882c024033ec556df349d6d489540bb94a3f0daf53542de754f",
+  "result.json": "752569ff5c9430e20884e143ce4042df44d9b0b6bc2dfaf1f9cc4c60457f5635",
+  "source_snapshot_features.csv": "3c7e62a68d233936feac69c933a25bbf9c7320e3e83f9a26eb4024279a5d5ac7",
+  "source_window_summary_features.csv": "8a94ef1175cbb39397c8de76606bf65229fa7875aef90a8649c96386aa833d46",
+  "verification.json": "7db39097c406e2b6c19b48f8e761a140be4c4144289349816cac83d727e755c1"
+}

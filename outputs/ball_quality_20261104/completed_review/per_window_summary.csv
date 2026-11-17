@@ -1,0 +1,9 @@
+﻿window_id,candidate_id,method,sampled_span_sec,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable,excluded_nonplay,excluded_phase_uncertain,excluded_ball_uncertain,visible_ball_recall16px,localized_output_fraction16px,mean_error_both_visible_px,longest_correct_sampled_run,longest_correct_sampled_span_sec,longest_missing_sampled_run,longest_missing_sampled_span_sec,longest_wrong_sampled_run,longest_wrong_sampled_span_sec
+A,match1_motion_expand_01_003,bbox_area,0.40040000000000003,8,0,2,0,0,0,0,3,0.8,1.0,1.601569900005158,4,0.10010000000000001,1,0.0,0,0.0
+A,match1_motion_expand_01_003,displacement_0.1,0.40040000000000003,8,0,2,0,0,0,0,3,0.8,1.0,1.601569900005158,4,0.10010000000000001,1,0.0,0,0.0
+B,match1_motion_expand_01_008,bbox_area,0.40040000000000003,3,0,10,0,0,0,0,0,0.23076923076923078,1.0,3.23606797749979,3,0.06673333333333334,7,0.20020000000000002,0,0.0
+B,match1_motion_expand_01_008,displacement_0.1,0.40040000000000003,3,0,10,0,0,0,0,0,0.23076923076923078,1.0,3.23606797749979,3,0.06673333333333334,7,0.20020000000000002,0,0.0
+C,match1_motion_expand_01_013,bbox_area,0.40040000000000003,13,0,0,0,0,0,0,0,1.0,1.0,1.3119384528585039,13,0.40040000000000003,0,0.0,0,0.0
+C,match1_motion_expand_01_013,displacement_0.1,0.40040000000000003,13,0,0,0,0,0,0,0,1.0,1.0,1.3119384528585039,13,0.40040000000000003,0,0.0,0,0.0
+D,match1_motion_expand_01_018,bbox_area,0.40040000000000003,9,0,0,0,4,0,0,0,1.0,1.0,2.3869561753056927,9,0.26693333333333336,0,0.0,0,0.0
+D,match1_motion_expand_01_018,displacement_0.1,0.40040000000000003,9,0,0,0,4,0,0,0,1.0,1.0,2.3869561753056927,9,0.26693333333333336,0,0.0,0,0.0

@@ -1,0 +1,16 @@
+{
+  "all_missing_frame_eligibility.csv": "21e13f84171f49a926d9849deac088384cd7d0067a2ceed6945b57738cdaaf07",
+  "all_weak_components.csv": "b514a0067ce6cfc21a33c377a74bd17346e54b865e5df067b24d7248328c6850",
+  "baseline_reproduction.csv": "ba0f64f43d49ee6171b85bb06c451e6bd8976d46597992c0f29f50889fb1f172",
+  "decision.json": "85f104dc568b23140a58a380d19d4cedcfb86deb64d709ed4e1f0b53d2e0c623",
+  "executed_finalize.py": "f056ba1c5c449c64cf98c4e9190c5386c295c34ece5c615714a690d4505b1dd0",
+  "executed_trial.py": "e98557c00ccc38759ddce0d7c1e3e1ec7bbcb7d60da9eda506123670957c2daf",
+  "failure_diagnostics.csv": "f77ef99f8f4cfd8bdefffec2e02e34050aec2dedd96effb710ab141e20ef8e7a",
+  "full_heatmaps.npz": "68fb5b04a73c4bd04feba3599829e802417e138af5b5fae76f7a82b500760b71",
+  "proposed_candidates.csv": "6dee03d7de249089576250ce7f8559721deea14fb8592d43d41edc6a459fee7b",
+  "protocol.json": "d7f059264224d632f5305dad20191c21383fa4fa1fb30afc51d7b37d1eb8ee42",
+  "README.md": "c9e98438d02cc02513c8288897c5a5bbb71404d104359050a98a52173d5e10f6",
+  "result.json": "b0f8ad2b449f5bcee983b0dd6a9ff2ccc57140adf51affed9f890f7d5c3461b6",
+  "source_images.json": "0515a337f2d3f8daddf9fbf6e1dce5c6d10282b0f9dbf5f939b2355319c90081",
+  "verification.json": "06c9d12b269b05c843e8157f4adccafa169dcaf49a6826df22ec2031bba12e59"
+}

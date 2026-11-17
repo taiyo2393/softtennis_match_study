@@ -1,0 +1,39 @@
+{
+  "status": "fixed_before_training_only_sanity_test",
+  "motivation": "Paired full-data point-negative training did not suppress even its9supervised negative centers below0.3. Check learnability before asking for new annotation.",
+  "images": 9,
+  "positive_points": 9,
+  "negative_points": 9,
+  "source_clips": 5,
+  "input": "Original causal median+BGRt-3..t,512x288",
+  "loss": "Equal per-frame positive-center BCE and negative-center BCE, each0.5; all9frames have BOTHlabels. No teacher/preservation, no full-frame background/absence GT.",
+  "trainable": [
+    "up_block_3",
+    "predictor"
+  ],
+  "frozen": "All other weights and allBatchNorm buffers",
+  "precision": "FP32",
+  "steps": 100,
+  "batch_size": 3,
+  "learning_rate": 0.0001,
+  "optimizer": "Adam",
+  "gradient_clip": 1.0,
+  "seed": 20261103,
+  "checkpoints": "Final100steps only; no early stop or step/threshold tuning",
+  "success_measure": "Training-only bilinear positive response>0.3 and negative response<=0.3. NOT object rejection, full detector output, generalization, or independent validation.",
+  "no_validation_or_audit": true,
+  "no_model_selection": true,
+  "no_deployment_candidate": true,
+  "rationale": "This intentionally removes full-data sampling and preservation constraints; it is a diagnostic of fitting, not a matched ablation identifying which constraint caused failure.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\negative_point_manifest.csv": "d8b0eca08e69a5eb8d8de252317961eb500a3de1798a25f25341ce1fceb9d6e9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\positive_training_manifest.csv": "e7875a72c947db18e96f2631bbf66e77b7011a380772df68f058de59b7221b4d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\decision.json": "d1daef08ae08330fb303302fa2fac55b264265c1f26aa108970ec31d97dc3d7b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\verification.json": "6e55d03f7903460c482ef806419cc163f944011339a28c0d4f624ed73c5ecccf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0"
+  },
+  "script_sha256": "257ec73b512fe21f623501c0ad4c6e22541ab9d09b5c68e2816ef450fae9303f"
+}

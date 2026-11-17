@@ -1,0 +1,14 @@
+{
+  "candidate_core_source_frames": [
+    154087,
+    154839
+  ],
+  "candidate_core_frames": 753,
+  "candidate_core_seconds": 12.56255,
+  "review_sample_times": 376,
+  "review_sample_output_times": 241,
+  "reused_precise_centers": 0,
+  "new_review_targets": 376,
+  "output_counts_are_not_accuracy": true,
+  "baseline_has_prior_human_position_repairs": false
+}

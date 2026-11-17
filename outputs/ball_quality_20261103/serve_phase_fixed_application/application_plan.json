@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-02T16:59:49.744489+00:00",
+  "pilots": [
+    "003",
+    "008"
+  ],
+  "selection": "003 is next unused clip;008 has a legacy start timestamp near clip entry. Both chosen before new outputs.",
+  "thresholds_will_not_be_retuned_on_these_outputs": true,
+  "frozen_protocol_sha256": "7cc0f5ee3d0218b8087793c469564bd299c0c913d70dd1475387cd03be290b4d",
+  "independent_accuracy_evaluation": false,
+  "scope": "Previously viewed same-match clips, new applications of this fixed heuristic."
+}

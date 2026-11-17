@@ -1,0 +1,7 @@
+﻿sample_id,candidate_id,local_frame,source_frame,known_false_x,known_false_y,stride1_x,stride1_y,stride1_visible,stride2_x,stride2_y,stride2_visible,distance_to_old_false_point,status,true_ball_center,physical_visibility
+match1_motion_pilot_015_frame_000463,match1_motion_pilot_015,463,104998,868,624,868,624,1,0,0,0,,no_output_position_unknown,unknown,not_labelled
+match1_motion_pilot_015_frame_000464,match1_motion_pilot_015,464,104999,868,628,868,628,1,0,0,0,,no_output_position_unknown,unknown,not_labelled
+match1_motion_pilot_015_frame_000465,match1_motion_pilot_015,465,105000,849,626,849,626,1,0,0,0,,no_output_position_unknown,unknown,not_labelled
+match1_motion_pilot_015_frame_000467,match1_motion_pilot_015,467,105002,840,630,840,630,1,838,628,1,2.8284271247461903,near_known_false_point_unverified,unknown,not_labelled
+match1_motion_pilot_015_frame_000470,match1_motion_pilot_015,470,105005,828,633,828,633,1,0,0,0,,no_output_position_unknown,unknown,not_labelled
+match1_motion_pilot_015_frame_000554,match1_motion_pilot_015,554,105089,1374,581,1374,581,1,1434,579,1,60.03332407921454,different_unverified_candidate,unknown,not_labelled

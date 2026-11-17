@@ -1,0 +1,63 @@
+{
+  "status": "completed_exploratory_followup",
+  "cases": [
+    {
+      "tag": "002",
+      "near_counts": {
+        "near_front": 348,
+        "near_rear": 259
+      },
+      "removed_near_observations": 7,
+      "added_near_observations": 0,
+      "initialized_frame": 2230,
+      "identity_binding_by_AI": false
+    },
+    {
+      "tag": "003",
+      "near_counts": {
+        "near_front": 403,
+        "near_rear": 408
+      },
+      "removed_near_observations": 5,
+      "added_near_observations": 0,
+      "initialized_frame": 4208,
+      "identity_binding_by_AI": false
+    },
+    {
+      "tag": "005",
+      "near_counts": {
+        "near_front": 427,
+        "near_rear": 427
+      },
+      "removed_near_observations": 0,
+      "added_near_observations": 0,
+      "initialized_frame": 8625,
+      "identity_binding_by_AI": false
+    },
+    {
+      "tag": "025",
+      "near_counts": {
+        "near_front": 358,
+        "near_rear": 386
+      },
+      "removed_near_observations": 1,
+      "added_near_observations": 0,
+      "initialized_frame": 60013,
+      "identity_binding_by_AI": false
+    },
+    {
+      "tag": "011",
+      "near_counts": {
+        "near_front": 2900,
+        "near_rear": 2876
+      },
+      "removed_near_observations": 825,
+      "added_near_observations": 1043,
+      "initialized_frame": 26141,
+      "identity_binding_by_AI": false
+    }
+  ],
+  "protected_sources_unchanged": true,
+  "canonical_pipeline_changed": false,
+  "independent_accuracy_established": false
+}

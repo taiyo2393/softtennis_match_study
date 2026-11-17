@@ -1,0 +1,37 @@
+{
+  "x_normalized_limits": [
+    -0.25,
+    1.25
+  ],
+  "y_normalized_limits": [
+    -0.3,
+    1.55
+  ],
+  "court_bounds": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "court_aspect_ratio_unchanged": 0.46296296296296297,
+  "old_minicourt_rectangle": [
+    1455,
+    228,
+    250,
+    540
+  ],
+  "new_court_rectangle": [
+    1541.1711711711712,
+    387.2972972972973,
+    157.65765765765767,
+    340.5405405405405
+  ],
+  "new_view_rectangle": [
+    1501.7567567567567,
+    200.0,
+    1738.2432432432433,
+    830.0
+  ],
+  "coordinate_policy": "No coordinate clamping, rescaling of stored data, extrapolation or added person positions. Only drawing transform changes.",
+  "parent_video_sha256": "9dd3fd20f2e89fd18cfcf401ef4ab94b07ed9a9f8f3008b925371ac9c507f11c"
+}

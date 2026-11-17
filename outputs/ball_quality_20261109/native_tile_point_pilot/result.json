@@ -1,0 +1,109 @@
+{
+  "status": "fixed_native_point_training_pilot_complete",
+  "training_seed": 20261109,
+  "updates": 918,
+  "control_native_maps_exact": 1107,
+  "final_native_maps": 1107,
+  "training_source_frames": 68,
+  "training_crop_samples": 612,
+  "target_center_crops": 258,
+  "candidate_coverage": [
+    {
+      "pool": "original_native",
+      "visible_play_targets": 68,
+      "candidate_center_coverage16": 60,
+      "oracle_not_accuracy": true
+    },
+    {
+      "pool": "final_native",
+      "visible_play_targets": 68,
+      "candidate_center_coverage16": 64,
+      "oracle_not_accuracy": true
+    }
+  ],
+  "training_results": [
+    {
+      "method": "original_temporal",
+      "phase_status": "play",
+      "correct16px": 52,
+      "wrong_position": 0,
+      "missing_visible_ball": 16,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 8
+    },
+    {
+      "method": "original_temporal",
+      "phase_status": "nonplay",
+      "correct16px": 14,
+      "wrong_position": 2,
+      "missing_visible_ball": 18,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 11
+    },
+    {
+      "method": "previous_static_head",
+      "phase_status": "play",
+      "correct16px": 59,
+      "wrong_position": 0,
+      "missing_visible_ball": 9,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 8
+    },
+    {
+      "method": "previous_static_head",
+      "phase_status": "nonplay",
+      "correct16px": 17,
+      "wrong_position": 2,
+      "missing_visible_ball": 15,
+      "output_when_not_observable": 3,
+      "no_output_when_not_observable": 9
+    },
+    {
+      "method": "final_native_raw_peak",
+      "phase_status": "play",
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 3,
+      "no_output_when_not_observable": 6
+    },
+    {
+      "method": "final_native_raw_peak",
+      "phase_status": "nonplay",
+      "correct16px": 18,
+      "wrong_position": 8,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    },
+    {
+      "method": "final_native_missing_only",
+      "phase_status": "play",
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 3,
+      "no_output_when_not_observable": 6
+    },
+    {
+      "method": "final_native_missing_only",
+      "phase_status": "nonplay",
+      "correct16px": 18,
+      "wrong_position": 9,
+      "missing_visible_ball": 7,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    }
+  ],
+  "lost_previous_correct_play_targets": [],
+  "passes_training_gate": false,
+  "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\native_tile_point_pilot\\final_epoch03.pth",
+  "checkpoint_sha256": "f94b302b4b6dcd97a73d83e6750049301d1d703a9ba7d5f2f56a09bd8983a572",
+  "frozen_weights_and_BN_unchanged": true,
+  "new_validation_inference": false,
+  "EF26_or_ABCD52_used_in_fit": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "decision": "Stop before validation;one fixed final model fails training gate. No threshold or epoch retry.",
+  "limitations": "In-sample training diagnosis after one fixed final epoch,not crossvalidated or independent accuracy."
+}

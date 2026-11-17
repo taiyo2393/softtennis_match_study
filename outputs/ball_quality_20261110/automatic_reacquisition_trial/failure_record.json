@@ -1,0 +1,8 @@
+{
+  "status": "aborted_before_reporting_variant_results",
+  "reason": "CSV serialized numeric strings were compared directly to numeric values in baseline replay assertion; comparison representation mismatch.",
+  "baseline_replay_established": false,
+  "source_sha256": "6d82b7d4a251db77f265d79f346fd91e607cd0101d9f01ba8a4db84da2689462",
+  "repaired_in": "automatic_reacquisition_trial_v2",
+  "tracking_algorithm_changed": false
+}

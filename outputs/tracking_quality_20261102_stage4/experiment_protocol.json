@@ -1,0 +1,92 @@
+{
+  "parameters": {
+    "initialization_source_frames": 8,
+    "recovery_source_frames": 8,
+    "min_recovery_gap": 6,
+    "recovery_appearance_max": 0.65,
+    "recovery_negative_margin": 0.06,
+    "recovery_assignment_margin": 0.18,
+    "recovery_missing_cost": 0.85,
+    "gallery_size": 8,
+    "gallery_sample_interval": 12,
+    "gallery_cost_max": 0.55,
+    "gallery_margin_min": 0.2,
+    "occlusion_intersection_fraction": 0.45,
+    "pending_iou_min": 0.3,
+    "pending_motion_max_height": 0.35,
+    "interpolation": false
+  },
+  "intervals": [
+    {
+      "tag": "002",
+      "first_frame": 2223,
+      "last_frame": 2577,
+      "frames": 355,
+      "ready_segment": {
+        "video_id": "match1",
+        "segment_id": "match1_ready_002",
+        "start_timestamp_sec": "30.000000",
+        "end_timestamp_sec": "43.000000",
+        "start_source_frame": "1798",
+        "end_source_frame": "2577",
+        "scene_type": "analysis_ready_main_camera",
+        "cut_confidence": "geometry_and_background",
+        "main_camera_confidence": "0.989277",
+        "usable_for_analysis": "true",
+        "human_checked": "false",
+        "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+      },
+      "boundary_status": "candidate_interval_not_human_confirmed_point"
+    },
+    {
+      "tag": "005",
+      "first_frame": 8607,
+      "last_frame": 9051,
+      "frames": 445,
+      "ready_segment": {
+        "video_id": "match1",
+        "segment_id": "match1_ready_006",
+        "start_timestamp_sec": "133.500000",
+        "end_timestamp_sec": "151.000000",
+        "start_source_frame": "8002",
+        "end_source_frame": "9051",
+        "scene_type": "analysis_ready_main_camera",
+        "cut_confidence": "geometry_and_background",
+        "main_camera_confidence": "0.992196",
+        "usable_for_analysis": "true",
+        "human_checked": "false",
+        "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+      },
+      "boundary_status": "candidate_interval_not_human_confirmed_point"
+    },
+    {
+      "tag": "048",
+      "first_frame": 125859,
+      "last_frame": 126758,
+      "frames": 900,
+      "ready_segment": {
+        "video_id": "match1",
+        "segment_id": "match1_ready_050",
+        "start_timestamp_sec": "2098.500000",
+        "end_timestamp_sec": "2124.500000",
+        "start_source_frame": "125784",
+        "end_source_frame": "127343",
+        "scene_type": "analysis_ready_main_camera",
+        "cut_confidence": "geometry_and_background",
+        "main_camera_confidence": "0.982839",
+        "usable_for_analysis": "true",
+        "human_checked": "false",
+        "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+      },
+      "boundary_status": "candidate_interval_not_human_confirmed_point"
+    }
+  ],
+  "sources_sha256": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\temporal_tracker.py": "df793d565a54fdd2f54ac491fe5305ac7779db8c05607ceee56ae0a7ee52b1cf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\run_temporal_experiment.py": "7a07e9b21485ed8ffcb0f113842871ff4adcb6da37079a807c5e6bbe85e2923d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\improve_players.py": "1fd1752d96af18b5aace1fce2b2128f4d008734aec9fe2f2997efa5aa1537b96",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\four_player_association.py": "363808475eb2dc12e8322ed3f753b81af81d1b2c66ce47d24e10377c528bf5e9"
+  },
+  "baseline_sha256": "de16e93e52797b276a9024d7ea1e0693de8cff72b5b086b4bbed0a18071ac9a7",
+  "scope": "New development version; stage3 intervals are now development data."
+}

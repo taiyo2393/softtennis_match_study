@@ -1,0 +1,117 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "tag": "002",
+      "requested_frame_pairs": 32,
+      "new_inference_calls": 56,
+      "reused_predictions": 8,
+      "pose_proposals": 466,
+      "hashes": {
+        "pose_geometry.npz": "b00c1f62d4fd6c5dcb863f00e40edd35bac1c28b83b20f9a6aac1aa18edac12b",
+        "pose_metadata.csv": "188b77f3cc07aa5d7a7bd108b7652ab61d33ce445417268e00f0f246eacd5790"
+      }
+    },
+    {
+      "tag": "005",
+      "requested_frame_pairs": 33,
+      "new_inference_calls": 57,
+      "reused_predictions": 9,
+      "pose_proposals": 468,
+      "hashes": {
+        "pose_geometry.npz": "9ec5fa5e599369b2b6695f237cf6bb982309ce1823815e705ef8cac4cb27d174",
+        "pose_metadata.csv": "09f2cf971b678bec9b65c57b7cc2a8cbebda8ea075529511f88a41886e91224c"
+      }
+    },
+    {
+      "tag": "006",
+      "requested_frame_pairs": 35,
+      "new_inference_calls": 49,
+      "reused_predictions": 21,
+      "pose_proposals": 548,
+      "hashes": {
+        "pose_geometry.npz": "426b1c2b5f191e03ec84ed2f3d6ad8132c86151bff19e9d4a08b35863d8ddcfc",
+        "pose_metadata.csv": "05d5e521dec92a80df75bb4464a91fb5a126ad9ce45b2f1eff50e8f320e23bb7"
+      }
+    },
+    {
+      "tag": "009",
+      "requested_frame_pairs": 33,
+      "new_inference_calls": 58,
+      "reused_predictions": 8,
+      "pose_proposals": 486,
+      "hashes": {
+        "pose_geometry.npz": "5e33ede812cce9193d03f738d63f23034a1cf0cef92fc31cfbb140f82982fc9d",
+        "pose_metadata.csv": "0331e69b2ea1e358ad3f272b49953e4171e74d94834121e30b518eaa17553b40"
+      }
+    },
+    {
+      "tag": "012",
+      "requested_frame_pairs": 33,
+      "new_inference_calls": 57,
+      "reused_predictions": 9,
+      "pose_proposals": 492,
+      "hashes": {
+        "pose_geometry.npz": "7ca6a1230dbe0dee9a738a9ba9d28540f362b6c0a8802754d9a8f30d1bfb4cb5",
+        "pose_metadata.csv": "904cfb21f9871c55371089e73f583a6eae7de744cbeb4683fe3eef2c5456bf26"
+      }
+    },
+    {
+      "tag": "015",
+      "requested_frame_pairs": 33,
+      "new_inference_calls": 30,
+      "reused_predictions": 36,
+      "pose_proposals": 526,
+      "hashes": {
+        "pose_geometry.npz": "1993f65fad32d2e3e832a5a24978e6bbe5ba17f4826f8d39c405d1c609cfa41b",
+        "pose_metadata.csv": "de9cdb7623d2c25c990dae6d9777930d05e2d35adca0ae37ac205d5268c07ea7"
+      }
+    },
+    {
+      "tag": "016",
+      "requested_frame_pairs": 35,
+      "new_inference_calls": 56,
+      "reused_predictions": 14,
+      "pose_proposals": 509,
+      "hashes": {
+        "pose_geometry.npz": "7b05402d12feb1ddd3499c137f6d206f56fb2f8dad5dbde7d0d779db7e3eed00",
+        "pose_metadata.csv": "a350d1f79082a767cd3ba31ed2bbae92f80ee16029cec3d3226cc302386167b7"
+      }
+    },
+    {
+      "tag": "017",
+      "requested_frame_pairs": 32,
+      "new_inference_calls": 56,
+      "reused_predictions": 8,
+      "pose_proposals": 459,
+      "hashes": {
+        "pose_geometry.npz": "ee3ff72c70b972ceac79c0a4d8f4de26a15451c38b1f1b4ecc1c235538d3101a",
+        "pose_metadata.csv": "adec8a374dd12869bc7d15a748c1a0872b0ac0f4b39b9c4e8a77fa67f897bde3"
+      }
+    },
+    {
+      "tag": "018",
+      "requested_frame_pairs": 33,
+      "new_inference_calls": 57,
+      "reused_predictions": 9,
+      "pose_proposals": 494,
+      "hashes": {
+        "pose_geometry.npz": "80f0efc58262399ec048a38af486605bc711b8e5baece30576ac5f50334dc48b",
+        "pose_metadata.csv": "d543e04f04889a60280d31d874e594d41614fe0c3abfb81db91c5c4a34efb9bb"
+      }
+    },
+    {
+      "tag": "019",
+      "requested_frame_pairs": 73,
+      "new_inference_calls": 90,
+      "reused_predictions": 56,
+      "pose_proposals": 1114,
+      "hashes": {
+        "pose_geometry.npz": "69d8e1d791b3a61a2514ac2dd62c0ff3bcc9766ae9f38ed52b08fabd4f43589a",
+        "pose_metadata.csv": "4f5772e9e4c516243b5c617e20d046c1989200afba80dcbec44363af65dfe3ac"
+      }
+    }
+  ],
+  "new_inference_calls": 566,
+  "reused_predictions": 178
+}

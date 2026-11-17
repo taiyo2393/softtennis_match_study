@@ -1,0 +1,48 @@
+{
+  "segments": [
+    {
+      "tag": "019",
+      "first": 46480,
+      "last": 46540,
+      "repeat": 3,
+      "label": "F1 official / mixed box"
+    },
+    {
+      "tag": "019",
+      "first": 46620,
+      "last": 46700,
+      "repeat": 3,
+      "label": "F2 crossing"
+    },
+    {
+      "tag": "016",
+      "first": 40625,
+      "last": 40625,
+      "repeat": 120,
+      "label": "Previous false rejection avoided; actual server retained"
+    },
+    {
+      "tag": "019",
+      "first": 46352,
+      "last": 46352,
+      "repeat": 120,
+      "label": "Visible server fragment retained; not measured ground contact"
+    }
+  ],
+  "crop_native_xyxy": [
+    1200,
+    970,
+    2800,
+    1900
+  ],
+  "source_fps": 59.94005994005994,
+  "output_dimensions": [
+    1920,
+    720
+  ],
+  "dynamic_speed_fraction": 0.3333333333333333,
+  "control_still_duration_seconds": 2.0020000000000002,
+  "aspect_preserved": true,
+  "selection": "Known019 failure neighborhoods and two previously rejected actual-player observations. Not independent accuracy sampling.",
+  "script_sha256": "26dcc524c7dbb5f53488e0deb06089b2748248b3f407418f9b1d7e046629c46c"
+}

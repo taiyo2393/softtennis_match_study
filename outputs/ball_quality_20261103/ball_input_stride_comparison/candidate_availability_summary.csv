@@ -1,0 +1,9 @@
+﻿role,stride,truth_visible,candidate_upper_bound16px,selected_correct16px,selection_failures,no_candidate_near_truth
+train,1,102,66,63,3,36
+train,2,102,70,69,1,32
+validation,1,105,81,80,1,24
+validation,2,105,87,85,2,18
+challenge,1,4,4,2,2,0
+challenge,2,4,4,2,2,0
+short_sequence,1,26,26,26,0,0
+short_sequence,2,26,26,26,0,0

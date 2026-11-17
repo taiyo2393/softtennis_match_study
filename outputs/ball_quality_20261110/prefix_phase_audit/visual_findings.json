@@ -1,0 +1,70 @@
+{
+  "review_date_jst": "2026-11-10",
+  "reviewer": "Codex AI visual inspection",
+  "method": "Inspected all six context_grid.jpg and all six input_grid.jpg as time-ordered images; additionally inspected025 legacy_contact_detail.jpg. Native-order continuous clips were prepared but no independent human motion review was collected.",
+  "scope": "Early-input phase plausibility only; not exact contact/validity/terminal-event judgement or tracking accuracy.",
+  "findings": [
+    {
+      "candidate_id": "match1_rally_window_002",
+      "input_phase_status": "ai_visual_sequence_supported",
+      "service_sequence_observation": "Near-left overhead service motion is followed by reception and both sides preparing further strokes. No retry/reset is visible between this service and the requested input window.",
+      "input_observation": "F2259..F2319 shows server recovery and opponent response, followed by the near-left player's low ready/stroke preparation. This is consistent with the same ongoing service-led play.",
+      "later_play_evidence_frames": [2338, 2353, 2382],
+      "input_boundary_problem_visible": false,
+      "exact_service_validity_human_confirmed_by_this_audit": false,
+      "exact_point_end_confirmed": false
+    },
+    {
+      "candidate_id": "match1_rally_window_003",
+      "input_phase_status": "ai_visual_sequence_supported",
+      "service_sequence_observation": "Near-right overhead service and forward recovery lead into far-side return preparation. Near-left teammate remains involved in play.",
+      "input_observation": "F4253..F4313 covers far-side response and the near-left player's preparation to receive the next ball. Subsequent exchange movements continue beyond the fixed input end.",
+      "later_play_evidence_frames": [4340, 4355, 4432],
+      "input_boundary_problem_visible": false,
+      "exact_service_validity_human_confirmed_by_this_audit": false,
+      "exact_point_end_confirmed": false
+    },
+    {
+      "candidate_id": "match1_rally_window_005",
+      "input_phase_status": "ai_visual_sequence_supported",
+      "service_sequence_observation": "Near-right overhead service is followed by the far receiver's movement and near player's recovery, without a visible intervening reset.",
+      "input_observation": "F8648..F8708 shows a continuous receiving/recovery sequence. The near-right player subsequently runs and prepares a further groundstroke.",
+      "later_play_evidence_frames": [8725, 8740, 8829],
+      "input_boundary_problem_visible": false,
+      "exact_service_validity_human_confirmed_by_this_audit": false,
+      "exact_point_end_confirmed": false
+    },
+    {
+      "candidate_id": "match1_rally_window_007",
+      "input_phase_status": "ai_visual_sequence_supported",
+      "service_sequence_observation": "Near-right overhead service is followed by far-side reception and both near players' ready positions.",
+      "input_observation": "F15593..F15653 shows the service-led receiving sequence. Later frames show another ball response and stroke preparation instead of a return to service preparation.",
+      "later_play_evidence_frames": [15685, 15714, 15729],
+      "input_boundary_problem_visible": false,
+      "exact_service_validity_human_confirmed_by_this_audit": false,
+      "exact_point_end_confirmed": false
+    },
+    {
+      "candidate_id": "match1_rally_window_025",
+      "input_phase_status": "ai_visual_sequence_supported",
+      "service_sequence_observation": "Near-right player swings from a low racket position upward around the legacy nominal contact. Detail framesF59960..F60012 are consistent with an underhand-type service action rather than an overhead-service template; style and exact contact are not independently labelled.",
+      "input_observation": "F60006..F60066 follows the service swing with far-side receiving response and near player's readiness. Later the near player runs left for the continuing exchange. No interval shift is made to avoid the four missing initial requested times.",
+      "later_play_evidence_frames": [60103, 60117, 60160],
+      "input_boundary_problem_visible": false,
+      "exact_service_validity_human_confirmed_by_this_audit": false,
+      "exact_point_end_confirmed": false,
+      "special_limitation": "Legacy contact precision remains unknown; a nominal singleton is not a zero-width validated error interval. Overhead-only automatic start detection may miss this type of service."
+    },
+    {
+      "candidate_id": "match1_rally_window_048",
+      "input_phase_status": "ai_visual_sequence_supported",
+      "service_sequence_observation": "The distant-side service-led action is followed by near-right reception. Distant ball/contact detail is small; the inherited revised contact bracket is not newly narrowed.",
+      "input_observation": "F125911..F125971 shows near-right receiver movement, racket swing and follow-through; the far side then responds, with continued near-side ball response later. No point-end/reset indication is visible within the inspected input sequence.",
+      "later_play_evidence_frames": [125998, 126120, 126136],
+      "input_boundary_problem_visible": false,
+      "exact_service_validity_human_confirmed_by_this_audit": false,
+      "exact_point_end_confirmed": false,
+      "special_limitation": "Far-side contact cannot be independently located from these overview images; use revised bracketF125859..F125881 as inherited provisional timing."
+    }
+  ]
+}

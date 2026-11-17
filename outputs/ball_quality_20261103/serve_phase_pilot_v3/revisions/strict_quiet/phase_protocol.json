@@ -1,0 +1,33 @@
+{
+  "parameters": {
+    "court_envelope_x": [
+      -0.25,
+      1.25
+    ],
+    "court_envelope_y": [
+      -0.2,
+      1.2
+    ],
+    "selection": "two tallest complete boxes on each court half; ambiguous or missing sides are not imputed",
+    "local_stationarity_window_sec": 0.6,
+    "min_stationarity_samples": 12,
+    "min_sample_coverage": 0.7,
+    "max_stationary_displacement_by_person_height": 0.2,
+    "server_baseline_distance_max": 0.18,
+    "reset_continuous_quiet_sec": 2.0,
+    "unknown_is_stationary": false,
+    "motion_anchor": "mean visible hips, confidence>=0.35; missing hips are not stationary; link hips, not arm-dependent box center",
+    "labels_used": false,
+    "serve_validity_inferred": false,
+    "caution": "Fixed-camera development heuristic; box-bottom homography used only as a coarse ROI, not physical position ground truth. Offline gesture/audio proposals use future context."
+  },
+  "script_sha256": "02c3308aaf3254a66e835aff5ba937b155de3987a559b80d05d51826dd7df4c4",
+  "pose_repair_script_sha256": "16e6c13d25563a016b247bfb45d8eeaef006681a84a80180f6bb09ef2afd3e2e",
+  "gesture_code_sha256": "af707c55e7500ea9fa3d3bf5b6e2dcb222851b6f4bee43b3eaf311e3bf7eee6c",
+  "calibration_sha256": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+  "development_clips": [
+    "016",
+    "002"
+  ],
+  "independent_accuracy_evaluation": false
+}

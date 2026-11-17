@@ -1,0 +1,55 @@
+{
+  "match": "match2",
+  "answer": "Aは実球，Bは違うCは黄",
+  "decisions": [
+    {
+      "letter": "A",
+      "point": 1,
+      "source_frame": 12388,
+      "method": "local_crop",
+      "marker_color": "yellow",
+      "candidate_x_px": 1112.4375,
+      "candidate_y_px": 491.9375,
+      "human_decision": "actual_ball",
+      "exact_center_validated": 0
+    },
+    {
+      "letter": "B",
+      "point": 2,
+      "source_frame": 13840,
+      "method": "full_image",
+      "marker_color": "blue",
+      "candidate_x_px": 1903.125,
+      "candidate_y_px": 637.5,
+      "human_decision": "rejected",
+      "exact_center_validated": 0
+    },
+    {
+      "letter": "C",
+      "point": 2,
+      "source_frame": 13973,
+      "method": "local_crop",
+      "marker_color": "yellow",
+      "candidate_x_px": 979.625,
+      "candidate_y_px": 481.375,
+      "human_decision": "actual_ball",
+      "exact_center_validated": 0
+    },
+    {
+      "letter": "C",
+      "point": 2,
+      "source_frame": 13973,
+      "method": "full_image",
+      "marker_color": "blue",
+      "candidate_x_px": 943.125,
+      "candidate_y_px": 485.625,
+      "human_decision": "rejected",
+      "exact_center_validated": 0
+    }
+  ],
+  "evidence_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_first_three_gap_screen\\three_gap_candidates_review.mp4",
+  "evidence_video_sha256": "964188765df6dbd86eb9f4e13070d62448c2aafa7b90d6e6a450b001ddcf8f96",
+  "new_ball_enclosures_confirmed": 2,
+  "rejected_candidates": 2,
+  "exact_center_labels_added": 0
+}

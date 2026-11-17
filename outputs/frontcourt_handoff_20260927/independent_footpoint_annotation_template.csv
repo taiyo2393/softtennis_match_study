@@ -1,0 +1,9 @@
+﻿candidate_id,source_frame,player_slot,left_foot_x_px,left_foot_y_px,right_foot_x_px,right_foot_y_px,foot_visibility,support_status,ground_plane_position_status,reviewer,review_status,evidence
+044,115403,near_front,,,,,,,,,unreviewed,044_position_annotation_raw.jpg
+044,115403,near_rear,,,,,,one_foot_grounded,support_contact_visible_coordinate_annotation_pending,human_user_2026-11-02,support_state_human_confirmed_coordinates_unreviewed,044_support_state_quarter_speed_h264.mp4; user response 片足が接地
+044,115403,far_front,,,,,,,,,unreviewed,044_position_annotation_raw.jpg
+044,115403,far_rear,,,,,,,,,unreviewed,044_position_annotation_raw.jpg
+056,154116,near_front,,,,,,both_feet_airborne,unavailable_from_visible_foot_contact_airborne,human_user_2026-11-02,support_state_human_confirmed_coordinates_unreviewed,056_support_state_quarter_speed_h264.mp4; user response 浮いてる
+056,154116,near_rear,,,,,,,,,unreviewed,056_position_annotation_raw.jpg
+056,154116,far_front,,,,,,,,,unreviewed,056_position_annotation_raw.jpg
+056,154116,far_rear,,,,,,,,,unreviewed,056_position_annotation_raw.jpg

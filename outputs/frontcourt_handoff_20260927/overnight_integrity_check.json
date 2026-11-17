@@ -1,0 +1,11 @@
+{
+  "checks": "passed",
+  "label_rows_preserved": 63,
+  "human_junction_identity_reviews": 2,
+  "human_single_frame_four_player_reviews": 2,
+  "candidate_timing_frames": 15,
+  "candidate_timing_positions": 60,
+  "independent_footpoint_ground_truth": "not_yet_annotated",
+  "boundary_frames": "not_promoted_to_confirmed",
+  "outcome_association": "not_estimated"
+}

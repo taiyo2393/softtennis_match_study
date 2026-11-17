@@ -1,0 +1,324 @@
+{
+  "status": "fixed_input_stride_comparison_complete",
+  "results": {
+    "train": {
+      "fresh_stride1": {
+        "counts": {
+          "frames": 123,
+          "truth_visible": 102,
+          "pred_visible": 70,
+          "presence_tp": 68,
+          "localized_tp_16px": 63,
+          "wrong_localization": 5,
+          "presence_tn": 19,
+          "presence_fn": 34,
+          "presence_fp": 2
+        },
+        "localization_recall_16px": 0.6176470588235294,
+        "localization_precision_16px": 0.9,
+        "mean_error_both_visible_px": 24.941580516771136
+      },
+      "stride2": {
+        "counts": {
+          "frames": 123,
+          "truth_visible": 102,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 69,
+          "wrong_localization": 5,
+          "presence_tn": 18,
+          "presence_fn": 28,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.6764705882352942,
+        "localization_precision_16px": 0.8961038961038961,
+        "mean_error_both_visible_px": 22.828990931019046
+      },
+      "prior_temporal": {
+        "counts": {
+          "frames": 123,
+          "truth_visible": 102,
+          "pred_visible": 70,
+          "presence_tp": 68,
+          "localized_tp_16px": 66,
+          "wrong_localization": 2,
+          "presence_tn": 19,
+          "presence_fn": 34,
+          "presence_fp": 2
+        },
+        "localization_recall_16px": 0.6470588235294118,
+        "localization_precision_16px": 0.9428571428571428,
+        "mean_error_both_visible_px": 5.760533423739907
+      },
+      "prior_correct_lost": [
+        "match1_motion_pilot_007_frame_000032",
+        "match1_motion_pilot_007_frame_000851"
+      ],
+      "fresh_correct_lost": [
+        "match1_motion_pilot_007_frame_000032"
+      ],
+      "fresh_correct_gained": [
+        "match1_motion_pilot_003_frame_000291",
+        "match1_motion_pilot_004_frame_000322",
+        "match1_motion_pilot_006_frame_000465",
+        "match1_motion_pilot_007_frame_000352",
+        "match1_motion_pilot_007_frame_000608",
+        "match1_motion_pilot_010_frame_000137",
+        "match1_motion_pilot_010_frame_000262"
+      ],
+      "nonregression": false,
+      "visible_position_target": "same frame, no shift"
+    },
+    "validation": {
+      "fresh_stride1": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 80,
+          "wrong_localization": 2,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7619047619047619,
+        "localization_precision_16px": 0.963855421686747,
+        "mean_error_both_visible_px": 6.949994464709879
+      },
+      "stride2": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 88,
+          "presence_fn": 17,
+          "presence_tp": 88,
+          "localized_tp_16px": 85,
+          "wrong_localization": 3,
+          "presence_tn": 15,
+          "presence_fp": 0
+        },
+        "localization_recall_16px": 0.8095238095238095,
+        "localization_precision_16px": 0.9659090909090909,
+        "mean_error_both_visible_px": 9.081970196015275
+      },
+      "prior_temporal": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 81,
+          "wrong_localization": 1,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7714285714285715,
+        "localization_precision_16px": 0.9759036144578314,
+        "mean_error_both_visible_px": 4.367023144730804
+      },
+      "prior_correct_lost": [
+        "match1_motion_pilot_015_frame_000323",
+        "match1_motion_pilot_019_frame_000299"
+      ],
+      "fresh_correct_lost": [
+        "match1_motion_pilot_019_frame_000299"
+      ],
+      "fresh_correct_gained": [
+        "match1_motion_pilot_011_frame_000884",
+        "match1_motion_pilot_011_frame_001356",
+        "match1_motion_pilot_011_frame_001710",
+        "match1_motion_pilot_013_frame_000435",
+        "match1_motion_pilot_015_frame_000285",
+        "match1_motion_pilot_019_frame_000169"
+      ],
+      "nonregression": false,
+      "visible_position_target": "same frame, no shift"
+    },
+    "challenge": {
+      "fresh_stride1": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 2,
+          "wrong_localization": 2,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 0.5,
+        "localization_precision_16px": 0.5,
+        "mean_error_both_visible_px": 122.57947311815263
+      },
+      "stride2": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 2,
+          "wrong_localization": 2,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 0.5,
+        "localization_precision_16px": 0.5,
+        "mean_error_both_visible_px": 122.9679700684254
+      },
+      "prior_temporal": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 4,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.6035533905932737
+      },
+      "prior_correct_lost": [
+        "match1_motion_pilot_015_frame_000328",
+        "match1_motion_pilot_019_frame_000305"
+      ],
+      "fresh_correct_lost": [],
+      "fresh_correct_gained": [],
+      "nonregression": false,
+      "visible_position_target": "same frame, no shift"
+    },
+    "short_sequence": {
+      "fresh_stride1": {
+        "counts": {
+          "frames": 26,
+          "truth_visible": 26,
+          "pred_visible": 26,
+          "presence_tp": 26,
+          "localized_tp_16px": 26,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.8700404202012897
+      },
+      "stride2": {
+        "counts": {
+          "frames": 26,
+          "truth_visible": 26,
+          "pred_visible": 26,
+          "presence_tp": 26,
+          "localized_tp_16px": 26,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.977202791454547
+      },
+      "prior_temporal": {
+        "counts": {
+          "frames": 26,
+          "truth_visible": 26,
+          "pred_visible": 26,
+          "presence_tp": 26,
+          "localized_tp_16px": 26,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.8700404202012897
+      },
+      "prior_correct_lost": [],
+      "fresh_correct_lost": [],
+      "fresh_correct_gained": [],
+      "nonregression": true,
+      "visible_position_target": "same frame, no shift"
+    }
+  },
+  "six_false_status_counts": {
+    "no_output_position_unknown": 4,
+    "near_known_false_point_unverified": 1,
+    "different_unverified_candidate": 1
+  },
+  "audit_performed": false,
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "models_and_source_labels_unchanged": true,
+  "stride1_reproduction": {
+    "rows": 243,
+    "identical": 243,
+    "changed": 0
+  },
+  "no_parameter_tuning": true,
+  "independent_generalization_established": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\dataset\\uball.py": "443d0bf72b1c60d4bef84cd2a8f4345d2f35ec8c2a62f52067905e249344c0db",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\configs\\tracknetv3_base.py": "9afbcaa5b77c8234c28693773e1976abad4f1655baecac24835387c0c0c3dfae",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\inference.py": "39a2735e55aac482cd6cc9d4c73e5a231bc8d18e619ed2254fbefdff98ae9fb0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_labels.csv": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\query_model_inputs.csv": "d082690c2e746d9c128543d0f22878f5746d1556d129165d2f22eca8f1c08d29",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_short_sequence_evaluation\\manual_sequence_labels.csv": "f5d79e1b2f656ddb6d5408ef1995811ffa353b2f37c29d9c4d4821c6b3d3182d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_short_sequence_evaluation\\evaluation_report.json": "7648059cf57faf97513748d5c10dd8893f0485b42bd0cd2f1203003abe4f6954",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_short_sequence_evaluation\\frozen_predictions.csv": "66efc4d90245f7914e965d940f7197a68488cce32961d469f196cc02cfb1b470",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_short_sequence_evaluation\\query_model_inputs.csv": "8bb9d9a2d404ab6031aafc81352649ed0d413ffc1540780bd78bdd7bec096951",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\candidate_review.csv": "c8bc01430819f8aa7971a5341b31965da3ce40a2179f619cb3a94757afa04fd4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_appearance_training_review\\candidate_review_labels.csv": "b3660d11c8855a0cd2d88b700afc9ac386b525650b39ed38c38778da5286de91",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_training_only_appearance_comparison\\decision.json": "6aa9e31db7c54f1d494916de7a853d013b49fcd36ca38e2cb0f676ab25ee2ff4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_bbox_area.csv": "e21463ddfe3d18f6836058ea141f8488611929e840654ba0f0f074f9a7a1921d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_displacement_0.1.csv": "df5c382a4aec304611df0f60a0b4870f5526e1618ac3029c2245c0ea79ac8b85",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\validation_bbox_area.csv": "99781de133fb8088910a3e674e5518373331d2e0294c45fe2b931859d40aa6ad",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\validation_selected.csv": "684e24140f13ed5da676905df045222a725f22de22507178616f1025f8a4c7f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\challenge_selected.csv": "985089dac1d63eb71c52054bdae5a20ee9a22a401ba8a84562d501c791fa113f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\audit_selected.csv": "934ab18fe441ac69421bc2d98c7cf62f30200184b974c5c810cfb9c547a01d29",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold030_median120\\run_metadata.json": "dd9434aa87c42343fae23b52259169eb17ffa58b98e8f2bac953c0a6062de196",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold030_median120\\median.npz": "770ccce8686abf5c3213578a23aa513bc0a5524b100619a86d1ed15d16149383",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\runs\\threshold030_median120\\run_metadata.json": "a2e877b9664c76fd1f58144736d93b30ed97702bb72a7671ed05f87e285cc5cd",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\runs\\threshold030_median120\\median.npz": "7936fb2e786fc7e9153c17bf10fbee2883dd7ec93391210bd7e598e436bf61e0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\runs\\threshold030_median120\\run_metadata.json": "c02ce82a0150dd75cbfc91d5c17ab4d5730dc909d979895b18ee962001a6d8cf",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\runs\\threshold030_median120\\median.npz": "fd5240d0cd2e5750c1ea770e89f8b908a55a0b3d6e0eb941466ca613525c0378",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\runs\\threshold030_median120\\run_metadata.json": "3dc69c9592e57bb7da77c224e5f11b3e4b8bba8970043103e05a401ecbe4b4ec",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\runs\\threshold030_median120\\median.npz": "a71d7f42047f6f2e37d76f3363393bf59b9943f8b6b31efb6c717a02a88fea7f",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\runs\\threshold030_median120\\run_metadata.json": "d1254b1395bde49fb5134b049308edef003a5a993f4e758a2a22443c116a91e0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\runs\\threshold030_median120\\median.npz": "e88b582de6a932b1b2137987bda0e0812db1ea0257b0b068dc49c8ada282e643",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\runs\\threshold030_median120\\run_metadata.json": "51ec498a4523bc7b4ae652a09c9f4a2199dba09b34b4d39645ba11586a8f88cc",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\runs\\threshold030_median120\\median.npz": "38587c5209abd935462dd438b29bc9eca364bdc6915fadb2995fa022ee64a2ed",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\runs\\threshold030_median120\\run_metadata.json": "630be6a1146064621590bb02e61824edf4e6ce69d56512f94e7dfd7fdd7c1c48",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\runs\\threshold030_median120\\median.npz": "d478212d88991fd5d6dbd0303107cd26ed42d29b0ee601c0fe7c23840f1c65b1",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\runs\\threshold030_median120\\run_metadata.json": "cbbad98421148ea49f3f62782fd4b4730ac90d5e4aa9cc7157ef062b8f1d3340",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\runs\\threshold030_median120\\median.npz": "12be8c0b0434c924842f6543ddb5d4d1a4b82abe90ccb6c6c92bd4ca35598984",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_011\\runs\\threshold030_median120\\run_metadata.json": "be27cf15cdf84a5934500ed9a1798263f4f87f6ed367040b4d18cd3491e623d4",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_011\\runs\\threshold030_median120\\median.npz": "c98b5155365f2398a05274f549edd238588c819984ee0c1bfe423aaeb434bea8",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_012\\runs\\threshold030_median120\\run_metadata.json": "87d9ea5ca7f33a1aeda55350b83f006a035d2733c8d1784814a362987246e895",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_012\\runs\\threshold030_median120\\median.npz": "9ed962bf8978d217089e5e4df79a3877e37b272782a858cd32942407989b34ea",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_013\\runs\\threshold030_median120\\run_metadata.json": "54691a91439205416200b3435cde011b6b298d20b85ac8b25b21585d02d62569",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_013\\runs\\threshold030_median120\\median.npz": "955e30d51cd6ab4c77432b0ad67c7f2832621fe90b0f51ed71860fbe70507f37",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_014\\runs\\threshold030_median120\\run_metadata.json": "df02219273c07e845e9127e2e68264d068448fced91500a865ad42df87d4d91a",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_014\\runs\\threshold030_median120\\median.npz": "16fa5b1b645df2173d495b01f7189e9d46ad2238a7846656d40293d0f425b2f8",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_015\\runs\\threshold030_median120\\run_metadata.json": "330caac55029d76b54d33331f17a291ddcfbce9dd8d4649c9191ecea66f72980",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_015\\runs\\threshold030_median120\\median.npz": "69e05c6db02ee7dd404a2086188216867dc630ba34eddb7658d8aace908a953f",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_017\\runs\\threshold030_median120\\run_metadata.json": "957a23e3fbce8d5bcbf55d118a5366b254e152e5ff75feee2dd6090e0a269851",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_017\\runs\\threshold030_median120\\median.npz": "9f3f2655579e02550368ce8f152822206888239b2b697e2b4cfa2f8901ef9d8d",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_019\\runs\\threshold030_median120\\run_metadata.json": "3465b9fb171f058fb54baabdf038f3a18ab098a781af29d31a9e4c2a74c1dbda",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_019\\runs\\threshold030_median120\\median.npz": "644783b439a401334a6ac90e4e07ec2d3ab45f78f8310c3524b5067d527baf5c",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_020\\runs\\threshold030_median120\\run_metadata.json": "8c49fd924a83ffd68503d3e7e7e818f1b24a08aee720fb9012467dfcb56644fb",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_020\\runs\\threshold030_median120\\median.npz": "3873e28c54ba58ee14407a2e911e050964cad684c247512d9450c0dabf8661cd"
+  },
+  "limitation": "Stride2 is a fixed model input sensitivity test, not a verified30fps correction. New or shifted six-case outputs have no true centers and remain unverified."
+}

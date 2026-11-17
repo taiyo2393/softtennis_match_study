@@ -1,0 +1,58 @@
+[
+  {
+    "window_id": "A",
+    "candidate_id": "match1_motion_pilot_003",
+    "anchor_local_frame": 493,
+    "first_target": 463,
+    "last_target": 523,
+    "stride": 2,
+    "target_count": 31,
+    "span_sec": 1.0010000000000001,
+    "fps": 59.94005994005994,
+    "first_source_frame": 23526,
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\dense_training_sequences\\context_A.mp4",
+    "context_frames": 181
+  },
+  {
+    "window_id": "B",
+    "candidate_id": "match1_motion_pilot_005",
+    "anchor_local_frame": 399,
+    "first_target": 369,
+    "last_target": 429,
+    "stride": 2,
+    "target_count": 31,
+    "span_sec": 1.0010000000000001,
+    "fps": 59.94005994005994,
+    "first_source_frame": 43636,
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\dense_training_sequences\\context_B.mp4",
+    "context_frames": 181
+  },
+  {
+    "window_id": "C",
+    "candidate_id": "match1_motion_pilot_007",
+    "anchor_local_frame": 736,
+    "first_target": 706,
+    "last_target": 766,
+    "stride": 2,
+    "target_count": 31,
+    "span_sec": 1.0010000000000001,
+    "fps": 59.94005994005994,
+    "first_source_frame": 51578,
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\dense_training_sequences\\context_C.mp4",
+    "context_frames": 181
+  },
+  {
+    "window_id": "D",
+    "candidate_id": "match1_motion_pilot_010",
+    "anchor_local_frame": 689,
+    "first_target": 659,
+    "last_target": 719,
+    "stride": 2,
+    "target_count": 31,
+    "span_sec": 1.0010000000000001,
+    "fps": 59.94005994005994,
+    "first_source_frame": 71089,
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\dense_training_sequences\\context_D.mp4",
+    "context_frames": 181
+  }
+]

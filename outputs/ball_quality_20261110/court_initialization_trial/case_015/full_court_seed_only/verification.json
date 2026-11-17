@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "candidate_id": "match1_rally_window_015",
+  "manual_ID_binding": false,
+  "AI_identity_binding_added": false,
+  "development_on_previously_known_failure": true,
+  "matched_native_boxes": 2597,
+  "recalculated_feature_values": 379,
+  "video_frames_decoded": 660,
+  "fixed31_times_unchanged": true,
+  "four_observation_times": 31,
+  "requested_times": 31,
+  "prefix_near_pair_native_boxes_equal_AI_assisted": true,
+  "prefix_slot_raw_boxes_equal_AI_assisted": true,
+  "prefix_feature_values_equal_AI_assisted": true,
+  "protected_sources_unchanged": true,
+  "interpolation": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "canonical_pipeline_changed": false
+}

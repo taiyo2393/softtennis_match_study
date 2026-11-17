@@ -1,0 +1,2687 @@
+{
+  "gaps": [
+    {
+      "slot": "far_front",
+      "old_missing_local_interval": [
+        796,
+        835
+      ],
+      "proposed_added_local_frames": [
+        796,
+        797
+      ],
+      "remaining_missing_local_frames": [
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835
+      ]
+    },
+    {
+      "slot": "far_rear",
+      "old_missing_local_interval": [
+        898,
+        912
+      ],
+      "proposed_added_local_frames": [
+        905,
+        906,
+        907,
+        912
+      ],
+      "remaining_missing_local_frames": [
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        908,
+        909,
+        910,
+        911
+      ]
+    },
+    {
+      "slot": "far_rear",
+      "old_missing_local_interval": [
+        982,
+        999
+      ],
+      "proposed_added_local_frames": [
+        984,
+        985
+      ],
+      "remaining_missing_local_frames": [
+        982,
+        983,
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996,
+        997,
+        998,
+        999
+      ]
+    },
+    {
+      "slot": "far_rear",
+      "old_missing_local_interval": [
+        1102,
+        1115
+      ],
+      "proposed_added_local_frames": [
+        1112,
+        1113,
+        1114
+      ],
+      "remaining_missing_local_frames": [
+        1102,
+        1103,
+        1104,
+        1105,
+        1106,
+        1107,
+        1108,
+        1109,
+        1110,
+        1111,
+        1115
+      ]
+    }
+  ],
+  "added_observed_boxes": 11,
+  "new_frames_with_four_candidates": 326,
+  "previous_frames_with_four_candidates": 315,
+  "decisions": [
+    {
+      "slot": "far_front",
+      "local_frame": 796,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 796,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115431",
+            "timestamp_sec": "1925.77385",
+            "track_id": "20",
+            "x1": "2199.048095703125",
+            "y1": "1114.724609375",
+            "x2": "2291.753662109375",
+            "y2": "1300.4365234375",
+            "bottom_center_x": "2245.40087890625",
+            "bottom_center_y": "1300.4365234375",
+            "confidence": "0.8473873138427734",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 1.0,
+          "part_visible_pixels": [
+            1056,
+            792
+          ],
+          "appearance": 0.40692234496385826,
+          "negative_distance": 0.8208588437622641,
+          "reference_residual_height": 0.013557492708373982,
+          "height_ratio": 0.8817331059092587,
+          "rejection_reasons": [],
+          "cost": 0.26924464667443876
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 797,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 797,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115432",
+            "timestamp_sec": "1925.7905333333333",
+            "track_id": "20",
+            "x1": "2201.226318359375",
+            "y1": "1115.40771484375",
+            "x2": "2291.661865234375",
+            "y2": "1300.4176025390625",
+            "bottom_center_x": "2246.444091796875",
+            "bottom_center_y": "1300.4176025390625",
+            "confidence": "0.8474696278572083",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 1.0,
+          "part_visible_pixels": [
+            1024,
+            768
+          ],
+          "appearance": 0.4137432563849037,
+          "negative_distance": 0.825149543673475,
+          "reference_residual_height": 0.016922755990700717,
+          "height_ratio": 0.8783999870175859,
+          "rejection_reasons": [],
+          "cost": 0.27485608124693267
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 798,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 798,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115433",
+            "timestamp_sec": "1925.8072166666666",
+            "track_id": "20",
+            "x1": "2204.365966796875",
+            "y1": "1116.109619140625",
+            "x2": "2292.338134765625",
+            "y2": "1301.326904296875",
+            "bottom_center_x": "2248.35205078125",
+            "bottom_center_y": "1301.326904296875",
+            "confidence": "0.7689567804336548",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0967741935483871,
+          "part_visible_pixels": [
+            93,
+            72
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.02486366417651329,
+          "height_ratio": 0.8793846799400259,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6587022824617796
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 799,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 799,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115434",
+            "timestamp_sec": "1925.8239",
+            "track_id": "20",
+            "x1": "2206.161865234375",
+            "y1": "1116.3760986328125",
+            "x2": "2291.877197265625",
+            "y2": "1301.663818359375",
+            "bottom_center_x": "2249.01953125",
+            "bottom_center_y": "1301.663818359375",
+            "confidence": "0.7770782709121704",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.03333333333333333,
+          "part_visible_pixels": [
+            31,
+            24
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.026808805090556956,
+          "height_ratio": 0.8797190930160987,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6593830817816949
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 800,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 800,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115435",
+            "timestamp_sec": "1925.8405833333334",
+            "track_id": "20",
+            "x1": "2210.828369140625",
+            "y1": "1117.4166259765625",
+            "x2": "2293.75146484375",
+            "y2": "1302.0555419921875",
+            "bottom_center_x": "2252.2899169921875",
+            "bottom_center_y": "1302.0555419921875",
+            "confidence": "0.6899858713150024",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.04085328442382506,
+          "height_ratio": 0.8766386675406613,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6642986495483388
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 801,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 801,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115436",
+            "timestamp_sec": "1925.8572666666666",
+            "track_id": "20",
+            "x1": "2213.154296875",
+            "y1": "1117.8055419921875",
+            "x2": "2293.705810546875",
+            "y2": "1302.145751953125",
+            "bottom_center_x": "2253.4300537109375",
+            "bottom_center_y": "1302.145751953125",
+            "confidence": "0.6947415471076965",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.04472862439446323,
+          "height_ratio": 0.8752204547206434,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6656550185380622
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 802,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 802,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115437",
+            "timestamp_sec": "1925.87395",
+            "track_id": "20",
+            "x1": "2210.620361328125",
+            "y1": "1116.88330078125",
+            "x2": "2288.7529296875",
+            "y2": "1301.38232421875",
+            "bottom_center_x": "2249.6866455078125",
+            "bottom_center_y": "1301.38232421875",
+            "confidence": "0.47180643677711487",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.025094819125588617,
+          "height_ratio": 0.8759744779649602,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6587831866939561
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 803,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 803,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115438",
+            "timestamp_sec": "1925.8906333333334",
+            "track_id": "20",
+            "x1": "2210.248291015625",
+            "y1": "1116.5108642578125",
+            "x2": "2286.21337890625",
+            "y2": "1301.1336669921875",
+            "bottom_center_x": "2248.2308349609375",
+            "bottom_center_y": "1301.1336669921875",
+            "confidence": "0.5275143980979919",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.01664766416190189,
+          "height_ratio": 0.8765621640293241,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6558266824566656
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 804,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 804,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115439",
+            "timestamp_sec": "1925.9073166666667",
+            "track_id": "20",
+            "x1": "2210.35986328125",
+            "y1": "1116.2022705078125",
+            "x2": "2285.021484375",
+            "y2": "1300.57470703125",
+            "bottom_center_x": "2247.690673828125",
+            "bottom_center_y": "1300.57470703125",
+            "confidence": "0.2584356367588043",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.012000144001193843,
+          "height_ratio": 0.875373461743318,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6542000504004178
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 805,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 806,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 806,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115441",
+            "timestamp_sec": "1925.9406833333335",
+            "track_id": "20",
+            "x1": "2210.9794921875",
+            "y1": "1111.935546875",
+            "x2": "2286.13671875",
+            "y2": "1300.6026611328125",
+            "bottom_center_x": "2248.55810546875",
+            "bottom_center_y": "1300.6026611328125",
+            "confidence": "0.33076006174087524",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.01304890580695632,
+          "height_ratio": 0.8957639658029304,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6545671170324348
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 807,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 807,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115442",
+            "timestamp_sec": "1925.9573666666668",
+            "track_id": "20",
+            "x1": "2211.40185546875",
+            "y1": "1111.0347900390625",
+            "x2": "2285.83056640625",
+            "y2": "1300.598388671875",
+            "bottom_center_x": "2248.6162109375",
+            "bottom_center_y": "1300.598388671875",
+            "confidence": "0.32365289330482483",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.011836577481882573,
+          "height_ratio": 0.900020342979151,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6541428021186589
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 808,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 809,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 810,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 810,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115445",
+            "timestamp_sec": "1926.0074166666668",
+            "track_id": "20",
+            "x1": "2213.870361328125",
+            "y1": "1107.1358642578125",
+            "x2": "2288.584716796875",
+            "y2": "1299.5516357421875",
+            "bottom_center_x": "2251.2275390625",
+            "bottom_center_y": "1299.5516357421875",
+            "confidence": "0.3102930784225464",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.018991202179795556,
+          "height_ratio": 0.9135620440579085,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6566469207629285
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 811,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 811,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115446",
+            "timestamp_sec": "1926.0241",
+            "track_id": "20",
+            "x1": "2214.409912109375",
+            "y1": "1106.52587890625",
+            "x2": "2288.558837890625",
+            "y2": "1299.284423828125",
+            "bottom_center_x": "2251.484375",
+            "bottom_center_y": "1299.284423828125",
+            "confidence": "0.2911416292190552",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.01870139969088022,
+          "height_ratio": 0.9151894823899929,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.656545489891808
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 812,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 813,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 814,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 815,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 816,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 817,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 818,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 818,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115453",
+            "timestamp_sec": "1926.1408833333335",
+            "track_id": "20",
+            "x1": "2215.090087890625",
+            "y1": "1096.26123046875",
+            "x2": "2294.9990234375",
+            "y2": "1298.6451416015625",
+            "bottom_center_x": "2255.0445556640625",
+            "bottom_center_y": "1298.6451416015625",
+            "confidence": "0.32497671246528625",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.024614910561358193,
+          "height_ratio": 0.9608893185449727,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6586152186964754
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 819,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 819,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115454",
+            "timestamp_sec": "1926.1575666666668",
+            "track_id": "20",
+            "x1": "2214.36865234375",
+            "y1": "1095.481689453125",
+            "x2": "2296.25146484375",
+            "y2": "1298.5672607421875",
+            "bottom_center_x": "2255.31005859375",
+            "bottom_center_y": "1298.5672607421875",
+            "confidence": "0.3357546329498291",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.02431015486662477,
+          "height_ratio": 0.9642206987204788,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6585085542033187
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 820,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 820,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115455",
+            "timestamp_sec": "1926.17425",
+            "track_id": "20",
+            "x1": "2214.58251953125",
+            "y1": "1095.7105712890625",
+            "x2": "2299.06494140625",
+            "y2": "1298.103271484375",
+            "bottom_center_x": "2256.82373046875",
+            "bottom_center_y": "1298.103271484375",
+            "confidence": "0.44008079171180725",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.03015815667504723,
+          "height_ratio": 0.9609310477329749,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6605553548362666
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 821,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 821,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115456",
+            "timestamp_sec": "1926.1909333333333",
+            "track_id": "20",
+            "x1": "2213.802734375",
+            "y1": "1095.59716796875",
+            "x2": "2300.54052734375",
+            "y2": "1297.9117431640625",
+            "bottom_center_x": "2257.171630859375",
+            "bottom_center_y": "1297.9117431640625",
+            "confidence": "0.43200790882110596",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.030352398531506546,
+          "height_ratio": 0.9605601216174001,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6606233394860274
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 822,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 822,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115457",
+            "timestamp_sec": "1926.2076166666668",
+            "track_id": "20",
+            "x1": "2216.142822265625",
+            "y1": "1095.2200927734375",
+            "x2": "2303.715576171875",
+            "y2": "1297.541748046875",
+            "bottom_center_x": "2259.92919921875",
+            "bottom_center_y": "1297.541748046875",
+            "confidence": "0.2832241356372833",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.14705882352941177,
+          "part_visible_pixels": [
+            150,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.04193422646858384,
+          "height_ratio": 0.9605937367966241,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6646769792640044
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 823,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 823,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115458",
+            "timestamp_sec": "1926.2243",
+            "track_id": "20",
+            "x1": "2216.83935546875",
+            "y1": "1094.9576416015625",
+            "x2": "2305.21044921875",
+            "y2": "1297.482666015625",
+            "bottom_center_x": "2261.02490234375",
+            "bottom_center_y": "1297.482666015625",
+            "confidence": "0.2524154484272003",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.20588235294117646,
+          "part_visible_pixels": [
+            217,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.04549933355267985,
+          "height_ratio": 0.9615593038412297,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6659247667434379
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 824,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 824,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115459",
+            "timestamp_sec": "1926.2409833333334",
+            "track_id": "20",
+            "x1": "2219.297607421875",
+            "y1": "1094.990478515625",
+            "x2": "2309.157958984375",
+            "y2": "1298.11328125",
+            "bottom_center_x": "2264.227783203125",
+            "bottom_center_y": "1298.11328125",
+            "confidence": "0.4282669126987457",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.11764705882352941,
+          "part_visible_pixels": [
+            128,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.058621861399061614,
+          "height_ratio": 0.9643974681974323,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6705176514896716
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 825,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 825,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115460",
+            "timestamp_sec": "1926.2576666666666",
+            "track_id": "20",
+            "x1": "2220.302490234375",
+            "y1": "1095.0877685546875",
+            "x2": "2311.195068359375",
+            "y2": "1298.346435546875",
+            "bottom_center_x": "2265.748779296875",
+            "bottom_center_y": "1298.346435546875",
+            "confidence": "0.4279933571815491",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.08823529411764706,
+          "part_visible_pixels": [
+            96,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.06415685143151559,
+          "height_ratio": 0.9650425318952991,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6724548980010305
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 826,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 826,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115461",
+            "timestamp_sec": "1926.2743500000001",
+            "track_id": "20",
+            "x1": "2216.452392578125",
+            "y1": "1093.9730224609375",
+            "x2": "2305.72265625",
+            "y2": "1298.379150390625",
+            "bottom_center_x": "2261.0875244140625",
+            "bottom_center_y": "1298.379150390625",
+            "confidence": "0.27503710985183716",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.11428571428571428,
+          "part_visible_pixels": [
+            124,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.04045624372969153,
+          "height_ratio": 0.9704905092178038,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.664159685305392
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 827,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 827,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115462",
+            "timestamp_sec": "1926.2910333333334",
+            "track_id": "20",
+            "x1": "2215.063720703125",
+            "y1": "1093.5491943359375",
+            "x2": "2302.593994140625",
+            "y2": "1298.4239501953125",
+            "bottom_center_x": "2258.828857421875",
+            "bottom_center_y": "1298.4239501953125",
+            "confidence": "0.30442360043525696",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.11428571428571428,
+          "part_visible_pixels": [
+            124,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.028146578493987846,
+          "height_ratio": 0.9727154863391969,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6598513024728958
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 828,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 828,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115463",
+            "timestamp_sec": "1926.3077166666667",
+            "track_id": "20",
+            "x1": "2213.072265625",
+            "y1": "1089.858154296875",
+            "x2": "2299.5146484375",
+            "y2": "1298.68212890625",
+            "bottom_center_x": "2256.29345703125",
+            "bottom_center_y": "1298.68212890625",
+            "confidence": "0.3096350431442261",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.11428571428571428,
+          "part_visible_pixels": [
+            120,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.014447493456305782,
+          "height_ratio": 0.9914658014815021,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.655056622709707
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 829,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 830,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 830,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115465",
+            "timestamp_sec": "1926.3410833333335",
+            "track_id": "20",
+            "x1": "2217.875732421875",
+            "y1": "1091.787841796875",
+            "x2": "2302.48193359375",
+            "y2": "1298.5335693359375",
+            "bottom_center_x": "2260.1788330078125",
+            "bottom_center_y": "1298.5335693359375",
+            "confidence": "0.38487184047698975",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.08571428571428572,
+          "part_visible_pixels": [
+            90,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.029708190158805815,
+          "height_ratio": 0.9815985872351572,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6603978665555821
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 831,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 831,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115466",
+            "timestamp_sec": "1926.3577666666667",
+            "track_id": "20",
+            "x1": "2219.400390625",
+            "y1": "1092.4005126953125",
+            "x2": "2302.79052734375",
+            "y2": "1298.415283203125",
+            "bottom_center_x": "2261.095458984375",
+            "bottom_center_y": "1298.415283203125",
+            "confidence": "0.29134970903396606",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.08571428571428572,
+          "part_visible_pixels": [
+            87,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.03248329655836193,
+          "height_ratio": 0.9781281097663107,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6613691537954267
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 832,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 832,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115467",
+            "timestamp_sec": "1926.37445",
+            "track_id": "20",
+            "x1": "2216.639892578125",
+            "y1": "1090.6495361328125",
+            "x2": "2300.703857421875",
+            "y2": "1298.556884765625",
+            "bottom_center_x": "2258.671875",
+            "bottom_center_y": "1298.556884765625",
+            "confidence": "0.8241739273071289",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.14285714285714285,
+          "part_visible_pixels": [
+            145,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.01936068820393599,
+          "height_ratio": 0.9871137949161098,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6567762408713776
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 833,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 833,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115468",
+            "timestamp_sec": "1926.3911333333333",
+            "track_id": "20",
+            "x1": "2215.56494140625",
+            "y1": "1089.9656982421875",
+            "x2": "2299.836181640625",
+            "y2": "1298.6400146484375",
+            "bottom_center_x": "2257.7005615234375",
+            "bottom_center_y": "1298.6400146484375",
+            "confidence": "0.8236335515975952",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.14285714285714285,
+          "part_visible_pixels": [
+            150,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.01314769084397605,
+          "height_ratio": 0.9907552461413541,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6546016917953916
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 834,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 834,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115469",
+            "timestamp_sec": "1926.4078166666668",
+            "track_id": "20",
+            "x1": "2213.079833984375",
+            "y1": "1089.3980712890625",
+            "x2": "2298.3203125",
+            "y2": "1298.314697265625",
+            "bottom_center_x": "2255.7000732421875",
+            "bottom_center_y": "1298.314697265625",
+            "confidence": "0.755656361579895",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.17142857142857143,
+          "part_visible_pixels": [
+            180,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.0024834155762866227,
+          "height_ratio": 0.9919056966716916,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6508691954517003
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_front",
+      "local_frame": 835,
+      "allowed_raw_ids": [
+        20
+      ],
+      "candidates": [
+        {
+          "local_frame": 835,
+          "slot": "far_front",
+          "raw_id": "20",
+          "row": {
+            "source_frame": "115470",
+            "timestamp_sec": "1926.4245",
+            "track_id": "20",
+            "x1": "2211.90283203125",
+            "y1": "1089.1767578125",
+            "x2": "2297.957275390625",
+            "y2": "1298.2503662109375",
+            "bottom_center_x": "2254.9300537109375",
+            "bottom_center_y": "1298.2503662109375",
+            "confidence": "0.7563396096229553",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "20:1",
+          "torso_visible_fraction": 0.19444444444444445,
+          "part_visible_pixels": [
+            217,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.00350704789338247,
+          "height_ratio": 0.9926510263351747,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6512274667626838
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 898,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 899,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 900,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 901,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 902,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 903,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 904,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 905,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 905,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115540",
+            "timestamp_sec": "1927.5923333333333",
+            "track_id": "775",
+            "x1": "1352.0006103515625",
+            "y1": "1088.5142822265625",
+            "x2": "1461.1646728515625",
+            "y2": "1214.1591796875",
+            "bottom_center_x": "1406.5826416015625",
+            "bottom_center_y": "1214.1591796875",
+            "confidence": "0.3321756422519684",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.5238095238095238,
+          "part_visible_pixels": [
+            418,
+            0
+          ],
+          "appearance": 0.4526261109777248,
+          "negative_distance": 0.7532842692479256,
+          "reference_residual_height": 0.016153576277133205,
+          "height_ratio": 0.9322675134774796,
+          "rejection_reasons": [],
+          "cost": 0.2998607238325178
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 906,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 906,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115541",
+            "timestamp_sec": "1927.6090166666668",
+            "track_id": "775",
+            "x1": "1361.5283203125",
+            "y1": "1088.93359375",
+            "x2": "1470.9910888671875",
+            "y2": "1215.6546630859375",
+            "bottom_center_x": "1416.2597045898438",
+            "bottom_center_y": "1215.6546630859375",
+            "confidence": "0.5316330194473267",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.42857142857142855,
+          "part_visible_pixels": [
+            342,
+            0
+          ],
+          "appearance": 0.48384585049047907,
+          "negative_distance": 0.7679031947395012,
+          "reference_residual_height": 0.06068386803716759,
+          "height_ratio": 0.9402525578227349,
+          "rejection_reasons": [],
+          "cost": 0.3357391566318201
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 907,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 907,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115542",
+            "timestamp_sec": "1927.6257",
+            "track_id": "775",
+            "x1": "1365.11328125",
+            "y1": "1089.04541015625",
+            "x2": "1473.990234375",
+            "y2": "1216.1502685546875",
+            "bottom_center_x": "1419.5517578125",
+            "bottom_center_y": "1216.1502685546875",
+            "confidence": "0.5349140763282776",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.36363636363636365,
+          "part_visible_pixels": [
+            304,
+            0
+          ],
+          "appearance": 0.5437890324170012,
+          "negative_distance": 0.7905469359447514,
+          "reference_residual_height": 0.07072701443425468,
+          "height_ratio": 0.9431002188278941,
+          "rejection_reasons": [],
+          "cost": 0.37821732612303993
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 908,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 908,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115543",
+            "timestamp_sec": "1927.6423833333333",
+            "track_id": "775",
+            "x1": "1366.6719970703125",
+            "y1": "1088.900390625",
+            "x2": "1475.88525390625",
+            "y2": "1217.868408203125",
+            "bottom_center_x": "1421.2786254882812",
+            "bottom_center_y": "1217.868408203125",
+            "confidence": "0.5622802376747131",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.3181818181818182,
+          "part_visible_pixels": [
+            266,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.07036169382642075,
+          "height_ratio": 0.9569245985739957,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6746265928392473
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 909,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 909,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115544",
+            "timestamp_sec": "1927.6590666666666",
+            "track_id": "775",
+            "x1": "1367.47021484375",
+            "y1": "1088.64892578125",
+            "x2": "1475.8314208984375",
+            "y2": "1218.37548828125",
+            "bottom_center_x": "1421.6508178710938",
+            "bottom_center_y": "1218.37548828125",
+            "confidence": "0.5591591000556946",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.3181818181818182,
+          "part_visible_pixels": [
+            266,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.060028770402693006,
+          "height_ratio": 0.9625528954843198,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6710100696409426
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 910,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 910,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115545",
+            "timestamp_sec": "1927.67575",
+            "track_id": "775",
+            "x1": "1367.809326171875",
+            "y1": "1084.727783203125",
+            "x2": "1477.014404296875",
+            "y2": "1217.8746337890625",
+            "bottom_center_x": "1422.411865234375",
+            "bottom_center_y": "1217.8746337890625",
+            "confidence": "0.6843019127845764",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.30434782608695654,
+          "part_visible_pixels": [
+            266,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.050836126887329615,
+          "height_ratio": 0.9879309532780708,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6677926444105654
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 911,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 911,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115546",
+            "timestamp_sec": "1927.6924333333334",
+            "track_id": "775",
+            "x1": "1368.7532958984375",
+            "y1": "1083.3782958984375",
+            "x2": "1476.6748046875",
+            "y2": "1217.6048583984375",
+            "bottom_center_x": "1422.7140502929688",
+            "bottom_center_y": "1217.6048583984375",
+            "confidence": "0.680226743221283",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.2608695652173913,
+          "part_visible_pixels": [
+            228,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.0387884956655779,
+          "height_ratio": 0.9959422642165672,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6635759734829523
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 912,
+      "allowed_raw_ids": [
+        422,
+        775
+      ],
+      "candidates": [
+        {
+          "local_frame": 912,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115547",
+            "timestamp_sec": "1927.7091166666667",
+            "track_id": "775",
+            "x1": "1368.7349853515625",
+            "y1": "1081.8677978515625",
+            "x2": "1474.9542236328125",
+            "y2": "1216.558837890625",
+            "bottom_center_x": "1421.8446044921875",
+            "bottom_center_y": "1216.558837890625",
+            "confidence": "0.6992941498756409",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.35926773455377575,
+          "part_visible_pixels": [
+            314,
+            51
+          ],
+          "appearance": 0.5504158901445055,
+          "negative_distance": 0.7471224543967373,
+          "reference_residual_height": 0.0169281908463795,
+          "height_ratio": 0.9993886223987015,
+          "rejection_reasons": [],
+          "cost": 0.36369519539016143
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 982,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 982,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115617",
+            "timestamp_sec": "1928.87695",
+            "track_id": "775",
+            "x1": "1526.4805908203125",
+            "y1": "1094.9501953125",
+            "x2": "1594.7774658203125",
+            "y2": "1210.34375",
+            "bottom_center_x": "1560.6290283203125",
+            "bottom_center_y": "1210.34375",
+            "confidence": "0.6247146129608154",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.2916666666666667,
+          "part_visible_pixels": [
+            133,
+            105
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.018399013017344003,
+          "height_ratio": 0.718128391970488,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6564396545560705
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 983,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 983,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115618",
+            "timestamp_sec": "1928.8936333333334",
+            "track_id": "775",
+            "x1": "1527.0587158203125",
+            "y1": "1096.2596435546875",
+            "x2": "1595.0992431640625",
+            "y2": "1210.8614501953125",
+            "bottom_center_x": "1561.0789794921875",
+            "bottom_center_y": "1210.8614501953125",
+            "confidence": "0.6270871758460999",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.17391304347826086,
+          "part_visible_pixels": [
+            80,
+            60
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.03038540644331644,
+          "height_ratio": 0.7132011085248233,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6606348922551608
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 984,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 984,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115619",
+            "timestamp_sec": "1928.9103166666666",
+            "track_id": "775",
+            "x1": "1529.336669921875",
+            "y1": "1098.3544921875",
+            "x2": "1595.9605712890625",
+            "y2": "1210.8421630859375",
+            "bottom_center_x": "1562.6486206054688",
+            "bottom_center_y": "1210.8421630859375",
+            "confidence": "0.5010859966278076",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.8627002288329519,
+          "part_visible_pixels": [
+            377,
+            342
+          ],
+          "appearance": 0.4454472493801892,
+          "negative_distance": 0.7013891285223204,
+          "reference_residual_height": 0.048949114308116104,
+          "height_ratio": 0.7000442133667187,
+          "rejection_reasons": [],
+          "cost": 0.3066729021049637
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 985,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 985,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115620",
+            "timestamp_sec": "1928.9270000000001",
+            "track_id": "775",
+            "x1": "1530.294189453125",
+            "y1": "1099.20947265625",
+            "x2": "1596.234375",
+            "y2": "1210.78076171875",
+            "bottom_center_x": "1563.2642822265625",
+            "bottom_center_y": "1210.78076171875",
+            "confidence": "0.5046711564064026",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.8581235697940504,
+          "part_visible_pixels": [
+            375,
+            321
+          ],
+          "appearance": 0.44432385645582656,
+          "negative_distance": 0.7111519632682419,
+          "reference_residual_height": 0.061913304181619284,
+          "height_ratio": 0.694341296803875,
+          "rejection_reasons": [],
+          "cost": 0.31048016315985405
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 986,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 986,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115621",
+            "timestamp_sec": "1928.9436833333334",
+            "track_id": "775",
+            "x1": "1533.5821533203125",
+            "y1": "1102.3153076171875",
+            "x2": "1597.7947998046875",
+            "y2": "1211.9091796875",
+            "bottom_center_x": "1565.6884765625",
+            "bottom_center_y": "1211.9091796875",
+            "confidence": "0.505734920501709",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.0864847865729631,
+          "height_ratio": 0.6820352430671618,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6802696753005371
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 987,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 987,
+          "slot": "far_rear",
+          "raw_id": "775",
+          "row": {
+            "source_frame": "115622",
+            "timestamp_sec": "1928.9603666666667",
+            "track_id": "775",
+            "x1": "1535.002197265625",
+            "y1": "1103.449951171875",
+            "x2": "1598.2694091796875",
+            "y2": "1212.31005859375",
+            "bottom_center_x": "1566.6358032226562",
+            "bottom_center_y": "1212.31005859375",
+            "confidence": "0.49904873967170715",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "775:0",
+          "torso_visible_fraction": 0.0,
+          "part_visible_pixels": [
+            0,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.10164227115038316,
+          "height_ratio": 0.6774688075457479,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6855747949026341
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 988,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 989,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 990,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 991,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 992,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 993,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 994,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 995,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 996,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 997,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 997,
+          "slot": "far_rear",
+          "raw_id": "868",
+          "row": {
+            "source_frame": "115632",
+            "timestamp_sec": "1929.1272000000001",
+            "track_id": "868",
+            "x1": "1508.8433837890625",
+            "y1": "1055.1109619140625",
+            "x2": "1561.04150390625",
+            "y2": "1204.591796875",
+            "bottom_center_x": "1534.9424438476562",
+            "bottom_center_y": "1204.591796875",
+            "confidence": "0.37170642614364624",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "868:0",
+          "torso_visible_fraction": 0.4,
+          "part_visible_pixels": [
+            190,
+            0
+          ],
+          "appearance": 0.7941642429606353,
+          "negative_distance": 0.2693725199617011,
+          "reference_residual_height": 0.06298698931751888,
+          "height_ratio": 0.9302636696790505,
+          "rejection_reasons": [
+            "visible_appearance_gate",
+            "visible_negative_template_veto"
+          ],
+          "cost": 0.5382522041855445
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 998,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 998,
+          "slot": "far_rear",
+          "raw_id": "868",
+          "row": {
+            "source_frame": "115633",
+            "timestamp_sec": "1929.1438833333334",
+            "track_id": "868",
+            "x1": "1505.0107421875",
+            "y1": "1055.0037841796875",
+            "x2": "1560.052490234375",
+            "y2": "1212.5516357421875",
+            "bottom_center_x": "1532.5316162109375",
+            "bottom_center_y": "1212.5516357421875",
+            "confidence": "0.5118972659111023",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "868:0",
+          "torso_visible_fraction": 0.23076923076923078,
+          "part_visible_pixels": [
+            114,
+            0
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.017844685430350615,
+          "height_ratio": 0.9804671119403439,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6562456399006228
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 999,
+      "allowed_raw_ids": [
+        775,
+        868
+      ],
+      "candidates": [
+        {
+          "local_frame": 999,
+          "slot": "far_rear",
+          "raw_id": "868",
+          "row": {
+            "source_frame": "115634",
+            "timestamp_sec": "1929.1605666666667",
+            "track_id": "868",
+            "x1": "1503.7711181640625",
+            "y1": "1054.9830322265625",
+            "x2": "1559.794921875",
+            "y2": "1215.211669921875",
+            "bottom_center_x": "1531.7830200195312",
+            "bottom_center_y": "1215.211669921875",
+            "confidence": "0.5152661800384521",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "868:0",
+          "torso_visible_fraction": 0.22592592592592592,
+          "part_visible_pixels": [
+            122,
+            21
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.004331841464825299,
+          "height_ratio": 0.9971504409181794,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6515161445126889
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1102,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [
+        {
+          "local_frame": 1102,
+          "slot": "far_rear",
+          "raw_id": "870",
+          "row": {
+            "source_frame": "115737",
+            "timestamp_sec": "1930.87895",
+            "track_id": "870",
+            "x1": "1395.3695068359375",
+            "y1": "1064.4434814453125",
+            "x2": "1463.1929931640625",
+            "y2": "1217.0650634765625",
+            "bottom_center_x": "1429.28125",
+            "bottom_center_y": "1217.0650634765625",
+            "confidence": "0.30986738204956055",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "870:0",
+          "torso_visible_fraction": 0.3269230769230769,
+          "part_visible_pixels": [
+            204,
+            60
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.013785573902821301,
+          "height_ratio": 0.9881237932732317,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6548249508659875
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1103,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [
+        {
+          "local_frame": 1103,
+          "slot": "far_rear",
+          "raw_id": "870",
+          "row": {
+            "source_frame": "115738",
+            "timestamp_sec": "1930.8956333333333",
+            "track_id": "870",
+            "x1": "1395.4923095703125",
+            "y1": "1064.69482421875",
+            "x2": "1462.6337890625",
+            "y2": "1216.671630859375",
+            "bottom_center_x": "1429.0630493164062",
+            "bottom_center_y": "1216.671630859375",
+            "confidence": "0.3093705177307129",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "870:0",
+          "torso_visible_fraction": 0.26421404682274247,
+          "part_visible_pixels": [
+            158,
+            20
+          ],
+          "appearance": 1.0,
+          "negative_distance": 1.0,
+          "reference_residual_height": 0.022401022699570717,
+          "height_ratio": 0.9839492991006897,
+          "rejection_reasons": [
+            "insufficient_unoccluded_torso"
+          ],
+          "cost": 0.6578403579448497
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1104,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1105,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1106,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1107,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1108,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1109,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1110,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1111,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [],
+      "decision": "no_supported_observed_box_leave_missing"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1112,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [
+        {
+          "local_frame": 1112,
+          "slot": "far_rear",
+          "raw_id": "870",
+          "row": {
+            "source_frame": "115747",
+            "timestamp_sec": "1931.0457833333335",
+            "track_id": "870",
+            "x1": "1408.2225341796875",
+            "y1": "1076.7418212890625",
+            "x2": "1458.1407470703125",
+            "y2": "1180.07861328125",
+            "bottom_center_x": "1433.181640625",
+            "bottom_center_y": "1180.07861328125",
+            "confidence": "0.4560059905052185",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "870:0",
+          "torso_visible_fraction": 0.5882352941176471,
+          "part_visible_pixels": [
+            170,
+            0
+          ],
+          "appearance": 0.553545883516456,
+          "negative_distance": 0.808938747431797,
+          "reference_residual_height": 0.19547668500537246,
+          "height_ratio": 0.6690373768180428,
+          "rejection_reasons": [],
+          "cost": 0.4282216640375767
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1113,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [
+        {
+          "local_frame": 1113,
+          "slot": "far_rear",
+          "raw_id": "870",
+          "row": {
+            "source_frame": "115748",
+            "timestamp_sec": "1931.0624666666668",
+            "track_id": "870",
+            "x1": "1407.531005859375",
+            "y1": "1076.93603515625",
+            "x2": "1459.7581787109375",
+            "y2": "1178.544677734375",
+            "bottom_center_x": "1433.6445922851562",
+            "bottom_center_y": "1178.544677734375",
+            "confidence": "0.4575556814670563",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "870:0",
+          "torso_visible_fraction": 0.5882352941176471,
+          "part_visible_pixels": [
+            180,
+            0
+          ],
+          "appearance": 0.558572568104741,
+          "negative_distance": 0.7984666828327365,
+          "reference_residual_height": 0.20098611026627974,
+          "height_ratio": 0.6578487524332116,
+          "rejection_reasons": [],
+          "cost": 0.4334173078612796
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1114,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [
+        {
+          "local_frame": 1114,
+          "slot": "far_rear",
+          "raw_id": "870",
+          "row": {
+            "source_frame": "115749",
+            "timestamp_sec": "1931.07915",
+            "track_id": "870",
+            "x1": "1412.7412109375",
+            "y1": "1081.318359375",
+            "x2": "1474.4654541015625",
+            "y2": "1195.4073486328125",
+            "bottom_center_x": "1443.6033325195312",
+            "bottom_center_y": "1195.4073486328125",
+            "confidence": "0.4662388265132904",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "870:0",
+          "torso_visible_fraction": 0.42105263157894735,
+          "part_visible_pixels": [
+            176,
+            0
+          ],
+          "appearance": 0.6016063755802471,
+          "negative_distance": 0.7373120979439345,
+          "reference_residual_height": 0.07570727070726752,
+          "height_ratio": 0.7386507421542508,
+          "rejection_reasons": [],
+          "cost": 0.4175416888747043
+        }
+      ],
+      "decision": "proposed_observed_box"
+    },
+    {
+      "slot": "far_rear",
+      "local_frame": 1115,
+      "allowed_raw_ids": [
+        870
+      ],
+      "candidates": [
+        {
+          "local_frame": 1115,
+          "slot": "far_rear",
+          "raw_id": "870",
+          "row": {
+            "source_frame": "115750",
+            "timestamp_sec": "1931.0958333333333",
+            "track_id": "870",
+            "x1": "1413.8343505859375",
+            "y1": "1082.87646484375",
+            "x2": "1480.35009765625",
+            "y2": "1201.1444091796875",
+            "bottom_center_x": "1447.0922241210938",
+            "bottom_center_y": "1201.1444091796875",
+            "confidence": "0.45514020323753357",
+            "in_initial_roi": "1"
+          },
+          "tracklet_key": "870:0",
+          "torso_visible_fraction": 0.35,
+          "part_visible_pixels": [
+            161,
+            0
+          ],
+          "appearance": 0.6535412549669207,
+          "negative_distance": 0.7623245151571628,
+          "reference_residual_height": 0.033249271850285124,
+          "height_ratio": 0.765706712147209,
+          "rejection_reasons": [
+            "visible_appearance_gate"
+          ],
+          "cost": 0.4364390608760983
+        }
+      ],
+      "decision": "no_supported_observed_box_leave_missing"
+    }
+  ],
+  "human_visibility_or_identity_of_additions": "pending",
+  "automatic_adoption": false,
+  "limitation": "Box visibility masks and appearance similarity are heuristics, not independent occlusion labels or position accuracy."
+}

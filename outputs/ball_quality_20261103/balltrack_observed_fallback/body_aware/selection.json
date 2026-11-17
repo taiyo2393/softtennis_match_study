@@ -1,0 +1,103 @@
+{
+  "status": "body_aware_validation_complete",
+  "selected_policy": "original",
+  "selected_threshold": null,
+  "baseline": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.929949235072644
+  },
+  "selected_validation": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.929949235072644
+  },
+  "threshold_results": [
+    {
+      "threshold": 0.3,
+      "localized_tp_16px": 84,
+      "errors": 4,
+      "additions": 5,
+      "original_correct_frames_lost": 0,
+      "feasible": false,
+      "added_samples": [
+        "match1_motion_pilot_011_frame_001710",
+        "match1_motion_pilot_012_frame_000667",
+        "match1_motion_pilot_014_frame_000454",
+        "match1_motion_pilot_019_frame_000169",
+        "match1_motion_pilot_019_frame_000325"
+      ]
+    },
+    {
+      "threshold": 0.4,
+      "localized_tp_16px": 83,
+      "errors": 4,
+      "additions": 4,
+      "original_correct_frames_lost": 0,
+      "feasible": false,
+      "added_samples": [
+        "match1_motion_pilot_011_frame_001710",
+        "match1_motion_pilot_014_frame_000454",
+        "match1_motion_pilot_019_frame_000169",
+        "match1_motion_pilot_019_frame_000325"
+      ]
+    },
+    {
+      "threshold": 0.5,
+      "localized_tp_16px": 81,
+      "errors": 4,
+      "additions": 2,
+      "original_correct_frames_lost": 0,
+      "feasible": false,
+      "added_samples": [
+        "match1_motion_pilot_014_frame_000454",
+        "match1_motion_pilot_019_frame_000325"
+      ]
+    },
+    {
+      "threshold": 0.6,
+      "localized_tp_16px": 80,
+      "errors": 3,
+      "additions": 0,
+      "original_correct_frames_lost": 0,
+      "feasible": true,
+      "added_samples": []
+    },
+    {
+      "threshold": 0.7,
+      "localized_tp_16px": 80,
+      "errors": 3,
+      "additions": 0,
+      "original_correct_frames_lost": 0,
+      "feasible": true,
+      "added_samples": []
+    }
+  ],
+  "validation_added_samples": [],
+  "automatic_adoption": false,
+  "audit_used_for_selection": false,
+  "original_observations_preserved": true,
+  "warning": "Selected same-match validation examples; this is a retrospective refined policy. It can miss true balls near bodies and rackets. No global removal rule is adopted."
+}

@@ -1,0 +1,28 @@
+{
+  "date_jst": "2026-11-10",
+  "candidate_id": "match1_rally_window_008",
+  "source_clock": "legacy_edited_match1",
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "contact_candidate_first_frame": 17940,
+  "contact_candidate_last_frame": 17946,
+  "review_status": "ai_visual_bracket_human_pending",
+  "effective_serve_status": "sequence_supported_not_human_confirmed",
+  "server_camera_side_candidate": "near",
+  "server_court_half_candidate": "left",
+  "serve_style_candidate": "low_swing_service",
+  "serve_attempt_number": "",
+  "evidence": "fine_sequence.jpg;near_left_swing_detail.jpg;lookback_292_299_5.jpg",
+  "basis": "Near-left player visibly holds then releases the ball and swings from a low position; aroundF17940 ball is ahead of lowered racket andF17946 shows outgoing trace. Followed by sustained play rather than a visible retry/reset.",
+  "context_boundary_modified": false,
+  "preliminary_interpretation": "Coarse first movement looked like ongoing play; higher-resolution hand-held ball/release sequence supports service action. Do not treat broadcast wide-shot entry as contact.",
+  "winner_camera_side": "",
+  "winner_review_status": "unreviewed",
+  "fixed_before_new_person_tracking": true,
+  "evidence_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\008\\search_protocol.json": "6805250dd11d7911404ea44cf4b2847321ec84aa5a14f75b5fa9d9df64471414",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\008\\lookback_manifest.json": "f5822acdda24bf06782f002db875a7a2500ee0e3ee71b5151a1e27abd925f348",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\008\\fine_manifest.json": "209d55858fb6efe8560b7c8f02167dcf6dae7595998814a8851ec7727aa02748",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\008\\fine_sequence.jpg": "87a81283d131d45a1f70eb589e43777d0d69dd0fb7d4556f26e40f35e331930a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\008\\near_left_swing_detail.jpg": "53ab143fe1d3b7e31791f871161b802bcef8fb4fe8a2ebe134ace4f80b1faf1f"
+  }
+}

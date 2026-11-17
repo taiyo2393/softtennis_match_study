@@ -1,0 +1,12 @@
+{
+  "status": "frozen_transfer_path_constructed",
+  "candidate_id": "match1_rally_window_018",
+  "input_times_with_four_observations": 31,
+  "artifact_hashes": {
+    "four_player_path.csv": "35022d2462c4bcbf81e81ea873ca611cb58a7a9c5bfa3603cfef32c1512bcdd8",
+    "prefix_frame_features.csv": "6f163e797f4b71db84f1e9661cb640eaff2f16f78f4a95b02f99f1cd939a35ce",
+    "prefix_player_summary_features.csv": "605a6a096698b447d8b358566ecc2d25a4254a21ca854510574d2d7849040c99",
+    "selected_four.csv": "3317521667034fb9cd85fe52ea36509883aae445c5d8aa7ad714a8e664e4c52e",
+    "snapshot_player_features.csv": "d16ef15e06cb4aaa3f4c512e60840aecafecfab2fc37dc00a77f5d6efa9cedc6"
+  }
+}

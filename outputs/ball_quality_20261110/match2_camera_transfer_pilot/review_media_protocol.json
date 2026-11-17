@@ -1,0 +1,28 @@
+{
+  "first_source_frame": 12288,
+  "last_source_frame": 12526,
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "display_dimensions": [
+    1280,
+    720
+  ],
+  "header_height": 100,
+  "source_fps": "60000/1001",
+  "playback_speed": 0.5,
+  "review_stills": [
+    12295,
+    12348,
+    12408,
+    12468,
+    12506,
+    12507,
+    12526
+  ],
+  "selection": "Diagnostic stills after output include initialization and both missing F2 frames, not random accuracy sampling.",
+  "colors": "N1green,N2cyan,F1purple,F2yellow; detections/box-bottom proxies are candidates, not independent truth.",
+  "original_image_aspect_preserved": true,
+  "interpolated_or_backfilled_boxes": false
+}

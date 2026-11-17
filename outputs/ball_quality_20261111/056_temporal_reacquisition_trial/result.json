@@ -1,0 +1,16 @@
+{
+  "original_outputs_retained": 15,
+  "original_missing_frames": 13,
+  "new_weak_candidates": 4,
+  "unresolved_frames": 9,
+  "original_model_reproduction_exact_frames": 28,
+  "old_publications_unchanged": true,
+  "new_confirmed_ball_locations": 0,
+  "new_interpolated_returned_positions": 0,
+  "proposed_candidate_frames": [
+    154861,
+    154862,
+    154873,
+    154878
+  ]
+}

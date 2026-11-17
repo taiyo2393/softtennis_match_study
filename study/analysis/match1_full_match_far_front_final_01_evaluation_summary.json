@@ -1,0 +1,69 @@
+{
+  "input": "softtennis_frontcourt_study\\analysis\\match1_full_match_far_front_final_01_motion_features.csv",
+  "model": {
+    "type": "two_feature_ridge_logistic_regression",
+    "features": [
+      "position_median_x_screen_fraction",
+      "lateral_velocity_screen_fraction_per_sec"
+    ],
+    "excluded_features": [
+      "impact_median_x_px",
+      "relative_to_impact_x_px",
+      "post_impact_frames"
+    ],
+    "ridge": 1.0,
+    "standardisation": "training-fold only",
+    "positive_class": "front_right"
+  },
+  "evaluation_scope": "leave-one-event-out within one match only; no match-level generalisation or causal claim",
+  "timepoints": {
+    "-0.500": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.6170212765957447,
+      "balanced_accuracy": 0.6204710144927537,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.48641180830039527,
+        0.7481884057971014
+      ],
+      "permutation_p_unadjusted": 0.04595404595404595
+    },
+    "-0.300": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.6170212765957447,
+      "balanced_accuracy": 0.618659420289855,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.4842406898656899,
+        0.7615010141987829
+      ],
+      "permutation_p_unadjusted": 0.04495504495504495
+    },
+    "-0.200": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.5957446808510638,
+      "balanced_accuracy": 0.5969202898550725,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.45271117424242424,
+        0.735474775224775
+      ],
+      "permutation_p_unadjusted": 0.08691308691308691
+    },
+    "-0.100": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.574468085106383,
+      "balanced_accuracy": 0.5760869565217391,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.4303991977225673,
+        0.7182174688057037
+      ],
+      "permutation_p_unadjusted": 0.0939060939060939
+    }
+  }
+}

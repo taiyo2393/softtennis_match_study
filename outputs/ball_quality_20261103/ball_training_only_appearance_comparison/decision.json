@@ -1,0 +1,196 @@
+{
+  "training_clip_holdout": [
+    {
+      "method": "handcrafted672",
+      "real_total": 102,
+      "real_kept": 97,
+      "false_total": 9,
+      "false_kept": 8
+    },
+    {
+      "method": "frozen_resnet18_512",
+      "real_total": 102,
+      "real_kept": 95,
+      "false_total": 9,
+      "false_kept": 8
+    }
+  ],
+  "validation": {
+    "handcrafted672": {
+      "baseline": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 81,
+          "wrong_localization": 1,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7714285714285715,
+        "localization_precision_16px": 0.9759036144578314,
+        "mean_error_both_visible_px": 4.367023144730804
+      },
+      "proposed": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 79,
+          "presence_fn": 27,
+          "presence_tp": 78,
+          "localized_tp_16px": 77,
+          "wrong_localization": 1,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7333333333333333,
+        "localization_precision_16px": 0.9746835443037974,
+        "mean_error_both_visible_px": 4.425204185378049
+      },
+      "correct_lost": [
+        "match1_motion_pilot_011_frame_001238",
+        "match1_motion_pilot_012_frame_000575",
+        "match1_motion_pilot_017_frame_001511",
+        "match1_motion_pilot_019_frame_000247"
+      ],
+      "nonregression": false,
+      "withheld": 4
+    },
+    "frozen_resnet18_512": {
+      "baseline": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 81,
+          "wrong_localization": 1,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7714285714285715,
+        "localization_precision_16px": 0.9759036144578314,
+        "mean_error_both_visible_px": 4.367023144730804
+      },
+      "proposed": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 81,
+          "presence_fn": 25,
+          "presence_tp": 80,
+          "localized_tp_16px": 79,
+          "wrong_localization": 1,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7523809523809524,
+        "localization_precision_16px": 0.9753086419753086,
+        "mean_error_both_visible_px": 4.391206493730229
+      },
+      "correct_lost": [
+        "match1_motion_pilot_019_frame_000013",
+        "match1_motion_pilot_020_frame_000253"
+      ],
+      "nonregression": false,
+      "withheld": 2
+    }
+  },
+  "challenge": {
+    "handcrafted672": {
+      "baseline": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 4,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.6035533905932737
+      },
+      "proposed": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 4,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.6035533905932737
+      },
+      "correct_lost": [],
+      "nonregression": true,
+      "withheld": 0
+    },
+    "frozen_resnet18_512": {
+      "baseline": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 4,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.6035533905932737
+      },
+      "proposed": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 4,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.6035533905932737
+      },
+      "correct_lost": [],
+      "nonregression": true,
+      "withheld": 0
+    }
+  },
+  "six_false": {
+    "handcrafted672": {
+      "total": 6,
+      "withheld": 0,
+      "retained": 6
+    },
+    "frozen_resnet18_512": {
+      "total": 6,
+      "withheld": 0,
+      "retained": 6
+    }
+  },
+  "status": "fixed_training_only_appearance_comparison_complete_not_adopted",
+  "audit": null,
+  "audit_eligible_methods": [],
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "protected_inputs_unchanged": true,
+  "physical_absence_labels_added": 0,
+  "interpolation": 0,
+  "independent_generalization_established": false,
+  "resumed_without_refitting": true
+}

@@ -1,0 +1,215 @@
+{
+  "scope": "AI-selected followup after whole uniform chronology; retain rejected/unclear events; no human labels",
+  "windows": [
+    {
+      "id": "H02",
+      "first": 154136,
+      "last": 154164,
+      "reference": 154152,
+      "slot_context": "far_rear",
+      "roi": [
+        796,
+        411,
+        1276,
+        731
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H03",
+      "first": 154178,
+      "last": 154196,
+      "reference": 154186,
+      "slot_context": "near_front",
+      "roi": [
+        914,
+        458,
+        1394,
+        778
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H04",
+      "first": 154246,
+      "last": 154264,
+      "reference": 154256,
+      "slot_context": "far_rear",
+      "roi": [
+        812,
+        422,
+        1292,
+        742
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H05",
+      "first": 154288,
+      "last": 154306,
+      "reference": 154296,
+      "slot_context": "near_front",
+      "roi": [
+        681,
+        458,
+        1161,
+        778
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H06",
+      "first": 154338,
+      "last": 154360,
+      "reference": 154348,
+      "slot_context": "far_front",
+      "roi": [
+        697,
+        415,
+        1177,
+        735
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H07",
+      "first": 154458,
+      "last": 154482,
+      "reference": 154470,
+      "slot_context": "near_rear",
+      "roi": [
+        1196,
+        601,
+        1676,
+        921
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H08",
+      "first": 154502,
+      "last": 154524,
+      "reference": 154512,
+      "slot_context": "far_front",
+      "roi": [
+        855,
+        412,
+        1335,
+        732
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H09",
+      "first": 154632,
+      "last": 154656,
+      "reference": 154644,
+      "slot_context": "near_rear",
+      "roi": [
+        0,
+        638,
+        480,
+        958
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H10",
+      "first": 154732,
+      "last": 154752,
+      "reference": 154742,
+      "slot_context": "far_front",
+      "roi": [
+        531,
+        413,
+        1011,
+        733
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H11",
+      "first": 154770,
+      "last": 154794,
+      "reference": 154780,
+      "slot_context": "near_front",
+      "roi": [
+        782,
+        465,
+        1262,
+        785
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "H12",
+      "first": 154812,
+      "last": 154838,
+      "reference": 154824,
+      "slot_context": "far_rear",
+      "roi": [
+        797,
+        424,
+        1277,
+        744
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "B01",
+      "first": 154114,
+      "last": 154128,
+      "reference": 154120,
+      "slot_context": "far_rear",
+      "roi": [
+        823,
+        413,
+        1303,
+        733
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "B02",
+      "first": 154222,
+      "last": 154240,
+      "reference": 154230,
+      "slot_context": "far_rear",
+      "roi": [
+        815,
+        419,
+        1295,
+        739
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "B03",
+      "first": 154322,
+      "last": 154338,
+      "reference": 154330,
+      "slot_context": "far_front",
+      "roi": [
+        670,
+        417,
+        1150,
+        737
+      ],
+      "not_event_label": true
+    },
+    {
+      "id": "stumble",
+      "first": 154586,
+      "last": 154610,
+      "reference": 154596,
+      "slot_context": "near_front",
+      "roi": [
+        584,
+        506,
+        1064,
+        826
+      ],
+      "not_event_label": true
+    }
+  ]
+}

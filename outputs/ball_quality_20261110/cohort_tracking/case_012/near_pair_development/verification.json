@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "candidate_id": "match1_rally_window_012",
+  "verification_scope": "Source boxes, feature calculations, rendering and preservation; person identity needs image review",
+  "initialized_frame": 31935,
+  "seed_ids": {
+    "near_front": 4,
+    "near_rear": 1,
+    "far_rear": 40,
+    "far_front": 25
+  },
+  "manual_ID_binding": false,
+  "AI_identity_binding_added": false,
+  "development_on_previously_known_case": true,
+  "matched_native_boxes": 1229,
+  "recalculated_feature_values": 379,
+  "video_frames_decoded": 330,
+  "fixed31_times_unchanged": true,
+  "four_observation_times": 31,
+  "requested_times": 31,
+  "missing_requested_times": [],
+  "full_assignments_equal_original": false,
+  "removed_original_assignments": 0,
+  "added_assignments": 4,
+  "prefix_feature_values_equal_original": true,
+  "protected_sources_unchanged": true,
+  "interpolation": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "canonical_pipeline_changed": false
+}

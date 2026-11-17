@@ -1,0 +1,41 @@
+{
+  "segments": [
+    {
+      "tag": "019",
+      "first": 46480,
+      "last": 46540,
+      "repeat": 3,
+      "label": "F1 official / mixed box"
+    },
+    {
+      "tag": "019",
+      "first": 46620,
+      "last": 46700,
+      "repeat": 3,
+      "label": "F2 crossing"
+    },
+    {
+      "tag": "016",
+      "first": 40625,
+      "last": 40625,
+      "repeat": 120,
+      "label": "Counterexample: actual player rejected; still image"
+    }
+  ],
+  "crop_native_xyxy": [
+    1200,
+    970,
+    2800,
+    1900
+  ],
+  "source_fps": 59.94005994005994,
+  "output_dimensions": [
+    1920,
+    720
+  ],
+  "dynamic_speed_fraction": 0.3333333333333333,
+  "control_still_duration_seconds": 2.0020000000000002,
+  "aspect_preserved": true,
+  "selection": "Two known019 failure neighborhoods and the016 true-player loss. Not independent accuracy sampling.",
+  "script_sha256": "5e964b174d9f394a15a7a7c731c3797674206ce2d70db231252dd64a85fd74f9"
+}

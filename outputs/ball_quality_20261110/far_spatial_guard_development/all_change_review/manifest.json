@@ -1,0 +1,199 @@
+{
+  "selection": "Every changed row in all10 cases, plus retained earlier AI failure/ambiguous probes. No success-only display.",
+  "items": [
+    {
+      "tag": "006",
+      "source_frame": 12421,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "01_006_F12421.jpg",
+      "sha256": "2eed72120a65ca79c7dfee7afdbcc30ec7300e4f19e576d036253ca444b4c3f8",
+      "crop_xyxy": [
+        1062,
+        911,
+        1579,
+        1351
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "006",
+      "source_frame": 12422,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "02_006_F12422.jpg",
+      "sha256": "3f0e2a38c52a7b9f4fc88703818c1ebc1815fa0bb7466e946233cf213325da04",
+      "crop_xyxy": [
+        1066,
+        910,
+        1580,
+        1346
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "016",
+      "source_frame": 40625,
+      "slot": "far_rear",
+      "reason": "previous guard lost actual player; check retained",
+      "removed": false,
+      "image": "03_016_F40625.jpg",
+      "sha256": "e9b90905761a570040a64e1fc25ed95983ba9e6e0f5368838c5317f9fdd75f4c",
+      "crop_xyxy": [
+        2074,
+        895,
+        2553,
+        1367
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "016",
+      "source_frame": 40626,
+      "slot": "far_rear",
+      "reason": "previous guard lost actual player; check retained",
+      "removed": false,
+      "image": "04_016_F40626.jpg",
+      "sha256": "1c06aec96cd09d81a453343303035ce71a54062ec3a92bf0f21cce28e6064c5e",
+      "crop_xyxy": [
+        2075,
+        894,
+        2553,
+        1367
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46501,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "05_019_F46501.jpg",
+      "sha256": "0ec44c9ccc4929868e989b60983ee9fed31a3a61bd10b18d0f94e0f1f35ea463",
+      "crop_xyxy": [
+        1310,
+        894,
+        1781,
+        1342
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46502,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "06_019_F46502.jpg",
+      "sha256": "b11838e38feb3aa9296ad42eabf32b99e5f57d6cb0ef007614186b79e3271a78",
+      "crop_xyxy": [
+        1310,
+        895,
+        1778,
+        1338
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46503,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "07_019_F46503.jpg",
+      "sha256": "15b487a7e867f65c3c9ac64f1db07af9fc9d6e25342ac13497b0576fabb5dda3",
+      "crop_xyxy": [
+        1315,
+        894,
+        1783,
+        1336
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46505,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "08_019_F46505.jpg",
+      "sha256": "ffde59505af20539b73c9b9678d9d287211146d59571bddee7ef0fef71b822b3",
+      "crop_xyxy": [
+        1318,
+        894,
+        1787,
+        1337
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46511,
+      "slot": "far_rear",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "09_019_F46511.jpg",
+      "sha256": "85db734c0da12a9bb9c12bb557ae151a6aa7054d9298edf7d3bb920aade8dc33",
+      "crop_xyxy": [
+        1304,
+        893,
+        1805,
+        1377
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46634,
+      "slot": "far_rear",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "10_019_F46634.jpg",
+      "sha256": "ccfa20604174b0cd170c2333e45c9c4d86f20714592fc53984e23f5128a2a3cf",
+      "crop_xyxy": [
+        1803,
+        922,
+        2284,
+        1382
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46665,
+      "slot": "far_front",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "11_019_F46665.jpg",
+      "sha256": "e2375d3545146ce92c0317caf5fb6bb7cc92bd4b4c997aa9d81b0f9dfb3c0513",
+      "crop_xyxy": [
+        1827,
+        937,
+        2361,
+        1406
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46666,
+      "slot": "far_front",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "12_019_F46666.jpg",
+      "sha256": "5e87ec95f670e3dad4747d82f69deadb44984c8df44807df373ac8cf8d8239e6",
+      "crop_xyxy": [
+        1832,
+        936,
+        2367,
+        1409
+      ],
+      "aspect_preserved": true
+    }
+  ],
+  "script_sha256": "4dbd08c0ec2344a7b2635289767a907df5cac2526a4faf11178661cc955c8bb3",
+  "independent_GT": false
+}

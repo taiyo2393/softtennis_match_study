@@ -1,0 +1,2207 @@
+[
+  {
+    "point": 1,
+    "stroke": 1,
+    "hitter_candidate": "F1",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 12324,
+    "candidate_last": 12326,
+    "candidate_frames": 3,
+    "pair_frames": 3,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": 12411,
+    "bounce_candidate_court_xy": [
+      0.7099874966631913,
+      0.23856050549591654
+    ],
+    "middle_candidate_frame_positions": {
+      "source_frame": 12325,
+      "pair_court_xy": [
+        [
+          0.6625760117465579,
+          0.1898803907718035
+        ],
+        [
+          0.27127301622873984,
+          0.02901339959989062
+        ]
+      ],
+      "lateral_spacing_m": 4.292593860830465,
+      "depth_difference_m": 3.823808380156369,
+      "nearest_to_bounce_at_contact_m": 1.2686408067491337
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.292593860830465,
+        4.293579784953348
+      ],
+      "depth_difference_m": [
+        3.8222942510360873,
+        3.823808380156369
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        1.2686408067491337,
+        1.2692805787629466
+      ]
+    },
+    "per_frame": [
+      {
+        "source_frame": 12324,
+        "pair_court_xy": [
+          [
+            0.662595101462788,
+            0.18986589118397773
+          ],
+          [
+            0.2712022313667673,
+            0.029032738197039953
+          ]
+        ],
+        "lateral_spacing_m": 4.293579784953348,
+        "depth_difference_m": 3.823004046499511,
+        "nearest_to_bounce_at_contact_m": 1.2688693565925842
+      },
+      {
+        "source_frame": 12325,
+        "pair_court_xy": [
+          [
+            0.6625760117465579,
+            0.1898803907718035
+          ],
+          [
+            0.27127301622873984,
+            0.02901339959989062
+          ]
+        ],
+        "lateral_spacing_m": 4.292593860830465,
+        "depth_difference_m": 3.823808380156369,
+        "nearest_to_bounce_at_contact_m": 1.2686408067491337
+      },
+      {
+        "source_frame": 12326,
+        "pair_court_xy": [
+          [
+            0.6625715355736633,
+            0.18985181132580017
+          ],
+          [
+            0.27126108299830204,
+            0.029048519317550793
+          ]
+        ],
+        "lateral_spacing_m": 4.292675664751713,
+        "depth_difference_m": 3.8222942510360873,
+        "nearest_to_bounce_at_contact_m": 1.2692805787629466
+      }
+    ]
+  },
+  {
+    "point": 1,
+    "stroke": 2,
+    "hitter_candidate": "N1",
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "candidate_first": 12419,
+    "candidate_last": 12428,
+    "candidate_frames": 10,
+    "pair_frames": 10,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": null,
+    "bounce_candidate_court_xy": null,
+    "middle_candidate_frame_positions": {
+      "source_frame": 12423,
+      "pair_court_xy": [
+        [
+          0.37800229212483843,
+          0.7197186528066366
+        ],
+        [
+          0.7085241405082563,
+          0.6878321668276615
+        ]
+      ],
+      "lateral_spacing_m": 3.6258246767660944,
+      "depth_difference_m": 0.7579417717202368,
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.5465926609094556,
+        3.7342484873288706
+      ],
+      "depth_difference_m": [
+        0.1621274706650695,
+        0.9835618269209938
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "per_frame": [
+      {
+        "source_frame": 12419,
+        "pair_court_xy": [
+          [
+            0.3689882475937773,
+            0.7282738113568696
+          ],
+          [
+            0.7093937614797272,
+            0.6868955266736138
+          ]
+        ],
+        "lateral_spacing_m": 3.7342484873288706,
+        "depth_difference_m": 0.9835618269209938,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12420,
+        "pair_court_xy": [
+          [
+            0.3721546174720369,
+            0.7272379561389293
+          ],
+          [
+            0.7090506234103482,
+            0.6866364258295113
+          ]
+        ],
+        "lateral_spacing_m": 3.695749185143276,
+        "depth_difference_m": 0.9650983754548648,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12421,
+        "pair_court_xy": [
+          [
+            0.3747317366046068,
+            0.7249611782616927
+          ],
+          [
+            0.708836709610426,
+            0.6863950782200221
+          ]
+        ],
+        "lateral_spacing_m": 3.6651315538738363,
+        "depth_difference_m": 0.9167161979905103,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12422,
+        "pair_court_xy": [
+          [
+            0.37667489404272997,
+            0.7239272322768999
+          ],
+          [
+            0.7086330368157426,
+            0.6875706140161896
+          ]
+        ],
+        "lateral_spacing_m": 3.6415808262199487,
+        "depth_difference_m": 0.8641968160570848,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12423,
+        "pair_court_xy": [
+          [
+            0.37800229212483843,
+            0.7197186528066366
+          ],
+          [
+            0.7085241405082563,
+            0.6878321668276615
+          ]
+        ],
+        "lateral_spacing_m": 3.6258246767660944,
+        "depth_difference_m": 0.7579417717202368,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12424,
+        "pair_court_xy": [
+          [
+            0.3788710190239312,
+            0.712848564546783
+          ],
+          [
+            0.7084382170186212,
+            0.6880120056917832
+          ]
+        ],
+        "lateral_spacing_m": 3.6153521620017495,
+        "depth_difference_m": 0.5903650039833437,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12425,
+        "pair_court_xy": [
+          [
+            0.38028316432181625,
+            0.7056613638337238
+          ],
+          [
+            0.7084223104080295,
+            0.6886587852554196
+          ]
+        ],
+        "lateral_spacing_m": 3.5996864325657594,
+        "depth_difference_m": 0.40415129280629003,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12426,
+        "pair_court_xy": [
+          [
+            0.3824487142539181,
+            0.70106016040787
+          ],
+          [
+            0.7084107783977165,
+            0.6888094864998884
+          ]
+        ],
+        "lateral_spacing_m": 3.575803843657469,
+        "depth_difference_m": 0.2911985187927222,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12427,
+        "pair_court_xy": [
+          [
+            0.3838847123577577,
+            0.6977024215761464
+          ],
+          [
+            0.7083955051391715,
+            0.6888940100253784
+          ]
+        ],
+        "lateral_spacing_m": 3.5598833968121095,
+        "depth_difference_m": 0.20937594256175274,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 12428,
+        "pair_court_xy": [
+          [
+            0.3850550913191804,
+            0.6956486145731551
+          ],
+          [
+            0.7083543311468427,
+            0.6888279384829123
+          ]
+        ],
+        "lateral_spacing_m": 3.5465926609094556,
+        "depth_difference_m": 0.1621274706650695,
+        "nearest_to_bounce_at_contact_m": null
+      }
+    ]
+  },
+  {
+    "point": 1,
+    "stroke": 3,
+    "hitter_candidate": "F2",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 12466,
+    "candidate_last": 12475,
+    "candidate_frames": 10,
+    "pair_frames": 10,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": 12571,
+    "bounce_candidate_court_xy": [
+      0.5859552522474267,
+      -0.035279408396922306
+    ],
+    "middle_candidate_frame_positions": {
+      "source_frame": 12470,
+      "pair_court_xy": [
+        [
+          0.7604889992510179,
+          0.15533708529707213
+        ],
+        [
+          0.2677464117704493,
+          0.03222139822654435
+        ]
+      ],
+      "lateral_spacing_m": 5.405386184661837,
+      "depth_difference_m": 2.926459881666445,
+      "nearest_to_bounce_at_contact_m": 3.8418412196757608
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        5.369190766681985,
+        5.430304620854804
+      ],
+      "depth_difference_m": [
+        2.8219254995393306,
+        2.9569457554960508
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        3.796285697333829,
+        3.933523939726773
+      ]
+    },
+    "per_frame": [
+      {
+        "source_frame": 12466,
+        "pair_court_xy": [
+          [
+            0.7601135180258255,
+            0.1549598571643146
+          ],
+          [
+            0.2706704217011232,
+            0.030561634383664583
+          ]
+        ],
+        "lateral_spacing_m": 5.369190766681985,
+        "depth_difference_m": 2.9569457554960508,
+        "nearest_to_bounce_at_contact_m": 3.796285697333829
+      },
+      {
+        "source_frame": 12467,
+        "pair_court_xy": [
+          [
+            0.7600655992358818,
+            0.1548984700784294
+          ],
+          [
+            0.27036783353244054,
+            0.03080231440545884
+          ]
+        ],
+        "lateral_spacing_m": 5.371984489766751,
+        "depth_difference_m": 2.9497656203465104,
+        "nearest_to_bounce_at_contact_m": 3.8016703344835863
+      },
+      {
+        "source_frame": 12468,
+        "pair_court_xy": [
+          [
+            0.7601617263174366,
+            0.1550317908090215
+          ],
+          [
+            0.2698977365583602,
+            0.0312763713437893
+          ]
+        ],
+        "lateral_spacing_m": 5.378195967657069,
+        "depth_difference_m": 2.941666320688569,
+        "nearest_to_bounce_at_contact_m": 3.8110310165821097
+      },
+      {
+        "source_frame": 12469,
+        "pair_court_xy": [
+          [
+            0.7602937027974527,
+            0.15512183590392234
+          ],
+          [
+            0.2693810068254509,
+            0.03162294220173776
+          ]
+        ],
+        "lateral_spacing_m": 5.3853122748128595,
+        "depth_difference_m": 2.9355687033009272,
+        "nearest_to_bounce_at_contact_m": 3.819611260036245
+      },
+      {
+        "source_frame": 12470,
+        "pair_court_xy": [
+          [
+            0.7604889992510179,
+            0.15533708529707213
+          ],
+          [
+            0.2677464117704493,
+            0.03222139822654435
+          ]
+        ],
+        "lateral_spacing_m": 5.405386184661837,
+        "depth_difference_m": 2.926459881666445,
+        "nearest_to_bounce_at_contact_m": 3.8418412196757608
+      },
+      {
+        "source_frame": 12471,
+        "pair_court_xy": [
+          [
+            0.7605782836357866,
+            0.15562796796488307
+          ],
+          [
+            0.2663152773119341,
+            0.0321923552081356
+          ]
+        ],
+        "lateral_spacing_m": 5.422065179372662,
+        "depth_difference_m": 2.9340645152278872,
+        "nearest_to_bounce_at_contact_m": 3.8558244229319243
+      },
+      {
+        "source_frame": 12472,
+        "pair_court_xy": [
+          [
+            0.7598260819349472,
+            0.15546855422082476
+          ],
+          [
+            0.2648119870530143,
+            0.03180676812301606
+          ]
+        ],
+        "lateral_spacing_m": 5.430304620854804,
+        "depth_difference_m": 2.939440655544913,
+        "nearest_to_bounce_at_contact_m": 3.8670388321772178
+      },
+      {
+        "source_frame": 12473,
+        "pair_court_xy": [
+          [
+            0.7580127954912208,
+            0.15482585366931345
+          ],
+          [
+            0.2633981295521584,
+            0.03165657511414874
+          ]
+        ],
+        "lateral_spacing_m": 5.425922885351515,
+        "depth_difference_m": 2.927733751256265,
+        "nearest_to_bounce_at_contact_m": 3.8797085463508707
+      },
+      {
+        "source_frame": 12474,
+        "pair_court_xy": [
+          [
+            0.7556852704909004,
+            0.153659101285671
+          ],
+          [
+            0.26148655129757464,
+            0.032314801722849174
+          ]
+        ],
+        "lateral_spacing_m": 5.421359949550784,
+        "depth_difference_m": 2.884354000608275,
+        "nearest_to_bounce_at_contact_m": 3.905254608823191
+      },
+      {
+        "source_frame": 12475,
+        "pair_court_xy": [
+          [
+            0.7521373365911478,
+            0.15191344267493143
+          ],
+          [
+            0.2595219403711536,
+            0.03319549990928856
+          ]
+        ],
+        "lateral_spacing_m": 5.403990896533336,
+        "depth_difference_m": 2.8219254995393306,
+        "nearest_to_bounce_at_contact_m": 3.933523939726773
+      }
+    ]
+  },
+  {
+    "point": 2,
+    "stroke": 1,
+    "hitter_candidate": "F1",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 13647,
+    "candidate_last": 13656,
+    "candidate_frames": 10,
+    "pair_frames": 10,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": 13712,
+    "bounce_candidate_court_xy": [
+      0.2945251866602823,
+      0.27034213087857545
+    ],
+    "middle_candidate_frame_positions": {
+      "source_frame": 13651,
+      "pair_court_xy": [
+        [
+          0.6279704636985987,
+          0.009859515835826395
+        ],
+        [
+          0.323474960219797,
+          0.1928624807438836
+        ]
+      ],
+      "lateral_spacing_m": 3.340315673162454,
+      "depth_difference_m": 4.34998047586452,
+      "nearest_to_bounce_at_contact_m": 1.868872177499832
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.3185750276277752,
+        3.3768793887926094
+      ],
+      "depth_difference_m": [
+        4.3312952069616175,
+        4.364226087436622
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        1.8506308025746665,
+        1.89414688584996
+      ]
+    },
+    "per_frame": [
+      {
+        "source_frame": 13647,
+        "pair_court_xy": [
+          [
+            0.6278231812559297,
+            0.009715514405210596
+          ],
+          [
+            0.32530950508202133,
+            0.19193239311625887
+          ]
+        ],
+        "lateral_spacing_m": 3.3185750276277752,
+        "depth_difference_m": 4.3312952069616175,
+        "nearest_to_bounce_at_contact_m": 1.89414688584996
+      },
+      {
+        "source_frame": 13648,
+        "pair_court_xy": [
+          [
+            0.6278510968463337,
+            0.009750139808954828
+          ],
+          [
+            0.3247937298474144,
+            0.19252582707900198
+          ]
+        ],
+        "lateral_spacing_m": 3.3245393159781447,
+        "depth_difference_m": 4.344578086409021,
+        "nearest_to_bounce_at_contact_m": 1.8792606761576935
+      },
+      {
+        "source_frame": 13649,
+        "pair_court_xy": [
+          [
+            0.6278775893855925,
+            0.009770766781952905
+          ],
+          [
+            0.3244701349387846,
+            0.19263403861103948
+          ]
+        ],
+        "lateral_spacing_m": 3.3283797752814825,
+        "depth_difference_m": 4.346659971377387,
+        "nearest_to_bounce_at_contact_m": 1.8761042001281376
+      },
+      {
+        "source_frame": 13650,
+        "pair_court_xy": [
+          [
+            0.6279323756433302,
+            0.009838050689345781
+          ],
+          [
+            0.32397113998814825,
+            0.19272813193153218
+          ]
+        ],
+        "lateral_spacing_m": 3.334454755137346,
+        "depth_difference_m": 4.347297231126771,
+        "nearest_to_bounce_at_contact_m": 1.872950357427099
+      },
+      {
+        "source_frame": 13651,
+        "pair_court_xy": [
+          [
+            0.6279704636985987,
+            0.009859515835826395
+          ],
+          [
+            0.323474960219797,
+            0.1928624807438836
+          ]
+        ],
+        "lateral_spacing_m": 3.340315673162454,
+        "depth_difference_m": 4.34998047586452,
+        "nearest_to_bounce_at_contact_m": 1.868872177499832
+      },
+      {
+        "source_frame": 13652,
+        "pair_court_xy": [
+          [
+            0.6280005260605186,
+            0.009852555453073007
+          ],
+          [
+            0.32303701553166136,
+            0.1930095061432758
+          ]
+        ],
+        "lateral_spacing_m": 3.345449710501564,
+        "depth_difference_m": 4.35364071790612,
+        "nearest_to_bounce_at_contact_m": 1.8646164184325218
+      },
+      {
+        "source_frame": 13653,
+        "pair_court_xy": [
+          [
+            0.6280726972529052,
+            0.009842226149444869
+          ],
+          [
+            0.32249525292698783,
+            0.19298066102671813
+          ]
+        ],
+        "lateral_spacing_m": 3.3521845642553134,
+        "depth_difference_m": 4.353200597032785,
+        "nearest_to_bounce_at_contact_m": 1.8643050088819195
+      },
+      {
+        "source_frame": 13654,
+        "pair_court_xy": [
+          [
+            0.6282052972053788,
+            0.00984108997894913
+          ],
+          [
+            0.3219517927419054,
+            0.19292121546384694
+          ]
+        ],
+        "lateral_spacing_m": 3.3596009439643035,
+        "depth_difference_m": 4.351814582776021,
+        "nearest_to_bounce_at_contact_m": 1.8647275810803297
+      },
+      {
+        "source_frame": 13655,
+        "pair_court_xy": [
+          [
+            0.6283938528370981,
+            0.009860124531078339
+          ],
+          [
+            0.3213409417555241,
+            0.193137583837632
+          ]
+        ],
+        "lateral_spacing_m": 3.368370434564868,
+        "depth_difference_m": 4.35650520771678,
+        "nearest_to_bounce_at_contact_m": 1.858579691829002
+      },
+      {
+        "source_frame": 13656,
+        "pair_court_xy": [
+          [
+            0.628546228024119,
+            0.00982824422105519
+          ],
+          [
+            0.32071766022169335,
+            0.19343051967063962
+          ]
+        ],
+        "lateral_spacing_m": 3.3768793887926094,
+        "depth_difference_m": 4.364226087436622,
+        "nearest_to_bounce_at_contact_m": 1.8506308025746665
+      }
+    ]
+  },
+  {
+    "point": 2,
+    "stroke": 2,
+    "hitter_candidate": "N2",
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "candidate_first": 13728,
+    "candidate_last": 13734,
+    "candidate_frames": 7,
+    "pair_frames": 7,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": null,
+    "bounce_candidate_court_xy": null,
+    "middle_candidate_frame_positions": {
+      "source_frame": 13731,
+      "pair_court_xy": [
+        [
+          0.5956445171845944,
+          0.7649770419761013
+        ],
+        [
+          0.27742971146237455,
+          0.6597421267872173
+        ]
+      ],
+      "lateral_spacing_m": 3.4908164187727526,
+      "depth_difference_m": 2.501433934039772,
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.45375482086574,
+        3.4908164187727526
+      ],
+      "depth_difference_m": [
+        2.0950491956856503,
+        2.501433934039772
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "per_frame": [
+      {
+        "source_frame": 13728,
+        "pair_court_xy": [
+          [
+            0.5883120975601079,
+            0.762570198872536
+          ],
+          [
+            0.2734757419661481,
+            0.6599923732183307
+          ]
+        ],
+        "lateral_spacing_m": 3.45375482086574,
+        "depth_difference_m": 2.4382749158004593,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13729,
+        "pair_court_xy": [
+          [
+            0.5901881975830248,
+            0.7621555884063921
+          ],
+          [
+            0.2741818420841674,
+            0.6585899950552964
+          ]
+        ],
+        "lateral_spacing_m": 3.466589719822465,
+        "depth_difference_m": 2.461754153955546,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13730,
+        "pair_court_xy": [
+          [
+            0.5923827962085408,
+            0.7630881459151361
+          ],
+          [
+            0.27567367945642124,
+            0.6581365266512211
+          ]
+        ],
+        "lateral_spacing_m": 3.474299010770752,
+        "depth_difference_m": 2.4946999899032587,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13731,
+        "pair_court_xy": [
+          [
+            0.5956445171845944,
+            0.7649770419761013
+          ],
+          [
+            0.27742971146237455,
+            0.6597421267872173
+          ]
+        ],
+        "lateral_spacing_m": 3.4908164187727526,
+        "depth_difference_m": 2.501433934039772,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13732,
+        "pair_court_xy": [
+          [
+            0.5984066818386189,
+            0.7628127195576118
+          ],
+          [
+            0.28036436565633255,
+            0.6611052650416857
+          ]
+        ],
+        "lateral_spacing_m": 3.488924208519682,
+        "depth_difference_m": 2.4175861938435634,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13733,
+        "pair_court_xy": [
+          [
+            0.6016565771878503,
+            0.7578185841980414
+          ],
+          [
+            0.28408596760849725,
+            0.6638374309031987
+          ]
+        ],
+        "lateral_spacing_m": 3.483749587085503,
+        "depth_difference_m": 2.233932013818409,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13734,
+        "pair_court_xy": [
+          [
+            0.6038391805420411,
+            0.7490036303686768
+          ],
+          [
+            0.28860988053216063,
+            0.6608652544458476
+          ]
+        ],
+        "lateral_spacing_m": 3.4580654211083894,
+        "depth_difference_m": 2.0950491956856503,
+        "nearest_to_bounce_at_contact_m": null
+      }
+    ]
+  },
+  {
+    "point": 2,
+    "stroke": 3,
+    "hitter_candidate": "F2",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 13754,
+    "candidate_last": 13766,
+    "candidate_frames": 13,
+    "pair_frames": 13,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": null,
+    "bounce_candidate_court_xy": null,
+    "middle_candidate_frame_positions": {
+      "source_frame": 13760,
+      "pair_court_xy": [
+        [
+          0.6577749561488533,
+          0.013024270526327557
+        ],
+        [
+          0.2828875943962454,
+          0.15807938866487636
+        ]
+      ],
+      "lateral_spacing_m": 4.112514358426108,
+      "depth_difference_m": 3.447960158153305,
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.057139642444678,
+        4.254659744537063
+      ],
+      "depth_difference_m": [
+        3.38230484576317,
+        3.578691871485446
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "per_frame": [
+      {
+        "source_frame": 13754,
+        "pair_court_xy": [
+          [
+            0.6552331594766652,
+            0.012416923851234891
+          ],
+          [
+            0.2828942107955607,
+            0.16297190372020612
+          ]
+        ],
+        "lateral_spacing_m": 4.084558267031716,
+        "depth_difference_m": 3.578691871485446,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13755,
+        "pair_court_xy": [
+          [
+            0.655267116801169,
+            0.01233331403954198
+          ],
+          [
+            0.2842716947050621,
+            0.16241585085595722
+          ]
+        ],
+        "lateral_spacing_m": 4.069819780394293,
+        "depth_difference_m": 3.5674619001261902,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13756,
+        "pair_court_xy": [
+          [
+            0.6553367942310819,
+            0.012326913876604548
+          ],
+          [
+            0.28540983776201256,
+            0.16092521079668695
+          ]
+        ],
+        "lateral_spacing_m": 4.058098712465691,
+        "depth_difference_m": 3.5321815177903586,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13757,
+        "pair_court_xy": [
+          [
+            0.6556191555205872,
+            0.01248096128314629
+          ],
+          [
+            0.2857796256714825,
+            0.15979911113384787
+          ]
+        ],
+        "lateral_spacing_m": 4.057139642444678,
+        "depth_difference_m": 3.5017524219511764,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13758,
+        "pair_court_xy": [
+          [
+            0.6559840081470483,
+            0.012410801240830964
+          ],
+          [
+            0.2848321267167799,
+            0.15847030441377036
+          ]
+        ],
+        "lateral_spacing_m": 4.071536139290044,
+        "depth_difference_m": 3.4718343904207694,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13759,
+        "pair_court_xy": [
+          [
+            0.6565858996094569,
+            0.012647234129890272
+          ],
+          [
+            0.2838305297764915,
+            0.15793726144270726
+          ]
+        ],
+        "lateral_spacing_m": 4.0891264070676305,
+        "depth_difference_m": 3.4535439492256597,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13760,
+        "pair_court_xy": [
+          [
+            0.6577749561488533,
+            0.013024270526327557
+          ],
+          [
+            0.2828875943962454,
+            0.15807938866487636
+          ]
+        ],
+        "lateral_spacing_m": 4.112514358426108,
+        "depth_difference_m": 3.447960158153305,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13761,
+        "pair_court_xy": [
+          [
+            0.6593099035749865,
+            0.01340012406345138
+          ],
+          [
+            0.28281544918188656,
+            0.1582433942340763
+          ]
+        ],
+        "lateral_spacing_m": 4.130144164692307,
+        "depth_difference_m": 3.442924531955754,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13762,
+        "pair_court_xy": [
+          [
+            0.6610788305784805,
+            0.013451554939104354
+          ],
+          [
+            0.28297074577126885,
+            0.15840468211124428
+          ]
+        ],
+        "lateral_spacing_m": 4.147845690335112,
+        "depth_difference_m": 3.445535832881766,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13763,
+        "pair_court_xy": [
+          [
+            0.6631610171299438,
+            0.013394261535677576
+          ],
+          [
+            0.28320202210367135,
+            0.15888831785484153
+          ]
+        ],
+        "lateral_spacing_m": 4.168150175438209,
+        "depth_difference_m": 3.4583937187065272,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13764,
+        "pair_court_xy": [
+          [
+            0.6658160535634704,
+            0.014057549080857873
+          ],
+          [
+            0.28399051332743186,
+            0.159164562886787
+          ]
+        ],
+        "lateral_spacing_m": 4.188626176389343,
+        "depth_difference_m": 3.449193718166935,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13765,
+        "pair_court_xy": [
+          [
+            0.6687776489216378,
+            0.015239598404583022
+          ],
+          [
+            0.2840704157828765,
+            0.15935161952713497
+          ]
+        ],
+        "lateral_spacing_m": 4.220238347532212,
+        "depth_difference_m": 3.42554274208306,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13766,
+        "pair_court_xy": [
+          [
+            0.6719941422668341,
+            0.016711476512571724
+          ],
+          [
+            0.28414913364905253,
+            0.1590044864310896
+          ]
+        ],
+        "lateral_spacing_m": 4.254659744537063,
+        "depth_difference_m": 3.38230484576317,
+        "nearest_to_bounce_at_contact_m": null
+      }
+    ]
+  },
+  {
+    "point": 2,
+    "stroke": 4,
+    "hitter_candidate": "N1",
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "candidate_first": 13851,
+    "candidate_last": 13860,
+    "candidate_frames": 10,
+    "pair_frames": 10,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": null,
+    "bounce_candidate_court_xy": null,
+    "middle_candidate_frame_positions": {
+      "source_frame": 13855,
+      "pair_court_xy": [
+        [
+          0.71612007370869,
+          0.6698769894140993
+        ],
+        [
+          0.39704612373917647,
+          0.6932092223947435
+        ]
+      ],
+      "lateral_spacing_m": 3.500241231165563,
+      "depth_difference_m": 0.5546071779499098,
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.430083784674956,
+        3.6140528425692287
+      ],
+      "depth_difference_m": [
+        0.2952173648790932,
+        0.6058261438618064
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "per_frame": [
+      {
+        "source_frame": 13851,
+        "pair_court_xy": [
+          [
+            0.7091980782955096,
+            0.6651125774850408
+          ],
+          [
+            0.39651951998421014,
+            0.6905995839579818
+          ]
+        ],
+        "lateral_spacing_m": 3.430083784674956,
+        "depth_difference_m": 0.6058261438618064,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13852,
+        "pair_court_xy": [
+          [
+            0.7105106750060834,
+            0.6658945794756267
+          ],
+          [
+            0.3965980058545892,
+            0.6903909924806171
+          ]
+        ],
+        "lateral_spacing_m": 3.4436219805918915,
+        "depth_difference_m": 0.582279737128621,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13853,
+        "pair_court_xy": [
+          [
+            0.7125056019381883,
+            0.6674763607514621
+          ],
+          [
+            0.396740207508002,
+            0.690719690234193
+          ]
+        ],
+        "lateral_spacing_m": 3.4639463768991448,
+        "depth_difference_m": 0.5524939418045136,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13854,
+        "pair_court_xy": [
+          [
+            0.7143468986729812,
+            0.6689452209143981
+          ],
+          [
+            0.3970674352832876,
+            0.6918506577325858
+          ]
+        ],
+        "lateral_spacing_m": 3.4805557133849385,
+        "depth_difference_m": 0.5444622331683231,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13855,
+        "pair_court_xy": [
+          [
+            0.71612007370869,
+            0.6698769894140993
+          ],
+          [
+            0.39704612373917647,
+            0.6932092223947435
+          ]
+        ],
+        "lateral_spacing_m": 3.500241231165563,
+        "depth_difference_m": 0.5546071779499098,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13856,
+        "pair_court_xy": [
+          [
+            0.719683458660662,
+            0.6711197463773485
+          ],
+          [
+            0.3977473546502854,
+            0.692646682237616
+          ]
+        ],
+        "lateral_spacing_m": 3.5316390609938315,
+        "depth_difference_m": 0.5116952653985578,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13857,
+        "pair_court_xy": [
+          [
+            0.7234081560103082,
+            0.6740926481756048
+          ],
+          [
+            0.399215289886651,
+            0.693239369999644
+          ]
+        ],
+        "lateral_spacing_m": 3.5563957413765195,
+        "depth_difference_m": 0.45511757775740946,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13858,
+        "pair_court_xy": [
+          [
+            0.727180362208351,
+            0.6779860178397241
+          ],
+          [
+            0.4015002392254338,
+            0.6938734453831727
+          ]
+        ],
+        "lateral_spacing_m": 3.5727109491226017,
+        "depth_difference_m": 0.37764415270777363,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13859,
+        "pair_court_xy": [
+          [
+            0.7315415894957631,
+            0.6807692895326543
+          ],
+          [
+            0.40358719092100626,
+            0.693189035636108
+          ]
+        ],
+        "lateral_spacing_m": 3.5976597523650833,
+        "depth_difference_m": 0.2952173648790932,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 13860,
+        "pair_court_xy": [
+          [
+            0.7351970046509004,
+            0.6797667122136142
+          ],
+          [
+            0.40574824963091605,
+            0.6950492351801684
+          ]
+        ],
+        "lateral_spacing_m": 3.6140528425692287,
+        "depth_difference_m": 0.3632655709149937,
+        "nearest_to_bounce_at_contact_m": null
+      }
+    ]
+  },
+  {
+    "point": 2,
+    "stroke": 5,
+    "hitter_candidate": "F2",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 14016,
+    "candidate_last": 14022,
+    "candidate_frames": 7,
+    "pair_frames": 7,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": 14074,
+    "bounce_candidate_court_xy": [
+      0.0027972691272386894,
+      0.05815027982091519
+    ],
+    "middle_candidate_frame_positions": {
+      "source_frame": 14019,
+      "pair_court_xy": [
+        [
+          0.7456098163599767,
+          -0.122248362254462
+        ],
+        [
+          0.30174263867959483,
+          0.09788530635947428
+        ]
+      ],
+      "lateral_spacing_m": 4.869222939153789,
+      "depth_difference_m": 5.232577302953265,
+      "nearest_to_bounce_at_contact_m": 3.412733358825806
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.840084503994374,
+        4.92204245226665
+      ],
+      "depth_difference_m": [
+        5.225398475672671,
+        5.289719265130794
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        3.3699427749863045,
+        3.4409982116540716
+      ]
+    },
+    "per_frame": [
+      {
+        "source_frame": 14016,
+        "pair_court_xy": [
+          [
+            0.7481201009047536,
+            -0.12610497545543406
+          ],
+          [
+            0.2994380177446214,
+            0.09499511111102321
+          ]
+        ],
+        "lateral_spacing_m": 4.92204245226665,
+        "depth_difference_m": 5.255549057684689,
+        "nearest_to_bounce_at_contact_m": 3.3699427749863045
+      },
+      {
+        "source_frame": 14017,
+        "pair_court_xy": [
+          [
+            0.7470220353693956,
+            -0.12493228694670638
+          ],
+          [
+            0.3005325108508309,
+            0.09624250348146865
+          ]
+        ],
+        "lateral_spacing_m": 4.897990083968656,
+        "depth_difference_m": 5.257324768477721,
+        "nearest_to_bounce_at_contact_m": 3.389338581805786
+      },
+      {
+        "source_frame": 14018,
+        "pair_court_xy": [
+          [
+            0.7456187404825211,
+            -0.12423821576328895
+          ],
+          [
+            0.30165036252114935,
+            0.0964900249261229
+          ]
+        ],
+        "lateral_spacing_m": 4.870333106236249,
+        "depth_difference_m": 5.246710281187319,
+        "nearest_to_bounce_at_contact_m": 3.402728356036206
+      },
+      {
+        "source_frame": 14019,
+        "pair_court_xy": [
+          [
+            0.7456098163599767,
+            -0.122248362254462
+          ],
+          [
+            0.30174263867959483,
+            0.09788530635947428
+          ]
+        ],
+        "lateral_spacing_m": 4.869222939153789,
+        "depth_difference_m": 5.232577302953265,
+        "nearest_to_bounce_at_contact_m": 3.412733358825806
+      },
+      {
+        "source_frame": 14020,
+        "pair_court_xy": [
+          [
+            0.7456376895612618,
+            -0.12052939153854321
+          ],
+          [
+            0.3016193657843932,
+            0.09930226498954563
+          ]
+        ],
+        "lateral_spacing_m": 4.87088101183225,
+        "depth_difference_m": 5.225398475672671,
+        "nearest_to_bounce_at_contact_m": 3.420912066795443
+      },
+      {
+        "source_frame": 14021,
+        "pair_court_xy": [
+          [
+            0.7445720877047183,
+            -0.11974708363777077
+          ],
+          [
+            0.30133861286693114,
+            0.10092795064858945
+          ]
+        ],
+        "lateral_spacing_m": 4.862271218970525,
+        "depth_difference_m": 5.245445564986783,
+        "nearest_to_bounce_at_contact_m": 3.4292198824370934
+      },
+      {
+        "source_frame": 14022,
+        "pair_court_xy": [
+          [
+            0.7423937626814723,
+            -0.11974477095713969
+          ],
+          [
+            0.30118277781416375,
+            0.10279285063018863
+          ]
+        ],
+        "lateral_spacing_m": 4.840084503994374,
+        "depth_difference_m": 5.289719265130794,
+        "nearest_to_bounce_at_contact_m": 3.4409982116540716
+      }
+    ]
+  },
+  {
+    "point": 3,
+    "stroke": 1,
+    "hitter_candidate": "F2",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 15214,
+    "candidate_last": 15222,
+    "candidate_frames": 9,
+    "pair_frames": 9,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": 15250,
+    "bounce_candidate_court_xy": [
+      0.8468223466853559,
+      0.28728178235041096
+    ],
+    "middle_candidate_frame_positions": {
+      "source_frame": 15218,
+      "pair_court_xy": [
+        [
+          0.7592307392259119,
+          0.00310775658551756
+        ],
+        [
+          0.32721625735804566,
+          0.19188522618123416
+        ]
+      ],
+      "lateral_spacing_m": 4.739198866090494,
+      "depth_difference_m": 4.487240452290184,
+      "nearest_to_bounce_at_contact_m": 6.134557838723381
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.698653739680753,
+        4.740659956980224
+      ],
+      "depth_difference_m": [
+        4.486946305829723,
+        4.541431791242954
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        6.11222331394968,
+        6.150490193435323
+      ]
+    },
+    "per_frame": [
+      {
+        "source_frame": 15214,
+        "pair_court_xy": [
+          [
+            0.7580875493728447,
+            -0.00020028729227163935
+          ],
+          [
+            0.32654270119717227,
+            0.19085700304188713
+          ]
+        ],
+        "lateral_spacing_m": 4.734046984487127,
+        "depth_difference_m": 4.541431791242954,
+        "nearest_to_bounce_at_contact_m": 6.150490193435323
+      },
+      {
+        "source_frame": 15215,
+        "pair_court_xy": [
+          [
+            0.7583893889965833,
+            0.0007500729008014863
+          ],
+          [
+            0.32654857068523074,
+            0.19119715062115275
+          ]
+        ],
+        "lateral_spacing_m": 4.737293776875537,
+        "depth_difference_m": 4.52692703741275,
+        "nearest_to_bounce_at_contact_m": 6.147421954050202
+      },
+      {
+        "source_frame": 15216,
+        "pair_court_xy": [
+          [
+            0.7589944600053476,
+            0.0015131540067618784
+          ],
+          [
+            0.32695563033220404,
+            0.19113067149457805
+          ]
+        ],
+        "lateral_spacing_m": 4.7394659615143855,
+        "depth_difference_m": 4.50720839068539,
+        "nearest_to_bounce_at_contact_m": 6.14386402135626
+      },
+      {
+        "source_frame": 15217,
+        "pair_court_xy": [
+          [
+            0.7592660698557617,
+            0.002299147441925589
+          ],
+          [
+            0.32711839829876777,
+            0.19163493757251676
+          ]
+        ],
+        "lateral_spacing_m": 4.740659956980224,
+        "depth_difference_m": 4.500511731404152,
+        "nearest_to_bounce_at_contact_m": 6.137756585756085
+      },
+      {
+        "source_frame": 15218,
+        "pair_court_xy": [
+          [
+            0.7592307392259119,
+            0.00310775658551756
+          ],
+          [
+            0.32721625735804566,
+            0.19188522618123416
+          ]
+        ],
+        "lateral_spacing_m": 4.739198866090494,
+        "depth_difference_m": 4.487240452290184,
+        "nearest_to_bounce_at_contact_m": 6.134557838723381
+      },
+      {
+        "source_frame": 15219,
+        "pair_court_xy": [
+          [
+            0.7589038073746099,
+            0.0037682192405185887
+          ],
+          [
+            0.3272522237304927,
+            0.19253331414290492
+          ]
+        ],
+        "lateral_spacing_m": 4.735217872575966,
+        "depth_difference_m": 4.486946305829723,
+        "nearest_to_bounce_at_contact_m": 6.128513290483485
+      },
+      {
+        "source_frame": 15220,
+        "pair_court_xy": [
+          [
+            0.7581557690387414,
+            0.004327933084290264
+          ],
+          [
+            0.32708272513714215,
+            0.19329967509762006
+          ]
+        ],
+        "lateral_spacing_m": 4.728871291600543,
+        "depth_difference_m": 4.491858307656849,
+        "nearest_to_bounce_at_contact_m": 6.123573591352841
+      },
+      {
+        "source_frame": 15221,
+        "pair_court_xy": [
+          [
+            0.7569298244866796,
+            0.004345934037471017
+          ],
+          [
+            0.32717130828578705,
+            0.1936518408179059
+          ]
+        ],
+        "lateral_spacing_m": 4.71445092272379,
+        "depth_difference_m": 4.499801404170937,
+        "nearest_to_bounce_at_contact_m": 6.1196194929475425
+      },
+      {
+        "source_frame": 15222,
+        "pair_court_xy": [
+          [
+            0.7553404086717712,
+            0.003671759414243481
+          ],
+          [
+            0.32702192738820207,
+            0.1946892548912244
+          ]
+        ],
+        "lateral_spacing_m": 4.698653739680753,
+        "depth_difference_m": 4.540485867487837,
+        "nearest_to_bounce_at_contact_m": 6.11222331394968
+      }
+    ]
+  },
+  {
+    "point": 3,
+    "stroke": 2,
+    "hitter_candidate": "N1",
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "candidate_first": 15276,
+    "candidate_last": 15285,
+    "candidate_frames": 10,
+    "pair_frames": 0,
+    "whole_window_pair": false,
+    "missing": [
+      {
+        "source_frame": 15276,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15277,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15278,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15279,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15280,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15281,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15282,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15283,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15284,
+        "unavailable": [
+          "F2"
+        ]
+      },
+      {
+        "source_frame": 15285,
+        "unavailable": [
+          "F2"
+        ]
+      }
+    ],
+    "bounce_candidate_frame": null,
+    "bounce_candidate_court_xy": null,
+    "middle_candidate_frame_positions": null,
+    "features_min_max": {},
+    "per_frame": []
+  },
+  {
+    "point": 3,
+    "stroke": 3,
+    "hitter_candidate": "F1",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 15313,
+    "candidate_last": 15321,
+    "candidate_frames": 9,
+    "pair_frames": 0,
+    "whole_window_pair": false,
+    "missing": [
+      {
+        "source_frame": 15313,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15314,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15315,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15316,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15317,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15318,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15319,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15320,
+        "unavailable": [
+          "N1"
+        ]
+      },
+      {
+        "source_frame": 15321,
+        "unavailable": [
+          "N1"
+        ]
+      }
+    ],
+    "bounce_candidate_frame": 15344,
+    "bounce_candidate_court_xy": [
+      0.7210753555783541,
+      0.1481387954956635
+    ],
+    "middle_candidate_frame_positions": null,
+    "features_min_max": {},
+    "per_frame": []
+  },
+  {
+    "point": 3,
+    "stroke": 4,
+    "hitter_candidate": "N1",
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "candidate_first": 15378,
+    "candidate_last": 15383,
+    "candidate_frames": 6,
+    "pair_frames": 6,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": null,
+    "bounce_candidate_court_xy": null,
+    "middle_candidate_frame_positions": {
+      "source_frame": 15380,
+      "pair_court_xy": [
+        [
+          0.8031892030901842,
+          0.5370902780258761
+        ],
+        [
+          0.49447505660896945,
+          1.0201031286790658
+        ]
+      ],
+      "lateral_spacing_m": 3.3865941868989253,
+      "depth_difference_m": 11.48121546002632,
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.3464775022272466,
+        3.4423016983133365
+      ],
+      "depth_difference_m": [
+        10.940583237458224,
+        11.739550956193359
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "per_frame": [
+      {
+        "source_frame": 15378,
+        "pair_court_xy": [
+          [
+            0.8092553427738708,
+            0.5300533591252896
+          ],
+          [
+            0.49546302752197136,
+            1.023934341716512
+          ]
+        ],
+        "lateral_spacing_m": 3.4423016983133365,
+        "depth_difference_m": 11.739550956193359,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 15379,
+        "pair_court_xy": [
+          [
+            0.8049763824953916,
+            0.5327945499896274
+          ],
+          [
+            0.4949653106708611,
+            1.0231110876399447
+          ]
+        ],
+        "lateral_spacing_m": 3.4008214579150993,
+        "depth_difference_m": 11.654824099948042,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 15380,
+        "pair_court_xy": [
+          [
+            0.8031892030901842,
+            0.5370902780258761
+          ],
+          [
+            0.49447505660896945,
+            1.0201031286790658
+          ]
+        ],
+        "lateral_spacing_m": 3.3865941868989253,
+        "depth_difference_m": 11.48121546002632,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 15381,
+        "pair_court_xy": [
+          [
+            0.800059474606795,
+            0.5384974570876226
+          ],
+          [
+            0.493757904141899,
+            1.0136690971658795
+          ]
+        ],
+        "lateral_spacing_m": 3.36012822799991,
+        "depth_difference_m": 11.294829884660166,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 15382,
+        "pair_court_xy": [
+          [
+            0.7985746101842064,
+            0.5453940992964343
+          ],
+          [
+            0.4924674564776808,
+            1.0102236569687006
+          ]
+        ],
+        "lateral_spacing_m": 3.3579954761605855,
+        "depth_difference_m": 11.048998585869771,
+        "nearest_to_bounce_at_contact_m": null
+      },
+      {
+        "source_frame": 15383,
+        "pair_court_xy": [
+          [
+            0.7970847950751118,
+            0.5513808601126692
+          ],
+          [
+            0.49202759341355784,
+            1.0116494018652238
+          ]
+        ],
+        "lateral_spacing_m": 3.3464775022272466,
+        "depth_difference_m": 10.940583237458224,
+        "nearest_to_bounce_at_contact_m": null
+      }
+    ]
+  },
+  {
+    "point": 3,
+    "stroke": 5,
+    "hitter_candidate": "F1",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "candidate_first": 15457,
+    "candidate_last": 15465,
+    "candidate_frames": 9,
+    "pair_frames": 9,
+    "whole_window_pair": true,
+    "missing": [],
+    "bounce_candidate_frame": 15477,
+    "bounce_candidate_court_xy": [
+      0.5378145783965796,
+      0.17471148709024958
+    ],
+    "middle_candidate_frame_positions": {
+      "source_frame": 15461,
+      "pair_court_xy": [
+        [
+          0.7091643220970367,
+          -0.08303822499647562
+        ],
+        [
+          0.28166239494785095,
+          0.0329730046923099
+        ]
+      ],
+      "lateral_spacing_m": 4.689696140826568,
+      "depth_difference_m": 2.757586929702432,
+      "nearest_to_bounce_at_contact_m": 4.387144334064553
+    },
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.323025456411392,
+        4.999095051998895
+      ],
+      "depth_difference_m": [
+        2.540424080056967,
+        3.0582851653834675
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        4.1282373123167675,
+        4.686345644349998
+      ]
+    },
+    "per_frame": [
+      {
+        "source_frame": 15457,
+        "pair_court_xy": [
+          [
+            0.6876537548843829,
+            -0.08607715126748912
+          ],
+          [
+            0.293576685020081,
+            0.042584403860128364
+          ]
+        ],
+        "lateral_spacing_m": 4.323025456411392,
+        "depth_difference_m": 3.0582851653834675,
+        "nearest_to_bounce_at_contact_m": 4.1282373123167675
+      },
+      {
+        "source_frame": 15458,
+        "pair_court_xy": [
+          [
+            0.6930889661991446,
+            -0.08418973661965215
+          ],
+          [
+            0.2896575892282167,
+            0.04226382803990716
+          ]
+        ],
+        "lateral_spacing_m": 4.42564220537108,
+        "depth_difference_m": 3.005801231957725,
+        "nearest_to_bounce_at_contact_m": 4.162029861187092
+      },
+      {
+        "source_frame": 15459,
+        "pair_court_xy": [
+          [
+            0.6991788860894814,
+            -0.08218222022763443
+          ],
+          [
+            0.2861460127950699,
+            0.04072789065500159
+          ]
+        ],
+        "lateral_spacing_m": 4.530970620039694,
+        "depth_difference_m": 2.9215733356802582,
+        "nearest_to_bounce_at_contact_m": 4.21484608680882
+      },
+      {
+        "source_frame": 15460,
+        "pair_court_xy": [
+          [
+            0.7036092653880784,
+            -0.08323387731524977
+          ],
+          [
+            0.28327910224177516,
+            0.03709532590367967
+          ]
+        ],
+        "lateral_spacing_m": 4.611021889714947,
+        "depth_difference_m": 2.8602251605139526,
+        "nearest_to_bounce_at_contact_m": 4.300815630784301
+      },
+      {
+        "source_frame": 15461,
+        "pair_court_xy": [
+          [
+            0.7091643220970367,
+            -0.08303822499647562
+          ],
+          [
+            0.28166239494785095,
+            0.0329730046923099
+          ]
+        ],
+        "lateral_spacing_m": 4.689696140826568,
+        "depth_difference_m": 2.757586929702432,
+        "nearest_to_bounce_at_contact_m": 4.387144334064553
+      },
+      {
+        "source_frame": 15462,
+        "pair_court_xy": [
+          [
+            0.7146645932338747,
+            -0.08492941066205534
+          ],
+          [
+            0.2805544180438507,
+            0.0278667174320942
+          ]
+        ],
+        "lateral_spacing_m": 4.7621886218345635,
+        "depth_difference_m": 2.6811639647979346,
+        "nearest_to_bounce_at_contact_m": 4.488662161024363
+      },
+      {
+        "source_frame": 15463,
+        "pair_court_xy": [
+          [
+            0.7209114751099497,
+            -0.08644904714949289
+          ],
+          [
+            0.2792735009162817,
+            0.023998175381027297
+          ]
+        ],
+        "lateral_spacing_m": 4.844768576904538,
+        "depth_difference_m": 2.6253304795504646,
+        "nearest_to_bounce_at_contact_m": 4.569244185436794
+      },
+      {
+        "source_frame": 15464,
+        "pair_court_xy": [
+          [
+            0.7267082732784385,
+            -0.08870729490662092
+          ],
+          [
+            0.2773126340194159,
+            0.022307611652225768
+          ]
+        ],
+        "lateral_spacing_m": 4.929870162671477,
+        "depth_difference_m": 2.6388243289037856,
+        "nearest_to_bounce_at_contact_m": 4.614109545778008
+      },
+      {
+        "source_frame": 15465,
+        "pair_court_xy": [
+          [
+            0.7332065277409177,
+            -0.08848658096261558
+          ],
+          [
+            0.27750050659243136,
+            0.018388643272006507
+          ]
+        ],
+        "lateral_spacing_m": 4.999095051998895,
+        "depth_difference_m": 2.540424080056967,
+        "nearest_to_bounce_at_contact_m": 4.686345644349998
+      }
+    ]
+  }
+]

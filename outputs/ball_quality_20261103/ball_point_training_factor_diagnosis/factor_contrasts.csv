@@ -1,0 +1,5 @@
+﻿contrast,from_condition,to_condition,delta_negative_above03,delta_positive_above03,delta_correct_point_pairs,delta_raw_training_errors
+frequency_with_preservation,rare_preserve,balanced_preserve,-7,-34,6,-115
+frequency_without_preservation,rare_no_preserve,balanced_no_preserve,-6,-37,5,-116
+preservation_with_rare_exposure,rare_no_preserve,rare_preserve,0,-2,0,-2
+preservation_with_balanced_exposure,balanced_no_preserve,balanced_preserve,-1,1,1,-1

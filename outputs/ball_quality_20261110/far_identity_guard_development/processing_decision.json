@@ -1,0 +1,23 @@
+{
+  "status": "partial_rejection_candidate_not_adopted",
+  "selected_for_diagnostic_export": "unstable_tracklet_identity_guard_v3",
+  "selection_after_same_match_development": true,
+  "known_case_failures_not_all_resolved": true,
+  "retained_mixed_box_examples": [
+    46511,
+    46634
+  ],
+  "true_player_loss_control016": [
+    40625,
+    40626
+  ],
+  "no_new_observed_or_inferred_coordinates": true,
+  "current_input_snapshot": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\current22_player_inputs",
+  "current_input_files_unchanged": true,
+  "confirmed_human_outcomes": 11,
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "next_unresolved_candidate": "match1_rally_window_019",
+  "canonical_pipeline_replaced": false,
+  "next_action": "Investigate stable mixed-person boxes separately from short-lived false reacquisitions. Keep v3 as a comparator; do not relax thresholds to remove one known frame or promote same-match probe rejection to independent accuracy."
+}

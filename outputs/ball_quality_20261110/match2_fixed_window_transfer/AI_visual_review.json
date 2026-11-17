@@ -1,0 +1,33 @@
+{
+  "reviewer": "AI assistant, not independent human GT",
+  "comparison_frames": {
+    "match2_fixed_clip_002": [
+      18566,
+      18702
+    ],
+    "match2_fixed_clip_003": [
+      54844
+    ]
+  },
+  "reset_main_view_frames": {
+    "match2_fixed_clip_002": [
+      18585,
+      18821
+    ],
+    "match2_fixed_clip_003": [
+      54328,
+      54330,
+      54538,
+      54544
+    ]
+  },
+  "findings": [
+    "At002/F18566 the dissolve superimposes two views; no-reset F1 surrounds the large near red-shirt player in one view while N2 surrounds the smaller representation of that same near player in the other. Four candidate boxes are not proof of four distinct players.",
+    "At002/F18702 the reset view shows four court-player candidates; the no-reset view lacks the far F1 candidate.",
+    "At003/F54844 the no-reset N2 box follows a close-up person; even if this is the same person, its box-bottom cannot be treated as a calibrated court position. The reset arm emits no calibrated-view output.",
+    "The4 incomplete003 frames lack far F1 while that player overlaps the near N1 player in the sampled raw image. This is an AI occlusion interpretation, not a human visibility label."
+  ],
+  "all_frames_independently_identity_annotated": false,
+  "cross_camera_ReID_validated": false,
+  "tracking_accuracy_established": false
+}

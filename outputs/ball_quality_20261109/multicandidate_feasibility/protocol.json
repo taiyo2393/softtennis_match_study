@@ -1,0 +1,33 @@
+{
+  "status": "fixed_before_all_target_pool_diagnosis",
+  "date_jst": "2026-11-09",
+  "scope": "All123training targets,all52oldconfirmation targets,all26newconfirmation targets,reported separately;same phase/visibility criteria for success and failure.",
+  "pools": "Saved original global components plus ALL native9tile components. Degraded components are not proposed output positions. No new inference,threshold,fit or candidate search.",
+  "radius_source_px": 16,
+  "interpretation": "GT-assisted candidate-center coverage is an oracle upper bound,NOT automatic localization accuracy or person/ball identity accuracy. Candidate counts are not distinct physical balls.",
+  "categories": "If chosen static point is incorrect but pool has a center within16px:potential selection limitation. If pool has none:current candidate-generation limitation. No claim a path method can attain the upper bound.",
+  "data_roles": "E/Flabels remain confirmation/development labels,never transferred into training. Looking at their failures now is retrospective diagnosis,not another independent test.",
+  "no_model_training": true,
+  "no_new_labels": true,
+  "canonical_tracking_changed": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_phase_scope_review\\phase_labels.csv": "654a3e60441fd57a64b9c17f5de5520ad5788e477154cfd8bd4bfacd8820dd47",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\candidate_pools.json": "0e1fd1a2da9472ed07f8dadeda43902655fb6c4ca1dfefe8d1cb54134d2b476f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_consistency_abstention\\training_global_contexts.json": "bd2bcb971dc104b12ca3e33ee7f0bcfdb88d22bf2dc3bc8aecb8d062784ad140",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\frozen_tile_gate_confirmation\\training_predictions.csv": "068a3cadfcedc84022e9734303561e38fc6db8e17d1d19f063dc10c48dcd22fd",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\frozen_tile_gate_confirmation\\candidate_pools.json": "eee9b85809bd4b4a5a0ca551e23b08fe624c04a50b03d347d4a67d807980d1e2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\frozen_tile_gate_confirmation\\frozen_confirmation_predictions.csv": "ff6c8d8b0486c07b88a7d47fb020ffdf32dea35e7c42b56b9644bcffa553c29f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\completed_review\\manual_sequence_labels.csv": "3591d0dd0e465bf5f8714e7a16f60d9793cc2646513a3b190f26d1987e8275b5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\frozen_component_cache.json": "40d728e5c6a5e6fec6a1188033690328369ddac8b11752282701738a6e217644",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_guard_next_sequences\\completed_review\\manual_sequence_labels.csv": "41606625d89ad3cb2642d28f6a4709806f48495f3de249b95fd2d19915b69165",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_guard_next_sequences\\global_contexts.json": "f4bc06dfe7be62c46d2c1b38fa6ac0b8b9ec005ca659933c45bcdc1b7baa2fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_guard_next_sequences\\candidate_pools.json": "072cc7c835efa1c8f3acf0de6cce682e78e5d0b7cb93a7f3e802af9e136768c7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_guard_next_sequences\\frozen_predictions.csv": "5c6f536cf7f0fb0280df0afad97f40c512f998d478adcd278ebdd2ffd36f0ac7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_guard_next_sequences\\evaluation_report.json": "d7ca7fbbb325cde79a9ddb011eb05d7498f3797de36660d8de5f7e48b5e01e1c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0"
+  },
+  "script_sha256": "cd5eba718233733c1c88766738b880963fae12756a6b6d0d0963bdb602750d07"
+}

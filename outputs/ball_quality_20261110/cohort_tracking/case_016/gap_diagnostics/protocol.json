@@ -1,0 +1,8 @@
+{
+  "selection": "Largest two post-initialization observation gaps per slot, ties earliest first. Diagnostic selection only; not representative identity-accuracy sampling.",
+  "source_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_016\\four_player_path.csv",
+  "source_sha256": "152c08952893bd1f385c06a04e2e842723bee14049455b9eecd761a363087f64",
+  "metrics": "Detector raw-ID changes are not person-ID switches. Gap runs do not distinguish physical occlusion, detection loss, or assignment veto.",
+  "coordinate_policy": "No path/coordinates changed; no interpolation or identity GT generated.",
+  "script_sha256": "0c0cd23ae36b4285b803fe912524a1183b8a086cbefe37bc83fffaba7ca19b30"
+}

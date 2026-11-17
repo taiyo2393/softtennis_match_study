@@ -1,0 +1,11 @@
+{
+  "status": "presentation_only_fit_revision",
+  "original_html_sha256": "7b718742f2e5404543575c7b3aebd230bbf849d0e37695ab965f0b3b11480f59",
+  "fit_html_sha256": "018c42f99a8a94a7fa5bc3ebfe3eed2b48e686b5749b7a88dd84713202ef072f",
+  "original_server_sha256": "2faf8f30d884df45c55602d6dc8970bfb1f767310cb81f0c5291a7f6bbcb59bc",
+  "fit_server": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_reserved_ball_sequence_review_fit.py",
+  "fit_server_sha256": "7c32b8d8cec4f8cdd10fce5088a4b6db4b4f81e448c700d07b0ebf2f417cd7ae",
+  "change": "Initial and normal zoom image fits viewport height70vh and container width, preserving1920:1080.2x mode intentionally scrolls. Fullscreen letterbox coordinate math unchanged.",
+  "data_or_predictions_changed": false,
+  "labels_changed": false
+}

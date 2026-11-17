@@ -1,0 +1,60 @@
+{
+  "candidate_id": "match1_rally_window_018",
+  "reviewer": "Codex AI saved chronological-image inspection",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": false,
+  "AI_identity_binding_added": false,
+  "development_on_previously_known_failure": true,
+  "development_intervention": "automatic_near_pair_initialization_development",
+  "independently_unseen_transfer": false,
+  "original_wrong_person_output_retained": true,
+  "observation": "All31 requested ID-labeled images now show N1 raw2 on the dark-capped near-right white/red player and N2 raw1 on the white-capped near-left receiver. F1 follows the dark far-left player and F2 the orange far-right server. Chronological context samples and both sides of allthree final-path gaps appear consistent with those players. The cyan near-right official is unassigned in inspected images. No obvious person swap in inspected assigned boxes; this is AI evidence only.",
+  "inspected_image_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\near_pair_development\\fixed_input_identity\\near_all31.jpg": "01e4185c870dea89a8ccb70eb2c36a6d6b43e29049f657ffbe64f8b2bbe305c5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\near_pair_development\\fixed_input_identity\\far_all31.jpg": "c021bce09d810b80ddb4e4837aa2c85801705c3930a3bd1fedd2d4ddc9021729",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\pair_initialization_development\\corrected_018_context_QA.jpg": "074f60c1ea61cfbb8631fcc3ef2f7c50ce921f4955cf493e441a8ef56387141d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\pair_initialization_development\\matched_trial\\initialization_evidence\\018_F43643.jpg": "b63d78e903b5c36a191fb35429ece936a5fb0c07637b714e9e42b053a1124aaf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\near_pair_development\\gap_diagnostics\\gap_01_far_rear.jpg": "bafe98bcbc69ed06901034e94301ebdc098c62d9673b3a7f971db338d64e17db",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\near_pair_development\\gap_diagnostics\\gap_02_far_rear.jpg": "2011ad4cbb9bec206def6377aca9d36ef0fca2d965d8c2a8e38277cd425beb03",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\near_pair_development\\gap_diagnostics\\gap_03_far_front.jpg": "3196119db87f65df26b5a2329d41eb9cf6008142ab2b6d90605bd51b48e09fb1"
+  },
+  "fixed_window_requested_times": 31,
+  "four_observation_requested_times": 31,
+  "missing_requested_frames": [],
+  "initialization_source_frame": 43643,
+  "earlier_than_original_frames": 3,
+  "contact_candidate_frames": [
+    43804,
+    43808
+  ],
+  "contact_review": "AI bracket frozen before tracking; no new human exact-contact or service-validity GT",
+  "input_boundary_problem_visible": false,
+  "retained_late_gaps": [
+    {
+      "slot": "far_rear",
+      "first": 44167,
+      "last": 44177,
+      "frames": 11
+    },
+    {
+      "slot": "far_rear",
+      "first": 44225,
+      "last": 44241,
+      "frames": 17
+    },
+    {
+      "slot": "far_front",
+      "first": 44194,
+      "last": 44207,
+      "frames": 14
+    }
+  ],
+  "later_far_output_change_causal_caution": "Original F2 gap44216..44242 absent in new output. Earlier initialization/templates also changed; do not attribute this to an independently demonstrated far-recovery improvement.",
+  "formal_point_end_frame_confirmed": false,
+  "late_broadcast_dissolve_present": true,
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "independent_identity_or_position_accuracy_established": false,
+  "clothing_similarity_is_not_trained_person_ReID": true,
+  "offline_future_context_used_for_far_association": true
+}

@@ -1,0 +1,30 @@
+{
+  "status": "fixed_before_context_render",
+  "chosen_config": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "chosen_config_sha256": "4dc7ffeb328c1e12e176035d4735aa6d1476fc6e2fc2d537808ff94a07526f37",
+  "cases": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "context_half_window_source_frames": 24,
+  "source_image_wh": [
+    1920,
+    1080
+  ],
+  "render_wh": [
+    1920,
+    1180
+  ],
+  "header_height": 100,
+  "output_fps": 29.97002997002997,
+  "speed": "0.5x; target held for30extra output frames",
+  "colors": "Orange:original area, pink:single-frame peak, blue:fixed temporal selector, green+:manual center at TARGET only",
+  "truth": "Only4target frames have manual centers. Context predictions are not newly verified. Display holds are not extra observations.",
+  "automatic_adoption": false
+}

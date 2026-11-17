@@ -1,0 +1,17 @@
+﻿case_id,sample_id,candidate_id,local_frame,source_frame,method,visible,x_px,y_px,ranking_score,truth_visibility,truth_x_px,truth_y_px
+A,match1_motion_pilot_012_frame_000303,match1_motion_pilot_012,303,83620,bbox_area,1,965,530,225,visible,966,529
+B,match1_motion_pilot_015_frame_000328,match1_motion_pilot_015,328,104863,bbox_area,1,1155,645,196,visible,1071,393
+C,match1_motion_pilot_019_frame_000305,match1_motion_pilot_019,305,161813,bbox_area,1,1325,579,225,visible,1106,541
+D,match1_motion_pilot_020_frame_000171,match1_motion_pilot_020,171,172379,bbox_area,1,813,367,196,visible,814,367
+A,match1_motion_pilot_012_frame_000303,match1_motion_pilot_012,303,83620,component_peak,1,1539,543,0.658203125,visible,966,529
+B,match1_motion_pilot_015_frame_000328,match1_motion_pilot_015,328,104863,component_peak,1,1072,393,0.5859375,visible,1071,393
+C,match1_motion_pilot_019_frame_000305,match1_motion_pilot_019,305,161813,component_peak,1,1106,538,0.65234375,visible,1106,541
+D,match1_motion_pilot_020_frame_000171,match1_motion_pilot_020,171,172379,component_peak,1,813,367,0.517578125,visible,814,367
+A,match1_motion_pilot_012_frame_000303,match1_motion_pilot_012,303,83620,bbox_mean,1,1539,543,0.40126895904541016,visible,966,529
+B,match1_motion_pilot_015_frame_000328,match1_motion_pilot_015,328,104863,bbox_mean,1,1072,393,0.38478991389274597,visible,1071,393
+C,match1_motion_pilot_019_frame_000305,match1_motion_pilot_019,305,161813,bbox_mean,1,1106,538,0.40034469962120056,visible,1106,541
+D,match1_motion_pilot_020_frame_000171,match1_motion_pilot_020,171,172379,bbox_mean,1,813,367,0.3567392826080322,visible,814,367
+A,match1_motion_pilot_012_frame_000303,match1_motion_pilot_012,303,83620,component_mean,1,1539,543,0.43148767948150635,visible,966,529
+B,match1_motion_pilot_015_frame_000328,match1_motion_pilot_015,328,104863,component_mean,1,1072,393,0.41511014103889465,visible,1071,393
+C,match1_motion_pilot_019_frame_000305,match1_motion_pilot_019,305,161813,component_mean,1,1106,538,0.43228453397750854,visible,1106,541
+D,match1_motion_pilot_020_frame_000171,match1_motion_pilot_020,171,172379,component_mean,1,813,367,0.39423587918281555,visible,814,367

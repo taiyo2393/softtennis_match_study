@@ -1,0 +1,5 @@
+﻿candidate_id,provisional_first_local_frame,provisional_last_local_frame,source_valid_serve_time_sec,sampled_frames,selected,phase_status,exact_end_not_inferred
+match1_motion_pilot_012,79,629,1390.301800,276,0,human_pending,True
+match1_motion_pilot_015,56,509,1743.918083,227,0,human_pending,True
+match1_motion_pilot_019,55,329,2694.416002,138,0,human_pending,True
+match1_motion_pilot_020,121,269,2874.002500,75,0,human_pending,True

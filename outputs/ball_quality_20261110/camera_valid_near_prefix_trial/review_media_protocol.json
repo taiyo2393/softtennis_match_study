@@ -1,0 +1,21 @@
+{
+  "tag": "006",
+  "first_source_frame": 10430,
+  "last_source_frame": 10610,
+  "selection": "Illustrative video around camera-eligible near initialization, fixed input and common initialization; chosen after results, not evaluation sampling.",
+  "native_source_dimensions": [
+    3840,
+    2160
+  ],
+  "display_image_dimensions": [
+    1280,
+    720
+  ],
+  "header_height": 80,
+  "aspect_preserved": true,
+  "playback_speed": 0.5,
+  "video_fps": 29.97002997002997,
+  "green": "New near-prefix native boxes, not GT",
+  "cyan": "Unchanged baseline native boxes",
+  "overlays": "No interpolated boxes, pose points or future-coordinate backfill."
+}

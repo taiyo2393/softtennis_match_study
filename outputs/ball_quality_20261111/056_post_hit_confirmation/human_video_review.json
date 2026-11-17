@@ -1,0 +1,40 @@
+{
+  "recorded_on": "2026-11-11",
+  "rally": "056",
+  "question_item_id": "[\"request_user_input_async\",\"call_9bf3f6f0e9d04107be409ec2ad31dd59\",0]",
+  "question": "今回の056終盤動画（056_last_two_hits_model_candidates.mp4）で、最後の打球後に出る橙丸は実球を囲めていますか？ 別物体へ移っている場合は、おおよそのフレームか場面を教えてください。",
+  "answer": "実球を囲めている",
+  "reviewed_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_post_hit_trial\\056_last_two_hits_model_candidates.mp4",
+  "reviewed_video_sha256": "a5ad5b6e5f98b12fdf157aa8de8c8e62d6d9583378f3c6f271a51c057c1e5911",
+  "confirmed_scope": "Displayed orange candidates after the final stroke enclose the actual rally ball; one continuous video-window review.",
+  "conservative_row_application": "Apply only to output-present frames strictly after the end of the existing AI H13 contact interval. Do not infer precise contact time from this answer.",
+  "AI_contact_interval_end": 154852,
+  "derived_confirmed_candidate_frames": [
+    154853,
+    154854,
+    154855,
+    154856,
+    154857,
+    154858,
+    154859,
+    154860,
+    154869,
+    154870,
+    154871,
+    154872,
+    154877,
+    154879,
+    154880
+  ],
+  "review_actions": 1,
+  "reviewed_rallies": 1,
+  "not_confirmed": [
+    "exact ball-center coordinates or error",
+    "ball locations or absence during missing outputs",
+    "exact impact or bounce timing and location",
+    "candidate correctness before the last stroke",
+    "3D trajectory",
+    "independent detector accuracy across rallies"
+  ],
+  "workflow": "Prediction-visible video review; not blinded framewise independent center annotation."
+}

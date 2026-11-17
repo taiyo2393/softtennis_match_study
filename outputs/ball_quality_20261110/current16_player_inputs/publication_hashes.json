@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "08e1a52ce145fe02670b514c100584153fe59a836d47ca270b36fa4102a67271",
+  "additional_verification.json": "bd7331dc2459a5e8de51cfdcc7543aba34e10e81dc69e2ed161b3c3551c6a561",
+  "B1_server_side.csv": "0095cb4ea06225386c585715289f4d641e7e9990867236f8eec1e3a9dd4374dd",
+  "B2_snapshot.csv": "c8620785cc0974f3b519276f7b3680007edafd8c3a36b1399fe79f69add5fd04",
+  "B2_window_means.csv": "e075a9732acb63a8b4793eb497f97940822cf9262da20c881289aae324f475fe",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "eb0c5629fd35027fbc18250e5b0557b56988f73598485e08a734f214a46aab13",
+  "diagnostic_window_masks_only.csv": "0f778c312de8faab0a4a7f883c162af6a6e32d7a359a6632122b2563674362b8",
+  "executed_source.py": "73be7c1fb554b899ef43d923eab10a7f43e35e539e9e1ca49044cb5bc4d8f926",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "bc41658fe1112b861394f866d6ff0685b6bc594426467d0dd1af0baa8224381d",
+  "human_outcomes.csv": "a1e13af47c869783b566dd32b68af03190a743dad541ee44675487c936e1ab58",
+  "outcome_label_status.csv": "4b160d527a21e3373f5fcccf16ec38ca79156094cdec084e06d0646c8f15dc95",
+  "processing_interventions.csv": "33e43296565881299f8c1feb47567862a8764a218ff4ddeaf887d5165fd763b0",
+  "protocol.json": "4b2e17134d82d4da0d794b13e981819727dc55bc17dcf879b9a94e3d6df35121",
+  "rally_metadata.csv": "418cb535d6ff30652ca0d0263f7177ef6357f339352b84723ab125638ad34e0f",
+  "README.md": "f2a6ec02e241f8eeb6890495951fec418747796cf00e7e7c83ffdb37a86e15ea",
+  "result.json": "714380e571d55ee26b65f5899754267fb8d30f4cbfb04c86bee6c97218b49723",
+  "source_snapshot_features.csv": "0c351b26cf37b91a00582a96de78df8db46011c9db7ed369bab7f7819dc47203",
+  "source_window_summary_features.csv": "362145a16a51910ddff25907eb2a6e4d2e6ea3e6baade2aabb704a7234006dd0",
+  "verification.json": "688bc23f93f13b8ec41eaffbd94578a111a882055981039de7ab133309c199e2"
+}

@@ -1,0 +1,9 @@
+{
+  "method": "Replay only the inherited pair-ranked all-four initialize() on identical cached rows/features from context start until first initialization. Retain original8-frame/overlap conditions; no downstream tracking replay or modified policy.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\finalize_006_far_initialization_diagnostic.py": "b1170e1ae2fb8c47865f518257619f8d9248facbda24bbef18e3a8bf4d76ebd4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\pair_initialization_guard.py": "1a4da3a958e94a47398224e54c49400b43f22e69ce323aa2b79ca76a691627b4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\temporal_tracker.py": "df793d565a54fdd2f54ac491fe5305ac7779db8c05607ceee56ae0a7ee52b1cf",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\scripts\\96_select_four_players_pilot.py": "6fd9fedec519a277091c7ca820a0aa151d308eaff359de459e39475ae19d2c8c"
+  }
+}

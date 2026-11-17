@@ -1,0 +1,32 @@
+{
+  "reviewer": "Codex AI image inspection",
+  "candidate_id": "match1_rally_window_009",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "inspected_raw_context": "phase_evidence/context_grid.jpg",
+  "inspected_all_requested_times": "phase_evidence/input_grid.jpg",
+  "contact_evidence_status": "inherited_manual_impact_record_precision_unknown",
+  "input_boundary_problem_visible": false,
+  "formal_point_end_frame_confirmed": false,
+  "service_validity_newly_human_confirmed": false,
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "independent_human_identity_GT_added": false,
+  "known_wrong_person_assignment": true,
+  "automatic_semantic_acceptance": "rejected",
+  "observation": "Original N2 was initialized on raw8 at left image border and later raw423 at same non-player location. Actual near-right server raw148 has no N2 label. Four-box availability and arithmetic checks do not validate four-player identity.",
+  "affected_slot": "near_rear",
+  "bad_initialization_frame": 21101,
+  "bad_initial_raw_id": "8",
+  "later_bad_raw_id": "423",
+  "AI_spot_checked_frames": [
+    21855,
+    21885,
+    21915,
+    21945,
+    21975,
+    21990,
+    22005,
+    22147
+  ],
+  "model_input_use": "Do not append original root prefix features. AI_seed_binding is a separate assisted candidate with explicit provenance."
+}

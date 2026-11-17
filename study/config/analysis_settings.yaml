@@ -1,0 +1,24 @@
+# 変更したら、解析結果とともにこのファイルの版を記録する。
+source_fps_expected: 60
+analysis_window_sec:
+  start: -0.5
+  end: 0.2
+# リプレイから主カメラへ戻る際の残像・フェードを解析に混ぜない。
+# 60fpsで1秒。主カメラ区間の端部には使わない。
+cut_safety_margin_frames: 60
+proxy:
+  long_side_px: 960
+  fps: 15
+tracking:
+  long_side_px: 1920
+  fps: 60
+pose:
+  crop_size_px: 768
+  fps: 60
+quality:
+  min_pose_confidence: 0.5
+  required_keypoints:
+    - left_ankle
+    - right_ankle
+    - left_hip
+    - right_hip

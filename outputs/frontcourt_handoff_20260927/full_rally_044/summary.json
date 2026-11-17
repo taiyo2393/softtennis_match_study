@@ -1,0 +1,16 @@
+{
+  "start_frame": 114710,
+  "warning": "Candidate counts are not tracking accuracy. Bounding-box bottom centers are approximate ground positions. Court ROI is match1-specific; no human labels modified.",
+  "results": [
+    {
+      "mode": "bytetrack",
+      "frames": 1081,
+      "source_fps": 59.94005994005994,
+      "source_width": 3840,
+      "source_height": 2160,
+      "unique_detection_track_ids": 43,
+      "frames_with_at_least_four_roi_candidates": 1081,
+      "elapsed_sec": 37.918010399997
+    }
+  ]
+}

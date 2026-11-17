@@ -1,0 +1,31 @@
+{
+  "algorithm": "offline local line consensus; preserve another supported motion branch; abstain on global image transitions",
+  "window_frames": 30,
+  "model_inlier_px": 16,
+  "min_model_points": 6,
+  "min_model_span_frames": 12,
+  "own_branch_min_points": 4,
+  "bridge_min_points_each_side": 2,
+  "pair_min_dt_frames": 3,
+  "candidate_deviation_thresholds_px": [
+    64,
+    96,
+    128
+  ],
+  "camera_options": [
+    false,
+    true
+  ],
+  "camera": {
+    "lag_frames": 12,
+    "pixel_mean_BRG_difference": 24,
+    "changed_fraction": 0.25,
+    "expand_before": 12,
+    "expand_after": 4
+  },
+  "selection": "Maximize removed validation nonlocalized outputs with zero lost localized TP; ties fewer total outputs withheld, higher deviation threshold, no camera abstention.",
+  "evaluation": "Raw aligned baseline for component comparison; full two-clip preview may compose after previous glove guard, reported separately.",
+  "label_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "fps_reference": 59.94005994,
+  "limitations": "Offline lookahead up to 0.5s; same-match repeatedly used development data, not new held-out accuracy. Camera abstention can hide real visible balls during editing."
+}

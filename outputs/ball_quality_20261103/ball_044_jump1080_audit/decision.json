@@ -1,0 +1,18 @@
+{
+  "status": "user_review_applied",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+  "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "confirmed_ball_candidates": [
+    1081,
+    1082
+  ],
+  "rejected_raw_candidates": [
+    1082,
+    1084,
+    1086,
+    1087,
+    1088
+  ],
+  "global_filter_adopted": false,
+  "interpolation_applied": false
+}

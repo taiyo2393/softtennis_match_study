@@ -1,0 +1,5 @@
+﻿method,sample_id,candidate_id,local_frame,source_frame,category,accepted,proposal_gate_score,proposal_x_px,proposal_y_px,truth_x_px,truth_y_px
+crossscale_agreement16,match1_motion_pilot_001_frame_000464,match1_motion_pilot_001,464,584,wrong_target_position,1,1.0,1134,375,1076,585
+logistic10_oof,match1_motion_pilot_001_frame_000464,match1_motion_pilot_001,464,584,wrong_target_position,1,0.541466621028665,1134,375,1076,585
+logistic10_oof,match1_motion_pilot_006_frame_000279,match1_motion_pilot_006,279,46103,output_when_not_observable,1,0.7540460378552144,816,576,,
+logistic10_oof,match1_motion_pilot_006_frame_000341,match1_motion_pilot_006,341,46165,output_when_not_observable,1,0.6795969662030412,829,578,,

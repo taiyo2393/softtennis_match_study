@@ -1,0 +1,43 @@
+{
+  "status": "original_model_fixed_human_review_pending",
+  "targets": 376,
+  "pending": 376,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_rally_repair_pilot.py": "307d620182bf14b432083c04657d6e38851b298fc80815d50dab3882e90673be",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\rally_repair_pilot.html": "bee0935844d20867f8f6403a4a8ecd906f287e2bd2565522a3cfe1c0ea78d9e9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\finalize_rally_repair_pilot.py": "386fdab4af16a592e54a169b5befff6dc9f5c828e0fe294000b2d65e90648d14",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_pilot_044_v2\\start_review.ps1": "261926b3bcf5ef8bb6c7e8b625bc3dc531dfdc63be240cf672a2a2c9e592b274",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_pilot_044_v2\\completed_review\\result.json": "ff5f6fbe3ae93cc3db3dd78d9920610eec79f7346f44f15ead1b030319fc1192",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_pilot_044_v2\\completed_review\\verification.json": "a2f99a9364e794d96c17c52eef4c28e04f63ba68eb97d2d1b7007cf2338fb735",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\human_review_log.csv": "b97ed8d251fdbb1a2d522747e91ca43f4804ea10e071cf35dd0fbef9b1a0d9d6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\rally_label_review.csv": "4ed13dd37b790eeb200ac675f84f453c83fdae5dbb8eff84af1590e8b221fe21",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\boundary_review_queue.csv": "3991feb2f89cc2c3e8135594dfa377fee648e08ad564a35b434d0f8f16addf35",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\event_review_ranges.csv": "4af7a3e8e7bfd38c4d9c9e76e3ecfe9fed31999d583d0083669cdcffb56e7806",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\056_contact_every_frame_review.jpg": "312947745aa45c2907d6c297fc9ac480115c016d4bac18501e326ebd9fcca9be",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\056_finish_4k_0.jpg": "d369b061876e6996eb50cb944551dd81210429ef8d5db6c793699d7dade34479",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0"
+  },
+  "frozen_artifact_hashes": {
+    "protocol.json": "c5b1b8b4d0bcf896bf9e0376f02652e36ef664c2955ac509f290ff2158b25513",
+    "executed_prepare_source.py": "fb91e6abe2ebcbeb17d8699f3b2a800b9ba30353d25026f1898af486a7a3ee2c",
+    "source_clock_check.json": "c2067413f7df2c22c672b0db7a272f6c95269eb5ddd01ceb89b084b4016f5176",
+    "source_image_hashes.json": "9d4d21742b0bcd13b56c834ca9a75a27edd72e9fadbcad7bbf4fb3908f30e7da",
+    "median.npz": "f8e2edf7c93ebd8e9d5440596da1d8309fe0b3087432f16424210ea90e10539d",
+    "median_samples.json": "68139356b9a6ea05819ddf80166ae233603d4c08f3aceb05e7010d8ba7ffa175",
+    "baseline_all_frames.csv": "9bdd22a9489722e6c32c35979af64db6b752a457c675fafe4d4beb2ea726cb4b",
+    "map_records.csv": "f827987ef0015d70fc966d59122819509d8b9f37d38a6d0fe24e31f7b21c1577",
+    "component_rectangles.npz": "9220cdfabdd025e26c01d7226bb737da2b82d0e6b50d12a60efa5c3a62c68d16",
+    "baseline_predictions.csv": "51732678555b10fa118e0b822287d890d94c9614c7bc8cf4073d94027d137d18",
+    "cases.json": "47a6aec411a0f9e9aa39804d07cf882857e36b1826f5803034f308be626dea59",
+    "initial_labels_snapshot.csv": "01fd84df653f357cc068fcc2b0fc7878e3a5bea89d222f4a1d215fefa7dcd9e6",
+    "context.mp4": "2224cc0b7391cddb94623ca30662e196b0e9f3cd12c1fe8aaaaa83421d3b05f2",
+    "review.html": "2c3963c73046daecb2faf8136f22c7898062853b8089ba95b5127e5976613e1e",
+    "serve_review.py": "be2e46b7501563d3876984ec86b8d81440dd7b2b9eafb2712a2bd00663c64234",
+    "start_review.ps1": "261926b3bcf5ef8bb6c7e8b625bc3dc531dfdc63be240cf672a2a2c9e592b274",
+    "finalize_review.py": "98ad67176b00b828f355f36c769da93a40eb54e4324242319b3b95e616479a3f",
+    "initial_readiness.json": "be0f7257a94aef9f3ebaf615572a6824d598448eda5e0a7cfd2116e1fde67ecf"
+  }
+}

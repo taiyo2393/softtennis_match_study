@@ -1,0 +1,28 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\branch_review_h264.mp4",
+  "decoded_frames": 413,
+  "silent": true,
+  "speed": 0.25,
+  "pause_local_frames": [
+    891,
+    892,
+    960,
+    968,
+    970
+  ],
+  "source_segments": [
+    [
+      883,
+      902
+    ],
+    [
+      952,
+      978
+    ]
+  ],
+  "crop_enlargement": 1.5,
+  "source_aspect_preserved": true,
+  "proposals_sha256": "575023337ea45d755442ad256f1534492c5f8d108aac9fa5ff2ece7b4c0020ee",
+  "person_input_sha256": "55f4ffdbfea897a1df679ff11ac12a383fae370f8d2853ea73d4ac4070ec8b42",
+  "independent_accuracy_established": false
+}

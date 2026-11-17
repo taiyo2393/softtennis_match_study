@@ -1,0 +1,107 @@
+{
+  "source_frame": 54006,
+  "all_four_paint_lines_supported": true,
+  "line_diagnostics": {
+    "far": {
+      "pixels": 1279,
+      "bin_coverage": 1.0,
+      "median_center_residual_px": 0.5463934650044848,
+      "median_paint_pixel_spread_px": 1.553574227508534,
+      "accepted": true
+    },
+    "right": {
+      "pixels": 4315,
+      "bin_coverage": 1.0,
+      "median_center_residual_px": 0.5163470506668091,
+      "median_paint_pixel_spread_px": 2.410922918406868,
+      "accepted": true
+    },
+    "near": {
+      "pixels": 19830,
+      "bin_coverage": 1.0,
+      "median_center_residual_px": 0.15407455001479775,
+      "median_paint_pixel_spread_px": 3.042258727364242,
+      "accepted": true
+    },
+    "left": {
+      "pixels": 3696,
+      "bin_coverage": 1.0,
+      "median_center_residual_px": 0.59091645358194,
+      "median_paint_pixel_spread_px": 2.197181491833817,
+      "accepted": true
+    }
+  },
+  "geometry": {
+    "image_points_px": [
+      [
+        681.2406616210938,
+        531.575927734375
+      ],
+      [
+        1233.458984375,
+        535.110107421875
+      ],
+      [
+        1890.60595703125,
+        807.0806274414062
+      ],
+      [
+        38.93418502807617,
+        797.7569580078125
+      ]
+    ],
+    "court_points": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "image_to_court_homography": [
+      [
+        -0.0004937067606283275,
+        -0.001191336022569217,
+        0.9696186716978605
+      ],
+      [
+        -5.188631919536378e-06,
+        0.0010304573032268915,
+        -0.821852468424021
+      ],
+      [
+        1.6927156679181557e-05,
+        -0.002425151852572165,
+        1.0
+      ]
+    ],
+    "court_to_image_homography": [
+      [
+        -2001.5722397279303,
+        -2412.168000373825,
+        -41.684408968355555
+      ],
+      [
+        -18.13693997763745,
+        -1060.6461357652402,
+        -854.1087291532813
+      ],
+      [
+        -0.010103906680182602,
+        -2.5313967953957444,
+        -1.070637768282451
+      ]
+    ]
+  },
+  "independent_human_calibration": false
+}

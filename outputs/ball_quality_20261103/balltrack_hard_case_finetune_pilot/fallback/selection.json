@@ -1,0 +1,93 @@
+{
+  "status": "matched_fallback_validation_complete",
+  "baseline": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.929949235072644
+  },
+  "selected": {
+    "family": "original",
+    "epoch": 0,
+    "threshold": 0.3,
+    "metrics": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 83,
+        "presence_fn": 23,
+        "presence_tp": 82,
+        "localized_tp_16px": 80,
+        "wrong_localization": 2,
+        "presence_tn": 14,
+        "presence_fp": 1
+      },
+      "localization_recall_16px": 0.7619047619047619,
+      "localization_precision_16px": 0.963855421686747,
+      "mean_error_both_visible_px": 6.929949235072644
+    },
+    "added_samples": []
+  },
+  "family_choices": {
+    "ordinary": {
+      "family": "original",
+      "epoch": 0,
+      "threshold": 0.3,
+      "metrics": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 80,
+          "wrong_localization": 2,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7619047619047619,
+        "localization_precision_16px": 0.963855421686747,
+        "mean_error_both_visible_px": 6.929949235072644
+      },
+      "added_samples": []
+    },
+    "hard_weighted": {
+      "family": "original",
+      "epoch": 0,
+      "threshold": 0.3,
+      "metrics": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 80,
+          "wrong_localization": 2,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7619047619047619,
+        "localization_precision_16px": 0.963855421686747,
+        "mean_error_both_visible_px": 6.929949235072644
+      },
+      "added_samples": []
+    }
+  },
+  "audit_used_for_selection": false,
+  "automatic_adoption": false,
+  "original_observations_unchanged": true,
+  "any_addition_uses_same_frame_model_coordinates": true,
+  "geometry_and_camera_parameters_unchanged": true,
+  "scope": "Selected sparse same-match development samples, not full-rally tracking validation"
+}

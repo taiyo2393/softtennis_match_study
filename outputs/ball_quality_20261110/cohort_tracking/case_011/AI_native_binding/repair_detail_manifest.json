@@ -1,0 +1,28 @@
+{
+  "source_frames": [
+    27385,
+    27514,
+    27854,
+    28140,
+    28286,
+    28881,
+    28326,
+    28327,
+    28329,
+    28331,
+    28337,
+    28343
+  ],
+  "native_crop_xyxy": [
+    1150,
+    900,
+    2750,
+    1500
+  ],
+  "aspect_preserved": true,
+  "missing_N2_frames": [
+    28327,
+    28329
+  ],
+  "image_sha256": "6c86a7e07acc7e9d3f80217bb3f7fbc8991ed6b0d1649c5bc647ec8d1bb638d5"
+}

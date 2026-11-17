@@ -1,0 +1,52 @@
+{
+  "status": "fixed_before_training_and_matched_control_selection",
+  "seed": 20261103,
+  "epochs": 3,
+  "batch_size": 2,
+  "learning_rate": 0.0001,
+  "optimizer": "Adam",
+  "weight_decay": 0.0,
+  "gradient_clip_norm": 1.0,
+  "trainable": [
+    "up_block_3",
+    "predictor"
+  ],
+  "frozen": "Other weights and allBatchNorm running statistics",
+  "hard_sample_ids": [
+    "match1_motion_pilot_001_frame_000336",
+    "match1_motion_pilot_009_frame_000599"
+  ],
+  "hard_frame_loss_weight": 8.0,
+  "other_frame_weight": 1.0,
+  "normalisation": "Batch mean of(per-frame sourceWBCELoss*weight) divided by global training mean weight134/120, not per-batch weight sum",
+  "labels": "Original user-clicked Gaussian targets, sigma3.5; existing not_visible targets unchanged. Hard cases are wrong target locations, not new generic non-ball labels.",
+  "train_inputs_and_order": "Same120frames,np.default_rng(20261103) permutations,3epochs,180updates as ordinary trial. No sampling/augmentation changes.",
+  "matched_control": "Reuse all3 previously saved ordinary checkpoints; identical threshold and checkpoint selection to the new weighted family",
+  "thresholds": [
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+  ],
+  "selection": "Original model included. Retain every original correct validation sample and wrong_position+presenceFP<=3; among feasible candidates maxTP16px,then fewer errors,then earlier epoch. Ordinary/original wins family ties.",
+  "audit": "Read/evaluate60audit labels only after global validation choice is saved. No model,threshold or family selection on audit.",
+  "caveat": "Validation/audit clips were seen in previous trials. Clip disjointness is enforced; this is same-match development, not an external test.",
+  "extra_hyperparameter_search": false,
+  "automatic_adoption": false,
+  "dataset_manifest_sha256": "09ae942e3251cd641b1c7d39d95e52757d88bfd25225d601d545ebeb4a573df3",
+  "hard_inventory_sha256": "6e330ab4ae173ced107078e097113a13957f4b5c954babe8de82dcf9e697f3a0",
+  "script_sha256": "8a976183ab06084deba82edc85a085b64e7d11e9cea6541b3b794aa1b53467e8",
+  "helper_code_sha256": "72bb391975f10ee9dd0d939a03003d1959a7edd929e92484039619b81641b43a",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\training_hard_cases\\far_wrong_target_predictions.csv": "6e330ab4ae173ced107078e097113a13957f4b5c954babe8de82dcf9e697f3a0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch01.pth": "e5f257078f4edd80811a10d9ac078b48548ace6c9dc575555b067ab02eb41d86",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch02.pth": "759f993c47b2bdadb3f14c8cd0d7665e2d9af4918e8cd7d8e73b6a0f4d7c077e",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch03.pth": "d531b5b7cb80a708f547fcfddae7b1af80e0e5cc2f9f198154351decdb7b7694"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed_phase_answers_pending",
+  "target_jpegs_matching_original_clip": 3,
+  "full_context_video_frames_decoded": 1500,
+  "source_images_verified": 1410,
+  "all_training_times_audited": 123,
+  "confirmed_human_phase_labels_in_existing_training_table": 0,
+  "source_phase_field_counts": {
+    "": 120,
+    "unknown": 3
+  },
+  "old_model_metrics_unchanged": true,
+  "no_error_based_exclusion_applied": true,
+  "no_new_phase_labels": true,
+  "needs": "Human phase responses for highlighted moments. A later in-play benchmark must classify phases independently across all sampled successes and failures.",
+  "script_sha256": "99b52b9297ab86854529613ad512ddafeefbe4fe4144b12feb27621eb25a51f1"
+}

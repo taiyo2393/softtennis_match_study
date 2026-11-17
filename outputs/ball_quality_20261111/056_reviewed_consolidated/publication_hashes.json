@@ -1,0 +1,22 @@
+{
+  "056_reviewed_players_ball_and_court.mp4": "9dd3fd20f2e89fd18cfcf401ef4ab94b07ed9a9f8f3008b925371ac9c507f11c",
+  "bounce_court_points.csv": "a84dccddb5179f9b338049694d6b840a0e6b92789da776ae13816ee5da86e68e",
+  "consolidated_F154270.jpg": "a086e415fa3826aadf11e57e05037a2b6269fa8ac82f624add32f98b7c6a5d0b",
+  "consolidated_F154324.jpg": "4d445e5f62fd592de9b585190b474bf39edae7203baa646128e4a1480cb5bfb1",
+  "consolidated_F154780.jpg": "9cd7acb40c770d3e7abd355be5d55e1bf158c788ae210e7976d46c2de2224588",
+  "consolidated_F154858.jpg": "846dd6b4947f7fb00d6de75133edbfd1a67233a5fa85aebf23b3581c47bd38be",
+  "display_ball_path.csv": "5faf7b710970649e250ff47b6c6922aada96bf63def704253cebf3e4eaa99551",
+  "executed_consolidation.py": "63df0c8738126baea8f565816dacf0b8e389939a2354514c26719015909670a6",
+  "match2_evaluation_readiness.json": "6c0e08a9e889749f972edc1190fd2c8d6a868ef7aa6d23b5593b136f30df50c2",
+  "player_court_proxies.csv": "a61a226f6cdfadb4a8c442a1c53abc652389d9eb62dc3be9d28640cae9c9ea95",
+  "protocol.json": "94ea6760b47e6fe381a5039e6b8d49928046cd42a8d01e906a92a6275c6d5f4d",
+  "README.md": "8cab87f3a5c44eec594e79639f32945fc9be496b9948f982ff3939e13fa3c661",
+  "remaining_observation_gaps.csv": "093abda9b2dd9403ef67b37f29f8b45c4b464ebeffdfba974376bee65d847bde",
+  "reviewed_observations_all404times.csv": "dcd3b2fb5f371514a8f8accab4930e8b50443869c28d42be038c0ba535acc570",
+  "schematic_court_routes.csv": "764d8d463cbf7acefceafe77012d6c09204ccb9efc26c47f5c3b8e2cb1b38097",
+  "source_image_manifest.json": "b72e005897a46618c1831e489e622622de43ffca63b288191e00ff445089d3ae",
+  "stroke_order_confirmed.csv": "206448606002a5fb71acb6b34228031103c3b146946c2b19b37bb15e08d5a24b",
+  "trace_connections.csv": "6142ce6e2a8c8d2eca310db933c12f175c4917e198ae9a440eeb036b8e20b2b1",
+  "verification.json": "416b39c6f0fd94a76e961c2cfa4cc5efd1c034ea45ca335fcc4beea46f75debe",
+  "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697"
+}

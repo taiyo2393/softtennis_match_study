@@ -1,0 +1,72 @@
+{
+  "status": "specified_before_replay_not_independent_preregistration",
+  "goal": "Check whether temporal association alone rejects newly reviewed tiled mistakes while retaining reviewed real candidates",
+  "candidate_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\displayed_candidates.csv",
+  "candidate_sha256": "b757c5249444b8e9731f954afc7959972bb1eba6b59768a4af2be36994c3948e",
+  "candidate_pool": "Exactly the displayed, deduplicated tiled candidates; no labels filter this pool",
+  "candidate_peak_floor": 0.15,
+  "peak_floor_reason": "Reuse unchanged existing branch gate; no sweep on these labels",
+  "anchor_frames": [
+    1080,
+    1096
+  ],
+  "anchor_source": "Original uncorrected model outputs, not full-track ground truth",
+  "base_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "base_sha256": "143e1c71d270f7e3c4f4ee8accb77709c6b4367ca0141ff48e371fb77d008123",
+  "scored_window": [
+    1083,
+    1093
+  ],
+  "policy_names": [
+    "highest_peak",
+    "forward_nearest",
+    "backward_nearest",
+    "two_direction_agreement",
+    "velocity_gate"
+  ],
+  "branch_parameters": {
+    "component_peak_min": 0.15,
+    "max_source_frame_gap": 12,
+    "distance_gate_base_px": 32.0,
+    "distance_gate_per_source_frame_px": 32.0,
+    "closest_candidate_margin_px": 12.0,
+    "two_direction_agreement_px": 1.0,
+    "anchor_match_px": 16.0,
+    "preserve_raw_if_agreement_px": 16.0,
+    "windows": [
+      [
+        890,
+        896
+      ],
+      [
+        959,
+        974
+      ]
+    ],
+    "scope": "Only the two diagnosed044 in-play windows; offline development, not a global ball filter",
+    "automatic_adoption": false
+  },
+  "velocity_parameters": {
+    "gate_base_px": 16.0,
+    "gate_per_source_frame_px": 4.0,
+    "velocity_update_weight": 0.5,
+    "max_source_frame_gap": 12,
+    "closest_candidate_margin_px": 12.0,
+    "anchor_match_px": 16.0
+  },
+  "velocity_parameter_status": "New illustrative development policy chosen after seeing the failure cases; no validation or parameter search",
+  "script_sha256": "383992fafc287399015160302df82112973e0ee73ffdbfb6aff51567d9ed40b1",
+  "branch_script_sha256": "3d12501afe0a5b3892dfad5aab84f99df795f19432dbc437689971e754c2b20a",
+  "evaluation_label_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+  "evaluation_label_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb",
+  "evaluation_timing": "Read labels only after generating policy selections; existing human knowledge makes this a retrospective development replay",
+  "field_meanings": "Retained/rejected counts refer to exact displayed candidates, not physical visibility or frame-center accuracy",
+  "automatic_adoption": false,
+  "independent_accuracy_evaluation": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "23177d11f8a39400419ea11e1b43cbc79b00214b64487bbf92e00f9a85f6665a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv": "95934c96fa9a11425a493c2e73d9345df4664810e7ff879689ff67fe27d33ecc"
+  }
+}

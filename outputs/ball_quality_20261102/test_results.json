@@ -1,0 +1,46 @@
+{
+  "selected_method_sha256": "c53da18ec54f3c25b31a5f53b3fadcec5ac7046bccd0eb1840eca1cb2e1539bf",
+  "selected_config": {
+    "name": "gap4_peak0.15",
+    "max_gap": 4,
+    "min_peak": 0.15,
+    "radius_px": 16.0,
+    "all_missing_frames_supported": true
+  },
+  "baseline": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 128,
+      "pred_visible": 100,
+      "presence_fn": 29,
+      "presence_tp": 99,
+      "localized_tp_16px": 96,
+      "wrong_localization": 3,
+      "presence_tn": 21,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.75,
+    "localization_precision_16px": 0.96,
+    "mean_error_both_visible_px": 7.390818987529981,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "recovered": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 128,
+      "pred_visible": 101,
+      "presence_fn": 28,
+      "presence_tp": 100,
+      "localized_tp_16px": 96,
+      "wrong_localization": 4,
+      "presence_tn": 21,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.75,
+    "localization_precision_16px": 0.9504950495049505,
+    "mean_error_both_visible_px": 8.831223474959394,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "added_frames_all_clips": 91,
+  "warning": "Previously used same-match test and provenance-unverified labels; not a new independent external test."
+}

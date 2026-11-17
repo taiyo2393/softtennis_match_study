@@ -1,0 +1,54 @@
+{
+  "reviewer": "Codex AI chronological image inspection",
+  "candidate_id": "match1_rally_window_011",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": true,
+  "automatic_semantic_acceptance": "rejected_full_context_path",
+  "fixed_prefix_image_correspondence": "All31 requested images are consistent with N1 white/red non-cap, N2 white/red capped server, F1 orange, F2 dark. This does not certify the later path.",
+  "fixed_prefix_four_observation_times": 31,
+  "requested_times": 31,
+  "observed_error": "N2 binds orange far player raw409 at inspected later frames, while native raw1 remains on capped white/red server. Far F1 is then often absent or binds native raw1, propagating the near error into far exclusions.",
+  "wrong_person_evidence_frames": [
+    27514,
+    27526,
+    27652,
+    27664,
+    27854,
+    27892,
+    27904,
+    27997
+  ],
+  "first_drift_candidate_frame": 27231,
+  "drift_scope_precision": "Candidate onset from ID transition; image evidence at onset and selected later times, not frame-by-frame human GT.",
+  "selected_N2_rows_with_raw409": 821,
+  "raw409_row_count_not_identity_accuracy": true,
+  "inspected_raw_context": [
+    "cohort_anchor_proposals/011/coarse_page_01..07.jpg",
+    "cohort_anchor_proposals/011/earlier_attempt_detail/page_01.jpg",
+    "cohort_anchor_proposals/011/later_serve_detail/page_01..02.jpg",
+    "phase_evidence/context_grid.jpg",
+    "phase_evidence/input_grid.jpg"
+  ],
+  "inspected_annotated_images": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg",
+    "N2_drift_diagnosis.jpg",
+    "fixed_input_identity/far_all31.jpg",
+    "fixed_input_identity/near_all31.jpg"
+  ],
+  "gap_images_inspected": [
+    "gap_01_near_rear.jpg",
+    "gap_02_near_rear.jpg",
+    "gap_03_far_rear.jpg",
+    "gap_04_far_rear.jpg",
+    "gap_05_far_front.jpg",
+    "gap_06_far_front.jpg"
+  ],
+  "first_attempt_event": "earlier attempt stops, same score and later service; fault/let not formally adjudicated",
+  "outcome_label_status": "unreviewed",
+  "winner_camera_side": "",
+  "independent_human_identity_GT_added": false,
+  "full_context_identity_accuracy_established": false,
+  "model_input_use": "Do not append automatic full-context path; inspect separate assisted variant.",
+  "offline_future_context_used_for_person_association": true
+}

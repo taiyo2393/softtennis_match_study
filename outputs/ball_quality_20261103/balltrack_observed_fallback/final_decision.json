@@ -1,0 +1,46 @@
+{
+  "status": "original_retained_after_validation_fallback_and_overlap_checks",
+  "automatic_adoption": false,
+  "selected_policy": "original",
+  "threshold": 0.3,
+  "validation_original": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.929949235072644
+  },
+  "validation_threshold03_correct_additions": 4,
+  "validation_threshold03_wrong_additions": 1,
+  "body_overlap_refinement_did_not_remove_the_error": true,
+  "audit_policy_selected_before_audit": true,
+  "audit_selected_metrics": {
+    "counts": {
+      "frames": 60,
+      "truth_visible": 45,
+      "pred_visible": 39,
+      "presence_fn": 9,
+      "presence_tn": 12,
+      "presence_fp": 3,
+      "presence_tp": 36,
+      "localized_tp_16px": 34,
+      "wrong_localization": 2
+    },
+    "localization_recall_16px": 0.7555555555555555,
+    "localization_precision_16px": 0.8717948717948718,
+    "mean_error_both_visible_px": 15.244100226851202
+  },
+  "reviewed_inputs_source_labels_and_models_unchanged": true,
+  "diagnostic_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_observed_fallback\\fallback_gains_and_error_h264.mp4",
+  "unlabelled_context_additions_not_validated": 12,
+  "training_side_far_wrong_target_cases": 2
+}

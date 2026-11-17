@@ -1,0 +1,16 @@
+﻿source_frame,turn_degrees,ball_x,ball_y,event_status,candidate_id
+154120,116.56505117707799,1016.0,628.0,direction_change_only_not_hit_or_bounce_GT,C01
+154142,67.38013505195957,1042.0,561.0,direction_change_only_not_hit_or_bounce_GT,C02
+154156,106.78983037118475,1063.0,568.0,direction_change_only_not_hit_or_bounce_GT,C03
+154186,178.8639719603119,1228.0,540.0,direction_change_only_not_hit_or_bounce_GT,C04
+154230,108.43494882292201,1066.0,629.0,direction_change_only_not_hit_or_bounce_GT,C05
+154256,180.0,1033.0,580.0,direction_change_only_not_hit_or_bounce_GT,C06
+154296,169.3302171955033,826.0,586.0,direction_change_only_not_hit_or_bounce_GT,C07
+154330,81.86989764584403,945.0,608.0,direction_change_only_not_hit_or_bounce_GT,C08
+154348,53.13010235415599,969.0,581.0,direction_change_only_not_hit_or_bounce_GT,C09
+154470,164.1877602180737,1286.0,755.0,direction_change_only_not_hit_or_bounce_GT,C10
+154512,179.19546128624327,1057.0,558.0,direction_change_only_not_hit_or_bounce_GT,C11
+154570,49.4892199392748,1160.0,493.0,direction_change_only_not_hit_or_bounce_GT,C12
+154742,90.0,708.0,566.0,direction_change_only_not_hit_or_bounce_GT,C13
+154780,178.7169519024417,1102.0,579.0,direction_change_only_not_hit_or_bounce_GT,C14
+154824,156.80140948635182,1035.0,531.0,direction_change_only_not_hit_or_bounce_GT,C15

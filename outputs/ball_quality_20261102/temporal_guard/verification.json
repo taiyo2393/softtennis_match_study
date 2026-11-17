@@ -1,0 +1,28 @@
+{
+  "user_reported_regression_cases": [
+    {
+      "local_frame": 208,
+      "reason": "unsupported_excursion",
+      "model_error_px": "368.171759433616"
+    },
+    {
+      "local_frame": 229,
+      "reason": "camera_transition_abstention",
+      "model_error_px": ""
+    },
+    {
+      "local_frame": 230,
+      "reason": "camera_transition_abstention",
+      "model_error_px": ""
+    }
+  ],
+  "verified_rows": 690,
+  "raw_predictions_preserved": true,
+  "unsuppressed_positions_unchanged": true,
+  "no_interpolated_positions": true,
+  "source_annotations_unchanged": true,
+  "isolated_jump_suppressed": true,
+  "synthetic_supported_fast_turn_preserved": true,
+  "nearby_return_detections_219_220_preserved": true,
+  "limitations": "Synthetic turn check does not establish retention of all real fast hits. Reported user cases are development regressions, not independent accuracy."
+}

@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {PresentationFile,FileBlob} from '@oai/artifact-tool';
+const build=path.dirname(fileURLToPath(import.meta.url));
+const p=await PresentationFile.importPptx(await FileBlob.load(path.join(build,'../output/23238007R_中間発表_画像差し替え版_v2.pptx')));
+const snap=await p.inspect({kind:'slide,textbox,shape,notes,layout',maxChars:200000});
+await fs.writeFile(path.join(build,'before_images.ndjson'),snap.ndjson);
+const rows=snap.ndjson.split('\n').filter(Boolean).map(x=>JSON.parse(x));
+console.log(rows.filter(r=>[2,5,6].includes(r.slide)).map(x=>JSON.stringify(x)).join('\n'));

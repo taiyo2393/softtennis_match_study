@@ -1,0 +1,32 @@
+{
+  "radius": 128,
+  "camera": true,
+  "composition": "Apply after existing glove guard in complete 013 and 018 clips",
+  "rationale": "Coordinate continuity is undefined across camera changes. Enable camera abstention for the video-analysis operating mode, separately from the minimal-withholding component selection.",
+  "validation_result": {
+    "radius": 128,
+    "camera": true,
+    "metrics": {
+      "counts": {
+        "frames": 150,
+        "truth_visible": 121,
+        "pred_visible": 88,
+        "presence_tp": 83,
+        "localized_tp_16px": 80,
+        "wrong_localization": 3,
+        "presence_tn": 24,
+        "presence_fn": 38,
+        "presence_fp": 5
+      },
+      "localization_recall_16px": 0.6611570247933884,
+      "localization_precision_16px": 0.9090909090909091,
+      "mean_error_both_visible_px": 7.758443525374216,
+      "median_error_both_visible_px": 3.1622776601683795
+    },
+    "lost_localized": 0,
+    "removed_nonlocalized": 1,
+    "withheld_frames": 74
+  },
+  "selection_sha256": "238c54d954820add4efb1f9a95b032d2a38e9cfaccd03521d7bac2c4b0cc12e7",
+  "warning": "User-reported development examples already inspected; this preview is not a held-out evaluation."
+}

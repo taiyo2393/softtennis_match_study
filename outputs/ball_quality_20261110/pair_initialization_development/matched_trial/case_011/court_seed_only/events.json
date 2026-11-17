@@ -1,0 +1,104 @@
+[
+  {
+    "event": "initialized",
+    "frame": 26141,
+    "window_start": 26134,
+    "seed_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 5,
+      "far_front": 3
+    },
+    "identity_status": "candidate_not_ground_truth"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 27246,
+    "player_slot": "far_rear",
+    "last_observed_frame": 27223,
+    "old_raw_id": 1000352,
+    "new_raw_id": 1,
+    "confirmation_start": 27239,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      1
+    ],
+    "alternative_cost_margin": 0.35690633616220246,
+    "identity_status": "requires_identity_review"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 27633,
+    "player_slot": "far_front",
+    "last_observed_frame": 27620,
+    "old_raw_id": 424,
+    "new_raw_id": 466,
+    "confirmation_start": 27626,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      466
+    ],
+    "alternative_cost_margin": 0.5271342348890509,
+    "identity_status": "requires_identity_review"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 27652,
+    "player_slot": "near_rear",
+    "last_observed_frame": 27526,
+    "old_raw_id": 409,
+    "new_raw_id": 409,
+    "confirmation_start": 27645,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      409
+    ],
+    "alternative_cost_margin": 0.5431000657305739,
+    "identity_status": "requires_identity_review"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 28286,
+    "player_slot": "near_rear",
+    "last_observed_frame": 28270,
+    "old_raw_id": 409,
+    "new_raw_id": 1,
+    "confirmation_start": 28279,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      1
+    ],
+    "alternative_cost_margin": 0.5015620014855985,
+    "identity_status": "requires_identity_review"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 28293,
+    "player_slot": "far_rear",
+    "last_observed_frame": 28277,
+    "old_raw_id": 1,
+    "new_raw_id": 409,
+    "confirmation_start": 28286,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      409
+    ],
+    "alternative_cost_margin": 0.4059469046884786,
+    "identity_status": "requires_identity_review"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 28881,
+    "player_slot": "far_rear",
+    "last_observed_frame": 28736,
+    "old_raw_id": 1000970,
+    "new_raw_id": 897,
+    "confirmation_start": 28874,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      897
+    ],
+    "alternative_cost_margin": 0.32972456490812607,
+    "identity_status": "requires_identity_review"
+  }
+]

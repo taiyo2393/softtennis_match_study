@@ -1,0 +1,8 @@
+{
+  "old_frame": 154081,
+  "new_frame": 164723,
+  "new_first_decoded_frame_assuming_CFR": 164656,
+  "frame_offset_candidate": 10642,
+  "scope": "local 056 alignment; whole-video mapping not certified",
+  "mean_roi_absolute_difference": 2.9524126052856445
+}

@@ -1,0 +1,220 @@
+{
+  "cases": [
+    {
+      "tag": "002",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 53,
+          "candidates_where_baseline_missing": 2,
+          "compared_to_existing_native": 51,
+          "native_same_slot_iou_at_least_half": 51,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 49,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 49,
+          "native_same_slot_iou_at_least_half": 49,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "005",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 58,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 58,
+          "native_same_slot_iou_at_least_half": 58,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 59,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 59,
+          "native_same_slot_iou_at_least_half": 59,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "006",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 51,
+          "candidates_where_baseline_missing": 29,
+          "compared_to_existing_native": 22,
+          "native_same_slot_iou_at_least_half": 22,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 51,
+          "candidates_where_baseline_missing": 29,
+          "compared_to_existing_native": 22,
+          "native_same_slot_iou_at_least_half": 22,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "009",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 37,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 37,
+          "native_same_slot_iou_at_least_half": 37,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 35,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 35,
+          "native_same_slot_iou_at_least_half": 35,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "012",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 62,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 62,
+          "native_same_slot_iou_at_least_half": 62,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 62,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 62,
+          "native_same_slot_iou_at_least_half": 62,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "015",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 60,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 60,
+          "native_same_slot_iou_at_least_half": 60,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 60,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 60,
+          "native_same_slot_iou_at_least_half": 60,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "016",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 60,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 60,
+          "native_same_slot_iou_at_least_half": 60,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 60,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 60,
+          "native_same_slot_iou_at_least_half": 60,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "017",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 62,
+          "candidates_where_baseline_missing": 3,
+          "compared_to_existing_native": 59,
+          "native_same_slot_iou_at_least_half": 58,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 61,
+          "candidates_where_baseline_missing": 3,
+          "compared_to_existing_native": 58,
+          "native_same_slot_iou_at_least_half": 57,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "018",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 60,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 60,
+          "native_same_slot_iou_at_least_half": 60,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 60,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 60,
+          "native_same_slot_iou_at_least_half": 60,
+          "position_coordinates_created": 0
+        }
+      }
+    },
+    {
+      "tag": "019",
+      "modes": {
+        "unmasked_torso": {
+          "requested_slot_times": 62,
+          "body_candidates": 31,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 31,
+          "native_same_slot_iou_at_least_half": 31,
+          "position_coordinates_created": 0
+        },
+        "exclude_near_rectangles": {
+          "requested_slot_times": 62,
+          "body_candidates": 31,
+          "candidates_where_baseline_missing": 0,
+          "compared_to_existing_native": 31,
+          "native_same_slot_iou_at_least_half": 31,
+          "position_coordinates_created": 0
+        }
+      }
+    }
+  ],
+  "fixed_contexts": 10,
+  "fixed_times": 310,
+  "body_hypothesis_rows": 1240,
+  "independent_accuracy_established": false,
+  "position_coordinates_created": 0,
+  "canonical_pipeline_replaced": false
+}

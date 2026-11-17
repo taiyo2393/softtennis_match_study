@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "matched_dose": [
+    {
+      "schedule": "rare",
+      "updates": 153,
+      "slots": 306,
+      "unique_images": 102,
+      "positive_total_weight": 306.0,
+      "negative_total_weight": 306.0,
+      "negative_exposed_batches": 26,
+      "min_image_exposure": 3,
+      "max_image_exposure": 3
+    },
+    {
+      "schedule": "balanced",
+      "updates": 153,
+      "slots": 306,
+      "unique_images": 102,
+      "positive_total_weight": 306.0,
+      "negative_total_weight": 306.0,
+      "negative_exposed_batches": 153,
+      "min_image_exposure": 1,
+      "max_image_exposure": 19
+    }
+  ],
+  "total_updates": 612,
+  "original_condition_reproduced_all8tensors_bitwise": true,
+  "frozen_state_unchanged_all_conditions": true,
+  "source_inputs_and_teacher_unchanged": true,
+  "protected_inputs_unchanged": true,
+  "training_only_point_scores": 555,
+  "no_new_validation_or_audit": true,
+  "no_best_model_selection": true,
+  "gradient_diagnostics": [
+    {
+      "condition": "rare_preserve",
+      "batches": "with_negative",
+      "steps": 26,
+      "mean_norm_before_clip": 28.567885802342342,
+      "clipped_steps": 26,
+      "caution": "Overall gradient norm does not identify separate positive/negative gradient contributions."
+    },
+    {
+      "condition": "rare_preserve",
+      "batches": "without_negative",
+      "steps": 127,
+      "mean_norm_before_clip": 3.1440436614779976,
+      "clipped_steps": 127,
+      "caution": "Overall gradient norm does not identify separate positive/negative gradient contributions."
+    },
+    {
+      "condition": "rare_no_preserve",
+      "batches": "with_negative",
+      "steps": 26,
+      "mean_norm_before_clip": 29.018286778376652,
+      "clipped_steps": 26,
+      "caution": "Overall gradient norm does not identify separate positive/negative gradient contributions."
+    },
+    {
+      "condition": "rare_no_preserve",
+      "batches": "without_negative",
+      "steps": 127,
+      "mean_norm_before_clip": 3.1544906069913248,
+      "clipped_steps": 127,
+      "caution": "Overall gradient norm does not identify separate positive/negative gradient contributions."
+    },
+    {
+      "condition": "balanced_preserve",
+      "batches": "with_negative",
+      "steps": 153,
+      "mean_norm_before_clip": 3.6453112983236124,
+      "clipped_steps": 152,
+      "caution": "Overall gradient norm does not identify separate positive/negative gradient contributions."
+    },
+    {
+      "condition": "balanced_no_preserve",
+      "batches": "with_negative",
+      "steps": 153,
+      "mean_norm_before_clip": 3.6490605590390226,
+      "clipped_steps": 152,
+      "caution": "Overall gradient norm does not identify separate positive/negative gradient contributions."
+    }
+  ],
+  "frequency_factor_scope": "Frequency condition includes paired-frame repetition and inverse-exposure step weights, with exact overall per-point/image weight dose held equal. It does not identify one optimizer mechanism in isolation.",
+  "same_seed_training_diagnosis_only": true,
+  "operational_outputs_changed": false,
+  "automatic_adoption": false
+}

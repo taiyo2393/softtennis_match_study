@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "candidate_id": "match1_rally_window_016",
+  "selected_boxes_matched_to_augmented_detection_source": 1123,
+  "recalculated_feature_values": 379,
+  "requested_times": 31,
+  "four_observation_times": 31,
+  "missing_requested_times": [],
+  "source_JPEG_recreations": 4,
+  "video_frames_decoded": 602,
+  "videos": [
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_016\\tracking_quality_20261102_stage4\\players_016_temporal\\tracking_review_h264.mp4",
+      "frames": 301,
+      "sha256": "e4c09c8594077f123e50a6fd0a93511bb259c2bc7ef6b628e8f79de7604d8c23"
+    },
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_016\\tracking_quality_20261102_stage7\\players_016_global\\global_review_h264.mp4",
+      "frames": 301,
+      "sha256": "9239fe7a29d36ee76ee2c24d882573cbedf82604ae314b129105b209faecd5d5"
+    }
+  ],
+  "numerical_parameters_equal_retained001": true,
+  "QA_grid_source_frames": [
+    40609,
+    40633,
+    40639,
+    40669,
+    40699,
+    40729,
+    40744,
+    40759,
+    40849
+  ],
+  "interpolation_found": false,
+  "duplicate_slot_or_raw_detection_assignments_found": false,
+  "protected_sources_unchanged": true,
+  "independent_identity_or_position_accuracy_established": false
+}

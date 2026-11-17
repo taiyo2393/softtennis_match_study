@@ -1,0 +1,12 @@
+{
+  "audited_unavailable_frames": 44,
+  "gap_runs": 6,
+  "short_gap_test_frames": 2,
+  "full_frame_new_candidates": 0,
+  "local_new_candidates": [
+    12389
+  ],
+  "new_confirmed_positions": 0,
+  "baseline_batch_matches_frozen_output": true,
+  "review_video_decoded_frames": 39
+}

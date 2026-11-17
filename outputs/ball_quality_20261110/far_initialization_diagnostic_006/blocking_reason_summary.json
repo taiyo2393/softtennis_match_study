@@ -1,0 +1,42 @@
+{
+  "fixed_requested_times_006": 31,
+  "before_common_initialization_times": 20,
+  "preinit_seed_candidate_count_histogram": {
+    "1": 13,
+    "2": 7
+  },
+  "preinit_blocking_stage_histogram": {
+    "fewer_than_two_geometry_candidates_on_a_side": 13,
+    "selected_box_overlap": 3,
+    "confirming_past8": 4
+  },
+  "geometry_shortage_source_frames": [
+    10536,
+    10538,
+    10540,
+    10542,
+    10544,
+    10546,
+    10548,
+    10550,
+    10552,
+    10554,
+    10556,
+    10558,
+    10560
+  ],
+  "selected_overlap_source_frames": [
+    10562,
+    10564,
+    10566
+  ],
+  "confirming_source_frames": [
+    10568,
+    10570,
+    10572,
+    10574
+  ],
+  "first_consecutive_accepted_common_seed_frame": 10568,
+  "confirmation_output_frame": 10575,
+  "candidate_counts_not_true_player_recall": true
+}

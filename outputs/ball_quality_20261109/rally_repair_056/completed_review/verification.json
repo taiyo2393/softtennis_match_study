@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "history_events_replayed": 384,
+  "new_targets_verified": 376,
+  "reused_centers_unchanged": 0,
+  "timing_events_verified": 524,
+  "timing_sessions_closed": true,
+  "label_and_timing_save_event_order_consistent": true,
+  "source_clock_and_positions_checked": true,
+  "snapshot_hashes_exact": true,
+  "protected_inputs_unchanged": true,
+  "independent_gt_not_claimed": true,
+  "script_sha256": "98ad67176b00b828f355f36c769da93a40eb54e4324242319b3b95e616479a3f"
+}

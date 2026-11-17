@@ -1,0 +1,31 @@
+{
+  "per_point": [
+    {
+      "point": 4,
+      "core_frames": 565,
+      "core_candidates": 460,
+      "terminal_context_frames": 28,
+      "terminal_context_candidates": 10,
+      "candidate_file_sha256": "f8ca94fea28b2bd2ec4391719e7db18d960d8660d1da2f7a16b317fcf7641cad"
+    },
+    {
+      "point": 5,
+      "core_frames": 322,
+      "core_candidates": 168,
+      "terminal_context_frames": 15,
+      "terminal_context_candidates": 4,
+      "candidate_file_sha256": "de90f984753d2187fc0b269e3b411e6ac19ded0f5136deab68442a7a711d4102"
+    },
+    {
+      "point": 6,
+      "core_frames": 562,
+      "core_candidates": 390,
+      "terminal_context_frames": 49,
+      "terminal_context_candidates": 20,
+      "candidate_file_sha256": "1cc0c65bd62c7270fe366865cbc94996d316e78b20e73b24d76c45ccc87f8431"
+    }
+  ],
+  "protocol_sha256": "ebd989757fa8e6c2f3d397583effd2c798b64682ad5ad525933dd6e26e8977d5",
+  "independent_reference_points_annotated": 0,
+  "interpretation": "Candidate availability; terminal context counts separate."
+}

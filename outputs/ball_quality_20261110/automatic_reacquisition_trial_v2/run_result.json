@@ -1,0 +1,8 @@
+{
+  "status": "completed_all_five_matched_replays",
+  "baseline_exact_cases": 5,
+  "AI_control_image_review_pending": true,
+  "canonical_pipeline_changed": false,
+  "current15_inputs_changed": false,
+  "independent_accuracy_established": false
+}

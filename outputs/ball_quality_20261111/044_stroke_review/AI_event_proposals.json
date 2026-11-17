@@ -1,0 +1,27 @@
+{
+  "reviewer": "AI assistant inspecting complete uniform chronology plus native raw fine sequences; not independent human ground truth",
+  "scope": "Previously fixed F115365..115790; an AI-provisional five-stroke sequence within this display interval, not a validated full-rally stroke count",
+  "temporal_precision": "Intervals are visual proposals. Representative frames are table/display anchors, never exact impact labels. No ball positions are interpolated at contact.",
+  "strokes": [
+    {"stroke_id": "H01", "ordinal": 1, "kind": "serve", "hitter_candidate": "far_rear", "first": 115365, "last": 115373, "reference": 115369, "next_hitter_candidate": "near_rear", "evidence": "Inherited provisional service bracket and full chronology. Far-left red/white player serves toward near-right black player.", "event_type_status": "effective_serve_valid_human_confirmed", "timing_status": "inherited_AI_provisional_interval", "hitter_status": "AI_visual_candidate_not_human_identity_label"},
+    {"stroke_id": "H02", "ordinal": 2, "kind": "return", "hitter_candidate": "near_rear", "first": 115437, "last": 115445, "reference": 115441, "next_hitter_candidate": "far_rear", "evidence": "H02 raw sequence: near black player accelerates racket from right to left, ball incoming before swing and outgoing toward far left. Ball position missing around exact contact.", "event_type_status": "AI_provisional_stroke", "timing_status": "AI_provisional_interval", "hitter_status": "AI_visual_candidate_not_human_identity_label"},
+    {"stroke_id": "H03", "ordinal": 3, "kind": "return", "hitter_candidate": "far_rear", "first": 115519, "last": 115525, "reference": 115521, "next_hitter_candidate": "near_rear", "evidence": "H03 raw sequence: far-left red/white player swings after C02. Ball at F115519 approaches from right, then F115523 onward moves away to screen right. Foreground N1 overlaps the hitter in the image.", "event_type_status": "AI_provisional_stroke", "timing_status": "AI_provisional_interval", "hitter_status": "AI_visual_candidate_not_human_identity_label"},
+    {"stroke_id": "H04", "ordinal": 4, "kind": "return", "hitter_candidate": "near_rear", "first": 115599, "last": 115603, "reference": 115601, "next_hitter_candidate": "far_rear", "evidence": "H04 raw sequence: near black player reaches right edge, swings and follows through. Ball position F115601(1730,721) followed by F115603(1671,671), with incoming position missing immediately before contact.", "event_type_status": "AI_provisional_stroke", "timing_status": "AI_provisional_interval", "hitter_status": "AI_visual_candidate_not_human_identity_label"},
+    {"stroke_id": "H05", "ordinal": 5, "kind": "return", "hitter_candidate": "far_rear", "first": 115727, "last": 115733, "reference": 115729, "next_hitter_candidate": "", "evidence": "H05 raw sequence: far-left red/white player swings; ball x reverses between F115729 and F115731. Near N2 moves right afterward. No next confirmed stroke or precise out landing is assigned.", "event_type_status": "AI_provisional_stroke", "timing_status": "AI_provisional_interval", "hitter_status": "AI_visual_candidate_not_human_identity_label"}
+  ],
+  "direction_change_review": [
+    {"old_candidate": "C01", "frame": 115415, "interpretation": "bounce_candidate", "first": 115413, "last": 115419, "evidence": "B01 raw sequence: low ball changes from descending to rising before near N2 swings. Not the N2 return contact."},
+    {"old_candidate": "C02", "frame": 115509, "interpretation": "unclassified_non_contact_turn_before_stroke", "first": 115505, "last": 115513, "evidence": "C02 raw sequence: far player is still preparing; next visual stroke occurs in H03 bracket. Small annotated image motion changes direction here; arc-apex versus center noise is unresolved. Do not call it a hit or force it to a bounce."},
+    {"old_candidate": "C03", "frame": 115571, "interpretation": "bounce_candidate", "first": 115569, "last": 115575, "evidence": "B02 raw sequence: low ball descends then rises while N2 is still moving toward it; actual swing is later in H04 bracket."},
+    {"old_candidate": "C04", "frame": 115727, "interpretation": "overlaps_H05_stroke_proposal", "first": 115727, "last": 115733, "evidence": "C04 lies in H05 visual swing bracket. Previously nearest image box was N1; visual hitter is far F1. AI proposal only."}
+  ],
+  "unresolved": [
+    "Two far-side ball-missing neighborhoods may contain bounces; no bounce time is invented.",
+    "Exact impact instants, physical ball height, true landing positions and physical speeds remain unvalidated.",
+    "No new human confirmation of the four non-serve strokes or their hitters.",
+    "Do not compute detection precision/recall by treating these AI proposals as truth.",
+    "End-type out and near winner are inherited human facts, while exact final landing and causal attribution remain unresolved."
+  ],
+  "canonical_human_labels_changed": false,
+  "independent_event_accuracy_established": false
+}

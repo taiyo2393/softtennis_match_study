@@ -1,0 +1,26 @@
+{
+  "tag": "005",
+  "first_frame": 8607,
+  "last_frame": 9051,
+  "frames": 445,
+  "ready_segment": {
+    "video_id": "match1",
+    "segment_id": "match1_ready_006",
+    "start_timestamp_sec": "133.500000",
+    "end_timestamp_sec": "151.000000",
+    "start_source_frame": "8002",
+    "end_source_frame": "9051",
+    "scene_type": "analysis_ready_main_camera",
+    "cut_confidence": "geometry_and_background",
+    "main_camera_confidence": "0.992196",
+    "usable_for_analysis": "true",
+    "human_checked": "false",
+    "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+  },
+  "boundary_status": "candidate_interval_not_human_confirmed_point",
+  "source_fps": 59.94005994005994,
+  "source_width": 3840,
+  "source_height": 2160,
+  "initialization_status": "withheld_cannot_seed_four",
+  "reason": "Cannot automatically seed four players at F8607: near=2 far=1"
+}

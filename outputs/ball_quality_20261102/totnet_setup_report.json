@@ -1,0 +1,47 @@
+{
+  "repository": "https://github.com/AugustRushG/TOTNet",
+  "revision": "8a757f63391b262c14d18b4095486336852dbeef",
+  "checkpoint_sha256": "36caadd2453cf1a37f26afb0024b861fd3285ca6e9a91e9e4a20d35e90a0a24a",
+  "checkpoint_bytes": 94145122,
+  "checkpoint_metadata": {
+    "configs": {
+      "model_choice": "TOTNet",
+      "num_channels": "64",
+      "num_frames": "5",
+      "dataset_choice": "tennis",
+      "bidirect": "False",
+      "img_size": "[288, 512]"
+    }
+  },
+  "strict_weights_loaded": true,
+  "weight_tensors": 196,
+  "channels": 64,
+  "device": "cuda",
+  "input_shape": [
+    1,
+    5,
+    3,
+    288,
+    512
+  ],
+  "output_shape": [
+    1,
+    147456
+  ],
+  "softmax_sum": 1.0000003576278687,
+  "target_local_frame": 112,
+  "input_local_frames": [
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "example_argmax_1920x1080": [
+    900.0,
+    378.75
+  ],
+  "input_color": "BGR following training dataset; demo has RGB inconsistency",
+  "status": "strict_load_and_real_frame_forward_pass_only_not_accuracy_evaluation",
+  "limitation": "Peak softmax is not a calibrated ball visibility probability; target/color preprocessing must be fixed before comparison."
+}

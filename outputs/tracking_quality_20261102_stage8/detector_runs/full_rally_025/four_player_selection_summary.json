@@ -1,0 +1,14 @@
+[
+  {
+    "mode": "bytetrack",
+    "seed_frame": 60006,
+    "analysis_ready_end_frame": 60509,
+    "seed_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 6,
+      "far_front": 4
+    },
+    "seed_status": "geometry_proposal_not_independent_identity_ground_truth"
+  }
+]

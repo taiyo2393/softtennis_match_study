@@ -1,0 +1,10 @@
+{
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_015\\AI_native_binding\\tracking_quality_20261102_stage7\\players_015_global\\global_review_h264.mp4",
+  "first_source_frame": 38662,
+  "last_source_frame": 39200,
+  "frames": 539,
+  "aspect_preserved": true,
+  "AI_assisted_overlay": true,
+  "video_sha256": "49572ed77fffc5752176139d206a0c1aefc44847e6e95a0862b14afbc535781e",
+  "scope": "Includes late broadcast dissolve; not formal point-end ground truth."
+}

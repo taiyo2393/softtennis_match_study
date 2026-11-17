@@ -1,0 +1,2338 @@
+{
+  "selection": "All15 cases; no seed success selection.",
+  "geometry_transfer": "Visual line overlay only; no independent calibration transfer accuracy measured.",
+  "images": [
+    {
+      "tag": "001",
+      "source_frame": 7,
+      "old_seed_frame": 7,
+      "new_seed_frame": 7,
+      "image_file": "001_F7.jpg",
+      "sha256": "0324ab4a8a430dce5f563d7f4077bde962e6d9bf896dc3c4b9868a5048913f91",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.7957665943611767,
+            -0.026219396190438036
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.42817334309289634,
+            0.3791366389731317
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            0.6881136063653696,
+            0.8384146425785873
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.2094369431893887,
+            0.7041803877420787
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            1.027926939835902,
+            0.712727269338077
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            0.5098058068106358,
+            1.6135906557920032
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -2.785275663478384,
+            3.6778669945412212
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -0.29236728952755014,
+            1.3684608693545854
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -0.6550548154479054,
+            0.4714606383263183
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            0.12880470874132094,
+            1.3600570261051725
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            1.3197786081930434,
+            1.2940534053762625
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.774485562274704,
+            0.6881869648036816
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            -0.6576386863534468,
+            0.4071624355007513
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "14",
+          "court_candidate": [
+            -0.6684109659337555,
+            0.541433994840071
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000011",
+          "court_candidate": [
+            1.840128158365307,
+            1.2567900284349494
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000012",
+          "court_candidate": [
+            2.2795300872560813,
+            1.6694078903993412
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000016",
+          "court_candidate": [
+            -0.9518682157308223,
+            1.711960888520753
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "002",
+      "source_frame": 2230,
+      "old_seed_frame": 2230,
+      "new_seed_frame": 2230,
+      "image_file": "002_F2230.jpg",
+      "sha256": "47ca9ca86308c0ece159dfc5d78b42002091826a267dd365640bfea12fe14ab3",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.6987724270052553,
+            0.38750490893234635
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.14193092020299353,
+            -0.013620405913514159
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            1.3199947689681757,
+            0.7086390193756525
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.9164215579341656,
+            0.837206802559348
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.29523645409965504,
+            0.9299812644731692
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            1.3119248019754826,
+            1.2790562753186452
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -2.8537007988390464,
+            3.759660390110722
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -0.6745884836519583,
+            0.488333183584991
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -0.29220075754309727,
+            1.3674355304938501
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            -0.6571912027314576,
+            0.4067711882468933
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            3.6959165469093027,
+            10.912115015660223
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            0.5023780455692635,
+            1.6087236011380954
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "14",
+          "court_candidate": [
+            1.8300365748295937,
+            1.2451408338683456
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            -0.6547474329125402,
+            0.507479437850125
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000011",
+          "court_candidate": [
+            2.2627796551865647,
+            1.6523229742679464
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "003",
+      "source_frame": 4208,
+      "old_seed_frame": 4208,
+      "new_seed_frame": 4208,
+      "image_file": "003_F4208.jpg",
+      "sha256": "55e0c2979af78e40148ba88bbddd2a48e357e1559f030e9a5f727f2c1c241c59",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.22396963436128334,
+            -0.06556382553757681
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.6003362015528089,
+            0.023127590362616475
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            0.617854238881362,
+            0.6068774139343194
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            1.0254561124367207,
+            0.7125207749534715
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.12446729936320886,
+            0.988014072711937
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            -2.858321417630071,
+            3.766777977411691
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -0.29369770145209556,
+            1.3701931547980897
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            0.5082832151332987,
+            1.5727122596782148
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            0.10577075863774625,
+            1.4823315965611497
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            1.7892387178810647,
+            1.1933634973538478
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            -0.6588861633566452,
+            0.4733997966272615
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.6031140865544153,
+            2.0507492584276927
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            -0.6593930006760526,
+            0.4085201762937162
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "14",
+          "court_candidate": [
+            -0.667121192156267,
+            0.5723367378281451
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000014",
+          "court_candidate": [
+            -1.6658502081708446,
+            2.048717652560771
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000015",
+          "court_candidate": [
+            2.253734842507652,
+            1.6461408132268622
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "004",
+      "source_frame": 6391,
+      "old_seed_frame": 6391,
+      "new_seed_frame": 6391,
+      "image_file": "004_F6391.jpg",
+      "sha256": "ce7a45c82656beb2b0f8b84f103c68b3f811e827d328b75f8d3b018a28545d65",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.3263837211758269,
+            -0.058853170758919354
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.669808152112721,
+            -0.14075646118108995
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            0.2980714384266343,
+            0.9133366076962269
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            1.3173335551996546,
+            0.7090433594972506
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.8794792568429406,
+            0.9307679940508751
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            1.2682797213619468,
+            1.2879366587042242
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -0.29041090863514435,
+            1.3623039156070451
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -2.839131727412378,
+            3.744766232703041
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -0.6626384524446299,
+            0.47802105858306976
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            0.5087972985169427,
+            1.6059981834114432
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            -0.6528180544845789,
+            0.4037459156409516
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.8083736172054587,
+            1.216630702326878
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            0.9032015313030978,
+            1.44935309389178
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "14",
+          "court_candidate": [
+            -0.6576946943090753,
+            0.5042192287276395
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000015",
+          "court_candidate": [
+            2.256404805646913,
+            1.6481287321994529
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "005",
+      "source_frame": 8625,
+      "old_seed_frame": 8625,
+      "new_seed_frame": 8625,
+      "image_file": "005_F8625.jpg",
+      "sha256": "bf94a130b7af9b354b93ae3fd4a68c3d42973a846d1bd79ed2a72cb3d3cd453f",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.38026467458368196,
+            0.4019965256023066
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.9084544825936899,
+            0.024513779643258415
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            0.6573467774563247,
+            0.6330811991374837
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            1.0311363589721216,
+            0.7167256658402049
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.5086432992508999,
+            1.6017299567718608
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            -2.768736808781551,
+            3.6523316708644873
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -0.6478989553078095,
+            0.4708220513776307
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -0.2950493176617445,
+            1.3724008104997902
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            1.5228726030071753,
+            1.8643142423685344
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            -0.6551809467062139,
+            0.4054121297574576
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.8675506045046935,
+            0.6183975193574053
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "22",
+          "court_candidate": [
+            0.24261751044599347,
+            0.9372586940654457
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            1.798031316436489,
+            1.2025192200430743
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000013",
+          "court_candidate": [
+            -1.4181895516239487,
+            1.76440166430379
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000040",
+          "court_candidate": [
+            2.279327307540152,
+            1.6789506509756231
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "006",
+      "source_frame": 10575,
+      "old_seed_frame": 10575,
+      "new_seed_frame": 10575,
+      "image_file": "006_F10575.jpg",
+      "sha256": "22952e9d60d5902f9be500673c50ae389aafd880fd8b386b79d2c3df1a1c4910",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.27439306922271006,
+            -0.015443044728583512
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.6984103944730776,
+            0.37474388815091847
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            1.3169308657235184,
+            0.7106646228343402
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.3823853673579814,
+            0.9355986857967891
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            -2.785688144978632,
+            3.677416912644462
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            1.2662512864158113,
+            1.282625141851559
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            0.5069712237781939,
+            1.6300466367163848
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -0.296114985346594,
+            1.3743176202600438
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -0.6580219046296807,
+            0.40741828547271763
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            -0.6570751673015144,
+            0.479188899382981
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.8034928524092722,
+            1.2113672469020378
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            1.8619864075743702,
+            0.6210686864116206
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "14",
+          "court_candidate": [
+            3.7994749279263917,
+            11.302700727229837
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "59",
+          "court_candidate": [
+            0.7304920688015698,
+            0.9767530132110742
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "68",
+          "court_candidate": [
+            0.9329128537787666,
+            1.588655408681266
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000012",
+          "court_candidate": [
+            2.2713189159444216,
+            1.6682418941438666
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000011",
+          "court_candidate": [
+            -1.3665525158321672,
+            1.706447841776359
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "008",
+      "source_frame": 17899,
+      "old_seed_frame": 17899,
+      "new_seed_frame": 17899,
+      "image_file": "008_F17899.jpg",
+      "sha256": "86f864340b51b6c27c3083afffda7b2c803daa32be212489b4ead23eaaf828d2",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.08742218672447195,
+            -0.08838632019406752
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.6811162009919594,
+            0.238379506431005
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            1.2626809379600592,
+            0.7100555922535593
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.6129213599051894,
+            0.7277598623585484
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.355201364335528,
+            0.9466653426535953
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            0.5105235109098565,
+            1.6387739198112323
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -2.869115644081044,
+            3.7810341644107983
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            1.2653940684689875,
+            1.2779049391098782
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -0.28624392786788083,
+            1.3552145730607221
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            1.7215272310602816,
+            1.1069757874095223
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            0.50915285994322,
+            1.304803617720115
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000010",
+          "court_candidate": [
+            0.8691661831653514,
+            1.2950734147458953
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000012",
+          "court_candidate": [
+            2.264596928389772,
+            1.6569919148268353
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000013",
+          "court_candidate": [
+            -1.5424314732167053,
+            1.909131382013082
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "009",
+      "source_frame": 21226,
+      "old_seed_frame": 21101,
+      "new_seed_frame": 21226,
+      "image_file": "009_F21226.jpg",
+      "sha256": "b98bdd18b779bc86da766b1db514c313dc3f4a9b409db8d4a178a20f2d40b4fe",
+      "candidates": [
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.4349385872978983,
+            0.37146974463252347
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            1.0290391035791084,
+            0.7115223762150784
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            0.643485457255746,
+            0.7510126443105801
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -2.8479848125707967,
+            3.756915396148178
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            0.5093780682389973,
+            1.4789456888950434
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "22",
+          "court_candidate": [
+            -0.6728304660794,
+            0.4780072241393341
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "25",
+          "court_candidate": [
+            -0.29265593135112306,
+            1.3684969902877873
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "32",
+          "court_candidate": [
+            1.7675098845265922,
+            0.6796055227469135
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -0.6596423640528742,
+            0.40863982332498316
+          ],
+          "eligible": false,
+          "old_seed": true,
+          "new_seed": false
+        },
+        {
+          "track_id": "81",
+          "court_candidate": [
+            0.20901664892801472,
+            0.9924154499837061
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "148",
+          "court_candidate": [
+            0.8762598074500589,
+            -0.1438878514439282
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": true
+        },
+        {
+          "track_id": "1000019",
+          "court_candidate": [
+            1.8339190018303355,
+            1.2481346102260318
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000021",
+          "court_candidate": [
+            1.2715697260432597,
+            1.2788437876477854
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000022",
+          "court_candidate": [
+            2.5490411607197694,
+            1.9941328815212185
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "010",
+      "source_frame": 23533,
+      "old_seed_frame": 23533,
+      "new_seed_frame": 23533,
+      "image_file": "010_F23533.jpg",
+      "sha256": "4c92abbb03e0749f96af52f6ee87730baadb581bbb1b6f21e23ad59428e00515",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.2619521660994205,
+            -0.034829881978948096
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.6757546240742119,
+            0.3850479032840827
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            1.316835652436639,
+            0.7094023653330609
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.3649162243486773,
+            0.9196523036000472
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -2.7652194124856386,
+            3.651631610547548
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            0.7364403705759724,
+            0.9355728314191467
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            1.827850043629869,
+            1.2377939705995915
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            1.2765875760419114,
+            1.285958689699063
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "14",
+          "court_candidate": [
+            0.5082925273502605,
+            1.6207815093867866
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000010",
+          "court_candidate": [
+            2.264251754533704,
+            1.659678221792152
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000015",
+          "court_candidate": [
+            -0.28617230598306187,
+            1.352038737591529
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000020",
+          "court_candidate": [
+            0.9762016677274314,
+            1.8134443352003318
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "011",
+      "source_frame": 26141,
+      "old_seed_frame": 26141,
+      "new_seed_frame": 26141,
+      "image_file": "011_F26141.jpg",
+      "sha256": "d89045637d4af628ffb7375e3259f6449f84ff174c195e459f3f531522dd023f",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.8711960775108314,
+            -0.1105508327714195
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.3797776711973839,
+            0.28116993828156545
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            0.40877313861953457,
+            0.7458371133059697
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            1.0282228557781905,
+            0.7130570917927456
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.6936534438961038,
+            0.934138754649461
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            -0.6701396978225297,
+            0.48334639604381247
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -0.2932470709165485,
+            1.368157135665544
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -2.9199522972816534,
+            3.845138574610001
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            0.5018220471178988,
+            1.5967746610887505
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            1.830090839591884,
+            1.235379802581499
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            0.10549064177205679,
+            1.4585320159745596
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.544660769437332,
+            1.9635479121311623
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            -0.6796561370946352,
+            0.5877823807736042
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "012",
+      "source_frame": 31936,
+      "old_seed_frame": 31936,
+      "new_seed_frame": 31936,
+      "image_file": "012_F31936.jpg",
+      "sha256": "5b2b8ca5a1d3cf74bc842e75d81faf7e5343e9ae149dc0faf89ad7c9426b4629",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.08113719727811854,
+            -0.09613128171286607
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.7079432732668113,
+            0.24255791135124732
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "22",
+          "court_candidate": [
+            1.275639690704858,
+            0.7014741709644633
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "25",
+          "court_candidate": [
+            0.6276183041179076,
+            0.7393160059915368
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "35",
+          "court_candidate": [
+            1.811813167996241,
+            1.218752021044166
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "40",
+          "court_candidate": [
+            0.38538862149623754,
+            0.9205109737064355
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "42",
+          "court_candidate": [
+            0.5126266062955922,
+            1.5949459794683565
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "43",
+          "court_candidate": [
+            -2.8053793847119097,
+            3.7027077899209875
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "46",
+          "court_candidate": [
+            -0.2914504156337635,
+            1.3631975567050465
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "48",
+          "court_candidate": [
+            0.867991402130547,
+            1.278512317722849
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "49",
+          "court_candidate": [
+            1.245817415826342,
+            1.2748617375744604
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "013",
+      "source_frame": 33797,
+      "old_seed_frame": 33797,
+      "new_seed_frame": 33797,
+      "image_file": "013_F33797.jpg",
+      "sha256": "af30fd6b7265887c29788d5d3ab5b7f18bde13d5bdb7291c6bd610c048918adf",
+      "candidates": [
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.879464311233859,
+            -0.021373455867587488
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "33",
+          "court_candidate": [
+            0.6476766499867537,
+            0.6229073317635291
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "46",
+          "court_candidate": [
+            -2.746192847758065,
+            3.628898725969172
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "47",
+          "court_candidate": [
+            1.0300808654583162,
+            0.717428087694672
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "49",
+          "court_candidate": [
+            0.3773491043228961,
+            0.3868196180935122
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "54",
+          "court_candidate": [
+            1.8025388876339528,
+            1.2081520957700715
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "58",
+          "court_candidate": [
+            0.5107580185720897,
+            1.6104627263625901
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "62",
+          "court_candidate": [
+            0.22073588696386065,
+            0.9679326255105039
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "63",
+          "court_candidate": [
+            -0.28621489281181295,
+            1.355447603984097
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "67",
+          "court_candidate": [
+            -0.6609636196236942,
+            0.4750318814488479
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "71",
+          "court_candidate": [
+            1.2157213520267653,
+            1.284950498590667
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000002",
+          "court_candidate": [
+            1.0430641642137304,
+            0.2195615306975738
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000029",
+          "court_candidate": [
+            2.232539240917259,
+            1.5641511658661924
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000043",
+          "court_candidate": [
+            2.2605913257550045,
+            1.6553782901993037
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000045",
+          "court_candidate": [
+            0.11010346671391512,
+            1.3713164099754724
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "014",
+      "source_frame": 35252,
+      "old_seed_frame": 35252,
+      "new_seed_frame": 35252,
+      "image_file": "014_F35252.jpg",
+      "sha256": "b5358fd7dbce9afc56e175ccb6c42d7d1e1d9d7d8d8dc00c25a720d9e526d45c",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.30662683876836255,
+            -0.0457127886045923
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.4213123422598572,
+            0.01563947827534234
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            0.6647384956850788,
+            1.0327407779339184
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.5447724755722242,
+            1.0619416398421082
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            1.27778931362627,
+            0.7093058195104718
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            0.8676921868795766,
+            1.3100908476656847
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            0.5011015352713384,
+            1.3166882653808274
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -0.2935467616616517,
+            1.370205620070245
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -2.774663315520547,
+            3.6645451923341827
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            1.215218562626319,
+            1.2832605857110957
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            -0.6681649603911878,
+            0.4782072794750066
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.8085823231926623,
+            1.216623990479705
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "14",
+          "court_candidate": [
+            -0.6504084290865919,
+            0.4051100781505544
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000014",
+          "court_candidate": [
+            2.2614112103437605,
+            1.6544583354604592
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "015",
+      "source_frame": 38548,
+      "old_seed_frame": 38548,
+      "new_seed_frame": 38548,
+      "image_file": "015_F38548.jpg",
+      "sha256": "7a8ddd3cc50ed13757e3e683fb87a2088c70383735286beed0c3c2780dd338ab",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            1.2860184399293424,
+            0.2064655612157991
+          ],
+          "eligible": false,
+          "old_seed": true,
+          "new_seed": false
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.3414735800868564,
+            0.07652024433043896
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            0.8169230972485704,
+            0.18683614692942463
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": true
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.6041617701460795,
+            0.5597155389352003
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.19317670516601715,
+            0.9853376000009442
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            0.9789219675676977,
+            1.2982679529634653
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            0.018765521635989466,
+            1.344256610809654
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -2.76797892617689,
+            3.6567514621240154
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -0.6751256235031956,
+            0.486592972118663
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            -0.29729936253114303,
+            1.3789662859255851
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            1.2151809134502536,
+            1.2814149258711056
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            1.8021879025868266,
+            1.2080046979387649
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000012",
+          "court_candidate": [
+            2.271250012209374,
+            1.6664720957983565
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000016",
+          "court_candidate": [
+            -1.7428222342884485,
+            2.148727506981878
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    },
+    {
+      "tag": "025",
+      "source_frame": 60013,
+      "old_seed_frame": 60013,
+      "new_seed_frame": 60013,
+      "image_file": "025_F60013.jpg",
+      "sha256": "063cd3ad0e94af0bb1c8d61b0d04eb9ac0d303be708b6e55cfaa8ac6cf400750",
+      "candidates": [
+        {
+          "track_id": "1",
+          "court_candidate": [
+            0.7977760950419261,
+            -0.015292678823183706
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "2",
+          "court_candidate": [
+            0.40136565557970444,
+            0.38170087259672203
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "3",
+          "court_candidate": [
+            1.0235900304877847,
+            0.7124377604973788
+          ],
+          "eligible": true,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "4",
+          "court_candidate": [
+            0.2593646383635009,
+            0.691712103762693
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "5",
+          "court_candidate": [
+            0.5110121095103003,
+            1.586262308525592
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "6",
+          "court_candidate": [
+            0.7265480810402668,
+            0.8260924564038644
+          ],
+          "eligible": true,
+          "old_seed": true,
+          "new_seed": true
+        },
+        {
+          "track_id": "7",
+          "court_candidate": [
+            -2.7553721428139,
+            3.6402473103472253
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "8",
+          "court_candidate": [
+            -0.2976011323009529,
+            1.3757341521015574
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "9",
+          "court_candidate": [
+            -0.6581411345212536,
+            0.4718249956822551
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "10",
+          "court_candidate": [
+            1.809900621711373,
+            1.2162206265034423
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "11",
+          "court_candidate": [
+            1.555173205821901,
+            1.9296979679891577
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "12",
+          "court_candidate": [
+            -0.6591586150383392,
+            0.40811226523857935
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "13",
+          "court_candidate": [
+            4.01082479765947,
+            12.003171046157822
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000011",
+          "court_candidate": [
+            2.2764254661302883,
+            1.6657715163292224
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000012",
+          "court_candidate": [
+            0.04473730431600296,
+            1.7473512587401931
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        },
+        {
+          "track_id": "1000017",
+          "court_candidate": [
+            -1.3478827554524426,
+            1.6936830741638802
+          ],
+          "eligible": false,
+          "old_seed": false,
+          "new_seed": false
+        }
+      ]
+    }
+  ],
+  "script_sha256": "7451f9e96ae851d6ea7287faace8f076e04c3e15414309501392a1b58ff709bf",
+  "independent_identity_GT": false
+}

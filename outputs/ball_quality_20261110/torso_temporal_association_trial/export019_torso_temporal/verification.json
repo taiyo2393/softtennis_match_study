@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "verification_scope": "Source-box/feature/video verification, not solved-person tracking",
+  "matched_native_observations": 3262,
+  "recalculated_feature_values": 379,
+  "video_frames_decoded": 930,
+  "requested_frames_unchanged": true,
+  "prefix_features_equal_original": true,
+  "four_candidate_requested_times": 21,
+  "requested_times": 31,
+  "remaining_known_mixed_box_frames": [
+    46511,
+    46634
+  ],
+  "accepted_into_comparison_inputs": false,
+  "canonical_pipeline_changed": false,
+  "independent_identity_accuracy_established": false
+}

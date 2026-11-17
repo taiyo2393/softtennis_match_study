@@ -1,0 +1,19 @@
+{
+  "recorded_answer": "AC real,BD false",
+  "new_confirmations": 4,
+  "source_clip_rows": 1679,
+  "coordinate_presence_changes": [
+    503,
+    1623
+  ],
+  "all_other_original_columns_unchanged_outside_four_candidates": true,
+  "positive_coordinates_and_raw_history_preserved": true,
+  "frozen_model_and_predictions_unchanged": true,
+  "original_case_table_with_pending_labels_preserved": true,
+  "person_inputs_and_044_bundle_unchanged": true,
+  "source_rally_annotations_unchanged": true,
+  "corpus_real_cases": 21,
+  "corpus_false_cases": 15,
+  "new008_reviewed_output_sha256": "c9452ece04271f970ae041d3134580a5d4a83a332a0293c38344b2a42303d763",
+  "independent_accuracy_established": false
+}

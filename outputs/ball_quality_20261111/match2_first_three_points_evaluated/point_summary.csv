@@ -1,0 +1,5 @@
+﻿point,reference_times,visible_times,not_visible_times,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable,uncertain_times,median_distance_px,maximum_distance_px,core_frames,core_candidate_output_frames
+1,12,10,2,10,0,0,1,1,0,2.23606797749979,4.123105625617661,243,199
+2,6,3,3,3,0,0,1,2,0,1.0,2.0,399,304
+3,6,6,0,5,0,1,0,0,0,2.8284271247461903,3.605551275463989,283,244
+all,24,19,5,18,0,1,2,3,0,2.23606797749979,4.123105625617661,925,747

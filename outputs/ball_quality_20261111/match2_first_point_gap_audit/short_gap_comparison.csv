@@ -1,0 +1,5 @@
+﻿method,source_frame,eligible_components,candidate_x_px,candidate_y_px,peak,guide_x,guide_y,crop_box,identity_status
+full_image,12388,0,,,,1107.6666666666667,492.0,"[0, 0, 1920, 1080]",no_unique_candidate
+full_image,12389,0,,,,1113.3333333333333,497.0,"[0, 0, 1920, 1080]",no_unique_candidate
+local_crop,12388,0,,,,1107.6666666666667,492.0,"[628, 222, 1588, 762]",no_unique_candidate
+local_crop,12389,1,1114.875,497.0,0.6796875,1113.3333333333333,497.0,"[633, 227, 1593, 767]",unconfirmed

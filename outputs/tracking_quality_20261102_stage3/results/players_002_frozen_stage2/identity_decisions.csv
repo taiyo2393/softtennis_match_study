@@ -1,0 +1,7 @@
+﻿source_frame,player_slot,old_raw_id,new_raw_id,gap_frames,assignment_cost,alternative_cost_margin,review_status
+2297,far_front,4,4,7,0.49712802024106023,0.5528719797589399,unreviewed_candidate
+2390,far_front,4,1000003,0,0.45100404454991005,0.5989959554500901,unreviewed_candidate
+2452,near_rear,2,78,82,0.6594716102645949,0.39052838973540505,unreviewed_candidate
+2558,far_rear,5,99,0,0.48315956020605555,0.5668404397939442,unreviewed_candidate
+2564,far_rear,99,1000108,0,0.29927103795823307,0.3833495096277575,unreviewed_candidate
+2566,far_rear,1000108,76,0,0.676509840193619,0.3734901598063811,unreviewed_candidate

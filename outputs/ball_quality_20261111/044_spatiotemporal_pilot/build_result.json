@@ -1,0 +1,11 @@
+{
+  "display_times": 213,
+  "ball_annotated_times": 201,
+  "ball_positions": 164,
+  "person_observations": 786,
+  "four_person_times": 168,
+  "direction_change_candidates": 4,
+  "confirmed_new_hits": 0,
+  "ball_court_positions": 0,
+  "missing_filled": false
+}

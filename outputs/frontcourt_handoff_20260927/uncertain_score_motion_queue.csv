@@ -1,0 +1,13 @@
+﻿candidate_id,clip_file,clip_start_sec,clip_end_sec,score_suggestion_reason,score_start,score_before_end,score_after_1s,score_after_3s,observed_broadcast_transition,corresponding_rally_id,confirmed_winner_team,reviewer,review_status
+match1_rally_window_011,uncertain_011_h264.mp4,481.500,489.500,unreadable_or_ambiguous,3-3,3-3,-,-,,,,,motion_review_pending
+match1_rally_window_012,uncertain_012_h264.mp4,535.000,543.000,unreadable_or_ambiguous,-,-,4-4,4-4,,,,,motion_review_pending
+match1_rally_window_013,uncertain_013_h264.mp4,567.500,575.500,unreadable_or_ambiguous,4-4,4-4,-4,-4,,,,,motion_review_pending
+match1_rally_window_014,uncertain_014_h264.mp4,609.000,617.000,unreadable_or_ambiguous,-4,-4,0-4,0-4,,,,,motion_review_pending
+match1_rally_window_025,uncertain_025_h264.mp4,1007.500,1015.500,score_changes_outside_expected_pair_or_unstable,0-4,0-0,0-1,0-1,,,,,motion_review_pending
+match1_rally_window_032,uncertain_032_h264.mp4,1398.500,1406.500,unreadable_or_ambiguous,3-4,3-4,3-,3-,,,,,motion_review_pending
+match1_rally_window_048,uncertain_048_h264.mp4,2122.500,2130.500,score_changes_outside_expected_pair_or_unstable,2-2,3-2,3-2,3-2,,,,,motion_review_pending
+match1_rally_window_050,uncertain_050_h264.mp4,2272.000,2280.000,no_simple_one_point_increment,3-3,3-3,3-3,3-3,,,,,motion_review_pending
+match1_rally_window_052,uncertain_052_h264.mp4,2364.000,2372.000,unreadable_or_ambiguous,4-3,4-3,-3,-3,,,,,motion_review_pending
+match1_rally_window_061,uncertain_061_h264.mp4,2807.500,2815.500,unreadable_or_ambiguous,4-4,4-4,4-,4-,,,,,motion_review_pending
+match1_rally_window_062,uncertain_062_h264.mp4,2850.500,2858.500,unreadable_or_ambiguous,4-,4-,-,-,,,,,motion_review_pending
+match1_rally_window_063,uncertain_063_h264.mp4,2875.500,2883.500,unreadable_or_ambiguous,-,-,0-,0-,,,,,motion_review_pending

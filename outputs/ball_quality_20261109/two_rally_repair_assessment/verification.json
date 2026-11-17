@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "case_checks": {
+    "044": {
+      "status": "passed",
+      "label_history_replayed": 202,
+      "timing_events_recomputed": 253,
+      "source_images_verified": 426,
+      "exported_positions_reloaded": 164,
+      "snapshot_and_export_hashes_exact": true,
+      "assisted_groundtruth_not_claimed": true
+    },
+    "056": {
+      "status": "passed",
+      "label_history_replayed": 384,
+      "timing_events_recomputed": 524,
+      "source_images_verified": 803,
+      "exported_positions_reloaded": 334,
+      "snapshot_and_export_hashes_exact": true,
+      "assisted_groundtruth_not_claimed": true
+    }
+  },
+  "input_snapshots_unchanged": true,
+  "no_new_annotation_or_timing_created": true,
+  "script_sha256": "c2daebbbd251cc09fb5a35296febd9853eee15056f5f1d46cde6801ccfe9e9ef"
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "candidate_id": "match1_motion_pilot_013",
+    "frames": 450,
+    "additional_withheld": 0,
+    "diagnostics": [],
+    "input_sha256": "7684b5c5f0c2c25f992546e4ca414fd4c9ac86d2d19fc3ebe9a2deffb921511f",
+    "output_sha256": "46055d2516467cf91922ae175e7aeeb48d410abeb6d68e709e3808be489c8dba",
+    "camera_masked_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "candidate_id": "match1_motion_pilot_018",
+    "frames": 240,
+    "additional_withheld": 9,
+    "diagnostics": [
+      {
+        "local_frame": 204,
+        "reason": "unsupported_excursion",
+        "error_px": 363.4460069941614,
+        "model_points": 10,
+        "support_before": 8,
+        "support_after": 2
+      },
+      {
+        "local_frame": 208,
+        "reason": "unsupported_excursion",
+        "error_px": 368.171759433616,
+        "model_points": 10,
+        "support_before": 8,
+        "support_after": 2
+      },
+      {
+        "local_frame": 228,
+        "reason": "camera_transition_abstention"
+      },
+      {
+        "local_frame": 229,
+        "reason": "camera_transition_abstention"
+      },
+      {
+        "local_frame": 230,
+        "reason": "camera_transition_abstention"
+      },
+      {
+        "local_frame": 231,
+        "reason": "camera_transition_abstention"
+      },
+      {
+        "local_frame": 234,
+        "reason": "camera_transition_abstention"
+      },
+      {
+        "local_frame": 236,
+        "reason": "camera_transition_abstention"
+      },
+      {
+        "local_frame": 239,
+        "reason": "camera_transition_abstention"
+      }
+    ],
+    "input_sha256": "8458600c3dac4ef5ee2747d8e163008df52158372fa4f795fc659a3d9f829cb3",
+    "output_sha256": "af9ad6a3aba5e6399f56351d4db0fa0afd9de74ad2f72bcc983a3c990dbccf7e",
+    "camera_masked_frames": [
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
+    ],
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\scene_aware_preview\\match1_motion_pilot_018\\temporal_review_slow_h264.mp4",
+    "decoded_video_frames": 960,
+    "speed": 0.25
+  }
+]

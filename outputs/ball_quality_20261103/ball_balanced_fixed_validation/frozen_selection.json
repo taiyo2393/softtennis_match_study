@@ -1,0 +1,33 @@
+{
+  "condition": "balanced_preserve",
+  "threshold": 0.3,
+  "selector": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "training_metrics": {
+    "condition": "balanced_preserve",
+    "threshold": 0.3,
+    "method": "temporal",
+    "correct": 66,
+    "errors": 2,
+    "missing_visible": 36,
+    "original_correct_lost": 0,
+    "lost_sample_ids": "",
+    "candidate_center_upper_bound": 66,
+    "selection_failure": 0,
+    "response_without_localized_center": 0,
+    "no_near_response": 36,
+    "meets_original_training_safety": 1,
+    "strict_training_improvement": 1
+  },
+  "choice": "One strict-training-improving condition; max correct then min errors, preserve-enabled then smaller threshold on ties.",
+  "source_diagnostic_model": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\balanced_preserve_diagnostic_delta.pth",
+  "source_diagnostic_model_sha256": "84088a4417ec7faca654d9f664f36eff09689f21c31d664916ac5a0759aa30d5",
+  "validation_snapshot": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\candidate_frozen_delta.pth",
+  "snapshot_sha256": "84088a4417ec7faca654d9f664f36eff09689f21c31d664916ac5a0759aa30d5",
+  "role_transition": "Prior experiments remain training-only and weights retain diagnostic_only metadata. This NEW protocol freezes this candidate for development validation only, not deployment.",
+  "validation_labels_used_for_this_choice": false,
+  "alternate_model_after_failure": false
+}

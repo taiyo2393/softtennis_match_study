@@ -1,0 +1,8 @@
+{
+  "source_frames": 600,
+  "line_supported_frames": 346,
+  "full_candidates": 8724,
+  "extra_crop_candidates": 721,
+  "crop_proposals": 4453,
+  "counter_isolation": "Sequential passes; crop tracker reset at each geometry interruption. IDs segment-local."
+}

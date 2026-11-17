@@ -1,0 +1,59 @@
+{
+  "status": "four_continuous_windows_ready_for_human_review",
+  "videos": [
+    {
+      "window_id": "A",
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\A_continuous_review.mp4",
+      "sha256": "54652072330ceaf7590aa0963e6e6bd0c6ed21c9afe29cef2981c57d4d82a8b6",
+      "frames": 543,
+      "fps": 59.94005994005994,
+      "duration_sec": 9.059050000000001,
+      "full_source_aspect_preserved": true
+    },
+    {
+      "window_id": "B",
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\B_continuous_review.mp4",
+      "sha256": "73e758b91f7a294d30a75cd1b3a85362716cdeee43a892526e49b976bab96811",
+      "frames": 543,
+      "fps": 59.94005994005994,
+      "duration_sec": 9.059050000000001,
+      "full_source_aspect_preserved": true
+    },
+    {
+      "window_id": "C",
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\C_continuous_review.mp4",
+      "sha256": "d81a638be38e1d63ceb7693c251ec46aaa0dff3d675285f995c893555f1cf666",
+      "frames": 543,
+      "fps": 59.94005994005994,
+      "duration_sec": 9.059050000000001,
+      "full_source_aspect_preserved": true
+    },
+    {
+      "window_id": "D",
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\continuous_tile_gate_review\\D_continuous_review.mp4",
+      "sha256": "c62e003220cf598bf50439cb1e05eb511922a27904898a63d69972757fd29542",
+      "frames": 543,
+      "fps": 59.94005994005994,
+      "duration_sec": 9.059050000000001,
+      "full_source_aspect_preserved": true
+    }
+  ],
+  "annotated_source_frames": 724,
+  "display_frames": 2172,
+  "original_image_wh": [
+    1920,
+    1080
+  ],
+  "video_wh": [
+    1920,
+    1180
+  ],
+  "sparse_anchor_baseline_mismatches": 0,
+  "sparse_anchor_supplemented_mismatches": 0,
+  "numerical_component_mismatches": 2,
+  "review_flags": 13,
+  "center_accuracy_for_continuous_frames": null,
+  "human_phase_or_identity_answers_written": 0,
+  "canonical_tracking_changed": false,
+  "automatic_adoption": false
+}

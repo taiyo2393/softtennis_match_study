@@ -1,0 +1,14 @@
+{
+  "source_frame": 40556,
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "seed_ids": {
+    "near_front": 2,
+    "near_rear": 1,
+    "far_rear": 8,
+    "far_front": 4
+  },
+  "calibration": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json",
+  "calibration_sha256": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+  "image_sha256": "0c31c261e419e3bf63710081ef9feed32778479c298e2c61980ee9bee331280f",
+  "assessment": "AI visual line consistency only; no independent camera-calibration transfer accuracy."
+}

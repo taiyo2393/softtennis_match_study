@@ -1,0 +1,95 @@
+{
+  "status": "frozen_methods_evaluated_no_adoption",
+  "human_reviewed_cases": 4,
+  "phase_counts": {
+    "play": 4
+  },
+  "evaluable_main_play_frames": 4,
+  "excluded": [],
+  "methods": [
+    {
+      "method": "bbox_area",
+      "evaluable_main_play_frames": 4,
+      "metrics": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 2,
+          "wrong_localization": 2,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 0.5,
+        "localization_precision_16px": 0.5,
+        "mean_error_both_visible_px": 122.57947311815263
+      }
+    },
+    {
+      "method": "component_peak",
+      "evaluable_main_play_frames": 4,
+      "metrics": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 3,
+          "wrong_localization": 1,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 0.75,
+        "localization_precision_16px": 0.75,
+        "mean_error_both_visible_px": 144.54275103786654
+      }
+    },
+    {
+      "method": "bbox_mean",
+      "evaluable_main_play_frames": 4,
+      "metrics": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 3,
+          "wrong_localization": 1,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 0.75,
+        "localization_precision_16px": 0.75,
+        "mean_error_both_visible_px": 144.54275103786654
+      }
+    },
+    {
+      "method": "component_mean",
+      "evaluable_main_play_frames": 4,
+      "metrics": {
+        "counts": {
+          "frames": 4,
+          "truth_visible": 4,
+          "pred_visible": 4,
+          "presence_tp": 4,
+          "localized_tp_16px": 3,
+          "wrong_localization": 1,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 0.75,
+        "localization_precision_16px": 0.75,
+        "mean_error_both_visible_px": 144.54275103786654
+      }
+    }
+  ],
+  "source_labels_sha256": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+  "frozen_predictions_sha256": "a493ab981ee122adf02829d3e123d2159b7a3e5d6a5227b9671859f9c484d8b8",
+  "target_radius_source_px": 16,
+  "training_use_forbidden": true,
+  "old_validation_not_pooled": true,
+  "automatic_adoption": false,
+  "independent_test": false,
+  "scope": "Actively selected same-match challenge, near older validation frames; no population or external accuracy claim"
+}

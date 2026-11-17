@@ -1,0 +1,42 @@
+{
+  "baseline": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 128,
+      "pred_visible": 100,
+      "presence_fn": 29,
+      "presence_tp": 99,
+      "localized_tp_16px": 96,
+      "wrong_localization": 3,
+      "presence_tn": 21,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.75,
+    "localization_precision_16px": 0.96,
+    "mean_error_both_visible_px": 7.390818987529981,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "fallback": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 128,
+      "pred_visible": 100,
+      "presence_fn": 29,
+      "presence_tp": 99,
+      "localized_tp_16px": 96,
+      "wrong_localization": 3,
+      "presence_tn": 21,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.75,
+    "localization_precision_16px": 0.96,
+    "mean_error_both_visible_px": 7.390818987529981,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "selected_threshold": 1.0,
+  "selection_sha256": "887ca0d56278a186b14130ef77391ab69a2730d824e20dbf9d48ebb3eb317924",
+  "baseline_visible_coordinates_preserved": true,
+  "added_positions_come_from_totnet": true,
+  "development_candidate_criterion_met": false,
+  "warning": "Only 150 sampled test frames; same-match reused test with unverified annotation provenance. No full-video adoption or external accuracy claim."
+}

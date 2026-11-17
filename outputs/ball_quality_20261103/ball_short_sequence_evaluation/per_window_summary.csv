@@ -1,0 +1,5 @@
+﻿window_id,candidate_id,method,span_sec,stride,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable,excluded_phase,excluded_ball_uncertain,longest_sampled_wrong_run,run_span_sec
+A,match1_motion_pilot_012,bbox_area,0.40040000000000003,2,13,0,0,0,0,0,0,0,0.0
+A,match1_motion_pilot_012,displacement_0.1,0.40040000000000003,2,13,0,0,0,0,0,0,0,0.0
+B,match1_motion_pilot_020,bbox_area,0.40040000000000003,2,13,0,0,0,0,0,0,0,0.0
+B,match1_motion_pilot_020,displacement_0.1,0.40040000000000003,2,13,0,0,0,0,0,0,0,0.0

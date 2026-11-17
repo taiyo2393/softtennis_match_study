@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>選手位置の小規模確認</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,"Yu Gothic",sans-serif;color:#172033;background:#edf1f5}*{box-sizing:border-box}body{margin:0}header{padding:14px 22px;background:#142033;color:white;display:flex;align-items:center;justify-content:space-between;gap:16px}header h1{font-size:20px;margin:0}.muted{color:#617083;font-size:13px;line-height:1.65}.status{font-size:13px;color:#d5e8e1}.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;padding:16px}.card{background:white;border:1px solid #dae1e9;border-radius:12px;padding:16px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}.toolbar button{padding:6px 12px}button{cursor:pointer;border:1px solid #c9d3df;border-radius:8px;padding:10px 12px;font:inherit;font-size:14px;color:#23324b;background:white}button:hover{background:#f1f5fa}button:disabled{opacity:.45;cursor:default}.primary{background:#1757a6;color:white;border-color:#1757a6}.primary:hover{background:#104a91}.slot{display:block;width:100%;text-align:left;margin:8px 0;display:flex;justify-content:space-between;gap:8px}.slot.active{border:2px solid #1757a6;background:#eaf2ff}.slot.done{color:#246447}.actions button{width:100%;margin:5px 0}.tip{background:#f3f6fb;border-radius:8px;padding:10px;font-size:13px;line-height:1.8;margin:12px 0}.divider{border-top:1px solid #e1e6ed;margin:15px 0}#viewport{position:relative;width:100%;height:72vh;min-height:350px;background:#0e1520;border-radius:8px;overflow:hidden;touch-action:none}canvas{width:100%;height:100%;display:block;cursor:crosshair}#message{font-size:13px;line-height:1.6;min-height:24px;color:#8b3a16}.nav{display:flex;gap:8px;margin-top:12px}.nav button{flex:1}.small{font-size:12px}progress{width:100%;height:10px}strong{font-weight:650}@media(max-width:900px){.layout{grid-template-columns:1fr;padding:8px}#viewport{height:60vh}.actions{display:flex;flex-wrap:wrap;gap:6px}.actions button{width:auto;flex:1}.slot{display:inline-flex;width:calc(50% - 8px);margin:4px}.card{padding:10px}header{padding:12px}}
+</style>
+<header><h1>画像上の選手位置</h1><div class="status" id="saveStatus">読み込み中</div></header>
+<main class="layout">
+ <section class="card">
+  <div class="toolbar"><strong id="imageNumber">画像</strong><div><button id="zoomOut">−</button> <button id="zoomIn">＋</button> <button id="fit">全体表示</button></div></div>
+  <div id="viewport"><canvas id="canvas" aria-label="元の試合画像。選択中の選手の足元代表点をクリックします"></canvas></div>
+  <div class="muted">クリックで点を置く ／ ドラッグで移動 ／ ホイール・＋−で拡大縮小</div>
+  <div class="nav"><button id="prev">前の画像</button><button id="undo">直前の操作を戻す</button><button class="primary" id="next">次の画像</button></div>
+ </section>
+ <aside class="card">
+  <strong>いま選ぶ選手</strong><div id="slots"></div>
+  <div class="tip">足元が分かる場合は、<b>左右の靴の中央あたり</b>をクリックしてください。高さは低い方の靴底が目安です。<br>ジャンプ中でも、靴が見えれば点を置けます。<b>接地の瞬間を判定する必要はありません。</b></div>
+  <div class="muted">隠れた位置を推測せず、下のボタンを選べます。左右はこの画像での左右です。前後の画像で同じIDを割り当てる作業はありません。</div>
+  <div class="actions"><button id="unplaceable">足元が隠れて位置を置けない</button><button id="absent">この選手が画像に見当たらない</button><button id="uncertain">判断できない</button></div>
+  <div class="divider"></div><div id="progressText">0枚完了</div><progress id="progress" value="0" max="1"></progress>
+  <div class="muted small">各操作で自動保存します。途中で閉じても同じ画面から再開できます。推定枠・推定点は表示していません。</div>
+  <div id="message" role="status"></div><button id="retrySave" hidden>未保存の操作を再送</button>
+ </aside>
+</main>
+<script>
+const slotKeys=['near_left','near_right','far_left','far_right'];
+const slotNames={near_left:'手前・左',near_right:'手前・右',far_left:'奥・左',far_right:'奥・右'};
+const stateNames={pending:'未入力',point:'点を保存',unplaceable:'位置不明',absent:'見当たらない',uncertain:'判断保留'};
+const colors={near_left:'#39e698',near_right:'#56bdff',far_left:'#ed8bff',far_right:'#ffd35c'};
+const canvas=document.getElementById('canvas'),view=document.getElementById('viewport'),ctx=canvas.getContext('2d');
+let manifest,annotations,index=0,selected='near_left',image=new Image(),zoom=1,panX=0,panY=0,pointer=null,history=[],saving=Promise.resolve(),pendingSaves=0,unsaved=new Map();
+const $=id=>document.getElementById(id);
+function current(){return manifest.items[index]}
+function entry(slot){return annotations.labels[current().image_id]?.[slot]||{state:'pending',x:null,y:null}}
+function transform(){const w=view.clientWidth,h=view.clientHeight,s=Math.min(w/current().width,h/current().height)*zoom;return {w,h,s,x:(w-current().width*s)/2+panX,y:(h-current().height*s)/2+panY}}
+function draw(){if(!manifest||!image.complete||!image.naturalWidth)return;const dpr=window.devicePixelRatio||1,t=transform();canvas.width=Math.round(t.w*dpr);canvas.height=Math.round(t.h*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,t.w,t.h);ctx.drawImage(image,t.x,t.y,current().width*t.s,current().height*t.s);for(const slot of slotKeys){const e=entry(slot);if(e.state!=='point')continue;const x=t.x+e.x*t.s,y=t.y+e.y*t.s;ctx.beginPath();ctx.arc(x,y,slot===selected?8:6,0,Math.PI*2);ctx.fillStyle=colors[slot];ctx.fill();ctx.strokeStyle='#111';ctx.lineWidth=2;ctx.stroke();ctx.font='bold 13px sans-serif';ctx.fillStyle='white';ctx.strokeStyle='#111';ctx.lineWidth=3;ctx.strokeText(slotNames[slot],x+10,y-10);ctx.fillText(slotNames[slot],x+10,y-10)}}
+function render(){if(!manifest)return;$('slots').innerHTML='';for(const slot of slotKeys){const e=entry(slot),b=document.createElement('button');b.className='slot'+(selected===slot?' active':'')+(e.state!=='pending'?' done':'');b.textContent=slotNames[slot]+'　'+stateNames[e.state];b.onclick=()=>{selected=slot;render()};$('slots').appendChild(b)}const done=manifest.items.filter(it=>slotKeys.every(s=>(annotations.labels[it.image_id]?.[s]?.state||'pending')!=='pending')).length;$('progressText').textContent=`${done} / ${manifest.items.length} 枚完了`;$('progress').max=manifest.items.length;$('progress').value=done;$('imageNumber').textContent=`画像 ${index+1} / ${manifest.items.length}`;$('prev').disabled=index===0;$('next').textContent=index===manifest.items.length-1?'保存状況を確認':'次の画像';draw()}
+function load(i){index=Math.max(0,Math.min(manifest.items.length-1,i));selected=slotKeys.find(s=>entry(s).state==='pending')||'near_left';zoom=1;panX=panY=0;image=new Image();image.onload=()=>{render();$('message').textContent=''};image.onerror=()=>{$('message').textContent='画像を読み込めません。再度開いてください。'};image.src='images/'+current().image_file;render()}
+function updateSaveStatus(){const failed=pendingSaves===0&&unsaved.size>0;$('saveStatus').textContent=pendingSaves?'保存中…':failed?'未保存の操作あり':'保存済み';$('retrySave').hidden=!failed}
+function save(imageId,slot,value){const key=imageId+'|'+slot;unsaved.set(key,{imageId,slot,value});pendingSaves++;updateSaveStatus();saving=saving.then(async()=>{const r=await fetch('api/label',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({image_id:imageId,slot,entry:value})});if(!r.ok)throw new Error('save');return r.json()}).then(r=>{annotations.revision=r.revision;if(JSON.stringify(unsaved.get(key)?.value)===JSON.stringify(value))unsaved.delete(key);if(!unsaved.size)$('message').textContent=''}).catch(()=>{$('message').textContent='未保存の操作があります。「未保存の操作を再送」を押してください。この画面はまだ閉じないでください。'}).finally(()=>{pendingSaves--;updateSaveStatus()});return saving}
+$('retrySave').onclick=()=>{for(const item of [...unsaved.values()])save(item.imageId,item.slot,item.value)};
+window.addEventListener('beforeunload',e=>{if(pendingSaves||unsaved.size){e.preventDefault();e.returnValue=''}});
+
+function setEntry(value,record=true){const id=current().image_id,slot=selected,previous=structuredClone(entry(slot));if(record)history.push({id,slot,previous});annotations.labels[id]??={};annotations.labels[id][slot]=value;save(id,slot,value);selected=slotKeys.find(s=>entry(s).state==='pending')||slot;render();$('message').textContent=''}
+function zoomAt(factor,x=view.clientWidth/2,y=view.clientHeight/2){const a=transform(),nativeX=(x-a.x)/a.s,nativeY=(y-a.y)/a.s;zoom=Math.max(1,Math.min(10,zoom*factor));const b=transform();panX+=x-(b.x+nativeX*b.s);panY+=y-(b.y+nativeY*b.s);draw()}
+canvas.addEventListener('pointerdown',e=>{if(e.button!==0)return;canvas.setPointerCapture(e.pointerId);pointer={x:e.clientX,y:e.clientY,px:panX,py:panY,moved:false}});
+canvas.addEventListener('pointermove',e=>{if(!pointer)return;const dx=e.clientX-pointer.x,dy=e.clientY-pointer.y;if(Math.hypot(dx,dy)>5)pointer.moved=true;if(pointer.moved){panX=pointer.px+dx;panY=pointer.py+dy;draw()}});
+canvas.addEventListener('pointerup',e=>{if(!pointer)return;const moved=pointer.moved;pointer=null;if(moved)return;const r=canvas.getBoundingClientRect(),t=transform(),x=(e.clientX-r.left-t.x)/t.s,y=(e.clientY-r.top-t.y)/t.s;if(x>=0&&x<current().width&&y>=0&&y<current().height)setEntry({state:'point',x:Math.min(current().width-.1,Math.round(x*10)/10),y:Math.min(current().height-.1,Math.round(y*10)/10)})});
+canvas.addEventListener('pointercancel',()=>{pointer=null});
+canvas.addEventListener('wheel',e=>{e.preventDefault();const r=canvas.getBoundingClientRect();zoomAt(e.deltaY<0?1.2:1/1.2,e.clientX-r.left,e.clientY-r.top)},{passive:false});
+$('zoomIn').onclick=()=>zoomAt(1.5);$('zoomOut').onclick=()=>zoomAt(1/1.5);$('fit').onclick=()=>{zoom=1;panX=panY=0;draw()};
+for(const state of ['unplaceable','absent','uncertain'])$(state).onclick=()=>setEntry({state,x:null,y:null});
+$('prev').onclick=()=>load(index-1);$('next').onclick=()=>{if(index<manifest.items.length-1)load(index+1);else{render();$('message').textContent=$('progressText').textContent+'。未入力がなければ、この画面を閉じて「終わった」とお知らせください。'}};
+$('undo').onclick=()=>{const h=history.pop();if(!h)return;annotations.labels[h.id][h.slot]=h.previous;save(h.id,h.slot,h.previous);const target=manifest.items.findIndex(it=>it.image_id===h.id);if(target!==index)load(target);selected=h.slot;render()};
+window.addEventListener('resize',draw);window.addEventListener('keydown',e=>{if(!manifest)return;if(['1','2','3','4'].includes(e.key)){e.preventDefault();selected=slotKeys[Number(e.key)-1];render()}else if(e.key==='ArrowRight'||e.key==='Enter'){e.preventDefault();$('next').click()}else if(e.key==='ArrowLeft'){e.preventDefault();$('prev').click()}else if(e.key.toLowerCase()==='z'){e.preventDefault();$('undo').click()}});
+fetch('api/session').then(r=>{if(!r.ok)throw new Error();return r.json()}).then(data=>{manifest=data.manifest;annotations=data.annotations;$('saveStatus').textContent='保存済み';const first=manifest.items.findIndex(it=>slotKeys.some(s=>(annotations.labels[it.image_id]?.[s]?.state||'pending')==='pending'));load(first<0?0:first)}).catch(()=>{$('saveStatus').textContent='接続できません';$('message').textContent='確認画面のサーバーを起動して、再度開いてください。'});
+</script>
+</html>

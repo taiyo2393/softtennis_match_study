@@ -1,0 +1,5 @@
+﻿sampling_group,position_policy,reference_context_side_pairs,reviewed_reference_pairs,reference_position_pairs_available,scored_pairs,prediction_incomplete_with_reference_available,reference_unplaceable_or_uncertain_pairs,pending_reference_pairs,conditional_mean_point_error_px,not_ID_accuracy,not_independent_match_test
+uniform_one_per_context,retain_native_proxy,20,20,18,17,1,2,0,21.50783238431649,1,1
+uniform_one_per_context,withhold_body_warning_proxy,20,20,18,17,1,2,0,21.50783238431649,1,1
+known_body_warning_challenge,retain_native_proxy,4,4,1,1,0,3,0,7.560126491683436,1,1
+known_body_warning_challenge,withhold_body_warning_proxy,4,4,1,0,1,3,0,,1,1

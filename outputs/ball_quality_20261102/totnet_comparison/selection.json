@@ -1,0 +1,258 @@
+{
+  "selected_threshold": 0.03,
+  "baseline": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 121,
+      "pred_visible": 89,
+      "presence_tp": 84,
+      "localized_tp_16px": 80,
+      "wrong_localization": 4,
+      "presence_tn": 24,
+      "presence_fn": 37,
+      "presence_fp": 5
+    },
+    "localization_recall_16px": 0.6611570247933884,
+    "localization_precision_16px": 0.898876404494382,
+    "mean_error_both_visible_px": 11.541442251595349,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "selected": {
+    "threshold": 0.03,
+    "metrics": {
+      "counts": {
+        "frames": 150,
+        "truth_visible": 121,
+        "pred_visible": 77,
+        "presence_tp": 74,
+        "localized_tp_16px": 71,
+        "wrong_localization": 3,
+        "presence_tn": 26,
+        "presence_fn": 47,
+        "presence_fp": 3
+      },
+      "localization_recall_16px": 0.5867768595041323,
+      "localization_precision_16px": 0.922077922077922,
+      "mean_error_both_visible_px": 12.359149799074208,
+      "median_error_both_visible_px": 2.721291201783626
+    },
+    "nonlocalized_outputs": 6,
+    "eligible": true
+  },
+  "validation_grid": [
+    {
+      "threshold": 0.0,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 71,
+          "wrong_localization": 3,
+          "presence_tn": 26,
+          "presence_fn": 47,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.5867768595041323,
+        "localization_precision_16px": 0.922077922077922,
+        "mean_error_both_visible_px": 12.359149799074208,
+        "median_error_both_visible_px": 2.721291201783626
+      },
+      "nonlocalized_outputs": 6,
+      "eligible": true
+    },
+    {
+      "threshold": 0.0001,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 71,
+          "wrong_localization": 3,
+          "presence_tn": 26,
+          "presence_fn": 47,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.5867768595041323,
+        "localization_precision_16px": 0.922077922077922,
+        "mean_error_both_visible_px": 12.359149799074208,
+        "median_error_both_visible_px": 2.721291201783626
+      },
+      "nonlocalized_outputs": 6,
+      "eligible": true
+    },
+    {
+      "threshold": 0.0003,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 71,
+          "wrong_localization": 3,
+          "presence_tn": 26,
+          "presence_fn": 47,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.5867768595041323,
+        "localization_precision_16px": 0.922077922077922,
+        "mean_error_both_visible_px": 12.359149799074208,
+        "median_error_both_visible_px": 2.721291201783626
+      },
+      "nonlocalized_outputs": 6,
+      "eligible": true
+    },
+    {
+      "threshold": 0.001,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 71,
+          "wrong_localization": 3,
+          "presence_tn": 26,
+          "presence_fn": 47,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.5867768595041323,
+        "localization_precision_16px": 0.922077922077922,
+        "mean_error_both_visible_px": 12.359149799074208,
+        "median_error_both_visible_px": 2.721291201783626
+      },
+      "nonlocalized_outputs": 6,
+      "eligible": true
+    },
+    {
+      "threshold": 0.003,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 71,
+          "wrong_localization": 3,
+          "presence_tn": 26,
+          "presence_fn": 47,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.5867768595041323,
+        "localization_precision_16px": 0.922077922077922,
+        "mean_error_both_visible_px": 12.359149799074208,
+        "median_error_both_visible_px": 2.721291201783626
+      },
+      "nonlocalized_outputs": 6,
+      "eligible": true
+    },
+    {
+      "threshold": 0.01,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 71,
+          "wrong_localization": 3,
+          "presence_tn": 26,
+          "presence_fn": 47,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.5867768595041323,
+        "localization_precision_16px": 0.922077922077922,
+        "mean_error_both_visible_px": 12.359149799074208,
+        "median_error_both_visible_px": 2.721291201783626
+      },
+      "nonlocalized_outputs": 6,
+      "eligible": true
+    },
+    {
+      "threshold": 0.03,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 77,
+          "presence_tp": 74,
+          "localized_tp_16px": 71,
+          "wrong_localization": 3,
+          "presence_tn": 26,
+          "presence_fn": 47,
+          "presence_fp": 3
+        },
+        "localization_recall_16px": 0.5867768595041323,
+        "localization_precision_16px": 0.922077922077922,
+        "mean_error_both_visible_px": 12.359149799074208,
+        "median_error_both_visible_px": 2.721291201783626
+      },
+      "nonlocalized_outputs": 6,
+      "eligible": true
+    },
+    {
+      "threshold": 0.1,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 72,
+          "presence_tp": 70,
+          "localized_tp_16px": 68,
+          "wrong_localization": 2,
+          "presence_tn": 27,
+          "presence_fn": 51,
+          "presence_fp": 2
+        },
+        "localization_recall_16px": 0.5619834710743802,
+        "localization_precision_16px": 0.9444444444444444,
+        "mean_error_both_visible_px": 12.625709566728716,
+        "median_error_both_visible_px": 2.692582403567252
+      },
+      "nonlocalized_outputs": 4,
+      "eligible": true
+    },
+    {
+      "threshold": 0.3,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 0,
+          "presence_fn": 121,
+          "presence_tn": 29
+        },
+        "localization_recall_16px": 0.0,
+        "localization_precision_16px": 0.0,
+        "mean_error_both_visible_px": null,
+        "median_error_both_visible_px": null
+      },
+      "nonlocalized_outputs": 0,
+      "eligible": true
+    },
+    {
+      "threshold": 1.0,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 0,
+          "presence_fn": 121,
+          "presence_tn": 29
+        },
+        "localization_recall_16px": 0.0,
+        "localization_precision_16px": 0.0,
+        "mean_error_both_visible_px": null,
+        "median_error_both_visible_px": null
+      },
+      "nonlocalized_outputs": 0,
+      "eligible": true
+    }
+  ],
+  "protocol_sha256": "6f1923e68082bc14c4b1bf1c9068e3e2338b39bcab351bf9b43c03c14cf30ba3",
+  "raw_sha256": "058dbb4399f20651e766436e653f16c1e0710852f35479b56631e930dc3d603c"
+}

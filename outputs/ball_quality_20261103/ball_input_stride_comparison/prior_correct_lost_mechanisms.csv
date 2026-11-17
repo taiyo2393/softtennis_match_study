@@ -1,0 +1,7 @@
+﻿role,stride,sample_id,candidate_id,local_frame,truth_visible,candidate_count,nearest_candidate_error_px,selected_correct16px,real_candidate_available16px,mechanism,prior_temporal_correct_lost
+train,2,match1_motion_pilot_007_frame_000032,match1_motion_pilot_007,32,1,0,,0,0,no_candidate_near_manual_center,1
+train,2,match1_motion_pilot_007_frame_000851,match1_motion_pilot_007,851,1,2,2.0,0,1,selection_failure_with_real_candidate,1
+validation,2,match1_motion_pilot_015_frame_000323,match1_motion_pilot_015,323,1,2,2.0,0,1,selection_failure_with_real_candidate,1
+validation,2,match1_motion_pilot_019_frame_000299,match1_motion_pilot_019,299,1,2,2.23606797749979,0,1,selection_failure_with_real_candidate,1
+challenge,2,match1_motion_pilot_015_frame_000328,match1_motion_pilot_015,328,1,2,1.0,0,1,selection_failure_with_real_candidate,1
+challenge,2,match1_motion_pilot_019_frame_000305,match1_motion_pilot_019,305,1,2,3.0,0,1,selection_failure_with_real_candidate,1

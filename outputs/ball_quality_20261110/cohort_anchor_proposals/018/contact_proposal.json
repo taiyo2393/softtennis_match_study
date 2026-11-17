@@ -1,0 +1,31 @@
+{
+  "date_jst": "2026-11-10",
+  "candidate_id": "match1_rally_window_018",
+  "source_clock": "legacy_edited_match1",
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "contact_candidate_first_frame": 43804,
+  "contact_candidate_last_frame": 43808,
+  "review_status": "ai_visual_bracket_human_pending",
+  "effective_serve_status": "sequence_supported_not_human_confirmed",
+  "server_camera_side_candidate": "far",
+  "server_court_half_candidate": "right",
+  "serve_style_candidate": "overhead_service",
+  "serve_attempt_number": "",
+  "evidence": "service_contact_refined/page_01.jpg;service_detail/page_01.jpg;coarse_page_01.jpg",
+  "basis": "Far-right orange player tosses, jumps and swings overhead; racket rises toward ball atF43804..43806, followed by followthrough and ball separation toward image-left atF43808..43812. Conservative AI bracket, not independent exact-contact or service-validity GT. Continuous receiver/flight sequence follows. Camera-entry728sec is not contact.",
+  "context_boundary_modified": false,
+  "winner_camera_side": "",
+  "winner_review_status": "unreviewed",
+  "fixed_before_new_person_tracking": true,
+  "evidence_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\search_protocol.json": "691c6012c75b87734c7311c216faf504b2aa1de04b49bf03a600fcec0ecbdb65",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\coarse_image_hashes.json": "6d7edfe8820f9777fabb53d6d89f012611beb39f10208204fc06a8e35d073c39",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\coarse_page_01.jpg": "1f7412396baf4b9510940fff4246221119bcdd1250da465c882483ef285946a4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\coarse_page_02.jpg": "774b8b6afd3534080775f8de06122cb3cdc09d3afd4a9d11eb5c20b736bb7bb1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\service_detail\\manifest.json": "b456aab6161c88ebb6d83ee26def853003ea2de7a9e9e9c752c99cd193635fa9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\service_detail\\page_01.jpg": "3460425b3c23e61558fad2a225737517f3a3814c1192387e722a63fc9fca5afc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\service_detail\\page_02.jpg": "fec2471ad9921c361520f3ea0e662b3fad0ec1e9e4a214870a5e569e6ec40963",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\service_contact_refined\\manifest.json": "979415aa18d3f2bf48d1a39a27f4638fee037809ad554794869b5ff0ccd217f6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\018\\service_contact_refined\\page_01.jpg": "488edb35fe9d77371ee0d6e322c739bf44dde4f84281f10ef8147a553e0277a4"
+  }
+}

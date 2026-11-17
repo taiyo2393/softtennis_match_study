@@ -1,0 +1,32 @@
+{
+  "tag": "025",
+  "settings_match_reviewed_stage7": true,
+  "original_boxes_preserved": true,
+  "stable_tracklet_identity_changes": 0,
+  "initial_ids": {
+    "far_rear": 6,
+    "far_front": 4
+  },
+  "reverse_returned_initial_ids": {
+    "far_rear": 4,
+    "far_front": 6
+  },
+  "returned_same_initial_ids": false,
+  "jointly_observed_comparisons": 943,
+  "agreeing_boxes_iou_ge_half": 47,
+  "near_observation_frames": {
+    "near_front": 359,
+    "near_rear": 386
+  },
+  "total_frames": 504,
+  "human_review_status": "not_reviewed",
+  "note": "Directional stability is not identity accuracy. Near-side tracks reused from temporal initialization stage.",
+  "media": {
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "nb_frames": "504"
+  }
+}

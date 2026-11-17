@@ -1,0 +1,30 @@
+{
+  "tag": "002",
+  "parameters_and_code_match_048": true,
+  "original_boxes_preserved": true,
+  "initial_ids": {
+    "far_rear": 5,
+    "far_front": 4
+  },
+  "reverse_anchor_frame": 2559,
+  "reverse_anchor_ids": {
+    "far_rear": 76,
+    "far_front": 99
+  },
+  "reverse_returned_initial_ids": {
+    "far_rear": 4,
+    "far_front": 5
+  },
+  "jointly_observed_comparisons": 487,
+  "agreeing_boxes_iou_ge_half": 225,
+  "note": "Reverse anchors derived from forward proposal; consistency is not independent identity accuracy.",
+  "human_review_status": "not_reviewed",
+  "media": {
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "nb_frames": "355"
+  }
+}

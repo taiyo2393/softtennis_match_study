@@ -1,0 +1,33 @@
+{
+  "status": "eight_candidate_player_inputs_constructed",
+  "candidates": 8,
+  "requested_times": 248,
+  "requested_slot_observations": 992,
+  "outcome_counts": {
+    "near": 5,
+    "far": 3
+  },
+  "anchor_strata": {
+    "ai_service_sequence": 5,
+    "legacy_manual_contact": 1,
+    "human_valid_service_ai_timing": 2
+  },
+  "inherited_early_end_bracket_available": 2,
+  "paired_slot_permutation_checks": 992,
+  "future_observation_injection_checks": 8,
+  "model_fitting_performed": false,
+  "outcome_association_estimated": false,
+  "independent_tracking_accuracy_established": false,
+  "no_new_human_annotation": true,
+  "canonical_tracking_changed": false,
+  "artifact_hashes": {
+    "contact_timing_sensitivity.csv": "efaeb718abbb44810d7b9866a47f05290a974972ec793554a663961f9329b791",
+    "human_outcomes.csv": "2e597d90ed77e69b9d3e0233a6a492b45aec6502ff503486723428afd01c96bf",
+    "prefix_frame_features.csv": "cbff4ddeb8d2a36145b7ca5b0a1d5034b11356f1924e4cc2fe2545834ead1de6",
+    "prefix_player_summary_features.csv": "fbcd344489300f89f80977fcc7905fbbd955c8b9a611ea4988837a0bc51273f1",
+    "rally_metadata.csv": "f5ba876b7867764595930b123b94f5eaa7b7df36358ce187cd7a1da0eddbf4a1",
+    "requested_player_observations.csv": "94099af1c29e50659b0b878cf72211ddef45afdf64c65e9307e084707c64ae3f",
+    "snapshot_player_features.csv": "7162f0683362fe36cee810548e822dcf4d57c884493f0a6cf03e221942299094",
+    "feature_schema.json": "96baa8136f48acac6b92d34b2a2eccbf6fab13df4842932e5d0606ded5cf23f1"
+  }
+}

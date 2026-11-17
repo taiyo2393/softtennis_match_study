@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "date_jst": "2026-11-09",
+  "browser_clips_checked": [
+    "001",
+    "006",
+    "010"
+  ],
+  "browser_video_dimensions": [
+    1920,
+    1080
+  ],
+  "ready_state": 4,
+  "browser_video_error": null,
+  "native_play_started": true,
+  "seek_006_279_sec": 4.65465,
+  "known_ended_answers_visible_in_006": 2,
+  "unreviewed_save_blocked": true,
+  "prediction_markers_displayed": false,
+  "browser_page_errors": 0,
+  "screenshot": "verified_screen.jpg",
+  "screenshot_sha256": "f9e344f6914957a1957aa61f58cf1eb5f7501cf06fe63206551a2e3aeea065e2",
+  "latest_html_sha256": "f37fe983421a605d3c500404371f9bf05b84e8216fc528158d8b06faaae4bda2",
+  "source_http_checks": "http_verification.json",
+  "note": "HTML loaded-status message adjusted after initial HTTP check; assets,API and frozen predictions unchanged."
+}

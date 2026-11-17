@@ -1,0 +1,7 @@
+﻿sample_id,candidate_id,local_frame,source_frame,role,method,truth_visibility,truth_x_px,truth_y_px,x_px,y_px,visible,confidence,selection_status,selected_component_index
+match1_motion_pilot_015_frame_000463,match1_motion_pilot_015,463,104998,six_false,displacement_0.1,unlabelled,,,866,624,1,0.3203151822090149,observed_path_selection,0
+match1_motion_pilot_015_frame_000464,match1_motion_pilot_015,464,104999,six_false,displacement_0.1,unlabelled,,,868,624,1,0.3916221857070923,short_segment_original,0
+match1_motion_pilot_015_frame_000465,match1_motion_pilot_015,465,105000,six_false,displacement_0.1,unlabelled,,,849,624,1,0.35347819328308105,observed_path_selection,0
+match1_motion_pilot_015_frame_000467,match1_motion_pilot_015,467,105002,six_false,displacement_0.1,unlabelled,,,851,631,1,0.2929517924785614,observed_path_selection,0
+match1_motion_pilot_015_frame_000470,match1_motion_pilot_015,470,105005,six_false,displacement_0.1,unlabelled,,,832,631,1,0.30691012740135193,short_segment_original,0
+match1_motion_pilot_015_frame_000554,match1_motion_pilot_015,554,105089,six_false,displacement_0.1,unlabelled,,,1376,581,1,0.2977592945098877,observed_path_selection,0

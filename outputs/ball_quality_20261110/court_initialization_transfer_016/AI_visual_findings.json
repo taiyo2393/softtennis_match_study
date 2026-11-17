@@ -1,0 +1,58 @@
+{
+  "candidate_id": "match1_rally_window_016",
+  "reviewer": "Codex AI saved chronological image inspection",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": false,
+  "AI_identity_binding_added": false,
+  "contact_candidate_frames": [
+    40633,
+    40639
+  ],
+  "contact_status": "AI bracket from raw service sequence frozen before tracking; no new independent exact-contact or service-validity GT.",
+  "camera_entry_time_not_used_as_contact": true,
+  "inspected_raw_context": [
+    "cohort_anchor_proposals/016/coarse_page_01.jpg",
+    "cohort_anchor_proposals/016/coarse_page_02.jpg",
+    "cohort_anchor_proposals/016/pre_entry_service_search/page_01.jpg",
+    "cohort_anchor_proposals/016/pre_entry_service_search/page_02.jpg",
+    "cohort_anchor_proposals/016/service_detail/page_01.jpg",
+    "cohort_anchor_proposals/016/service_detail/page_02.jpg",
+    "phase_evidence/context_grid.jpg",
+    "phase_evidence/input_grid.jpg"
+  ],
+  "inspected_all_requested_identity_images": [
+    "fixed_input_identity/near_all31.jpg",
+    "fixed_input_identity/far_all31.jpg"
+  ],
+  "inspected_annotated_context": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg",
+    "gap_diagnostics/gap_01_far_rear.jpg",
+    "gap_diagnostics/gap_02_far_rear.jpg",
+    "gap_diagnostics/gap_03_far_front.jpg",
+    "post_contact_gap_evidence/gap_01_far_rear.jpg",
+    "post_contact_gap_evidence/gap_02_far_front.jpg"
+  ],
+  "inspected_initialization_overlay": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_016\\initialization_overlay.jpg",
+  "observation": "At all31 requested times N1 raw2 corresponds to dark-capped white/red near-right teammate, N2 raw1 to white-capped near-left receiver, F1 to dark far-right server, F2 to orange far-left teammate. No obvious person swap in inspected assigned boxes. Original seedF40556 also surrounds those four players; near-side official is outside the expanded initial region.",
+  "fixed_window_requested_times": 31,
+  "four_observation_requested_times": 31,
+  "missing_requested_frames": [],
+  "gap_observation": "F1 has pre-contact gaps and one-frame gap40648 just after contact; some accepted boxes are partial. F2 has gap40813..40836 (24frames) overlapping near N2; shown return raw85 corresponds visually to same orange player. No interpolation.",
+  "all_four_modes_final_path_and_prefix_identical": true,
+  "additional_initialization_wait_frames": 0,
+  "near_ID_change_in_reviewed_context": false,
+  "evidence_for_new_error_prevention": false,
+  "initialization_transfer_interpretation": "No new initial nonplayer failure here; nonregression observation after rule freeze, not another prevention success.",
+  "input_boundary_problem_visible": false,
+  "calibration_line_overlay_visually_consistent": true,
+  "calibration_transfer_accuracy_established": false,
+  "formal_point_end_frame_confirmed": false,
+  "late_camera_transition_present": true,
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "AI_score_suggestion_not_promoted_to_human_label": true,
+  "independent_identity_or_position_accuracy_established": false,
+  "offline_future_context_used_for_far_association": true,
+  "shared_image_evidence": "All final source-frame/slot/ID/box assignments are identical, so original-case image evidence applies to all modes."
+}

@@ -1,0 +1,20 @@
+{
+  "reviewer": "AI assistant, not independent human GT",
+  "inspected_frames": [
+    10430,
+    10465,
+    10536,
+    10546,
+    10574,
+    10575,
+    10596
+  ],
+  "observations": [
+    "At10465, far-crop raw1000103 appears aligned to the orange far player behind the white near player; very high near-box overlap. Do not label it a false person solely because it was rejected.",
+    "At10536/10546, the orange far player is partly hidden by the white near player; the small extra native detection near the head/arms does not support observed shoe coordinates. Nearby blue official contributes a separate-person ambiguity.",
+    "At10574/10575, raw59 surrounds a much more exposed orange far player; near overlap has decreased and the inherited confirmation is finishing.",
+    "Broader ROI also contains blue officials and the near player. Additional candidates do not establish two far-player locations."
+  ],
+  "continuous_identity_or_visibility_ground_truth_added": false,
+  "P011_unplaceable_label_interpreted_as_missing_reference_not_automatic_occlusion_truth": true
+}

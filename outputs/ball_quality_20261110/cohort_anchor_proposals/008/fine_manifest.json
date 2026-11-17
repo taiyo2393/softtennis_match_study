@@ -1,0 +1,33 @@
+{
+  "reason": "Test whether first near-left action after receiver closeup is low service or ongoing rally stroke; no bracket fixed yet.",
+  "source_frames": [
+    17886,
+    17892,
+    17898,
+    17904,
+    17910,
+    17916,
+    17922,
+    17928,
+    17934,
+    17940,
+    17946,
+    17952,
+    17958,
+    17964
+  ],
+  "detail_crop_xyxy": [
+    0,
+    850,
+    1200,
+    2050
+  ],
+  "detail_output_wh": [
+    400,
+    400
+  ],
+  "hashes": {
+    "fine_sequence.jpg": "87a81283d131d45a1f70eb589e43777d0d69dd0fb7d4556f26e40f35e331930a",
+    "near_left_swing_detail.jpg": "53ab143fe1d3b7e31791f871161b802bcef8fb4fe8a2ebe134ace4f80b1faf1f"
+  }
+}

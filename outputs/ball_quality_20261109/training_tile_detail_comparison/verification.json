@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "tile_maps_reconstructed": 2214,
+  "original_contexts_reproduced": 492,
+  "rows": 123,
+  "input_images_unchanged": 1230,
+  "fallback_checks": [
+    {
+      "method": "native_missing_only",
+      "original_outputs_preserved": 70,
+      "new_correct": 11,
+      "new_wrong_position": 5,
+      "new_output_when_not_observable": 5
+    },
+    {
+      "method": "degraded_missing_only",
+      "original_outputs_preserved": 70,
+      "new_correct": 6,
+      "new_wrong_position": 2,
+      "new_output_when_not_observable": 1
+    }
+  ],
+  "metadata_clarifications": [
+    {
+      "method": "native_missing_only",
+      "original_csv_retained": true,
+      "source_peak_clarified_in": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\native_missing_only_verified_predictions.csv",
+      "change": "Only provenance of component_peak for70preserved points; proposal peak kept in a separate column. All output coordinates/presence/confidence and metrics unchanged."
+    },
+    {
+      "method": "degraded_missing_only",
+      "original_csv_retained": true,
+      "source_peak_clarified_in": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\degraded_missing_only_verified_predictions.csv",
+      "change": "Only provenance of component_peak for70preserved points; proposal peak kept in a separate column. All output coordinates/presence/confidence and metrics unchanged."
+    }
+  ],
+  "subthreshold_outside_rectangles_not_reconstructable": true,
+  "all_canonical_weights_labels_and_outputs_unchanged": true,
+  "validation_or_new52_data_used_for_selection": false,
+  "no_new_training": true,
+  "no_parameter_changes_after_results": true,
+  "artifacts": {
+    "protocol.json": "b31f2ce00d4eff6d955bcadb9aa2709a44cf90ac1ccb2606e3f205db7cfb87ed",
+    "executed_source.py": "26d9ecf59d6e5f2c423b217065c4f1ea27ef3dab2020a44f19253777fc7a8358",
+    "result.json": "c825f9350896727560a297efb4f40da81b133d73153c3bafb52f3b202ec545c0",
+    "training_summary.csv": "5c69376d79b6e4eaeac4c758afcb6c559c88124bd5efcc670c5bd0baab9bdb82",
+    "candidate_pools.json": "0e1fd1a2da9472ed07f8dadeda43902655fb6c4ca1dfefe8d1cb54134d2b476f",
+    "component_rectangles.npz": "a2e215c8adf645da608e3d4fed67ac49956b0793122419e7d705251c55470e9e",
+    "map_records.csv": "fc2cf1823c56e0f30de00e749a735f174b1544839a89299a4a52b79b10218732",
+    "native_missing_only_verified_predictions.csv": "d73b352a8692dade353e3695fde1fada197cf97c2aa16dc983b305f0557ea469",
+    "degraded_missing_only_verified_predictions.csv": "a4e40914e326b56b2cdb191f94add80633bf647602db615fca5f55bf27c39721"
+  },
+  "script_sha256": "43430999c8ad8a9795dd0e68900a45e9a27e9f81189041550103bca359a4d092"
+}

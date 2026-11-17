@@ -1,0 +1,14 @@
+{
+  "status": "development_candidate_only_requires_new_data",
+  "training_safety_passed": true,
+  "training_withheld_targets": 0,
+  "training_evidence_caveat": "No target was withheld on training123,so this check establishes no empirical training-negative discrimination.",
+  "known_failure_frames_withheld": 3,
+  "known_failure_segments": 2,
+  "prior_correct_targets_lost": 0,
+  "returned_ball_positions_at_failure_frames": 0,
+  "external_validation": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "next": "Freeze fresh sequence selection before predictions and human center annotation; evaluate withholding losses and errors together."
+}

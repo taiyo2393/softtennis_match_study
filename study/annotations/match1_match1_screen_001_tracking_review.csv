@@ -1,0 +1,9 @@
+video_id,segment_id,chunk_id,start_timestamp_sec,end_timestamp_sec,suggested_status,human_status,target_front_track_id,review_note,reviewed_at
+match1,match1_screen_001,chunk_001,28.995633,30.995633,review_priority,unreviewed,,,
+match1,match1_screen_001,chunk_002,30.995633,32.995633,review_priority,unreviewed,,,
+match1,match1_screen_001,chunk_003,32.995633,34.995633,review_priority,unreviewed,,,
+match1,match1_screen_001,chunk_004,34.995633,36.995633,review_priority,unreviewed,,,
+match1,match1_screen_001,chunk_005,36.995633,38.995633,review_priority,unreviewed,,,
+match1,match1_screen_001,chunk_006,38.995633,40.995633,normal_review,unreviewed,,,
+match1,match1_screen_001,chunk_007,40.995633,42.995633,review_priority,unreviewed,,,
+match1,match1_screen_001,chunk_008,42.995633,43.810433,review_priority,unreviewed,,,

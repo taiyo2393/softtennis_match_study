@@ -1,0 +1,20 @@
+{
+  "trigger": "TOTNet standalone validation TP71 vs baseline80 prompted a missing-only candidate before test inference",
+  "rule": "Retain every visible baseline coordinate. Only when baseline missing, use origin-aware TOTNet above fixed threshold.",
+  "thresholds": [
+    0.0,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "selection": "Maximize localized validation TP with no additional nonlocalized labeled outputs; ties fewer outputs then higher threshold",
+  "adoption": "Development candidate only if test TP increases without added nonlocalized outputs. Continuous-video review needed before replacing active output.",
+  "label_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "totnet_protocol_sha256": "6f1923e68082bc14c4b1bf1c9068e3e2338b39bcab351bf9b43c03c14cf30ba3"
+}

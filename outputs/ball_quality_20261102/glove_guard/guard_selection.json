@@ -1,0 +1,189 @@
+{
+  "selected_threshold": 0.12,
+  "baseline": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 121,
+      "pred_visible": 89,
+      "presence_tp": 84,
+      "localized_tp_16px": 80,
+      "wrong_localization": 4,
+      "presence_tn": 24,
+      "presence_fn": 37,
+      "presence_fp": 5
+    },
+    "localization_recall_16px": 0.6611570247933884,
+    "localization_precision_16px": 0.898876404494382,
+    "mean_error_both_visible_px": 11.541442251595349,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "selected": {
+    "threshold": 0.12,
+    "metrics": {
+      "counts": {
+        "frames": 150,
+        "truth_visible": 121,
+        "pred_visible": 88,
+        "presence_tp": 84,
+        "localized_tp_16px": 80,
+        "wrong_localization": 4,
+        "presence_tn": 25,
+        "presence_fn": 37,
+        "presence_fp": 4
+      },
+      "localization_recall_16px": 0.6611570247933884,
+      "localization_precision_16px": 0.9090909090909091,
+      "mean_error_both_visible_px": 11.541442251595349,
+      "median_error_both_visible_px": 3.1622776601683795
+    },
+    "suppressed": [
+      {
+        "candidate_id": "match1_motion_pilot_006",
+        "local_frame": 899,
+        "raw_xy": [
+          1233.0,
+          513.0
+        ],
+        "distance_by_person_height": 0.09674347192049026,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.977161169052124,
+        "shoulder_conf": 0.9896515011787415,
+        "raised_wrist": true,
+        "wrist_x": 1232.599365234375,
+        "wrist_y": 519.8203125,
+        "person_height": 70.62046813964844
+      }
+    ],
+    "lost_localized_tp": 0,
+    "removed_nonlocalized": 1
+  },
+  "validation_grid": [
+    {
+      "threshold": 0.0,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 89,
+          "presence_tp": 84,
+          "localized_tp_16px": 80,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 37,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.898876404494382,
+        "mean_error_both_visible_px": 11.541442251595349,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "suppressed": [],
+      "lost_localized_tp": 0,
+      "removed_nonlocalized": 0
+    },
+    {
+      "threshold": 0.08,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 89,
+          "presence_tp": 84,
+          "localized_tp_16px": 80,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 37,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.898876404494382,
+        "mean_error_both_visible_px": 11.541442251595349,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "suppressed": [],
+      "lost_localized_tp": 0,
+      "removed_nonlocalized": 0
+    },
+    {
+      "threshold": 0.12,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 84,
+          "localized_tp_16px": 80,
+          "wrong_localization": 4,
+          "presence_tn": 25,
+          "presence_fn": 37,
+          "presence_fp": 4
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 11.541442251595349,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "suppressed": [
+        {
+          "candidate_id": "match1_motion_pilot_006",
+          "local_frame": 899,
+          "raw_xy": [
+            1233.0,
+            513.0
+          ],
+          "distance_by_person_height": 0.09674347192049026,
+          "blue_torso_fraction": 1.0,
+          "wrist_conf": 0.977161169052124,
+          "shoulder_conf": 0.9896515011787415,
+          "raised_wrist": true,
+          "wrist_x": 1232.599365234375,
+          "wrist_y": 519.8203125,
+          "person_height": 70.62046813964844
+        }
+      ],
+      "lost_localized_tp": 0,
+      "removed_nonlocalized": 1
+    },
+    {
+      "threshold": 0.16,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 84,
+          "localized_tp_16px": 80,
+          "wrong_localization": 4,
+          "presence_tn": 25,
+          "presence_fn": 37,
+          "presence_fp": 4
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 11.541442251595349,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "suppressed": [
+        {
+          "candidate_id": "match1_motion_pilot_006",
+          "local_frame": 899,
+          "raw_xy": [
+            1233.0,
+            513.0
+          ],
+          "distance_by_person_height": 0.09674347192049026,
+          "blue_torso_fraction": 1.0,
+          "wrist_conf": 0.977161169052124,
+          "shoulder_conf": 0.9896515011787415,
+          "raised_wrist": true,
+          "wrist_x": 1232.599365234375,
+          "wrist_y": 519.8203125,
+          "person_height": 70.62046813964844
+        }
+      ],
+      "lost_localized_tp": 0,
+      "removed_nonlocalized": 1
+    }
+  ],
+  "protocol_sha256": "1ed0ef74ac498a9b32d72b1bffefb91eb8c1f514080a7cbf70be8ff47616d798"
+}

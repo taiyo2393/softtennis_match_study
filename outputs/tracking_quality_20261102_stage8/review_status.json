@@ -1,0 +1,5 @@
+{
+  "003": {"status": "candidate_far_directionally_stable_near_track_incomplete", "human_review": "not_reviewed"},
+  "007": {"status": "human_video_level_identity_confirmation", "human_review": "confirmed_displayed_video", "evidence": "tracking_quality_20261102_stage7/players_007_global/human_video_review.json"},
+  "025": {"status": "withheld_directionally_unstable_identity_assignment", "human_review": "not_reviewed"}
+}

@@ -1,0 +1,21 @@
+{
+  "reason": "Interrupted original comparison during006 compressed-array loading. npz members were being decompressed inside each row loop. Cache each member once; no arithmetic/parameters/sampling/solver changes.",
+  "completed_cases_preserved": [
+    "002",
+    "005"
+  ],
+  "partial006_baseline_preserved": true,
+  "original_runner_sha256": "3cb14b6a47b6853653988e2229466d2a8e4cbe8aba731c194d1d8bff5261b3bc",
+  "cached_runner_sha256": "a3fd5175f33b2230bfe08d30d8e57c8f22ee8ace0b2a8708738814b102abaf4e",
+  "prior_output_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\torso_temporal_association_trial\\case_002\\baseline\\far_pair_path.csv": "f4729df39aa33926c4760c5b38ca4a17112c100610798bbf74c6a597b2edf511",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\torso_temporal_association_trial\\case_002\\torso_team_soft_cost\\far_pair_path.csv": "f4729df39aa33926c4760c5b38ca4a17112c100610798bbf74c6a597b2edf511",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\torso_temporal_association_trial\\case_002\\torso_team_soft_cost_pose_exclusive\\far_pair_path.csv": "f4729df39aa33926c4760c5b38ca4a17112c100610798bbf74c6a597b2edf511",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\torso_temporal_association_trial\\case_005\\baseline\\far_pair_path.csv": "d861a9374150d4e577fdf9f2ff680ba024493a2e606959294218c81e48349589",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\torso_temporal_association_trial\\case_005\\torso_team_soft_cost\\far_pair_path.csv": "d861a9374150d4e577fdf9f2ff680ba024493a2e606959294218c81e48349589",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\torso_temporal_association_trial\\case_005\\torso_team_soft_cost_pose_exclusive\\far_pair_path.csv": "d861a9374150d4e577fdf9f2ff680ba024493a2e606959294218c81e48349589",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\torso_temporal_association_trial\\case_006\\baseline\\far_pair_path.csv": "1231dd16997c166f2b24ad71a0b21e47ca07a1a1431bc2ca3db71d264959d0e2"
+  },
+  "source_policy_protocol_sha256": "987e484a4c2334da1ca16f555ce537f953e4de6f10eb5da13357199ca7b39917",
+  "new_independent_trial": false
+}

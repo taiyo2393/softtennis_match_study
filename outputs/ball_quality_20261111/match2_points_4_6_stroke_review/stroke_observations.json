@@ -1,0 +1,56 @@
+{
+  "source_fps": "60000/1001",
+  "scope": "原映像と追跡候補を照合した記録。フレーム範囲は接触を探す区間。映像レビューで確認された接触・終了事象には user_confirmed を付記。",
+  "points": [
+    {
+      "point": 4,
+      "winner_side": "奥",
+      "events": [
+        {"frames": [16704, 16710], "hitter": "F2", "status": "candidate", "note": "サーブの打球前後", "evidence": "../match2_points_4_6/p4_contact_right.jpg"},
+        {"frames": [16776, 16787], "hitter": "N2", "status": "candidate", "note": "手前左のスイング後に球が右方向へ移動", "evidence": "p4_F16765.jpg"},
+        {"frames": [16866, 16878], "hitter": "F2", "status": "candidate", "note": "奥右で球がラケット付近に入り、スイング後に手前右へ向かう", "evidence": "p4_F16842.jpg"},
+        {"frames": [16947, 16955], "hitter": "N1", "status": "candidate", "note": "手前右のスイング後に球が奥左へ向かう", "evidence": "p4_F16929.jpg"},
+        {"frames": [17083, 17091], "hitter": "F2", "status": "candidate", "note": "球の下降と上昇の間に欠測。その後で奥左のF2が振り上げ、球が高く上がる", "evidence": "p4_contact_F17040.jpg"},
+        {"frames": [17214, 17245], "hitter": "N1", "status": "offscreen", "note": "右へ出た球が高い位置から戻る。画面外のN1は返球者の候補", "evidence": "p4_F17194.jpg"}
+      ],
+      "terminal_note": "画面右から球が戻った後の最終接触・終了事象は未判定。"
+    },
+    {
+      "point": 5,
+      "winner_side": "手前",
+      "events": [
+        {"frames": [18712, 18718], "hitter": "F1", "status": "candidate", "note": "サーブの打球前後", "evidence": "../match2_points_4_6/p5_contact_left.jpg"},
+        {"frames": [18813, 18820], "hitter": "N1", "status": "candidate", "note": "手前右で球を待ち、低い姿勢からスイング", "evidence": "p5_F18787.jpg"},
+        {"frames": [18843, 18851], "hitter": "F2", "status": "candidate", "note": "奥右でラケットを球の進路へ出し、スイング後に球が手前へ向かう", "evidence": "detail_4.jpg"},
+        {"frames": [18877, 18884], "hitter": "N1", "status": "candidate", "note": "手前のネット付近で腕を伸ばし、その後に球が奥左へ向かう", "evidence": "p5_F18878.jpg"},
+        {"frames": [18910, 18919], "hitter": "F1", "status": "candidate", "note": "奥左で腕を伸ばす。球はラケット付近を通り手前左へ向かう", "evidence": "p5_contact_F18908.jpg"},
+        {"frames": [18981, 18988], "hitter": "N2", "status": "candidate", "note": "手前左のスイング後、球が左ポスト近くを通る", "evidence": "p5_F18981.jpg"},
+        {"frames": [19013, 19019], "hitter": "F1", "status": "candidate", "note": "奥左で球がラケット付近に到達し、F1が反応。着地までの球は欠測", "evidence": "p5_F19008.jpg"}
+      ],
+      "terminal_note": "最後の候補後、返球がネットに掛かったか、どこに落ちたかは未判定。"
+    },
+    {
+      "point": 6,
+      "winner_side": "手前",
+      "events": [
+        {"frames": [20781, 20787], "hitter": "F1", "status": "candidate", "note": "サーブの打球前後", "evidence": "../match2_points_4_6/p6_contact_right.jpg"},
+        {"frames": [20859, 20868], "hitter": "N2", "status": "candidate", "note": "手前左で低い球にラケットを出し、その後で球が高く上がる", "evidence": "p6_F20834.jpg"},
+        {"frames": [20928, 20934], "hitter": "F1", "status": "candidate", "note": "奥左で頭上にラケットを出し、球が手前左へ向かう", "evidence": "p6_F20912.jpg"},
+        {"frames": [20970, 20980], "hitter": "N2", "status": "candidate", "note": "手前左で低く踏み込み、スイング後に球が奥へ向かう", "evidence": "p6_F20955.jpg"},
+        {"frames": [21012, 21022], "hitter": "F1", "status": "candidate", "note": "奥左で腕を伸ばし、スイング後に球が手前右へ向かう", "evidence": "detail_0.jpg"},
+        {"frames": [21111, 21121], "hitter": "N1", "status": "candidate", "note": "手前右のスイング後に球が上がり、奥へ向かう", "evidence": "p6_F21065.jpg"},
+        {"frames": [21201, 21210], "hitter": "F2", "status": "candidate", "note": "奥右で球が腰付近に来た後にスイング。直前にラケットの誤検出あり", "evidence": "detail_1.jpg"},
+        {"frames": [21265, 21273], "hitter": "N1", "status": "candidate", "note": "手前ネット付近で低い球にスイングし、その後で球が奥左へ上がる", "evidence": "detail_2.jpg"},
+        {"frames": [21325, 21374], "hitter": "F2", "status": "user_confirmed", "result": "net", "contact_frame": null, "note": "F2が球に触れ、返球はネット。接触フレームは未特定", "evidence": "detail_3.jpg"}
+      ],
+      "terminal_note": "最終打球はF2のネット。映像レビューで接触と結果を確認。"
+    }
+  ],
+  "ball_exclusions": [
+    {"point": 4, "source_frame": 17055, "reason": "racket_head", "evidence": "p4_racket_head_F17055.jpg"},
+    {"point": 4, "source_frame": 17056, "reason": "racket_head", "evidence": "p4_racket_head_F17055.jpg"},
+    {"point": 6, "source_frame": 21178, "reason": "racket_head", "evidence": "p6_racket_head_F21178.jpg"},
+    {"point": 6, "source_frame": 21182, "reason": "racket_head", "evidence": "p6_racket_head_F21178.jpg"},
+    {"point": 6, "source_frame": 21183, "reason": "racket_head", "evidence": "p6_racket_head_F21178.jpg"}
+  ]
+}

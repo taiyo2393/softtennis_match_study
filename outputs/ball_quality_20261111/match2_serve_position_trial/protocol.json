@@ -1,0 +1,36 @@
+{
+  "windows_preroll_core_first_core_last": {
+    "1": [
+      12288,
+      12316,
+      12335
+    ],
+    "2": [
+      13560,
+      13639,
+      13665
+    ],
+    "3": [
+      15150,
+      15206,
+      15231
+    ]
+  },
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_fps": "60000/1001",
+  "ball_path_sha256": "dd133df89c1f44ac0c1ea439207500b1ff2b25f1e331e164b49d5987ab851219",
+  "camera_transfer_protocol_sha256": "dc5fb93f07992b1efb62b4a764d6556e3db3d30fcf5e225c2714dcdb9c444f25",
+  "detector": {
+    "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt",
+    "confidence": 0.25,
+    "imgsz": 1280,
+    "device": 0,
+    "tracker": "bytetrack.yaml"
+  },
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.146"
+  },
+  "association": "Frozen court-mapped tracker; restart semantic slots after camera-line failure.",
+  "position": "Native bounding box bottom center projected using fixed camera homography."
+}

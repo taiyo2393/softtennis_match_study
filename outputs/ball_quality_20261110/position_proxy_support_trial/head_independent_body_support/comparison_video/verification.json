@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "decoded_frames": 504,
+  "aspect_preserved": true,
+  "QA_frames": 5,
+  "video_sha256": "8d4d898d9d0099b0effddc9c06e079d8f2a37349f150a085f75e823e3d5f39c9",
+  "QA_sha256": "6fffa300877436d44fed33fdb337927c91735b0c9ed0ac2e33b766f3d7cd35bc",
+  "native_IDs_changed": false,
+  "model_coordinates_adopted": false
+}

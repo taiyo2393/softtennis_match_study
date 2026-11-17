@@ -1,0 +1,9 @@
+﻿local_frame,source_frame,before_x,before_y,after_x,after_y,distance_px,review_status,selection_status
+816,115451,1014,551,1014,553,2.0,unreviewed_proposal,observed_path_selection
+834,115469,866,562,866,560,2.0,unreviewed_proposal,observed_path_selection
+925,115560,1125,609,1125,607,2.0,unreviewed_proposal,observed_path_selection
+952,115587,1501,669,1500,669,1.0,unreviewed_proposal,observed_path_selection
+975,115610,1513,551,1513,549,2.0,unreviewed_proposal,observed_path_selection
+1000,115635,1138,367,1138,369,2.0,unreviewed_proposal,observed_path_selection
+1022,115657,978,393,978,391,2.0,unreviewed_proposal,observed_path_selection
+1025,115660,969,397,967,397,2.0,unreviewed_proposal,observed_path_selection

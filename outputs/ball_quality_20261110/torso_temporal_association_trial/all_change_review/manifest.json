@@ -1,0 +1,263 @@
+{
+  "selection": "Every changed row in all10 cases, plus retained earlier AI failure/ambiguous probes. No success-only display.",
+  "items": [
+    {
+      "tag": "002",
+      "source_frame": 2319,
+      "slot": "far_front",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "01_002_F2319.jpg",
+      "sha256": "a14dbdf05f981ea8fad8ba16ffc2fdb75e57de084bf0ca8a791873f8f9d7bc58",
+      "crop_xyxy": [
+        2051,
+        915,
+        2553,
+        1404
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "006",
+      "source_frame": 12421,
+      "slot": "far_rear",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "02_006_F12421.jpg",
+      "sha256": "71ffc7f7a859610ac3971756fe0c5d17009fb42c6baaa8ae7aa79c83eb52c554",
+      "crop_xyxy": [
+        1062,
+        911,
+        1579,
+        1351
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "006",
+      "source_frame": 12422,
+      "slot": "far_rear",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "03_006_F12422.jpg",
+      "sha256": "d3124046d92cb929b548e8c565954b9111e3c8f2f0e0ccdad727cc4c476c79dd",
+      "crop_xyxy": [
+        1066,
+        910,
+        1580,
+        1346
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "009",
+      "source_frame": 21945,
+      "slot": "far_front",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "04_009_F21945.jpg",
+      "sha256": "8a5021ea7da7e0f79e005bc4b7d9500b2dfeae9f5fa36ab61364677695899bd0",
+      "crop_xyxy": [
+        1857,
+        904,
+        2351,
+        1431
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "009",
+      "source_frame": 21975,
+      "slot": "far_front",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "05_009_F21975.jpg",
+      "sha256": "ccf8f1837ac444242ae96828015af2da9e01f2f2a9c9742c090c58b87d09cb41",
+      "crop_xyxy": [
+        1854,
+        909,
+        2351,
+        1438
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "016",
+      "source_frame": 40625,
+      "slot": "far_rear",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "06_016_F40625.jpg",
+      "sha256": "40b8cad59f01df2c55c0ecdf60cf5a97cb96b3098c83d77757f1b79fa00aca2f",
+      "crop_xyxy": [
+        2074,
+        895,
+        2553,
+        1367
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "016",
+      "source_frame": 40626,
+      "slot": "far_rear",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "07_016_F40626.jpg",
+      "sha256": "7e23629fca63ed8c95aa0bc7d0e085019e8553df39f60f832ae15c0d1ff3ae03",
+      "crop_xyxy": [
+        2075,
+        894,
+        2553,
+        1367
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46352,
+      "slot": "far_rear",
+      "reason": "prior true-player/color-counterexample; check retained",
+      "removed": false,
+      "image": "08_019_F46352.jpg",
+      "sha256": "924bf0568a0cda5023fe0a2b231219d447c9c45b84c4e202c449f1ce279816ae",
+      "crop_xyxy": [
+        1438,
+        902,
+        1903,
+        1313
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46501,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "09_019_F46501.jpg",
+      "sha256": "0ec44c9ccc4929868e989b60983ee9fed31a3a61bd10b18d0f94e0f1f35ea463",
+      "crop_xyxy": [
+        1310,
+        894,
+        1781,
+        1342
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46502,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "10_019_F46502.jpg",
+      "sha256": "b11838e38feb3aa9296ad42eabf32b99e5f57d6cb0ef007614186b79e3271a78",
+      "crop_xyxy": [
+        1310,
+        895,
+        1778,
+        1338
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46503,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "11_019_F46503.jpg",
+      "sha256": "15b487a7e867f65c3c9ac64f1db07af9fc9d6e25342ac13497b0576fabb5dda3",
+      "crop_xyxy": [
+        1315,
+        894,
+        1783,
+        1336
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46505,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "12_019_F46505.jpg",
+      "sha256": "ffde59505af20539b73c9b9678d9d287211146d59571bddee7ef0fef71b822b3",
+      "crop_xyxy": [
+        1318,
+        894,
+        1787,
+        1337
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46511,
+      "slot": "far_rear",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "13_019_F46511.jpg",
+      "sha256": "85db734c0da12a9bb9c12bb557ae151a6aa7054d9298edf7d3bb920aade8dc33",
+      "crop_xyxy": [
+        1304,
+        893,
+        1805,
+        1377
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46634,
+      "slot": "far_rear",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "14_019_F46634.jpg",
+      "sha256": "ccfa20604174b0cd170c2333e45c9c4d86f20714592fc53984e23f5128a2a3cf",
+      "crop_xyxy": [
+        1803,
+        922,
+        2284,
+        1382
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46665,
+      "slot": "far_front",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "15_019_F46665.jpg",
+      "sha256": "efe4215062aed0e05a6d6b4eea3c0e637e75c3da870bc41f8e8ca6f736fc0049",
+      "crop_xyxy": [
+        1827,
+        937,
+        2361,
+        1406
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46666,
+      "slot": "far_front",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "16_019_F46666.jpg",
+      "sha256": "ad213b7ecc80fcb48ca28985ba06de8359041eb292856af41c729742d9be57f6",
+      "crop_xyxy": [
+        1832,
+        936,
+        2367,
+        1409
+      ],
+      "aspect_preserved": true
+    }
+  ],
+  "script_sha256": "bfaf22cc77905c19651fa715c223cb133d28e6f0e2accdae66410d4fe45e53f6",
+  "independent_GT": false
+}

@@ -1,0 +1,5 @@
+timepoint_sec,feature,front_left_n,front_left_mean,front_left_median,front_right_n,front_right_mean,front_right_median,left_minus_right_mean,cohen_d_left_minus_right
+-0.500,position_median_x_screen_fraction,24,0.49816197,0.50446523,23,0.53920556,0.54781146,-0.04104359,-0.786873
+-0.300,position_median_x_screen_fraction,24,0.49798965,0.51089401,23,0.53856462,0.54545729,-0.04057496,-0.744351
+-0.200,position_median_x_screen_fraction,24,0.49832484,0.52031315,23,0.53814430,0.54252448,-0.03981947,-0.715318
+-0.100,position_median_x_screen_fraction,24,0.49870872,0.52168243,23,0.53753859,0.54276641,-0.03882986,-0.688976

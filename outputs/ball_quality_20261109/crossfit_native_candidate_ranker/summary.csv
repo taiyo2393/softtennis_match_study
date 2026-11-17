@@ -1,0 +1,7 @@
+﻿method,phase_status,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable
+original_temporal,play,52,0,16,1,8
+original_temporal,nonplay,14,2,18,1,11
+fold_native_peak,play,64,2,2,4,5
+fold_native_peak,nonplay,18,8,8,5,7
+fold_native_ranked,play,64,2,2,3,6
+fold_native_ranked,nonplay,18,8,8,5,7

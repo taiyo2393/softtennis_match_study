@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source_sha256": "8461f522c2bf8c9029e928d1ef93527b3fdefe71b9dfd539c6656ef54e9aadaf",
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "source_frames": 182506,
+  "source_nominal_fps": "60000/1001",
+  "cadence_windows": 5,
+  "cadence_frames": 600,
+  "raw_reference_pngs_verified": 9,
+  "reference_model_overlays": false,
+  "human_ground_truth_created": false,
+  "frozen_fixed_windows": 3,
+  "availability_times": 93,
+  "coordinate_adapter_tests_passed": 7,
+  "new_video_tracking_outputs_created": false,
+  "protected_previous_work_unchanged": true
+}

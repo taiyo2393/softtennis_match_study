@@ -1,0 +1,11 @@
+{
+  "status": "selected_frame_probe_completed",
+  "selected_frames": 74,
+  "inference_calls": 148,
+  "native_to_pose_diagnostic_rows": 548,
+  "parameters_changed_after_outputs": false,
+  "canonical_pipeline_changed": false,
+  "independent_GT": false,
+  "tracking_accuracy_established": false,
+  "protected_sources_unchanged": true
+}

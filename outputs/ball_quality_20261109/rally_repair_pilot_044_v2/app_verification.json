@@ -1,0 +1,17 @@
+{
+  "status": "browser_ready_for_user_timed_review",
+  "observed_at_utc": "2026-11-09T13:33:05.5614598Z",
+  "browser_tab_id": "6",
+  "initial_case": "R002/local742",
+  "source_image_display_verified": true,
+  "context_playback_and_target_return_verified": true,
+  "normal_and_zoom_display_verified": true,
+  "save_before_timing_blocked": true,
+  "user_timing_started_by_agent": false,
+  "new_real_labels_saved_by_agent": 0,
+  "pending_at_check": 195,
+  "reused_centers": 6,
+  "real_answer_journal_exists": false,
+  "real_timing_journal_exists": false,
+  "active_focus_pause_browser_not_started_for_qa": true
+}

@@ -1,0 +1,157 @@
+{
+  "results": [
+    {
+      "pilot": "016",
+      "proposals": 2,
+      "comparisons": [
+        {
+          "reference": {
+            "attempt_number": "1",
+            "outcome": "fault",
+            "first": 105,
+            "last": 125,
+            "outcome_status": "human_confirmed",
+            "timing_status": "ai_visual_interval_provisional"
+          },
+          "overlapping_proposals": [
+            {
+              "proposal_index": 0,
+              "audio_peak_frame": 112.68731268719999,
+              "proposed_interval": [
+                97,
+                128
+              ]
+            }
+          ]
+        },
+        {
+          "reference": {
+            "attempt_number": "2",
+            "outcome": "valid",
+            "first": 730,
+            "last": 738,
+            "outcome_status": "human_confirmed",
+            "timing_status": "ai_visual_interval_provisional"
+          },
+          "overlapping_proposals": [
+            {
+              "proposal_index": 1,
+              "audio_peak_frame": 736.6633366625999,
+              "proposed_interval": [
+                721,
+                752
+              ]
+            }
+          ]
+        }
+      ],
+      "extra_proposals_without_reference_match": [],
+      "role": "development_and_tuning"
+    },
+    {
+      "pilot": "002",
+      "proposals": 9,
+      "comparisons": [
+        {
+          "reference": {
+            "attempt_number": "unknown",
+            "outcome": "unknown",
+            "first": 747,
+            "last": 758,
+            "outcome_status": "sequence_supported_not_human_confirmed",
+            "timing_status": "ai_visual_bracket_human_pending"
+          },
+          "overlapping_proposals": []
+        }
+      ],
+      "extra_proposals_without_reference_match": [
+        {
+          "index": 0,
+          "interval": [
+            12,
+            43
+          ],
+          "audio_peak_frame": 27.5724275724,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 1,
+          "interval": [
+            44,
+            75
+          ],
+          "audio_peak_frame": 59.94005994,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 2,
+          "interval": [
+            709,
+            740
+          ],
+          "audio_peak_frame": 724.6753246746,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 3,
+          "interval": [
+            835,
+            866
+          ],
+          "audio_peak_frame": 850.5494505485999,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 4,
+          "interval": [
+            917,
+            948
+          ],
+          "audio_peak_frame": 932.067932067,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 5,
+          "interval": [
+            1119,
+            1150
+          ],
+          "audio_peak_frame": 1134.6653346642,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 6,
+          "interval": [
+            1197,
+            1227
+          ],
+          "audio_peak_frame": 1211.9880119867998,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 7,
+          "interval": [
+            1246,
+            1277
+          ],
+          "audio_peak_frame": 1261.738261737,
+          "status": "unreviewed_extra_not_automatically_false"
+        },
+        {
+          "index": 8,
+          "interval": [
+            1378,
+            1409
+          ],
+          "audio_peak_frame": 1393.606393605,
+          "status": "unreviewed_extra_not_automatically_false"
+        }
+      ],
+      "role": "fixed_parameter_same_match_application_not_external_test"
+    }
+  ],
+  "automatic_validity_classification": false,
+  "exact_contact_accuracy_established": false,
+  "comparison_basis": "Existing AI contact intervals with separately human-reviewed validity for044; intervals are not independent exact ground truth.",
+  "warning": "Overlap on two previously viewed clips is feasibility evidence only. It is not recall/precision on a complete independently labeled match."
+}

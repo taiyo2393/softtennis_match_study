@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "Scientific artifact/coordinate/assignment/provenance validation, not tracking accuracy",
+  "selected_frames": 74,
+  "pose_scale_comparisons": 148,
+  "native_box_pose_rows_checked": 548,
+  "pose_proposals_checked": 1099,
+  "small_matching_problems_verified_exhaustively": 100,
+  "pose_output_availability_not_accuracy": {
+    "court": {
+      "selected_native_far_boxes": 133,
+      "matched_pose_candidates": 47,
+      "torso_sets_above_threshold": 47,
+      "ankle_pairs_above_threshold": 46
+    },
+    "far_context": {
+      "selected_native_far_boxes": 133,
+      "matched_pose_candidates": 124,
+      "torso_sets_above_threshold": 124,
+      "ankle_pairs_above_threshold": 119
+    }
+  },
+  "appearance_diagnostic_rows": 532,
+  "appearance_rows_available": 342,
+  "feature_policy_disagreement_rows": 10,
+  "all7_feature_disagreement_frames_AI_inspected": true,
+  "AI_initial_review_frames": 27,
+  "AI_difference_review_frames": 7,
+  "AI_unique_reviewed_frames": 30,
+  "video_QA_frames_inspected": 6,
+  "explanatory_temporal_source_frames": 152,
+  "extra_inference_calls": 135,
+  "reused_frozen_pose_frames": 17,
+  "decoded_video_frames": 456,
+  "previous_published_files_unchanged": 521,
+  "current22_inputs_and11_outcomes_unchanged": true,
+  "canonical_pipeline_changed": false,
+  "new_human_labels": false,
+  "independent_identity_or_ground_position_accuracy_established": false
+}

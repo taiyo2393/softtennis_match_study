@@ -1,0 +1,18 @@
+{
+  "real": {
+    "local_frame": 1091,
+    "display_label": "B",
+    "x_px": "768.1040529597349",
+    "y_px": "548.8447122180926"
+  },
+  "false": {
+    "local_frame": 1092,
+    "display_label": "A",
+    "x_px": "764.3403362122799",
+    "y_px": "550.4279985499422"
+  },
+  "distance_px": 4.083180055262674,
+  "source_frame_gap": 1,
+  "interpretation": "This user-rejected candidate lies near the preceding confirmed ball. A distance-only continuity gate cannot establish identity; neither smoothing nor peak strength is validated here.",
+  "exact_center_groundtruth": false
+}

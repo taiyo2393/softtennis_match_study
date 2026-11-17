@@ -1,0 +1,44 @@
+{
+  "recorded_on": "2026-11-11",
+  "rally": "056",
+  "question_item_id": "[\"request_user_input_async\",\"call_f75d0f1cd35a4d3093a44524f0039f81\",0]",
+  "question": "今回の056の確認動画で、青◇のA（F154270）・B（F154324）・C（F154780）は実球を囲めていますか？ 違うものがあればA・B・Cで教えてください。Cの赤×は以前に別物体と確認された位置で、今回確認するのは別位置の青◇です。",
+  "answer": "Bは違うACは合ってる",
+  "candidate_reviews": [
+    {
+      "letter": "A",
+      "source_frame": 154270,
+      "candidate_x_px": "1020.75",
+      "candidate_y_px": "589.75",
+      "decision": "actual_ball",
+      "question_item_id": "[\"request_user_input_async\",\"call_f75d0f1cd35a4d3093a44524f0039f81\",0]",
+      "exact_center_validated": 0,
+      "ball_absence_label": 0
+    },
+    {
+      "letter": "B",
+      "source_frame": 154324,
+      "candidate_x_px": "910.4375",
+      "candidate_y_px": "586.125",
+      "decision": "other_object",
+      "question_item_id": "[\"request_user_input_async\",\"call_f75d0f1cd35a4d3093a44524f0039f81\",0]",
+      "exact_center_validated": 0,
+      "ball_absence_label": 0
+    },
+    {
+      "letter": "C",
+      "source_frame": 154780,
+      "candidate_x_px": "936.875",
+      "candidate_y_px": "529.875",
+      "decision": "actual_ball",
+      "question_item_id": "[\"request_user_input_async\",\"call_f75d0f1cd35a4d3093a44524f0039f81\",0]",
+      "exact_center_validated": 0,
+      "ball_absence_label": 0
+    }
+  ],
+  "video_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_crop_reacquisition_trial\\056_crop_three_candidates.mp4",
+  "video_sha256": "8a8b41f3c589c448dd414bac653ae6d22f5d11f099af8f9c3f2c63a2c57be1ce",
+  "scope": "A and C enclose the actual rally ball. B is a wrong candidate. No new exact centers, ball absence, or continuous trajectory truth.",
+  "F154780": "Earlier candidate1102,579 remains rejected; the new936.875,529.875 candidate is separately confirmed.",
+  "workflow": "One prediction-visible review of3selected candidates in one repeatedly inspected rally. Not independent precision estimation."
+}

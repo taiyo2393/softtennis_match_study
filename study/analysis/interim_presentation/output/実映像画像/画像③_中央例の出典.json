@@ -1,0 +1,48 @@
+{
+  "source": "data/raw/match1.mp4",
+  "featurePath": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\match1_court_plane_preimpact_motion_features.csv",
+  "feature": {
+    "event_id": "match1_direction_match1_remaining_01_105",
+    "video_id": "match1",
+    "target_front_player_id": "P2",
+    "target_front_camera_end": "near",
+    "impact_source_frame": "71926",
+    "actual_direction_front_view": "front_right",
+    "timepoint_sec": "-0.300",
+    "timepoint_source_frame": "71908",
+    "court_x_median": "0.504039",
+    "court_y_median": "0.376675",
+    "position_samples": "3",
+    "impact_court_x_median": "0.545384",
+    "relative_to_impact_court_x": "-0.041345",
+    "motion_start_source_frame": "71902",
+    "motion_end_source_frame": "71908",
+    "motion_start_court_x_median": "0.479269",
+    "motion_end_court_x_median": "0.504039",
+    "motion_start_samples": "3",
+    "motion_end_samples": "3",
+    "lateral_displacement_court_width": "0.024770",
+    "lateral_velocity_court_width_per_sec": "0.247455",
+    "feature_status": "usable",
+    "coordinate_definition": "\"fixed_main_camera image-to-normalized-court homography; x=0 screen-left sideline",
+    "undefined": " x=1 screen-right sideline; not metres\""
+  },
+  "frames": [
+    71902,
+    71908
+  ],
+  "files": [
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\interim_presentation\\output\\実映像画像\\画像③-A_中央_前0.4秒_F71902.png",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\interim_presentation\\output\\実映像画像\\画像③-B_中央_前0.3秒_F71908.png"
+  ],
+  "crop": [
+    768,
+    432,
+    1500,
+    1050
+  ],
+  "fps": "60000/1001",
+  "interval_seconds": 0.1001,
+  "selection": "Court centre, left frame in a wide ready-like stance, subsequent rightward displacement. The left frame is not claimed to be stationary.",
+  "processing": "Exact PTS extraction and crop only. No generative retouching."
+}

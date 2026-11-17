@@ -1,0 +1,33 @@
+{
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "rally_window_candidate_id": "match1_rally_window_044",
+  "validity_evidence": "044_serve_attempt_review.csv and human_review_log.csv, previously confirmed by user",
+  "valid_serve_contact_source_frame_interval": [
+    115365,
+    115373
+  ],
+  "point_end_source_frame_interval": [
+    115776,
+    115790
+  ],
+  "candidate_main_play_source_frames": [
+    115374,
+    115775
+  ],
+  "candidate_main_play_local_frames": [
+    739,
+    1140
+  ],
+  "counts": {
+    "before_effective_serve_includes_first_fault_and_preparation": 730,
+    "serve_contact_uncertainty": 9,
+    "candidate_main_play_window": 402,
+    "point_end_uncertainty": 15,
+    "after_candidate_point_end": 13
+  },
+  "raw_observations_unchanged": true,
+  "first_fault_preserved_as_same_point_separate_attempt": true,
+  "source_csv_sha256": "143e1c71d270f7e3c4f4ee8accb77709c6b4367ca0141ff48e371fb77d008123",
+  "boundary_intervals_still_provisional": true,
+  "warning": "Scope export, not a new start detector, identity/position evaluation or independent confirmation of exact event frames."
+}

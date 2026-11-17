@@ -1,0 +1,32 @@
+{
+  "status": "five_ball_candidates_and_raw968_rejection_human_confirmed_applied",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "rally_candidate_id": "match1_rally_window_044",
+  "proposed_add_observation_local_frames": [
+    891
+  ],
+  "proposed_replace_local_frames": [
+    892,
+    893,
+    960,
+    970
+  ],
+  "proposed_withhold_raw_local_frames": [
+    968
+  ],
+  "human_ball_candidate_review": "user_confirmed_five_green_components_are_ball",
+  "human_false_detection_review": "user_confirmed_raw968_is_false",
+  "physical_ball_visibility_at968": "unknown",
+  "existing_confirmed_ball_points_preserved": [
+    773,
+    784,
+    1103
+  ],
+  "reviewed_person_and_ball_inputs_modified": false,
+  "automatic_filter_adopted": false,
+  "interpolation": false,
+  "independent_accuracy_established": false,
+  "next": "Refresh integrated clip using the reviewed outputs. Preserve remaining gaps and unvalidated position precision.",
+  "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json"
+}

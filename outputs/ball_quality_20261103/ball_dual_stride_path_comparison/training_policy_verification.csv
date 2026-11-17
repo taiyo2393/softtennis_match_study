@@ -1,0 +1,6 @@
+﻿method,correct,errors,prior_correct_lost,baseline_present,existing_output_exactly_preserved,added_outputs,outputs_with_same_frame_source_provenance
+union_path,70,6,0,70,22,6,76
+missing_only_union_path,70,6,0,70,70,6,76
+missing_only_stride2_path,70,6,0,70,70,6,76
+missing_only_stride2_area,71,7,0,70,70,8,78
+anchored_missing_only_union_path,69,6,0,70,70,5,75

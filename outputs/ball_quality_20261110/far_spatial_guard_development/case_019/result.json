@@ -1,0 +1,20 @@
+{
+  "tag": "019",
+  "modes": {
+    "spatial_background": {
+      "far_observations": 1424,
+      "removed_baseline_boxes": 4,
+      "added_boxes": 0,
+      "same_output_as_baseline": false,
+      "path_cost": 1089.1477424635848
+    },
+    "spatial_background_and_near": {
+      "far_observations": 1424,
+      "removed_baseline_boxes": 4,
+      "added_boxes": 0,
+      "same_output_as_baseline": false,
+      "path_cost": 1089.1477424635848
+    }
+  },
+  "predicted_exclusion_region_rows": 6
+}

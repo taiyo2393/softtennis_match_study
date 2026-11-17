@@ -1,0 +1,21 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\scale_probe_review_h264.mp4",
+  "video_sha256": "48bbdf18e320bd528e00c3020de9422bf33af26c7b99a20f76a8b1ef8619d6f9",
+  "decoded_frames": 376,
+  "local_frames": [
+    1078,
+    1106
+  ],
+  "display_crop_xywh": [
+    620,
+    460,
+    480,
+    270
+  ],
+  "uniform_display_scale": 2,
+  "displayed_candidates_sha256": "b757c5249444b8e9731f954afc7959972bb1eba6b59768a4af2be36994c3948e",
+  "displayed_candidates": 34,
+  "review": "pending",
+  "reviewed_inputs_and_registries_unchanged": true,
+  "caveat": "The two candidates at1091 are both displayed, no identity assignment. Highest-peak deduplication is a display convention, not validation."
+}

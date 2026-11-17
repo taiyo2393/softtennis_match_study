@@ -1,0 +1,245 @@
+[
+  {
+    "tag": "002",
+    "first_frame": 2223,
+    "last_frame": 2577,
+    "frames": 355,
+    "initialized_frame": 2230,
+    "counts": {
+      "four_simultaneous": 60,
+      "pre_initialization_frames": 7,
+      "near_front": 348,
+      "total_observed_assignments": 1002,
+      "near_rear": 266,
+      "far_rear": 328,
+      "far_front": 60
+    },
+    "reacquisition_proposals": 0,
+    "parameters": {
+      "initialization_source_frames": 8,
+      "recovery_source_frames": 8,
+      "min_recovery_gap": 6,
+      "recovery_appearance_max": 0.65,
+      "recovery_negative_margin": 0.06,
+      "recovery_assignment_margin": 0.18,
+      "recovery_missing_cost": 0.85,
+      "gallery_size": 8,
+      "gallery_sample_interval": 12,
+      "gallery_cost_max": 0.55,
+      "gallery_margin_min": 0.2,
+      "occlusion_intersection_fraction": 0.45,
+      "pending_iou_min": 0.3,
+      "pending_motion_max_height": 0.35,
+      "interpolation": false,
+      "identity_guard": {
+        "partner_appearance_margin": 0.12,
+        "compare_all_same_side_identities": true,
+        "immutable_initial_identity_anchors": true,
+        "suppress_handover_when_ambiguous": true
+      },
+      "pair_policy": {
+        "similar_pair_color_distance_max": 0.6,
+        "max_same_color_handover_gap": 2,
+        "short_handover_motion_max_height": 0.25,
+        "partner_motion_min_height": 0.75,
+        "long_recovery_of_similar_pair": "withhold_identity"
+      }
+    },
+    "input_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\crop_runs\\augmented_detections_002.csv",
+    "input_sha256": "449d4c2c1eaa9f4601dc382511ffe87a92fb8710faebe12bad4a9f3a911b4886",
+    "warning": "Development on formerly inspected same-match intervals; candidate availability is not identity accuracy. No retroactive output or interpolation.",
+    "identity_guard": {
+      "parameters": {
+        "partner_appearance_margin": 0.12,
+        "compare_all_same_side_identities": true,
+        "immutable_initial_identity_anchors": true,
+        "suppress_handover_when_ambiguous": true
+      },
+      "withheld_handover_frames": 88,
+      "withheld_proposals": 88,
+      "anonymous_detection_rows": 192,
+      "caution": "Anonymous boxes are candidates, not confirmed players; false positives remain possible."
+    },
+    "pair_policy": {
+      "parameters": {
+        "similar_pair_color_distance_max": 0.6,
+        "max_same_color_handover_gap": 2,
+        "short_handover_motion_max_height": 0.25,
+        "partner_motion_min_height": 0.75,
+        "long_recovery_of_similar_pair": "withhold_identity"
+      },
+      "initial_pair_color_similarity": {
+        "near": {
+          "distance": 0.7453437403016993,
+          "not_distinct_by_color": false
+        },
+        "far": {
+          "distance": 0.48631343443359726,
+          "not_distinct_by_color": true
+        }
+      }
+    }
+  },
+  {
+    "tag": "005",
+    "first_frame": 8607,
+    "last_frame": 9051,
+    "frames": 445,
+    "initialized_frame": 8625,
+    "counts": {
+      "four_simultaneous": 299,
+      "pre_initialization_frames": 18,
+      "near_front": 427,
+      "total_observed_assignments": 1565,
+      "near_rear": 427,
+      "far_rear": 322,
+      "far_front": 389
+    },
+    "reacquisition_proposals": 0,
+    "parameters": {
+      "initialization_source_frames": 8,
+      "recovery_source_frames": 8,
+      "min_recovery_gap": 6,
+      "recovery_appearance_max": 0.65,
+      "recovery_negative_margin": 0.06,
+      "recovery_assignment_margin": 0.18,
+      "recovery_missing_cost": 0.85,
+      "gallery_size": 8,
+      "gallery_sample_interval": 12,
+      "gallery_cost_max": 0.55,
+      "gallery_margin_min": 0.2,
+      "occlusion_intersection_fraction": 0.45,
+      "pending_iou_min": 0.3,
+      "pending_motion_max_height": 0.35,
+      "interpolation": false,
+      "identity_guard": {
+        "partner_appearance_margin": 0.12,
+        "compare_all_same_side_identities": true,
+        "immutable_initial_identity_anchors": true,
+        "suppress_handover_when_ambiguous": true
+      },
+      "pair_policy": {
+        "similar_pair_color_distance_max": 0.6,
+        "max_same_color_handover_gap": 2,
+        "short_handover_motion_max_height": 0.25,
+        "partner_motion_min_height": 0.75,
+        "long_recovery_of_similar_pair": "withhold_identity"
+      }
+    },
+    "input_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\crop_runs\\augmented_detections_005.csv",
+    "input_sha256": "fea21a53dfce932401e97fd04a868664d3aac76ce191a7b14ca28c736a07d81a",
+    "warning": "Development on formerly inspected same-match intervals; candidate availability is not identity accuracy. No retroactive output or interpolation.",
+    "identity_guard": {
+      "parameters": {
+        "partner_appearance_margin": 0.12,
+        "compare_all_same_side_identities": true,
+        "immutable_initial_identity_anchors": true,
+        "suppress_handover_when_ambiguous": true
+      },
+      "withheld_handover_frames": 27,
+      "withheld_proposals": 30,
+      "anonymous_detection_rows": 14,
+      "caution": "Anonymous boxes are candidates, not confirmed players; false positives remain possible."
+    },
+    "pair_policy": {
+      "parameters": {
+        "similar_pair_color_distance_max": 0.6,
+        "max_same_color_handover_gap": 2,
+        "short_handover_motion_max_height": 0.25,
+        "partner_motion_min_height": 0.75,
+        "long_recovery_of_similar_pair": "withhold_identity"
+      },
+      "initial_pair_color_similarity": {
+        "near": {
+          "distance": 0.6584252832718827,
+          "not_distinct_by_color": false
+        },
+        "far": {
+          "distance": 0.7003777789595453,
+          "not_distinct_by_color": false
+        }
+      }
+    }
+  },
+  {
+    "tag": "048",
+    "first_frame": 125859,
+    "last_frame": 126758,
+    "frames": 900,
+    "initialized_frame": 125874,
+    "counts": {
+      "four_simultaneous": 225,
+      "pre_initialization_frames": 15,
+      "near_front": 885,
+      "total_observed_assignments": 2360,
+      "near_rear": 885,
+      "far_rear": 225,
+      "far_front": 365
+    },
+    "reacquisition_proposals": 0,
+    "parameters": {
+      "initialization_source_frames": 8,
+      "recovery_source_frames": 8,
+      "min_recovery_gap": 6,
+      "recovery_appearance_max": 0.65,
+      "recovery_negative_margin": 0.06,
+      "recovery_assignment_margin": 0.18,
+      "recovery_missing_cost": 0.85,
+      "gallery_size": 8,
+      "gallery_sample_interval": 12,
+      "gallery_cost_max": 0.55,
+      "gallery_margin_min": 0.2,
+      "occlusion_intersection_fraction": 0.45,
+      "pending_iou_min": 0.3,
+      "pending_motion_max_height": 0.35,
+      "interpolation": false,
+      "identity_guard": {
+        "partner_appearance_margin": 0.12,
+        "compare_all_same_side_identities": true,
+        "immutable_initial_identity_anchors": true,
+        "suppress_handover_when_ambiguous": true
+      },
+      "pair_policy": {
+        "similar_pair_color_distance_max": 0.6,
+        "max_same_color_handover_gap": 2,
+        "short_handover_motion_max_height": 0.25,
+        "partner_motion_min_height": 0.75,
+        "long_recovery_of_similar_pair": "withhold_identity"
+      }
+    },
+    "input_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\crop_runs\\augmented_detections_048.csv",
+    "input_sha256": "09ebddeebc85f2d0eca4b033c5917c1df4a3c55680a4d3d2347d1585ddc51f81",
+    "warning": "Development on formerly inspected same-match intervals; candidate availability is not identity accuracy. No retroactive output or interpolation.",
+    "identity_guard": {
+      "parameters": {
+        "partner_appearance_margin": 0.12,
+        "compare_all_same_side_identities": true,
+        "immutable_initial_identity_anchors": true,
+        "suppress_handover_when_ambiguous": true
+      },
+      "withheld_handover_frames": 169,
+      "withheld_proposals": 181,
+      "anonymous_detection_rows": 739,
+      "caution": "Anonymous boxes are candidates, not confirmed players; false positives remain possible."
+    },
+    "pair_policy": {
+      "parameters": {
+        "similar_pair_color_distance_max": 0.6,
+        "max_same_color_handover_gap": 2,
+        "short_handover_motion_max_height": 0.25,
+        "partner_motion_min_height": 0.75,
+        "long_recovery_of_similar_pair": "withhold_identity"
+      },
+      "initial_pair_color_similarity": {
+        "near": {
+          "distance": 0.7420341748417485,
+          "not_distinct_by_color": false
+        },
+        "far": {
+          "distance": 0.577079958210234,
+          "not_distinct_by_color": true
+        }
+      }
+    }
+  }
+]

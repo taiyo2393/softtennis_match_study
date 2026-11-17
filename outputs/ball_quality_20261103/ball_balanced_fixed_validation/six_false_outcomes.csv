@@ -1,0 +1,7 @@
+﻿local_frame,source_frame,known_false_x,known_false_y,x_px,y_px,visible,status,true_ball_center,physical_visibility
+463,104998,868,624,866,624,1,near_known_false_point_unverified,unknown,not_labelled
+464,104999,868,628,868,624,1,near_known_false_point_unverified,unknown,not_labelled
+465,105000,849,626,849,624,1,near_known_false_point_unverified,unknown,not_labelled
+467,105002,840,630,851,631,1,near_known_false_point_unverified,unknown,not_labelled
+470,105005,828,633,832,631,1,near_known_false_point_unverified,unknown,not_labelled
+554,105089,1374,581,1376,581,1,near_known_false_point_unverified,unknown,not_labelled

@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "02_011_f884",
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\totnet_comparison\\joint_failure_review\\videos\\02_011_f884.mp4",
+    "fps": 59.94005994005994,
+    "decoded_frames": 335,
+    "expected_frames": 335,
+    "full_decode_verified": true,
+    "sha256": "ab6976e1a43c20afdc6f4105d3ec8d08c956d1e42744c175ecd9816b02055314"
+  },
+  {
+    "case_id": "04_011_f1710",
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\totnet_comparison\\joint_failure_review\\videos\\04_011_f1710.mp4",
+    "fps": 59.94005994005994,
+    "decoded_frames": 335,
+    "expected_frames": 335,
+    "full_decode_verified": true,
+    "sha256": "51f6bad38ba143bbe685209f5b06f5ae6e8616e6d33e41dffe946d718cb2d3a2"
+  },
+  {
+    "case_id": "08_013_f435",
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\totnet_comparison\\joint_failure_review\\videos\\08_013_f435.mp4",
+    "fps": 59.94005994005994,
+    "decoded_frames": 255,
+    "expected_frames": 255,
+    "full_decode_verified": true,
+    "sha256": "30f25802ec2200eee720d503d18005a3ca5d92abc36cb1b542976243d860208c"
+  },
+  {
+    "case_id": "23_018_f216",
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\totnet_comparison\\joint_failure_review\\videos\\23_018_f216.mp4",
+    "fps": 59.94005994005994,
+    "decoded_frames": 300,
+    "expected_frames": 300,
+    "full_decode_verified": true,
+    "sha256": "4df6c9c692b2c7a39d53c20eeeb9fdec2f79f3b0730f4003dd75cacead9f6f39"
+  }
+]

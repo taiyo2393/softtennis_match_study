@@ -1,0 +1,19 @@
+{
+  "status": "six_AI_phase_audits_recorded",
+  "ai_sequence_supported": 6,
+  "visible_input_boundary_problem_found": 0,
+  "independent_human_phase_reviews_added": 0,
+  "previous_human_valid_service_labels_preserved": 2,
+  "exact_event_times_added": 0,
+  "model_fit": false,
+  "prior_feature_outputs_changed": false,
+  "new_human_annotation_requested": false,
+  "conclusion": "All six fixed early windows are visually consistent with ongoing service-led play. Retain as AI-supported exploratory input metadata; do not promote to independent phase/position GT.",
+  "special_case": "025 low-to-high service motion shows why overhead-only start cues are insufficient; style remains AI observation.",
+  "file_hashes": {
+    "visual_findings.json": "52b6590c9cd63da83b0b0776d6c541535f0589d483fcfd1e7d25a29722f8a291",
+    "evidence_manifest.json": "3ed2a05835df05f1e26d4d5efee97a8c51f96a6b2cbcd7642bd66e34bdc7a726",
+    "eight_candidate_phase_evidence.csv": "2a1c6e7e7c3feb483d2d805513b3c3d23129b6684c1230b09bcc45c71d35c25e",
+    "verification.json": "c3496f36fe570d1228f710d76fb8de1768afe7a0dc6233ffb8fd6021f27cb354"
+  }
+}

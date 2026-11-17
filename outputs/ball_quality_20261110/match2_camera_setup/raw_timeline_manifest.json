@@ -1,0 +1,190 @@
+{
+  "items": [
+    {
+      "requested_sec": 90,
+      "source_frame": 5395,
+      "file": "timeline_0090s_F5395.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 95,
+      "source_frame": 5694,
+      "file": "timeline_0095s_F5694.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 100,
+      "source_frame": 5994,
+      "file": "timeline_0100s_F5994.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 105,
+      "source_frame": 6294,
+      "file": "timeline_0105s_F6294.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 110,
+      "source_frame": 6593,
+      "file": "timeline_0110s_F6593.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 115,
+      "source_frame": 6893,
+      "file": "timeline_0115s_F6893.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 120,
+      "source_frame": 7193,
+      "file": "timeline_0120s_F7193.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 125,
+      "source_frame": 7493,
+      "file": "timeline_0125s_F7493.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 130,
+      "source_frame": 7792,
+      "file": "timeline_0130s_F7792.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 135,
+      "source_frame": 8092,
+      "file": "timeline_0135s_F8092.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 140,
+      "source_frame": 8392,
+      "file": "timeline_0140s_F8392.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 145,
+      "source_frame": 8691,
+      "file": "timeline_0145s_F8691.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 150,
+      "source_frame": 8991,
+      "file": "timeline_0150s_F8991.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 155,
+      "source_frame": 9291,
+      "file": "timeline_0155s_F9291.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 160,
+      "source_frame": 9590,
+      "file": "timeline_0160s_F9590.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 165,
+      "source_frame": 9890,
+      "file": "timeline_0165s_F9890.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 170,
+      "source_frame": 10190,
+      "file": "timeline_0170s_F10190.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 175,
+      "source_frame": 10490,
+      "file": "timeline_0175s_F10490.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 180,
+      "source_frame": 10789,
+      "file": "timeline_0180s_F10789.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 185,
+      "source_frame": 11089,
+      "file": "timeline_0185s_F11089.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 190,
+      "source_frame": 11389,
+      "file": "timeline_0190s_F11389.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 195,
+      "source_frame": 11688,
+      "file": "timeline_0195s_F11688.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 200,
+      "source_frame": 11988,
+      "file": "timeline_0200s_F11988.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 205,
+      "source_frame": 12288,
+      "file": "timeline_0205s_F12288.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 210,
+      "source_frame": 12587,
+      "file": "timeline_0210s_F12587.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 215,
+      "source_frame": 12887,
+      "file": "timeline_0215s_F12887.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 220,
+      "source_frame": 13187,
+      "file": "timeline_0220s_F13187.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 225,
+      "source_frame": 13487,
+      "file": "timeline_0225s_F13487.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 230,
+      "source_frame": 13786,
+      "file": "timeline_0230s_F13786.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 235,
+      "source_frame": 14086,
+      "file": "timeline_0235s_F14086.jpg",
+      "model_predictions": false
+    },
+    {
+      "requested_sec": 240,
+      "source_frame": 14386,
+      "file": "timeline_0240s_F14386.jpg",
+      "model_predictions": false
+    }
+  ]
+}

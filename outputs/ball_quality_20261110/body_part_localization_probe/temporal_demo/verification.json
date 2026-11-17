@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_frames": 152,
+  "inference_calls": 135,
+  "reused_probe_frames": 17,
+  "decoded_video_frames": 456,
+  "aspect_preserved": true,
+  "QA_frames": 6,
+  "video_sha256": "5f6dd1d247a719ef704c29bea33129b82e98e692aa9219597a940f62363503da",
+  "QA_sha256": "19166c5567cef7bfdda39f19042ccc2df8cd6fc327111918ac0cb2aad71cd8b1",
+  "trajectory_repaired": false,
+  "new_verified_positions": false
+}

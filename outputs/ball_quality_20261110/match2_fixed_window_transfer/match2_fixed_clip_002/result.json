@@ -1,0 +1,28 @@
+{
+  "clip_id": "match2_fixed_clip_002",
+  "status": "completed_frozen_methods",
+  "source_frames": 899,
+  "line_supported_frames": 303,
+  "reset_line_segments": 1,
+  "modes": {
+    "frozen_tracker_no_camera_reset": {
+      "native_observations": 958,
+      "four_candidate_frames": 13,
+      "total_source_frames": 899,
+      "line_supported_frames": 303,
+      "four_candidates_on_line_supported_frames": 1,
+      "emitted_rows_on_line_unsupported_frames": 48,
+      "initializations": 1
+    },
+    "frozen_tracker_reset_on_line_failure": {
+      "native_observations": 1184,
+      "four_candidate_frames": 296,
+      "total_source_frames": 899,
+      "line_supported_frames": 303,
+      "four_candidates_on_line_supported_frames": 296,
+      "emitted_rows_on_line_unsupported_frames": 0,
+      "initializations": 1
+    }
+  },
+  "independent_accuracy_established": false
+}

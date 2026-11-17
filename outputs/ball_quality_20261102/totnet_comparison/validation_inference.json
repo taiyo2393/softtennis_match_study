@@ -1,0 +1,8 @@
+{
+  "frames": 150,
+  "seconds": 333.14195370000016,
+  "batch_single_consistency_passed": true,
+  "protocol_sha256": "7b7a0a41663101de1779f68cf18f651eb84de618d54a06d3e2c8297f86940894",
+  "script_sha256": "099610475d85184bff415c32fc58dd7f3312c36df17740f4add123ae9a7e79f7",
+  "raw_sha256": "058dbb4399f20651e766436e653f16c1e0710852f35479b56631e930dc3d603c"
+}

@@ -1,0 +1,8 @@
+﻿role,sample_id,candidate_id,local_frame,source_frame,before,after,truth_x_px,truth_y_px,before_x,before_y,after_x,after_y,before_error_px,after_error_px,selection_status
+train,match1_motion_pilot_003_frame_000291,match1_motion_pilot_003,291,23817,wrong_position,correct,650,629,911,581,650,630,265.37709019431196,1.0,observed_path_selection
+train,match1_motion_pilot_007_frame_000851,match1_motion_pilot_007,851,52429,wrong_position,correct,1181,380,738,581,1181,382,486.46685395821163,2.0,observed_path_selection
+train,match1_motion_pilot_010_frame_000262,match1_motion_pilot_010,262,71351,wrong_position,correct,974,543,1531,571,975,541,557.7033261510998,2.23606797749979,observed_path_selection
+validation,match1_motion_pilot_015_frame_000323,match1_motion_pilot_015,323,104858,wrong_position,correct,1076,420,1140,624,1078,420,213.80364823828427,2.0,observed_path_selection
+challenge,match1_motion_pilot_015_frame_000328,match1_motion_pilot_015,328,104863,wrong_position,correct,1071,393,1155,645,1072,393,265.63132345414385,1.0,observed_path_selection
+challenge,match1_motion_pilot_019_frame_000305,match1_motion_pilot_019,305,161813,wrong_position,correct,1106,541,1325,579,1106,538,222.27235545609355,3.0,observed_path_selection
+audit,match1_motion_pilot_008_frame_000503,match1_motion_pilot_008,503,62961,wrong_position,correct,994,252,1113,555,993,251,325.53033652794943,1.4142135623730951,observed_path_selection

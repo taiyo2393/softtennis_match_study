@@ -1,0 +1,23 @@
+{
+  "status": "not_selected_fixed_image_feature_addition_failed_safety",
+  "date_jst": "2026-11-09",
+  "correct_play_visible_targets": 64,
+  "visible_play_targets": 68,
+  "wrong_localizations": 2,
+  "output_when_human_center_unobservable": 4,
+  "geometry_only_output_when_human_center_unobservable": 3,
+  "raw_fold_correct_targets_lost": 0,
+  "reason": "No localization gain versus geometry10; two wrong positions remain and outputs on unobservable centers increase from three to four. Fixed safety conditions fail.",
+  "verification_status": "passed",
+  "detector_and_head_both_exclude_held_clip": true,
+  "detector_models_and_candidate_rows_unchanged": true,
+  "frozen_image_backbone": true,
+  "full_fit_performed": false,
+  "threshold_retry_performed": false,
+  "alternate_image_feature_variant_selected": false,
+  "new_confirmation_inference": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "independent_external_validation": false,
+  "scope": "Known same-match internal development. Direct fit exclusions are preserved; whole method-selection history is not fully nested."
+}

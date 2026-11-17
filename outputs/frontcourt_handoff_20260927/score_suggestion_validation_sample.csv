@@ -1,0 +1,17 @@
+﻿candidate_id,sampling_seed,stratum,stratum_population_n,stratum_sample_n,inverse_sampling_weight,candidate_start_sec,candidate_end_sec,suggestion_reason,suggested_score_row,score_before_end,score_after_1s,clip_file,actual_score_change_row,score_change_linked_to_candidate_point,winner_team,winner_camera_side,review_status
+match1_rally_window_011,20260927,complete_boundary__suggestion_0,6,4,1.500,436.000000,484.500000,unreadable_or_ambiguous,,3-3,-,011_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_012,20260927,complete_boundary__suggestion_0,6,4,1.500,532.500000,538.000000,unreadable_or_ambiguous,,-,4-4,012_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_013,20260927,complete_boundary__suggestion_0,6,4,1.500,563.500000,570.500000,unreadable_or_ambiguous,,4-4,-4,013_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_048,20260927,complete_boundary__suggestion_0,6,4,1.500,2097.500000,2125.500000,score_changes_outside_expected_pair_or_unstable,,3-2,3-2,048_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_005,20260927,complete_boundary__suggestion_1,26,4,6.500,132.500000,152.000000,one_point_increment_consistent,bottom,0-0,0-1,005_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_021,20260927,complete_boundary__suggestion_1,26,4,6.500,833.500000,841.000000,one_point_increment_consistent,bottom,0-0,0-1,021_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_022,20260927,complete_boundary__suggestion_1,26,4,6.500,860.500000,876.500000,one_point_increment_consistent,bottom,0-1,0-2,022_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_029,20260927,complete_boundary__suggestion_1,26,4,6.500,1186.000000,1209.000000,one_point_increment_consistent,bottom,2-2,2-3,029_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_014,20260927,excluded_or_unresolved__suggestion_0,6,4,1.500,588.000000,612.000000,unreadable_or_ambiguous,,-4,0-4,014_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_032,20260927,excluded_or_unresolved__suggestion_0,6,4,1.500,1383.000000,1401.500000,unreadable_or_ambiguous,,3-4,3-,032_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_061,20260927,excluded_or_unresolved__suggestion_0,6,4,1.500,2798.000000,2810.500000,unreadable_or_ambiguous,,4-4,4-,061_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_063,20260927,excluded_or_unresolved__suggestion_0,6,4,1.500,2861.000000,2878.500000,unreadable_or_ambiguous,,-,0-,063_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_023,20260927,excluded_or_unresolved__suggestion_1,25,4,6.250,898.000000,921.500000,one_point_increment_consistent,bottom,0-2,0-3,023_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_037,20260927,excluded_or_unresolved__suggestion_1,25,4,6.250,1623.500000,1636.500000,one_point_increment_consistent,bottom,3-1,3-2,037_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_043,20260927,excluded_or_unresolved__suggestion_1,25,4,6.250,1865.000000,1881.500000,one_point_increment_consistent,bottom,1-3,1-4,043_score_validation_h264.mp4,,,,,unreviewed
+match1_rally_window_057,20260927,excluded_or_unresolved__suggestion_1,25,4,6.250,2629.000000,2657.500000,one_point_increment_consistent,bottom,3-1,3-2,057_score_validation_h264.mp4,,,,,unreviewed

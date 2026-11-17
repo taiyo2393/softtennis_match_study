@@ -1,0 +1,26 @@
+{
+  "date_jst": "2026-11-10",
+  "purpose": "Nine-case input construction after deterministic001 expansion; no classifier fitting or new accuracy claim.",
+  "preserve": "Frozen current8 retained; first30 cohort membership and processing order unchanged.",
+  "primary_window_comparison": "Server side plus eight within-window mean pair-image-configuration features and two pair-observation fractions. No outcome-based model/feature selection.",
+  "snapshot_comparison": "Server side plus eight last-requested-time configuration features and two pair-valid flags.",
+  "mask_controls": "For each comparison, same server metadata plus its own two availability fields only.",
+  "basic_metadata": "Serving side is a provisional AI attribute, not human-confirmed. Missingness and offline future-assisted tracking remain limitations.",
+  "ball": "No nine-case ball features synthesized; existing two assisted ball cases do not support a matched-class outcome comparison.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\snapshot_player_features.csv": "7162f0683362fe36cee810548e822dcf4d57c884493f0a6cf03e221942299094",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\prefix_player_summary_features.csv": "fbcd344489300f89f80977fcc7905fbbd955c8b9a611ea4988837a0bc51273f1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\rally_metadata.csv": "f5ba876b7867764595930b123b94f5eaa7b7df36358ce187cd7a1da0eddbf4a1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\snapshot_player_features.csv": "3b01e62f7dcc7a51625e79b123e3e0085f20314d00c9dce95357de08cd650669",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\prefix_player_summary_features.csv": "f89b9c73fd35e313665769ee84ca08757bb60932e92b1324f09704ae214003bb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\case_result.json": "a4001438c349c36d8c81d3858f855ad5bf3e58971a688496b1d1be83d0e26f07",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\verification.json": "3a81898f579e862449109275aa2902157137aa9a9e02e66f5a536b33e6ce2d88",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\candidate_sequence_grid.jpg": "459ac7e5bccb7842ffc38aa56c6b3042df2481190d9c16f0602a6b58fce8153a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\far_pair_detail_grid.jpg": "008522fc79b8bdf1c5c5f6fd4d1932620fa6f888e2f73fc698f06cfe0de5e42d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_and_baselines\\protocol.json": "4bcc30505d7159d46848ec3bc1a2cc800ed647c88d656bbf87665cf66de5fce7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_and_baselines\\result.json": "d3dc491516460b80c509c8cb6a4e70d48181ad14a1c1a3520c4ba58dd669ea3a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_and_baselines\\fixed30_processing_queue.csv": "b65c960e3cd6eb2fc9699c36390c68df22f84f84afd79e0fb37bd397b6095389",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_and_baselines\\basic_server_inputs_11.csv": "8a96c484aa0328bb66c5a210adcd6308c8971a444021e42f713d79a6d78d27b5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_and_baselines\\human_outcomes_11.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1"
+  }
+}

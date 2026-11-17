@@ -1,0 +1,3 @@
+﻿candidate_id,source_frame,image_x,image_y,assumed_ground_court_x,assumed_ground_court_y,fit_RMS_image_px,constraint_minimum_margin,missing_first,missing_last,after_stroke,before_stroke,court_boundary_active,quality
+FAR01,115479,792.178830800494,606.8436151535728,0.15929156653667528,0.9999999999999997,6.084311836812841,1.1368683772161603e-13,115475,115499,H02,H03,True,low_confidence_boundary_constrained_model_prediction
+FAR02,115700,807.3663707664306,606.590923714091,0.19130134483117406,0.9999999999999993,2.2803609433106176,1.1368683772161603e-13,115693,115711,H04,H05,True,low_confidence_boundary_constrained_model_prediction

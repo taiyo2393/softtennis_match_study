@@ -1,0 +1,58 @@
+[
+  {
+    "mode": "bytetrack",
+    "seed_frame": 94323,
+    "analysis_ready_end_frame": 95365,
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 5,
+      "far_front": 3
+    },
+    "stitches": [],
+    "slots": {
+      "near_front": {
+        "raw_track_ids": [
+          1
+        ],
+        "observed_frames": 180,
+        "total_frames": 180,
+        "missing_runs": []
+      },
+      "near_rear": {
+        "raw_track_ids": [
+          2
+        ],
+        "observed_frames": 57,
+        "total_frames": 180,
+        "missing_runs": [
+          [
+            94380,
+            94502
+          ]
+        ]
+      },
+      "far_rear": {
+        "raw_track_ids": [
+          5
+        ],
+        "observed_frames": 159,
+        "total_frames": 180,
+        "missing_runs": [
+          [
+            94482,
+            94502
+          ]
+        ]
+      },
+      "far_front": {
+        "raw_track_ids": [
+          3
+        ],
+        "observed_frames": 180,
+        "total_frames": 180,
+        "missing_runs": []
+      }
+    }
+  }
+]

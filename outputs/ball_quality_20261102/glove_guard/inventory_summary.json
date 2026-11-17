@@ -1,0 +1,21 @@
+{
+  "total_samples": 300,
+  "validation_nonlocalized": 9,
+  "context_seeds": {
+    "unresolved": 258,
+    "existing_note_pre_serve": 40,
+    "existing_note_after_rally": 2
+  },
+  "context_seed_counts_by_split": {
+    "validation": {
+      "unresolved": 126,
+      "existing_note_pre_serve": 24
+    },
+    "test": {
+      "existing_note_pre_serve": 16,
+      "unresolved": 132,
+      "existing_note_after_rally": 2
+    }
+  },
+  "warning": "Context seeds are based on existing notes, independent of tracker correctness; unresolved is not in-play. Do not use seeds as confirmed rally boundaries."
+}

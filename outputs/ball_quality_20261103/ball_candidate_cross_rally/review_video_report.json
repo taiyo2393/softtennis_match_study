@@ -1,0 +1,109 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\four_candidate_review_h264.mp4",
+  "video_sha256": "4632d513eeb17dd274ddf0e06ea766c09729cc1c25127d00c66762a47a929e90",
+  "decoded_frames": 568,
+  "duration_sec": 9.476133333333333,
+  "details": [
+    {
+      "case_id": "008_391",
+      "display_label": "A",
+      "local_frame": 391,
+      "source_frame": 62849,
+      "candidate_xy": [
+        1008.0,
+        382.0
+      ],
+      "crop_xywh": [
+        768,
+        247,
+        480,
+        270
+      ],
+      "crop_uniform_scale": 2,
+      "displayed_source_local_frames": [
+        379,
+        403
+      ],
+      "marker_shown_only_at_target": true,
+      "label": "pending_user_confirmation",
+      "video_start_frame": 0
+    },
+    {
+      "case_id": "008_503",
+      "display_label": "B",
+      "local_frame": 503,
+      "source_frame": 62961,
+      "candidate_xy": [
+        1113.0,
+        555.0
+      ],
+      "crop_xywh": [
+        873,
+        420,
+        480,
+        270
+      ],
+      "crop_uniform_scale": 2,
+      "displayed_source_local_frames": [
+        491,
+        515
+      ],
+      "marker_shown_only_at_target": true,
+      "label": "pending_user_confirmation",
+      "video_start_frame": 142
+    },
+    {
+      "case_id": "008_615",
+      "display_label": "C",
+      "local_frame": 615,
+      "source_frame": 63073,
+      "candidate_xy": [
+        279.0,
+        601.0
+      ],
+      "crop_xywh": [
+        39,
+        466,
+        480,
+        270
+      ],
+      "crop_uniform_scale": 2,
+      "displayed_source_local_frames": [
+        603,
+        627
+      ],
+      "marker_shown_only_at_target": true,
+      "label": "pending_user_confirmation",
+      "video_start_frame": 284
+    },
+    {
+      "case_id": "008_1623",
+      "display_label": "D",
+      "local_frame": 1623,
+      "source_frame": 64081,
+      "candidate_xy": [
+        1074.0,
+        596.0
+      ],
+      "crop_xywh": [
+        834,
+        461,
+        480,
+        270
+      ],
+      "crop_uniform_scale": 2,
+      "displayed_source_local_frames": [
+        1611,
+        1635
+      ],
+      "marker_shown_only_at_target": true,
+      "label": "pending_user_confirmation",
+      "video_start_frame": 426
+    }
+  ],
+  "candidate_table_sha256": "1f4076d8754aeb81a8db9a23516ed160f27a78d86d7200bd804d052db3d77a50",
+  "frozen_predictions_sha256": "2b6d1204e9aa00fa24a7a0c6b5e3c445dff753faa9013fe6d11b08bcb25c00f1",
+  "model_predictions_not_displayed": true,
+  "adopted_inputs_and_source_annotations_unchanged": true,
+  "review_status": "pending"
+}

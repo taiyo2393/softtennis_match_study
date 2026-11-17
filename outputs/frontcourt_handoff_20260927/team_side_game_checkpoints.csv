@@ -1,0 +1,12 @@
+﻿candidate_id,game_score_top_bottom,bottom_team_camera_side,rule_change_count,evidence_image,review_status,scope
+match1_rally_window_001,0-0,near,0,game_side_probe_001.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_005,0-1,far,1,game_side_probe_005.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_015,1-1,far,1,game_side_probe_015.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_021,2-1,near,2,game_side_probe_021.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_026,2-2,near,2,game_side_probe_026.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_033,2-3,far,3,game_side_probe_033.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_039,3-3,far,3,game_side_probe_039.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_044,3-4,near,4,game_side_probe_044.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_053,4-4,near,4,game_side_probe_053.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_055,4-4,far,5,game_side_probe_055.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points
+match1_rally_window_056,4-4,far,5,game_side_probe_056.jpg,ai_visual_checkpoint_consistent_with_rule,uniform-pair and court orientation at checkpoint; not continuous person ID or all intervening points

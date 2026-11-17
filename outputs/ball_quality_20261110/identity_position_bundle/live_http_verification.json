@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-10T10:06:18.399083+00:00",
+  "session_image_count": 13,
+  "image_sha256_checks": 13,
+  "private_routes_rejected": 3,
+  "real_server_requests": "GET only; no annotations written by test",
+  "reference_revision_at_check": 0,
+  "browser_rendering_verified": false
+}

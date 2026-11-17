@@ -1,0 +1,188 @@
+{
+  "max_draw_step_native_px": 100,
+  "clipped_links_by_point": {},
+  "clipped_links": [],
+  "displayed_frames_with_shorter_trail": 19,
+  "ball_candidates_sha256": "f31f635703ba5e31413df31dae94ae3fcbce5e295559b20c8d51d1eca2fd4d9b",
+  "visually_excluded_count": 12,
+  "visually_excluded_by_point": {
+    "4": 10,
+    "5": 1,
+    "6": 1
+  },
+  "visually_excluded_candidates": [
+    {
+      "point": 4,
+      "source_frame": 16788,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        579.0,
+        474.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16789,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        588.0,
+        463.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16790,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        598.0,
+        442.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16791,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        594.0,
+        444.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16794,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        581.0,
+        440.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16824,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        468.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16826,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        465.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16828,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        459.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16829,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1164.0,
+        459.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16830,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        455.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18895,
+      "reason": "off_trajectory_spectator_side_candidate",
+      "evidence": "spike_context_F18895.jpg",
+      "rejected_xy": [
+        1633.0,
+        468.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 21396,
+      "reason": "scene_transition_off_trajectory_candidate",
+      "evidence": "continuity_context_F21390.jpg",
+      "rejected_xy": [
+        592.0,
+        275.0
+      ]
+    }
+  ],
+  "visually_reviewed_recoveries": [
+    {
+      "source_frame": 16795,
+      "x_px": 768.1875,
+      "y_px": 485.875
+    },
+    {
+      "source_frame": 16831,
+      "x_px": 1076.8125,
+      "y_px": 538.0
+    },
+    {
+      "source_frame": 16832,
+      "x_px": 1081.875,
+      "y_px": 543.75
+    },
+    {
+      "source_frame": 17136,
+      "x_px": 1038.0,
+      "y_px": 150.9375
+    },
+    {
+      "source_frame": 18723,
+      "x_px": 940.875,
+      "y_px": 468.0
+    },
+    {
+      "source_frame": 18947,
+      "x_px": 609.875,
+      "y_px": 531.9375
+    },
+    {
+      "source_frame": 18989,
+      "x_px": 464.0625,
+      "y_px": 574.875
+    },
+    {
+      "source_frame": 20883,
+      "x_px": 711.875,
+      "y_px": 413.0
+    },
+    {
+      "source_frame": 20930,
+      "x_px": 723.875,
+      "y_px": 414.0
+    },
+    {
+      "source_frame": 21211,
+      "x_px": 1127.0,
+      "y_px": 488.75
+    }
+  ],
+  "scope": "Image display only. Fixed native-pixel gate chosen after inspection of points 4–6. Selected exclusions and recoveries are visual decisions. Original prediction files were retained. No full-sequence accuracy or automatic exclusion claim."
+}

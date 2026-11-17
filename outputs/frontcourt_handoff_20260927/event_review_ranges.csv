@@ -1,0 +1,5 @@
+candidate_id,event,first_possible_source_frame,last_possible_source_frame,status,evidence,interpretation
+match1_rally_window_044,serve_contact,114740,114760,visual_interval_review_needed,044_contact_0.jpg;044_contact_1.jpg;044_contact_2.jpg,far-side white-orange player serves; ball-racket contact not resolved to one frame
+match1_rally_window_044,point_end,115776,115790,visual_interval_review_needed,044_finish_4k_0.jpg;044_end_1.jpg,near-side black player reaches to right and scoreboard then changes; decisive rule event not localized
+match1_rally_window_056,serve_contact,154081,154086,visual_interval_review_needed,056_contact_0.jpg;056_contact_1.jpg,near-side white-orange player serves; ball-racket contact near overhead swing
+match1_rally_window_056,point_end,154840,154880,visual_interval_review_needed,056_terminal_1.jpg;056_terminal_2.jpg;056_preterminal_3.jpg,near-front player moves from active volley to celebration; decisive rule event not localized

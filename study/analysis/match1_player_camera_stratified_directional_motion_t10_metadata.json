@@ -1,0 +1,13 @@
+{
+  "identity_review": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\match1_target_front_identity_review.csv",
+  "event_timepoint_inputs": [
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\match1_full_match_near_front_final_01_directional_motion_t10_event_timepoints.csv",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\match1_full_match_far_front_final_01_directional_motion_t10_event_timepoints.csv"
+  ],
+  "movement_threshold_px": 10.0,
+  "stratification": [
+    "target_front_player_id",
+    "target_front_camera_end"
+  ],
+  "inference_guard": "Camera-end strata remain separate because screen-pixel displacement is perspective dependent. Counts are descriptive within one match and are not pooled or used for player-independent inference."
+}

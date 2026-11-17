@@ -1,0 +1,109 @@
+{
+  "status": "completed10_matched_same_match_development_cases",
+  "cases": [
+    {
+      "tag": "002",
+      "baseline_far_observations": 581,
+      "far_observations": 581,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 387.25452180089997,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "005",
+      "baseline_far_observations": 612,
+      "far_observations": 612,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 527.941541614248,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "006",
+      "baseline_far_observations": 3454,
+      "far_observations": 3454,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 2278.360078010242,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "009",
+      "baseline_far_observations": 1625,
+      "far_observations": 1625,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 979.3659093477268,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "012",
+      "baseline_far_observations": 603,
+      "far_observations": 603,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 314.8554732748871,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "015",
+      "baseline_far_observations": 1291,
+      "far_observations": 1291,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 599.8512584136179,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "016",
+      "baseline_far_observations": 535,
+      "far_observations": 533,
+      "removed_baseline_boxes": 2,
+      "added_boxes": 0,
+      "path_cost": 298.8177094023787,
+      "same_output_as_baseline": false,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "017",
+      "baseline_far_observations": 1173,
+      "far_observations": 1173,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 629.1794593556247,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "018",
+      "baseline_far_observations": 1204,
+      "far_observations": 1204,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 658.8939338706552,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    {
+      "tag": "019",
+      "baseline_far_observations": 1428,
+      "far_observations": 1421,
+      "removed_baseline_boxes": 7,
+      "added_boxes": 0,
+      "path_cost": 1089.2422780497707,
+      "same_output_as_baseline": false,
+      "candidate_ID_bindings": false
+    }
+  ],
+  "baseline_exact_replays_reused": 10,
+  "protected_sources_unchanged": true,
+  "canonical_pipeline_replaced": false,
+  "independent_identity_accuracy_established": false
+}

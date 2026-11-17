@@ -1,0 +1,288 @@
+{
+  "rows": [
+    {
+      "source_frame": 46501,
+      "slot": "far_rear",
+      "raw_id": "1000005",
+      "overlapping_initial_negative_regions": [
+        {
+          "initial_raw_id": "6",
+          "upper_region_overlap": 1.0,
+          "negative_upper_distance": 0.4893483707058943,
+          "own_upper_distance": 0.8262644153498399,
+          "appearance_margin": 0.33691604464394553,
+          "appearance_veto": true,
+          "spatial_veto": true
+        }
+      ],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.0,
+          "near_distance": 0.7760276018179217,
+          "own_distance": 0.6313178404825242,
+          "appearance_veto": false,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.3557036263010181,
+          "near_distance": 0.7579644801925638,
+          "own_distance": 0.6313178404825242,
+          "appearance_veto": false,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    },
+    {
+      "source_frame": 46502,
+      "slot": "far_rear",
+      "raw_id": "177",
+      "overlapping_initial_negative_regions": [
+        {
+          "initial_raw_id": "6",
+          "upper_region_overlap": 1.0,
+          "negative_upper_distance": 0.4791299663638761,
+          "own_upper_distance": 0.8643771411127064,
+          "appearance_margin": 0.38524717474883025,
+          "appearance_veto": true,
+          "spatial_veto": true
+        }
+      ],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.0,
+          "near_distance": 0.7696801156217867,
+          "own_distance": 0.6518751661595105,
+          "appearance_veto": false,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.3340022188706659,
+          "near_distance": 0.7510094464914349,
+          "own_distance": 0.6518751661595105,
+          "appearance_veto": false,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    },
+    {
+      "source_frame": 46503,
+      "slot": "far_rear",
+      "raw_id": "177",
+      "overlapping_initial_negative_regions": [
+        {
+          "initial_raw_id": "6",
+          "upper_region_overlap": 0.9552290389566782,
+          "negative_upper_distance": 0.5270091332077856,
+          "own_upper_distance": 0.8481581453043202,
+          "appearance_margin": 0.32114901209653457,
+          "appearance_veto": true,
+          "spatial_veto": true
+        }
+      ],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.0,
+          "near_distance": 0.7921012540120062,
+          "own_distance": 0.6928133900956028,
+          "appearance_veto": false,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.2953426679570821,
+          "near_distance": 0.802263054839433,
+          "own_distance": 0.6928133900956028,
+          "appearance_veto": false,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    },
+    {
+      "source_frame": 46505,
+      "slot": "far_rear",
+      "raw_id": "177",
+      "overlapping_initial_negative_regions": [
+        {
+          "initial_raw_id": "6",
+          "upper_region_overlap": 0.8405525289036064,
+          "negative_upper_distance": 0.4647683437141878,
+          "own_upper_distance": 0.8151991765290909,
+          "appearance_margin": 0.3504308328149031,
+          "appearance_veto": true,
+          "spatial_veto": true
+        }
+      ],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.0,
+          "near_distance": 0.7606278349808324,
+          "own_distance": 0.6991597063624309,
+          "appearance_veto": false,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.24764455033135357,
+          "near_distance": 0.7717077906469351,
+          "own_distance": 0.6991597063624309,
+          "appearance_veto": false,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    },
+    {
+      "source_frame": 46511,
+      "slot": "far_rear",
+      "raw_id": "169",
+      "overlapping_initial_negative_regions": [
+        {
+          "initial_raw_id": "6",
+          "upper_region_overlap": 0.6696514831645609,
+          "negative_upper_distance": 0.6320190808387357,
+          "own_upper_distance": 0.6700454906471935,
+          "appearance_margin": 0.03802640980845784,
+          "appearance_veto": false,
+          "spatial_veto": true
+        }
+      ],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.0,
+          "near_distance": 0.7629833038246997,
+          "own_distance": 0.596698785242443,
+          "appearance_veto": false,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.455030405210998,
+          "near_distance": 0.7716378884327426,
+          "own_distance": 0.596698785242443,
+          "appearance_veto": false,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    },
+    {
+      "source_frame": 46634,
+      "slot": "far_rear",
+      "raw_id": "209",
+      "overlapping_initial_negative_regions": [],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.0,
+          "near_distance": 0.7984322491795709,
+          "own_distance": 0.6066116114718898,
+          "appearance_veto": false,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.0,
+          "near_distance": 0.7690934684097164,
+          "own_distance": 0.6066116114718898,
+          "appearance_veto": false,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    },
+    {
+      "source_frame": 46665,
+      "slot": "far_front",
+      "raw_id": "218",
+      "overlapping_initial_negative_regions": [],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.4653082785316621,
+          "near_distance": 0.6681954309011301,
+          "own_distance": 0.7165258927136112,
+          "appearance_veto": true,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "predicted_exclusion_only",
+          "age": 5,
+          "overlap": 0.33244678722701126,
+          "near_distance": 0.6302779770517657,
+          "own_distance": 0.7165258927136112,
+          "appearance_veto": true,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    },
+    {
+      "source_frame": 46666,
+      "slot": "far_front",
+      "raw_id": "218",
+      "overlapping_initial_negative_regions": [],
+      "near_regions": [
+        {
+          "near_slot": "near_front",
+          "kind": "observed",
+          "age": 0,
+          "overlap": 0.4319619295313798,
+          "near_distance": 0.6424618689733563,
+          "own_distance": 0.6889120608438435,
+          "appearance_veto": true,
+          "spatial_veto": false
+        },
+        {
+          "near_slot": "near_rear",
+          "kind": "predicted_exclusion_only",
+          "age": 6,
+          "overlap": 0.2761380247368551,
+          "near_distance": 0.5981404113467481,
+          "own_distance": 0.6889120608438435,
+          "appearance_veto": true,
+          "spatial_veto": false
+        }
+      ],
+      "not_independent_GT": true
+    }
+  ],
+  "no_new_thresholds_or_solver_runs": true,
+  "interpretation": "46511 spatially overlaps an initial negative but does not meet the same-exemplar upper appearance margin.46665/46666 near-rear past-box extrapolation fails the overlap criterion. These are algorithm diagnostics, not recovered ground truth."
+}

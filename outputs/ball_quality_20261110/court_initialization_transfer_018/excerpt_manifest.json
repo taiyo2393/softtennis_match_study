@@ -1,0 +1,13 @@
+{
+  "first_source_frame": 43748,
+  "last_source_frame": 44265,
+  "frames": 518,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "aspect_preserved": true,
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_018\\court_seed_plus_old_guard\\tracking_quality_20261102_stage7\\players_018_global\\global_review_h264.mp4",
+  "sha256": "c0374c3948d36c0b8e00e592cf12aab9ca0f545bd8dcdbc3278b3a733d9b6a5e",
+  "scope": "Known wrong-person result retained for review, not a corrected player-tracking demonstration."
+}

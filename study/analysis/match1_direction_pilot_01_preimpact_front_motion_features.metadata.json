@@ -1,0 +1,22 @@
+{
+  "video_id": "match1",
+  "event_count": 10,
+  "event_outcome_counts": {
+    "front_left": 7,
+    "front_right": 3
+  },
+  "timepoints_sec": [
+    -0.5,
+    -0.3,
+    -0.2,
+    -0.1
+  ],
+  "nominal_fps": 59.94005994005994,
+  "motion_window_ms": 100.0,
+  "motion_window_frames": 6,
+  "median_radius_frames": 1,
+  "direction_review": "softtennis_frontcourt_study\\annotations\\match1_full_match_direction_pilot_01_front_direction_blind_review.csv",
+  "pose_review": "softtennis_frontcourt_study\\annotations\\match1_direction_pilot_01_front_pose_review.csv",
+  "pose": "softtennis_frontcourt_study\\data\\pose\\target_front\\match1_direction_pilot_01_front_pose_yolo11m.csv",
+  "inference_guard": "This file contains only fixed-camera 2-D pre-impact features. It is an exploratory single-match pilot and does not identify a causal effect."
+}

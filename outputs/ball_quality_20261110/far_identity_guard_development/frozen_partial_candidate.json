@@ -1,0 +1,33 @@
+{
+  "status": "experimental_not_adopted",
+  "policy": "v2 corroborated identity veto only for retained unstable_tracklet flag",
+  "stable_tracklet_threshold": 8,
+  "threshold_source": "retained original far parameter",
+  "parameters": {
+    "identity_appearance_max": 0.7,
+    "negative_margin": 0.04,
+    "upper_body_negative_margin": 0.04,
+    "interpolation": false,
+    "near_templates_from_initial_confirmation": true,
+    "background_templates_from_initialization": true,
+    "upper_negative_requires_same_exemplar_whole_body_support": true,
+    "upper_negative_whole_body_slack": 0.04,
+    "gate_only_unstable_tracklets": true,
+    "stable_tracklet_min_observations": 8
+  },
+  "code_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\far_identity_guard.py": "add70f63a91d37bffee794a444e91d47797d7ca31419196439e92ac57c5cce50",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\far_identity_guard_v2.py": "a5d4e801eb920310e407e47d53a91b10b88d32181f46115837c94ece19c3861b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\run_far_identity_guard_trial_v3.py": "c8ec41037ee52ae70dd4962786cd6a8f9cb4f516f5243bce05f9a6cccf8a2881"
+  },
+  "known_residual_failures": [
+    46511,
+    46634
+  ],
+  "known_control_observation_loss": [
+    40625,
+    40626
+  ],
+  "candidate_needing_resolution": "match1_rally_window_019",
+  "independent_GT": false
+}

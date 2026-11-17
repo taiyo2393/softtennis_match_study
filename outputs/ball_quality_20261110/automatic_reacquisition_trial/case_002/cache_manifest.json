@@ -1,0 +1,12 @@
+{
+  "raw_source_sha256": "449d4c2c1eaa9f4601dc382511ffe87a92fb8710faebe12bad4a9f3a911b4886",
+  "feature_shape": [
+    4924,
+    2,
+    192
+  ],
+  "decoded_frames": 355,
+  "cache_sha256": "2b9423f771a85ac23d3e255c10e042144e67e0ea0f727fc52ab2a9dec9fcd0ea",
+  "detections_sha256": "449d4c2c1eaa9f4601dc382511ffe87a92fb8710faebe12bad4a9f3a911b4886",
+  "resize": "cv2.resize1920x1080 default INTER_LINEAR, identical retained appearance pipeline."
+}

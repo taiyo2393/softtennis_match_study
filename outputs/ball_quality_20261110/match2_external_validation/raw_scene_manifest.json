@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "requested_sec": 0,
+      "source_frame": 0,
+      "filename": "raw_0000s_F0.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 15,
+      "source_frame": 899,
+      "filename": "raw_0015s_F899.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 30,
+      "source_frame": 1798,
+      "filename": "raw_0030s_F1798.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 45,
+      "source_frame": 2697,
+      "filename": "raw_0045s_F2697.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 60,
+      "source_frame": 3596,
+      "filename": "raw_0060s_F3596.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 120,
+      "source_frame": 7193,
+      "filename": "raw_0120s_F7193.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 300,
+      "source_frame": 17982,
+      "filename": "raw_0300s_F17982.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 900,
+      "source_frame": 53946,
+      "filename": "raw_0900s_F53946.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 1800,
+      "source_frame": 107892,
+      "filename": "raw_1800s_F107892.jpg",
+      "tracker_overlay": false
+    },
+    {
+      "requested_sec": 2700,
+      "source_frame": 161838,
+      "filename": "raw_2700s_F161838.jpg",
+      "tracker_overlay": false
+    }
+  ]
+}

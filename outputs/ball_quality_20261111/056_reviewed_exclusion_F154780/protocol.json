@@ -1,0 +1,20 @@
+{
+  "date_jst": "2026-11-11",
+  "purpose": "Apply exactly one human-confirmed other-object rejection as a separate display/analysis overlay.",
+  "rule": "Only source154780 display point becomes unlocated. Keep original raw observation fields and all other rows. Do not replace it with adjacent interpolation. Redraw same401source frames with confirmation status.",
+  "source_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\apply_056_other_object_review.py": "80497d339b09f76f8c835ba2ff11c105558b105e7312be2a2976525044473ee0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\render_056_transfer_routes.py": "e1fc5a1b96e9144565005ffa236d22a9c289e825455facf69630a475eb6aa887",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_route_transfer\\publication_hashes.json": "fc011d16b3d2d687bcc77420719f10ae7f6ef7ccc94ed69f7f9de981114f8a6b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_route_transfer\\observed_and_estimated_image_path.csv": "ca730e8465cdd37c1be94f7d3540b08d3804a057329cc29cf6b2f9a57f42d6b7"
+  },
+  "protected_prior_files_unchanged": true,
+  "other_stroke_bounce_and_player_data_unchanged": [
+    "player_court_proxies.csv",
+    "AI_stroke_records.csv",
+    "bounce_court_points.csv",
+    "schematic_court_routes.csv"
+  ],
+  "original_assisted_answers_retained": true,
+  "new_human_true_ball_centers": 0
+}

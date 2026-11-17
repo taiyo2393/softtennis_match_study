@@ -1,0 +1,142 @@
+{
+  "video_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "source_frame": 492,
+  "source_frame_indexing": "zero_based_frame_index_used_by_OpenCV",
+  "image_size_px": {
+    "width": 3840,
+    "height": 2160
+  },
+  "preview_size_px": {
+    "width": 1440,
+    "height": 810
+  },
+  "point_order": [
+    "1. 奥側・画面左のベースラインとダブルスサイドラインの交点",
+    "2. 奥側・画面右のベースラインとダブルスサイドラインの交点",
+    "3. 手前側・画面右のベースラインとダブルスサイドラインの交点",
+    "4. 手前側・画面左のベースラインとダブルスサイドラインの交点",
+    "5. ネットと画面左のダブルスサイドラインの交点（検証用）",
+    "6. ネットと画面右のダブルスサイドラインの交点（検証用）"
+  ],
+  "preview_points_px": [
+    [
+      537.605,
+      456.073
+    ],
+    [
+      896.807,
+      450.097
+    ],
+    [
+      1327.849,
+      616.44
+    ],
+    [
+      114.545,
+      628.392
+    ],
+    [
+      449.8,
+      493.525
+    ],
+    [
+      992.594,
+      487.549
+    ]
+  ],
+  "image_points_px": [
+    [
+      1433.614,
+      1216.195
+    ],
+    [
+      2391.485,
+      1200.258
+    ],
+    [
+      3540.931,
+      1643.839
+    ],
+    [
+      305.454,
+      1675.713
+    ],
+    [
+      1199.468,
+      1316.067
+    ],
+    [
+      2646.918,
+      1300.13
+    ]
+  ],
+  "court_coordinates": {
+    "definition": "normalized court plane: x 0=screen-left sideline, 1=screen-right sideline; y 0=near baseline, 1=far baseline",
+    "corner_points": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "held_out_net_points": [
+      [
+        0.0,
+        0.5
+      ],
+      [
+        1.0,
+        0.5
+      ]
+    ]
+  },
+  "image_to_court_homography": [
+    [
+      -0.00019720284855814248,
+      -0.00048415148282228556,
+      0.8715355552499671
+    ],
+    [
+      3.923626305967693e-06,
+      0.0003982789533628171,
+      -0.6685998113735854
+    ],
+    [
+      -1.8464452503646723e-05,
+      -0.0009473140844495303,
+      1.0
+    ]
+  ],
+  "validation": {
+    "method": "net/sideline points 5-6 are not used to fit the homography",
+    "mapped_held_out_net_points": [
+      [
+        0.008104000240564346,
+        0.5196869969367981
+      ],
+      [
+        0.9978560209274292,
+        0.5005239844322205
+      ]
+    ],
+    "errors_in_normalized_court_units": [
+      0.021289,
+      0.002207
+    ],
+    "maximum_error_in_normalized_court_units": 0.021289,
+    "acceptance_rule": "maximum error <= 0.03 normalized court units",
+    "status": "usable"
+  },
+  "analysis_guard": "This fixed-camera calibration permits near/far pooling only after ankle positions are transformed to the court plane. It does not validate player identity, impact labels, or causal/anticipation interpretations."
+}

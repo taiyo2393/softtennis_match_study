@@ -1,0 +1,49 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "frames": [
+    26224,
+    26230,
+    26236,
+    26242,
+    26248,
+    26254,
+    26260,
+    26266,
+    26272,
+    26278,
+    26284,
+    26290,
+    26296,
+    26302,
+    26308,
+    26314
+  ],
+  "native_crop_xyxy": [
+    2850,
+    650,
+    3840,
+    1900
+  ],
+  "aspect_preserved": true,
+  "images": {
+    "F26224_raw.jpg": "c95ed08e82e3926b026b18ac4d6eabab59b9653a8b3679d7bf98eeed2111fc38",
+    "F26230_raw.jpg": "bb876ee462f9886b535b636b276bb33c08a105ccc55443498867921c0deeaee1",
+    "F26236_raw.jpg": "5ce2efa5419524b8611783f3945813ddda551fbfe8fa58d8d4456051bf975dfa",
+    "F26242_raw.jpg": "88236e59e52046d70a99094d788b953891996acb24a946efd1b043906fc6feeb",
+    "F26248_raw.jpg": "49901371802d37a14768bdcafa20c30435e1cee11fcb1201ab772bef4508db33",
+    "F26254_raw.jpg": "70a5c1e6b338414a022cdf9e81d2174681af68a4553488317d8a65169d9b0272",
+    "F26260_raw.jpg": "9c63452c908270126e2348229e21eba14e642e9008a74b5c96c0728a46a20d6c",
+    "F26266_raw.jpg": "5d2286661e17e5d8db9c8cce32e896b29ce63baac096b0c7faf71fb7d39293c7",
+    "F26272_raw.jpg": "368a6a721688270209e236a3fca0ceeb9a2ef4cf0e34f6a9faccaf54385f18af",
+    "F26278_raw.jpg": "4cc9c20da95bf35b16d03a23c929e56702eed7c55a8386408330723cb7e5346e",
+    "F26284_raw.jpg": "77655723158c1d9ad33a4d4d1678302a27fb657ab325af1dec04be30769a5bdb",
+    "F26290_raw.jpg": "31d4e80f7ac5ef2421128d04a525d18b5df5c1eaab4c291a642a4c5ee5b6929e",
+    "F26296_raw.jpg": "61ab9bb0fb2d61e63bf6078fcb87460fddab6b426ebf510b640cb4a6c42affad",
+    "F26302_raw.jpg": "37d355ce65c77c628afaa94749d31b57a7ee100d7e6d61a710007138836e1ff1",
+    "F26308_raw.jpg": "7c6aafd72226c84083b1c0c95dd3fcc9c1fc6def8deb35bd2434a800e0aefc53",
+    "F26314_raw.jpg": "c40956cac6681642e6475fc9699ccb424bb08b8b54a51f18d59f820a2236d835",
+    "page_01.jpg": "caaef225af6b7bcc585cc0fc95636656b02b694f398e4f4ca70919d4efe9673b"
+  },
+  "script_sha256": "d864bb927b20c46dd45b30f2fe23260879c8bccc7f71996b6ebc2b4723e2179b",
+  "independent_GT": false
+}

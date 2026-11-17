@@ -1,0 +1,29 @@
+{
+  "roles": {
+    "known_other_object_coordinate_diagnostic": {
+      "crop_heatmap_candidate_unconfirmed": 1
+    },
+    "previously_ball_enclosing_candidate": {
+      "missing": 1,
+      "crop_heatmap_candidate_unconfirmed": 18
+    },
+    "previously_unresolved_gap": {
+      "missing": 8,
+      "crop_heatmap_candidate_unconfirmed": 2
+    }
+  },
+  "new_unconfirmed_gap_candidates": 2,
+  "review_frames": [
+    154270,
+    154324
+  ],
+  "all_proposed_gap_frames": [
+    154270,
+    154324
+  ],
+  "new_human_ball_labels": 0,
+  "new_interpolated_output_positions": 0,
+  "original_positions_or_labels_changed": 0,
+  "old_publications_unchanged": true,
+  "independent_accuracy_established": false
+}

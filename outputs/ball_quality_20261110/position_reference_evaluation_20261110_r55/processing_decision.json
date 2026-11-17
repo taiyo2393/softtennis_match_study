@@ -1,0 +1,25 @@
+{
+  "status": "manual_reference_pilot_complete_warning_only_policy_retained",
+  "automatic_position_mask_adopted": false,
+  "reason": "Uniform sample has identical conditional error under both policies. In the only evaluable known-warning pair the original agrees with manual reference and masking makes the pair unavailable. Other warning examples have unplaceable references, not proven coordinate errors.",
+  "warning_layer_retained_as_diagnostic": true,
+  "known_warning_outcomes_not_called_precision": true,
+  "coarse_manual_reference_not_surveyed_ground_truth": true,
+  "next_priorities": [
+    "Investigate006 initialization delay while keeping originally requested input times.",
+    "Diagnose the bbox-bottom versus shoe-reference definition and direction of differences before any correction.",
+    "Use separate data/references for later method selection validation; do not tune an offset or mask threshold to these13 images."
+  ],
+  "canonical_tracking_replaced": false,
+  "current22_inputs_unchanged": true,
+  "confirmed_human_winner_labels": 11,
+  "new_position_reference_fields": 52,
+  "position_reference_points": 48,
+  "position_unplaceable_fields": 4,
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "next_unresolved_candidate": "match1_rally_window_019",
+  "ID_continuity_accuracy_established": false,
+  "independent_match_accuracy_established": false,
+  "outcome_model_fitted": false
+}

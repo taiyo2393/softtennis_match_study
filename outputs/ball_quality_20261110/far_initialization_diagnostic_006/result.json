@@ -1,0 +1,182 @@
+{
+  "cases": [
+    {
+      "tag": "002",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "2": 21,
+        "3": 1,
+        "1": 9
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "6": 24,
+        "5": 6,
+        "7": 1
+      },
+      "actual_far_output_count_histogram": {
+        "2": 22,
+        "1": 9
+      }
+    },
+    {
+      "tag": "005",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "1": 2,
+        "2": 28,
+        "3": 1
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "6": 8,
+        "7": 16,
+        "8": 7
+      },
+      "actual_far_output_count_histogram": {
+        "1": 2,
+        "2": 29
+      }
+    },
+    {
+      "tag": "006",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "1": 13,
+        "2": 18
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "5": 14,
+        "6": 17
+      },
+      "actual_far_output_count_histogram": {
+        "0": 20,
+        "2": 11
+      }
+    },
+    {
+      "tag": "009",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "1": 10,
+        "2": 21
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "6": 21,
+        "7": 10
+      },
+      "actual_far_output_count_histogram": {
+        "1": 15,
+        "2": 16
+      }
+    },
+    {
+      "tag": "012",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "2": 31
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "7": 31
+      },
+      "actual_far_output_count_histogram": {
+        "2": 31
+      }
+    },
+    {
+      "tag": "015",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "2": 31
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "6": 31
+      },
+      "actual_far_output_count_histogram": {
+        "2": 31
+      }
+    },
+    {
+      "tag": "016",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "2": 31
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "6": 18,
+        "5": 13
+      },
+      "actual_far_output_count_histogram": {
+        "2": 31
+      }
+    },
+    {
+      "tag": "017",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "2": 28,
+        "1": 3
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "6": 28,
+        "5": 3
+      },
+      "actual_far_output_count_histogram": {
+        "2": 28,
+        "1": 3
+      }
+    },
+    {
+      "tag": "018",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "2": 31
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "6": 31
+      },
+      "actual_far_output_count_histogram": {
+        "2": 31
+      }
+    },
+    {
+      "tag": "019",
+      "requested_times": 31,
+      "seed_candidate_count_histogram": {
+        "1": 8,
+        "2": 23
+      },
+      "broad_after_near_overlap_count_histogram": {
+        "5": 10,
+        "6": 21
+      },
+      "actual_far_output_count_histogram": {
+        "1": 10,
+        "2": 21
+      }
+    }
+  ],
+  "first_independent_far_seed_confirmation": {
+    "source_frame": 10465,
+    "window_start": 10458,
+    "raw_ids": [
+      4,
+      1000103
+    ],
+    "not_an_identity_ground_truth": true
+  },
+  "review_frames": [
+    10430,
+    10465,
+    10536,
+    10546,
+    10574,
+    10575,
+    10596
+  ],
+  "P011_far_reference_states": {
+    "far_left": "point",
+    "far_right": "unplaceable"
+  },
+  "selected_native_or_ID_outputs_added": 0,
+  "analysis_inputs_changed": false,
+  "independent_accuracy_established": false
+}

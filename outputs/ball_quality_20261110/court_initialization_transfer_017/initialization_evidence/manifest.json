@@ -1,0 +1,39 @@
+{
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "calibration": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json",
+  "calibration_sha256": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+  "images": [
+    {
+      "source_frame": 41846,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 3,
+        "far_rear": 4,
+        "far_front": 5
+      },
+      "modes": [
+        "baseline",
+        "old_guard"
+      ],
+      "image_file": "initialization_01_F41846.jpg",
+      "sha256": "22ea48eac4ccc0379355d899fd9bffd75c185e3c3fd7ede5128932f012e4b1c3"
+    },
+    {
+      "source_frame": 41845,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 3,
+        "far_rear": 4,
+        "far_front": 5
+      },
+      "modes": [
+        "court_seed_only",
+        "court_seed_plus_old_guard"
+      ],
+      "image_file": "initialization_02_F41845.jpg",
+      "sha256": "0bda468991d23018620bc6bada859d11f1e928416ebe1e5470f9e8da787e6bd5"
+    }
+  ],
+  "script_sha256": "ebd4681b6502df33523a9d91e7e5f35aa72963d1d03bb23f408c1c40b5e3edae",
+  "independent_calibration_transfer_accuracy_established": false
+}

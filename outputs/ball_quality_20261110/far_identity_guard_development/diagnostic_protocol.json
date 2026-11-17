@@ -1,0 +1,43 @@
+{
+  "candidate": "019",
+  "purpose": "Diagnosis before new guard outputs; no independent GT. Score all existing far observations, flag earlier AI-diagnosed probes separately.",
+  "current_far_parameters": {
+    "beam_width": 48,
+    "options_per_person": 4,
+    "appearance_max": 0.7,
+    "missing_cost": 0.9,
+    "uncertainty_height_base": 0.25,
+    "uncertainty_per_missing_frame": 0.03,
+    "max_motion_normalized": 6.0,
+    "velocity_retention_missing": 0.98,
+    "observation_feature_weight": 0.8,
+    "motion_weight": 0.35,
+    "detector_id_change_cost": 0.04,
+    "pair_overlap_max": 0.55,
+    "stable_tracklet_min_observations": 8,
+    "tracklet_split_gap": 4,
+    "tracklet_jump_base_height": 0.4,
+    "tracklet_jump_per_frame_height": 0.3,
+    "bridge_max_frame_delta": 30,
+    "bridge_context_observations": 5,
+    "bridge_min_context": 3,
+    "bridge_two_sided_error_max_height": 0.75,
+    "scope": "offline_development_not_independent_evaluation"
+  },
+  "existing_negative_margin": 0.04,
+  "anchor_window": [
+    45824,
+    45831
+  ],
+  "scope": "Same-match development; upper/lower clothing histograms are cues, not learned person ReID.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\diagnose_far_identity_failures.py": "c5ae41d5dd313f0776fee27823cd4d3d8660c64b3de960894acb9f58d6d49313",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\gap_pair_tracking.py": "0e0da9818ddf3c010061f0167b34ba213b26fd236951d365ec97d6fddb0a08b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\four_player_association.py": "363808475eb2dc12e8322ed3f753b81af81d1b2c66ce47d24e10377c528bf5e9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\pair_initialization_transfer_019\\AI_failure_probes.csv": "5478eac258606ad875cfc4b8af209a6438d0373029f41f810a20cccec18c477b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\pair_initialization_transfer_019\\cached_detections.csv": "404174b290a068b4e320ca1c420c279a6543906b7f02ddc615833ad081538879",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\pair_initialization_transfer_019\\appearance_cache.npz": "c6dcf9205fe849349cb27db0400012d4db12eb39da1a23c48708af1e6ebb77d8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_019\\four_player_path.csv": "577ad8966ba09bfbb2373f3395705ef5ae769eaa6a07594db1acd63edcc055eb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_019\\tracking_quality_20261102_stage4\\players_019_temporal\\events.json": "42d94773fe8cd4ad7a9e2d217f40fe8bc7c38a39e29ace54712d099c57918bc9"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "calibration_anchor_source_frame": 54006,
+  "cases": [
+    {
+      "source_frame": 3656,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_001_ref1_F3656.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 4046,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_001_ref2_F4046.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 4436,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_001_ref3_F4436.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 18042,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_002_ref1_F18042.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 18432,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_002_ref2_F18432.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 18821,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_002_ref3_F18821.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 54006,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_003_ref1_F54006.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 54396,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_003_ref2_F54396.png",
+      "role": "frozen_raw_reference"
+    },
+    {
+      "source_frame": 54785,
+      "image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_003_ref3_F54785.png",
+      "role": "frozen_raw_reference"
+    }
+  ],
+  "parameters": {
+    "line_band_px": 8,
+    "white_value_min": 210,
+    "white_saturation_max": 80,
+    "minimum_white_pixels": 100,
+    "coverage_bins": 20,
+    "minimum_bin_coverage": 0.6,
+    "maximum_line_median_residual_px": 3,
+    "fit": "cv2.fitLine L1",
+    "description": "Engineering proposal fixed before line results, no threshold sweep. Raw main-frame calibration supplied by AI coarse painted-line endpoints."
+  },
+  "AI_proposed_coarse_native_line_endpoints": {
+    "far": [
+      [
+        682,
+        533
+      ],
+      [
+        1238,
+        536
+      ]
+    ],
+    "right": [
+      [
+        1238,
+        536
+      ],
+      [
+        1880,
+        805
+      ]
+    ],
+    "near": [
+      [
+        49,
+        796
+      ],
+      [
+        1880,
+        805
+      ]
+    ],
+    "left": [
+      [
+        49,
+        796
+      ],
+      [
+        682,
+        533
+      ]
+    ]
+  },
+  "corner_order": [
+    "far_left",
+    "far_right",
+    "near_right",
+    "near_left"
+  ],
+  "normalized_plane": "x0 screen-left doubles sideline,x1 right; y0 near baseline,y1 far baseline",
+  "raw_image_viewing_used": true,
+  "person_ball_predictions_or_outcomes_used": false,
+  "line_pixel_thresholds_fixed_before_outputs": true,
+  "reused_old_match_camera_calibration": false,
+  "output": "Geometry proposal and camera-line compatibility flag; not independent camera or tracking accuracy.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\fit_match2_court_geometry.py": "83d3a002e046e48d0691b06270281a39d4167626ddf4d80adb65279074f6f908",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_camera_setup\\protocol.json": "e3dc3e90bf51b037afc098cc6f90ccb743c57a1fe76f4a291e0b259ba5bc63cc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\publication_hashes.json": "01a989a589ddd2c919965c8959e0c4fbca1b89e729ea14520afc3b2a605f22ab",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\raw_reference_pilot\\match2_fixed_clip_003_ref1_F54006.png": "9d6e6d14d05b6b86187141ee4b30e71017fd8fa690b9a288223876ec74e571be"
+  }
+}

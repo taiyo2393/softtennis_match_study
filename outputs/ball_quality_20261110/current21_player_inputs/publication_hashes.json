@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "a71fabf3407275a7c7a54d41979f9e4097250915e0e0174f0bbcdac8ca8d5fdf",
+  "additional_verification.json": "83561b4f7c025e743bb14e458cd34367209cb66359f45728c0f84b08717a7907",
+  "B1_server_side.csv": "eb7c198b27ee186205cf4c2ab3e17b32eac78d2a194381f4eeb7b74ab18cdc95",
+  "B2_snapshot.csv": "d7a5c69c4c075eba3c60d55cdc48e8da2c1a73ba698f31ba86dff26797504105",
+  "B2_window_means.csv": "a1d3e746595984efedb38c360e43b1a1037c0a908d5f122f5a3d9745856e6aee",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "70097cba550626bc4fbb0bb22cff2926ad612d4cf87a8c8ec8c8d1b1bf8fa4b9",
+  "diagnostic_window_masks_only.csv": "d0a15bc245a77d9102fb8692a672c92a1749b27627e19d072b02f2b7146dfd25",
+  "executed_source.py": "73be7c1fb554b899ef43d923eab10a7f43e35e539e9e1ca49044cb5bc4d8f926",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "5cfeccb43c1d91272abca260d2264bd6df9033ba03f5a1666eb108c0d47b98b5",
+  "human_outcomes.csv": "d691f07301bf1783c5a2dfa2aca725c36811e2e899eb70a6b8a8af5325f78b42",
+  "outcome_label_status.csv": "f4d081ae136cba86ccaafe3a853789baaa673453c29e55d114ad3b03a0ce18e4",
+  "processing_interventions.csv": "756266c6e94fbcd4ba48dc2a2ab9b5d54f41432ecff33c2253fa482d691639e7",
+  "protocol.json": "578690a42d6ca9c0e3142c246f36a56bcb9b778a86ddabb1bef5e1496541a0dc",
+  "rally_metadata.csv": "e23f56867c3339463e968fafe1e0317be8db5734861374398e656b049067bf29",
+  "README.md": "a1e540a22087b68a6f0face4c5c16523bad05fc564e58d839b1cc6c51f4d80c9",
+  "result.json": "2c1c85da64d5be3e15607519f3913649ae36e2b312f9bce5fd8d1e7208ef2d3b",
+  "source_snapshot_features.csv": "dedb08a344cc62cf14219ae5343cb3a0e13a2ab0de035a9d6b0d5b5fe8b732ea",
+  "source_window_summary_features.csv": "58359bd38fc3ddeb76940d1914abdb98ba0322f9a095906cb6aac6408177f341",
+  "verification.json": "94cc2b06c2cb7874cfe778ab9123888a537b31bb6b343ccbdaccc491b339d08a"
+}

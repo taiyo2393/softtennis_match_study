@@ -1,0 +1,37 @@
+{
+  "status": "not_adopted_validation_true_ball_lost",
+  "chosen_configuration": {
+    "name": "unknown1.2_switch0.25",
+    "unknown_cost": 1.2,
+    "switch_cost": 0.25
+  },
+  "training_false_positions_changed_to_unknown": 2,
+  "training_correct_positions_preserved": 66,
+  "validation_correct_before": 81,
+  "validation_correct_after": 80,
+  "validation_errors_before": 2,
+  "validation_errors_after": 2,
+  "lost_true_ball_sample": "match1_motion_pilot_013_frame_000375",
+  "challenge_correct_before": 4,
+  "challenge_correct_after": 4,
+  "six_known_false_candidates_rejected": [
+    470
+  ],
+  "six_known_false_candidates_retained": [
+    463,
+    464,
+    465,
+    467,
+    554
+  ],
+  "audit_executed": false,
+  "post_validation_parameter_search": false,
+  "all_kept_coordinates_identical_to_prior_temporal_selector": true,
+  "all_priors_reproduced_exactly": true,
+  "manual_six_exclusions_unchanged": true,
+  "operational_registries_unchanged": true,
+  "model_and_threshold_unchanged": true,
+  "error_reduction_is_not_ball_position_recovery": true,
+  "unknown_is_not_a_physical_absence_label": true,
+  "next": "Retain frozen temporal selector and explicit six human exclusions. Need evidence beyond confidence/continuity for stable false objects; no stricter gate tuned to these six cases."
+}

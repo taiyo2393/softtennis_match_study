@@ -1,0 +1,9 @@
+{
+  "status": "source_and_preflight_verified_before_tracking",
+  "file_received": true,
+  "decoded_and_hashed": true,
+  "new_match_tracking_outputs_created": false,
+  "independent_accuracy_evaluation_completed": false,
+  "next": "Resolve main-camera/zoom eligibility and new-camera calibration before applying the frozen tracker. Review actual in-play chronology before rally selection; preserve the preflight windows including closeups.",
+  "original_videos_or_old_labels_changed": false
+}

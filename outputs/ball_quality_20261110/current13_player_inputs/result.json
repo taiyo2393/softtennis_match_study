@@ -1,0 +1,38 @@
+{
+  "status": "expanded_comparison_inputs_constructed",
+  "candidates": 13,
+  "added_candidate": "match1_rally_window_009",
+  "outcome_counts": {
+    "near": 7,
+    "far": 4,
+    "unknown": 2
+  },
+  "fixed30_constructed_inputs": 10,
+  "fixed30_pending_inputs": 20,
+  "next_candidate": "match1_rally_window_010",
+  "new_case_four_observation_times": 16,
+  "new_case_requested_times": 31,
+  "added_case_AI_identity_binding": true,
+  "confirmed_human_outcome_rows": 11,
+  "pending_outcome_rows": 2,
+  "model_fitting_performed": false,
+  "performance_estimated": false,
+  "ball_comparison_ready": false,
+  "new_human_annotation_requested": false,
+  "canonical_tracking_changed": false,
+  "artifact_hashes": {
+    "B1_server_side.csv": "3f16d95e413eee21e72d85b6902b7d70a8a1fae652cf36bbfab0e7a0429d5ff9",
+    "B2_snapshot.csv": "35733d7e26f7e0329459dec0de50a0ee92c900a074ab934a55fcb9190c016366",
+    "B2_window_means.csv": "01b1f78efe7be8fdaf49fea18eeeaf614a54b09f3ddd6f6e82bfb38622eeba04",
+    "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+    "diagnostic_snapshot_masks_only.csv": "c490768141994b52e8e8902b247272c699a6dcee9a3b48b65ece7fd22dcc852d",
+    "diagnostic_window_masks_only.csv": "cbc9f39f4904632a6796d0f2b2a8d022f64aa5f6f0b0da81f8f8f9a85288e848",
+    "fixed30_processing_progress.csv": "bee01ee3b2871b0705fbb390f80f6c63c4d796dca645f8457f3e377c0edb060d",
+    "human_outcomes.csv": "55b31583482bf5aaa4a73d538edb40ade45137f51181cd05c9224d5ab03c8c25",
+    "outcome_label_status.csv": "47715f1497a26de81cfb366e01cbd2fb919a38fc2d178cc146c82a5e77d86cab",
+    "processing_interventions.csv": "90303ff6174ab94333a606d64e06a671369b9ac5ad6b1a821c1d92a293151b0d",
+    "rally_metadata.csv": "6ea6f57e4c3de5f22fad26415f0e19c2957bcd932ccfe4bce9b7c5957858a2c3",
+    "source_snapshot_features.csv": "30d663da310502c4df59fbdca250ad58bea7e19fc6255be8b6d4d1f6565f5fd9",
+    "source_window_summary_features.csv": "8506ddea19360c88a586b986ac2a6df17064fed4e038d871da5c9bf0eed5f454"
+  }
+}

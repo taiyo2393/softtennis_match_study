@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "source_clock_reference_sheets_byte_exact": true,
+  "source_video_hash_verified": true,
+  "raw_source_cached_images_exact": 803,
+  "native_median_pixelwise_verified": true,
+  "original_weights_verified": true,
+  "replayed_original_model_heatmaps": 800,
+  "reconstructed_original_decoder_outputs": 800,
+  "target_times_verified": 376,
+  "context_decoded_frames": 803,
+  "real_labels_unmodified": true,
+  "real_timing_not_started": true,
+  "new_training": false,
+  "script_sha256": "54aa09d1d6868046ebc97b7df1c41b903385a490cf925cfd8f9405949807d14b",
+  "synthetic_http_valid_saves": 2,
+  "synthetic_invalid_saves_rejected": 4,
+  "synthetic_history_exact": true,
+  "synthetic_timing_start_pause": true,
+  "real_http_images_exact": 376,
+  "real_http_video_ranges": 2,
+  "real_invalid_saves_rejected": 3
+}

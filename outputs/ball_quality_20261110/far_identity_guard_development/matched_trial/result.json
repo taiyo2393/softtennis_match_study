@@ -1,0 +1,309 @@
+{
+  "status": "completed10_matched_same_match_development_cases",
+  "cases": [
+    {
+      "tag": "002",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 581,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 387.25452180089997,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 565,
+          "removed_baseline_boxes": 16,
+          "added_boxes": 0,
+          "path_cost": 391.1899228300573,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 559,
+          "removed_baseline_boxes": 22,
+          "added_boxes": 0,
+          "path_cost": 393.1659320823288,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "005",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 612,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 527.941541614248,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 607,
+          "removed_baseline_boxes": 6,
+          "added_boxes": 1,
+          "path_cost": 529.1494036108198,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 591,
+          "removed_baseline_boxes": 23,
+          "added_boxes": 2,
+          "path_cost": 534.1148735889532,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "006",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 3454,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 2278.360078010242,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 3377,
+          "removed_baseline_boxes": 77,
+          "added_boxes": 0,
+          "path_cost": 2302.5548947561874,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 3306,
+          "removed_baseline_boxes": 150,
+          "added_boxes": 2,
+          "path_cost": 2321.1554786632387,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "009",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 1625,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 979.3659093477268,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 1520,
+          "removed_baseline_boxes": 106,
+          "added_boxes": 1,
+          "path_cost": 1009.0838028760622,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 1418,
+          "removed_baseline_boxes": 208,
+          "added_boxes": 1,
+          "path_cost": 1040.650845175181,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "012",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 603,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 314.8554732748871,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 596,
+          "removed_baseline_boxes": 7,
+          "added_boxes": 0,
+          "path_cost": 316.8588226785175,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 570,
+          "removed_baseline_boxes": 33,
+          "added_boxes": 0,
+          "path_cost": 323.7964455075573,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "015",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 1291,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 599.8512584136179,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 1291,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 599.8512584136179,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 1288,
+          "removed_baseline_boxes": 3,
+          "added_boxes": 0,
+          "path_cost": 600.742086042241,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "016",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 535,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 298.4053479000211,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 535,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 298.4053479000211,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 426,
+          "removed_baseline_boxes": 109,
+          "added_boxes": 0,
+          "path_cost": 333.60935253529357,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "017",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 1173,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 629.1794593556247,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 1122,
+          "removed_baseline_boxes": 51,
+          "added_boxes": 0,
+          "path_cost": 638.0904725095162,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 1081,
+          "removed_baseline_boxes": 92,
+          "added_boxes": 0,
+          "path_cost": 651.8176538643899,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "018",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 1204,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 658.8939338706552,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 1149,
+          "removed_baseline_boxes": 55,
+          "added_boxes": 0,
+          "path_cost": 673.9162460012163,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 1139,
+          "removed_baseline_boxes": 65,
+          "added_boxes": 0,
+          "path_cost": 677.0820393784962,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    },
+    {
+      "tag": "019",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "far_observations": 1428,
+          "removed_baseline_boxes": 0,
+          "added_boxes": 0,
+          "path_cost": 1089.0889303122601,
+          "same_output_as_baseline": true,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_guard": {
+          "far_observations": 1338,
+          "removed_baseline_boxes": 90,
+          "added_boxes": 0,
+          "path_cost": 1115.3887708090401,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        },
+        "slot_near_upper_guard": {
+          "far_observations": 1264,
+          "removed_baseline_boxes": 164,
+          "added_boxes": 0,
+          "path_cost": 1136.254099654798,
+          "same_output_as_baseline": false,
+          "candidate_ID_bindings": false
+        }
+      }
+    }
+  ],
+  "baseline_exact_replays": 10,
+  "protected_sources_unchanged": true,
+  "canonical_pipeline_replaced": false,
+  "independent_identity_accuracy_established": false
+}

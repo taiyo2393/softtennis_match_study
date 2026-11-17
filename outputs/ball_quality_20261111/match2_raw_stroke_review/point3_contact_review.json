@@ -1,0 +1,12 @@
+{
+  "point": 3,
+  "display_id": "N2",
+  "first_source_frame": 15496,
+  "last_source_frame": 15500,
+  "racket_contact": "no_contact",
+  "review_source": "user_followup_on_raw_detail_video",
+  "user_response": "触れていない",
+  "review_clip": "point3_contact_raw_detail.mp4",
+  "review_clip_sha256": "c9a8d6a38db7eb967b7f0bd852f72e8029335cd4c822d4f7d6e49f46bf19f6a7",
+  "display_note": "終盤のN2は接触なし（確認済み）"
+}

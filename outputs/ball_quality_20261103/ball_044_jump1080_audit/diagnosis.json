@@ -1,0 +1,34 @@
+{
+  "user_report": "1080 frame vicinity is unstable",
+  "status": "localized_review_pending",
+  "input_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "input_sha256": "83d6bf859b499a016b5a160cecf4c118ba6b647d825c8443cfba8c4167773479",
+  "source_frame_offset": 114635,
+  "displayed_local_frames": [
+    1068,
+    1106
+  ],
+  "suspect_output_frames": [
+    1082,
+    1084,
+    1086,
+    1087,
+    1088
+  ],
+  "output1080_to1082_distance_px": 81.8413098624405,
+  "interval_before1080_without_output": [
+    1057,
+    1079
+  ],
+  "weak_alternative_frames": [
+    1081,
+    1082
+  ],
+  "weak_alternatives_confirmed_ball": false,
+  "note": "The23-frame output gap prevents a secure incoming track anchor. Pixel jumps and proximity to player/racket alone do not prove false detection. No blanket smoothing, extrapolation or suppression applied.",
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\jump1080_review_h264.mp4",
+  "video_sha256": "e9f4945059bcddf1120c4955a824f64638638fb6c552f3d2899c76f8ef65f98a",
+  "decoded_frames": 438,
+  "authoritative_inputs_unchanged": true,
+  "independent_accuracy_established": false
+}

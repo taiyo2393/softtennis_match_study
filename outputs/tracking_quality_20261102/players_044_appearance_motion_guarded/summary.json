@@ -1,0 +1,74 @@
+{
+  "candidate_id": "044",
+  "method": "appearance_motion_guarded",
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "first_frame": 114710,
+  "last_frame": 115744,
+  "frames": 1035,
+  "seeds": {
+    "near_front": 2,
+    "near_rear": 1,
+    "far_rear": 5,
+    "far_front": 3
+  },
+  "initial_seed_boxes": [
+    [
+      "N1",
+      2,
+      [
+        797,
+        543,
+        854,
+        694
+      ]
+    ],
+    [
+      "N2",
+      1,
+      [
+        1326,
+        611,
+        1507,
+        843
+      ]
+    ],
+    [
+      "F1",
+      5,
+      [
+        762,
+        515,
+        789,
+        609
+      ]
+    ],
+    [
+      "F2",
+      3,
+      [
+        1015,
+        539,
+        1064,
+        647
+      ]
+    ]
+  ],
+  "counts": {
+    "near_front": 1035,
+    "near_rear": 965,
+    "far_rear": 1013,
+    "far_front": 1023,
+    "four_simultaneous": 940,
+    "total_observed_assignments": 4036
+  },
+  "decision_count": 18,
+  "warning": "Assignment availability only; no independent identity reference. Match-specific geometry, manually inspect seeds and junctions. Slots are initial identities, not changing front/rear roles.",
+  "parameters": {
+    "max_missing_frames": 90,
+    "missing_cost": 1.05,
+    "min_global_margin": 0.1,
+    "appearance": "fixed initial torso/shorts HSV histograms",
+    "negative_guard": true,
+    "interpolation": false
+  }
+}

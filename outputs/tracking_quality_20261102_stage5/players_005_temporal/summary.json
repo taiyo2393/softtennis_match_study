@@ -1,0 +1,55 @@
+{
+  "tag": "005",
+  "first_frame": 8607,
+  "last_frame": 9051,
+  "frames": 445,
+  "initialized_frame": 8625,
+  "counts": {
+    "four_simultaneous": 299,
+    "pre_initialization_frames": 18,
+    "near_front": 427,
+    "total_observed_assignments": 1565,
+    "near_rear": 427,
+    "far_rear": 322,
+    "far_front": 389
+  },
+  "reacquisition_proposals": 0,
+  "parameters": {
+    "initialization_source_frames": 8,
+    "recovery_source_frames": 8,
+    "min_recovery_gap": 6,
+    "recovery_appearance_max": 0.65,
+    "recovery_negative_margin": 0.06,
+    "recovery_assignment_margin": 0.18,
+    "recovery_missing_cost": 0.85,
+    "gallery_size": 8,
+    "gallery_sample_interval": 12,
+    "gallery_cost_max": 0.55,
+    "gallery_margin_min": 0.2,
+    "occlusion_intersection_fraction": 0.45,
+    "pending_iou_min": 0.3,
+    "pending_motion_max_height": 0.35,
+    "interpolation": false,
+    "identity_guard": {
+      "partner_appearance_margin": 0.12,
+      "compare_all_same_side_identities": true,
+      "immutable_initial_identity_anchors": true,
+      "suppress_handover_when_ambiguous": true
+    }
+  },
+  "input_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\crop_runs\\augmented_detections_005.csv",
+  "input_sha256": "fea21a53dfce932401e97fd04a868664d3aac76ce191a7b14ca28c736a07d81a",
+  "warning": "Development on formerly inspected same-match intervals; candidate availability is not identity accuracy. No retroactive output or interpolation.",
+  "identity_guard": {
+    "parameters": {
+      "partner_appearance_margin": 0.12,
+      "compare_all_same_side_identities": true,
+      "immutable_initial_identity_anchors": true,
+      "suppress_handover_when_ambiguous": true
+    },
+    "withheld_handover_frames": 27,
+    "withheld_proposals": 30,
+    "anonymous_detection_rows": 14,
+    "caution": "Anonymous boxes are candidates, not confirmed players; false positives remain possible."
+  }
+}

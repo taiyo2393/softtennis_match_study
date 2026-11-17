@@ -1,0 +1,48 @@
+{
+  "stroke_candidates": 13,
+  "receiving_pair_full_contact_window": 11,
+  "bounce_candidates": 8,
+  "receiving_pair_and_bounce": 7,
+  "paired_bounces_by_receiving_side": {
+    "near": 6,
+    "far": 1
+  },
+  "incomplete_pairs": [
+    {
+      "point": 3,
+      "stroke": 2,
+      "pair_frames": 0,
+      "contact_frames": 10
+    },
+    {
+      "point": 3,
+      "stroke": 3,
+      "pair_frames": 0,
+      "contact_frames": 9
+    }
+  ],
+  "lateral_spacing_max_within_window_change_m": 0.6760695955875029,
+  "depth_difference_max_within_window_change_m": 0.8214343562559243,
+  "terminal_review_point3": {
+    "point": 3,
+    "display_id": "N2",
+    "first_source_frame": 15496,
+    "last_source_frame": 15500,
+    "racket_contact": "no_contact",
+    "review_source": "user_followup_on_raw_detail_video",
+    "user_response": "触れていない",
+    "review_clip": "point3_contact_raw_detail.mp4",
+    "review_clip_sha256": "c9a8d6a38db7eb967b7f0bd852f72e8029335cd4c822d4f7d6e49f46bf19f6a7",
+    "display_note": "終盤のN2は接触なし（確認済み）"
+  },
+  "method": "At the provisional hitter contact window, use available opposite-side box-bottom proxies. No extrapolation. For complete windows report min and max over every candidate time.",
+  "distance_definition": "Nearest receiving player at impact proxy to later candidate bounce. It is a geometric feature, not distance run or a reaction-time measurement.",
+  "scope": "Three rallies; provisional shot contacts and landing points; no new independent position references or return labels. No claims about tactical effect.",
+  "source_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_first_three_player_ball_v4\\guarded_player_positions.csv": "ffce469ebbebe228bd939e528a6def58b361370479cdd2f8864332482cb86c7a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_first_three_player_ball_v4\\stroke_candidates.csv": "0253d3cc76f57875be8cb5c8d411de4c79784cdd4edef765fb655e9deb81fbf2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_first_three_player_ball_v5\\schematic_routes.json": "6342c6acd44bcf31c2a779194c30fb227886410c1c5e0e8fb76accd2a8a4c89f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_serve_position_trial\\contact_positions.json": "1d00b39b35f8afafa70d8f4f3d24a6c2e2495cb792978057a8ddd9a55d31b42b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_raw_stroke_review\\point3_contact_review.json": "1b533e90e37313ce7791b487c7cf4e978e30c7ac60d750b1b106a08de652c0c1"
+  }
+}

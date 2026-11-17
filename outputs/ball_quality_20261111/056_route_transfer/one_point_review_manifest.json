@@ -1,0 +1,16 @@
+{
+  "target_frame": 154780,
+  "first_frame": 154770,
+  "last_frame": 154786,
+  "encoded_frames": 47,
+  "crop_native_xyxy": [
+    650,
+    400,
+    1290,
+    760
+  ],
+  "uniform_enlargement": 1.5,
+  "source_aspect_preserved": true,
+  "question_scope": "Only whether original red candidate at154780 encloses actual rally ball. Not exact center/other frames/event count GT.",
+  "no_label_or_coordinate_changes": true
+}

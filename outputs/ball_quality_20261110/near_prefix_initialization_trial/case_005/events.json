@@ -1,0 +1,12 @@
+[
+  {
+    "event": "near_prefix_initialized",
+    "frame": 8614,
+    "window_start": 8607,
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2
+    },
+    "identity_status": "development_candidate_not_GT"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "video_decoded_frames": 666,
+  "dimensions": [
+    1920,
+    720
+  ],
+  "aspect_preserved": true,
+  "video_sha256": "af3e1a3df55c246e6328ad3f19cacdb28ae449d0127329969de4cd05e2418cac",
+  "QA_image_sha256": "d375d004c28a0223b4ddf42b9f7b1f806437005663228510523437bdaa4a8142",
+  "selection_manifest_sha256": "446bf53c6e94a22769e460023bc2c4d87f5ef7a4f1c1add252c3d8672f39db61",
+  "corrected_complete_tracking": false
+}

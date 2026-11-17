@@ -1,0 +1,273 @@
+{
+  "serves": [
+    {
+      "point": 1,
+      "first_candidate_frame": 12324,
+      "last_candidate_frame": 12326,
+      "frames": 3,
+      "all_four_boxes_frames": 3,
+      "all_four_positions_frames": 3,
+      "receiver_pair_positions_frames": 3,
+      "availability": [
+        {
+          "source_frame": 12324,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 12325,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 12326,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        }
+      ]
+    },
+    {
+      "point": 2,
+      "first_candidate_frame": 13647,
+      "last_candidate_frame": 13656,
+      "frames": 10,
+      "all_four_boxes_frames": 10,
+      "all_four_positions_frames": 10,
+      "receiver_pair_positions_frames": 10,
+      "availability": [
+        {
+          "source_frame": 13647,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13648,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13649,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13650,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13651,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13652,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13653,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13654,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13655,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 13656,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "F2",
+            "N1",
+            "N2"
+          ]
+        }
+      ]
+    },
+    {
+      "point": 3,
+      "first_candidate_frame": 15214,
+      "last_candidate_frame": 15222,
+      "frames": 9,
+      "all_four_boxes_frames": 9,
+      "all_four_positions_frames": 0,
+      "receiver_pair_positions_frames": 9,
+      "availability": [
+        {
+          "source_frame": 15214,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15215,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15216,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15217,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15218,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15219,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15220,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15221,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        },
+        {
+          "source_frame": 15222,
+          "boxes": 4,
+          "available_positions": [
+            "F1",
+            "N1",
+            "N2"
+          ]
+        }
+      ]
+    }
+  ],
+  "continuity_checks": [
+    {
+      "point": 1,
+      "original_overlap_frames": 9,
+      "identical_boxes_ids_proxies": true,
+      "candidate_counts_match_original_preroll": true
+    },
+    {
+      "point": 2,
+      "original_overlap_frames": 9,
+      "identical_boxes_ids_proxies": true,
+      "candidate_counts_match_original_preroll": true
+    },
+    {
+      "point": 3,
+      "original_overlap_frames": 9,
+      "identical_boxes_ids_proxies": true,
+      "candidate_counts_match_original_preroll": true
+    }
+  ],
+  "total_stroke_candidates": 13,
+  "four_positions_whole_contact_window_before": 6,
+  "four_positions_whole_contact_window_after": 8,
+  "guard_note": "Point 3 F2 is withheld throughout the serve candidate window based on visual jump review. A projected bottom point in the air can exaggerate the court depth.",
+  "validity": "Coverage of box-bottom proxies, with approximate visually identified contact windows. No new independent ID, foot-position or impact-time reference."
+}

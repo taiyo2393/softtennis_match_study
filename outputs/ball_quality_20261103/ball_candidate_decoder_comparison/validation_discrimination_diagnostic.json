@@ -1,0 +1,12 @@
+{
+  "validation_component_count_distribution": {
+    "0": 37,
+    "1": 79,
+    "2": 4
+  },
+  "different_output_coordinate_count": {
+    "component_peak": 0,
+    "bbox_mean": 0,
+    "component_mean": 0
+  }
+}

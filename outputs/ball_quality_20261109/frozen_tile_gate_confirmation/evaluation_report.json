@@ -1,0 +1,32 @@
+{
+  "status": "fixed_same_match_confirmation_complete",
+  "totals": {
+    "current_temporal": {
+      "correct16px": 33,
+      "excluded_ball_uncertain": 3,
+      "missing_visible_ball": 12,
+      "no_output_when_not_observable": 4,
+      "pooled_visible_recall16px": 0.7333333333333333,
+      "macro_window_recall16px": 0.7576923076923077
+    },
+    "logistic10_frozen": {
+      "correct16px": 40,
+      "excluded_ball_uncertain": 3,
+      "missing_visible_ball": 5,
+      "no_output_when_not_observable": 4,
+      "pooled_visible_recall16px": 0.8888888888888888,
+      "macro_window_recall16px": 0.8980769230769231
+    }
+  },
+  "gained_correct": 7,
+  "lost_correct": 0,
+  "original_outputs_preserved": true,
+  "passes_prespecified_confirmation_guard": true,
+  "decision": "Eligible for further independent-match/continuous-track evaluation only.",
+  "automatic_adoption": false,
+  "canonical_tracking_changed": false,
+  "independent_external_validation": false,
+  "interpretation": "Known same-match development sequences with nearby correlated targets. Exclusions applied equally. No causal,real-time,full-rally or external-match claim.",
+  "protocol_sha256": "d070b557c0051fc1d46821fabdbc0dfd90a969c8c21f7fa9181fbe76fbf10e03",
+  "inference_manifest_sha256": "3df2f66eaad2a76a260cd3486eed774668fea327bcf049c1bf846eaa9a018805"
+}

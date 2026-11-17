@@ -1,0 +1,83 @@
+{
+  "status": "whole_scope_candidate_review_ready_not_promoted",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "rally_candidate_id": "match1_rally_window_044",
+  "displayed_local_frames": [
+    730,
+    1155
+  ],
+  "source_frames": 426,
+  "raw_different_component_frames": [
+    784,
+    892,
+    1103
+  ],
+  "genuine_output_changes": 0,
+  "changed_local_frames": [],
+  "reviewed_frames_preserved": 22,
+  "confirmed_real_candidates_preserved": 18,
+  "numerical_jitter_frames_not_applied": 8,
+  "current_output_frames": 295,
+  "proposed_output_frames": 295,
+  "large_displacement_counts": {
+    "current": 0,
+    "proposed": 0,
+    "meaning": "diagnostic cues, not accuracy/errors"
+  },
+  "existing_sparse_center_checks": {
+    "audit": {
+      "frames": [
+        740,
+        818,
+        896,
+        974,
+        1052,
+        1130
+      ],
+      "current": {
+        "counts": {
+          "frames": 6,
+          "truth_visible": 6,
+          "pred_visible": 6,
+          "presence_tp": 6,
+          "localized_tp_16px": 6,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 3.5841432994235056
+      },
+      "proposed": {
+        "counts": {
+          "frames": 6,
+          "truth_visible": 6,
+          "pred_visible": 6,
+          "presence_tp": 6,
+          "localized_tp_16px": 6,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 3.5841432994235056
+      }
+    }
+  },
+  "all_previous_review_fields_preserved": true,
+  "unchanged_component_coordinates_exactly_preserved": true,
+  "presence_and_missing_flags_preserved": true,
+  "interpolated_positions": 0,
+  "person_tracks_changed": false,
+  "operational_registry_changed": false,
+  "protected_inputs_unchanged": true,
+  "full_track_accuracy_established": false,
+  "proposal_csv_sha256": "6a699033d86919ee1914e37068cfab87a7e6e2f21b7546f6baaf21c056079567",
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\temporal_rally_reviews_v2\\match1_motion_pilot_016\\comparison_h264.mp4",
+  "sha256": "a1104eac2653ee5935b2c0ef2fd0eb05c07de75ee6d896e9ab0ac4a6b43bdd97",
+  "decoded_video_frames": 852,
+  "duration_seconds": 14.2142,
+  "audio": true
+}

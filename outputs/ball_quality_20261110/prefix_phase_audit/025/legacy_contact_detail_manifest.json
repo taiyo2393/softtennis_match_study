@@ -1,0 +1,30 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "frames": [
+    59960,
+    59964,
+    59968,
+    59972,
+    59976,
+    59980,
+    59984,
+    59988,
+    59992,
+    59996,
+    60000,
+    60004,
+    60008,
+    60012
+  ],
+  "crop_xyxy": [
+    2500,
+    650,
+    3400,
+    1900
+  ],
+  "output_wh": [
+    360,
+    500
+  ],
+  "sha256": "3042f2ba49048d49e3cf222eb7ef6a343d41a9ca5262c94f85b43927aaadee7d"
+}

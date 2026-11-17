@@ -1,0 +1,142 @@
+{
+  "candidate_windows": 63,
+  "legacy_window_status": {
+    "excluded_or_unresolved": 31,
+    "complete_boundary": 32
+  },
+  "play_windows": 57,
+  "start_methods": {
+    "manual_valid_serve_impact": 25,
+    "camera_entry_confirmed_not_impact": 32
+  },
+  "serve_review_status": {
+    "impact_confirmed": 25
+  },
+  "serve_vs_legacy_start_differences": [
+    {
+      "id": "match1_rally_window_001",
+      "legacy": "2.000000",
+      "serve": "1.450950"
+    },
+    {
+      "id": "match1_rally_window_009",
+      "legacy": "365.000000",
+      "serve": "365.118283"
+    },
+    {
+      "id": "match1_rally_window_014",
+      "legacy": "607.000000",
+      "serve": "606.935057"
+    },
+    {
+      "id": "match1_rally_window_015",
+      "legacy": "647.000000",
+      "serve": "647.585417"
+    },
+    {
+      "id": "match1_rally_window_017",
+      "legacy": "702.000000",
+      "serve": "702.001500"
+    },
+    {
+      "id": "match1_rally_window_025",
+      "legacy": "1001.000000",
+      "serve": "1000.601100"
+    },
+    {
+      "id": "match1_rally_window_026",
+      "legacy": "1042.000000",
+      "serve": "1042.318483"
+    },
+    {
+      "id": "match1_rally_window_028",
+      "legacy": "1152.000000",
+      "serve": "1152.368533"
+    },
+    {
+      "id": "match1_rally_window_032",
+      "legacy": "1390.000000",
+      "serve": "1390.301800"
+    },
+    {
+      "id": "match1_rally_window_037",
+      "legacy": "1630.500000",
+      "serve": "1631.118783"
+    },
+    {
+      "id": "match1_rally_window_038",
+      "legacy": "1665.000000",
+      "serve": "1665.168333"
+    },
+    {
+      "id": "match1_rally_window_039",
+      "legacy": "1706.000000",
+      "serve": "1706.418583"
+    },
+    {
+      "id": "match1_rally_window_040",
+      "legacy": "1744.000000",
+      "serve": "1743.918083"
+    },
+    {
+      "id": "match1_rally_window_045",
+      "legacy": "1964.000000",
+      "serve": "1963.534367"
+    },
+    {
+      "id": "match1_rally_window_046",
+      "legacy": "2002.500000",
+      "serve": "2002.034367"
+    },
+    {
+      "id": "match1_rally_window_049",
+      "legacy": "2206.000000",
+      "serve": "2206.685517"
+    },
+    {
+      "id": "match1_rally_window_052",
+      "legacy": "2349.500000",
+      "serve": "2350.452450"
+    },
+    {
+      "id": "match1_rally_window_054",
+      "legacy": "2479.000000",
+      "serve": "2478.534367"
+    },
+    {
+      "id": "match1_rally_window_055",
+      "legacy": "2539.000000",
+      "serve": "2538.868033"
+    },
+    {
+      "id": "match1_rally_window_057",
+      "legacy": "2649.000000",
+      "serve": "2649.418583"
+    },
+    {
+      "id": "match1_rally_window_058",
+      "legacy": "2694.500000",
+      "serve": "2694.416002"
+    },
+    {
+      "id": "match1_rally_window_059",
+      "legacy": "2731.500000",
+      "serve": "2731.518183"
+    },
+    {
+      "id": "match1_rally_window_060",
+      "legacy": "2768.500000",
+      "serve": "2769.118783"
+    },
+    {
+      "id": "match1_rally_window_061",
+      "legacy": "2805.000000",
+      "serve": "2805.201700"
+    },
+    {
+      "id": "match1_rally_window_063",
+      "legacy": "2873.000000",
+      "serve": "2874.002500"
+    }
+  ]
+}

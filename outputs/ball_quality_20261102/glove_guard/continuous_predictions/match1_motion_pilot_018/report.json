@@ -1,0 +1,120 @@
+{
+  "candidate_id": "match1_motion_pilot_018",
+  "frames": 240,
+  "suppressed_frames": 7,
+  "flags": [
+    {
+      "local_frame": 211,
+      "raw_x_px": "646",
+      "raw_y_px": "545",
+      "evidence": {
+        "distance_by_person_height": 0.02433667704463005,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.8672699332237244,
+        "shoulder_conf": 0.9843754172325134,
+        "raised_wrist": true,
+        "wrist_x": 646.8665161132812,
+        "wrist_y": 543.8349609375,
+        "person_height": 59.66108703613281
+      }
+    },
+    {
+      "local_frame": 212,
+      "raw_x_px": "648",
+      "raw_y_px": "545",
+      "evidence": {
+        "distance_by_person_height": 0.03310946375131607,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.8692666292190552,
+        "shoulder_conf": 0.9830846190452576,
+        "raised_wrist": true,
+        "wrist_x": 647.6586303710938,
+        "wrist_y": 543.0696411132812,
+        "person_height": 59.20696258544922
+      }
+    },
+    {
+      "local_frame": 213,
+      "raw_x_px": "648",
+      "raw_y_px": "540",
+      "evidence": {
+        "distance_by_person_height": 0.021892260760068893,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.8918118476867676,
+        "shoulder_conf": 0.9763925075531006,
+        "raised_wrist": true,
+        "wrist_x": 647.9730224609375,
+        "wrist_y": 538.7086181640625,
+        "person_height": 59.00092315673828
+      }
+    },
+    {
+      "local_frame": 214,
+      "raw_x_px": "648",
+      "raw_y_px": "540",
+      "evidence": {
+        "distance_by_person_height": 0.023707395419478416,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.892189085483551,
+        "shoulder_conf": 0.9776895642280579,
+        "raised_wrist": true,
+        "wrist_x": 647.8556518554688,
+        "wrist_y": 538.6036987304688,
+        "person_height": 59.21117401123047
+      }
+    },
+    {
+      "local_frame": 215,
+      "raw_x_px": "648",
+      "raw_y_px": "536",
+      "evidence": {
+        "distance_by_person_height": 0.02813384123146534,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.931627094745636,
+        "shoulder_conf": 0.9812250733375549,
+        "raised_wrist": true,
+        "wrist_x": 648.6133422851562,
+        "wrist_y": 534.4515991210938,
+        "person_height": 59.19750213623047
+      }
+    },
+    {
+      "local_frame": 216,
+      "raw_x_px": "648",
+      "raw_y_px": "534",
+      "evidence": {
+        "distance_by_person_height": 0.01876533031463623,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.9029181599617004,
+        "shoulder_conf": 0.9758230447769165,
+        "raised_wrist": true,
+        "wrist_x": 648.50927734375,
+        "wrist_y": 535.0053100585938,
+        "person_height": 60.05479431152344
+      }
+    },
+    {
+      "local_frame": 217,
+      "raw_x_px": "650",
+      "raw_y_px": "532",
+      "evidence": {
+        "distance_by_person_height": 0.02643710933625698,
+        "blue_torso_fraction": 1.0,
+        "wrist_conf": 0.9615123867988586,
+        "shoulder_conf": 0.985268235206604,
+        "raised_wrist": true,
+        "wrist_x": 648.371826171875,
+        "wrist_y": 532.3014526367188,
+        "person_height": 62.63336944580078
+      }
+    }
+  ],
+  "seconds": 2.1246979999996256,
+  "original_csv_sha256": "2ca3b8d4d5b52b7d486cbcb9e588d220a16afa7689aa62f68601b57308c99bc0",
+  "selection_sha256": "9fda8d87de5c51c847750ce80ba58446368c04424fb109115e258467e15d2161",
+  "full_video_decoded_frames": 240,
+  "unchanged_rows_exactly_preserved": true,
+  "interpolation": false,
+  "rerender_from_cached_flags": true,
+  "warning": "Continuous raw output generated but full-interval identity/localization accuracy not established; no active baseline overwrite."
+}

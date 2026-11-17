@@ -1,0 +1,104 @@
+{
+  "review_id": "20261103_044_jump1080_five_false_two_real",
+  "recorded_date": "2026-11-03",
+  "reviewer": "human_user",
+  "rally_candidate_id": "match1_rally_window_044",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "user_answer": "橙の丸は一つも実球を囲めていない．青は合ってる",
+  "scope": "Exactly five orange raw candidates rejected and two blue components confirmed. Cyan outputs not newly reviewed.",
+  "confirmed_ball_candidate_local_frames": [
+    1081,
+    1082
+  ],
+  "confirmed_false_raw_local_frames": [
+    1082,
+    1084,
+    1086,
+    1087,
+    1088
+  ],
+  "confirmed_observations": [
+    {
+      "local_frame": 1081,
+      "source_frame": 115716,
+      "component": {
+        "local_frame": "1081",
+        "rank": "2",
+        "x_px": "783.0790497877127",
+        "y_px": "560.4768752041223",
+        "peak": "0.110107421875",
+        "area": "32",
+        "mean": "0.10512161254882812"
+      }
+    },
+    {
+      "local_frame": 1082,
+      "source_frame": 115717,
+      "component": {
+        "local_frame": "1082",
+        "rank": "2",
+        "x_px": "781.9075997878905",
+        "y_px": "558.6745564982646",
+        "peak": "0.1224365234375",
+        "area": "68",
+        "mean": "0.1117158755660057"
+      }
+    }
+  ],
+  "rejected_raw_observations": [
+    {
+      "local_frame": 1082,
+      "source_frame": 115717,
+      "rejected_xy_px": [
+        714.0,
+        605.0
+      ]
+    },
+    {
+      "local_frame": 1084,
+      "source_frame": 115719,
+      "rejected_xy_px": [
+        701.0,
+        562.0
+      ]
+    },
+    {
+      "local_frame": 1086,
+      "source_frame": 115721,
+      "rejected_xy_px": [
+        716.0,
+        566.0
+      ]
+    },
+    {
+      "local_frame": 1087,
+      "source_frame": 115722,
+      "rejected_xy_px": [
+        714.0,
+        583.0
+      ]
+    },
+    {
+      "local_frame": 1088,
+      "source_frame": 115723,
+      "rejected_xy_px": [
+        706.0,
+        560.0
+      ]
+    }
+  ],
+  "frame1082_note": "The orange raw location is false; the blue rank2 component is a real ball. Positive and negative labels refer to different candidates.",
+  "physical_ball_visibility_at_rejected_frames": {
+    "1082": "ball_confirmed_at_alternative_component",
+    "1084": "not_established",
+    "1086": "not_established",
+    "1087": "not_established",
+    "1088": "not_established"
+  },
+  "video_sha256": "e9f4945059bcddf1120c4955a824f64638638fb6c552f3d2899c76f8ef65f98a",
+  "candidate_components_sha256": "ff1483d56802ef28d2569b06a5e6db40ec6c670af8d0090ae0b9c1a9c0b5b15a",
+  "source_sha256": "83d6bf859b499a016b5a160cecf4c118ba6b647d825c8443cfba8c4167773479",
+  "previous_review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+  "precise_center_groundtruth_created": false,
+  "independent_accuracy_evaluation": false
+}

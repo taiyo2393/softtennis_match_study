@@ -1,0 +1,9 @@
+{
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\automatic_reacquisition_transfer_012\\tracking_quality_20261102_stage7\\players_012_global\\global_review_h264.mp4",
+  "first_source_frame": 31990,
+  "last_source_frame": 32180,
+  "frames": 191,
+  "video_sha256": "774a72a7d35e6220ae478b4044b0f9a128edcd0a1a58241efa9168a212219558",
+  "aspect_preserved": true,
+  "scope": "Single guard-output excerpt; assignments are identical to baseline, not an improvement comparison."
+}

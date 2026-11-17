@@ -1,0 +1,13 @@
+{
+  "initialization_source_frame": 17899,
+  "initialization_confirmation_window": [
+    17892,
+    17899
+  ],
+  "requested_frames_before_initialization": [],
+  "requested_times_before_initialization": 0,
+  "coordinate_rows_at_these_requested_times": 0,
+  "explanation": "Four-person joint initialization with eight consecutive source frames delays all four output slots, including visibly present near players. These are unassigned times, not physical player absence.",
+  "input_times_not_shifted": true,
+  "retroactive_fill_performed": false
+}

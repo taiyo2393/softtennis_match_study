@@ -1,0 +1,24 @@
+[
+  {
+    "window_id": "A",
+    "candidate_id": "match1_motion_pilot_012",
+    "anchor_local_frame": 303,
+    "first_local_frame": 291,
+    "last_local_frame": 315,
+    "sampled_frames": 13,
+    "stride": 2,
+    "fps": 59.94005994005994,
+    "span_sec": 0.40040000000000003
+  },
+  {
+    "window_id": "B",
+    "candidate_id": "match1_motion_pilot_020",
+    "anchor_local_frame": 171,
+    "first_local_frame": 159,
+    "last_local_frame": 183,
+    "sampled_frames": 13,
+    "stride": 2,
+    "fps": 59.94005994005994,
+    "span_sec": 0.40040000000000003
+  }
+]

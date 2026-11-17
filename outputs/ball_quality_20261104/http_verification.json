@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "pending_human_labels": 52,
+  "model_predictions_reproduced": 104,
+  "target_jpegs_exactly_matching_sequential_clip_decode": 52,
+  "full_camera_reference_frames": 3958,
+  "videos_fully_decoded": 52,
+  "total_display_frames_decoded": 6656,
+  "frozen_artifacts_verified": 11,
+  "input_images_verified": 292,
+  "old20_input_hash_duplicates": 0,
+  "real_labels_written": false,
+  "operational_changes": false,
+  "accuracy": null,
+  "protected_inputs_unchanged": true,
+  "script_sha256": "14a69384b347a63e1c0071c95b2714000fcc5ee787dd812e07afd37b9734cd17",
+  "http_images_exact": 52,
+  "http_video_range_responses": 52,
+  "invalid_saves_rejected": 3,
+  "predictions_hidden": true
+}

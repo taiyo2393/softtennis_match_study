@@ -1,0 +1,17 @@
+{
+  "new_reviewed_candidates": 4,
+  "real_candidates": 2,
+  "false_candidates": 2,
+  "appearance_real_retained": 2,
+  "appearance_false_retained": 2,
+  "no_added_filter_real_retained": 2,
+  "no_added_filter_false_retained": 2,
+  "prior_safety_real_retained": 0,
+  "prior_safety_real_total": 1,
+  "prior_safety_false_retained": 3,
+  "prior_safety_false_total": 3,
+  "new_candidates_not_used_for_training_or_threshold_selection": true,
+  "model_and_predictions_unchanged": true,
+  "conclusion": "No false candidates removed on008; previous real-ball loss remains. Keep the appearance trial rejected.",
+  "scope": "Selected four same-match candidates, not representative accuracy or full tracking validation"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "single_anchored_training_revision_complete",
+  "baseline": {
+    "counts": {
+      "frames": 123,
+      "truth_visible": 102,
+      "pred_visible": 70,
+      "presence_tp": 68,
+      "localized_tp_16px": 66,
+      "wrong_localization": 2,
+      "presence_tn": 19,
+      "presence_fn": 34,
+      "presence_fp": 2
+    },
+    "localization_recall_16px": 0.6470588235294118,
+    "localization_precision_16px": 0.9428571428571428,
+    "mean_error_both_visible_px": 5.760533423739907
+  },
+  "proposed": {
+    "counts": {
+      "frames": 123,
+      "truth_visible": 102,
+      "pred_visible": 75,
+      "presence_tp": 72,
+      "localized_tp_16px": 69,
+      "wrong_localization": 3,
+      "presence_tn": 18,
+      "presence_fn": 30,
+      "presence_fp": 3
+    },
+    "localization_recall_16px": 0.6764705882352942,
+    "localization_precision_16px": 0.92,
+    "mean_error_both_visible_px": 6.763072624927036
+  },
+  "correct_lost": [],
+  "correct_gained": [
+    "match1_motion_pilot_004_frame_000322",
+    "match1_motion_pilot_006_frame_000465",
+    "match1_motion_pilot_007_frame_000352"
+  ],
+  "training_pass": false,
+  "eligible_for_frozen_validation": false,
+  "added_outputs": 5,
+  "gate_status_counts": {
+    "add_observed_finetuned_candidate": 5,
+    "candidate_outside_support_gate": 1
+  },
+  "validation_used": false,
+  "challenge_used": false,
+  "short_used": false,
+  "six_false_used": false,
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "protected_inputs_unchanged": true
+}

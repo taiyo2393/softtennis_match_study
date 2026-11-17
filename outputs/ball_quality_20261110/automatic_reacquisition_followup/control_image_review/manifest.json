@@ -1,0 +1,74 @@
+[
+  {
+    "control": {
+      "tag": "002",
+      "slot": "near_rear",
+      "frame": 2452,
+      "new_id": 78
+    },
+    "frames": [
+      2357,
+      2369,
+      2452,
+      2459,
+      2465,
+      2482
+    ],
+    "image_file": "002_near_rear_2452.jpg",
+    "sha256": "82b905bc231b4ec9b9df008a9b7b52a6506a1949a42fd36dbe76e87a9be42833"
+  },
+  {
+    "control": {
+      "tag": "003",
+      "slot": "near_front",
+      "frame": 4572,
+      "new_id": 202
+    },
+    "frames": [
+      4559,
+      4571,
+      4572,
+      4579,
+      4585,
+      4602
+    ],
+    "image_file": "003_near_front_4572.jpg",
+    "sha256": "dc638ce95aca9d38336a702972e4315102d48b987ec2311b27b91e11fb56d49f"
+  },
+  {
+    "control": {
+      "tag": "025",
+      "slot": "near_front",
+      "frame": 60372,
+      "new_id": 107
+    },
+    "frames": [
+      60358,
+      60370,
+      60372,
+      60379,
+      60385,
+      60402
+    ],
+    "image_file": "025_near_front_60372.jpg",
+    "sha256": "4212497000818b57b9cec10907aa0ba612ec62954fea6bfc082b99e924135722"
+  },
+  {
+    "control": {
+      "tag": "025",
+      "slot": "near_rear",
+      "frame": 60302,
+      "new_id": 84
+    },
+    "frames": [
+      60178,
+      60190,
+      60302,
+      60309,
+      60315,
+      60332
+    ],
+    "image_file": "025_near_rear_60302.jpg",
+    "sha256": "d0d7dbda63b77ca6580d7646310a6546657e27707dfa68d6c5e3a4fcc1cebd0c"
+  }
+]

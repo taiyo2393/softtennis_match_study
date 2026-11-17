@@ -1,0 +1,47 @@
+{
+  "tag": "010",
+  "first_frame": 23526,
+  "last_frame": 24395,
+  "frames": 870,
+  "initialized_frame": 23533,
+  "counts": {
+    "four_simultaneous": 672,
+    "pre_initialization_frames": 7,
+    "near_front": 863,
+    "total_observed_assignments": 3255,
+    "near_rear": 863,
+    "far_rear": 826,
+    "far_front": 703
+  },
+  "reacquisition_proposals": 1,
+  "parameters": {
+    "initialization_source_frames": 8,
+    "recovery_source_frames": 8,
+    "min_recovery_gap": 6,
+    "recovery_appearance_max": 0.65,
+    "recovery_negative_margin": 0.06,
+    "recovery_assignment_margin": 0.18,
+    "recovery_missing_cost": 0.85,
+    "gallery_size": 8,
+    "gallery_sample_interval": 12,
+    "gallery_cost_max": 0.55,
+    "gallery_margin_min": 0.2,
+    "occlusion_intersection_fraction": 0.45,
+    "pending_iou_min": 0.3,
+    "pending_motion_max_height": 0.35,
+    "interpolation": false,
+    "near_size_adaptation": {
+      "history_source_frames": 30,
+      "near_reference_floor_fraction_of_image_height": 0.16,
+      "min_successive_height_ratio": 0.65,
+      "max_successive_height_ratio": 1.55,
+      "max_update_motion_height": 0.4,
+      "overlap_fraction_max": 0.45,
+      "adaptation_requires_same_detector_id": true,
+      "interpolation": false
+    }
+  },
+  "input_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_010\\crop_runs\\augmented_detections_010.csv",
+  "input_sha256": "cbedf9a602078f42fcf6176a4a8dca1e8587a4c488902b2c92f4581fbb5756bc",
+  "warning": "Development on formerly inspected same-match intervals; candidate availability is not identity accuracy. No retroactive output or interpolation."
+}

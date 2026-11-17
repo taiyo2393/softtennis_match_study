@@ -1,0 +1,109 @@
+{
+  "scope": "Development on 044/056, no held-out identity accuracy",
+  "comparison": [
+    {
+      "rally": "044",
+      "variant": "previous",
+      "frames": 1035,
+      "counts": {
+        "near_front": 1035,
+        "near_rear": 965,
+        "far_rear": 1013,
+        "far_front": 1023,
+        "four_simultaneous": 940,
+        "total_observed_assignments": 4036
+      },
+      "selected_crop_observations": 0
+    },
+    {
+      "rally": "044",
+      "variant": "continuity_size_only",
+      "frames": 1035,
+      "counts": {
+        "near_front": 1035,
+        "near_rear": 1035,
+        "far_rear": 1013,
+        "far_front": 1021,
+        "four_simultaneous": 999,
+        "total_observed_assignments": 4104
+      },
+      "selected_crop_observations": 0
+    },
+    {
+      "rally": "044",
+      "variant": "continuity_size_and_crop",
+      "frames": 1035,
+      "counts": {
+        "near_front": 1035,
+        "near_rear": 1035,
+        "far_rear": 1023,
+        "far_front": 1030,
+        "four_simultaneous": 1018,
+        "total_observed_assignments": 4123
+      },
+      "selected_crop_observations": 19
+    },
+    {
+      "rally": "056",
+      "variant": "previous",
+      "frames": 770,
+      "counts": {
+        "near_front": 770,
+        "near_rear": 724,
+        "far_rear": 752,
+        "far_front": 694,
+        "four_simultaneous": 631,
+        "total_observed_assignments": 2940
+      },
+      "selected_crop_observations": 0
+    },
+    {
+      "rally": "056",
+      "variant": "continuity_size_only",
+      "frames": 770,
+      "counts": {
+        "near_front": 770,
+        "near_rear": 724,
+        "far_rear": 752,
+        "far_front": 730,
+        "four_simultaneous": 667,
+        "total_observed_assignments": 2976
+      },
+      "selected_crop_observations": 0
+    },
+    {
+      "rally": "056",
+      "variant": "continuity_size_and_crop",
+      "frames": 770,
+      "counts": {
+        "near_front": 770,
+        "near_rear": 724,
+        "far_rear": 764,
+        "far_front": 752,
+        "four_simultaneous": 700,
+        "total_observed_assignments": 3010
+      },
+      "selected_crop_observations": 36
+    }
+  ],
+  "media": [
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\players_044_continuity_size_guard_far_crop\\tracking_review_h264.mp4",
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "1035"
+    },
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\players_056_continuity_size_guard_far_crop\\tracking_review_h264.mp4",
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "770"
+    }
+  ]
+}

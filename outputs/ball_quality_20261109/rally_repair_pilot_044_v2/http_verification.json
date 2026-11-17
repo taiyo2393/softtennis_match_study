@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "exact_source_clip_images": 201,
+  "context_decoded_frames": 426,
+  "source_image_hashes": 426,
+  "existing_manual_centers_preserved": 6,
+  "pending_human_targets": 195,
+  "source_clock_verified": true,
+  "synthetic_timer_validation": true,
+  "prediction_assisted_labels_not_independent_center_gt": true,
+  "real_labels_unchanged": true,
+  "real_timing_not_started": true,
+  "script_sha256": "5b37a6777657833d6a3356840215bb9a8a59749d12ea78491a30a518890578f5",
+  "synthetic_http_valid_saves": 2,
+  "synthetic_http_invalid_saves_rejected": 4,
+  "synthetic_history_replay": true,
+  "synthetic_timing_start_pause": true,
+  "real_http_images_exact": 201,
+  "real_http_video_ranges": 2,
+  "real_invalid_saves_rejected": 3
+}

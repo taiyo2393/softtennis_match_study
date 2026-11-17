@@ -1,0 +1,104 @@
+{
+  "status": "matched_batch_gain_loss_mechanisms_verified",
+  "conclusions": [
+    {
+      "case_id": "A",
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": 285,
+      "old_peak16": 0.298828125,
+      "new_peak16": 0.31103515625,
+      "old_global_peak": 0.298828125,
+      "new_global_peak": 0.31103515625,
+      "old_components": 0,
+      "new_components": 1,
+      "mechanism": "response_crosses_threshold_into_detection",
+      "selector_not_responsible_for_target_presence": true
+    },
+    {
+      "case_id": "B",
+      "candidate_id": "match1_motion_pilot_002",
+      "local_frame": 832,
+      "old_peak16": 0.343994140625,
+      "new_peak16": 0.294189453125,
+      "old_global_peak": 0.343994140625,
+      "new_global_peak": 0.29443359375,
+      "old_components": 1,
+      "new_components": 0,
+      "mechanism": "response_drops_below_threshold_into_missing",
+      "selector_not_responsible_for_target_presence": true
+    }
+  ],
+  "replayed_frame_outputs_matching_saved_components": 48,
+  "requested_model_heatmaps": 36,
+  "video": {
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_gain_loss_diagnosis\\gain_loss_context_h264.mp4",
+    "sha256": "58fd038d44622e8c7377f687b14c60ea363b7ae4731d8baadad6b494fbfb1d46",
+    "display_frames": 256,
+    "duration_sec": 4.270933333333334,
+    "segments": [
+      {
+        "case_id": "A",
+        "first_display_frame": 0,
+        "last_display_frame": 127,
+        "source_local_range": [
+          261,
+          309
+        ]
+      },
+      {
+        "case_id": "B",
+        "first_display_frame": 128,
+        "last_display_frame": 255,
+        "source_local_range": [
+          808,
+          856
+        ]
+      }
+    ]
+  },
+  "figure": {
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_gain_loss_diagnosis\\paired_evidence.png",
+    "sha256": "594956e2a2478e2f65bad35338293f50fe342dfa567c8e551a076f1d078e6892",
+    "source_crop128px": true,
+    "shared_heatmap_scale": [
+      0,
+      1
+    ]
+  },
+  "protected_inputs_unchanged": true,
+  "no_threshold_change": true,
+  "no_new_training": true,
+  "no_new_labels": true,
+  "operational_outputs_changed": false,
+  "prior_audit_rejection_preserved": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\candidate_frozen_delta.pth": "84088a4417ec7faca654d9f664f36eff09689f21c31d664916ac5a0759aa30d5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\protocol.json": "628ff985709a97028dc3e5dda5205083a834a21261a0cdfd3f57d997c33d891a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\result.json": "9792060af36188e0027756860ade170e4a9fc189493e4ce0994244be58bbeca7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\verification.json": "6e1e2714f51ca1c190041e52e0d45c63b1741e3c091926f37d57861b93dc9fb2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\frozen_selection.json": "987ef137ebc0a58a36c697f23c1f69130470e06515f62c0cfc0a1356da762c78",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\operational_decision.json": "97c0976cb1e9bc7ee05f54e108b0be84b1990b177cdb0417345a15ff6a3a58c4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\changed_label_outcomes.csv": "41aa17485a47d0fc135119f4e7fb1d526407a8fa4f48fbc9e111f9c70fdfe189",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\validation_component_cache.json": "e8a20509b8dc4bbce537d069af2090a542c31bc0f541c915c6fff7e21e62c5db",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\validation_component_cache.json": "b5df09d575f6741d2c99ceb1c25a132a9767e7e59e5fb4d98ac7ae17b9489d20",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\validation_selected.csv": "684e24140f13ed5da676905df045222a725f22de22507178616f1025f8a4c7f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\validation_selected.csv": "9c0eb42b97a7f9d0350bdd5bb12994adad76868eda65e886d42b92665665ac46",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\validation_context_image_hashes.json": "ca4b5de9d731b9685c18cb571598b8146cce1358b48ebbcb41743ce01a87ccb3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\validation_context_image_hashes.json": "ca4b5de9d731b9685c18cb571598b8146cce1358b48ebbcb41743ce01a87ccb3",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_015\\runs\\threshold030_median120\\median.npz": "69e05c6db02ee7dd404a2086188216867dc630ba34eddb7658d8aace908a953f",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_015\\runs\\threshold030_median120\\run_metadata.json": "330caac55029d76b54d33331f17a291ddcfbce9dd8d4649c9191ecea66f72980",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\audit_component_cache.json": "eaf79f3494f1ba443e110496d22623cf7fa0d4a0290dec0dd82c0484f7b33d18",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\audit_component_cache.json": "e346d55e6f3f659a3904f8abe3e0a7a752159be69eca259c9eef2f046d8709c7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\audit_selected.csv": "934ab18fe441ac69421bc2d98c7cf62f30200184b974c5c810cfb9c547a01d29",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\audit_selected.csv": "98e56b9eb7a5b078717f6de4977f28ed42370ebb5caeb99ef1775e48358e521e",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\audit_context_image_hashes.json": "b4449c869f42023d7b7e7e5aaa1d7d8df8cf0b109a810bdc4385ee237430af01",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\audit_context_image_hashes.json": "b4449c869f42023d7b7e7e5aaa1d7d8df8cf0b109a810bdc4385ee237430af01",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\runs\\threshold030_median120\\median.npz": "db4befbcd0cfc1bd757205dc8834666c457ff8aa222e25689c1285409f3d1fa3",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\runs\\threshold030_median120\\run_metadata.json": "1b02c4e43c157e2618c81726f7da18189eedf175e50e35245e767b83d2a20d3f"
+  }
+}

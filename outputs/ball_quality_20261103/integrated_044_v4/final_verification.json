@@ -1,0 +1,13 @@
+{
+  "snapshot": "integrated_044_v4",
+  "reviewed_ball_hash_matches": true,
+  "person_entities_identical_to_v3": true,
+  "eight_positive_components_exported_at_same_frame": true,
+  "rejected_only_frames1090_1092_1093_blank": true,
+  "full_video_decoded_frames": 804,
+  "audio_present": true,
+  "earlier_raw_rejections_and_positive_reviews_preserved": true,
+  "source_annotations_unchanged": true,
+  "continuity_counterexample_distance_px": 4.083180055262674,
+  "independent_accuracy_established": false
+}

@@ -1,0 +1,39 @@
+video_id,raw_start_sec,raw_end_sec,labels,reason
+match1,0.000000,172.400000,other_camera,not_main_camera
+match1,172.400000,215.133333,main_camera / other_camera,not_main_camera
+match1,215.133333,320.400000,other_camera / main_camera,not_main_camera
+match1,320.400000,373.800000,other_camera / other_camera,not_main_camera
+match1,373.800000,416.333333,other_camera / other_camera,not_main_camera
+match1,416.333333,612.533333,other_camera / main_camera,not_main_camera
+match1,612.533333,782.866667,other_camera / other_camera,not_main_camera
+match1,782.866667,811.000000,other_camera / other_camera,not_main_camera
+match1,811.000000,876.866667,other_camera / main_camera,not_main_camera
+match1,876.866667,941.466667,other_camera / other_camera,not_main_camera
+match1,941.466667,954.133333,other_camera / other_camera,not_main_camera
+match1,954.133333,984.933333,main_camera / other_camera,not_main_camera
+match1,984.933333,1079.533333,other_camera / other_camera,not_main_camera
+match1,1079.533333,1356.400000,other_camera / main_camera,not_main_camera
+match1,1356.400000,1542.133333,other_camera / other_camera,not_main_camera
+match1,1542.133333,1696.666667,other_camera / other_camera,not_main_camera
+match1,1696.666667,1976.200000,main_camera / other_camera,not_main_camera
+match1,1976.200000,2008.466667,other_camera / other_camera,not_main_camera
+match1,2008.466667,2010.733333,other_camera / other_camera,not_main_camera
+match1,2010.733333,2011.266667,other_camera / other_camera,not_main_camera
+match1,2011.266667,2028.266667,other_camera / other_camera,not_main_camera
+match1,2028.266667,2083.666667,other_camera / other_camera,not_main_camera
+match1,2083.666667,2292.000000,other_camera / other_camera,not_main_camera
+match1,2292.000000,2408.133333,other_camera / other_camera,not_main_camera
+match1,2408.133333,2448.600000,other_camera / other_camera,not_main_camera
+match1,2448.600000,2451.866667,other_camera / other_camera,not_main_camera
+match1,2543.333333,2553.266667,other_camera / other_camera,not_main_camera
+match1,2553.266667,2585.666667,other_camera / other_camera,not_main_camera
+match1,2585.666667,2628.466667,other_camera / other_camera,not_main_camera
+match1,2628.466667,2688.000000,main_camera / other_camera,not_main_camera
+match1,2688.000000,2795.133333,main_camera / other_camera,not_main_camera
+match1,2795.133333,2844.600000,other_camera / other_camera,not_main_camera
+match1,2844.600000,2858.266667,main_camera / other_camera,not_main_camera
+match1,2858.266667,2880.733333,other_camera / other_camera,not_main_camera
+match1,2880.733333,2901.000000,other_camera / other_camera,not_main_camera
+match1,2901.000000,2901.600000,other_camera / other_camera,not_main_camera
+match1,2901.600000,2902.533333,other_camera / other_camera,not_main_camera
+match1,2902.533333,2929.728000,other_camera,not_main_camera

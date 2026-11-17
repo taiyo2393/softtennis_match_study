@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "pending_human_targets": 26,
+  "frozen_predictions_verified": 78,
+  "component_maps_reconstructed": 582,
+  "independently_verified_feature_rows": 25,
+  "decoded_annotation_videos": 26,
+  "display_frames": 3328,
+  "original_images_1920x1080": true,
+  "context_source_aspect_16by9": true,
+  "synthetic_save_and_history_passed": true,
+  "labels_unchanged": true,
+  "accuracy_computed": false,
+  "script_sha256": "050447ae1acb57d37ab3c23ac491298d066d80bb6a578df9a7e81d5b3612165e",
+  "http_exact_images": 26,
+  "http_video_range_checks": 52,
+  "invalid_requests_rejected": 3,
+  "predictions_hidden_in_public_api": true
+}

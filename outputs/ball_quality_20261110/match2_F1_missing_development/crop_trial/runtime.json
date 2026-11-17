@@ -1,0 +1,5 @@
+{
+  "torch": "2.11.0+cu128",
+  "ultralytics": "8.4.146",
+  "device": "NVIDIA GeForce RTX 5070 Ti"
+}

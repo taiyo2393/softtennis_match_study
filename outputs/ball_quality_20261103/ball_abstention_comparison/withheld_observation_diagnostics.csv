@@ -1,0 +1,4 @@
+﻿role,sample_id,truth_visibility,old_x,old_y,true_x,true_y,old_error_px,old_correct16px,new_state
+train,match1_motion_pilot_006_frame_000031,visible,791,526,797,575,49.36598018878993,0,position_unknown
+train,match1_motion_pilot_009_frame_000599,visible,1329,564,1328,684,120.00416659433121,0,position_unknown
+validation,match1_motion_pilot_013_frame_000375,visible,697,618,700,624,6.708203932499369,1,position_unknown

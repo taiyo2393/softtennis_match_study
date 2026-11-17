@@ -1,0 +1,40 @@
+[
+  {
+    "candidate_id": "match1_rally_window_044",
+    "first_frame": 114710,
+    "last_frame": 114889,
+    "first_valid_seed_frame": 114710,
+    "frames_with_four_seed_candidates": 176,
+    "frames_without_four_seed_candidates": 4,
+    "first_valid_seed_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 5,
+      "far_front": 3
+    },
+    "first_failure": [
+      114843,
+      "Cannot automatically seed four players at F114843: near=2 far=1"
+    ],
+    "warning": "Seed availability is not identity accuracy"
+  },
+  {
+    "candidate_id": "match1_rally_window_056",
+    "first_frame": 154051,
+    "last_frame": 154230,
+    "first_valid_seed_frame": 154086,
+    "frames_with_four_seed_candidates": 132,
+    "frames_without_four_seed_candidates": 48,
+    "first_valid_seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 42,
+      "far_front": 4
+    },
+    "first_failure": [
+      154051,
+      "Cannot automatically seed four players at F154051: near=2 far=1"
+    ],
+    "warning": "Seed availability is not identity accuracy"
+  }
+]

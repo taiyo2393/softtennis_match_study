@@ -1,0 +1,2 @@
+video_id,source_title,source_url,rights_holder,permission_status,permission_reference,local_filename,width_px,height_px,nominal_fps,verified_fps,duration_sec,sha256,notes
+match1,,,,pending,,match1.mp4,3840,2160,60000/1001,59.94005994,2929.728,547E5CFD2ED6B0693A83201B1241BA6EB93AB7BE8F3F2B135DEE2CC48F94258D,metadata verified with ffprobe on 2026-09-10; source title and rights status require confirmation

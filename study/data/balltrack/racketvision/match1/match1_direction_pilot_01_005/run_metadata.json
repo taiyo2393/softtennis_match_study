@@ -1,0 +1,18 @@
+{
+  "candidate_id": "match1_direction_pilot_01_005",
+  "clip": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\full_match_direction_pilot_01\\match1\\match1_direction_pilot_01_005.mp4",
+  "clip_start_timestamp_sec": 301.017383,
+  "fps": 59.94005994005994,
+  "frame_count": 49,
+  "width": 1920,
+  "height": 1080,
+  "device_requested": "cuda",
+  "device_used": "cuda",
+  "checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+  "threshold": 0.3,
+  "run_name": "default",
+  "background_mode": "median",
+  "median_samples_requested": 120,
+  "median_samples_effective": 49,
+  "purpose": "AI ball-candidate generation only; not impact ground truth"
+}

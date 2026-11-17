@@ -1,0 +1,5 @@
+timepoint_sec,events,actual_front_left,actual_front_right,movement_front_left,movement_front_right,stay,directional_events,directional_rate,matching_direction_events,conditional_match_rate,conditional_match_wilson95_low,conditional_match_wilson95_high,all_event_correct_direction_rate,mean_signed_displacement_toward_actual_px
+-0.500,47,24,23,3,4,40,7,0.149,4,0.571,0.250,0.842,0.085,-2.076
+-0.300,47,24,23,5,10,32,15,0.319,6,0.400,0.198,0.643,0.128,0.284
+-0.200,47,24,23,5,7,35,12,0.255,7,0.583,0.320,0.807,0.149,1.447
+-0.100,47,24,23,6,8,33,14,0.298,8,0.571,0.326,0.786,0.170,1.891

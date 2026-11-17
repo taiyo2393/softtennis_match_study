@@ -1,0 +1,12 @@
+{
+  "point": 2,
+  "stroke": 4,
+  "source_frame": 13980,
+  "candidate_image_mark_px": [966, 538],
+  "ball_identity": "real_ball",
+  "user_response": "実球",
+  "review_clip": "match2_point2_far_bounce_candidate.mp4",
+  "review_clip_sha256": "aa4d0766396ced7341f83bae4af8852baf28e815f110d37900ba62f82719006f",
+  "ground_contact_frame_reviewed": false,
+  "in_out_reviewed": false
+}

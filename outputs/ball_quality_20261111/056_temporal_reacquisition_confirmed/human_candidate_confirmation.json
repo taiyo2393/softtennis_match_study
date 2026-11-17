@@ -1,0 +1,26 @@
+{
+  "recorded_on": "2026-11-11",
+  "rally": "056",
+  "question_item_id": "[\"request_user_input_async\",\"call_55bf5f0e26d84057b8d7616ba79df616\",0]",
+  "question": "056の新しい確認動画で、青◇の4候補（F154861・154862・154873・154878）は実球を囲めていますか？ 一部だけ違う場合はフレーム番号を教えてください。緑○は前回確認済みなので再確認は不要です。",
+  "answer": "4候補とも実球",
+  "confirmed_source_frames": [
+    154861,
+    154862,
+    154873,
+    154878
+  ],
+  "video_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_temporal_reacquisition_trial\\056_four_reacquisition_candidates.mp4",
+  "video_sha256": "af16739a2e68aa99e3edecaab4a52fe28ecf55b7cf586059250b2878dfed09f9",
+  "scope": "The four displayed blue candidates enclose the actual rally ball.",
+  "not_confirmed": [
+    "exact ball centers or pixel error",
+    "ball position or physical absence in missing frames",
+    "exact contact/bounce timing or position",
+    "3D ball flight",
+    "independent accuracy on other rallies"
+  ],
+  "review_actions": 1,
+  "reviewed_rallies": 1,
+  "workflow": "Prediction-visible review of four selected candidates from a previously reviewed development rally. Not blinded independent framewise ground truth."
+}

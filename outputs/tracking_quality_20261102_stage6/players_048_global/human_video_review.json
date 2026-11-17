@@ -1,0 +1,8 @@
+{
+  "reviewer": "human_user",
+  "response": "合ってる",
+  "reviewed_artifact": "global_review_h264.mp4",
+  "scope": "Displayed 048 video: user confirmed the presented F1/F2 correspondence",
+  "status": "human_video_level_identity_confirmation",
+  "limitations": "Not an independently annotated per-frame benchmark, position-accuracy measurement, or validation of other rallies. Does not mark missing frames as observed."
+}

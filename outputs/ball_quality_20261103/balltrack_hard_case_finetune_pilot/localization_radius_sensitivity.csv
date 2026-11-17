@@ -1,0 +1,10 @@
+﻿radius_px,method,correct_positions,wrong_positions_plus_false_outputs
+8,original,78,5
+8,ordinary_epoch02,80,14
+8,hard_weighted_epoch02,81,11
+16,original,80,3
+16,ordinary_epoch02,85,9
+16,hard_weighted_epoch02,86,6
+24,original,80,3
+24,ordinary_epoch02,86,8
+24,hard_weighted_epoch02,86,6

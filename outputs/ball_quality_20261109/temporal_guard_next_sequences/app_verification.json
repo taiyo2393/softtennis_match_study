@@ -1,0 +1,30 @@
+{
+  "status": "browser_checks_passed",
+  "checked_at_utc": "2026-11-09T07:08:01.065990+00:00",
+  "tab_id": "3",
+  "source_image_wh": [
+    1920,
+    1080
+  ],
+  "initial_display_aspect_ratio": 1.77780891005884,
+  "tested_cases": [
+    "E01",
+    "F01"
+  ],
+  "videos_ready_state": 4,
+  "video_wh": [
+    1280,
+    800
+  ],
+  "video_play_started": true,
+  "unreviewed_save_blocked": true,
+  "automated_center_clicks": 0,
+  "automated_real_answers_saved": 0,
+  "initial_and_final_observed_saved": 0,
+  "pending_at_handoff": 26,
+  "page_console_errors": 0,
+  "final_case": "E01",
+  "tab_marked_handoff": true,
+  "proof_screenshot": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_guard_next_sequences\\verified_screen.png",
+  "proof_screenshot_sha256": "9a8d89b615f652fbe9611a30496429585c4bd4ec8856b7104d63f255b32ea72a"
+}

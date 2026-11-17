@@ -1,0 +1,77 @@
+{
+  "status": "training_only_grouped_gate_comparison_completed",
+  "selected_native_candidates": 88,
+  "fit_candidates": 81,
+  "fit_positive": 76,
+  "fit_localization_negative": 5,
+  "unobservable_not_used_in_fit": 7,
+  "clip_groups": 8,
+  "strongest_original": {
+    "correct": 66,
+    "errors": 4
+  },
+  "ungated_native_fallback": {
+    "correct": 77,
+    "errors": 14
+  },
+  "grouped_results": [
+    {
+      "method": "crossscale_agreement16",
+      "correct": 72,
+      "errors": 5,
+      "wrong_position": 3,
+      "output_when_not_observable": 2,
+      "old_correct_lost": 0,
+      "fit_positive_retained": 66,
+      "fit_negative_retained": 1,
+      "unobservable_candidates_retained": 2,
+      "eligible": 0
+    },
+    {
+      "method": "logistic10_oof",
+      "correct": 77,
+      "errors": 7,
+      "wrong_position": 3,
+      "output_when_not_observable": 4,
+      "old_correct_lost": 0,
+      "fit_positive_retained": 74,
+      "fit_negative_retained": 1,
+      "unobservable_candidates_retained": 4,
+      "eligible": 0
+    }
+  ],
+  "chosen_proposal": null,
+  "full_fit_safety": null,
+  "no_new_validation_inference": true,
+  "no_new_detector_training": true,
+  "canonical_tracking_changed": false,
+  "decision": "No passing internal proposal; stop before external roles.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\native_peak_predictions.csv": "1aa5c02ed871b32fa13969f8b49dc3bacaeae8dd1a446c2136a6713f91954b5c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_displacement_0.1.csv": "df5c382a4aec304611df0f60a0b4870f5526e1618ac3029c2245c0ea79ac8b85",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\candidate_pools.json": "0e1fd1a2da9472ed07f8dadeda43902655fb6c4ca1dfefe8d1cb54134d2b476f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\protocol.json": "b31f2ce00d4eff6d955bcadb9aa2709a44cf90ac1ccb2606e3f205db7cfb87ed",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\verification.json": "4177b261e01766785fe014c8e9dc1c09dae2b5318a175b15f838b36f76b60564",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_detail_comparison\\native_missing_only_verified_predictions.csv": "d73b352a8692dade353e3695fde1fada197cf97c2aa16dc983b305f0557ea469",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\compare_frozen_ball_backbones.py": "eb2860c29945ef4b4032d34cd7bc2eec56ad9e6360063ed771941a233e50f24d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\completed_review\\manual_sequence_labels.csv": "3591d0dd0e465bf5f8714e7a16f60d9793cc2646513a3b190f26d1987e8275b5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\frozen_predictions.csv": "334274d2869a213d900c91e4b89238548cb721c39202bc576da822c831226ac3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\evaluation_report.json": "2bca1032122b9e0616e41bbe52ea6de36cc082dd820aa0f7ba7e286520ab8cac"
+  },
+  "fold_model_files": [
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_001.npz",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_003.npz",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_004.npz",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_005.npz",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_006.npz",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_007.npz",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_009.npz",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\fold_010.npz"
+  ]
+}

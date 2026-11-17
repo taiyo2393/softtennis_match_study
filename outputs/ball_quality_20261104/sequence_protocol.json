@@ -1,0 +1,42 @@
+{
+  "status": "fixed_before_new_predictions_or_annotations",
+  "created_date_jst": "2026-11-04",
+  "reservation_sha256": "9c27551fac4398c146284f85ef2dc07fba4072c1f874376fc36506c1445158bd",
+  "windows": 4,
+  "targets_per_window": 13,
+  "selection": "Already reserved chronological strata of expanded clips, clip midpoint +/-12sourceframes step2; no scores/images used.",
+  "model": "Original TrackNet weights only; no rejected fine-tuned model and no new candidate model.",
+  "methods": [
+    "bbox_area",
+    "displacement_0.1"
+  ],
+  "config": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "threshold": 0.3,
+  "inputs": "Original median + BGRt-3..t,512x288,/255,CUDA AMP,batch4 ascending target/context order within clip.",
+  "offline": "Median comes from full source clip; temporal selector uses up to8future frames. Not real-time/causal.",
+  "camera": "Exact older heuristic: reduced-color8 JPEG,160x90 AREA,rows8:82,int16,12frame lag,meanBGR absdiff>24 fraction>.25; expand12before4after.",
+  "camera_partial_computation": "Compute all scores needed for masks over the full context interval, including 12frame image lag and expansion support; outside region is uncomputed, not evidence of no cut.",
+  "annotation": "52 target centers/phase states pending human review; predictions hidden. No assumed in-play/visibility.",
+  "comparison": "Per-window phase-filtered center errors16px, missing/wrong/output-on-human-not-visible, paired gains/losses, valid consecutive sampled-pair displacement errors and correct runs. Report exclusions and macro windows; no frame-independence significance test.",
+  "operational_policy": "No automatic adoption; keep all canonical ball/person tracking outputs unchanged.",
+  "scope": "Same match. Existing expanded clips were generated before; earlier inspection/threshold exposure is not exhaustively known. NOT untouched independent data or confirmed in-play intervals.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\reserved_windows.json": "9c27551fac4398c146284f85ef2dc07fba4072c1f874376fc36506c1445158bd",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\inventory_manifest.json": "55785c584701e2f6cd6bde16676a1c9e689f0a158f619062ea34dff3d3219707",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\training_selection.json": "4dc7ffeb328c1e12e176035d4735aa6d1476fc6e2fc2d537808ff94a07526f37",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\compare_temporal_candidate_paths.py": "84cd02f4654d2b694a12adfdf24eb959f1ded3844aaf3cadf32c2ce75f547abf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\compare_ball_candidate_decoders.py": "c4d89f26377378f48b888505333b3139d1ebb80828c316a4beb618e75f1232b4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\evaluate_observed_ball_fallback.py": "1e30ff34021d2ca4fc813b070d39a05b63ee4f904fb24a58e19b54550beb96cd",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_consensus_guard.py": "02dc15ce22f931e169d9b9bb4af43b032bb2a0a3108e5bd31f2ababb533e6d0d"
+  },
+  "script_sha256": "e3fe026f9e785958229ed46b37c5dafbbf62aca87190c858a04998c498d4d9a2"
+}

@@ -1,0 +1,5 @@
+﻿candidate_id,event,clip_file,clip_first_source_frame,clip_last_source_frame,provisional_first_source_frame,provisional_last_source_frame,reviewer_question,confirmed_source_frame,event_status
+match1_rally_window_044,serve_contact,044_serve_review.mp4,114720,114780,114740,114760,Confirm valid serve and racket contact; do not use candidate-window start,,requires_independent_human_review
+match1_rally_window_044,point_end,044_point_end_review.mp4,115750,115810,115776,115790,Locate decisive rule event separately from broadcast score change,,requires_independent_human_review
+match1_rally_window_056,serve_contact,056_serve_review.mp4,154060,154110,154081,154086,Confirm valid serve and racket contact through camera transition,,requires_independent_human_review
+match1_rally_window_056,point_end,056_point_end_review.mp4,154815,154935,154840,154880,Locate decisive rule event; score changes after candidate-window end,,requires_independent_human_review

@@ -1,0 +1,41 @@
+{
+  "status": "two_explicit_neighbour_rejections_appended",
+  "new_rejected_local_frames": [
+    463,
+    465
+  ],
+  "rejected_local_frames": [
+    463,
+    464,
+    465,
+    467,
+    470,
+    554
+  ],
+  "additional_position_changes_per_branch": 2,
+  "total_rejected_positions": 6,
+  "remaining564positions_unchanged_from_original_branch": true,
+  "baseline_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\baseline_balltrack_predictions.csv",
+  "baseline_sha256": "9f3ef51f97f073567b930852aedf69366dc98f0803b4dac59f50f8ca0ad03cf0",
+  "experimental_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\temporal_balltrack_predictions.csv",
+  "experimental_sha256": "628cd918f7db5eacc80cabef5a321afca32c38191ee1775ba2133dd32f286f45",
+  "previous_review_and_outputs_unchanged": true,
+  "other_registry_entries_unchanged": true,
+  "physical_visibility_labels_added": 0,
+  "center_groundtruth_added": 0,
+  "interpolated_positions": 0,
+  "algorithm_changes": false,
+  "automatic_temporal_adoption": false,
+  "registry_previous_sha256": "37154a120d8b76c6a2828ccf66fa07c29f912f79654a36cca47003c2eb0d82d3",
+  "registry_new_sha256": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_015\\balltrack_predictions.csv": "802e92ae5288ecefc74870bb57616330673db2fad1b0c8a56d6164a2ef610b5b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\baseline_balltrack_predictions.csv": "88fd4d6e3441dca6dc5b506a1970d9a7841eb9e45d757cd96c51585ef46fcf0e",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\temporal_balltrack_predictions.csv": "3bacae30cf4e4853c6eb3ed70c520b265baa83661b1d8f3a630cd5c25e4e0dd8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\review.json": "b1763e7adce8cf3ba595775ff0f2cadd254207f0bb0be026d74cdc72de003794"
+  }
+}

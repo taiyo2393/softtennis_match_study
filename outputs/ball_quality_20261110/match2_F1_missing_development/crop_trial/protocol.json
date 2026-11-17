@@ -1,0 +1,203 @@
+{
+  "cases": [
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "nominal_start_sec": 300,
+      "nominal_duration_sec": 15,
+      "first_source_frame": 17982,
+      "last_source_frame": 18880,
+      "source_frames": 899,
+      "availability_sample_source_frames": [
+        17982,
+        18012,
+        18042,
+        18072,
+        18102,
+        18132,
+        18162,
+        18192,
+        18221,
+        18251,
+        18281,
+        18311,
+        18341,
+        18371,
+        18401,
+        18431,
+        18461,
+        18491,
+        18521,
+        18551,
+        18581,
+        18611,
+        18641,
+        18670,
+        18700,
+        18730,
+        18760,
+        18790,
+        18820,
+        18850,
+        18880
+      ],
+      "raw_reference_source_frames": [
+        18042,
+        18432,
+        18821
+      ],
+      "selection": "Fixed elapsed time, before raw clip previews or tracker outputs. Keep camera cuts and failures; no replacement.",
+      "rally_boundaries_confirmed": false,
+      "in_play_confirmed": false,
+      "camera_eligibility_pending": true,
+      "processing_role": "full_prespecified_window_including_view_changes",
+      "phase_evidence": "Rally phase unconfirmed; do not infer all frames are in play."
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "nominal_start_sec": 900,
+      "nominal_duration_sec": 15,
+      "first_source_frame": 53946,
+      "last_source_frame": 54844,
+      "source_frames": 899,
+      "availability_sample_source_frames": [
+        53946,
+        53976,
+        54006,
+        54036,
+        54066,
+        54096,
+        54126,
+        54156,
+        54185,
+        54215,
+        54245,
+        54275,
+        54305,
+        54335,
+        54365,
+        54395,
+        54425,
+        54455,
+        54485,
+        54515,
+        54545,
+        54575,
+        54605,
+        54634,
+        54664,
+        54694,
+        54724,
+        54754,
+        54784,
+        54814,
+        54844
+      ],
+      "raw_reference_source_frames": [
+        54006,
+        54396,
+        54785
+      ],
+      "selection": "Fixed elapsed time, before raw clip previews or tracker outputs. Keep camera cuts and failures; no replacement.",
+      "rally_boundaries_confirmed": false,
+      "in_play_confirmed": false,
+      "camera_eligibility_pending": true,
+      "processing_role": "full_prespecified_window_including_view_changes",
+      "phase_evidence": "Rally phase unconfirmed; do not infer all frames are in play."
+    }
+  ],
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_video_sha256": "8461f522c2bf8c9029e928d1ef93527b3fdefe71b9dfd539c6656ef54e9aadaf",
+  "image_to_court_homography_canonical": [
+    [
+      -0.00024685338031416374,
+      -0.0005956680112846085,
+      0.9696186716978605
+    ],
+    [
+      -2.594315959768189e-06,
+      0.0005152286516134458,
+      -0.821852468424021
+    ],
+    [
+      8.463578339590778e-06,
+      -0.0012125759262860826,
+      1.0
+    ]
+  ],
+  "modes": [
+    "legacy_image_crop",
+    "court_margin_transferred_crop"
+  ],
+  "crops_canonical_xyxy": {
+    "legacy_image_crop": [
+      691,
+      929,
+      3149,
+      1469
+    ],
+    "court_margin_transferred_crop": [
+      620,
+      792,
+      3224,
+      1342
+    ]
+  },
+  "crop_normalized": {
+    "legacy_image_crop": [
+      0.18,
+      0.43,
+      0.82,
+      0.68
+    ],
+    "court_margin_transferred_crop": [
+      0.16147583007812466,
+      0.36652485035083926,
+      0.8396439107259114,
+      0.6211767522183665
+    ]
+  },
+  "transferred_rule": "Preserve legacy image-fraction margins around projected far-baseline x extents, far-baseline top and net-ground bottom. New/legacy calibration only; no person boxes, target-frame positions or parameter sweep used to choose crop.",
+  "warning": "Image-fraction padding is an engineering camera adaptation, not a 3D body-height projection. Both ROIs are tested and retained. This development follows4 known missing frames, not independent test accuracy.",
+  "controls": "All939 line-supported frames of both retained main-camera segments. No per-frame targeted crop, no replacement windows. Source899 frames per clip including cuts retained for replay.",
+  "full_frame_diagnostic_frames": [
+    54327,
+    54328,
+    54329,
+    54330,
+    54331,
+    54537,
+    54538,
+    54539,
+    54543,
+    54544,
+    54545
+  ],
+  "full_frame_diagnostic": "Same full-frame YOLO.predict before ByteTrack, at the11 target/neighborhood frames. Anonymous boxes saved only as detector-stage diagnostic; never inserted as persistent track IDs.",
+  "detector": {
+    "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt",
+    "conf": 0.25,
+    "imgsz": 1280,
+    "tracker": "bytetrack.yaml",
+    "device": 0
+  },
+  "proposal_rules": "Prior3-canonical-pixel crop-edge exclusion,50-canonical-pixel minimum height, legacy far-foot band0.49..0.665 transferred with existing camera mapper. Duplicates:IoU>0.35 OR foot distance<0.22*min height and0.5<height ratio<2. Applied to full-frame and previously added candidates.",
+  "IDs": "Crop ByteTrack IDs use1,000,000 offset within each clip/mode and camera segment; not manual person bindings. Full-frame IDs preserved. No anonymous per-frame boxes promoted to stable IDs.",
+  "association": "Same frozen calibrated temporal tracker,8-frame initialization/recovery, same camera-reset mask and appearance extraction. Only candidate pool changes. No position interpolation or forced missing-frame replacement.",
+  "baseline_replay": "Reproduce original selected native boxes/slots/costs before interpreting augmented results.",
+  "handover_and_initialization_changes_reported": true,
+  "all_added_coordinates_actual_crop_detection_boxes": true,
+  "independent_GT_added": false,
+  "policy_fixed_before_any_new_crop_or_full_predict_outputs": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\run_match2_far_crop_development.py": "17da5a9247a776c291e7def0e4f06f12aab2c765e0e8963f7648c078cce777ef",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_F1_missing_development\\diagnostic_protocol.json": "a8823a3cbf05453e498aa6ff81e787029da2e5165fc4f4a5f4984959a671feef",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_F1_missing_development\\diagnostic_result.json": "7530f6a02c9db004863575519876714568451715330e556e30a1f7acac111192",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\calibrated_camera_temporal_tracker.py": "bcebac2ceac69ca2d5afbe76ad8e4fa8f5d7beac962bff66ed0931c99f75d202",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\audit_match2_F1_missing.py": "7e23712e072c6301cae6f63908b04513ee0ea5ade609c765a19f771b9b99bfbf",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\improve_players.py": "1fd1752d96af18b5aace1fce2b2128f4d008734aec9fe2f2997efa5aa1537b96",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\four_player_association.py": "363808475eb2dc12e8322ed3f753b81af81d1b2c66ce47d24e10377c528bf5e9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_fixed_window_transfer\\publication_hashes.json": "e326d10bf91a0d971c567e0d9ce41236082050a79dd5e73d08ab47e8e3b80bb9"
+  }
+}

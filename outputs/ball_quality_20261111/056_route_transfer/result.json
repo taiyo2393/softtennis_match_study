@@ -1,0 +1,18 @@
+{
+  "AI_provisional_strokes": 13,
+  "human_confirmed_new_stroke_sequences": 0,
+  "visible_bounce_candidates": 3,
+  "curve_predicted_bounces": 3,
+  "boundary_active_predictions": 0,
+  "path_counts": {
+    "missing": 46,
+    "observed_assisted": 333,
+    "estimated": 21,
+    "observed_warning": 1
+  },
+  "original_ball_positions": 334,
+  "original_missing_labels": 42,
+  "inherited_human_winner_side": "near",
+  "inherited_end_type": "two_bounces",
+  "independent_accuracy_established": false
+}

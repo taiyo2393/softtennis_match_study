@@ -1,0 +1,63 @@
+﻿tag,policy,source_frame,player_slot,body_ID_candidate,pose_index,body_box_json,identity_status,analysis_x,analysis_y,position_status,association_cost,assignment_margin,baseline_native_present,baseline_native_id,baseline_same_slot_box_iou,uses_future_common_anchor,independent_identity_verified
+019,exclude_near_rectangles,46376,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46376,far_front,1,1,"[2088.564453125, 1088.9437255859375, 2208.9677734375, 1291.750244140625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.33502054659504654,0.7149794534049536,1,105,0.7304922562112675,0,0
+019,exclude_near_rectangles,46378,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46378,far_front,1,1,"[2088.26904296875, 1091.41064453125, 2220.07373046875, 1291.63134765625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3448584996500324,0.7051415003499677,1,105,0.7206286540923471,0,0
+019,exclude_near_rectangles,46380,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46380,far_front,1,1,"[2088.214111328125, 1092.8624267578125, 2230.53369140625, 1291.76171875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.35275935383704304,0.697240646162957,1,105,0.7221414428996702,0,0
+019,exclude_near_rectangles,46382,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46382,far_front,1,1,"[2088.35205078125, 1096.01025390625, 2237.18017578125, 1294.62109375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3556004188620041,0.6943995811379959,1,105,0.7583584322623266,0,0
+019,exclude_near_rectangles,46384,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46384,far_front,1,1,"[2087.994140625, 1095.0543212890625, 2240.1640625, 1295.143310546875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3801199649487214,0.6698800350512786,1,105,0.7877046593391729,0,0
+019,exclude_near_rectangles,46386,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46386,far_front,1,1,"[2088.6689453125, 1096.57177734375, 2243.2099609375, 1296.645751953125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.36420962493383635,0.6857903750661638,1,105,0.8273501626777802,0,0
+019,exclude_near_rectangles,46388,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46388,far_front,1,1,"[2089.646484375, 1096.8099365234375, 2244.733154296875, 1295.3438720703125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3647723110353053,0.6852276889646949,1,105,0.8495802231506576,0,0
+019,exclude_near_rectangles,46390,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46390,far_front,1,0,"[2095.76416015625, 1096.927490234375, 2244.895751953125, 1296.5274658203125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.37050596183258494,0.679494038167415,1,105,0.9025296573309923,0,0
+019,exclude_near_rectangles,46392,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46392,far_front,1,1,"[2108.71435546875, 1096.2154541015625, 2244.55224609375, 1296.76611328125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.37895511226201695,0.6710448877379831,1,105,0.974671645568202,0,0
+019,exclude_near_rectangles,46394,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+019,exclude_near_rectangles,46394,far_front,1,1,"[2124.8818359375, 1097.0604248046875, 2244.828125, 1297.54345703125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3600382466067192,0.6899617533932809,1,105,0.8897460670858879,0,0
+019,exclude_near_rectangles,46396,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,1000246,,0,0
+019,exclude_near_rectangles,46396,far_front,1,1,"[2143.392822265625, 1097.33935546875, 2244.40771484375, 1297.526123046875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3285204714769462,0.7214795285230537,1,105,0.7861010304288739,0,0
+019,exclude_near_rectangles,46398,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46398,far_front,1,1,"[2158.6357421875, 1099.1055908203125, 2244.4658203125, 1297.693603515625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3288795374125475,0.7211204625874525,1,105,0.7132846682717795,0,0
+019,exclude_near_rectangles,46400,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46400,far_front,1,1,"[2164.567138671875, 1100.39404296875, 2245.23876953125, 1298.427734375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.31094838743284775,0.7390516125671522,1,105,0.7090632117484063,0,0
+019,exclude_near_rectangles,46402,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46402,far_front,1,1,"[2166.488525390625, 1101.748779296875, 2246.25439453125, 1298.9256591796875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3170391534285074,0.7329608465714927,1,105,0.7391838489870816,0,0
+019,exclude_near_rectangles,46404,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46404,far_front,1,1,"[2168.95068359375, 1103.5723876953125, 2250.4033203125, 1299.2523193359375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3312312946774969,0.7187687053225031,1,105,0.7918198047277231,0,0
+019,exclude_near_rectangles,46406,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46406,far_front,1,2,"[2170.69140625, 1105.420166015625, 2257.39892578125, 1299.207275390625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.36986473923942803,0.680135260760572,1,105,0.8750949290220883,0,0
+019,exclude_near_rectangles,46408,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46408,far_front,1,1,"[2171.9609375, 1108.4449462890625, 2265.9326171875, 1299.537353515625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.38731406173565047,0.6626859382643495,1,105,0.9487548067579596,0,0
+019,exclude_near_rectangles,46410,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46410,far_front,1,1,"[2171.447265625, 1110.7939453125, 2274.740234375, 1299.572265625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3844483053654362,0.6655516946345639,1,105,0.940530462441032,0,0
+019,exclude_near_rectangles,46412,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46412,far_front,1,0,"[2171.78125, 1111.655029296875, 2295.0869140625, 1300.4443359375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.38237205070060853,0.6676279492993915,1,105,0.8161633379483955,0,0
+019,exclude_near_rectangles,46414,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46414,far_front,1,0,"[2171.47412109375, 1112.6695556640625, 2313.583740234375, 1300.3155517578125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4108629833460172,0.6391370166539829,1,105,0.7574992544630215,0,0
+019,exclude_near_rectangles,46416,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46416,far_front,1,0,"[2171.68212890625, 1112.1141357421875, 2334.8046875, 1300.686279296875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.441421970539378,0.608578029460622,1,105,0.7160601474849495,0,0
+019,exclude_near_rectangles,46418,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46418,far_front,1,0,"[2171.71875, 1112.5888671875, 2351.72509765625, 1302.2607421875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4493305244707438,0.6006694755292563,1,105,0.7176229440428037,0,0
+019,exclude_near_rectangles,46420,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46420,far_front,1,0,"[2171.623046875, 1111.5599365234375, 2363.592529296875, 1302.7723388671875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4506079772071567,0.5993920227928433,1,105,0.7370452818970396,0,0
+019,exclude_near_rectangles,46422,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46422,far_front,1,0,"[2172.05419921875, 1112.4566650390625, 2373.40673828125, 1304.569580078125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4145302013078375,0.6354697986921625,1,105,0.7430539549696223,0,0
+019,exclude_near_rectangles,46424,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46424,far_front,1,0,"[2174.06298828125, 1112.061767578125, 2376.14111328125, 1304.383056640625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.36390882395477336,0.6860911760452266,1,105,0.7942305231891231,0,0
+019,exclude_near_rectangles,46426,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46426,far_front,1,0,"[2180.439453125, 1110.5860595703125, 2376.727294921875, 1304.983154296875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.34556911156027714,0.704430888439723,1,105,0.8562076478583985,0,0
+019,exclude_near_rectangles,46428,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46428,far_front,1,0,"[2193.972412109375, 1108.112060546875, 2377.05224609375, 1304.641357421875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3504875730500156,0.6995124269499844,1,105,0.945001858342449,0,0
+019,exclude_near_rectangles,46430,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46430,far_front,1,1,"[2207.11767578125, 1106.323486328125, 2377.298828125, 1304.9193115234375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.37695763946342276,0.6730423605365772,1,105,0.9391850213753133,0,0
+019,exclude_near_rectangles,46432,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46432,far_front,1,1,"[2223.3349609375, 1101.305908203125, 2377.44189453125, 1304.494140625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3612491105061005,0.6887508894938996,1,105,0.8509145147292023,0,0
+019,exclude_near_rectangles,46434,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,152,,0,0
+019,exclude_near_rectangles,46434,far_front,1,1,"[2238.7138671875, 1095.3636474609375, 2377.30224609375, 1304.88427734375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3477708443602019,0.7022291556397982,1,105,0.7915586007546814,0,0
+019,exclude_near_rectangles,46436,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,1000246,,0,0
+019,exclude_near_rectangles,46436,far_front,1,1,"[2255.33642578125, 1089.916748046875, 2377.13232421875, 1304.43701171875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3275965335055486,0.7224034664944514,1,105,0.722661627254077,0,0

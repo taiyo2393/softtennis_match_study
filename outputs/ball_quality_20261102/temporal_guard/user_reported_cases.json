@@ -1,0 +1,10 @@
+{
+  "candidate_id": "match1_motion_pilot_018",
+  "local_frames": [
+    208,
+    229,
+    230
+  ],
+  "report": "User identified player-hand false detections and requested temporal consistency.",
+  "role": "Development regression cases, not independent test labels."
+}

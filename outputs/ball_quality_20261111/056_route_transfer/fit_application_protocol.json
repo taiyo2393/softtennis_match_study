@@ -1,0 +1,69 @@
+{
+  "fixed_before_056_fit_outputs": true,
+  "model": "Exact044 matrices/constrained_y/solve functions and thresholds reused.",
+  "half": "Target near/far polygon follows AI recipient side, not044 hardcoded far side. Same inequality mechanism, no parameter tuning.",
+  "candidates": [
+    {
+      "id": "B01",
+      "frame": 154120,
+      "first": 154116,
+      "last": 154124,
+      "after": "H01",
+      "before": "H02",
+      "side": "far"
+    },
+    {
+      "id": "B02",
+      "frame": 154230,
+      "first": 154226,
+      "last": 154234,
+      "after": "H03",
+      "before": "H04",
+      "side": "far"
+    },
+    {
+      "id": "B03",
+      "frame": 154330,
+      "first": 154328,
+      "last": 154334,
+      "after": "H05",
+      "before": "H06",
+      "side": "far"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "P01",
+      "first": 154428,
+      "last": 154444,
+      "after": "H06",
+      "before": "H07",
+      "side": "near"
+    },
+    {
+      "id": "P02",
+      "first": 154592,
+      "last": 154592,
+      "after": "H08",
+      "before": "H09",
+      "side": "near"
+    },
+    {
+      "id": "P03",
+      "first": 154722,
+      "last": 154722,
+      "after": "H09",
+      "before": "H10",
+      "side": "far"
+    }
+  ],
+  "windows": "24sourceframes before/after gap clipped to adjacent AI contact boundaries; >=6visible points per side.",
+  "warning": "Model estimates are not observations. Every trial retained; boundary-active estimates flagged. No bounce invented on AI volley intervals.",
+  "source_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\build_056_transfer_routes.py": "b3724c1d54288aaed2f502352219d9d000b904b3b7e9c752a447aef80e42ff4c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\estimate_044_far_bounces.py": "d96a1fecff19d91dc0f861e84a68ef62a700e8e717c4b78a3e04c04383736a89",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\constrain_044_far_bounce_fit.py": "44c4c4667e32c7c38dcbea0e2b471fb6a9cff7c477ebc01198c67001d5857078",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_route_transfer\\AI_event_proposals.json": "dc28b6bf16f59ce9ef04e00a1e2b97f45aabf3e5ec5b4f3cfe1e09323b27a6e0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_route_transfer\\ball_image_observations.csv": "8aa4c243f82d37c6d98f1ef7b838633c1261ab4e9a1d1b7fe483ce0941f51760"
+  }
+}

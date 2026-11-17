@@ -1,0 +1,20 @@
+{
+  "original164observations_exactly_preserved": true,
+  "original37missing_ball_labels_unchanged": true,
+  "estimated_missing_image_positions": 31,
+  "remaining_missing_positions": 18,
+  "remaining_annotated_missing": 6,
+  "unannotated_display_times": 12,
+  "far_bounce_predictions": 2,
+  "boundary_active_low_confidence": 2,
+  "unconstrained_failed_prediction_retained": true,
+  "physical_3D_or_airborne_ground_track_not_created": true,
+  "all_prior_publication_files_unchanged": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_bounce_projection": 14,
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_sequence_confirmed": 11,
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_stroke_review": 39,
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot": 23
+  },
+  "video_decoded_frames": 213,
+  "no_estimates_promoted_to_observations_or_GT": true
+}

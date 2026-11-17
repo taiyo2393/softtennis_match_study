@@ -1,0 +1,6 @@
+{
+  "input": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\match1_court_plane_preimpact_motion_features.csv",
+  "movement_threshold_court_width": 0.01,
+  "definition": "Movement direction is the sign of the preceding 100-ms lateral displacement in normalized court-width units, mapped into the target front player's own view.",
+  "reporting_guard": "This pooled near/far summary requires a usable fixed-camera court calibration. It is a single-match exploratory association and does not establish anticipation, causality, or player-independent performance."
+}

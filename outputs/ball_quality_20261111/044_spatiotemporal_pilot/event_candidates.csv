@@ -1,0 +1,5 @@
+﻿source_frame,relative_sec,turn_degrees,incoming_image_velocity_px_per_source_frame,outgoing_image_velocity_px_per_source_frame,nearest_player_slot,ball_to_box_distance_in_heights,event_type,event_confirmation,hitter_confirmed,ball_x_px,ball_y_px,event_id
+115415,0.7007,101.69634888947594,14.35705401536123,6.28058772877223,near_rear,0.22149237166379068,near_player_direction_change_candidate,unreviewed_proposal_not_hit_or_bounce_GT,,1089.0,691.0,C01
+115509,2.2689333333333335,125.53767779197437,2.1505813167606567,1.25,near_front,0.0,near_player_direction_change_candidate,unreviewed_proposal_not_hit_or_bounce_GT,,761.0,568.0,C02
+115571,3.3033,46.11601039140727,17.220990099294525,11.858541225631422,near_rear,0.598718013260712,image_direction_change_candidate,unreviewed_proposal_not_hit_or_bounce_GT,,1306.0,703.0,C03
+115727,5.9059,146.71513758310076,1.9838555767653538,4.596194077712559,near_front,0.06287309646816103,near_player_direction_change_candidate,unreviewed_proposal_not_hit_or_bounce_GT,,764.0,552.0,C04

@@ -1,0 +1,4 @@
+﻿candidate_id,frame,slot,finding,status
+044,115403,near_rear,Human confirmed one foot grounded; supporting-foot coordinate not independently annotated,human_confirmed_support_state_only
+056,154116,near_front,Both feet airborne confirmed by human; box bottom is not observed ground-contact position,human_confirmed_support_state_only
+056,154116,far_rear,"Near-front player occludes far player; one foot visible, other foot needs temporal review",ai_visual_provisional

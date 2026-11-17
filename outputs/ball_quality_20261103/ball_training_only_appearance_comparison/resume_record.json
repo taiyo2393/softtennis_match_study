@@ -1,0 +1,10 @@
+{
+  "cause": "Six-case source rows lack sample_id; initial run stopped after training and validation/challenge prediction files were saved.",
+  "fix": "Construct sample_id from source clip/local frame for six-case metadata only. Reuse frozen heads/features; verify validation/challenge scores exactly.",
+  "no_training_rerun": true,
+  "no_parameter_changes": true,
+  "no_threshold_changes": true,
+  "no_changed_evaluation_predictions": true,
+  "script_sha256": "afbf43a8e0946b98861855578f90d4c154f567f30e039c38eeef4ed603793418",
+  "original_script_sha256": "3f5407ddcc92f6392820ec14676d9a075ef8b2d73542d01692c0fa658ad86b41"
+}

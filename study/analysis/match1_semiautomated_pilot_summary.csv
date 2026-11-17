@@ -1,0 +1,7 @@
+metric,numerator,denominator,estimate,wilson95_low,wilson95_high,interpretation
+human_confirmed_shot_direction_coverage,10,10,1.000,0.722,1.000,Events with a confirmed post-impact direction label.
+high_confidence_ai_direction_coverage,6,10,0.600,0.313,0.832,Share of confirmed events for which AI offered a high-confidence direction candidate.
+ai_direction_agreement_given_proposal,6,6,1.000,0.610,1.000,"Agreement with the same human review, conditional on an AI proposal; not independent accuracy and not generalisable."
+audited_target_front_track_usable_rate,10,10,1.000,0.722,1.000,Human audit of the target-front track in this selected pilot only.
+audited_target_front_pose_usable_rate,10,10,1.000,0.722,1.000,Human audit that the ankle pose follows the selected target front in this pilot.
+bilateral_ankle_frame_coverage,422,430,0.981,0.964,0.991,Model output coverage; this is not landmark-location accuracy.

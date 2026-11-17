@@ -1,0 +1,9 @@
+{
+  "status": "fixed_transfer_complete_no_additional_candidates",
+  "retain_previous_four_human_confirmed_points": true,
+  "adopt_as_general_recovery_method": false,
+  "reason": "The unchanged setting produced no candidates in all10eligible other gaps. Previously confirmed four points remain useful local repairs, not generalization evidence.",
+  "next_technical_question": "Does the ball still have usable same-frame image evidence at native resolution when the full-image512x288 model has no usable local heatmap response?",
+  "next_comparison": "Keep this failed setting as baseline. A separately declared native-resolution crop trial would require checks on both missing targets and already correct/known wrong candidates, with immutable source mappings and no automatic adoption.",
+  "no_further_same_trial_parameter_search": true
+}

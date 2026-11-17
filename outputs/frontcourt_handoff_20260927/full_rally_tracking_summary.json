@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_id": "match1_rally_window_044",
+    "first_frame": 114710,
+    "last_frame": 115790,
+    "frames": 1081,
+    "initial_slot_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 5,
+      "far_front": 3
+    },
+    "frames_with_4plus_roi_candidates": 1081,
+    "frames_with_exactly_four_roi_candidates": 0,
+    "median_roi_candidate_count": 7,
+    "maximum_roi_candidate_count": 9,
+    "frames_with_all_four_seed_ids": 151,
+    "missing_runs_per_slot": {
+      "near_front": 0,
+      "near_rear": 0,
+      "far_rear": 2,
+      "far_front": 2
+    },
+    "longest_seed_id_missing_run_per_slot": {
+      "near_front": 0,
+      "near_rear": 0,
+      "far_rear": 574,
+      "far_front": 926
+    },
+    "warning": "No ID or foot-position ground truth; seed ID presence is not identity accuracy."
+  },
+  {
+    "candidate_id": "match1_rally_window_056",
+    "first_frame": 154086,
+    "last_frame": 154880,
+    "frames": 795,
+    "initial_slot_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 11,
+      "far_front": 4
+    },
+    "frames_with_4plus_roi_candidates": 795,
+    "frames_with_exactly_four_roi_candidates": 0,
+    "median_roi_candidate_count": 8,
+    "maximum_roi_candidate_count": 9,
+    "frames_with_all_four_seed_ids": 41,
+    "missing_runs_per_slot": {
+      "near_front": 0,
+      "near_rear": 1,
+      "far_rear": 3,
+      "far_front": 2
+    },
+    "longest_seed_id_missing_run_per_slot": {
+      "near_front": 0,
+      "near_rear": 236,
+      "far_rear": 746,
+      "far_front": 506
+    },
+    "warning": "No ID or foot-position ground truth; seed ID presence is not identity accuracy."
+  }
+]

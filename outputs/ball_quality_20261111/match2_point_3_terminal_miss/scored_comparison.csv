@@ -1,0 +1,3 @@
+﻿method,source_frame,eligible_components,x_px,y_px,peak,reference_x_px,reference_y_px,distance_px,result
+full_image,15505,1,723.75,658.125,0.17724609375,723.0,661.0,2.9712160810011783,within16px
+local_crop,15505,0,,,,723.0,661.0,,no_candidate

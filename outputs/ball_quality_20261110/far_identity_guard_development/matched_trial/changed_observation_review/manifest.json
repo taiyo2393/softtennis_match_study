@@ -1,0 +1,471 @@
+{
+  "selection": "Longest removed run midpoint per slot/case plus all additions for upper guard, and all seven earlier019 probes. Diagnostic selection, not representative accuracy sample.",
+  "items": [
+    {
+      "tag": "002",
+      "source_frame": 2449,
+      "slot": "far_rear",
+      "reason": "longest removed run 2448..2449 (2)",
+      "image": "01_002_F2449.jpg",
+      "sha256": "46ec440f9125a9d92f9a27b2bcce633b3438d0051f42141e6d67a05423cd2670",
+      "crop_xyxy": [
+        1237,
+        936,
+        1730,
+        1364
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "002",
+      "source_frame": 2478,
+      "slot": "far_front",
+      "reason": "longest removed run 2470..2485 (16)",
+      "image": "02_002_F2478.jpg",
+      "sha256": "9b224bf7a969674953adfacd38d1f4ae734577177e9166a009efe7be1e611b02",
+      "crop_xyxy": [
+        1466,
+        1000,
+        1961,
+        1438
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "005",
+      "source_frame": 8658,
+      "slot": "far_rear",
+      "reason": "longest removed run 8653..8662 (10)",
+      "image": "03_005_F8658.jpg",
+      "sha256": "8873546f4e84da09c88589e1d2de85c8322d8808dff5700e7637d11ff0518e95",
+      "crop_xyxy": [
+        1531,
+        940,
+        2005,
+        1375
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "005",
+      "source_frame": 8988,
+      "slot": "far_front",
+      "reason": "longest removed run 8985..8990 (6)",
+      "image": "04_005_F8988.jpg",
+      "sha256": "3436da52eb5e7679ba1114db19242e6945d1cb493cf79251bf3d1c7f759a9a12",
+      "crop_xyxy": [
+        1493,
+        992,
+        2007,
+        1431
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "005",
+      "source_frame": 8684,
+      "slot": "far_rear",
+      "reason": "all newly selected observations",
+      "image": "05_005_F8684.jpg",
+      "sha256": "4814897fa7de579aa3f92b5b10c01d41fc3cfd07e985822e9a203b605b501029",
+      "crop_xyxy": [
+        1579,
+        919,
+        2069,
+        1375
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": true
+    },
+    {
+      "tag": "005",
+      "source_frame": 8985,
+      "slot": "far_rear",
+      "reason": "all newly selected observations",
+      "image": "06_005_F8985.jpg",
+      "sha256": "ff580ed12e6dc16d035bdad8cdf768c0d5474d161b230b13e072d02d25aec749",
+      "crop_xyxy": [
+        1495,
+        911,
+        1992,
+        1384
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": true
+    },
+    {
+      "tag": "006",
+      "source_frame": 11044,
+      "slot": "far_rear",
+      "reason": "longest removed run 11039..11048 (10)",
+      "image": "07_006_F11044.jpg",
+      "sha256": "8b2da1d2aba27a441298e62e948fcd2e090bf078d485683d57a6a3aaf4c79035",
+      "crop_xyxy": [
+        1695,
+        952,
+        2231,
+        1432
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "006",
+      "source_frame": 11147,
+      "slot": "far_front",
+      "reason": "longest removed run 11142..11151 (10)",
+      "image": "08_006_F11147.jpg",
+      "sha256": "13094ef1a7d8f5a04c5a69b8f939c3aa5d7aac09df8cfc56a421a3fc9a91807b",
+      "crop_xyxy": [
+        2032,
+        903,
+        2555,
+        1362
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "006",
+      "source_frame": 12231,
+      "slot": "far_rear",
+      "reason": "all newly selected observations",
+      "image": "09_006_F12231.jpg",
+      "sha256": "d1a393bf8fee510f8120466a036a86ec4ce4fc567d846c71cdb9f692e48b7d5f",
+      "crop_xyxy": [
+        1749,
+        906,
+        2205,
+        1345
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": true
+    },
+    {
+      "tag": "006",
+      "source_frame": 12233,
+      "slot": "far_rear",
+      "reason": "all newly selected observations",
+      "image": "10_006_F12233.jpg",
+      "sha256": "9c134b0a4abe92d6abd471b2b4a791abeee833f20d69182bcddd1333c635d872",
+      "crop_xyxy": [
+        1746,
+        905,
+        2205,
+        1352
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": true
+    },
+    {
+      "tag": "009",
+      "source_frame": 21630,
+      "slot": "far_rear",
+      "reason": "longest removed run 21621..21638 (18)",
+      "image": "11_009_F21630.jpg",
+      "sha256": "2382dd7315d6abb1794ba79d5f92792618a5e9166b901b9bc0ff68eb9000e66b",
+      "crop_xyxy": [
+        1380,
+        928,
+        1859,
+        1366
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "009",
+      "source_frame": 22056,
+      "slot": "far_front",
+      "reason": "longest removed run 22027..22084 (58)",
+      "image": "12_009_F22056.jpg",
+      "sha256": "b394e806ba86dd9a0c091539d17972233a7ce40a7ca5e47c25e675096ce444e2",
+      "crop_xyxy": [
+        1703,
+        943,
+        2254,
+        1448
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "009",
+      "source_frame": 22064,
+      "slot": "far_rear",
+      "reason": "all newly selected observations",
+      "image": "13_009_F22064.jpg",
+      "sha256": "860634942073b0126579ec731359457cd604bf5ff4c49cfa80144d257e15b54d",
+      "crop_xyxy": [
+        1613,
+        935,
+        2082,
+        1351
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": true
+    },
+    {
+      "tag": "012",
+      "source_frame": 32193,
+      "slot": "far_front",
+      "reason": "longest removed run 32177..32209 (33)",
+      "image": "14_012_F32193.jpg",
+      "sha256": "a0acff9a5e908b278d5ec646b35b891d99b1d901dbfe9700141c993ebca3f411",
+      "crop_xyxy": [
+        1812,
+        972,
+        2292,
+        1426
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "015",
+      "source_frame": 38983,
+      "slot": "far_front",
+      "reason": "longest removed run 38982..38984 (3)",
+      "image": "15_015_F38983.jpg",
+      "sha256": "f3c91eb27d111efbd64e9b2a62d9274782f30c6b652a2c5405d667920196c465",
+      "crop_xyxy": [
+        2012,
+        895,
+        2496,
+        1400
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "016",
+      "source_frame": 40682,
+      "slot": "far_rear",
+      "reason": "longest removed run 40673..40690 (18)",
+      "image": "16_016_F40682.jpg",
+      "sha256": "e02618d8331affdfe1a8e3cdd43ff584ee5fa5ab547c99483c315bf9db04bfe0",
+      "crop_xyxy": [
+        2055,
+        928,
+        2510,
+        1360
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "017",
+      "source_frame": 42400,
+      "slot": "far_rear",
+      "reason": "longest removed run 42393..42406 (14)",
+      "image": "17_017_F42400.jpg",
+      "sha256": "0af643649b656cb9b2cbbd22d66d083a7d376654cd5db668c4c34694ed5311c0",
+      "crop_xyxy": [
+        2035,
+        901,
+        2554,
+        1352
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "017",
+      "source_frame": 42411,
+      "slot": "far_front",
+      "reason": "longest removed run 42387..42434 (48)",
+      "image": "18_017_F42411.jpg",
+      "sha256": "34ff4c7eb3ab541ebc5365eb5ae6440632169dbb5124ebaaf4542561cd0b63b3",
+      "crop_xyxy": [
+        1013,
+        955,
+        1617,
+        1461
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "018",
+      "source_frame": 44200,
+      "slot": "far_rear",
+      "reason": "longest removed run 44197..44202 (6)",
+      "image": "19_018_F44200.jpg",
+      "sha256": "9174be9457e44b85c0beeba595be84c4f7f43d5557864b7d011e94c9a46a45ab",
+      "crop_xyxy": [
+        2069,
+        903,
+        2528,
+        1349
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "018",
+      "source_frame": 44230,
+      "slot": "far_front",
+      "reason": "longest removed run 44213..44247 (35)",
+      "image": "20_018_F44230.jpg",
+      "sha256": "1b38411a3095c38a8b8e19413306d2350d6b909207c28eb7cd871cf764f1ab69",
+      "crop_xyxy": [
+        1791,
+        988,
+        2325,
+        1433
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 46201,
+      "slot": "far_rear",
+      "reason": "longest removed run 46177..46224 (48)",
+      "image": "21_019_F46201.jpg",
+      "sha256": "e8ccd885d4c911ae308690b61c1174d3833c5309b613b0f958014d2be52d8623",
+      "crop_xyxy": [
+        1450,
+        910,
+        1893,
+        1365
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 45930,
+      "slot": "far_front",
+      "reason": "longest removed run 45907..45952 (46)",
+      "image": "22_019_F45930.jpg",
+      "sha256": "dcc93af0e1ffc99315cb0d4fee65c05f19c25ffd1b2cc10a8f774565d0cf5c0b",
+      "crop_xyxy": [
+        1828,
+        968,
+        2315,
+        1443
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 46501,
+      "slot": "far_rear",
+      "reason": "previously AI-diagnosed failure/ambiguity probe",
+      "image": "23_019_F46501.jpg",
+      "sha256": "8da3b999a079a48e434c4789beba7ddc6105cacd45249bef15061ce1c1fc3a4e",
+      "crop_xyxy": [
+        1320,
+        904,
+        1771,
+        1332
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 46503,
+      "slot": "far_rear",
+      "reason": "previously AI-diagnosed failure/ambiguity probe",
+      "image": "24_019_F46503.jpg",
+      "sha256": "1a2c5de0eb8fcf7c94f64d5c7f1371ff5d41ade7905498dd9d6fe69a463ca426",
+      "crop_xyxy": [
+        1325,
+        904,
+        1773,
+        1326
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 46505,
+      "slot": "far_rear",
+      "reason": "previously AI-diagnosed failure/ambiguity probe",
+      "image": "25_019_F46505.jpg",
+      "sha256": "7ffac8ebe2fd9c3c1ab3c277a395351038823b0fc10fa6ac233d50505a586e51",
+      "crop_xyxy": [
+        1328,
+        904,
+        1777,
+        1327
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 46511,
+      "slot": "far_rear",
+      "reason": "previously AI-diagnosed failure/ambiguity probe",
+      "image": "26_019_F46511.jpg",
+      "sha256": "9bb415945f051f0d889fad64f45aef4866187c3e915b7f1d6edc79cb57dff623",
+      "crop_xyxy": [
+        1314,
+        903,
+        1795,
+        1367
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 46634,
+      "slot": "far_rear",
+      "reason": "previously AI-diagnosed failure/ambiguity probe",
+      "image": "27_019_F46634.jpg",
+      "sha256": "b9b3620743b66de444fe973e20eb05bf33099e4c352a03a09e8147f65f3f413a",
+      "crop_xyxy": [
+        1813,
+        932,
+        2274,
+        1372
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46665,
+      "slot": "far_front",
+      "reason": "previously AI-diagnosed failure/ambiguity probe",
+      "image": "28_019_F46665.jpg",
+      "sha256": "db1f66573f94579b6763e47865478d42aa483b59ec30028e81936fb8f33c3e91",
+      "crop_xyxy": [
+        1837,
+        947,
+        2351,
+        1396
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    },
+    {
+      "tag": "019",
+      "source_frame": 46666,
+      "slot": "far_front",
+      "reason": "previously AI-diagnosed failure/ambiguity probe",
+      "image": "29_019_F46666.jpg",
+      "sha256": "95809bd2f82ccecf6e4575704bfb029d6868de0fa64626baa0200d7f7bb8ba56",
+      "crop_xyxy": [
+        1842,
+        946,
+        2357,
+        1399
+      ],
+      "aspect_preserved": true,
+      "new_observation_present": false
+    }
+  ],
+  "script_sha256": "1e9789dcd235c5c5c47f7889b99817cd8cf0ea9886b91d5ec815ef5661ea9a3a",
+  "independent_GT": false
+}

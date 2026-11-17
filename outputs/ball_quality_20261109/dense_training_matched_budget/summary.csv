@@ -1,0 +1,7 @@
+﻿scope,method,targets,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable
+legacy_play,sparse_legacy_missing_only,77,64,2,2,4,5
+legacy_play,dense_legacy_missing_only,77,64,3,1,5,4
+dense_packet_play,sparse_raw_native_peak,124,110,1,6,1,6
+dense_packet_play,dense_raw_native_peak,124,109,4,4,3,4
+legacy_nonplay,sparse_legacy_missing_only,46,18,8,8,5,7
+legacy_nonplay,dense_legacy_missing_only,46,20,8,6,4,8

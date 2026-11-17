@@ -1,0 +1,149 @@
+{
+  "results": [
+    {
+      "pilot": "016",
+      "repaired_only_candidates": 2,
+      "court_filtered_candidates": 2,
+      "accepted_candidates": [
+        {
+          "interval": [
+            721,
+            752
+          ],
+          "gesture": 666
+        }
+      ],
+      "decisions": [
+        {
+          "interval": [
+            97,
+            128
+          ],
+          "reason": "missing_or_moving_four_player_context",
+          "quiet": false,
+          "baseline": 0.10597459543528909
+        },
+        {
+          "interval": [
+            721,
+            752
+          ],
+          "reason": "accepted_start_candidate",
+          "quiet": true,
+          "baseline": 0.14008845436060424
+        }
+      ],
+      "complete_four_samples": 402,
+      "samples": 585,
+      "quiet_samples": 214
+    },
+    {
+      "pilot": "002",
+      "repaired_only_candidates": 9,
+      "court_filtered_candidates": 9,
+      "accepted_candidates": [
+        {
+          "interval": [
+            44,
+            75
+          ],
+          "gesture": 54
+        },
+        {
+          "interval": [
+            745,
+            776
+          ],
+          "gesture": 702
+        }
+      ],
+      "decisions": [
+        {
+          "interval": [
+            12,
+            43
+          ],
+          "reason": "missing_or_moving_four_player_context",
+          "quiet": false,
+          "baseline": 0.06283807483792028
+        },
+        {
+          "interval": [
+            44,
+            75
+          ],
+          "reason": "accepted_start_candidate",
+          "quiet": true,
+          "baseline": 0.05273736628932135
+        },
+        {
+          "interval": [
+            745,
+            776
+          ],
+          "reason": "accepted_start_candidate",
+          "quiet": false,
+          "baseline": 0.007157915275778147
+        },
+        {
+          "interval": [
+            835,
+            866
+          ],
+          "reason": "activity_lock",
+          "quiet": true,
+          "baseline": 0.001084063330788032
+        },
+        {
+          "interval": [
+            917,
+            948
+          ],
+          "reason": "activity_lock",
+          "quiet": false,
+          "baseline": 0.08426060160513502
+        },
+        {
+          "interval": [
+            1137,
+            1168
+          ],
+          "reason": "activity_lock",
+          "quiet": true,
+          "baseline": 0.08917993776255362
+        },
+        {
+          "interval": [
+            1197,
+            1227
+          ],
+          "reason": "activity_lock",
+          "quiet": false,
+          "baseline": 0.24573575193438224
+        },
+        {
+          "interval": [
+            1246,
+            1277
+          ],
+          "reason": "activity_lock",
+          "quiet": false,
+          "baseline": 0.1381491004595369
+        },
+        {
+          "interval": [
+            1378,
+            1409
+          ],
+          "reason": "activity_lock",
+          "quiet": false,
+          "baseline": 0.20356269145828454
+        }
+      ],
+      "complete_four_samples": 660,
+      "samples": 735,
+      "quiet_samples": 354
+    }
+  ],
+  "independent_accuracy": false
+}

@@ -1,0 +1,137 @@
+{
+  "status": "fixed_before_inference",
+  "model": "unchanged RacketVision MS-TrackNetV3",
+  "checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "script_sha256": "259f0df2fde619fef321440ea62a46d30d0db75fbdf02a821e7d649fa0e27cac",
+  "target_local_frames": [
+    773,
+    784,
+    891,
+    892,
+    893,
+    960,
+    968,
+    970,
+    1068,
+    1069,
+    1070,
+    1071,
+    1072,
+    1073,
+    1074,
+    1075,
+    1076,
+    1077,
+    1078,
+    1079,
+    1080,
+    1081,
+    1082,
+    1083,
+    1084,
+    1085,
+    1086,
+    1087,
+    1088,
+    1089,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1095,
+    1096,
+    1097,
+    1098,
+    1099,
+    1100,
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106
+  ],
+  "selection_scope": "User-reported1080 vicinity plus previously reviewed candidate frames; development cases, not a test set",
+  "tiles_xywh": [
+    [
+      0,
+      0,
+      960,
+      540
+    ],
+    [
+      480,
+      0,
+      960,
+      540
+    ],
+    [
+      960,
+      0,
+      960,
+      540
+    ],
+    [
+      0,
+      270,
+      960,
+      540
+    ],
+    [
+      480,
+      270,
+      960,
+      540
+    ],
+    [
+      960,
+      270,
+      960,
+      540
+    ],
+    [
+      0,
+      540,
+      960,
+      540
+    ],
+    [
+      480,
+      540,
+      960,
+      540
+    ],
+    [
+      960,
+      540,
+      960,
+      540
+    ]
+  ],
+  "tile_selection": "All9 fixed image tiles for every requested frame; no label-selected tile",
+  "source_image_wh": [
+    1920,
+    1080
+  ],
+  "network_wh": [
+    512,
+    288
+  ],
+  "tile_scale_gain": 2,
+  "candidate_extractor": "unchanged floor0.10, top6 per tile, half-peak weighted centroid",
+  "model_input": "BGR t-3..t plus corresponding cropped median120, bilinear resize, /255",
+  "comparison": "Cached unchanged full-frame candidates versus all tiled candidates",
+  "deduplication_for_count": "Within12 source-image pixels, keep highest peak; no ball-identity inference",
+  "descriptive_match_radius_px": 24,
+  "coordinate_reference": "Previously reviewed ball-enclosing component centers; no precise-center independent GT",
+  "automatic_adoption": false,
+  "missing_positions_filled": false,
+  "independent_accuracy_evaluation": false,
+  "input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "a8abbc8027bc548335ff5e87f200a07dd52d47ec20171969ab2758a1c9e8e094",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "d1a7453a99e9f7a55907e359771b12656c7ff8fe712c1d7d2930815e2c2bf59f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv": "a2592d586f84867efd5a03063f3fe5bce9306a2a903af062d74667d268bbf500"
+  }
+}

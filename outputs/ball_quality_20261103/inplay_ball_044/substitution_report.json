@@ -1,0 +1,162 @@
+{
+  "parameters": {
+    "raw_center_residual_min_px": 64.0,
+    "alternate_center_residual_max_px": 24.0,
+    "alternate_peak_min": 0.15,
+    "anchor_endpoint_distance_max_px": 60.0,
+    "competing_alternate_distance_margin_px": 8.0,
+    "anchors": "raw observations exactly t-1 and t+1",
+    "scope": "existing candidate in-play interval only",
+    "automatic_adoption": false
+  },
+  "script_sha256": "53a1a277dd29c7e72d9fb944cf1b1fbc5678db7970f552022056fa06efda21b5",
+  "candidate_file_sha256": "9502cff40ffde42a89fb3e8deb975ef07d9105ff8dabc5d74f04766c4f63c4b2",
+  "baseline_file_sha256": "143e1c71d270f7e3c4f4ee8accb77709c6b4367ca0141ff48e371fb77d008123",
+  "scope_frames": [
+    739,
+    1140
+  ],
+  "baseline_output_frames": 272,
+  "candidate_frames_with_components": 304,
+  "suggested_changes": {
+    "773": {
+      "local_frame": "773",
+      "rank": "2",
+      "x_px": "1026.5181343607728",
+      "y_px": "607.1428829973778",
+      "peak": "0.3564453125",
+      "area": "339",
+      "mean": "0.19831348955631256",
+      "raw_residual_px": 278.9646034894033,
+      "alternate_residual_px": 15.516640726284235,
+      "anchor_first_local_frame": 772,
+      "anchor_last_local_frame": 774,
+      "selected_component_source": "unchanged_model_observed_heatmap_component",
+      "independent_ball_confirmation": false
+    },
+    "784": {
+      "local_frame": "784",
+      "rank": "2",
+      "x_px": "1106.2069861040588",
+      "y_px": "672.6955703526279",
+      "peak": "0.4619140625",
+      "area": "384",
+      "mean": "0.23965851962566376",
+      "raw_residual_px": 136.2974687952788,
+      "alternate_residual_px": 8.592691047143589,
+      "anchor_first_local_frame": 783,
+      "anchor_last_local_frame": 785,
+      "selected_component_source": "unchanged_model_observed_heatmap_component",
+      "independent_ball_confirmation": false
+    },
+    "1103": {
+      "local_frame": "1103",
+      "rank": "2",
+      "x_px": "823.8513873711323",
+      "y_px": "533.1147994751086",
+      "peak": "0.396728515625",
+      "area": "356",
+      "mean": "0.22083976864814758",
+      "raw_residual_px": 142.06072645175374,
+      "alternate_residual_px": 7.877515862600656,
+      "anchor_first_local_frame": 1102,
+      "anchor_last_local_frame": 1104,
+      "selected_component_source": "unchanged_model_observed_heatmap_component",
+      "independent_ball_confirmation": false
+    }
+  },
+  "decisions": [
+    {
+      "local_frame": 773,
+      "raw_residual_px": 278.9646034894033,
+      "anchor_endpoint_distance_px": 21.93171219946131,
+      "decision": "proposed_observed_component_substitution",
+      "alternatives_within_gate": 1
+    },
+    {
+      "local_frame": 783,
+      "raw_residual_px": 71.8087738371851,
+      "anchor_endpoint_distance_px": 143.6175476743702,
+      "decision": "anchors_too_far_apart_preserve_raw",
+      "alternatives_within_gate": 0
+    },
+    {
+      "local_frame": 784,
+      "raw_residual_px": 136.2974687952788,
+      "anchor_endpoint_distance_px": 15.620499351813308,
+      "decision": "proposed_observed_component_substitution",
+      "alternatives_within_gate": 1
+    },
+    {
+      "local_frame": 785,
+      "raw_residual_px": 71.30918594402827,
+      "anchor_endpoint_distance_px": 116.49892703368559,
+      "decision": "anchors_too_far_apart_preserve_raw",
+      "alternatives_within_gate": 0
+    },
+    {
+      "local_frame": 893,
+      "raw_residual_px": 73.56119901143536,
+      "anchor_endpoint_distance_px": 142.72000560538106,
+      "decision": "anchors_too_far_apart_preserve_raw",
+      "alternatives_within_gate": 0
+    },
+    {
+      "local_frame": 894,
+      "raw_residual_px": 70.26023057178222,
+      "anchor_endpoint_distance_px": 149.3251485852266,
+      "decision": "anchors_too_far_apart_preserve_raw",
+      "alternatives_within_gate": 0
+    },
+    {
+      "local_frame": 959,
+      "raw_residual_px": 218.93948935721943,
+      "anchor_endpoint_distance_px": 449.5887009256349,
+      "decision": "anchors_too_far_apart_preserve_raw",
+      "alternatives_within_gate": 0
+    },
+    {
+      "local_frame": 1102,
+      "raw_residual_px": 73.32973476019124,
+      "anchor_endpoint_distance_px": 120.3536455617361,
+      "decision": "anchors_too_far_apart_preserve_raw",
+      "alternatives_within_gate": 0
+    },
+    {
+      "local_frame": 1103,
+      "raw_residual_px": 142.06072645175374,
+      "anchor_endpoint_distance_px": 17.11724276862369,
+      "decision": "proposed_observed_component_substitution",
+      "alternatives_within_gate": 1
+    },
+    {
+      "local_frame": 1104,
+      "raw_residual_px": 75.3077021293307,
+      "anchor_endpoint_distance_px": 150.6154042586614,
+      "decision": "anchors_too_far_apart_preserve_raw",
+      "alternatives_within_gate": 0
+    }
+  ],
+  "changed_frames": 3,
+  "missing_outputs_added": 0,
+  "raw_observations_deleted": 0,
+  "person_input_audit": {
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\full_rally_044\\bytetrack_four_player_reconnection.csv",
+    "coordinate_scale_to_cached_1920x1080": 0.5,
+    "rows": 742,
+    "frames_with_four_candidate_rows": 0,
+    "positions_and_continuous_identity_unverified": true,
+    "slots": {
+      "near_front": {
+        "observed": 371
+      },
+      "near_rear": {
+        "observed": 371
+      }
+    },
+    "note": "Do not use bytetrack_selected_four.csv as all-four tracking: it only contains two near-player slots in this interval."
+  },
+  "automatic_adoption": false,
+  "independent_accuracy_claim": false,
+  "limitation": "Single-clip development. A temporal alternative may also be wrong; no precision/recall measured."
+}

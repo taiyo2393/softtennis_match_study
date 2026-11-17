@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "unique_candidate_rows": 11,
+  "point_groups": 11,
+  "previous_model_input_rows_exactly_retained": true,
+  "candidate_order_identical_across_all_comparisons": true,
+  "input_columns_allowlisted": true,
+  "no_outcome_or_absolute_time_columns_in_inputs": true,
+  "protected_sources_unchanged": true,
+  "missing_endpoint_retained": false,
+  "independent_identity_or_position_accuracy_established": false
+}

@@ -1,0 +1,33 @@
+{
+  "reviewer": "AI assistant; not independent person, visibility or position ground truth",
+  "evidence": [
+    "match2_unseen_001/three_fixed_times.jpg",
+    "match2_unseen_002/three_fixed_times.jpg",
+    "match2_unseen_003/three_fixed_times.jpg",
+    "all_eight_added_review.jpg",
+    "N2_remaining_gap_review.jpg"
+  ],
+  "fixed_sample_findings": "The three fixed frames per window show close-up views with no output where geometry fails, and plausible court-player boxes on supported main views. Sparse stills do not establish within-window identity consistency.",
+  "all_added_observations_reviewed": [
+    {"source_frame": 108379, "slot": "far_rear", "visual_interpretation": "Magenta far player overlapping red far partner; candidate appears to surround intended F1", "foot_measurement_validated": false},
+    {"source_frame": 108388, "slot": "far_rear", "visual_interpretation": "Magenta far player overlapping red far partner; candidate appears to surround intended F1", "foot_measurement_validated": false},
+    {"source_frame": 108428, "slot": "far_rear", "visual_interpretation": "Magenta far player separated from red partner; candidate appears to surround intended F1", "foot_measurement_validated": false},
+    {"source_frame": 108460, "slot": "far_front", "visual_interpretation": "Red far player overlaps foreground white player; candidate appears to surround intended F2; occlusion makes box-bottom reliability uncertain", "foot_measurement_validated": false},
+    {"source_frame": 108478, "slot": "far_front", "visual_interpretation": "Red far player partly overlaps foreground white player; candidate appears to surround intended F2; box-bottom reliability uncertain", "foot_measurement_validated": false},
+    {"source_frame": 108480, "slot": "far_front", "visual_interpretation": "Red far player partly overlaps foreground white player; candidate appears to surround intended F2; box-bottom reliability uncertain", "foot_measurement_validated": false},
+    {"source_frame": 108485, "slot": "far_rear", "visual_interpretation": "Candidate surrounds upper body of magenta far player; lower body lies outside its box. Box bottom is not a foot point", "foot_measurement_validated": false},
+    {"source_frame": 108487, "slot": "far_rear", "visual_interpretation": "Candidate surrounds upper body of magenta far player; lower body lies outside its box. Box bottom is not a foot point", "foot_measurement_validated": false}
+  ],
+  "remaining_N2_missing": {
+    "source_frame_range": [144328,144395],
+    "missing_observations": 68,
+    "reviewed_frames": [144327,144328,144362,144395,144396],
+    "visual_interpretation": "Near magenta player leaves the right image edge and returns. At the boundary frames only part of the body is visible; in the middle sampled frame the player is outside the image. Do not classify all68 frames as either detector failures or completely invisible without independent per-frame visibility references.",
+    "inferred_court_coordinates_added": false
+  },
+  "identity_switch_rate_established": false,
+  "person_detection_precision_established": false,
+  "position_error_established": false,
+  "human_labels_created_or_modified": false,
+  "decision": "Keep frozen crop as additional candidate-generation development variant. No parameter changes after these outputs. Preserve known gaps and upper-body position limitations; do not promote bbox-bottom proxies to measured court positions."
+}

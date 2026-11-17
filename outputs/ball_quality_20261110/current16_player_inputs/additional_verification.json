@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "previous15_input_rows_exactly_retained": true,
+  "confirmed_human_outcomes_preserved": 11,
+  "unreviewed_outcomes": 5,
+  "baseline_and_guard_full_assignments_identical": true,
+  "native_observation_rows_each": 1225,
+  "requested_input_times_each": 31,
+  "four_observation_requested_times_each": 31,
+  "baseline_and_guard_fixed_features_identical": true,
+  "near_ID_switches_observed_each": 0,
+  "evidence_for_new_guard_benefit": false,
+  "stable_case_nonregression_only": true,
+  "frozen_code_hash_matched": true,
+  "parameters_tuned_on_012": false,
+  "manual_ID_binding": false,
+  "existing_score_validation_sample_unchanged": true,
+  "excerpt_video_frames_decoded": 191,
+  "independent_identity_or_position_accuracy_established": false,
+  "model_fitting_or_performance_estimation": false,
+  "canonical_pipeline_replaced": false,
+  "new_case013_inspected": false
+}

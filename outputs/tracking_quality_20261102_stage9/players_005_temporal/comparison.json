@@ -1,0 +1,15 @@
+{
+  "tag": "005",
+  "frames": 445,
+  "before_near_observations": 854,
+  "after_near_observations": 854,
+  "old_near_rows_retained": 854,
+  "removed_near_rows": 0,
+  "added_near_rows": 0,
+  "near_counts": {
+    "near_front": 427,
+    "near_rear": 427
+  },
+  "far_file_exactly_preserved": true,
+  "warning": "Availability and output changes, not identity accuracy. Same-match development experiment."
+}

@@ -1,0 +1,42 @@
+{
+  "audit": {
+    "frames": [
+      740,
+      818,
+      896,
+      974,
+      1052,
+      1130
+    ],
+    "current": {
+      "counts": {
+        "frames": 6,
+        "truth_visible": 6,
+        "pred_visible": 6,
+        "presence_tp": 6,
+        "localized_tp_16px": 6,
+        "wrong_localization": 0,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 1.0,
+      "localization_precision_16px": 1.0,
+      "mean_error_both_visible_px": 3.5841432994235056
+    },
+    "proposed": {
+      "counts": {
+        "frames": 6,
+        "truth_visible": 6,
+        "pred_visible": 6,
+        "presence_tp": 6,
+        "localized_tp_16px": 6,
+        "wrong_localization": 0,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 1.0,
+      "localization_precision_16px": 1.0,
+      "mean_error_both_visible_px": 3.5841432994235056
+    }
+  }
+}

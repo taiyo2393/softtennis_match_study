@@ -1,0 +1,28 @@
+[
+  {
+    "candidate_id": "match1_motion_pilot_013",
+    "frames": 450,
+    "suppressed_frames": 6,
+    "seconds": 4.649671999999555,
+    "original_csv_sha256": "cbbd5362a86f636f50b461452a887d0514a1c378cf257c667a68914281fd6c34",
+    "selection_sha256": "9fda8d87de5c51c847750ce80ba58446368c04424fb109115e258467e15d2161",
+    "full_video_decoded_frames": 450,
+    "unchanged_rows_exactly_preserved": true,
+    "interpolation": false,
+    "rerender_from_cached_flags": true,
+    "warning": "Continuous raw output generated but full-interval identity/localization accuracy not established; no active baseline overwrite."
+  },
+  {
+    "candidate_id": "match1_motion_pilot_018",
+    "frames": 240,
+    "suppressed_frames": 7,
+    "seconds": 2.1246979999996256,
+    "original_csv_sha256": "2ca3b8d4d5b52b7d486cbcb9e588d220a16afa7689aa62f68601b57308c99bc0",
+    "selection_sha256": "9fda8d87de5c51c847750ce80ba58446368c04424fb109115e258467e15d2161",
+    "full_video_decoded_frames": 240,
+    "unchanged_rows_exactly_preserved": true,
+    "interpolation": false,
+    "rerender_from_cached_flags": true,
+    "warning": "Continuous raw output generated but full-interval identity/localization accuracy not established; no active baseline overwrite."
+  }
+]

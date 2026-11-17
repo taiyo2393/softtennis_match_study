@@ -1,0 +1,19 @@
+{
+  "reviewer": "AI assistant, not independent human reference",
+  "frames": [
+    12295,
+    12348,
+    12408,
+    12468,
+    12506,
+    12507,
+    12526
+  ],
+  "observations": [
+    "Sampled four slot boxes appear aligned with the two near and two far players, rather than officials.",
+    "F1 and F2 sampled boxes appear to retain the respective far players as they move. This is not an exhaustive ID-switch evaluation.",
+    "At12506 and12507 the missing F2 player overlaps the near N1 player in the raw image. No position was filled."
+  ],
+  "independent_ID_or_position_truth_added": false,
+  "continuous_full_video_identity_verified": false
+}

@@ -1,0 +1,55 @@
+{
+  "status": "fixed_before_balanced_localization_inference",
+  "purpose": "Training-only localization diagnosis of two frozen balanced diagnostic models. Not model selection for external evaluation or deployment.",
+  "conditions": [
+    "balanced_preserve",
+    "balanced_no_preserve"
+  ],
+  "thresholds": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "threshold_reason": "Balanced training lowered many responses; include predeclared0.1/0.2 as well as earlier0.3..0.95 before inspecting new maps.",
+  "input": "Original causal median+BGRt-3..t,512x288. Production-style CUDA AMP for all maps. No new weights.",
+  "precision_replay": "Separately repeat FP32 target-only raw probe to verify prior factor diagnostic. AMP vsFP32 differences are recorded and not claimed as model improvement.",
+  "decoders": [
+    "max_bbox_area",
+    "existing_displacement0.1"
+  ],
+  "selector_context": "Old offline offsets-8..8stride2,cut/short-gap behavior unchanged; future8source frames.",
+  "causal_categories": "For human-visible ball: selected correct16px; candidate center<=16px but not selected; response>threshold within16px source circle but no component center<=16px; no response>threshold within that circle.",
+  "category_caution": "Activation and candidate availability are not observed true-ball recovery. Nonvisible labels have no true center; no circle test or physical-absence inference.",
+  "cache": "All pixels within bounding rectangles of floor0.1components, including values belowfloor inside rectangles; exact atthreshold>=0.1.",
+  "diagnostics": "All20settings on same123TRAINING labels. Report original strongest66/4 correctness preservation, tradeoffs and candidate limits. No validation/challenge/short/six/audit inference.",
+  "followup": "Any train-feasible setting remains a diagnostic proposal requiring a separately fixed independent evaluation; no automatic promotion of diagnostic checkpoints.",
+  "no_retraining": true,
+  "no_new_human_labels": true,
+  "no_model_selection_for_deployment": true,
+  "no_interpolation": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\protocol.json": "08bf27ea59c008e9907eb02df7af87445c9362653bd1b324242716f923cb1f62",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\result.json": "930ce07214fb02df6b487855ed1a0e068eb2bd20dee15e23bd50384cc95bb9b3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\verification.json": "4db3541b488e76610473fea74601a9f964d17215ba4a6c3780098c6028f97961",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_displacement_0.1.csv": "df5c382a4aec304611df0f60a0b4870f5526e1618ac3029c2245c0ea79ac8b85",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_bbox_area.csv": "e21463ddfe3d18f6836058ea141f8488611929e840654ba0f0f074f9a7a1921d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\balanced_preserve_diagnostic_delta.pth": "84088a4417ec7faca654d9f664f36eff09689f21c31d664916ac5a0759aa30d5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\balanced_preserve_training123_raw.csv": "a9b1666a55a3d92a60054ad621b6ab2bdf089d5b5ddd033ed812bf769a57867f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\balanced_no_preserve_diagnostic_delta.pth": "df4f1b61375fb7ec06edb92a27aed55f98712d1d468a7029c6003b0f8a232392",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\balanced_no_preserve_training123_raw.csv": "a5d42c59bcc717109306cec98e9420c686c65cdbccb5b588933ca160ce5d7f6f"
+  },
+  "script_sha256": "2ba78b882c37550c3d6f3d17ec7c17cb5d35114fd79d1a253bd3229e57c50a44"
+}

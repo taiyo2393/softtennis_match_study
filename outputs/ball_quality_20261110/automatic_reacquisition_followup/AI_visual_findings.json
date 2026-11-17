@@ -1,0 +1,28 @@
+{
+  "reviewer": "Codex AI chronological image inspection",
+  "review_complete": true,
+  "independent_human_GT": false,
+  "control_findings": [
+    {
+      "tag": "002",
+      "finding": "Shown before/after frames are consistent with the same dark near-rear player; follow-up output resumes7 source frames later."
+    },
+    {
+      "tag": "003",
+      "finding": "Shown before/after frames are consistent with the same orange near-front player; B/C lose all44 remaining observations, follow-up resumes5 frames after baseline change."
+    },
+    {
+      "tag": "025",
+      "finding": "N2 dark near-rear player reappears consistently at the existing recovery time. N1 one-frame edge fragment is not emitted by confirmation guard; later baseline also lacks that person."
+    },
+    {
+      "tag": "005",
+      "finding": "Near rows exactly unchanged; no new control visual relabelling or independent GT."
+    }
+  ],
+  "control_evidence": "control_image_review/manifest.json and earlier baseline sheets in automatic_reacquisition_trial_v2/control_image_review",
+  "case011_finding": "candidate_sequence_grid.jpg in case_011/four_player_experiment: shown N2 corresponds to capped white/red server and F1 to orange far player. Sparse images, not whole-frame GT.",
+  "decision": "Retain automatic follow-up as experimental candidate. Reject original B/C. Do not replace canonical/current15 due single-frame loss, same-match adaptive development and absent independent identity/position evaluation.",
+  "opponent_negative_added_value": "Not isolated. B and C have identical near outputs in five cases.",
+  "new_case012_used": false
+}

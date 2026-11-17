@@ -1,0 +1,30 @@
+{
+  "tag": "025",
+  "stable_tracklet_identity_changes": 0,
+  "stable_assigned_tracklets": 3,
+  "old_observation_rows": 968,
+  "new_observation_rows": 968,
+  "exact_path_matches_previous_version": false,
+  "shared_rows": 921,
+  "removed_rows": 47,
+  "added_rows": 47,
+  "initial_ids": {
+    "far_rear": 6,
+    "far_front": 4
+  },
+  "reverse_returned_initial_ids": {
+    "far_rear": 6,
+    "far_front": 4
+  },
+  "jointly_observed_comparisons": 968,
+  "agreeing_boxes_iou_ge_half": 968,
+  "warning": "Direction consistency and tracklet ownership are not independent identity ground truth.",
+  "media": {
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "nb_frames": "504"
+  }
+}

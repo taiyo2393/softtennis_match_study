@@ -1,0 +1,28 @@
+{
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "canonical_dimensions": [
+    3840,
+    2160
+  ],
+  "coordinate_scale": 2,
+  "aspect_changes_rejected": true,
+  "source_frame_and_timestamps_preserved": true,
+  "missing_body_only_coordinates_preserved": true,
+  "source_video_not_resampled_or_overwritten": true,
+  "image_upscale_adds_no_detail": true,
+  "new_native_camera_calibration_available": false,
+  "old_camera_calibration_reused": false,
+  "homogeneous_coordinate_conversion_is_not_camera_calibration": true,
+  "legacy_image_region_gates_still_camera_dependent": true,
+  "tracker_run_ready": false,
+  "synthetic_tests_passed": 7,
+  "test_output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.291s\n\nOK\n",
+  "frozen_before_tracking_outputs": true,
+  "hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\match_frame_coordinate_adapter.py": "d8c78dec498bced025b77d6c813c185eb022c1895c8a45115bf9d44306c97ee5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\test_match_frame_coordinate_adapter.py": "1d901ad99c062f3f81b3b2b5ee3cef9505521b4c4e325b0e9a53e1b1ae01558a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "match1",
+  "events": 10,
+  "timepoints_sec": [
+    -0.5,
+    -0.3,
+    -0.2,
+    -0.1
+  ],
+  "nominal_fps": 59.94005994005994,
+  "motion_window_ms": 100.0,
+  "motion_window_frames": 6,
+  "median_radius_frames": 1,
+  "movement_threshold_px": 15.0,
+  "threshold_rationale": "provisional 15px threshold exceeds the observed 95th percentile adjacent-frame ankle-midpoint displacement (12.78px), without using final-direction agreement",
+  "coordinate_definition": "human-audited bilateral ankle midpoint from YOLO11m-pose",
+  "leakage_guard": "each displacement window ends before impact; actual post-impact direction is used only as a comparison label"
+}

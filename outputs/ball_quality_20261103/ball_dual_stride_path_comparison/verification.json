@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "baseline_reproduction_rows": 123,
+  "training_baseline_correct": 66,
+  "training_baseline_errors": 4,
+  "policy_checks": [
+    {
+      "method": "union_path",
+      "correct": 70,
+      "errors": 6,
+      "prior_correct_lost": 0,
+      "baseline_present": 70,
+      "existing_output_exactly_preserved": 22,
+      "added_outputs": 6,
+      "outputs_with_same_frame_source_provenance": 76
+    },
+    {
+      "method": "missing_only_union_path",
+      "correct": 70,
+      "errors": 6,
+      "prior_correct_lost": 0,
+      "baseline_present": 70,
+      "existing_output_exactly_preserved": 70,
+      "added_outputs": 6,
+      "outputs_with_same_frame_source_provenance": 76
+    },
+    {
+      "method": "missing_only_stride2_path",
+      "correct": 70,
+      "errors": 6,
+      "prior_correct_lost": 0,
+      "baseline_present": 70,
+      "existing_output_exactly_preserved": 70,
+      "added_outputs": 6,
+      "outputs_with_same_frame_source_provenance": 76
+    },
+    {
+      "method": "missing_only_stride2_area",
+      "correct": 71,
+      "errors": 7,
+      "prior_correct_lost": 0,
+      "baseline_present": 70,
+      "existing_output_exactly_preserved": 70,
+      "added_outputs": 8,
+      "outputs_with_same_frame_source_provenance": 78
+    },
+    {
+      "method": "anchored_missing_only_union_path",
+      "correct": 69,
+      "errors": 6,
+      "prior_correct_lost": 0,
+      "baseline_present": 70,
+      "existing_output_exactly_preserved": 70,
+      "added_outputs": 5,
+      "outputs_with_same_frame_source_provenance": 75
+    }
+  ],
+  "guard_discarded_candidates": [
+    {
+      "sample_id": "match1_motion_pilot_007_frame_000608",
+      "discarded_candidate_outcome": "correct16px",
+      "anchor_gate_status": "candidate_outside_support_gate",
+      "discarded_x_px": "1391",
+      "discarded_y_px": "575",
+      "anchor_residual_px": "34.007352146263905"
+    }
+  ],
+  "guard_rejected_correct_candidates": 1,
+  "no_new_evaluation_predictions": true,
+  "no_new_human_labels": true,
+  "no_interpolation": true,
+  "all_outputs_have_actual_same_frame_source": true,
+  "protected_inputs_unchanged": true,
+  "operational_outputs_changed": false,
+  "automatic_adoption": false
+}

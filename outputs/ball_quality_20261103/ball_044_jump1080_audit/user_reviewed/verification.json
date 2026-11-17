@@ -1,0 +1,43 @@
+{
+  "changed_local_frames": [
+    1081,
+    1082,
+    1084,
+    1086,
+    1087,
+    1088
+  ],
+  "confirmed_real_component_frames": [
+    1081,
+    1082
+  ],
+  "rejected_raw_frames": [
+    1082,
+    1084,
+    1086,
+    1087,
+    1088
+  ],
+  "added_output_frames": [
+    1081
+  ],
+  "replaced_output_frames": [
+    1082
+  ],
+  "withheld_output_frames": [
+    1084,
+    1086,
+    1087,
+    1088
+  ],
+  "unchanged_rows": 1163,
+  "all_previous_confirmations_preserved": true,
+  "original_raw_history_preserved": true,
+  "person_inputs_and_source_annotations_unchanged": true,
+  "full_clip_rows": 1169,
+  "main_play_ball_output_frames": 269,
+  "input_main_play_ball_output_frames": 272,
+  "reviewed_output_sha256": "a2592d586f84867efd5a03063f3fe5bce9306a2a903af062d74667d268bbf500",
+  "interpolated_positions": 0,
+  "independent_accuracy_measured": false
+}

@@ -1,0 +1,113 @@
+{
+  "status": "completed_review_and_frozen_evaluation_verified",
+  "new_human_frame_reviews": 22,
+  "phase_only_reviews": 2,
+  "reused_confirmed_anchors": 2,
+  "saved_cases": 24,
+  "events": 24,
+  "observations": 26,
+  "new_center_observations": 22,
+  "reused_center_observations": 4,
+  "phase_counts": {
+    "play": 26
+  },
+  "visibility_counts": {
+    "visible": 26
+  },
+  "prediction_coordinate_changes_between_methods": 0,
+  "changed_sample_ids": [],
+  "per_window_precision": [
+    {
+      "window_id": "A",
+      "method": "bbox_area",
+      "observations": 13,
+      "new_centers": 11,
+      "reused_centers": 2,
+      "correct16px": 13,
+      "mean_error_px": 2.0592289637907237,
+      "median_error_px": 2.0,
+      "max_error_px": 4.242640687119285,
+      "first_frame": 291,
+      "last_frame": 315,
+      "truth_endpoint_displacement_px": 160.822883943797
+    },
+    {
+      "window_id": "A",
+      "method": "displacement_0.1",
+      "observations": 13,
+      "new_centers": 11,
+      "reused_centers": 2,
+      "correct16px": 13,
+      "mean_error_px": 2.0592289637907237,
+      "median_error_px": 2.0,
+      "max_error_px": 4.242640687119285,
+      "first_frame": 291,
+      "last_frame": 315,
+      "truth_endpoint_displacement_px": 160.822883943797
+    },
+    {
+      "window_id": "B",
+      "method": "bbox_area",
+      "observations": 13,
+      "new_centers": 11,
+      "reused_centers": 2,
+      "correct16px": 13,
+      "mean_error_px": 1.680851876611855,
+      "median_error_px": 1.4142135623730951,
+      "max_error_px": 4.123105625617661,
+      "first_frame": 159,
+      "last_frame": 183,
+      "truth_endpoint_displacement_px": 76.66159403508382
+    },
+    {
+      "window_id": "B",
+      "method": "displacement_0.1",
+      "observations": 13,
+      "new_centers": 11,
+      "reused_centers": 2,
+      "correct16px": 13,
+      "mean_error_px": 1.680851876611855,
+      "median_error_px": 1.4142135623730951,
+      "max_error_px": 4.123105625617661,
+      "first_frame": 159,
+      "last_frame": 183,
+      "truth_endpoint_displacement_px": 76.66159403508382
+    }
+  ],
+  "adjacent_pair_counts": {
+    "A:bbox_area": {
+      "pairs": 12,
+      "both_correct": 12,
+      "independent_samples": false
+    },
+    "A:displacement_0.1": {
+      "pairs": 12,
+      "both_correct": 12,
+      "independent_samples": false
+    },
+    "B:bbox_area": {
+      "pairs": 12,
+      "both_correct": 12,
+      "independent_samples": false
+    },
+    "B:displacement_0.1": {
+      "pairs": 12,
+      "both_correct": 12,
+      "independent_samples": false
+    }
+  },
+  "protected_inputs_unchanged": true,
+  "existing_human_centers_preserved": true,
+  "context_images_unchanged": true,
+  "frozen_predictions_unchanged": true,
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "independent_tracking_accuracy_established": false,
+  "snapshot_hashes": {
+    "annotation_events.jsonl": "ad762770b59a4ef98d5be997eebcb3f7dfb4c922326e636eb70130754c6275a6",
+    "evaluation_report.json": "7648059cf57faf97513748d5c10dd8893f0485b42bd0cd2f1203003abe4f6954",
+    "frozen_predictions.csv": "66efc4d90245f7914e965d940f7197a68488cce32961d469f196cc02cfb1b470",
+    "manual_sequence_labels.csv": "f5d79e1b2f656ddb6d5408ef1995811ffa353b2f37c29d9c4d4821c6b3d3182d"
+  },
+  "interpretation": "Both fixed methods pass these two0.4004second neighbourhoods. This demonstrates local agreement with manual centers, not improvement on false-object switches or whole-rally accuracy."
+}

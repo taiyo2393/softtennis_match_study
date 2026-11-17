@@ -1,0 +1,227 @@
+{
+  "change": "Structural timing correction; no threshold/model/label changes",
+  "evidence": {
+    "training": "dataset/uball.py:_gen_sequence ends at fid",
+    "model": "model/tracknet_v3.py:last_only selects last heatmap",
+    "legacy": "inference.py:_preprocess_batch uses range(i-seq_len,i)"
+  },
+  "labels_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "warning": "Agreement with existing labels, whose independent annotation provenance is unverified. Existing test is not a new held-out external test.",
+  "image_size": "1920x1080",
+  "runs": [
+    {
+      "candidate_id": "match1_motion_pilot_001",
+      "frames": 480,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "1acfd89b83dadbe1f06540840a69265a242cf4e13d93bcafe76e311b9c330448",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_002",
+      "frames": 1469,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "ea241f19c6236e80b6db4b062898933555f3eaf00d1773c74d6497dd06c6a088",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_003",
+      "frames": 870,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "04683ffcdfff188899379dfb4fe787337d404e9d7f4add3fc5012c5e9cdbc3ce",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_004",
+      "frames": 420,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "6a6d99192d4f179bd08217daa5fd7be2ab8198f573fa852f4fb288d1962940b3",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_005",
+      "frames": 630,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "d643201c14e948679ed1c84b6a757e849d2e7f8e9ad91149bf6ea7db359cee7a",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_006",
+      "frames": 930,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "08091fdde9d6a9a2685b27615a05454f22d76fb340c1bcf00600e2affa8592c5",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_007",
+      "frames": 960,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "8409655b23d816df553434b38de543341ac729aaaacb00675150bcca077b73b9",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_008",
+      "frames": 1679,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "debf816970f2514516e9110776d6651b29726f5a6f06066227217096e70dc177",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_009",
+      "frames": 1199,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "90eb7ee9f49a0a321d7c0515f30d27a7bba51d68b4ba9b283ee5976ed84e3c31",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_010",
+      "frames": 1379,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "f5d58d437193bfac6d2a552074c32f50b60a21043c50b1fdf7a5716b0ce005fc",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_011",
+      "frames": 1769,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_011\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "ca1650d766dfff33c72a782177140c3739fdde920b13d09185d4e0da68ea34d8",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_012",
+      "frames": 690,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_012\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "98953ebb638eb2f905155f6007767150cdc6c48d846eb0e1e1b48ab135ef47cf",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_013",
+      "frames": 450,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_013\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "9895c6e1869141ac6c0b89c6151aa44a3518a114b2f39f37f3ee33cec69a62f0",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "frames": 1949,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_014\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "5c43f87673fa4b3611d9b20edcb8775e3c83560a551d8e1fd644da56bdd07613",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_015",
+      "frames": 570,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_015\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "ec15b5aeb656e96040d5c4a6198579f897b29f3c44c952b59bdbcacb6eb8f859",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_016",
+      "frames": 1169,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "96583992d799ab1a23ed18bd5f03e25e062537520676dcdd30a82ed1eac007c7",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_017",
+      "frames": 1679,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_017\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "71744fecfef85790a60c9c52546c41ebad8499be14bd021975c5b9106c6de6c0",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "frames": 240,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "5a927815f96ddfed836db2d2adbfab396b0f75729fdd351b285bc38c2ccc8408",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_019",
+      "frames": 390,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_019\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "0f86d70839d2462b081c15ac717debbf43c0c4f33ce2c7246e5134acfa9880c2",
+      "last_frame_inferred": true
+    },
+    {
+      "candidate_id": "match1_motion_pilot_020",
+      "frames": 330,
+      "old_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_020\\runs\\threshold030_median120\\balltrack_predictions.csv",
+      "old_csv_sha256": "38a477c1bfbc90aa56a8fe1f72690886d9cbf88ab9d3506020e852979debeaf3",
+      "last_frame_inferred": true
+    }
+  ],
+  "metrics": {
+    "validation": {
+      "legacy": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 90,
+          "presence_tp": 85,
+          "localized_tp_16px": 60,
+          "wrong_localization": 25,
+          "presence_tn": 24,
+          "presence_fn": 36,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.49586776859504134,
+        "localization_precision_16px": 0.6666666666666666,
+        "mean_error_both_visible_px": 20.250153363058484,
+        "median_error_both_visible_px": 11.40175425099138
+      },
+      "aligned": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 89,
+          "presence_tp": 84,
+          "localized_tp_16px": 80,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 37,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.898876404494382,
+        "mean_error_both_visible_px": 11.541442251595349,
+        "median_error_both_visible_px": 3.1622776601683795
+      }
+    },
+    "test": {
+      "legacy": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 128,
+          "pred_visible": 100,
+          "presence_fn": 29,
+          "presence_tp": 99,
+          "localized_tp_16px": 72,
+          "wrong_localization": 27,
+          "presence_tn": 21,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.5625,
+        "localization_precision_16px": 0.72,
+        "mean_error_both_visible_px": 15.39107712986672,
+        "median_error_both_visible_px": 8.06225774829855
+      },
+      "aligned": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 128,
+          "pred_visible": 100,
+          "presence_fn": 29,
+          "presence_tp": 99,
+          "localized_tp_16px": 96,
+          "wrong_localization": 3,
+          "presence_tn": 21,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.75,
+        "localization_precision_16px": 0.96,
+        "mean_error_both_visible_px": 7.390818987529981,
+        "median_error_both_visible_px": 3.1622776601683795
+      }
+    }
+  }
+}

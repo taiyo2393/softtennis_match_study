@@ -1,0 +1,102 @@
+[
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 35318,
+    "after_source_frame": 35331,
+    "missing_frames": 12,
+    "before_raw_id": "1000074",
+    "after_raw_id": "36",
+    "image_file": "gap_01_far_rear.jpg",
+    "source_frames": [
+      35306,
+      35318,
+      35324,
+      35331,
+      35337,
+      35343
+    ],
+    "constant_crop_xyxy": [
+      1622,
+      914,
+      2065,
+      1315
+    ],
+    "aspect_preserved": true,
+    "sha256": "22c2bdd13366114eb337435d2a2edcfca76b2f9cd34ec9b6c13810c227367167"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 36632,
+    "after_source_frame": 36642,
+    "missing_frames": 9,
+    "before_raw_id": "1001126",
+    "after_raw_id": "388",
+    "image_file": "gap_02_far_rear.jpg",
+    "source_frames": [
+      36620,
+      36632,
+      36637,
+      36642,
+      36648,
+      36654
+    ],
+    "constant_crop_xyxy": [
+      1522,
+      931,
+      1959,
+      1348
+    ],
+    "aspect_preserved": true,
+    "sha256": "98ef7d8ee51077cd6ea7418009c2942c0821e617a2542f3e7d841399b42f4bd8"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 35809,
+    "after_source_frame": 35948,
+    "missing_frames": 138,
+    "before_raw_id": "194",
+    "after_raw_id": "216",
+    "image_file": "gap_03_far_front.jpg",
+    "source_frames": [
+      35797,
+      35809,
+      35878,
+      35948,
+      35954,
+      35960
+    ],
+    "constant_crop_xyxy": [
+      1937,
+      913,
+      2377,
+      1356
+    ],
+    "aspect_preserved": true,
+    "sha256": "8cc730a80abe4ded1045f37e533767251914c17da2c246c33621782dbc512e07"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 35950,
+    "after_source_frame": 36047,
+    "missing_frames": 96,
+    "before_raw_id": "216",
+    "after_raw_id": "1000677",
+    "image_file": "gap_04_far_front.jpg",
+    "source_frames": [
+      35938,
+      35950,
+      35998,
+      36047,
+      36053,
+      36059
+    ],
+    "constant_crop_xyxy": [
+      1870,
+      933,
+      2356,
+      1356
+    ],
+    "aspect_preserved": true,
+    "sha256": "1355df0e4361672b3d5426ab76a6b9f02b3f9fb44fc02c5251952aa5beebd6a6"
+  }
+]

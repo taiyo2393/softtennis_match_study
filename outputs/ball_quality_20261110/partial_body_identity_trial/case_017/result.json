@@ -1,0 +1,21 @@
+{
+  "tag": "017",
+  "modes": {
+    "unmasked_torso": {
+      "requested_slot_times": 62,
+      "body_candidates": 62,
+      "candidates_where_baseline_missing": 3,
+      "compared_to_existing_native": 59,
+      "native_same_slot_iou_at_least_half": 58,
+      "position_coordinates_created": 0
+    },
+    "exclude_near_rectangles": {
+      "requested_slot_times": 62,
+      "body_candidates": 61,
+      "candidates_where_baseline_missing": 3,
+      "compared_to_existing_native": 58,
+      "native_same_slot_iou_at_least_half": 57,
+      "position_coordinates_created": 0
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "specified_before_feature_extraction_or_head_fitting",
+  "model": "Existing RacketVision MS-TrackNetV3,15 input channels,4 temporal frames plusmedian",
+  "source_weights_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "source_config_sha256": "9afbcaa5b77c8234c28693773e1976abad4f1655baecac24835387c0c0c3dfae",
+  "backbone_training": false,
+  "predictor_training": false,
+  "new_head": "Separate64-feature binary candidate verifier only",
+  "input": "Exact source views and clocks in sequence_cases.json; BGR median+t-3..t,512x288, /255",
+  "features": "64 channels immediately before predictor1x1conv; bilinear samples on3x3 output-grid queries centered at candidate; average of9 samples",
+  "query_geometry": "Original view-relative source coordinates scaled512/width,288/height; align_corners=True for grid_sample; no predicted/interpolated ball positions",
+  "candidate_center_is_not_precise_gt": true,
+  "fit": "Same training-only standardisation and class-balanced meanBCE+0.5L2,CPUfloat64,LBFGS300,strong_wolfe,zero initialisation,threshold0.5",
+  "regimes": [
+    "train016_only_check_other8",
+    "leave_one_source_clip_out"
+  ],
+  "split_unit": "whole source clip",
+  "comparator": "Previously saved grouped hand-feature and frozenResNet feature predictions, identical36 case IDs/groups",
+  "additional_reference": "Max original heatmap in query3x3 >=0.3, a candidate-local score only, NOT the original largest-component decoder",
+  "warning": "Selected same-match retrospective development cases. Model domain, temporal context and input views differ fromResNet; any difference cannot be assigned to temporal information alone.",
+  "legacy300_rows_used_for_training": false,
+  "dense_heatmap_targets_created": false,
+  "hyperparameter_search": false,
+  "automatic_adoption": false,
+  "independent_accuracy_evaluation": false,
+  "sequence_cases_sha256": "c432ca2406a8c0d25c06582a1162f1d7c4c3021b3af323da9eed5517d98d2f45",
+  "script_sha256": "2741eb8c83d66b4a24c4d174642bca052e5f1575ed8c96c43f0dd9cafe50cc8c",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_sequence_candidate_supervision\\sequence_cases.json": "c432ca2406a8c0d25c06582a1162f1d7c4c3021b3af323da9eed5517d98d2f45",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_pretrained_feature_comparison\\grouped_predictions.csv": "d5363672f6d1964e5001ac6f6507c793898a7d6c93755f5e1333ae4734af093b"
+  }
+}

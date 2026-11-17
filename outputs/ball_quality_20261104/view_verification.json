@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "served_html_matches_fit_revision": true,
+  "pending": 52,
+  "real_labels_written": false,
+  "browser_observed": {
+    "normal_canvas_size": [
+      896,
+      504
+    ],
+    "zoomed_canvas_size": [
+      2416,
+      1359
+    ],
+    "both_aspect_ratios": 1.7777777777777777,
+    "source_canvas_size": [
+      1920,
+      1080
+    ],
+    "video_ready_state": 4,
+    "video_size": [
+      1280,
+      800
+    ],
+    "video_duration_sec": 2.135467,
+    "native_play_key_started_video": true,
+    "video_error": null,
+    "browser_errors_or_warnings": 0
+  },
+  "original_and_fit_html_separately_retained": true,
+  "screenshot": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\review_ui_fit_verified.jpg",
+  "screenshot_sha256": "e4e1018855c68b853caa0d0c4073bd02c440d6e103cd6a3ee46ce26b92cbf491",
+  "all_frozen_predictions_and_protected_inputs_unchanged": true,
+  "server_url": "http://127.0.0.1:54028/gGmEeA7Ib226VVeziqpK3pQK/",
+  "script_sha256": "9b6aa290213f4643999c281c79251e8fbaf12de20cbc819cf68eb2c6e604a22f"
+}

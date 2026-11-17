@@ -1,0 +1,18 @@
+{
+  "video_id": "match1",
+  "events": 10,
+  "timepoints_sec": [
+    -0.5,
+    -0.3,
+    -0.2,
+    -0.1
+  ],
+  "nominal_fps": 59.94005994005994,
+  "motion_window_ms": 100.0,
+  "motion_window_frames": 6,
+  "median_radius_frames": 1,
+  "movement_threshold_px": 6.0,
+  "direction_convention": "match1 audited: screen left/right equals target-front left/right",
+  "coordinate_definition": "detector box bottom centre; preliminary proxy, not an anatomical foot point",
+  "leakage_guard": "displacement uses only frames at or before each negative time point; post-impact direction is outcome label only"
+}

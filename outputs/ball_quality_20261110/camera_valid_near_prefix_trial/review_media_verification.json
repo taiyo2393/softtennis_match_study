@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "decoded_output_frames": 181,
+  "actual_fps": 29.97002997002997,
+  "all_original_images_resized_with_unchanged_aspect": true,
+  "audio_included": false,
+  "source_to_output_map_complete": true
+}

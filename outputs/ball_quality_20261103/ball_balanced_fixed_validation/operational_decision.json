@@ -1,0 +1,15 @@
+{
+  "status": "not_adopted",
+  "reason": "Audit lost one original-correct visible ball after earlier gates passed; six known false-candidate neighbourhoods still have output.",
+  "audit_lost": [
+    "match1_motion_pilot_002_frame_000832"
+  ],
+  "validation_gained": [
+    "match1_motion_pilot_015_frame_000285"
+  ],
+  "no_alternate_model_or_threshold_after_failure": true,
+  "retained_model": "Original weights and previous reviewed tracking references",
+  "no_automatic_adoption": true,
+  "operational_outputs_changed": false,
+  "independent_external_accuracy_established": false
+}

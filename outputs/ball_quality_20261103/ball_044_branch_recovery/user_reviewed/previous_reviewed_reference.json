@@ -1,0 +1,15 @@
+{
+  "rally_candidate_id": "match1_rally_window_044",
+  "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "reviewed_output_sha256": "76505e49061d64cf358ebd840ff91cf6bfeb46f197a2281ffe8e8b331d5ac9f3",
+  "original_baseline": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "reviewed_changed_local_frames": [
+    773,
+    784,
+    1103
+  ],
+  "review_id": "20261103_044_ball_components_773_784_1103",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json",
+  "automatic_filter_adopted": false,
+  "precise_center_or_full_track_accuracy_established": false
+}

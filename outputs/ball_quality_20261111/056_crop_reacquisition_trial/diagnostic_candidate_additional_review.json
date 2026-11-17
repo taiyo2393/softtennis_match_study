@@ -1,0 +1,17 @@
+{
+  "primary_missing_target_review_frames": [
+    154270,
+    154324
+  ],
+  "additional_diagnostic_review_frame": 154780,
+  "reason": "A spatially distinct new output on a frame containing a previously rejected object needs its own identity check. The prior rejection is not a full-frame negative label.",
+  "new_candidate_native_xy": [
+    936.875,
+    529.875
+  ],
+  "prior_rejected_native_xy": [
+    1102,
+    579
+  ],
+  "no_adoption_before_review": true
+}

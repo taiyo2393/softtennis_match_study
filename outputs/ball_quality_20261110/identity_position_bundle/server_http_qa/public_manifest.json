@@ -1,0 +1,17 @@
+{
+  "title": "Synthetic test fixture",
+  "items": [
+    {
+      "image_id": "P001",
+      "image_file": "P001.png",
+      "width": 3840,
+      "height": 2160
+    }
+  ],
+  "slots": [
+    "near_left",
+    "near_right",
+    "far_left",
+    "far_right"
+  ]
+}

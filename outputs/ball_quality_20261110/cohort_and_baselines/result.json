@@ -1,0 +1,30 @@
+{
+  "status": "feasibility_cohort_and_basic_covariates_frozen",
+  "candidate_rows": 63,
+  "provisional_point_groups": 62,
+  "chronological_cohort_groups": 30,
+  "cohort_existing_human_side_labels": 8,
+  "cohort_existing_player_feature_candidates": 5,
+  "cohort_not_yet_processed": 25,
+  "next_candidate": "match1_rally_window_001",
+  "preserved_score_validation_cases": 16,
+  "descriptive_server_wins_current8": 5,
+  "descriptive_server_wins_all11": 7,
+  "descriptive_server_wins_old_complete9": 7,
+  "selection_guard_outcome_and_quality_perturbation": "passed",
+  "group050_051_merge": "preserved",
+  "model_fit": false,
+  "performance_estimated": false,
+  "new_human_annotation_requested": false,
+  "caution": "Composition counts condition on provisional AI serving-side attributes and an old convenience sample; not serve-win rates for the match or classifier performance.",
+  "protected_inputs_unchanged": true,
+  "artifact_hashes": {
+    "all_candidate_group_registry.csv": "59601524e38f83c6b765d1db4dd0a5f7695e2d358700fd6ca7a14b3faadbdc1a",
+    "basic_covariate_provenance.csv": "c124fd822711583686507fe5fb01b3c5fe2cfdbba7f067ff3107ed7b6d4e056d",
+    "basic_server_inputs_11.csv": "8a96c484aa0328bb66c5a210adcd6308c8971a444021e42f713d79a6d78d27b5",
+    "basic_server_inputs_current8.csv": "92379b551551a0bb68ae4bb72b572ea0f4cb894944a9f1a61c1377ecda6933b9",
+    "descriptive_selection_composition.csv": "c0c0b208097040d3a07aac8ce82b9a77e2d7bc4e44ffadd59675e10da304c256",
+    "fixed30_processing_queue.csv": "b65c960e3cd6eb2fc9699c36390c68df22f84f84afd79e0fb37bd397b6095389",
+    "human_outcomes_11.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1"
+  }
+}

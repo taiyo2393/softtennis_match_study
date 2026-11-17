@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "matched_native_boxes": 10944,
+  "recalculated_feature_values": 379,
+  "manual_ID_binding": false,
+  "canonical_pipeline_changed": false,
+  "interpolation": false,
+  "duplicate_slot_or_raw_ID_assignments": false,
+  "video_frames_decoded": 2907,
+  "four_observation_requested_times": 31,
+  "requested_times": 31,
+  "selected_slot_counts": {
+    "near_front": 2900,
+    "near_rear": 2876,
+    "far_rear": 2814,
+    "far_front": 2354
+  },
+  "prefix_features_equal_baseline": true,
+  "QA_source_frames": [
+    27222,
+    27223,
+    27237,
+    27385,
+    27514,
+    27854,
+    28140,
+    28286,
+    28881
+  ],
+  "far_search_uses_future_context": true,
+  "independent_identity_or_position_accuracy_established": false,
+  "protected_sources_unchanged": true
+}

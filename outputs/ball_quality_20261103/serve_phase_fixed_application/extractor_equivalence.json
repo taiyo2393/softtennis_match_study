@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "pilot": "016",
+      "frame": 60,
+      "people": 7,
+      "match": true
+    },
+    {
+      "pilot": "016",
+      "frame": 700,
+      "people": 7,
+      "match": true
+    },
+    {
+      "pilot": "002",
+      "frame": 700,
+      "people": 6,
+      "match": true
+    },
+    {
+      "pilot": "002",
+      "frame": 740,
+      "people": 6,
+      "match": true
+    }
+  ],
+  "tolerance_px": 0.05,
+  "limitation": "Four development-frame checks of software equivalence, not a tracking/start accuracy test."
+}

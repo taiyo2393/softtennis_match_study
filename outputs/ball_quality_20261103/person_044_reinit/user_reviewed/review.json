@@ -1,0 +1,31 @@
+{
+  "review_id": "20261103_044_far_pair_video_identity",
+  "recorded_date": "2026-11-03",
+  "reviewer": "human_user",
+  "question": "F1（紫）・F2（黄）は、途中や欠落後の再取得時に入れ替わらず、それぞれ同じ選手を示していますか？",
+  "answer": "それぞれ同じ選手を示している",
+  "status": "human_video_level_identity_confirmation",
+  "rally_candidate_id": "match1_rally_window_044",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "reviewed_slots": [
+    "far_rear",
+    "far_front"
+  ],
+  "reviewed_local_frames": [
+    725,
+    1140
+  ],
+  "identity_names": {
+    "F1": "far_rear, initial far server",
+    "F2": "far_front, initial far partner"
+  },
+  "scope": "Displayed F1/F2 correspondence, including reacquisition; applies only to the displayed clip.",
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\person_review_h264.mp4",
+  "video_sha256": "65fad6cf3343f61da1c6725183e07fb6c6a652c022be1a1e3ff4e2fc09b035c8",
+  "original_paths_sha256": "98da909086bdcd5fc144f7d2875bc692652d8f3aa7994b4016afe899548ca016",
+  "original_far_paths_sha256": "c6202b6a6d945852c283fc7e9c443e7325499c7fef31bfc84bf9afb007451e88",
+  "independent_per_frame_identity_groundtruth": false,
+  "position_accuracy_measured": false,
+  "near_player_identity_reviewed_here": false,
+  "missing_positions_confirmed_or_filled": false
+}

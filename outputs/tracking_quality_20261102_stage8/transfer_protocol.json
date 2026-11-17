@@ -1,0 +1,55 @@
+{
+  "intervals": [
+    {
+      "tag": "003",
+      "first_frame": 4201,
+      "last_frame": 4615,
+      "frames": 415,
+      "boundary_status": "candidate_interval_not_human_confirmed_full_rally"
+    },
+    {
+      "tag": "007",
+      "first_frame": 15552,
+      "last_frame": 16151,
+      "frames": 600,
+      "boundary_status": "candidate_interval_not_human_confirmed_full_rally"
+    },
+    {
+      "tag": "025",
+      "first_frame": 60006,
+      "last_frame": 60509,
+      "frames": 504,
+      "boundary_status": "candidate_interval_not_human_confirmed_full_rally"
+    }
+  ],
+  "parameters": {
+    "beam_width": 48,
+    "options_per_person": 4,
+    "appearance_max": 0.7,
+    "missing_cost": 0.9,
+    "uncertainty_height_base": 0.25,
+    "uncertainty_per_missing_frame": 0.03,
+    "max_motion_normalized": 6.0,
+    "velocity_retention_missing": 0.98,
+    "observation_feature_weight": 0.8,
+    "motion_weight": 0.35,
+    "detector_id_change_cost": 0.04,
+    "pair_overlap_max": 0.55,
+    "stable_tracklet_min_observations": 8,
+    "tracklet_split_gap": 4,
+    "tracklet_jump_base_height": 0.4,
+    "tracklet_jump_per_frame_height": 0.3,
+    "scope": "offline_development_not_independent_evaluation"
+  },
+  "source_sha256": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage7\\tracklet_pair_tracking.py": "9c690f2f372e0bda6fe3770d45df3d48fa9dcb04fc3bfc60a75d70a32acb3bbf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\run_temporal_experiment.py": "7a07e9b21485ed8ffcb0f113842871ff4adcb6da37079a807c5e6bbe85e2923d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\validate_new_rallies.py": "5cc00614c520dce1b2a864825e838c4e2bf4f0e61db3bd957520751b7b8c4a45",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\improve_players.py": "1fd1752d96af18b5aace1fce2b2128f4d008734aec9fe2f2997efa5aa1537b96",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\four_player_association.py": "363808475eb2dc12e8322ed3f753b81af81d1b2c66ce47d24e10377c528bf5e9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage8\\run_new_intervals.py": "bacf806a5ea262df0427149cb9ba6fbf40dde06d46a692f643ebcdde9338047d"
+  },
+  "max_source_frames": 600,
+  "settings_changes_allowed": false,
+  "scope": "Additional same-match intervals; previous snapshots existed, not independent match validation"
+}

@@ -1,0 +1,855 @@
+[
+  {
+    "point": 1,
+    "source_frame": 12324,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.662595101462788,
+      0.18986589118397773
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12324,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.2712022313667673,
+      0.029032738197039953
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12324,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.2977484506920768,
+      0.9767663612740688
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12324,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6859604876067592,
+      0.6915373030849944
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12325,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6625760117465579,
+      0.1898803907718035
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12325,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.27127301622873984,
+      0.02901339959989062
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12325,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.29583211184989056,
+      0.9790731412935455
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12325,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6860209865260504,
+      0.6917061556154895
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12326,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6625715355736633,
+      0.18985181132580017
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12326,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.27126108299830204,
+      0.029048519317550793
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12326,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.2943797951475909,
+      0.9791323119130824
+    ]
+  },
+  {
+    "point": 1,
+    "source_frame": 12326,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6859954544744906,
+      0.691774092956248
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13647,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32530950508202133,
+      0.19193239311625887
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13647,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6278231812559297,
+      0.009715514405210596
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13647,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6198815376211554,
+      0.9610936281303393
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13647,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32349738573280207,
+      0.680559412046894
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13648,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3247937298474144,
+      0.19252582707900198
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13648,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6278510968463337,
+      0.009750139808954828
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13648,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6181559965314675,
+      0.9611299297790383
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13648,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32350122187307634,
+      0.6804726177998602
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13649,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3244701349387846,
+      0.19263403861103948
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13649,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6278775893855925,
+      0.009770766781952905
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13649,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.61685786587508,
+      0.9604660018489672
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13649,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3236501275358978,
+      0.6802256478489804
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13650,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32397113998814825,
+      0.19272813193153218
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13650,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6279323756433302,
+      0.009838050689345781
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13650,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6155374197615573,
+      0.9622481673035248
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13650,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3238010974793472,
+      0.6797905139295868
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13651,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.323474960219797,
+      0.1928624807438836
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13651,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6279704636985987,
+      0.009859515835826395
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13651,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6138221203050342,
+      0.9614182584032759
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13651,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32389474621858333,
+      0.6793978695924606
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13652,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32303701553166136,
+      0.1930095061432758
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13652,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6280005260605186,
+      0.009852555453073007
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13652,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6109209962567619,
+      0.960553140038944
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13652,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32417462694981386,
+      0.6787036044400782
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13653,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32249525292698783,
+      0.19298066102671813
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13653,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6280726972529052,
+      0.009842226149444869
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13653,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.607643334267834,
+      0.960725526910997
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13653,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32432667386431024,
+      0.6781717072500875
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13654,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3219517927419054,
+      0.19292121546384694
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13654,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6282052972053788,
+      0.00984108997894913
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13654,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.604859935600516,
+      0.9611062757856297
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13654,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3243878738853111,
+      0.6779242248851381
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13655,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3213409417555241,
+      0.193137583837632
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13655,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6283938528370981,
+      0.009860124531078339
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13655,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6049201927094608,
+      0.9615768253292426
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13655,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32437474445531084,
+      0.6781536208688023
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13656,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32071766022169335,
+      0.19343051967063962
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13656,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.628546228024119,
+      0.00982824422105519
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13656,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6049012300025597,
+      0.9600626728150227
+    ]
+  },
+  {
+    "point": 2,
+    "source_frame": 13656,
+    "player": "F2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32433807277627363,
+      0.6782581888903593
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15214,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32654270119717227,
+      0.19085700304188713
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15214,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7580875493728447,
+      -0.00020028729227163935
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15214,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15214,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6392165417508322,
+      0.5597333822525796
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15215,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32654857068523074,
+      0.19119715062115275
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15215,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7583893889965833,
+      0.0007500729008014863
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15215,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15215,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6391836681185393,
+      0.559786353177878
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15216,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32695563033220404,
+      0.19113067149457805
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15216,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7589944600053476,
+      0.0015131540067618784
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15216,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15216,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6392143062165123,
+      0.5600895579727794
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15217,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32711839829876777,
+      0.19163493757251676
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15217,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7592660698557617,
+      0.002299147441925589
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15217,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15217,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6393024654440614,
+      0.560423251450066
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15218,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32721625735804566,
+      0.19188522618123416
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15218,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7592307392259119,
+      0.00310775658551756
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15218,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15218,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6392939094577991,
+      0.5606647883306884
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15219,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.3272522237304927,
+      0.19253331414290492
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15219,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7589038073746099,
+      0.0037682192405185887
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15219,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15219,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.639340079459331,
+      0.5609838600299116
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15220,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32708272513714215,
+      0.19329967509762006
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15220,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7581557690387414,
+      0.004327933084290264
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15220,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15220,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6393759877218752,
+      0.5611765118207048
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15221,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32717130828578705,
+      0.1936518408179059
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15221,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7569298244866796,
+      0.004345934037471017
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15221,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15221,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.639595719524635,
+      0.5612235623125694
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15222,
+    "player": "N2",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.32702192738820207,
+      0.1946892548912244
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15222,
+    "player": "N1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.7553404086717712,
+      0.003671759414243481
+    ]
+  },
+  {
+    "point": 3,
+    "source_frame": 15222,
+    "player": "F2",
+    "status": "withheld_airborne_server_visual_review",
+    "shown_court_xy": null
+  },
+  {
+    "point": 3,
+    "source_frame": 15222,
+    "player": "F1",
+    "status": "available_box_bottom_proxy",
+    "shown_court_xy": [
+      0.6400740019848178,
+      0.5609671254836192
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "explicit_question_answers": 2,
+  "reviewed_target_frames": 3,
+  "adjacent_Dframes_counted_as_one_failure_segment": true,
+  "history_replay_exact": true,
+  "initial_labels_preserved": true,
+  "frozen_inputs_preserved": true,
+  "snapshots": {
+    "initial_focus_identity_labels.csv": "261e9fba5a7e31fea3e01d2516128ef5d759ba3f2c1438765dc053eb677d0e8f",
+    "focus_identity_labels.csv": "e35c307ac4ea4e11b199f46ba86c357d39a0940a3f78e432c2f290bb5f09cbf6",
+    "focus_identity_events.jsonl": "1ddb70b3fb35fb8303be8073625f4058bb8e7dfaac138b5d2ca8eeea8f68a042",
+    "completed_identity_review.json": "07c22c2b34c94eafce9763f67ecd353f13d8270ca4d2ee290d7fae0a91d4e04c",
+    "operational_decision.json": "550c12c797d6de02a3bc862ac684b680c2c5489cb6de7a5bf9f6c4d5f106e562",
+    "focus_review_manifest.json": "e50175c4bc6bc557d82cdd3bad15950269195c65cb8ca2cfd2bb1793ce02efe5"
+  },
+  "new_ball_center_labels": 0,
+  "new_visibility_or_phase_labels": 0,
+  "canonical_tracking_changed": false,
+  "model_changed": false
+}

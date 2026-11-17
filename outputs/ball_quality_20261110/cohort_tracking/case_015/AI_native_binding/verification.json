@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "matched_native_boxes": 2597,
+  "recalculated_feature_values": 379,
+  "unchanged_N2_observations": 653,
+  "AI_bound_N1_observations": 653,
+  "raw3_missing_after_initialization": [],
+  "far_parameters_unchanged": true,
+  "far_assignments_identical_to_automatic": true,
+  "corrected_seed_negative_set": true,
+  "requested_input_frames_unchanged": true,
+  "prefix_feature_values_identical_to_automatic": false,
+  "old_sources_unchanged": true,
+  "interpolation": false,
+  "video_frames_decoded": 660,
+  "independent_identity_or_position_accuracy_established": false
+}

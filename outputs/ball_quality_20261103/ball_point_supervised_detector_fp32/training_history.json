@@ -1,0 +1,56 @@
+[
+  {
+    "family": "positive_control",
+    "epoch": 1,
+    "updates": 51,
+    "loss": 1.453529232857274,
+    "positive_loss": 1.2419922673234753,
+    "preservation_loss": 0.21153696984344839,
+    "balanced_negative_loss": 0.7415340367485496
+  },
+  {
+    "family": "positive_control",
+    "epoch": 2,
+    "updates": 102,
+    "loss": 0.9932776204511231,
+    "positive_loss": 0.7725351201552971,
+    "preservation_loss": 0.2207425026332631,
+    "balanced_negative_loss": 1.1900464319715314
+  },
+  {
+    "family": "positive_control",
+    "epoch": 3,
+    "updates": 153,
+    "loss": 0.6226271069517323,
+    "positive_loss": 0.381078080219381,
+    "preservation_loss": 0.241549032101152,
+    "balanced_negative_loss": 1.817913625754562
+  },
+  {
+    "family": "point_negative",
+    "epoch": 1,
+    "updates": 51,
+    "loss": 2.1812540222616756,
+    "positive_loss": 1.2934717588564928,
+    "preservation_loss": 0.21098724391092272,
+    "balanced_negative_loss": 0.6767950198229622
+  },
+  {
+    "family": "point_negative",
+    "epoch": 2,
+    "updates": 102,
+    "loss": 2.067446583626317,
+    "positive_loss": 0.9267083540850994,
+    "preservation_loss": 0.21577718160023876,
+    "balanced_negative_loss": 0.9249610433391496
+  },
+  {
+    "family": "point_negative",
+    "epoch": 3,
+    "updates": 153,
+    "loss": 2.01740951164096,
+    "positive_loss": 0.5981728960486019,
+    "preservation_loss": 0.2254041611198701,
+    "balanced_negative_loss": 1.1938324442096786
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "windows": [
+    {
+      "window_start_sec": 30,
+      "first_source_frame": 1798,
+      "decoded_frames": 120,
+      "adjacent_pair_count": 119,
+      "exact_thumbnail_duplicate_pairs": 0,
+      "adjacent_MAE_median": 0.6516779065132141,
+      "adjacent_MAE_q10": 0.5457652807235718,
+      "adjacent_MAE_q90": 0.7667791247367859,
+      "lag2_MAE_median": 1.1282329559326172,
+      "from_frame_parity_medians": {
+        "0": 0.6476384699344635,
+        "1": 0.6516779065132141
+      },
+      "smaller_larger_parity_ratio": 0.9938014830050577,
+      "interpretation_requires_scene_activity_and_is_not_true_fps_measurement": true
+    },
+    {
+      "window_start_sec": 300,
+      "first_source_frame": 17982,
+      "decoded_frames": 120,
+      "adjacent_pair_count": 119,
+      "exact_thumbnail_duplicate_pairs": 0,
+      "adjacent_MAE_median": 0.6641069054603577,
+      "adjacent_MAE_q10": 0.04434185475111008,
+      "adjacent_MAE_q90": 2.452897071838379,
+      "lag2_MAE_median": 1.7009646892547607,
+      "from_frame_parity_medians": {
+        "0": 0.6583806872367859,
+        "1": 0.6647579073905945
+      },
+      "smaller_larger_parity_ratio": 0.9904067028268361,
+      "interpretation_requires_scene_activity_and_is_not_true_fps_measurement": true
+    },
+    {
+      "window_start_sec": 900,
+      "first_source_frame": 53946,
+      "decoded_frames": 120,
+      "adjacent_pair_count": 119,
+      "exact_thumbnail_duplicate_pairs": 0,
+      "adjacent_MAE_median": 0.8128107190132141,
+      "adjacent_MAE_q10": 0.12886185944080353,
+      "adjacent_MAE_q90": 1.0107569694519043,
+      "lag2_MAE_median": 1.41713285446167,
+      "from_frame_parity_medians": {
+        "0": 0.7981844842433929,
+        "1": 0.8322679996490479
+      },
+      "smaller_larger_parity_ratio": 0.9590474277275741,
+      "interpretation_requires_scene_activity_and_is_not_true_fps_measurement": true
+    },
+    {
+      "window_start_sec": 1800,
+      "first_source_frame": 107892,
+      "decoded_frames": 120,
+      "adjacent_pair_count": 119,
+      "exact_thumbnail_duplicate_pairs": 0,
+      "adjacent_MAE_median": 11.206646919250488,
+      "adjacent_MAE_q10": 7.837902545928955,
+      "adjacent_MAE_q90": 22.50840187072754,
+      "lag2_MAE_median": 17.933948516845703,
+      "from_frame_parity_medians": {
+        "0": 11.204227447509766,
+        "1": 11.213571548461914
+      },
+      "smaller_larger_parity_ratio": 0.9991667150013922,
+      "interpretation_requires_scene_activity_and_is_not_true_fps_measurement": true
+    },
+    {
+      "window_start_sec": 2700,
+      "first_source_frame": 161838,
+      "decoded_frames": 120,
+      "adjacent_pair_count": 119,
+      "exact_thumbnail_duplicate_pairs": 0,
+      "adjacent_MAE_median": 5.225438117980957,
+      "adjacent_MAE_q10": 2.3699662685394287,
+      "adjacent_MAE_q90": 11.714950561523438,
+      "lag2_MAE_median": 9.011008262634277,
+      "from_frame_parity_medians": {
+        "0": 5.139826059341431,
+        "1": 5.466944694519043
+      },
+      "smaller_larger_parity_ratio": 0.9401642684431087,
+      "interpretation_requires_scene_activity_and_is_not_true_fps_measurement": true
+    }
+  ],
+  "sample_windows": 5,
+  "decoded_frames": 600,
+  "independent_true_motion_GT": false,
+  "frame_interpolation_or_fps_conversion_applied": false
+}

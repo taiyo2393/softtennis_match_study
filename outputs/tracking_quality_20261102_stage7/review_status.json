@@ -1,0 +1,17 @@
+{
+  "002": {
+    "status": "human_video_level_identity_confirmation",
+    "evidence": "players_002_global/human_video_review.json"
+  },
+  "005": {
+    "status": "human_video_level_identity_confirmation",
+    "evidence": "players_005_global/human_video_review.json",
+    "note": "User explicitly confirmed the presented 005 video; this is not a per-frame identity benchmark."
+  },
+  "048": {
+    "status": "path_identical_to_human_confirmed_stage6_output",
+    "evidence": "players_048_global/checks.json",
+    "human_confirmation_source": "../tracking_quality_20261102_stage6/players_048_global/human_video_review.json",
+    "note": "No new human review of stage7 video; observation identities and coordinates match the reviewed earlier path."
+  }
+}

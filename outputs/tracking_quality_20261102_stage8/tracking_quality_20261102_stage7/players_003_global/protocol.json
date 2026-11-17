@@ -1,0 +1,22 @@
+{
+  "parameters": {
+    "beam_width": 48,
+    "options_per_person": 4,
+    "appearance_max": 0.7,
+    "missing_cost": 0.9,
+    "uncertainty_height_base": 0.25,
+    "uncertainty_per_missing_frame": 0.03,
+    "max_motion_normalized": 6.0,
+    "velocity_retention_missing": 0.98,
+    "observation_feature_weight": 0.8,
+    "motion_weight": 0.35,
+    "detector_id_change_cost": 0.04,
+    "pair_overlap_max": 0.55,
+    "stable_tracklet_min_observations": 8,
+    "tracklet_split_gap": 4,
+    "tracklet_jump_base_height": 0.4,
+    "tracklet_jump_per_frame_height": 0.3,
+    "scope": "offline_development_not_independent_evaluation"
+  },
+  "code_sha256": "9c690f2f372e0bda6fe3770d45df3d48fa9dcb04fc3bfc60a75d70a32acb3bbf"
+}

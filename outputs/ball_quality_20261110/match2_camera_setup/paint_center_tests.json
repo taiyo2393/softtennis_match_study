@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "synthetic_cases": 3,
+  "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.008s\n\nOK\n",
+  "not_accuracy_validation": true
+}

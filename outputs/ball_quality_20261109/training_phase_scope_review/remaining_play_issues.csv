@@ -1,0 +1,10 @@
+﻿sample_id,clip_id,local_frame,source_frame,outcome,truth_visibility
+match1_motion_pilot_001_frame_000272,001,272,392,missing_visible_ball,visible
+match1_motion_pilot_001_frame_000368,001,368,488,missing_visible_ball,visible
+match1_motion_pilot_003_frame_000783,003,783,24309,output_when_not_observable,not_visible
+match1_motion_pilot_004_frame_000238,004,238,34014,missing_visible_ball,visible
+match1_motion_pilot_004_frame_000266,004,266,34042,missing_visible_ball,visible
+match1_motion_pilot_004_frame_000378,004,378,34154,missing_visible_ball,visible
+match1_motion_pilot_006_frame_000651,006,651,46475,missing_visible_ball,visible
+match1_motion_pilot_007_frame_000608,007,608,52186,missing_visible_ball,visible
+match1_motion_pilot_010_frame_000137,010,137,71226,missing_visible_ball,visible

@@ -1,0 +1,17 @@
+{
+  "rows": 300,
+  "visibility_counts": {
+    "visible": 249,
+    "not_visible": 51
+  },
+  "visible_rows_with_center": 249,
+  "nonblank_reviewer_ids": 0,
+  "source_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "review_ui": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\scripts\\39_review_balltrack_groundtruth_server.py",
+  "review_ui_sha256": "71f8fe9b6528433df88d0118d0d4e607b551b80e39aee11672721a6510385b6a",
+  "provenance_interpretation": "Empty reviewer IDs do not prove no human review: the inspected review server save handler does not populate reviewer_id. Author/independence remain unverified.",
+  "dense_label_loader": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\dataset\\uball.py",
+  "dense_label_loader_sha256": "443d0bf72b1c60d4bef84cd2a8f4345d2f35ec8c2a62f52067905e249344c0db",
+  "legacy_table_used_for_training_in_this_step": false,
+  "candidate_review_semantics": "A circle encloses/does not enclose a real ball; not an exact center or full-frame physical visibility annotation"
+}

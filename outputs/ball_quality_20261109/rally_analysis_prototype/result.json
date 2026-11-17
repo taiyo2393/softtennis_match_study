@@ -1,0 +1,81 @@
+{
+  "status": "joined_rally_feature_construction_complete",
+  "joined_rallies": 2,
+  "joined_sampled_times": 577,
+  "prefix_observations": 62,
+  "human_side_label_candidates": 11,
+  "human_side_label_counts": {
+    "near": 7,
+    "far": 4
+  },
+  "human_side_labels_with_continuous_player_export": 8,
+  "prototype_outcome_counts": {
+    "near": 2
+  },
+  "rally_metadata": [
+    {
+      "rally_candidate_id": "match1_rally_window_044",
+      "winner_camera_side": "near",
+      "point_group_id": "match1_point_group_candidate_044",
+      "input_first_source_frame": 115375,
+      "input_end_source_frame": 115435,
+      "requested_times": 31,
+      "prefix_span_seconds": 1.0010000000000001,
+      "earliest_point_end_candidate": 115776,
+      "end_candidate_margin_frames": 341,
+      "prefix_frames_with_four_observations": 29,
+      "prefix_ball_observation_times": 27,
+      "whole_sample_times": 201,
+      "whole_sample_with_four_observations": 163,
+      "identity_evidence": "Far-pair video correspondence and11recovered boxes confirmed;not independent full-frame position GT.",
+      "independent_position_accuracy_established": 0,
+      "player_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\observed_player_paths.csv",
+      "player_source_sha256": "55f4ffdbfea897a1df679ff11ac12a383fae370f8d2853ea73d4ac4070ec8b42",
+      "ball_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_pilot_044_v2\\completed_review\\assisted_states_sampled.csv",
+      "ball_source_sha256": "0fee41d3d0087ef049b358c5701218b403d89d0d5a7efd19e7db72e972d8f621"
+    },
+    {
+      "rally_candidate_id": "match1_rally_window_056",
+      "winner_camera_side": "near",
+      "point_group_id": "match1_point_group_candidate_056",
+      "input_first_source_frame": 154088,
+      "input_end_source_frame": 154148,
+      "requested_times": 31,
+      "prefix_span_seconds": 1.0010000000000001,
+      "earliest_point_end_candidate": 154840,
+      "end_candidate_margin_frames": 692,
+      "prefix_frames_with_four_observations": 27,
+      "prefix_ball_observation_times": 27,
+      "whole_sample_times": 376,
+      "whole_sample_with_four_observations": 310,
+      "identity_evidence": "Candidate appearance/motion path;prior seed/junction checks,not all-clip independent identity GT.",
+      "independent_position_accuracy_established": 0,
+      "player_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\players_056_appearance_motion_guarded\\selected_four.csv",
+      "player_source_sha256": "c652de9043376b340eaafe3f1ea0d4dac669e2cd598ec8c46b0c7b707a81cc13",
+      "ball_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\completed_review\\assisted_states_sampled.csv",
+      "ball_source_sha256": "dca944ca14f4e8ca84ecd109559b40ab6a26ecf87e5752e1b4296be325c685dd"
+    }
+  ],
+  "paired_slot_permutation_checks": 248,
+  "future_observation_injection_checks": 2,
+  "feature_schema_excludes_outcomes_and_future_metadata": true,
+  "coordinate_processing_is_offline": true,
+  "model_fitting_performed": false,
+  "outcome_association_estimated": false,
+  "causal_loss_explanation_established": false,
+  "no_new_human_annotation": true,
+  "canonical_tracking_changed": false,
+  "conclusion": "Reusable data structure and within-pair-ID-invariant features demonstrated. Two same-class cases cannot test outcome discrimination;existing11labels and8player exports are inventory,not eleven fully qualified independent rallies.",
+  "artifact_hashes": {
+    "existing_rally_inventory.csv": "37aec5e0b0d0ce3afe29885ee739b98629e7422e2f9fd0f370a8cac13b78019f",
+    "human_outcomes.csv": "c7bc1c43e8ef7bdb9b192a1de7171791dc358c30b31ba58edde7ec827d54f0d6",
+    "joined_sampled_observations.csv": "3d310a09653673903d57d009376d8a9338c81347840314945ea0cbe788ddae44",
+    "prefix_frame_features.csv": "75acbd4024f264476c82e28034a485cbcf742c9c09461131d44c9a5cff416636",
+    "snapshot_player_features.csv": "56ce1fa81a2aae32de1f2edbdf1873aeff606dd7a642c506ffc2d56608673967",
+    "prefix_player_summary_features.csv": "1b1ea60b728092cea5de101ac8e7ff2a00ce3322060cce080e52f3a256ea03ef",
+    "prefix_player_ball_summary_features.csv": "3ad2eaee17aea9a8a3aadae0c1cd9e01ba3bb310f68c1f2f53c5e0f4ee2da4bf",
+    "prototype_rally_metadata.csv": "a64ebaf8ca0b94454b140225fb4089f3a3658c1abaa9761e84330737a665a9bc",
+    "feature_schema.json": "8b3decc2893b0cdb35f0103b52cfd3b3424b7a9a351eb4b79adca179e1799e40",
+    "prefix_diagnostic.jpg": "0ab6d9f7bf30f98feedbd6780e8e1a77082ad64d01ba04b3d2afc4303de9bf3b"
+  }
+}

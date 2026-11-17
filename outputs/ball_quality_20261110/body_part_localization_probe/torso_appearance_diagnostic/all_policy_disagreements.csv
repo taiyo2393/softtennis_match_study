@@ -1,0 +1,11 @@
+﻿tag,source_frame,mode,player_slot,rectangle_disagrees,torso_disagrees
+002,2319,far_context,far_front,0,1
+002,2559,far_context,far_rear,1,0
+006,12421,far_context,far_rear,1,0
+006,12422,far_context,far_rear,1,0
+009,21945,court,far_front,0,1
+009,21945,far_context,far_front,0,1
+009,21975,court,far_front,0,1
+009,21975,far_context,far_front,0,1
+009,22075,court,far_front,1,0
+009,22075,far_context,far_front,1,0

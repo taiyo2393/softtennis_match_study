@@ -1,0 +1,13 @@
+{
+  "parent_publication_files_unchanged": 20,
+  "encoded_frames_decoded": 401,
+  "stored_player_and_ball_coordinates_unchanged": true,
+  "all_available_player_points_visible": 1474,
+  "all_available_N2_points_visible": 362,
+  "N2_minimum_court_y": -0.16539025527718823,
+  "N2_farthest_source_frame": 154622,
+  "left_panel_unchanged_before_video_encoding": true,
+  "court_aspect_ratio_preserved": true,
+  "labels_or_observations_added": 0,
+  "clamped_or_invented_positions": 0
+}

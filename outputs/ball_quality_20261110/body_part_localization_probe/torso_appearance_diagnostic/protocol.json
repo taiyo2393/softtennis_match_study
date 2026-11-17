@@ -1,0 +1,24 @@
+{
+  "purpose": "Compare only the color-sampling region on the same matched pose proposals. Not a replay of the original8-frame-anchor tracker.",
+  "policies": [
+    "pose_box_upper_rectangle",
+    "pose_torso_polygon"
+  ],
+  "selected_frames_unchanged": 74,
+  "initial_gallery": "One fixed initialization frame per case; far slots from far_context, near slots from court. Both feature policies use exactly the same pose proposals. Missing anchor or pose stays unavailable.",
+  "negative_gallery": "Eligible unassigned initialization far_context poses with minimum-area overlap<0.1 against every initialized native player box. Not certified nonplayers.",
+  "histogram": "HSV12x4x4 normalized; Bhattacharyya distance. Rectangle uses15..85percent width,18..52percent height of the pose box. Torso is convex hull of shoulders and hips, each confidence>=0.5.",
+  "min_pixels": 12,
+  "disagreement_margin": 0.04,
+  "margin_source": "Retained appearance margin; no calibration or sweep.",
+  "fixed_before_color_comparison_outputs": true,
+  "after_same_match_pose_image_inspection": true,
+  "canonical_pipeline_replaced": false,
+  "position_values_not_created": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\body_part_localization_probe\\protocol.json": "0220f3e73900ab4ddb715a3a40b5565a39b734f3f7451264cb0e3f5de28261a9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\body_part_localization_probe\\pose_predictions.json": "86fc365b546993220abf71c49249ff7673254af0b32fb3814c8c0ce6b08816b3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\body_part_localization_probe\\native_box_to_pose_diagnostics.csv": "fc9dff33ebf72603723a8d0fdc030f4b0b0bf924e70e54d785dfb618069d1f51",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\diagnose_pose_torso_appearance.py": "1e5fdd19879bd53fd6008c0793e53d8be2979434f6813db3f67c037c89f8f13e"
+  }
+}

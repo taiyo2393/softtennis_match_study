@@ -1,0 +1,26 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\substitution_review_h264.mp4",
+  "decoded_frames": 364,
+  "source_segments": [
+    [
+      766,
+      792
+    ],
+    [
+      1094,
+      1112
+    ]
+  ],
+  "source_clock": "legacy edited match1 local frames",
+  "speed": 0.25,
+  "silent": true,
+  "extra_pause_frames": {
+    "773": 60,
+    "784": 60,
+    "1103": 60
+  },
+  "crop_enlargement": 2,
+  "source_aspect_preserved": true,
+  "proposal_csv_sha256": "3a60edadf1819393a0f5b862d60dbe1d4f0fe38d26612c5e7ae5dc5a054bf2de",
+  "accuracy_established": false
+}

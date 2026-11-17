@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "joined_frame_rows_recomputed": 577,
+  "prefix_feature_rows_recomputed": 62,
+  "snapshot_and_summary_values_recomputed": true,
+  "source_side_labels_and_latest_corrections_verified": 11,
+  "prefix_cutoffs_before_end_candidates": true,
+  "missing_pairs_and_ball_states_preserved": true,
+  "approved_input_schema_excludes_outcome_and_future_metadata": true,
+  "same_point_group_050_051_preserved": true,
+  "source_and_artifact_hashes_unchanged": true,
+  "model_fitting_performed": false,
+  "independent_accuracy_not_claimed": true,
+  "script_sha256": "f7c62a74b3cfccd7b868db298d99d151c2c28b3d0c8facfd8438f3d61418a9b5"
+}

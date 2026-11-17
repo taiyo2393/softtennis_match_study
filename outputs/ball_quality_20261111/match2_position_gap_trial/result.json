@@ -1,0 +1,213 @@
+{
+  "source_sha256": "ffce469ebbebe228bd939e528a6def58b361370479cdd2f8864332482cb86c7a",
+  "trials": [
+    {
+      "gap_frames": 2,
+      "gap_seconds": 0.03336666666666667,
+      "windows": 391,
+      "windows_by_point": {
+        "1": 100,
+        "2": 187,
+        "3": 104
+      },
+      "linear": {
+        "median_m": 0.020000111457474337,
+        "p90_m": 0.07752950567502748,
+        "max_m": 0.24438563835953395,
+        "windows_all_frames_within_half_m": 391
+      },
+      "hold_last": {
+        "median_m": 0.053785753193878905,
+        "p90_m": 0.1899111359381544,
+        "max_m": 0.626063524183362,
+        "windows_all_frames_within_half_m": 387
+      }
+    },
+    {
+      "gap_frames": 3,
+      "gap_seconds": 0.050050000000000004,
+      "windows": 311,
+      "windows_by_point": {
+        "1": 79,
+        "2": 149,
+        "3": 83
+      },
+      "linear": {
+        "median_m": 0.0223374674390676,
+        "p90_m": 0.09633685480211492,
+        "max_m": 0.39509682394711876,
+        "windows_all_frames_within_half_m": 311
+      },
+      "hold_last": {
+        "median_m": 0.06241970579826589,
+        "p90_m": 0.24588444088248979,
+        "max_m": 0.6370060731965026,
+        "windows_all_frames_within_half_m": 299
+      }
+    },
+    {
+      "gap_frames": 4,
+      "gap_seconds": 0.06673333333333334,
+      "windows": 258,
+      "windows_by_point": {
+        "1": 66,
+        "2": 124,
+        "3": 68
+      },
+      "linear": {
+        "median_m": 0.03078184690271573,
+        "p90_m": 0.12193943598120688,
+        "max_m": 0.37995357012509695,
+        "windows_all_frames_within_half_m": 258
+      },
+      "hold_last": {
+        "median_m": 0.08204115083432409,
+        "p90_m": 0.2875205967192926,
+        "max_m": 1.0209771769219902,
+        "windows_all_frames_within_half_m": 238
+      }
+    },
+    {
+      "gap_frames": 12,
+      "gap_seconds": 0.20020000000000002,
+      "windows": 107,
+      "windows_by_point": {
+        "1": 28,
+        "2": 53,
+        "3": 26
+      },
+      "linear": {
+        "median_m": 0.07165721515403975,
+        "p90_m": 0.2689108750608986,
+        "max_m": 0.8261020867904291,
+        "windows_all_frames_within_half_m": 98
+      },
+      "hold_last": {
+        "median_m": 0.18686312584980003,
+        "p90_m": 0.6480519640230815,
+        "max_m": 1.5188537095381924,
+        "windows_all_frames_within_half_m": 64
+      }
+    },
+    {
+      "gap_frames": 16,
+      "gap_seconds": 0.26693333333333336,
+      "windows": 83,
+      "windows_by_point": {
+        "1": 22,
+        "2": 41,
+        "3": 20
+      },
+      "linear": {
+        "median_m": 0.1084498146097562,
+        "p90_m": 0.32802804804451985,
+        "max_m": 0.9324683264332964,
+        "windows_all_frames_within_half_m": 73
+      },
+      "hold_last": {
+        "median_m": 0.260585307037261,
+        "p90_m": 0.8020026954115314,
+        "max_m": 1.6467844100511113,
+        "windows_all_frames_within_half_m": 37
+      }
+    },
+    {
+      "gap_frames": 37,
+      "gap_seconds": 0.6172833333333333,
+      "windows": 37,
+      "windows_by_point": {
+        "1": 10,
+        "2": 19,
+        "3": 8
+      },
+      "linear": {
+        "median_m": 0.17106802295987297,
+        "p90_m": 0.506113196780648,
+        "max_m": 1.195105980806858,
+        "windows_all_frames_within_half_m": 21
+      },
+      "hold_last": {
+        "median_m": 0.4981194399716682,
+        "p90_m": 1.4841955883349607,
+        "max_m": 2.885686252869485,
+        "windows_all_frames_within_half_m": 7
+      }
+    },
+    {
+      "gap_frames": 39,
+      "gap_seconds": 0.6506500000000001,
+      "windows": 31,
+      "windows_by_point": {
+        "1": 8,
+        "2": 17,
+        "3": 6
+      },
+      "linear": {
+        "median_m": 0.18646486657669845,
+        "p90_m": 0.5091431795745557,
+        "max_m": 1.2208677097347438,
+        "windows_all_frames_within_half_m": 17
+      },
+      "hold_last": {
+        "median_m": 0.5210004358992819,
+        "p90_m": 1.6475539545628097,
+        "max_m": 3.1201428790643573,
+        "windows_all_frames_within_half_m": 5
+      }
+    },
+    {
+      "gap_frames": 46,
+      "gap_seconds": 0.7674333333333333,
+      "windows": 28,
+      "windows_by_point": {
+        "1": 7,
+        "2": 15,
+        "3": 6
+      },
+      "linear": {
+        "median_m": 0.22829794672147447,
+        "p90_m": 0.639278988905077,
+        "max_m": 1.3318203512202056,
+        "windows_all_frames_within_half_m": 12
+      },
+      "hold_last": {
+        "median_m": 0.6149567047340515,
+        "p90_m": 1.8923694603297443,
+        "max_m": 3.9203956130613427,
+        "windows_all_frames_within_half_m": 3
+      }
+    },
+    {
+      "gap_frames": 108,
+      "gap_seconds": 1.8018,
+      "windows": 10,
+      "windows_by_point": {
+        "1": 3,
+        "2": 6,
+        "3": 1
+      },
+      "linear": {
+        "median_m": 0.41934049692137937,
+        "p90_m": 1.0823672355639458,
+        "max_m": 1.7907584724883563,
+        "windows_all_frames_within_half_m": 1
+      },
+      "hold_last": {
+        "median_m": 1.3351942751087877,
+        "p90_m": 4.762577979175592,
+        "max_m": 7.556119617228749,
+        "windows_all_frames_within_half_m": 1
+      }
+    }
+  ],
+  "actual_gap_count": 11,
+  "actual_gap_frames": 263,
+  "intervals_with_foot_overlap_flag": 6,
+  "short_bracketed_same_track_intervals": 5,
+  "strokes_total": 13,
+  "strokes_with_four_at_display_reference": 9,
+  "strokes_with_four_throughout_contact_window": 6,
+  "processing_decision": "Retain missing positions in the reviewed paths. Clear holdouts are not ground truth for occluded frames. No short overlap gap has same-ID visible endpoints.",
+  "target": "Visible detector-box bottom proxies. No independent physical ground-position labels.",
+  "limitations": "Three selected rallies. Blocks may be related within a rally and reused across lengths. Clear pseudo-gaps do not establish error for actual occlusion or ID switches."
+}

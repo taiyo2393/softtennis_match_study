@@ -1,0 +1,7 @@
+{
+  "status": "confirmed_by_user",
+  "source": "User reply to HTTP-link display question",
+  "reported_answer": "表示できた",
+  "components_requested": "Match image plus four near/far-left/right selection fields",
+  "automated_browser_rendering_verified": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "all_nine_human_labels_verified",
+  "counts": {
+    "not_ball": 9
+  },
+  "labels_sha256": "b3660d11c8855a0cd2d88b700afc9ac386b525650b39ed38c38778da5286de91",
+  "events_sha256": "87d36bdb5d4c7089f8e16aa6fea4906b45e0c1691cb11bf89c8f95e343bd9f49",
+  "events": 9,
+  "training_ready_cases": 111,
+  "manual_positive_centers": 102,
+  "automatic_labels_added": 0,
+  "physical_absence_labels_added": 0,
+  "registry_changed": false
+}

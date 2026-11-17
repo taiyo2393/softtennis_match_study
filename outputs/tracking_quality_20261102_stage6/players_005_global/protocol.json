@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "beam_width": 48,
+    "options_per_person": 4,
+    "appearance_max": 0.7,
+    "missing_cost": 0.9,
+    "uncertainty_height_base": 0.25,
+    "uncertainty_per_missing_frame": 0.03,
+    "max_motion_normalized": 6.0,
+    "velocity_retention_missing": 0.98,
+    "observation_feature_weight": 0.8,
+    "motion_weight": 0.35,
+    "detector_id_change_cost": 0.04,
+    "pair_overlap_max": 0.55,
+    "scope": "offline_development_not_independent_evaluation"
+  },
+  "code_sha256": "73508c885404c95bddf25c1ab4417fd9f9c614fb88d4f5072d375498d9adc9da"
+}

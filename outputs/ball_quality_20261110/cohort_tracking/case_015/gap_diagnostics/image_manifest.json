@@ -1,0 +1,27 @@
+[
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 39144,
+    "after_source_frame": 39160,
+    "missing_frames": 15,
+    "before_raw_id": "1000004",
+    "after_raw_id": "5",
+    "image_file": "gap_01_far_rear.jpg",
+    "source_frames": [
+      39132,
+      39144,
+      39152,
+      39160,
+      39166,
+      39172
+    ],
+    "constant_crop_xyxy": [
+      1756,
+      913,
+      2218,
+      1346
+    ],
+    "aspect_preserved": true,
+    "sha256": "92cb1fe44b124b353a49082fbc0387072913c8efd63a128a70c0fc56147c0f50"
+  }
+]

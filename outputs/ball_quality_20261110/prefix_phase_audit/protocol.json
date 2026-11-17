@@ -1,0 +1,32 @@
+{
+  "date_jst": "2026-11-10",
+  "purpose": "AI visual audit of whether fixed early inputs are within the service-led play sequence, not independent human validity/end/position GT.",
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "source_clock": "legacy_edited_match1",
+  "fps": 59.94005994005994,
+  "selection": "All six existing prefixes lacking inherited early point-end brackets; no sampling by new detector success or result.",
+  "context": "anchor_first-60 through fixed input_end+180, inclusive. Every source frame in rendered clips; sampled chronological image grids for AI inspection.",
+  "input_grid": "Every fourth source frame over the fixed31-times/stride2 window. Inspecting images is not equivalent to independent continuous-motion judgement.",
+  "outcomes": "Existing human side labels preserved; no score-side relabelling.",
+  "decisions": "Separate visible continued play, cut/reset evidence, ambiguous ball/phase, and validity. No exact contact or point-end certification. No correction of original metadata/features.",
+  "processing": "No new detector, interpolation, model fitting or new human annotation.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\contact_timing_sensitivity.csv": "efaeb718abbb44810d7b9866a47f05290a974972ec793554a663961f9329b791",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\executed_source.py": "c7cfcc952b61a6d6e0852a0abb0540c8a0eb3c945341a8c07fe11cdf26ec3773",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\feature_schema.json": "96baa8136f48acac6b92d34b2a2eccbf6fab13df4842932e5d0606ded5cf23f1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\human_outcomes.csv": "2e597d90ed77e69b9d3e0233a6a492b45aec6502ff503486723428afd01c96bf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\observation_availability.png": "b04222728a1488d6d1ecac2fe261eef673a1572fefbb225e548b297fc8aa9b02",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\prefix_frame_features.csv": "cbff4ddeb8d2a36145b7ca5b0a1d5034b11356f1924e4cc2fe2545834ead1de6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\prefix_player_summary_features.csv": "fbcd344489300f89f80977fcc7905fbbd955c8b9a611ea4988837a0bc51273f1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\protocol.json": "9847653decc2f2eba3e7697c4d266307f9a4b511f64ed23cd349507c747a3306",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\publication_hashes.json": "2f8e48665e58ee4405e8956e4a33a1ed827c01e36d2d2867d21424b0aeafa60a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\rally_metadata.csv": "f5ba876b7867764595930b123b94f5eaa7b7df36358ce187cd7a1da0eddbf4a1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\README.md": "3c19e2e69862791f04ac7ca206b5cf56cebc71f005cabeff9346d8669e431f77",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\requested_player_observations.csv": "94099af1c29e50659b0b878cf72211ddef45afdf64c65e9307e084707c64ae3f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\result.json": "c14301792d6231ce51e6bd7ecb4b4d1295a51a87122a7c9b52526a4a4ca166d2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\snapshot_player_features.csv": "7162f0683362fe36cee810548e822dcf4d57c884493f0a6cf03e221942299094",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_player_prefix_expansion\\verification.json": "595686b0ad52760b15f894e5d66f9cf7e5045dfa8a710c323532f9b1768e021c"
+  },
+  "script_sha256": "cb97d590bece1d109548423656d0ca3977800d8a746d5a120db9dbef1130d877"
+}

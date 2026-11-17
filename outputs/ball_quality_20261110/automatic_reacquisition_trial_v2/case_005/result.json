@@ -1,0 +1,43 @@
+{
+  "baseline_replay_exact": true,
+  "variants": {
+    "baseline": {
+      "near_observations": 854,
+      "near_counts": {
+        "near_front": 427,
+        "near_rear": 427
+      },
+      "changed_old_observations": 0,
+      "added_observations": 0,
+      "initialized_frame": 8625,
+      "source_coordinate_interpolation": false,
+      "near_ID_transitions": 0
+    },
+    "confirm_new_id": {
+      "near_observations": 854,
+      "near_counts": {
+        "near_front": 427,
+        "near_rear": 427
+      },
+      "changed_old_observations": 0,
+      "added_observations": 0,
+      "initialized_frame": 8625,
+      "source_coordinate_interpolation": false,
+      "near_ID_transitions": 0
+    },
+    "confirm_new_id_opponent_negatives": {
+      "near_observations": 854,
+      "near_counts": {
+        "near_front": 427,
+        "near_rear": 427
+      },
+      "changed_old_observations": 0,
+      "added_observations": 0,
+      "initialized_frame": 8625,
+      "source_coordinate_interpolation": false,
+      "near_ID_transitions": 0
+    }
+  },
+  "protected_sources_unchanged": true,
+  "independent_identity_accuracy": false
+}

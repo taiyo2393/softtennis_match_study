@@ -1,0 +1,30 @@
+{
+  "tag": "019",
+  "baseline_replay_exact": true,
+  "modes": {
+    "baseline": {
+      "far_observations": 1428,
+      "removed_baseline_boxes": 0,
+      "added_boxes": 0,
+      "path_cost": 1089.0889303122601,
+      "same_output_as_baseline": true,
+      "candidate_ID_bindings": false
+    },
+    "slot_near_guard": {
+      "far_observations": 1338,
+      "removed_baseline_boxes": 90,
+      "added_boxes": 0,
+      "path_cost": 1115.3887708090401,
+      "same_output_as_baseline": false,
+      "candidate_ID_bindings": false
+    },
+    "slot_near_upper_guard": {
+      "far_observations": 1264,
+      "removed_baseline_boxes": 164,
+      "added_boxes": 0,
+      "path_cost": 1136.254099654798,
+      "same_output_as_baseline": false,
+      "candidate_ID_bindings": false
+    }
+  }
+}

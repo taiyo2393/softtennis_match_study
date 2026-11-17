@@ -1,0 +1,17 @@
+{
+  "status": "blanket_temporal_exclusion_rejected_due_user_confirmed_false_withholding",
+  "safety_review_date": "2026-11-03",
+  "human_confirmed_counterexample": "match1_motion_pilot_002 frame318 is a real ball candidate, not a precise center annotation",
+  "human_correction_layer": "suppression_audit_20261103/user_reviewed",
+  "partial_appearance_protection": "014 frames626 and630 preserved; insufficient to resolve all counterexamples",
+  "user_reported_regressions_fixed": [208, 229, 230],
+  "candidate_id": "match1_motion_pilot_018",
+  "offline_lookahead_frames": 30,
+  "original_baseline_changed": false,
+  "source_annotations_changed": false,
+  "independent_performance_claim": false,
+  "component_result": "Validation localized TP80 retained, one nonlocalized output withheld; reused test TP96 and four nonlocalized outputs unchanged.",
+  "preview_composition": "Prior glove guard, camera-transition abstention and local trajectory consistency. Separate from minimal component benchmark.",
+  "remaining_known_issue": "013 frame435 remains because sufficient temporal/pose evidence is not available.",
+  "evidence": ["verification.json", "preview_report.json", "selection.json", "test_results.json", "preview_protocol.json"]
+}

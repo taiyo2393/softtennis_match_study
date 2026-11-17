@@ -1,0 +1,5 @@
+﻿window_id,frames,source_duration_sec,original_output_frames,added_output_frames,original_no_output_frames,no_output_frames,longest_original_no_output_run_frames,longest_no_output_run_frames,longest_no_output_run_duration_sec,center_accuracy,phase_scope
+A,181,3.0196833333333335,150,17,31,14,11,8,0.13346666666666668,not_computed_unlabelled_continuous_context,not_newly_reviewed
+B,181,3.0196833333333335,87,44,94,50,35,15,0.25025000000000003,not_computed_unlabelled_continuous_context,not_newly_reviewed
+C,181,3.0196833333333335,162,2,19,17,13,13,0.21688333333333334,not_computed_unlabelled_continuous_context,not_newly_reviewed
+D,181,3.0196833333333335,147,9,34,25,19,14,0.23356666666666667,not_computed_unlabelled_continuous_context,not_newly_reviewed

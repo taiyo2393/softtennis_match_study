@@ -1,0 +1,33 @@
+{
+  "status": "training_only_far_wrong_target_inventory",
+  "train_samples": 120,
+  "train_clips": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "candidates": 2,
+  "source_distance_min_exclusive_px": 64,
+  "mining_rule": "Stored visible manual target plus original model output>64sourcepixels away; never read validation/audit labels for mining",
+  "object_semantics": "Wrong position for annotated target, not a claim of no physical ball at that position",
+  "next": "Use explicit training-side target losses or sampling of these examples in a new, separately specified trial; do not copy known validation failures into training.",
+  "original_targets_unchanged": true,
+  "validation_and_audit_not_mined": true,
+  "model_not_trained_in_this_step": true,
+  "input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\train_labels.csv": "e718edb3af4aea5e32c6497d315f6aa3155a479a0f7eed2bc2427b453fa59df9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_001\\balltrack_predictions.csv": "bebc85a930738490c1b847a4341358c670b0c4fcd5f42ce72af88cd3aaf0d6ea",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_003\\balltrack_predictions.csv": "0893f835417849c9f773b3c71702ac6fbc02ef80c990be6117a81a3249a53c3f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_004\\balltrack_predictions.csv": "bfbb0fba01abb0d584fcf13e98724d7e127d678bfb3e3b74cf581d53a1c5e1fe",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_005\\balltrack_predictions.csv": "9fa71698d758a65e063849050962dc7e4396f2d32e58a7e1ab27394eac7ee7f7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_006\\balltrack_predictions.csv": "e37bd40a1da0e0ffa80e0ae811f921fcf22919798842b4642d00497bde7dae46",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_007\\balltrack_predictions.csv": "297f514c3db620f61377e4876660cc1e436a41caac42ebd83d5f71319cf4d10f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_009\\balltrack_predictions.csv": "6221f1ec4a352eec9fe4048cba8891bef5d75f5cad5242e261da49f7fc258cbf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_010\\balltrack_predictions.csv": "2b7063df77779b7cee7df274844666652432747de4888e21dcd7d1bddc81eda0"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "status": "detector_and_head_clip_crossfit_complete",
+  "folds": 8,
+  "held_predictions": 246,
+  "original_train_frames": 68,
+  "total_detector_updates": 6429,
+  "summary": [
+    {
+      "method": "original_temporal",
+      "phase_status": "play",
+      "correct16px": 52,
+      "wrong_position": 0,
+      "missing_visible_ball": 16,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 8
+    },
+    {
+      "method": "original_temporal",
+      "phase_status": "nonplay",
+      "correct16px": 14,
+      "wrong_position": 2,
+      "missing_visible_ball": 18,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 11
+    },
+    {
+      "method": "fold_native_peak",
+      "phase_status": "play",
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 4,
+      "no_output_when_not_observable": 5
+    },
+    {
+      "method": "fold_native_peak",
+      "phase_status": "nonplay",
+      "correct16px": 18,
+      "wrong_position": 8,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    },
+    {
+      "method": "fold_native_ranked",
+      "phase_status": "play",
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 3,
+      "no_output_when_not_observable": 6
+    },
+    {
+      "method": "fold_native_ranked",
+      "phase_status": "nonplay",
+      "correct16px": 18,
+      "wrong_position": 8,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    }
+  ],
+  "raw_correct_play_targets_lost": [],
+  "passes_internal_gate": false,
+  "no_held_clip_in_detector_or_head_fit": true,
+  "conditional_head_only_leakage_avoided": true,
+  "full_fit_performed": false,
+  "new_confirmation_inference": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "decision": "Stop: fixed candidate fails crossfit gate. No full head fit,threshold retry or confirmation inference.",
+  "limitations": "Internal development on8known same-match training clips,not independent external validation;old52andEF26labels only hashed for protection."
+}

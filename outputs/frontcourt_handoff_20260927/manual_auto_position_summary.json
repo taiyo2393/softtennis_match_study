@@ -1,0 +1,56 @@
+{
+  "source_file": "C:\\Users\\ta239\\Downloads\\manual_position_reference (3).json",
+  "sha256": "5d4d485bdf370bb03fba13f023bb48b4a7ae1a578e9d4a5ae6fb6a1c88490b6e",
+  "results": [
+    {
+      "candidate_id": "all",
+      "requested": 12,
+      "evaluated": 12,
+      "unjudgeable": 0,
+      "median_image_distance_px": 14.467781328285266,
+      "mean_image_distance_px": 21.790234814671276,
+      "max_image_distance_px": 47.80237972358429,
+      "mean_dx_px": -3.335170886914265,
+      "mean_dy_px": 19.631861387372755
+    },
+    {
+      "candidate_id": "001",
+      "requested": 4,
+      "evaluated": 4,
+      "unjudgeable": 0,
+      "median_image_distance_px": 13.812323487056577,
+      "mean_image_distance_px": 17.7627318473704,
+      "max_image_distance_px": 35.70114180323706,
+      "mean_dx_px": -2.0582533600766055,
+      "mean_dy_px": 17.035543310900493
+    },
+    {
+      "candidate_id": "007",
+      "requested": 4,
+      "evaluated": 4,
+      "unjudgeable": 0,
+      "median_image_distance_px": 26.137622719710766,
+      "mean_image_distance_px": 26.54018422941495,
+      "max_image_distance_px": 39.963057732362046,
+      "mean_dx_px": -6.860974018875481,
+      "mean_dy_px": 21.392798233243127
+    },
+    {
+      "candidate_id": "056",
+      "requested": 4,
+      "evaluated": 4,
+      "unjudgeable": 0,
+      "median_image_distance_px": 13.494088971605114,
+      "mean_image_distance_px": 21.067788367228477,
+      "max_image_distance_px": 47.80237972358429,
+      "mean_dx_px": -1.0862852817907083,
+      "mean_dy_px": 20.467242617974648
+    }
+  ],
+  "limitations": [
+    "3 convenience/systematic pilot frames; not tracking accuracy",
+    "Human previously exposed to candidate imagery; not strict blinded independent validation",
+    "Foot midpoint and box bottom are different definitions",
+    "Homography transfer error not evaluated; no physical accuracy claim"
+  ]
+}

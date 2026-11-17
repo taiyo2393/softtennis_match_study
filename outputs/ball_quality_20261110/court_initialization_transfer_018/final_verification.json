@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verification_scope": "Structural preservation/recalculation and rejection gate, not identity success",
+  "tracking_identity_success": false,
+  "known_wrong_person_assignment_all_four_modes": true,
+  "candidate_rows_not_appended": true,
+  "current21_snapshot_unchanged": true,
+  "fixed31_features_equal_but_wrong": true,
+  "branch_assignment_changes": {
+    "court_seed_only": {
+      "added_rows": 0,
+      "removed_rows": 0,
+      "known_wrong_initial_identity": true,
+      "four_candidate_times": 31
+    },
+    "old_guard": {
+      "added_rows": 1,
+      "removed_rows": 20,
+      "known_wrong_initial_identity": true,
+      "four_candidate_times": 31
+    },
+    "court_seed_plus_old_guard": {
+      "added_rows": 1,
+      "removed_rows": 20,
+      "known_wrong_initial_identity": true,
+      "four_candidate_times": 31
+    }
+  },
+  "matched_native_observation_rows_across_four_outputs": 9594,
+  "recalculated_feature_values_across_four_outputs": 1516,
+  "decoded_frames_before_excerpt": 3150,
+  "review_video_frames": 518,
+  "confirmed_human_outcomes_preserved": 11,
+  "fixed30_constructed_inputs": 18,
+  "fixed30_pending_inputs": 12,
+  "threshold_tuning": false,
+  "canonical_pipeline_replaced": false,
+  "independent_identity_or_position_accuracy_established": false
+}

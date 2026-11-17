@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "source_frames": 239,
+  "original_source_dimensions": [
+    1920,
+    1080
+  ],
+  "new_mode_init_frame": 12295,
+  "native_candidate_observations": 926,
+  "all_selected_rows_match_native_detection": true,
+  "four_candidate_frames": 230,
+  "unfilled_initial_wait_frames": 7,
+  "unfilled_F2_frames": [
+    12506,
+    12507
+  ],
+  "old_control_contexts": 10,
+  "old_control_source_frames": 7488,
+  "assignments_and_costs_match_legacy_under_original_camera": true,
+  "media_decode_passed": true,
+  "protected_previous_work_and_videos_unchanged": true,
+  "independent_accuracy_established": false
+}

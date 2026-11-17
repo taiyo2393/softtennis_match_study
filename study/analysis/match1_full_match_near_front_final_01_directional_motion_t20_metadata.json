@@ -1,0 +1,8 @@
+{
+  "input": "softtennis_frontcourt_study\\analysis\\match1_full_match_near_front_final_01_preimpact_motion_features.csv",
+  "movement_threshold_px": 20.0,
+  "screen_positive_is_target_front_view": "front_right",
+  "screen_negative_is_target_front_view": "front_left",
+  "definition": "At each pre-impact time point, movement direction is the sign of the prior 100-ms fixed-camera horizontal displacement if its absolute value reaches the fixed threshold; otherwise stay.",
+  "reporting_guard": "Conditional agreement is reported only among directional movements; stay is separate and never counted as a correct direction. This is a single-match exploratory association, not evidence of anticipation, causality, or match-level generalisation."
+}

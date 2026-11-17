@@ -1,0 +1,92 @@
+{
+  "status": "fixed_pixel_feature_addition_complete",
+  "unique_patches": 539,
+  "candidate_feature_rows": 1197,
+  "feature_dimension": 522,
+  "folds": 8,
+  "held_predictions": 123,
+  "summary": [
+    {
+      "method": "original_temporal",
+      "phase_status": "play",
+      "correct16px": 52,
+      "wrong_position": 0,
+      "missing_visible_ball": 16,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 8
+    },
+    {
+      "method": "original_temporal",
+      "phase_status": "nonplay",
+      "correct16px": 14,
+      "wrong_position": 2,
+      "missing_visible_ball": 18,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 11
+    },
+    {
+      "method": "fold_native_peak",
+      "phase_status": "play",
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 4,
+      "no_output_when_not_observable": 5
+    },
+    {
+      "method": "fold_native_peak",
+      "phase_status": "nonplay",
+      "correct16px": 18,
+      "wrong_position": 8,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    },
+    {
+      "method": "geometry10",
+      "phase_status": "play",
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 3,
+      "no_output_when_not_observable": 6
+    },
+    {
+      "method": "geometry10",
+      "phase_status": "nonplay",
+      "correct16px": 18,
+      "wrong_position": 8,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    },
+    {
+      "method": "geometry10_plus_image512",
+      "phase_status": "play",
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 4,
+      "no_output_when_not_observable": 5
+    },
+    {
+      "method": "geometry10_plus_image512",
+      "phase_status": "nonplay",
+      "correct16px": 18,
+      "wrong_position": 8,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    }
+  ],
+  "raw_correct_play_targets_lost": [],
+  "passes_internal_gate": false,
+  "frozen_backbone_not_finetuned": true,
+  "detector_models_and_candidate_rows_unchanged": true,
+  "new_confirmation_inference": false,
+  "full_fit_performed": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "interpretation": "Same candidate/fold method comparison;post-failure design on known same-match data,not independent external validation.",
+  "decision": "Stop:fixed pixel-feature head fails safety. No alternate size,threshold or head chosen."
+}

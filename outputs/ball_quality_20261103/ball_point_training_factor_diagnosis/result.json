@@ -1,0 +1,153 @@
+{
+  "status": "matched_training_only_factor_diagnosis_complete",
+  "summary": [
+    {
+      "condition": "original_fp32",
+      "training_positive_above03": 66,
+      "training_negative_above03": 8,
+      "correct_point_pairs": 1,
+      "true_point_above_negative": 6,
+      "mean_positive_response": 0.39585358116264435,
+      "mean_negative_response": 0.4314107100168864,
+      "raw_training_correct": 63,
+      "raw_training_errors": 7,
+      "raw_training_outputs": 70,
+      "mean_threshold_pixel_fraction": 0.0006506557171691509
+    },
+    {
+      "condition": "rare_preserve",
+      "training_positive_above03": 99,
+      "training_negative_above03": 9,
+      "correct_point_pairs": 0,
+      "true_point_above_negative": 6,
+      "mean_positive_response": 0.6805362651745478,
+      "mean_negative_response": 0.7339877420001559,
+      "raw_training_correct": 2,
+      "raw_training_errors": 121,
+      "raw_training_outputs": 123,
+      "mean_threshold_pixel_fraction": 0.011078956004403794
+    },
+    {
+      "condition": "rare_no_preserve",
+      "training_positive_above03": 101,
+      "training_negative_above03": 9,
+      "correct_point_pairs": 0,
+      "true_point_above_negative": 6,
+      "mean_positive_response": 0.7040077652416977,
+      "mean_negative_response": 0.751698738998837,
+      "raw_training_correct": 0,
+      "raw_training_errors": 123,
+      "raw_training_outputs": 123,
+      "mean_threshold_pixel_fraction": 0.05362145235221884
+    },
+    {
+      "condition": "balanced_preserve",
+      "training_positive_above03": 65,
+      "training_negative_above03": 2,
+      "correct_point_pairs": 6,
+      "true_point_above_negative": 8,
+      "mean_positive_response": 0.4153852585118775,
+      "mean_negative_response": 0.25087813370757633,
+      "raw_training_correct": 62,
+      "raw_training_errors": 6,
+      "raw_training_outputs": 68,
+      "mean_threshold_pixel_fraction": 0.0006575476724819332
+    },
+    {
+      "condition": "balanced_no_preserve",
+      "training_positive_above03": 64,
+      "training_negative_above03": 3,
+      "correct_point_pairs": 5,
+      "true_point_above_negative": 8,
+      "mean_positive_response": 0.41753140449816106,
+      "mean_negative_response": 0.23855579561657375,
+      "raw_training_correct": 62,
+      "raw_training_errors": 7,
+      "raw_training_outputs": 69,
+      "mean_threshold_pixel_fraction": 0.0008004592578477866
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast": "frequency_with_preservation",
+      "from_condition": "rare_preserve",
+      "to_condition": "balanced_preserve",
+      "delta_negative_above03": -7,
+      "delta_positive_above03": -34,
+      "delta_correct_point_pairs": 6,
+      "delta_raw_training_errors": -115
+    },
+    {
+      "contrast": "frequency_without_preservation",
+      "from_condition": "rare_no_preserve",
+      "to_condition": "balanced_no_preserve",
+      "delta_negative_above03": -6,
+      "delta_positive_above03": -37,
+      "delta_correct_point_pairs": 5,
+      "delta_raw_training_errors": -116
+    },
+    {
+      "contrast": "preservation_with_rare_exposure",
+      "from_condition": "rare_no_preserve",
+      "to_condition": "rare_preserve",
+      "delta_negative_above03": 0,
+      "delta_positive_above03": -2,
+      "delta_correct_point_pairs": 0,
+      "delta_raw_training_errors": -2
+    },
+    {
+      "contrast": "preservation_with_balanced_exposure",
+      "from_condition": "balanced_no_preserve",
+      "to_condition": "balanced_preserve",
+      "delta_negative_above03": -1,
+      "delta_positive_above03": 1,
+      "delta_correct_point_pairs": 1,
+      "delta_raw_training_errors": -1
+    }
+  ],
+  "models": {
+    "rare_preserve": {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\rare_preserve_diagnostic_delta.pth",
+      "sha256": "89952f53524cb60f84616ea820a3ca4caaf9bc616eb75f876af04ac57d96b110",
+      "frozen_state_unchanged": true,
+      "replication_of_previous": {
+        "all_tensors_bitwise_equal": true,
+        "max_abs_weight_difference": 0.0
+      }
+    },
+    "rare_no_preserve": {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\rare_no_preserve_diagnostic_delta.pth",
+      "sha256": "e829b557963940e47b7a8f011886aad99c59c84014f48d93bef9900f845526c1",
+      "frozen_state_unchanged": true,
+      "replication_of_previous": null
+    },
+    "balanced_preserve": {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\balanced_preserve_diagnostic_delta.pth",
+      "sha256": "84088a4417ec7faca654d9f664f36eff09689f21c31d664916ac5a0759aa30d5",
+      "frozen_state_unchanged": true,
+      "replication_of_previous": null
+    },
+    "balanced_no_preserve": {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_training_factor_diagnosis\\balanced_no_preserve_diagnostic_delta.pth",
+      "sha256": "df4f1b61375fb7ec06edb92a27aed55f98712d1d468a7029c6003b0f8a232392",
+      "frozen_state_unchanged": true,
+      "replication_of_previous": null
+    }
+  },
+  "weighted_positive_mass_per_condition": 306.0,
+  "weighted_negative_mass_per_condition": 306.0,
+  "updates_per_condition": 153,
+  "unique_training_images": 102,
+  "negative_point_pairs": 9,
+  "negative_exposure_batches": {
+    "rare": 26,
+    "balanced": 153
+  },
+  "protected_inputs_unchanged": true,
+  "no_validation_or_audit": true,
+  "no_best_model_selection": true,
+  "new_human_labels": 0,
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "interpretation": "Training response/fit and same-training raw-output diagnostics only. Equal doses isolate scheduling frequency and preservation switch within this one run; no external tracking benefit established."
+}

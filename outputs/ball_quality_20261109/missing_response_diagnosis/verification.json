@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "maps_reproducing_frozen_components": 84,
+  "human_center_response_records_checked": 45,
+  "missing_maps_without_candidates": 12,
+  "missing_global_peaks_outside16px": 4,
+  "input_images_unchanged": 176,
+  "original_protocol_and_evaluation_preserved": true,
+  "models_and_canonical_outputs_unchanged": true,
+  "no_threshold_change": true,
+  "no_new_labels": true,
+  "no_training": true,
+  "artifacts": {
+    "protocol.json": "064d84ddd01e0ec1c502c9bb8f03e1b2b2661430e7c1b908741e960c0caafe18",
+    "result.json": "674e88a059e37d0f0c519130ca2355a3536969839a9ef426c3c93a58946634ee",
+    "replayed_heatmaps.npz": "5398478d2cbd478b9ad35f835196378e273b9c044360a701aa3c7b57c76c918e",
+    "visible_response_records.csv": "55c7e14f07e2bed78d8cc2cc2da266a53dc2f238be600b519bf6b6d6f11a2b33",
+    "missing_response_records.csv": "954f9ee35df27def10a2b83e74874660151f601e120c51371009660a8ec9911d",
+    "window_response_summary.csv": "6cb6557cbd4d17d9efab0bc71453526cd400c15435d50a21b9b52202efa49990",
+    "response_extremes.png": "056717a2e98831a4b4da81e57c7d34bc8c206025a78f42b437058cd3a9137416",
+    "executed_source.py": "a30d41b23e78d339230fceceacad38f880d843f8e2e4ada7ddf94efc45853b79"
+  },
+  "script_sha256": "9edd5bea93b63abceabe4123d4d8653848a663524ad0228572914a91b9eff861"
+}

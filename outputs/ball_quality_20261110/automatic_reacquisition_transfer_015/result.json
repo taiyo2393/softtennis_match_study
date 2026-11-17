@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "candidate_id": "match1_rally_window_015",
+  "previously_frozen_code_hash_matched": true,
+  "baseline_temporal_replay_exact": true,
+  "baseline_near_observations": 1306,
+  "guard_near_observations": 1281,
+  "removed_near_observations": 25,
+  "added_near_observations": 0,
+  "near_raw_ID_transitions": {
+    "baseline_replay": 5,
+    "frozen_guard": 3
+  },
+  "full_four_player_assignments_identical": false,
+  "fixed31_features_identical": true,
+  "matched_native_boxes": 2572,
+  "recalculated_feature_values": 379,
+  "video_frames_decoded": 660,
+  "four_observation_requested_times": 31,
+  "requested_times": 31,
+  "manual_ID_binding": false,
+  "threshold_or_confirmation_length_tuned_on_transfer": false,
+  "canonical_pipeline_changed": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "opportunity_has_near_ID_change": true,
+  "protected_sources_unchanged": true
+}

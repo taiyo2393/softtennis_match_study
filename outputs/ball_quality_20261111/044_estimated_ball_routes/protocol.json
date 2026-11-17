@@ -1,0 +1,43 @@
+{
+  "date_jst": "2026-11-11",
+  "far_gaps": [
+    {
+      "id": "FAR01",
+      "missing_first": 115475,
+      "missing_last": 115499,
+      "next_contact_first": 115519,
+      "after_stroke": "H02",
+      "before_stroke": "H03"
+    },
+    {
+      "id": "FAR02",
+      "missing_first": 115693,
+      "missing_last": 115711,
+      "next_contact_first": 115727,
+      "after_stroke": "H04",
+      "before_stroke": "H05"
+    }
+  ],
+  "approach": "Exploratory continuous piecewise image-space fit across known ball-center gaps. Not3D dynamics or physical gravity.",
+  "fixed_fit_window": "Up to24sourceframes before missing_first and24after missing_last, clipped before next AI contact first. Visible sampled observations only; no training/GT fitted.",
+  "fixed_fit_model": "For each integer bounce time in original missing interval: x continuous piecewise linear; y continuous piecewise quadratic. Shared bounce x/y. incoming dy/dt>=0,outgoing dy/dt<=0, both y quadratic coefficients>=0 in downward-positive image. Enumerate active inequality bounds by NumPy least squares.",
+  "selection": "Minimum combined x/y squared residual across fixed candidates. No court-side or desired landing coordinate used to select/time/crop/refit. Retain whole time profile. Physical/court plausibility only flagged after fit.",
+  "sensitivity": "All trial times with fitted RMS within1nativepixel of minimum shown as sensitivity range, not confidence interval or ground-truth error.",
+  "conditional_projection": "Only fitted bounce point is transformed with existing native-scale-composed homography, assuming ground level. No projection of airborne curve to court.",
+  "image_missing": "Far gaps use fitted curve only at missing frames. Other gaps use straight image interpolation only if bounding observations and whole gap do not cross any provisional contact/bounce interval. Leave contact gaps and unannotated times blank. Retain original164positions byte-for-byte in observed columns.",
+  "court_routes": "Dashed schematic: previous hitter bbox-bottom proxy -> known/estimated bounce -> next hitter bbox-bottom proxy. Not measured airborne ground track, no moving ground-ball point. Fifth shot endpoint unknown, not invented.",
+  "independent_accuracy_established": false,
+  "canonical_inputs_updated": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\estimate_044_far_bounces.py": "d96a1fecff19d91dc0f861e84a68ef62a700e8e717c4b78a3e04c04383736a89",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot\\ball_image_observations.csv": "6d116184915761ad6eac99de7e2c8471112d3c68697fb8942f08743888a281f5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot\\player_court_proxies.csv": "10a679f30b0fa88ad0a5f1ae3b1dc2fcc050bcf18cb3163d51521e24da96027b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot\\protocol.json": "ea29404b0ec3fff18d6963cbbc9c5606cebb4e250174742f956b7bcd9db0369d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_bounce_projection\\publication_hashes.json": "234009f1df69f75790f50c052571eb4dc1d198b760afa75073aa2b0a6ff9682f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_bounce_projection\\conditional_bounce_court_points.csv": "05a817b77a2a75361bdf172c47a9bfd3cb5e0fcf777ff77f5abdfa8a44d54eb2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_sequence_confirmed\\publication_hashes.json": "f120e24c62f45c05a8224369e11895caf00b1a459785a88c3f5667961154e965",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_sequence_confirmed\\confirmed_stroke_sequence.csv": "5165e9547d8fa545ede4d5cde9e8de9e073f7b8582d4fc95059cebf3ca795bad",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_stroke_review\\AI_stroke_records.csv": "4c4d7eb04bc9621ac16fe660adf04667e69d1cb650e447dec6617f574a00a84e"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "status": "fixed_before_training_and_new008_answers",
+  "training_rows": 28,
+  "training_label_counts": {
+    "real": 18,
+    "false": 10
+  },
+  "training_groups": [
+    "legacy_match1:rally044"
+  ],
+  "prediction_cases": [
+    "002_318",
+    "018_208",
+    "018_229",
+    "018_230",
+    "008_391",
+    "008_503",
+    "008_615",
+    "008_1623"
+  ],
+  "new_answers_pending": [
+    "008_391",
+    "008_503",
+    "008_615",
+    "008_1623"
+  ],
+  "features": "672 image-only values: HOG16/32px (block half-window,cell/stride quarter-window,9bins), BGR mean/std for4/8/16/32px central squares",
+  "excluded_features": [
+    "absolute_xy",
+    "timestamp",
+    "frame_id",
+    "source_clip_id",
+    "detector_score",
+    "temporal_trace",
+    "review_outcome_of_prediction_cases"
+  ],
+  "preprocessing": "Standardise each feature using training mean/std only; constants use scale1",
+  "model": "Linear logistic with intercept; weighted binary cross entropy mean plus0.5*L2(weight)",
+  "regularisation_lambda": 1.0,
+  "class_weights": "N/(2*N_class)",
+  "score_threshold": 0.5,
+  "optimiser": "CPU float64, zero initialisation, LBFGS lr1/max_iter300, strong_wolfe; no parameter selection",
+  "score_semantics": "Sigmoid model score, not a calibrated correctness probability",
+  "comparator": "Keep all original detector candidates, equivalent to no added appearance rejection",
+  "no_row_random_split": true,
+  "no_augmentations": true,
+  "automatic_adoption": false,
+  "caveat": "One training rally and tiny selected same-match checks. This is an exploratory appearance baseline, not a general accuracy estimate.",
+  "train_table_sha256": "7e082c157b69cf26f0d875bc333cfcfc1175e4cc831afb7f3a969e6bb2e38938",
+  "prediction_table_sha256": "1f4076d8754aeb81a8db9a23516ed160f27a78d86d7200bd804d052db3d77a50",
+  "script_sha256": "39a2df8a0fd6da9cb73b0d9763fb24c494ff9ec276b7a635e625e73e9b50ce64"
+}

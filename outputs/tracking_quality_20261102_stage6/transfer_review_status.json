@@ -1,0 +1,16 @@
+{
+  "048": {
+    "status": "human_video_level_identity_confirmation",
+    "evidence": "players_048_global/human_video_review.json"
+  },
+  "002": {
+    "status": "withheld_directionally_unstable_identity_assignment",
+    "human_review": "not_reviewed",
+    "note": "Reverse direction returns exchanged initial IDs; not accepted as stable player tracking."
+  },
+  "005": {
+    "status": "candidate_directionally_consistent_awaiting_human_review",
+    "human_review": "not_reviewed",
+    "note": "Directional consistency alone is not identity accuracy."
+  }
+}

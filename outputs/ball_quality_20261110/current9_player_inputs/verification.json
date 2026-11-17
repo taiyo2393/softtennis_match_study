@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "unique_candidate_rows": 9,
+  "point_groups": 9,
+  "candidate_order_identical_across_all_comparisons": true,
+  "same_source_values_preserved": true,
+  "input_columns_allowlisted": true,
+  "no_outcome_or_absolute_time_columns_in_inputs": true,
+  "previous_outputs_and_frozen_cohort_unchanged": true,
+  "cohort_constructed_candidate_inputs": 6,
+  "source_tracking_accuracy_not_independently_verified": true
+}

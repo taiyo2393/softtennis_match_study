@@ -1,0 +1,33 @@
+{
+  "known018_initial_official_assignment_resolved_in_inspected_images": true,
+  "independent_accuracy_established": false,
+  "paired_temporal_outputs_exact_to_court_filter": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "008",
+    "009",
+    "010",
+    "011",
+    "013",
+    "014",
+    "015",
+    "016",
+    "017",
+    "025"
+  ],
+  "changed_cases": [
+    "012",
+    "018"
+  ],
+  "additional_abstention_output_identical_all18": true,
+  "additional_abstention_benefit_established": false,
+  "selected_development_mode": "pair_rank",
+  "selection_reason": "No changed output from extra0.06 gate in all18 cases. Retain simpler ungated pair ranking plus original8-frame persistence. This is development selection, not independent evaluation.",
+  "new_ID_binding": false,
+  "known018_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\near_pair_development\\AI_visual_findings.json",
+  "known018_review_sha256": "cf3dc7e262964283114e1668b2267ded3725af26728ae5fbe2d048ec0291ab1b"
+}

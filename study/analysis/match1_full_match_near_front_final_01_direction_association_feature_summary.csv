@@ -1,0 +1,9 @@
+timepoint_sec,feature,front_left_n,front_left_mean,front_left_median,front_right_n,front_right_mean,front_right_median,left_minus_right_mean,cohen_d_left_minus_right
+-0.500,position_median_x_screen_fraction,26,0.52558264,0.54890481,25,0.45541754,0.45447214,0.07016510,1.064028
+-0.500,lateral_velocity_screen_fraction_per_sec,26,-0.00230743,-0.00040130,25,0.00306384,-0.00670286,-0.00537128,-0.093847
+-0.300,position_median_x_screen_fraction,26,0.52523607,0.53952943,25,0.45660849,0.44423047,0.06862758,1.059965
+-0.300,lateral_velocity_screen_fraction_per_sec,26,-0.00268771,-0.00491432,25,0.01018118,-0.00333776,-0.01286889,-0.189658
+-0.200,position_median_x_screen_fraction,26,0.52449396,0.53140729,25,0.45728237,0.44181172,0.06721159,1.043373
+-0.200,lateral_velocity_screen_fraction_per_sec,26,-0.00741367,-0.00374492,25,0.00673214,-0.00698255,-0.01414581,-0.249397
+-0.100,position_median_x_screen_fraction,26,0.52435905,0.52668594,25,0.45736199,0.44083490,0.06699706,1.041703
+-0.100,lateral_velocity_screen_fraction_per_sec,26,-0.00134770,0.00509128,25,0.00079534,-0.00815078,-0.00214304,-0.046196

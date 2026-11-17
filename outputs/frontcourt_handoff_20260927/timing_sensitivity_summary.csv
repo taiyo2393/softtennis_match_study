@@ -1,0 +1,9 @@
+﻿candidate_id,feature,minimum,maximum,range,normalization,status
+044,near_lateral_gap,0.331277072429657,0.33714616298675537,0.005869090557098389,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only
+044,near_longitudinal_gap,0.22219422459602356,0.23867350816726685,0.016479283571243286,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only
+044,far_lateral_gap,0.5065102130174637,0.5155508667230606,0.009040653705596924,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only
+044,far_longitudinal_gap,0.3988223671913147,0.41583651304244995,0.017014145851135254,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only
+056,near_lateral_gap,0.3702120780944824,0.37280571460723877,0.0025936365127563477,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only
+056,near_longitudinal_gap,0.4117287192493677,0.4136468078941107,0.0019180886447429657,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only
+056,far_lateral_gap,0.34188583493232727,0.34520813822746277,0.003322303295135498,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only
+056,far_longitudinal_gap,0.04300987720489502,0.04928767681121826,0.006277799606323242,x divided by court width; y by court length; no mixed-axis distance,exploratory_timing_sensitivity_only

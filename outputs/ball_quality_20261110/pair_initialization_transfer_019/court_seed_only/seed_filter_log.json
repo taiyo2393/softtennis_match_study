@@ -1,0 +1,151 @@
+[
+  {
+    "source_frame": 45824,
+    "available": 19,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      1000011,
+      1000016,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 45825,
+    "available": 18,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      1000011,
+      1000016,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 45826,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      15,
+      1000011,
+      1000016,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 45827,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      15,
+      1000011,
+      1000016,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 45828,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      15,
+      1000011,
+      1000016,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 45829,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      15,
+      1000011,
+      1000016,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 45830,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      15,
+      1000011,
+      1000016,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 45831,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      15,
+      18,
+      1000011,
+      1000016
+    ]
+  }
+]

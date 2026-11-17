@@ -1,0 +1,17 @@
+{
+  "frames": 47,
+  "tile_inference_jobs": 423,
+  "inference_seconds": 10.969000000011874,
+  "reviewed_positive_examples": 10,
+  "full_positive_nearby_components": 10,
+  "tile_positive_nearby_components": 9,
+  "reviewed_false_examples": 6,
+  "full_false_nearby_components": 6,
+  "tile_false_nearby_components": 0,
+  "full_component_count": 44,
+  "tile_unique_component_count": 53,
+  "comparison_is_development_component_proximity_only": true,
+  "independent_accuracy_established": false,
+  "warning": "More components near reviewed examples does not imply better single-ball tracking. Neighborhood matches may hit another object; compare image evidence before adoption.",
+  "reviewed_inputs_unchanged": true
+}

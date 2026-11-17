@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "fixture_label_origin": "automated_qa_fixture",
+  "checks": [
+    "empty_session",
+    "PNG_asset_bytes",
+    "private_route_rejection",
+    "wrong_token_rejection",
+    "point_save",
+    "unplaceable_save",
+    "invalid_coordinates",
+    "unknown_image",
+    "revision_preservation",
+    "server_restart_resume",
+    "undo_pending"
+  ],
+  "real_manual_reference_file_created": false
+}

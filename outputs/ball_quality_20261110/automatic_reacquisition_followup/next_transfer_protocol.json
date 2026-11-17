@@ -1,0 +1,12 @@
+{
+  "next_candidate": "match1_rally_window_012",
+  "fixed_before_012_inspection": true,
+  "source_code": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\confirmed_continuity_guard.py",
+  "source_code_sha256": "72ea68f93575ded43cac6381b3ce045c8fae529c41be181157cd18854b72c4a3",
+  "comparison": "Retained baseline and follow-up use exactly same detections and fixed early time window. Determine contact proposal from raw video before tracking; do not move feature window for visibility.",
+  "manual_ID_binding": false,
+  "threshold_tuning_on_012": false,
+  "scope": "Next same-match transfer probe, not independent other-match accuracy validation.",
+  "retain_failures": true,
+  "canonical_adoption": "Not authorized by successful development probes alone; report individual known regressions and limits."
+}

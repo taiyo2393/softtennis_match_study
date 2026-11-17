@@ -1,0 +1,110 @@
+[
+  {
+    "candidate_id": "FAR01",
+    "source_frame": 115479,
+    "image_x": 792.178830800494,
+    "image_y": 606.8436151535728,
+    "assumed_ground_court_x": 0.15929156653667528,
+    "assumed_ground_court_y": 0.9999999999999997,
+    "fit_RMS_image_px": 6.084311836812841,
+    "x_coefficients": [
+      792.178830800494,
+      -444.02407270995053,
+      -59.927729221378286
+    ],
+    "y_coefficients": [
+      606.8436151535728,
+      347.5893952552407,
+      484.96339034488534,
+      128.59608180574375,
+      117.32922605410405
+    ],
+    "constraint_minimum_margin": 1.1368683772161603e-13,
+    "missing_first": 115475,
+    "missing_last": 115499,
+    "after_stroke": "H02",
+    "before_stroke": "H03",
+    "fit_source_frames": [
+      115451,
+      115453,
+      115455,
+      115457,
+      115459,
+      115461,
+      115463,
+      115465,
+      115467,
+      115469,
+      115471,
+      115473,
+      115501,
+      115503,
+      115505,
+      115507,
+      115509,
+      115511,
+      115513,
+      115515,
+      115517
+    ],
+    "court_boundary_active": true,
+    "quality": "low_confidence_boundary_constrained_model_prediction",
+    "timing_sensitivity_not_CI": [
+      115476,
+      115483
+    ]
+  },
+  {
+    "candidate_id": "FAR02",
+    "source_frame": 115700,
+    "image_x": 807.3663707664306,
+    "image_y": 606.590923714091,
+    "assumed_ground_court_x": 0.19130134483117406,
+    "assumed_ground_court_y": 0.9999999999999993,
+    "fit_RMS_image_px": 2.2803609433106176,
+    "x_coefficients": [
+      807.3663707664306,
+      -214.16488592632302,
+      -87.65843011476852
+    ],
+    "y_coefficients": [
+      606.590923714091,
+      408.66590709360577,
+      148.3216727328835,
+      199.67632264938172,
+      160.0299933465114
+    ],
+    "constraint_minimum_margin": 1.1368683772161603e-13,
+    "missing_first": 115693,
+    "missing_last": 115711,
+    "after_stroke": "H04",
+    "before_stroke": "H05",
+    "fit_source_frames": [
+      115669,
+      115671,
+      115673,
+      115675,
+      115677,
+      115679,
+      115681,
+      115683,
+      115685,
+      115687,
+      115689,
+      115691,
+      115713,
+      115715,
+      115717,
+      115719,
+      115721,
+      115723,
+      115725
+    ],
+    "court_boundary_active": true,
+    "quality": "low_confidence_boundary_constrained_model_prediction",
+    "timing_sensitivity_not_CI": [
+      115698,
+      115705
+    ]
+  }
+]

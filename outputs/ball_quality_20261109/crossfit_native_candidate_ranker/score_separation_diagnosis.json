@@ -1,0 +1,89 @@
+{
+  "status": "retrospective_score_separation_diagnostic_only",
+  "selected_native_additions": [
+    {
+      "sample_id": "match1_motion_pilot_001_frame_000176",
+      "kind": "correct16px",
+      "score": 0.8029212489686107
+    },
+    {
+      "sample_id": "match1_motion_pilot_001_frame_000272",
+      "kind": "correct16px",
+      "score": 0.7873206803416946
+    },
+    {
+      "sample_id": "match1_motion_pilot_001_frame_000368",
+      "kind": "wrong_position",
+      "score": 0.8063366382327444
+    },
+    {
+      "sample_id": "match1_motion_pilot_001_frame_000400",
+      "kind": "correct16px",
+      "score": 0.8649819864295474
+    },
+    {
+      "sample_id": "match1_motion_pilot_003_frame_000377",
+      "kind": "output_when_not_observable",
+      "score": 0.8224951863639196
+    },
+    {
+      "sample_id": "match1_motion_pilot_004_frame_000238",
+      "kind": "correct16px",
+      "score": 0.7319296504183144
+    },
+    {
+      "sample_id": "match1_motion_pilot_004_frame_000294",
+      "kind": "correct16px",
+      "score": 0.8567656781253736
+    },
+    {
+      "sample_id": "match1_motion_pilot_004_frame_000322",
+      "kind": "correct16px",
+      "score": 0.8950758891728627
+    },
+    {
+      "sample_id": "match1_motion_pilot_005_frame_000357",
+      "kind": "correct16px",
+      "score": 0.8647512885886197
+    },
+    {
+      "sample_id": "match1_motion_pilot_005_frame_000525",
+      "kind": "correct16px",
+      "score": 0.92008193454992
+    },
+    {
+      "sample_id": "match1_motion_pilot_005_frame_000567",
+      "kind": "correct16px",
+      "score": 0.7895598972160269
+    },
+    {
+      "sample_id": "match1_motion_pilot_006_frame_000651",
+      "kind": "correct16px",
+      "score": 0.7579347209677035
+    },
+    {
+      "sample_id": "match1_motion_pilot_007_frame_000608",
+      "kind": "wrong_position",
+      "score": 0.641718330984044
+    },
+    {
+      "sample_id": "match1_motion_pilot_010_frame_000137",
+      "kind": "correct16px",
+      "score": 0.7858466491250358
+    },
+    {
+      "sample_id": "match1_motion_pilot_010_frame_000873",
+      "kind": "output_when_not_observable",
+      "score": 0.8160337980977929
+    },
+    {
+      "sample_id": "match1_motion_pilot_010_frame_001333",
+      "kind": "correct16px",
+      "score": 0.8855826026251129
+    }
+  ],
+  "lowest_correct_addition_score": 0.7319296504183144,
+  "highest_wrong_position_score": 0.8063366382327444,
+  "a_single_higher_threshold_cannot_reject_all_wrong_and_keep_all_current_correct": true,
+  "new_threshold_selected": false
+}

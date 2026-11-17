@@ -1,0 +1,30 @@
+{
+  "cases": 36,
+  "real": 21,
+  "false": 15,
+  "source_clips": 4,
+  "unique_frame_view_inputs": 34,
+  "full_frame_candidates": 24,
+  "tiled_candidates": 12,
+  "sequence": "median plusBGR t-3..t; image crop from view_xywh then512x288resize; input ends at labelled frame",
+  "supervision": "Binary candidate classification only; all unsupervised pixels remain unknown",
+  "labels_not_created": [
+    "precise_ball_center",
+    "ball_bounding_box",
+    "full_frame_absence",
+    "dense_heatmap_target",
+    "interpolated_position"
+  ],
+  "source_annotations_and_tracking_inputs_unchanged": true,
+  "sequence_cases_sha256": "c432ca2406a8c0d25c06582a1162f1d7c4c3021b3af323da9eed5517d98d2f45",
+  "source_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\all_reviewed_candidate_cases.csv": "bc27094098ad18f01c862e1cc4a3b581c719da26a61f3777861f5903814268dc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1"
+  },
+  "dataset_use": "Candidate-level temporal feature/head experiment; not directly compatible with a dense Gaussian heatmap training loader",
+  "old300_labels_imported_as_confirmed_training_targets": false,
+  "independent_accuracy_established": false
+}

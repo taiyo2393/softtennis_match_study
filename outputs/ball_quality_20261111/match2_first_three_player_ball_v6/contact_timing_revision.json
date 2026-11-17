@@ -1,0 +1,30 @@
+{
+  "point": 1,
+  "stroke": 2,
+  "hitter": "N1",
+  "previous_candidate_interval": [
+    12419,
+    12428
+  ],
+  "updated_candidate_interval": [
+    12434,
+    12438
+  ],
+  "updated_reference_frame": 12436,
+  "timing_evidence": "The athlete is preparing the swing in the earlier window. The ball reappears near the accelerating racket around F12434-F12435, with an outgoing streak around F12437-F12438.",
+  "exact_impact_human_confirmed": false,
+  "previous_stroke_bounce": {
+    "stroke": 1,
+    "frame": 12411,
+    "before_image_px": [
+      1212,
+      666
+    ],
+    "after_image_px": [
+      1231,
+      666
+    ],
+    "evidence": "Re-read the native image: the lowest ball streak is near x1231. Projected ground y666 is approximate.",
+    "ground_contact_human_confirmed": false
+  }
+}

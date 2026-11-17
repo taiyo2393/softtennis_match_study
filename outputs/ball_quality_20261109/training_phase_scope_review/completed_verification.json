@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "human_phase_rows": 123,
+  "journal_events": 9,
+  "phase_counts": {
+    "play": 77,
+    "nonplay": 46
+  },
+  "frozen_outputs_reconciled": 492,
+  "paired_effects": [
+    {
+      "method": "current_temporal",
+      "gained_correct": 0,
+      "lost_correct": 0,
+      "gain_clips": {}
+    },
+    {
+      "method": "native_missing_only",
+      "gained_correct": 8,
+      "lost_correct": 0,
+      "gain_clips": {
+        "001": 2,
+        "004": 2,
+        "005": 3,
+        "010": 1
+      }
+    },
+    {
+      "method": "crossscale_agreement16",
+      "gained_correct": 4,
+      "lost_correct": 0,
+      "gain_clips": {
+        "001": 1,
+        "004": 1,
+        "005": 2
+      }
+    },
+    {
+      "method": "logistic10_oof",
+      "gained_correct": 8,
+      "lost_correct": 0,
+      "gain_clips": {
+        "001": 2,
+        "004": 2,
+        "005": 3,
+        "010": 1
+      }
+    }
+  ],
+  "original_outputs_preserved": true,
+  "prior_answers_unchanged": true,
+  "protected_input_hashes_verified": true,
+  "no_research_labels_written": true,
+  "completed_snapshot_hashes": {
+    "annotation_events.jsonl": "f89ff9a113e5bdcd41d1283957b0f3b5e3f8ba14f862ac5608b677b597dc071e",
+    "evaluation_report.json": "74ac16f004a64f2dbe17039e60ce267d4a958ed6b1f75456ce799c351a903bd8",
+    "frozen_ball_groundtruth.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "frozen_crossscale_agreement16.csv": "941573ce9e93069e4da945dd85502cba7c70086e3dde74a8a9c407a960c983d5",
+    "frozen_current_temporal.csv": "df5c382a4aec304611df0f60a0b4870f5526e1618ac3029c2245c0ea79ac8b85",
+    "frozen_logistic10_oof.csv": "d6a27206a15c5aa5c01e049998bf4140e0364482601ef2235f48b832cbfbe86d",
+    "frozen_methods.json": "6a04cae67e220b611e83346d2175d6f4bc62182bf566c0ab731d2cd5976e310f",
+    "frozen_native_missing_only.csv": "d73b352a8692dade353e3695fde1fada197cf97c2aa16dc983b305f0557ea469",
+    "initial_phase_labels.csv": "bfe8b08858a2170d092aa2898edb2b210f8f2fda613f8a184f2da4e62a4779f2",
+    "paired_changes.csv": "93d5da4b0e61f50a12e7f4ec8f0c6082c5cb96755e7e97588fe889db1238fd36",
+    "phase_conditional_per_clip.csv": "66f3e5ff913e48f7df49b676c24dc4628529bcff6ac748102faab921b90371bf",
+    "phase_conditional_per_frame.csv": "516f2ea5aad01fa1afe9958d7d6c2071a6f97e227804437c20662ae0eb56c3c0",
+    "phase_labels.csv": "654a3e60441fd57a64b9c17f5de5520ad5788e477154cfd8bd4bfacd8820dd47",
+    "protocol.json": "9cbaf18b7adc4bcf5e08a328b293bf9edbac1148d387f4baa07415319bf47261"
+  },
+  "script_sha256": "c23d3ddad9b88e80bd678edeba4a7049a65beab40c47725462109e4d18a987ee",
+  "remaining_candidate_missing_visible": 8,
+  "remaining_candidate_output_when_not_observable": 1,
+  "operational_adoption": false
+}

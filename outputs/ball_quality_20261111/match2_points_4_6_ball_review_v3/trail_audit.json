@@ -1,0 +1,493 @@
+{
+  "max_draw_step_native_px": 100,
+  "clipped_links_by_point": {
+    "4": 7,
+    "5": 6,
+    "6": 5
+  },
+  "clipped_links": [
+    {
+      "point": 4,
+      "source_frame": 16796,
+      "prev_source_frame": 16795,
+      "step_px": 208.07931180201456,
+      "prev_xy": [
+        577.0,
+        442.0
+      ],
+      "current_xy": [
+        781.0,
+        483.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16824,
+      "prev_source_frame": 16823,
+      "step_px": 129.6919426949878,
+      "prev_xy": [
+        1038.0,
+        506.0
+      ],
+      "current_xy": [
+        1162.0,
+        468.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16825,
+      "prev_source_frame": 16824,
+      "step_px": 121.8400590938793,
+      "prev_xy": [
+        1162.0,
+        468.0
+      ],
+      "current_xy": [
+        1048.0,
+        511.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16826,
+      "prev_source_frame": 16825,
+      "step_px": 122.93087488503447,
+      "prev_xy": [
+        1048.0,
+        511.0
+      ],
+      "current_xy": [
+        1162.0,
+        465.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16833,
+      "prev_source_frame": 16832,
+      "step_px": 126.90547663517127,
+      "prev_xy": [
+        1166.0,
+        451.0
+      ],
+      "current_xy": [
+        1083.0,
+        547.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 17136,
+      "prev_source_frame": 17135,
+      "step_px": 468.15809295578777,
+      "prev_xy": [
+        1031.0,
+        151.0
+      ],
+      "current_xy": [
+        705.0,
+        487.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 17137,
+      "prev_source_frame": 17136,
+      "step_px": 480.83469092818166,
+      "prev_xy": [
+        705.0,
+        487.0
+      ],
+      "current_xy": [
+        1046.0,
+        148.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18723,
+      "prev_source_frame": 18722,
+      "step_px": 696.0459754929987,
+      "prev_xy": [
+        935.0,
+        470.0
+      ],
+      "current_xy": [
+        1631.0,
+        478.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18724,
+      "prev_source_frame": 18723,
+      "step_px": 688.1046432047963,
+      "prev_xy": [
+        1631.0,
+        478.0
+      ],
+      "current_xy": [
+        943.0,
+        466.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18896,
+      "prev_source_frame": 18895,
+      "step_px": 676.3682428973141,
+      "prev_xy": [
+        1633.0,
+        468.0
+      ],
+      "current_xy": [
+        958.0,
+        511.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18947,
+      "prev_source_frame": 18946,
+      "step_px": 148.49242404917499,
+      "prev_xy": [
+        616.0,
+        526.0
+      ],
+      "current_xy": [
+        763.0,
+        547.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18948,
+      "prev_source_frame": 18947,
+      "step_px": 162.3730273167314,
+      "prev_xy": [
+        763.0,
+        547.0
+      ],
+      "current_xy": [
+        601.0,
+        536.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18989,
+      "prev_source_frame": 18988,
+      "step_px": 104.04326023342406,
+      "prev_xy": [
+        440.0,
+        586.0
+      ],
+      "current_xy": [
+        472.0,
+        487.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20883,
+      "prev_source_frame": 20882,
+      "step_px": 161.05899540230592,
+      "prev_xy": [
+        710.0,
+        420.0
+      ],
+      "current_xy": [
+        568.0,
+        496.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20884,
+      "prev_source_frame": 20883,
+      "step_px": 168.11900546934007,
+      "prev_xy": [
+        568.0,
+        496.0
+      ],
+      "current_xy": [
+        710.0,
+        406.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20930,
+      "prev_source_frame": 20929,
+      "step_px": 315.67388235329196,
+      "prev_xy": [
+        729.0,
+        414.0
+      ],
+      "current_xy": [
+        1018.0,
+        541.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20931,
+      "prev_source_frame": 20930,
+      "step_px": 329.46168214224855,
+      "prev_xy": [
+        1018.0,
+        541.0
+      ],
+      "current_xy": [
+        714.0,
+        414.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 21396,
+      "prev_source_frame": 21395,
+      "step_px": 313.0063897111367,
+      "prev_xy": [
+        594.0,
+        588.0
+      ],
+      "current_xy": [
+        592.0,
+        275.0
+      ]
+    }
+  ],
+  "displayed_frames_with_shorter_trail": 54,
+  "ball_candidates_sha256": "f31f635703ba5e31413df31dae94ae3fcbce5e295559b20c8d51d1eca2fd4d9b",
+  "visually_excluded_count": 22,
+  "visually_excluded_by_point": {
+    "4": 14,
+    "5": 4,
+    "6": 4
+  },
+  "visually_excluded_candidates": [
+    {
+      "point": 4,
+      "source_frame": 16788,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        579.0,
+        474.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16789,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        588.0,
+        463.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16790,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        598.0,
+        442.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16791,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        594.0,
+        444.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16794,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        581.0,
+        440.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16795,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16788.jpg",
+      "rejected_xy": [
+        577.0,
+        442.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16824,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        468.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16826,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        465.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16828,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        459.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16829,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1164.0,
+        459.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16830,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1162.0,
+        455.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16831,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1164.0,
+        453.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16832,
+      "reason": "racket_head",
+      "evidence": "continuity_context_F16820.jpg",
+      "rejected_xy": [
+        1166.0,
+        451.0
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 17136,
+      "reason": "off_trajectory_background_candidate",
+      "evidence": "spike_context_F17136.jpg",
+      "rejected_xy": [
+        705.0,
+        487.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18723,
+      "reason": "off_trajectory_spectator_side_candidate",
+      "evidence": "spike_context_F18723.jpg",
+      "rejected_xy": [
+        1631.0,
+        478.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18895,
+      "reason": "off_trajectory_spectator_side_candidate",
+      "evidence": "spike_context_F18895.jpg",
+      "rejected_xy": [
+        1633.0,
+        468.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18947,
+      "reason": "off_trajectory_object_near_far_player",
+      "evidence": "spike_context_F18947.jpg",
+      "rejected_xy": [
+        763.0,
+        547.0
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18989,
+      "reason": "racket_or_sign_candidate",
+      "evidence": "spike_context_F18989.jpg",
+      "rejected_xy": [
+        472.0,
+        487.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20883,
+      "reason": "racket_head",
+      "evidence": "spike_context_F20883.jpg",
+      "rejected_xy": [
+        568.0,
+        496.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20930,
+      "reason": "off_trajectory_object_near_far_player",
+      "evidence": "spike_context_F20930.jpg",
+      "rejected_xy": [
+        1018.0,
+        541.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 21211,
+      "reason": "racket_head",
+      "evidence": "spike_context_F21211.jpg",
+      "rejected_xy": [
+        1200.0,
+        453.0
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 21396,
+      "reason": "scene_transition_off_trajectory_candidate",
+      "evidence": "continuity_context_F21390.jpg",
+      "rejected_xy": [
+        592.0,
+        275.0
+      ]
+    }
+  ],
+  "scope": "Image display only. Fixed native-pixel gate chosen after inspection of points 4–6. Selected exclusions are visual decisions. Original prediction coordinates were retained. No full-sequence accuracy or automatic exclusion claim."
+}

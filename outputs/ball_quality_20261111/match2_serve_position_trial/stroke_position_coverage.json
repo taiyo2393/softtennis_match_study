@@ -1,0 +1,128 @@
+[
+  {
+    "point": 1,
+    "stroke": 1,
+    "display_reference_frame": 12327,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 3,
+    "contact_frames_inside_tracking": 3,
+    "contact_frames_with_four_positions": 3
+  },
+  {
+    "point": 1,
+    "stroke": 2,
+    "display_reference_frame": 12424,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 10,
+    "contact_frames_inside_tracking": 10,
+    "contact_frames_with_four_positions": 10
+  },
+  {
+    "point": 1,
+    "stroke": 3,
+    "display_reference_frame": 12470,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 10,
+    "contact_frames_inside_tracking": 10,
+    "contact_frames_with_four_positions": 10
+  },
+  {
+    "point": 2,
+    "stroke": 1,
+    "display_reference_frame": 13657,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 10,
+    "contact_frames_inside_tracking": 10,
+    "contact_frames_with_four_positions": 10
+  },
+  {
+    "point": 2,
+    "stroke": 2,
+    "display_reference_frame": 13731,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 7,
+    "contact_frames_inside_tracking": 7,
+    "contact_frames_with_four_positions": 7
+  },
+  {
+    "point": 2,
+    "stroke": 3,
+    "display_reference_frame": 13761,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 13,
+    "contact_frames_inside_tracking": 13,
+    "contact_frames_with_four_positions": 13
+  },
+  {
+    "point": 2,
+    "stroke": 4,
+    "display_reference_frame": 13855,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 10,
+    "contact_frames_inside_tracking": 10,
+    "contact_frames_with_four_positions": 10
+  },
+  {
+    "point": 2,
+    "stroke": 5,
+    "display_reference_frame": 14019,
+    "missing_players_at_display_reference": [
+      "F2"
+    ],
+    "candidate_contact_frames": 7,
+    "contact_frames_inside_tracking": 7,
+    "contact_frames_with_four_positions": 0
+  },
+  {
+    "point": 3,
+    "stroke": 1,
+    "display_reference_frame": 15223,
+    "missing_players_at_display_reference": [
+      "F2"
+    ],
+    "candidate_contact_frames": 9,
+    "contact_frames_inside_tracking": 9,
+    "contact_frames_with_four_positions": 0
+  },
+  {
+    "point": 3,
+    "stroke": 2,
+    "display_reference_frame": 15280,
+    "missing_players_at_display_reference": [
+      "F2"
+    ],
+    "candidate_contact_frames": 10,
+    "contact_frames_inside_tracking": 10,
+    "contact_frames_with_four_positions": 0
+  },
+  {
+    "point": 3,
+    "stroke": 3,
+    "display_reference_frame": 15317,
+    "missing_players_at_display_reference": [
+      "F2",
+      "N1"
+    ],
+    "candidate_contact_frames": 9,
+    "contact_frames_inside_tracking": 9,
+    "contact_frames_with_four_positions": 0
+  },
+  {
+    "point": 3,
+    "stroke": 4,
+    "display_reference_frame": 15381,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 6,
+    "contact_frames_inside_tracking": 6,
+    "contact_frames_with_four_positions": 6
+  },
+  {
+    "point": 3,
+    "stroke": 5,
+    "display_reference_frame": 15461,
+    "missing_players_at_display_reference": [],
+    "candidate_contact_frames": 9,
+    "contact_frames_inside_tracking": 9,
+    "contact_frames_with_four_positions": 6
+  }
+]

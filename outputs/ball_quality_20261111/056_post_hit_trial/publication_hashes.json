@@ -1,0 +1,17 @@
+{
+  "056_last_two_hits_model_candidates.mp4": "a5ad5b6e5f98b12fdf157aa8de8c8e62d6d9583378f3c6f271a51c057c1e5911",
+  "baseline_grid_01.jpg": "b07ccd5011ac07e60a80f60199a4914b30c23bc06243e514984365f11b086cf2",
+  "baseline_grid_02.jpg": "ebbfa602980578ff179c9de0a8f568184e5fd77d270c63c4c9717c8825873c69",
+  "candidate_F154850.jpg": "85a522d34970e639764d6f163062f14962327d285de2963d48aeac080e59e272",
+  "candidate_F154858.jpg": "025e5c8f47e77ff97b37c457895211627508a02158442e60cd842bfcb21bfa70",
+  "candidate_F154870.jpg": "e89b2787b152d8572dc86ccf5d5c70baccf879b17a163a1073c5716cb7162c24",
+  "event_segmented_model_path.csv": "6fc78fd6578a19e3af6a37b0032e9a14ffc645c114ac504e6542ab5230ad39a4",
+  "executed_build.py": "6c30aa81f12e0cae7a9ecd1f17d806ce79bd9862528d72b2479426d9e6052740",
+  "protocol.json": "5d2ad808ddda962621ebb1efc8ad755834b18b348b6a3f7da7409ef637c01b55",
+  "README.md": "483d4f2a22af331c08ae08f40b0f8ca7465987bbaf5d66929668545d4ceb0c7c",
+  "source_image_manifest.json": "14f1bab58cb81cc93cc9c3e6b1aea789e65733b20c35af5dee70640b7c6fac65",
+  "trace_connections.csv": "c6e1879467d1445183ecf1d32df4ceb0afa67944e3a73f8bee3cc2719c280a18",
+  "unreviewed_tail_candidates.csv": "d8312a9b8306745fccbb3c3cd5947e5c9925e509e6f7008fff1e8bddfcb2a9e9",
+  "verification.json": "f47faa132cb925e1cb5fe97881945377282a234e497d64011daa64b6276fa9b5",
+  "video_source_frame_map.csv": "08e0008f00343bd815467ede12892ff95f8d97620faf0c7a7e2bf8095f0e88a5"
+}

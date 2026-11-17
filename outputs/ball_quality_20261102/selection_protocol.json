@@ -1,0 +1,53 @@
+{
+  "variants": [
+    {
+      "name": "gap4_peak0.10",
+      "max_gap": 4,
+      "min_peak": 0.1,
+      "radius_px": 16.0,
+      "all_missing_frames_supported": true
+    },
+    {
+      "name": "gap4_peak0.15",
+      "max_gap": 4,
+      "min_peak": 0.15,
+      "radius_px": 16.0,
+      "all_missing_frames_supported": true
+    },
+    {
+      "name": "gap8_peak0.10",
+      "max_gap": 8,
+      "min_peak": 0.1,
+      "radius_px": 16.0,
+      "all_missing_frames_supported": true
+    },
+    {
+      "name": "gap8_peak0.15",
+      "max_gap": 8,
+      "min_peak": 0.15,
+      "radius_px": 16.0,
+      "all_missing_frames_supported": true
+    },
+    {
+      "name": "gap12_peak0.10",
+      "max_gap": 12,
+      "min_peak": 0.1,
+      "radius_px": 16.0,
+      "all_missing_frames_supported": true
+    },
+    {
+      "name": "gap12_peak0.15",
+      "max_gap": 12,
+      "min_peak": 0.15,
+      "radius_px": 16.0,
+      "all_missing_frames_supported": true
+    }
+  ],
+  "selection": "Maximum localized validation TP with no added nonlocalized labeled outputs; ties prefer fewer added candidates",
+  "tolerance_px": 16,
+  "image_size": [
+    1920,
+    1080
+  ],
+  "interpolation": false
+}

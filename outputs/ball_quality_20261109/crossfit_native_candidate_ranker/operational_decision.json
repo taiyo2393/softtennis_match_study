@@ -1,0 +1,18 @@
+{
+  "status": "not_selected_clip_crossfit_safety_failed",
+  "date_jst": "2026-11-09",
+  "detector_and_head_both_exclude_held_clip": true,
+  "correct_play_visible_targets": 64,
+  "visible_play_targets": 68,
+  "wrong_localizations": 2,
+  "output_when_human_center_unobservable": 3,
+  "raw_fold_correct_targets_lost_by_ranker": 0,
+  "reason": "Retained64correct,but2wronglocationsand3outputs-on-unobservable exceed fixed0/1guards.",
+  "full_fit_performed": false,
+  "threshold_retry_performed": false,
+  "new_confirmation_inference": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "independent_external_validation": false,
+  "scope": "Internal known-same-match development;direct current-fit leakage reduced,whole methodological history not fully nested."
+}

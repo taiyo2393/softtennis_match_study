@@ -1,0 +1,17 @@
+{
+  "status": "position_warning_sidecar_retained_masking_not_adopted",
+  "identity_paths_unchanged": true,
+  "diagnostic_layer": "Position warning rows separate from native person ID observations; no model foot position is promoted to an observed coordinate.",
+  "head_independent_variant": "Shoulder/hip support allows back-facing people; the head approximation itself still needs nose confidence.",
+  "known019_F46511": "Native proxy overlaps a box only; no positive body warning in this model. Mixed-box quality and position remain unverified.",
+  "known019_F46634": "Native proxy lies on other-player body approximation; keep identity observation separate from position warning. Hidden player position not recovered.",
+  "fixed_prefix_body_warning_native_rows": 4,
+  "masking_policy_adopted": false,
+  "absence_of_warning_is_not_accuracy": true,
+  "current22_unchanged": true,
+  "confirmed_human_outcomes": 11,
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "next_unresolved_candidate": "match1_rally_window_019",
+  "next_action": "Retain warnings and evaluate any position filter with independent image-position reference points and predeclared tolerances on a small sample. Avoid contact-frame microlabeling, blanket overlap removal, and silently dropping unassessed or pre-initialization times."
+}

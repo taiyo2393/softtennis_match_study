@@ -1,0 +1,56 @@
+[
+  {
+    "role": "server",
+    "won": true,
+    "n": 7,
+    "candidates": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "025",
+      "048",
+      "056"
+    ],
+    "lateral_median": 0.3958572745323181,
+    "longitudinal_median": 0.3943482507020235
+  },
+  {
+    "role": "server",
+    "won": false,
+    "n": 2,
+    "candidates": [
+      "007",
+      "044"
+    ],
+    "lateral_median": 0.4311483260631561,
+    "longitudinal_median": 0.22783848961353298
+  },
+  {
+    "role": "receiver",
+    "won": true,
+    "n": 2,
+    "candidates": [
+      "007",
+      "044"
+    ],
+    "lateral_median": 0.32746181918144224,
+    "longitudinal_median": 0.23340212175369263
+  },
+  {
+    "role": "receiver",
+    "won": false,
+    "n": 7,
+    "candidates": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "025",
+      "048",
+      "056"
+    ],
+    "lateral_median": 0.4681394696235657,
+    "longitudinal_median": 0.12125873565673828
+  }
+]

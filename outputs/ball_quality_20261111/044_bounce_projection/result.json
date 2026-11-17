@@ -1,0 +1,9 @@
+{
+  "conditional_bounce_points": 2,
+  "all_frame_ball_projection": false,
+  "confirmed_stroke_sequence_reused": true,
+  "new_human_bounce_confirmations": 0,
+  "new_landing_truth": 0,
+  "physical_ball_height_or_speed_estimated": false,
+  "missing_coordinates_filled": 0
+}

@@ -1,0 +1,7 @@
+﻿id,source_frame,image_x,image_y,court_x,court_y,after_stroke,before_stroke,status,human_bounce_confirmed,boundary_active
+B01,154120,1016.0,628.0,0.603814185993994,0.7054817572998295,H01,H02,AI_visible_bounce_candidate_assisted_center,0,False
+B02,154230,1066.0,629.0,0.6835661764743085,0.6889158141510825,H03,H04,AI_visible_bounce_candidate_assisted_center,0,False
+B03,154330,945.0,608.0,0.48121390247544404,0.9467178785897711,H05,H06,AI_visible_bounce_candidate_assisted_center,0,False
+P01,154428,1149.79358864554,766.0005525182562,0.6555387609790453,0.1000781974147898,H06,H07,curve_model_bounce_prediction_not_landing_GT,0,False
+P02,154592,877.3712121212124,710.1250000000002,0.4290916982593634,0.2542437249327331,H08,H09,curve_model_bounce_prediction_not_landing_GT,0,False
+P03,154722,696.6487376509334,619.1999192245556,0.014077799150785686,0.8543059599433179,H09,H10,curve_model_bounce_prediction_not_landing_GT,0,False

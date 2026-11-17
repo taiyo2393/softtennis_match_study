@@ -1,0 +1,152 @@
+[
+  {
+    "player_slot": "near_rear",
+    "before_source_frame": 11306,
+    "after_source_frame": 11372,
+    "missing_frames": 65,
+    "before_raw_id": "275",
+    "after_raw_id": "343",
+    "image_file": "gap_01_near_rear.jpg",
+    "source_frames": [
+      11294,
+      11306,
+      11339,
+      11372,
+      11378,
+      11384
+    ],
+    "constant_crop_xyxy": [
+      0,
+      1181,
+      312,
+      1952
+    ],
+    "aspect_preserved": true,
+    "sha256": "285bcb4870aa1c6ae339a3081b2ef9a582fd685b668288a35ca3d8a1bb08cd6c"
+  },
+  {
+    "player_slot": "near_rear",
+    "before_source_frame": 11030,
+    "after_source_frame": 11083,
+    "missing_frames": 52,
+    "before_raw_id": "246",
+    "after_raw_id": "275",
+    "image_file": "gap_02_near_rear.jpg",
+    "source_frames": [
+      11018,
+      11030,
+      11056,
+      11083,
+      11089,
+      11095
+    ],
+    "constant_crop_xyxy": [
+      3475,
+      963,
+      3840,
+      2143
+    ],
+    "aspect_preserved": true,
+    "sha256": "5e50231abc2c5099a77958a2afa8bd58b35bd5ce0825a3943b6c39106e368f4d"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 12328,
+    "after_source_frame": 12353,
+    "missing_frames": 24,
+    "before_raw_id": "151",
+    "after_raw_id": "405",
+    "image_file": "gap_03_far_rear.jpg",
+    "source_frames": [
+      12316,
+      12328,
+      12340,
+      12353,
+      12359,
+      12365
+    ],
+    "constant_crop_xyxy": [
+      1189,
+      911,
+      1753,
+      1352
+    ],
+    "aspect_preserved": true,
+    "sha256": "fc253dff2c374608560b73b0e6ee32da5e54f14ad2dae11cf463e0557696c747"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 10729,
+    "after_source_frame": 10748,
+    "missing_frames": 18,
+    "before_raw_id": "59",
+    "after_raw_id": "59",
+    "image_file": "gap_04_far_rear.jpg",
+    "source_frames": [
+      10717,
+      10729,
+      10738,
+      10748,
+      10754,
+      10760
+    ],
+    "constant_crop_xyxy": [
+      1632,
+      950,
+      2105,
+      1404
+    ],
+    "aspect_preserved": true,
+    "sha256": "ec43aeea89019632ee00b91027ece98811b2212b2d37da852b4b05ee7e2d31b5"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 10997,
+    "after_source_frame": 11033,
+    "missing_frames": 35,
+    "before_raw_id": "1000699",
+    "after_raw_id": "1000519",
+    "image_file": "gap_05_far_front.jpg",
+    "source_frames": [
+      10985,
+      10997,
+      11015,
+      11033,
+      11039,
+      11045
+    ],
+    "constant_crop_xyxy": [
+      1234,
+      911,
+      1747,
+      1315
+    ],
+    "aspect_preserved": true,
+    "sha256": "eb2569eaf3c4d15a93bdb0b35408733742ea391b51e4652c2471b4010a371dbb"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 10838,
+    "after_source_frame": 10867,
+    "missing_frames": 28,
+    "before_raw_id": "4",
+    "after_raw_id": "1000437",
+    "image_file": "gap_06_far_front.jpg",
+    "source_frames": [
+      10826,
+      10838,
+      10852,
+      10867,
+      10873,
+      10879
+    ],
+    "constant_crop_xyxy": [
+      1477,
+      929,
+      1948,
+      1348
+    ],
+    "aspect_preserved": true,
+    "sha256": "5a8ffeacf8628be77d12a4328ac8e39f2637755a40266c1118d3eaaa2351ea23"
+  }
+]

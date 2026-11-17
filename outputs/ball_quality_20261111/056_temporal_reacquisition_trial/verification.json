@@ -1,0 +1,62 @@
+{
+  "original_outputs_retained": 15,
+  "original_missing_frames": 13,
+  "new_weak_candidates": 4,
+  "unresolved_frames": 9,
+  "original_model_reproduction_exact_frames": 28,
+  "old_publications_unchanged": true,
+  "new_confirmed_ball_locations": 0,
+  "new_interpolated_returned_positions": 0,
+  "proposed_candidate_frames": [
+    154861,
+    154862,
+    154873,
+    154878
+  ],
+  "encoded_and_decoded_frames": 84,
+  "source_frames": [
+    154853,
+    154854,
+    154855,
+    154856,
+    154857,
+    154858,
+    154859,
+    154860,
+    154861,
+    154862,
+    154863,
+    154864,
+    154865,
+    154866,
+    154867,
+    154868,
+    154869,
+    154870,
+    154871,
+    154872,
+    154873,
+    154874,
+    154875,
+    154876,
+    154877,
+    154878,
+    154879,
+    154880
+  ],
+  "crop_native_xyxy": [
+    630,
+    440,
+    1142,
+    728
+  ],
+  "uniform_crop_enlargement": 1.875,
+  "source_aspect_preserved": true,
+  "newly_proposed_frames": [
+    154861,
+    154862,
+    154873,
+    154878
+  ],
+  "review_pending": true
+}

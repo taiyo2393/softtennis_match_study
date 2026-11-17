@@ -1,0 +1,16 @@
+{
+  "left_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_011\\tracking_quality_20261102_stage7\\players_011_global\\global_review_h264.mp4",
+  "right_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_011\\AI_native_binding\\tracking_quality_20261102_stage7\\players_011_global\\global_review_h264.mp4",
+  "first_source_frame": 27500,
+  "last_source_frame": 27740,
+  "frames": 241,
+  "width": 1920,
+  "height": 540,
+  "each_panel": [
+    960,
+    540
+  ],
+  "aspect_preserved": true,
+  "video_sha256": "9f99224f912b705fbc38e863020b7bf32d73139567ac9e923208702f4d8b5aba",
+  "scope": "Left automatic, right AI assisted; diagnostic selected failure segment, not representative performance evaluation."
+}

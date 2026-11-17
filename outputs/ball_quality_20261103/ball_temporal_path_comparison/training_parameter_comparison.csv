@@ -1,0 +1,7 @@
+﻿name,order,strength,correct,errors,original_correct_lost,lost_sample_ids,eligible
+displacement_0.1,displacement,0.1,66,4,0,,1
+displacement_0.3,displacement,0.3,66,4,0,,1
+displacement_1,displacement,1.0,66,4,0,,1
+acceleration_0.1,acceleration,0.1,66,4,0,,1
+acceleration_0.3,acceleration,0.3,66,4,0,,1
+acceleration_1,acceleration,1.0,66,4,0,,1

@@ -1,0 +1,31 @@
+{
+  "source_frame_range": [
+    10430,
+    10596
+  ],
+  "review_frames": [
+    10430,
+    10465,
+    10536,
+    10546,
+    10574,
+    10575,
+    10596
+  ],
+  "far_display_crop_native": [
+    690,
+    900,
+    3150,
+    1515
+  ],
+  "detail_display_crop_native": [
+    1950,
+    1050,
+    2370,
+    1386
+  ],
+  "aspect_preserved": true,
+  "selection": "Frozen diagnostic frames plus a continuous illustrative interval, not an accuracy sample.",
+  "colors_are_gate_results_not_correctness": true,
+  "actual_positions_or_IDs_exported": false
+}

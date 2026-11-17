@@ -1,0 +1,26 @@
+{
+  "total_cases": 36,
+  "real": 21,
+  "false": 15,
+  "source_clips": 4,
+  "match_count": 1,
+  "groups": {
+    "legacy_match1:match1_motion_pilot_016": {
+      "confirmed_ball_enclosed": 18,
+      "confirmed_not_ball_enclosed": 10
+    },
+    "legacy_match1:match1_motion_pilot_002": {
+      "confirmed_ball_enclosed": 1
+    },
+    "legacy_match1:match1_motion_pilot_018": {
+      "confirmed_not_ball_enclosed": 3
+    },
+    "legacy_match1:match1_motion_pilot_008": {
+      "confirmed_ball_enclosed": 2,
+      "confirmed_not_ball_enclosed": 2
+    }
+  },
+  "all_cases_csv_sha256": "bc27094098ad18f01c862e1cc4a3b581c719da26a61f3777861f5903814268dc",
+  "data_origin": "Explicit existing user reviews only; no missing/unreviewed negative labels",
+  "caution": "Clip IDs are conservative split groups, not confirmed one-rally boundaries. 002 is preparation;018 includes transitions. Adjacent frames are correlated; no random row split."
+}

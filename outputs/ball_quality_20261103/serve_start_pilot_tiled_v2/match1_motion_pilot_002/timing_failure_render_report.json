@@ -1,0 +1,13 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_start_pilot_tiled_v2\\match1_motion_pilot_002\\timing_failure_h264.mp4",
+  "decoded_frames": 222,
+  "automatic_interval": [
+    709,
+    740
+  ],
+  "existing_AI_reference_interval": [
+    747,
+    758
+  ],
+  "reference_is_not_independent_exact_groundtruth": true
+}

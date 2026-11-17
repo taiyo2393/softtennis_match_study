@@ -1,0 +1,20 @@
+{
+  "status": "numerical_repair_verified",
+  "original_attempt_folder": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector",
+  "failed_stage": "First backward, nonfinite gradient norm asserted BEFORE first optimizer step",
+  "original_attempt_optimizer_updates": 0,
+  "repaired_student_precision": "FP32, gradient scaler disabled",
+  "teacher_precision": "Same original AMP forward",
+  "teacher_arrays_exactly_equal": true,
+  "positive_inputs": 102,
+  "negative_points": 9,
+  "changed_supervision": false,
+  "changed_learning_rate": false,
+  "changed_epoch_count": false,
+  "changed_seed": false,
+  "both_arms_same_precision": true,
+  "original_protocol_sha256": "b669fac4c9db76ad2c3555f0e6563ae289c566660b8aa7584d4b6a8f11e360a8",
+  "new_protocol_sha256": "36903773322889cf12d5b9ac8f3d6c9aafdfe18a27b3e448c35cb484be03bd27",
+  "original_script_sha256": "49a849e80908ab1a6dca0be2c11d14a30c8fd15bda8d488c14bd8cf02a561a82",
+  "new_script_sha256": "6e03325967657b3f832b320282c67738b51cd9233f4320eb8651be6ea561180a"
+}

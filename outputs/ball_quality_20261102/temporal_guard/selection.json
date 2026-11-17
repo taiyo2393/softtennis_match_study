@@ -1,0 +1,191 @@
+{
+  "config": {
+    "radius": 128,
+    "camera": false,
+    "metrics": {
+      "counts": {
+        "frames": 150,
+        "truth_visible": 121,
+        "pred_visible": 88,
+        "presence_tp": 83,
+        "localized_tp_16px": 80,
+        "wrong_localization": 3,
+        "presence_tn": 24,
+        "presence_fn": 38,
+        "presence_fp": 5
+      },
+      "localization_recall_16px": 0.6611570247933884,
+      "localization_precision_16px": 0.9090909090909091,
+      "mean_error_both_visible_px": 7.758443525374216,
+      "median_error_both_visible_px": 3.1622776601683795
+    },
+    "lost_localized": 0,
+    "removed_nonlocalized": 1,
+    "withheld_frames": 17
+  },
+  "baseline": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 121,
+      "pred_visible": 89,
+      "presence_tp": 84,
+      "localized_tp_16px": 80,
+      "wrong_localization": 4,
+      "presence_tn": 24,
+      "presence_fn": 37,
+      "presence_fp": 5
+    },
+    "localization_recall_16px": 0.6611570247933884,
+    "localization_precision_16px": 0.898876404494382,
+    "mean_error_both_visible_px": 11.541442251595349,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "validation_grid": [
+    {
+      "radius": 64,
+      "camera": false,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 83,
+          "localized_tp_16px": 80,
+          "wrong_localization": 3,
+          "presence_tn": 24,
+          "presence_fn": 38,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 7.758443525374216,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "lost_localized": 0,
+      "removed_nonlocalized": 1,
+      "withheld_frames": 17
+    },
+    {
+      "radius": 64,
+      "camera": true,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 83,
+          "localized_tp_16px": 80,
+          "wrong_localization": 3,
+          "presence_tn": 24,
+          "presence_fn": 38,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 7.758443525374216,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "lost_localized": 0,
+      "removed_nonlocalized": 1,
+      "withheld_frames": 74
+    },
+    {
+      "radius": 96,
+      "camera": false,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 83,
+          "localized_tp_16px": 80,
+          "wrong_localization": 3,
+          "presence_tn": 24,
+          "presence_fn": 38,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 7.758443525374216,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "lost_localized": 0,
+      "removed_nonlocalized": 1,
+      "withheld_frames": 17
+    },
+    {
+      "radius": 96,
+      "camera": true,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 83,
+          "localized_tp_16px": 80,
+          "wrong_localization": 3,
+          "presence_tn": 24,
+          "presence_fn": 38,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 7.758443525374216,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "lost_localized": 0,
+      "removed_nonlocalized": 1,
+      "withheld_frames": 74
+    },
+    {
+      "radius": 128,
+      "camera": false,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 83,
+          "localized_tp_16px": 80,
+          "wrong_localization": 3,
+          "presence_tn": 24,
+          "presence_fn": 38,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 7.758443525374216,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "lost_localized": 0,
+      "removed_nonlocalized": 1,
+      "withheld_frames": 17
+    },
+    {
+      "radius": 128,
+      "camera": true,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 88,
+          "presence_tp": 83,
+          "localized_tp_16px": 80,
+          "wrong_localization": 3,
+          "presence_tn": 24,
+          "presence_fn": 38,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6611570247933884,
+        "localization_precision_16px": 0.9090909090909091,
+        "mean_error_both_visible_px": 7.758443525374216,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "lost_localized": 0,
+      "removed_nonlocalized": 1,
+      "withheld_frames": 74
+    }
+  ],
+  "protocol_sha256": "6309d0548f348f81f16943fbcc399aeeba428d6aa231ca43b788dd9f5b65c8bf",
+  "warning": "Chosen using validation only. User-reported test errors already motivated this development; test is not independent."
+}

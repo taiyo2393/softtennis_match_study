@@ -1,0 +1,157 @@
+{
+  "status": "fixed_decoder_comparison_complete",
+  "selected_method": "bbox_area",
+  "validation": {
+    "selected_method": "bbox_area",
+    "strict_validation_improvement": false,
+    "selected_validation": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 83,
+        "presence_fn": 23,
+        "presence_tp": 82,
+        "localized_tp_16px": 80,
+        "wrong_localization": 2,
+        "presence_tn": 14,
+        "presence_fp": 1
+      },
+      "localization_recall_16px": 0.7619047619047619,
+      "localization_precision_16px": 0.963855421686747,
+      "mean_error_both_visible_px": 6.949994464709879
+    },
+    "baseline_validation": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 83,
+        "presence_fn": 23,
+        "presence_tp": 82,
+        "localized_tp_16px": 80,
+        "wrong_localization": 2,
+        "presence_tn": 14,
+        "presence_fp": 1
+      },
+      "localization_recall_16px": 0.7619047619047619,
+      "localization_precision_16px": 0.963855421686747,
+      "mean_error_both_visible_px": 6.949994464709879
+    },
+    "audit_used_for_selection": false,
+    "summaries": [
+      {
+        "method": "bbox_area",
+        "correct": 80,
+        "errors": 3,
+        "wrong_position": 2,
+        "presence_fp": 1,
+        "original_correct_lost": 0,
+        "lost_sample_ids": "",
+        "feasible": 1
+      },
+      {
+        "method": "component_peak",
+        "correct": 80,
+        "errors": 3,
+        "wrong_position": 2,
+        "presence_fp": 1,
+        "original_correct_lost": 0,
+        "lost_sample_ids": "",
+        "feasible": 1
+      },
+      {
+        "method": "bbox_mean",
+        "correct": 80,
+        "errors": 3,
+        "wrong_position": 2,
+        "presence_fp": 1,
+        "original_correct_lost": 0,
+        "lost_sample_ids": "",
+        "feasible": 1
+      },
+      {
+        "method": "component_mean",
+        "correct": 80,
+        "errors": 3,
+        "wrong_position": 2,
+        "presence_fp": 1,
+        "original_correct_lost": 0,
+        "lost_sample_ids": "",
+        "feasible": 1
+      }
+    ],
+    "candidate_center_upper_bound": 81,
+    "upper_bound_warning": "Any candidate center near manual point is an oracle diagnostic, not selectable accuracy",
+    "automatic_operational_adoption": false
+  },
+  "audit": null,
+  "audit_skipped": true,
+  "three_training_example_diagnostics": {
+    "bbox_area": {
+      "counts": {
+        "frames": 3,
+        "truth_visible": 3,
+        "pred_visible": 3,
+        "presence_tp": 3,
+        "localized_tp_16px": 0,
+        "wrong_localization": 3,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 0.0,
+      "localization_precision_16px": 0.0,
+      "mean_error_both_visible_px": 436.5157567678745
+    },
+    "component_peak": {
+      "counts": {
+        "frames": 3,
+        "truth_visible": 3,
+        "pred_visible": 3,
+        "presence_tp": 3,
+        "localized_tp_16px": 2,
+        "wrong_localization": 1,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 0.6666666666666666,
+      "localization_precision_16px": 0.6666666666666666,
+      "mean_error_both_visible_px": 89.87105272393724
+    },
+    "bbox_mean": {
+      "counts": {
+        "frames": 3,
+        "truth_visible": 3,
+        "pred_visible": 3,
+        "presence_tp": 3,
+        "localized_tp_16px": 2,
+        "wrong_localization": 1,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 0.6666666666666666,
+      "localization_precision_16px": 0.6666666666666666,
+      "mean_error_both_visible_px": 89.87105272393724
+    },
+    "component_mean": {
+      "counts": {
+        "frames": 3,
+        "truth_visible": 3,
+        "pred_visible": 3,
+        "presence_tp": 3,
+        "localized_tp_16px": 2,
+        "wrong_localization": 1,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 0.6666666666666666,
+      "localization_precision_16px": 0.6666666666666666,
+      "mean_error_both_visible_px": 89.87105272393724
+    }
+  },
+  "operational_outputs_unchanged": true,
+  "all_protected_inputs_unchanged": true,
+  "model_and_threshold_unchanged": true,
+  "selected_rule_passes_this_development_check": false,
+  "independent_external_accuracy": false,
+  "main_play_only_accuracy": false,
+  "next": "Review changed annotated frames and temporal context; retain human corrections. No selection using new training examples or audit. Broader in-play evaluation still needed."
+}

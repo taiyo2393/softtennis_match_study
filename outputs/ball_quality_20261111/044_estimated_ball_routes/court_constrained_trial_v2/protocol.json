@@ -1,0 +1,16 @@
+{
+  "reason": "Unconstrained image-curve fits placed both far bounces behind baseline (court y1.097/1.132). Retain failed trial; do not silently clamp positions.",
+  "new_assumption": "Far returns in this continuing sequence are assumed to have bounced inside far doubles half x0..1,y0.5..1,including boundary. This is an assumption,not new human in/out or landing truth.",
+  "change": "Joint constrained least-squares fits both shared bounce image coordinates with four projected polygon inequalities, plus original four image-y sign/curvature inequalities. Enumerate all active sets. Same time candidates, windows, observations and model.",
+  "warning": "A boundary-active solution indicates tension between simple image model and assumption, not a verified line landing. Label low confidence; no physical3D reconstruction.",
+  "fixed_before_constrained_outputs": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\constrain_044_far_bounce_fit.py": "44c4c4667e32c7c38dcbea0e2b471fb6a9cff7c477ebc01198c67001d5857078",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_estimated_ball_routes\\protocol.json": "a236bc714f903d6f267804b1bd9fde436202541cb681f2d755159c70409b5dfc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_estimated_ball_routes\\far_fit_models.json": "e17f58be69fd979fef3d743d07fca4d053947112815b4e5176c7fd605a6c4631",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_estimated_ball_routes\\result.json": "8f5f10dc9ad873b05514e347daa790761241d58edd2a654b42402e0c39219f94",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_estimated_ball_routes\\observed_and_estimated_image_path.csv": "48716fd0bfac628b1731011a39f0b4f02c31deefed540dda195c7a4becbbab05",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_estimated_ball_routes\\schematic_court_routes.csv": "ec9f3678b86430591e84134391a5eff10863bd41ffbf9c4af097dd17f06e5951",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "reviewer": "human_user",
+  "response": "合ってる",
+  "reviewed_artifact": "global_review_h264.mp4",
+  "status": "human_video_level_identity_confirmation",
+  "scope": "User confirmed correspondence in the displayed stage8 fixed-setting 007 tracking video",
+  "limitations": "Video-level confirmation, not independent per-frame identity annotations or a position-accuracy benchmark. Does not validate missing positions, other intervals, or other algorithm versions."
+}

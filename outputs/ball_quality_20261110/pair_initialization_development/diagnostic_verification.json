@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "cases": 18,
+  "pair_rows": 212,
+  "candidate_rows": 320,
+  "raw_cache_rows_exact": true,
+  "protected_sources_unchanged": true,
+  "identity_accuracy_established": false
+}

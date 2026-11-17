@@ -1,0 +1,44 @@
+[
+  {
+    "review_id": "A",
+    "candidate_id": "match1_motion_pilot_001",
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\remaining_error_phase_review\\phase_A_source_context_h264.mp4",
+    "video_sha256": "c06027a4fc451086b1d54a5517c0d759b1f0ca4e45da8bdfc7707867cf0ec9be",
+    "fps": 59.94005994005994,
+    "source_clip_frames": 480,
+    "display_frames": 510,
+    "duration_sec": 8.5085,
+    "targets": [
+      {
+        "local_frame": 464,
+        "source_frame": 584,
+        "first_display_frame": 464,
+        "last_display_frame": 494
+      }
+    ]
+  },
+  {
+    "review_id": "B",
+    "candidate_id": "match1_motion_pilot_006",
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\remaining_error_phase_review\\phase_B_source_context_h264.mp4",
+    "video_sha256": "76f0f4509ebb88c8b7bd64269dea12f206c161f2395c2439c800c2ac90631654",
+    "fps": 59.94005994005994,
+    "source_clip_frames": 930,
+    "display_frames": 990,
+    "duration_sec": 16.5165,
+    "targets": [
+      {
+        "local_frame": 279,
+        "source_frame": 46103,
+        "first_display_frame": 279,
+        "last_display_frame": 309
+      },
+      {
+        "local_frame": 341,
+        "source_frame": 46165,
+        "first_display_frame": 371,
+        "last_display_frame": 401
+      }
+    ]
+  }
+]

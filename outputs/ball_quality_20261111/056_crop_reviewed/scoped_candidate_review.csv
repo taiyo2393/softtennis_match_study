@@ -1,0 +1,4 @@
+﻿letter,source_frame,candidate_x_px,candidate_y_px,decision,question_item_id,exact_center_validated,ball_absence_label
+A,154270,1020.75,589.75,actual_ball,"[""request_user_input_async"",""call_f75d0f1cd35a4d3093a44524f0039f81"",0]",0,0
+B,154324,910.4375,586.125,other_object,"[""request_user_input_async"",""call_f75d0f1cd35a4d3093a44524f0039f81"",0]",0,0
+C,154780,936.875,529.875,actual_ball,"[""request_user_input_async"",""call_f75d0f1cd35a4d3093a44524f0039f81"",0]",0,0

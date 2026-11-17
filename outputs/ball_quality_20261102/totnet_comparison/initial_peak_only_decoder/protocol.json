@@ -1,0 +1,44 @@
+{
+  "model": "official TOTNet tennis 5-frame ch64",
+  "checkpoint_sha256": "36caadd2453cf1a37f26afb0024b861fd3285ca6e9a91e9e4a20d35e90a0a24a",
+  "source_revision": "8a757f63391b262c14d18b4095486336852dbeef",
+  "label_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "input_color": "BGR as Tennis_Dataset training; demo RGB is not used",
+  "resize": "cv2.INTER_LANCZOS4 to width512 height288, as training Resize default",
+  "normalize": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "frame_window": "t-4,t-3,t-2,t-1,t; repeat frame0 if negative",
+  "inference": "float32 eval inference_mode; no augmentation; batch4",
+  "position": "global heatmap argmax scaled x*W/512,y*H/288; no interpolation",
+  "visibility": "peak softmax >= threshold; score is not calibrated visibility probability",
+  "thresholds": [
+    0.0,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "selection": "Maximize validation localized TP subject to nonlocalized outputs <= baseline; ties fewer outputs then higher threshold",
+  "adoption": "Require test localized TP increase and nonlocalized outputs not above baseline; provisional development decision only",
+  "tolerance_px": 16,
+  "phases": [
+    "validation 001-010",
+    "test 011-020"
+  ],
+  "warning": "Previously used same-match test; annotation independence/provenance unverified. New external evaluation required."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "two_anchor_guard_rejected_on_reserved_confirmation",
+  "reason": "One correct original and supplemented target(E11/local158)was withheld;wrong localization E10/local156remains. Frozen safety requires no correct losses.",
+  "lost_correct_target": {
+    "case_id": "E11",
+    "local_frame": 158,
+    "source_frame": 40707,
+    "original_center_error_px": 4.47213595499958
+  },
+  "remaining_wrong_localization": {
+    "case_id": "E10",
+    "local_frame": 156,
+    "source_frame": 40705,
+    "error_px": 21.2602916254693,
+    "semantic_identity": "Not established; outside16px is a localization error,not proof of a different object."
+  },
+  "recovered_missing_target": {
+    "case_id": "E13",
+    "local_frame": 162,
+    "source_frame": 40711,
+    "supplemented_error_px": 8.06225774829855
+  },
+  "head_only_not_adopted": true,
+  "head_only_reason": "Earlier human review confirmed added wrong-target outputsD515/516;25/26here does not erase that failure.",
+  "prior_training_and_known_case_results_retained": true,
+  "current26_never_training": true,
+  "threshold_or_window_retuned": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "next": "Keep this prospective failure fixed. Examine trustworthiness of neighbouring candidate observations and direction changes;do not select a new radius onE11 or transferE/Flabels into training silently."
+}

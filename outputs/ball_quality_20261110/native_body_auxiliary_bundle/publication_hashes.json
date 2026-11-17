@@ -1,0 +1,18 @@
+{
+  "combined_evidence_states.csv": "85a4ee8ce5aa8820fd8337b72467fcb3a30e1ec2e301ffdc655e4b8f1a6bc354",
+  "dataset_sample_0000.jpg": "e1b34a42e5267d957d5554b249df0a80f3cad8d0e4030639a8fb2969829c691d",
+  "dataset_sample_0109.jpg": "d1aaba77eea4c7727d56963c3a2cff671efe5ce599a0c8f57cf5dbaf2aa0581c",
+  "dataset_sample_0217.jpg": "8f3f1a25d1cea1cb82b6acb384a7b1917d04ce133b844d4fee1db5de1229b744",
+  "executed_build_native_body_auxiliary_bundle.py": "81a60e59d27f3751e7161329a6d39e1dddb9139fbf511ba452c84072884ca78a",
+  "executed_finalize_native_body_auxiliary_bundle.py": "e5d602f6b9eb39634e0f02e9066fc4724b102e9d712e5810b9932ac261188c7b",
+  "frame_availability_not_accuracy.csv": "bdcea6193a5afcbb529f451e978e86f536aeca321d03e4a1fe1ef6db196e45c4",
+  "inventory_scope.json": "3d9c77713bb7ae1573dc437244af8de50327e79cb7ee957cf7456b20a1680ed5",
+  "local_video_inventory.csv": "6f5d25e8ae9419361b653d80db53bff9c83f62d981c8967c0e1de9a017bec528",
+  "native_pair_geometry.csv": "cf9254cefd74aa6eb0cd31db03a1cc859d925f42a97858896d30071f53fca395",
+  "processing_decision.json": "0773e2220829d954fd954f5d980464c2bb36a2d7c89a15f261dddb7053a3f6c1",
+  "protocol.json": "6c5706217ada180ee909bc5a5b90ea1e606c1379943207f97d22d0d64d2571d5",
+  "README.md": "39268b854d553f1ef522b80e7cebf6fa614d842af8ded7b6be4b04fba25e403d",
+  "recommended_video_metadata.json": "7b3396a7526c019f92786a621521324c3b416c38a8aa89ed7fe5bfff46efd74b",
+  "result.json": "4149d49fa702e7d61e5a1020860c357537560d66c154c9267bafa35bded6777b",
+  "verification.json": "9b3119ee90e2c7301e2c743b2bae0e53ca0e69b26676b072f6a633781e50a2e0"
+}

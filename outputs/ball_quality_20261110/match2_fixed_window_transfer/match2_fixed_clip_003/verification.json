@@ -1,0 +1,40 @@
+{
+  "clip_id": "match2_fixed_clip_003",
+  "reset_segments": [
+    {
+      "segment_id": "match2_fixed_clip_003:S001",
+      "first_frame": 53946,
+      "last_frame": 54581
+    }
+  ],
+  "reset_post_initialization_missing": [
+    {
+      "source_frame": 54328,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 54330,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 54538,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 54544,
+      "missing_slots": [
+        "far_rear"
+      ]
+    }
+  ],
+  "all_exported_rows_match_native_detections": true,
+  "no_reset_arm_unsupported_rows_preserved": true,
+  "reset_has_no_unsupported_frame_emissions": true,
+  "independent_ID_or_position_verified": false
+}

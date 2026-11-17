@@ -1,0 +1,37 @@
+{
+  "status": "whole_scope_comparison_ready_not_promoted",
+  "local_frames": [
+    730,
+    1155
+  ],
+  "source_frames": 426,
+  "candidate_main_play_frames": 402,
+  "changed_unreviewed_frames": 8,
+  "changed_candidate_main_play_frames": 8,
+  "reviewed_frames_frozen": 22,
+  "confirmed_ball_candidates_preserved": 18,
+  "current_output_frames": 295,
+  "proposal_output_frames": 295,
+  "current_main_play_output_frames": 277,
+  "proposed_main_play_output_frames": 277,
+  "large_two_frame_displacements_over100px": {
+    "current": 0,
+    "proposal": 0,
+    "meaning": "Review cue only; neither errors nor accuracy"
+  },
+  "maximum_raw_baseline_reproduction_difference_px": 2.0,
+  "decoded_video_frames": 852,
+  "duration_seconds": 14.2142,
+  "audio": true,
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\rally_044_temporal_proposal\\comparison_h264.mp4",
+  "video_sha256": "ec83600de740cdcc68ac4aaa24178a35f438b6c4b50a41f6c64a4af8a907ae4e",
+  "proposal_csv_sha256": "cea1fd556b1e990b26a27a28a49b56ac5c178564e7fd1f9100671a6990645ba5",
+  "all_previous_review_fields_preserved": true,
+  "missing_and_presence_flags_preserved": true,
+  "interpolated_positions": 0,
+  "operational_registries_unchanged": true,
+  "person_input_unchanged": true,
+  "protected_inputs_unchanged": true,
+  "full_track_accuracy_established": false,
+  "next": "Watch current/proposed full scope. New blue positions remain unreviewed; do not treat output availability or jump counts as tracking accuracy."
+}

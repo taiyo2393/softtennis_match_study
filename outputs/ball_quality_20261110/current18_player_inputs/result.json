@@ -1,0 +1,38 @@
+{
+  "status": "expanded_comparison_inputs_constructed",
+  "candidates": 18,
+  "added_candidate": "match1_rally_window_014",
+  "outcome_counts": {
+    "near": 7,
+    "far": 4,
+    "unknown": 7
+  },
+  "fixed30_constructed_inputs": 15,
+  "fixed30_pending_inputs": 15,
+  "next_candidate": "match1_rally_window_015",
+  "new_case_four_observation_times": 31,
+  "new_case_requested_times": 31,
+  "added_case_AI_identity_binding": false,
+  "confirmed_human_outcome_rows": 11,
+  "pending_outcome_rows": 7,
+  "model_fitting_performed": false,
+  "performance_estimated": false,
+  "ball_comparison_ready": false,
+  "new_human_annotation_requested": false,
+  "canonical_tracking_changed": false,
+  "artifact_hashes": {
+    "B1_server_side.csv": "01d6543e68fda5081196ff02a860ca202f3d825890bb0ec898699009e733f661",
+    "B2_snapshot.csv": "c299aeab6cf76aff51873f7dab8639634d95cb5a85fc3c34845ee1daa4211945",
+    "B2_window_means.csv": "e4d120b978f6bb4300407980793b54603c4690e7664612b99914ee91f71ff3c3",
+    "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+    "diagnostic_snapshot_masks_only.csv": "e1a838bb2dadd40fbdea56a03d31fd112dc068d0b5d0c0a6529d15737362f236",
+    "diagnostic_window_masks_only.csv": "ccaa421fb675cc21dff95dea5ffe23c75f01e9251034db745623ca15544aee2a",
+    "fixed30_processing_progress.csv": "d0b66af295d3d3f7154764ba03c7f889fd45622eda80153d3abc3c0a76e7afe3",
+    "human_outcomes.csv": "defa7f138936bd40fe9bcc353130e7ffa34a642a6affb25dc660ee7f9fc9cdda",
+    "outcome_label_status.csv": "c742117e72232d7589a8bb0d5db1f827edb88a338e61b2226ecc5fb352cd5da0",
+    "processing_interventions.csv": "d64bccbc0573a3cc467426a42197043705b36f6cdf42a528fdc5ea47fedd312f",
+    "rally_metadata.csv": "3f87d2d7117c72f7b1d4f02852910fc55a0efb14f7360f8481760789a0cfb78f",
+    "source_snapshot_features.csv": "3c7e62a68d233936feac69c933a25bbf9c7320e3e83f9a26eb4024279a5d5ac7",
+    "source_window_summary_features.csv": "8a94ef1175cbb39397c8de76606bf65229fa7875aef90a8649c96386aa833d46"
+  }
+}

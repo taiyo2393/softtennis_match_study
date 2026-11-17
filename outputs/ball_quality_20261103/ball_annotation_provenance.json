@@ -1,0 +1,16 @@
+{
+  "recorded_date": "2026-11-03",
+  "source": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv",
+  "source_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "source_kind": "user_confirmed_manual_ball_click_annotations",
+  "source_rows": 300,
+  "visible_centers": 249,
+  "stored_not_visible_rows": 51,
+  "user_answer": "自分で球をクリックして付けた",
+  "review_record": "balltrack_manual_finetune_pilot/manual_annotation_provenance.json",
+  "old_blank_reviewer_ids_are_not_evidence_of_no_human_annotation": true,
+  "original_labels_modified": false,
+  "blind_independent_external_evaluation_established": false,
+  "separate_candidate_review_corpus": "ball_candidate_cross_rally/user_reviewed/all_reviewed_candidate_cases.csv",
+  "candidate_circles_are_not_promoted_to_precise_center_labels": true
+}

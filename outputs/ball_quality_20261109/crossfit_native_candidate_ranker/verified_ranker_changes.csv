@@ -1,0 +1,3 @@
+﻿sample_id,local_frame,raw_outcome,ranked_outcome,raw_x,raw_y,ranked_x,ranked_y,ranked_error_px
+match1_motion_pilot_001_frame_000400,400,correct16px,correct16px,1232,590,1233,590,5.0
+match1_motion_pilot_005_frame_000609,609,output_when_not_observable,no_output_when_not_observable,1259,529,0,0,

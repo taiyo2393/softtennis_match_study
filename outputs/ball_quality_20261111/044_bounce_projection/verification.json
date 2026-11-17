@@ -1,0 +1,15 @@
+{
+  "parent_publication_files_unchanged": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot": 23,
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_stroke_review": 39,
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_sequence_confirmed": 11
+  },
+  "conditional_projected_bounce_points": 2,
+  "independent_OpenCV_arithmetic_max_difference": 1.1102230246251565e-16,
+  "source_ball_centers_exactly_retained": true,
+  "airborne_ball_ground_positions_created": 0,
+  "new_independent_landing_GT": 0,
+  "hidden_bounces_or_out_landing_filled": 0,
+  "decoded_video_frames": 213,
+  "source_frame_map_exact": true
+}

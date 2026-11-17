@@ -1,0 +1,183 @@
+{
+  "selection": "Every changed row in all10 cases, plus retained earlier AI failure/ambiguous probes. No success-only display.",
+  "items": [
+    {
+      "tag": "016",
+      "source_frame": 40625,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "01_016_F40625.jpg",
+      "sha256": "6311f5c20467365b620c2f38c931300a34a7b38e3d9c14b56ee84afb5903173a",
+      "crop_xyxy": [
+        2074,
+        895,
+        2553,
+        1367
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "016",
+      "source_frame": 40626,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "02_016_F40626.jpg",
+      "sha256": "f8409bdc477cb4c550995c6c325ea33672f3c338fe30df4c743322e83342dff1",
+      "crop_xyxy": [
+        2075,
+        894,
+        2553,
+        1367
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46352,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "03_019_F46352.jpg",
+      "sha256": "2f58803e08421dd6d704d3657ae049ae6adeb5de26872d0e24c1649bd4f5d75e",
+      "crop_xyxy": [
+        1438,
+        902,
+        1903,
+        1313
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46501,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "04_019_F46501.jpg",
+      "sha256": "0ec44c9ccc4929868e989b60983ee9fed31a3a61bd10b18d0f94e0f1f35ea463",
+      "crop_xyxy": [
+        1310,
+        894,
+        1781,
+        1342
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46502,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "05_019_F46502.jpg",
+      "sha256": "b11838e38feb3aa9296ad42eabf32b99e5f57d6cb0ef007614186b79e3271a78",
+      "crop_xyxy": [
+        1310,
+        895,
+        1778,
+        1338
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46503,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "06_019_F46503.jpg",
+      "sha256": "15b487a7e867f65c3c9ac64f1db07af9fc9d6e25342ac13497b0576fabb5dda3",
+      "crop_xyxy": [
+        1315,
+        894,
+        1783,
+        1336
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46505,
+      "slot": "far_rear",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "07_019_F46505.jpg",
+      "sha256": "ffde59505af20539b73c9b9678d9d287211146d59571bddee7ef0fef71b822b3",
+      "crop_xyxy": [
+        1318,
+        894,
+        1787,
+        1337
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46511,
+      "slot": "far_rear",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "08_019_F46511.jpg",
+      "sha256": "85db734c0da12a9bb9c12bb557ae151a6aa7054d9298edf7d3bb920aade8dc33",
+      "crop_xyxy": [
+        1304,
+        893,
+        1805,
+        1377
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46634,
+      "slot": "far_rear",
+      "reason": "prior failure/ambiguous probe retained",
+      "removed": false,
+      "image": "09_019_F46634.jpg",
+      "sha256": "ccfa20604174b0cd170c2333e45c9c4d86f20714592fc53984e23f5128a2a3cf",
+      "crop_xyxy": [
+        1803,
+        922,
+        2284,
+        1382
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46665,
+      "slot": "far_front",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "10_019_F46665.jpg",
+      "sha256": "efe4215062aed0e05a6d6b4eea3c0e637e75c3da870bc41f8e8ca6f736fc0049",
+      "crop_xyxy": [
+        1827,
+        937,
+        2361,
+        1406
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "tag": "019",
+      "source_frame": 46666,
+      "slot": "far_front",
+      "reason": "all removed observations; no replacement",
+      "removed": true,
+      "image": "11_019_F46666.jpg",
+      "sha256": "ad213b7ecc80fcb48ca28985ba06de8359041eb292856af41c729742d9be57f6",
+      "crop_xyxy": [
+        1832,
+        936,
+        2367,
+        1409
+      ],
+      "aspect_preserved": true
+    }
+  ],
+  "script_sha256": "d4f50ba8dd2ba7109ab9e78f1e7892ff6e85048a2184e77b39d3dc8a265bfdf4",
+  "independent_GT": false
+}

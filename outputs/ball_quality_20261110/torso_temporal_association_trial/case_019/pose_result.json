@@ -1,0 +1,11 @@
+{
+  "tag": "019",
+  "scheduled_source_frames": 460,
+  "inference_calls": 419,
+  "reused_predictions": 49,
+  "pose_proposals": 3651,
+  "hashes": {
+    "pose_tensors.npz": "820f46f21fd7c1f3dbc11b1f53c144243bdf5390ae35c0ce503f0dc200acf7d4",
+    "pose_metadata.csv": "9eb4734291988db66394511a9b485a21ea79b74597d1042e04559d9dba728772"
+  }
+}

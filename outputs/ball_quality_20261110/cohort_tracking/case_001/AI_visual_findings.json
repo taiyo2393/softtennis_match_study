@@ -1,0 +1,30 @@
+{
+  "reviewer": "Codex AI image review",
+  "frames": [
+    7,
+    87,
+    117,
+    147,
+    177,
+    237,
+    357,
+    477,
+    599
+  ],
+  "inspected_images": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg"
+  ],
+  "input_frames_spot_checked": [
+    117,
+    147,
+    177
+  ],
+  "input_four_distinct_player_boxes_visually_supported": true,
+  "no_obvious_far_pair_swap_in_inspected_frames": true,
+  "late_context_transition_frame": 599,
+  "late_transition_not_model_input": true,
+  "independent_human_identity_GT_added": false,
+  "exact_contact_time_newly_confirmed": false,
+  "scope": "AI sparse-image correspondence check, not independent whole-clip identity accuracy"
+}

@@ -1,0 +1,12 @@
+{
+  "old_publication_files_unchanged": 39,
+  "human_sequence_review_actions": 1,
+  "human_reviewed_rallies": 1,
+  "confirmed_stroke_actor_rows": 5,
+  "newly_confirmed_exact_contact_times": 0,
+  "newly_confirmed_position_points": 0,
+  "all_reference_times_coordinates_and_missing_unchanged": true,
+  "missing_reference_position_rows": 1,
+  "full_tracking_accuracy_not_inferred": true,
+  "new_independent_accuracy_evaluation": false
+}

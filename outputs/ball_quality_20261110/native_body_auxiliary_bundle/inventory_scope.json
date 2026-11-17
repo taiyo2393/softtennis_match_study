@@ -1,0 +1,10 @@
+{
+  "registered_match_count": 1,
+  "source_raw_mp4_files": 2,
+  "dataset_video_files": 218,
+  "representative_dataset_files_sampled": 3,
+  "confirmed_additional_independent_matches": 0,
+  "every_PC_directory_searched": false,
+  "match_identity_or_player_independence_inferred_from_file_count": false,
+  "next_data_needed": "A separate doubles match source path or URL; ideally different players. Do not automatically download or relabel an alternate copy as a new match."
+}

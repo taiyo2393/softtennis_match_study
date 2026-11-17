@@ -1,0 +1,5 @@
+﻿cohort,group,timepoint_sec,total_events,directional_events,matches,disagreements,unclassified,agreement_percent,classification_percent
+main80,全体,-0.5,80,13,6,7,67,46.15384615384615,16.25
+main80,全体,-0.3,80,20,14,6,60,70.0,25.0
+main80,全体,-0.2,80,11,9,2,69,81.81818181818181,13.75
+main80,全体,-0.1,80,18,13,5,62,72.22222222222223,22.5

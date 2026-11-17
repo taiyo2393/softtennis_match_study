@@ -1,0 +1,10 @@
+{
+  "conclusion": "Body-only offline identity hypotheses can supplement006:29 hypotheses at missing native slot-times,20 for the visible far player and9 around emergence of the overlapped player. Deep overlap remains unsupported.",
+  "native_replacement": "Not adopted: standalone body tracker loses existing native support in other contexts, especially009/019. Future common anchors are required for006. Existing native association is not identity GT.",
+  "masking_comparison": "No improvement to006 availability from removing near rectangles; overall model support534/620 unmasked vs528/620 masked. No evidence of a net benefit from this mask in the retained sample; preserve both modes, no tuning.",
+  "extra_positions": "None. Every additional body hypothesis has blank foot/analysis coordinates. Existing native position outputs are untouched.",
+  "unresolved_reference": "017/F42134 far_front has model-body/native IoU0.453. A body/native box-extent difference is not automatically an identity switch.",
+  "next": "Review whether the9 newly supported006 orange-player frames correspond to the intended person, and keep unresolved11 earlier slot-times missing. Then freeze this auxiliary candidate stream and prioritize held-out-match/person validation over more same-match thresholds.",
+  "independent_identity_accuracy_claim": false,
+  "current22_replaced": false
+}

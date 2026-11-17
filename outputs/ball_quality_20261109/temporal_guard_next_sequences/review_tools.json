@@ -1,0 +1,11 @@
+{
+  "status": "review_tools_fixed_before_scoring",
+  "tool_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\prepare_temporal_guard_packet.py": "cffb256279e9f630d1d5e5b0488c8322eb8017ac4a0acce4bba7a11aa938fbe1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_temporal_guard_packet.py": "f854e120e4cffb8c2d9d6151c4240106f3d32d2ee2dd0b3c104e1f439cafe3b5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\evaluate_temporal_guard_packet.py": "393ea65af09dec8a62e6857efee00e1b6a34a24d2e2e48818333589ac2069f98",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\verify_temporal_guard_packet.py": "050447ae1acb57d37ab3c23ac491298d066d80bb6a578df9a7e81d5b3612165e"
+  },
+  "html_sha256": "7454c1d88227b182353590826ab15049050bf54d89ee163e8aa25ecf4e4b8728",
+  "new_accuracy_computed": false
+}

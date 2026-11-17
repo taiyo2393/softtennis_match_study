@@ -1,0 +1,5 @@
+timepoint_sec,movement_threshold_court_width,events,actual_front_left,actual_front_right,movement_front_left,movement_front_right,stay,directional_events,directional_rate,matching_direction_events,conditional_match_rate,conditional_match_wilson95_low,conditional_match_wilson95_high,all_event_correct_direction_rate,mean_signed_displacement_toward_actual_court_width
+-0.500,0.01000,98,50,48,7,15,76,22,0.224,12,0.545,0.347,0.731,0.122,-0.001113
+-0.300,0.01000,98,50,48,15,22,61,37,0.378,20,0.541,0.384,0.690,0.204,0.001919
+-0.200,0.01000,98,50,48,12,16,70,28,0.286,18,0.643,0.458,0.793,0.184,0.001777
+-0.100,0.01000,98,50,48,14,19,65,33,0.337,19,0.576,0.408,0.728,0.194,0.001312

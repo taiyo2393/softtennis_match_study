@@ -1,0 +1,26 @@
+{
+  "clip_id": "match2_unseen_002",
+  "source_frames": 600,
+  "line_supported_frames": 346,
+  "camera_segments": 1,
+  "modes": {
+    "full_only": {
+      "observations": 1305,
+      "four_candidate_frames": 303,
+      "initialized_segments": 1,
+      "crop_selected_observations": 0
+    },
+    "full_plus_frozen_camera_crop": {
+      "observations": 1313,
+      "four_candidate_frames": 309,
+      "initialized_segments": 1,
+      "crop_selected_observations": 8
+    }
+  },
+  "baseline_observations_preserved": 1305,
+  "baseline_removed_or_changed": 0,
+  "augmented_added_or_changed": 8,
+  "independently_established_identity_switches": null,
+  "independent_accuracy_established": false,
+  "validated_physical_positions": 0
+}

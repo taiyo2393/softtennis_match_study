@@ -1,0 +1,4 @@
+﻿local_frame,view_index,view,tile_x,tile_y,rank,x_px,y_px,peak,area,mean,candidate_identity,display_label,known_ball_identity
+464,1,fixed_2x_tile,0,0,1,801.7315564885607,106.87968810972525,0.1171875,39,0.10828419029712677,unreviewed,A,not_established
+467,5,fixed_2x_tile,480,270,1,1122.808476690414,555.6028314458176,0.28369140625,270,0.17500406503677368,unreviewed,A,not_established
+554,5,fixed_2x_tile,480,270,1,1428.0454897507375,575.872001491661,0.45458984375,268,0.26781952381134033,unreviewed,A,not_established

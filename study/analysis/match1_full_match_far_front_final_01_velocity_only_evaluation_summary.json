@@ -1,0 +1,68 @@
+{
+  "input": "softtennis_frontcourt_study\\analysis\\match1_full_match_far_front_final_01_motion_features.csv",
+  "model": {
+    "type": "two_feature_ridge_logistic_regression",
+    "features": [
+      "lateral_velocity_screen_fraction_per_sec"
+    ],
+    "excluded_features": [
+      "impact_median_x_px",
+      "relative_to_impact_x_px",
+      "post_impact_frames"
+    ],
+    "ridge": 1.0,
+    "standardisation": "training-fold only",
+    "positive_class": "front_right"
+  },
+  "evaluation_scope": "leave-one-event-out within one match only; no match-level generalisation or causal claim",
+  "timepoints": {
+    "-0.500": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.2127659574468085,
+      "balanced_accuracy": 0.2092391304347826,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.10526315789473684,
+        0.31666823308270675
+      ],
+      "permutation_p_unadjusted": 0.8191808191808192
+    },
+    "-0.300": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.23404255319148937,
+      "balanced_accuracy": 0.22916666666666666,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.125,
+        0.3333333333333333
+      ],
+      "permutation_p_unadjusted": 0.8051948051948052
+    },
+    "-0.200": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.3829787234042553,
+      "balanced_accuracy": 0.3804347826086957,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.25271739130434784,
+        0.5209090909090909
+      ],
+      "permutation_p_unadjusted": 0.5254745254745254
+    },
+    "-0.100": {
+      "events": 47,
+      "front_left": 24,
+      "front_right": 23,
+      "accuracy": 0.425531914893617,
+      "balanced_accuracy": 0.4230072463768116,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.28661706349206345,
+        0.567055381400209
+      ],
+      "permutation_p_unadjusted": 0.4405594405594406
+    }
+  }
+}

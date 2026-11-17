@@ -1,0 +1,4 @@
+﻿role,samples,correct_before,correct_after,errors_before,errors_after,visible_ball_missing_before,visible_ball_missing_after,original_correct_lost
+train,123,66,66,4,2,34,36,0
+validation,120,81,80,2,2,23,24,1
+challenge,4,4,4,0,0,0,0,0

@@ -1,0 +1,41 @@
+{
+  "review": {
+    "review_id": "20261103_match1_motion_pilot_002_frame318",
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 318,
+    "recorded_date": "2026-11-03",
+    "reviewer": "user",
+    "review_scope": "raw_detector_candidate_is_a_real_ball",
+    "question": "上の002の動画で、frame318のオレンジの丸は、バウンド中の本物のボールを囲んでいますか？",
+    "answer": "本物のボール",
+    "candidate_is_ball": true,
+    "precise_pixel_center_reviewed": false,
+    "coordinate_source": "unchanged raw model output",
+    "raw_model_x_px": "558",
+    "raw_model_y_px": "680",
+    "implication": "Human-confirmed false withholding by temporal consensus. Not an independent 16px localization label.",
+    "original_groundtruth_csv_modified": false
+  },
+  "video": {
+    "candidate_id": "match1_motion_pilot_002",
+    "start_frame": 298,
+    "end_frame": 338,
+    "targets": [
+      318
+    ],
+    "decoded_frames": 194,
+    "speed": 0.25,
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\suppression_audit_20261103\\user_reviewed\\videos\\002_safety_slow.mp4",
+    "full_decode_verified": true
+  },
+  "source_experimental_sha256": "99ad5493c356c40b0035c4de7c2339fdfa56c6438a4a3039d8f3ba138c26efd9",
+  "raw_baseline_sha256": "08c71a80d46cffa0b3a7956ae6753cb379c42be6b8e4cf4188d3062f435c4f1c",
+  "source_labels_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "changed_frames": [
+    318
+  ],
+  "all_other_rows_unchanged": true,
+  "raw_coordinate_restored": true,
+  "supplemental_review_not_used_as_independent_accuracy": true,
+  "blanket_temporal_filter_adoption": "rejected_pending_further_design_due_confirmed_real_ball_withholding"
+}

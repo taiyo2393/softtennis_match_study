@@ -1,0 +1,7 @@
+﻿local_frame,source_frame,known_false_x_px,known_false_y_px,known_false_candidate_withheld,decision,true_ball_location,physical_visibility
+463,104998,868,624,0,kept_observed_candidate,unknown,not_labelled
+464,104999,868,628,0,kept_observed_candidate,unknown,not_labelled
+465,105000,849,626,0,kept_observed_candidate,unknown,not_labelled
+467,105002,840,630,0,kept_observed_candidate,unknown,not_labelled
+470,105005,828,633,1,withheld_position_unknown,unknown,not_labelled
+554,105089,1374,581,0,kept_observed_candidate,unknown,not_labelled

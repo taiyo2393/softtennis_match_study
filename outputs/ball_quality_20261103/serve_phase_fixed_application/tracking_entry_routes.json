@@ -1,0 +1,118 @@
+{
+  "automatic_gate_used": false,
+  "primary_tracking_development_input": {
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "rally_candidate_id": "match1_rally_window_044",
+    "serve_outcome": "second_attempt_valid_previously_human_confirmed",
+    "contact_local_interval": [
+      730,
+      738
+    ],
+    "contact_status": "AI_provisional_interval",
+    "candidate_in_play_local_interval": [
+      739,
+      1140
+    ],
+    "scope_and_raw_ball_input": "../play_start_audit/044_start_scoped_raw_ball_observations.csv",
+    "preferred_reviewed_ball_input": "../ball_044_scale_probe/user_reviewed/predictions/match1_motion_pilot_016/balltrack_predictions.csv",
+    "reviewed_ball_changes_local_frames": [
+      773,
+      784,
+      891,
+      892,
+      893,
+      960,
+      968,
+      970,
+      1081,
+      1082,
+      1083,
+      1084,
+      1085,
+      1086,
+      1087,
+      1088,
+      1089,
+      1091,
+      1103
+    ],
+    "preferred_person_input": "../person_044_pose_recovery/user_reviewed/observed_player_paths.csv",
+    "person_identity_review_scope": "Previous F1/F2 clip correspondence plus11 recovered boxes confirmed; exact positions and remaining gaps unvalidated",
+    "scope_report": "../play_start_audit/044_scope_report.json",
+    "first_fault_preserved": true,
+    "independent_ground_truth": false,
+    "reviewed_ball_false_raw_local_frames": [
+      968,
+      1082,
+      1084,
+      1086,
+      1087,
+      1088
+    ],
+    "reviewed_ball_false_tiled_candidates": [
+      {
+        "local_frame": "1090",
+        "display_label": "A",
+        "inference_view": "fixed_2x_tiles",
+        "tile_index": "3",
+        "component_rank": "1",
+        "x_px": "740.0834541319002",
+        "y_px": "557.4419823143041",
+        "review_id": "20261103_044_tiled_eight_real_four_false"
+      },
+      {
+        "local_frame": "1091",
+        "display_label": "A",
+        "inference_view": "fixed_2x_tiles",
+        "tile_index": "3",
+        "component_rank": "2",
+        "x_px": "729.2613975287602",
+        "y_px": "557.7986081522511",
+        "review_id": "20261103_044_tiled_eight_real_four_false"
+      },
+      {
+        "local_frame": "1092",
+        "display_label": "A",
+        "inference_view": "fixed_2x_tiles",
+        "tile_index": "3",
+        "component_rank": "1",
+        "x_px": "764.3403362122799",
+        "y_px": "550.4279985499422",
+        "review_id": "20261103_044_tiled_eight_real_four_false"
+      },
+      {
+        "local_frame": "1093",
+        "display_label": "A",
+        "inference_view": "fixed_2x_tiles",
+        "tile_index": "3",
+        "component_rank": "1",
+        "x_px": "752.8560222863372",
+        "y_px": "551.7024282852105",
+        "review_id": "20261103_044_tiled_eight_real_four_false"
+      }
+    ]
+  },
+  "other_routes": [
+    {
+      "ball_pilot_id": "match1_motion_pilot_008",
+      "rally_candidate_id": "match1_rally_window_026",
+      "preferred_reviewed_ball_input": "../ball_candidate_cross_rally/user_reviewed/predictions/match1_motion_pilot_008/balltrack_predictions.csv",
+      "candidate_review_scope": "391/615 raw candidates are real;503/1623 raw candidates are false. No full-track or boundary confirmation.",
+      "route": "legacy_contact_timestamp_for_initialization_pilot_only",
+      "legacy_contact_sec": 1042.318483,
+      "serve_validity": "not_confirmed",
+      "fine_contact_interval": null
+    },
+    {
+      "ball_pilot_id": "match1_motion_pilot_003",
+      "rally_candidate_id": "match1_rally_window_010",
+      "route": "short_start_review_needed_before_boundary_confirmation",
+      "new_AI_contact_candidate_local_interval": [
+        155,
+        186
+      ],
+      "independent_ground_truth": false
+    }
+  ],
+  "restriction": "These routes supply development inputs, not analysis eligibility, independent tracking accuracy, or winner labels."
+}

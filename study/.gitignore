@@ -1,0 +1,29 @@
+# Large or regenerable video assets
+data/raw/*
+!data/raw/.gitkeep
+data/proxy/*
+!data/proxy/.gitkeep
+data/crops/*
+!data/crops/.gitkeep
+data/pose/*
+!data/pose/.gitkeep
+data/tracking/*
+!data/tracking/.gitkeep
+models/*
+!models/.gitkeep
+data/segments/review/*
+!data/segments/review/.gitkeep
+data/segments/audit/*
+!data/segments/audit/.gitkeep
+
+# Generated outputs and logs
+analysis/models/*
+!analysis/models/.gitkeep
+logs/*
+!logs/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+
+# Machine-specific storage location for large raw videos
+config/paths.local.yaml

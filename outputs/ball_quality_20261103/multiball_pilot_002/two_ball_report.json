@@ -1,0 +1,65 @@
+{
+  "frames": 81,
+  "branch_A_observed_frames": 16,
+  "branch_B_observed_frames": 73,
+  "both_observed_frames": 14,
+  "candidate_assignment_collisions": [],
+  "association_events": {
+    "A": [
+      {
+        "direction": -1,
+        "local_frame": 285,
+        "event": "stopped_after_eight_frame_gap"
+      },
+      {
+        "direction": 1,
+        "local_frame": 327,
+        "event": "stopped_after_eight_frame_gap"
+      }
+    ],
+    "B": []
+  },
+  "seed_A": {
+    "review_id": "20261103_match1_motion_pilot_002_frame318",
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 318,
+    "recorded_date": "2026-11-03",
+    "reviewer": "user",
+    "review_scope": "raw_detector_candidate_is_a_real_ball",
+    "question": "上の002の動画で、frame318のオレンジの丸は、バウンド中の本物のボールを囲んでいますか？",
+    "answer": "本物のボール",
+    "candidate_is_ball": true,
+    "precise_pixel_center_reviewed": false,
+    "coordinate_source": "unchanged raw model output",
+    "raw_model_x_px": "558",
+    "raw_model_y_px": "680",
+    "implication": "Human-confirmed false withholding by temporal consensus. Not an independent 16px localization label.",
+    "original_groundtruth_csv_modified": false
+  },
+  "seed_B": {
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": "310",
+    "rank": "1",
+    "x_px": "1297.1360392531358",
+    "y_px": "770.8623909532694",
+    "peak": "0.68896484375",
+    "area": "456",
+    "mean": "0.2844274342060089"
+  },
+  "user_confirmation_scope": "two balls in scene only, not full trajectories",
+  "all_positions_are_retained_model_components": true,
+  "interpolated_positions": 0,
+  "old_baseline_unchanged": true,
+  "next_served_ball_unresolved": true,
+  "video": {
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\multiball_pilot_002\\dual_branch_slow_h264.mp4",
+    "decoded_frames": 384,
+    "full_decode": true,
+    "nominal_speed": 0.25,
+    "additional_target_freezes_frames": [
+      310,
+      318
+    ]
+  },
+  "warning": "Observation counts are not identity accuracy. This is a seeded development pilot, not a validated automatic multiball tracker."
+}

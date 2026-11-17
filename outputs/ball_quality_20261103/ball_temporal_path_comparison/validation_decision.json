@@ -1,0 +1,36 @@
+{
+  "original": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.949994464709879
+  },
+  "selected": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 81,
+      "wrong_localization": 1,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7714285714285715,
+    "localization_precision_16px": 0.9759036144578314,
+    "mean_error_both_visible_px": 4.367023144730804
+  },
+  "original_correct_lost": [],
+  "nonregression": true
+}

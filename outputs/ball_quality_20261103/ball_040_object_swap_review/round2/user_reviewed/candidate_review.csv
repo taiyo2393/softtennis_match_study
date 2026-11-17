@@ -1,0 +1,7 @@
+﻿local_frame,source_frame,displayed_x_px,displayed_y_px,candidate_is_ball,reviewer,human_review_id,threshold030_component_count,existing_selection_status,physical_ball_visibility,true_ball_center_x_px,true_ball_center_y_px,comparison_video_time_sec
+463,104998,868,624,0,human_user,20261103_040_neighbour463465_not_ball,,observed_path_selection,not_established,,,15.448766666666668
+464,104999,868,628,0,human_user,20261103_040_four_other_object_candidates,1,short_segment_original,not_established,,,15.482133333333334
+465,105000,849,626,0,human_user,20261103_040_neighbour463465_not_ball,,observed_path_selection,not_established,,,15.5155
+467,105002,840,630,0,human_user,20261103_040_four_other_object_candidates,1,observed_path_selection,not_established,,,15.582233333333333
+470,105005,828,633,0,human_user,20261103_040_four_other_object_candidates,1,short_segment_original,not_established,,,15.682333333333334
+554,105089,1374,581,0,human_user,20261103_040_four_other_object_candidates,1,observed_path_selection,not_established,,,18.485133333333334

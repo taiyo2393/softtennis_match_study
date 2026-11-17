@@ -1,0 +1,13 @@
+{
+  "initial_ids": {
+    "far_rear": 5,
+    "far_front": 3
+  },
+  "reverse_returned_initial_ids": {
+    "far_rear": 5,
+    "far_front": 3
+  },
+  "compared": 607,
+  "agree_iou_ge_half": 607,
+  "note": "Dependent direction check, not independent identity accuracy"
+}

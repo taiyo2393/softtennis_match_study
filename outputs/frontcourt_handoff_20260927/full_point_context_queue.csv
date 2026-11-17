@@ -1,0 +1,3 @@
+﻿candidate_id,clip_file,first_source_frame,last_source_frame,start_confirmed,point_end_confirmed,winner_team_confirmed,winner_camera_side_confirmed,review_status
+match1_rally_window_044,044_full_point_context_h264.mp4,114710,115820,,,,near,winner_side_human_confirmed_other_fields_pending
+match1_rally_window_056,056_full_point_context_h264.mp4,154050,154940,,,,near,winner_side_human_confirmed_team_derived_other_fields_pending

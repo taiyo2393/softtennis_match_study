@@ -1,0 +1,12 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\temporal_candidate_comparison_h264.mp4",
+  "sha256": "671ff76cd3c5ab9f37c65a4f3e5b2e7f2632739c71a97dbe205a3246ff9b3fe6",
+  "source_display_frames": 196,
+  "decoded_display_frames": 316,
+  "duration_seconds": 10.543866666666666,
+  "manual_centers": 4,
+  "target_outputs_match_frozen_evaluation": true,
+  "native_aspect_and_image_dimensions_preserved": true,
+  "context_accuracy_unconfirmed": true,
+  "protected_inputs_unchanged": true
+}

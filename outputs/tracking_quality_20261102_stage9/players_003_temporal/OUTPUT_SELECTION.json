@@ -1,0 +1,9 @@
+{
+  "final_video": "final_review_h264.mp4",
+  "final_csv": "four_player_path.csv",
+  "human_review_status": "human_video_level_identity_confirmation",
+  "human_review_evidence": "human_video_review.json",
+  "far_path_source": "../recompute/tracking_quality_20261102_stage7/players_003_global/far_pair_path.csv",
+  "superseded_intermediate_outputs": ["combined_review_h264.mp4", "tracking_review_h264.mp4", "selected_four.csv", "frozen_far_path.csv"],
+  "reason": "Original near/far combination duplicated raw ID2 across two player slots; final output uses recomputed far candidates excluding restored near player boxes."
+}

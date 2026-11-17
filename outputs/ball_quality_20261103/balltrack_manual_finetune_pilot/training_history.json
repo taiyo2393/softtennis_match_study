@@ -1,0 +1,88 @@
+[
+  {
+    "epoch": 0,
+    "validation": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 83,
+        "presence_fn": 23,
+        "presence_tp": 82,
+        "localized_tp_16px": 80,
+        "wrong_localization": 2,
+        "presence_tn": 14,
+        "presence_fp": 1
+      },
+      "localization_recall_16px": 0.7619047619047619,
+      "localization_precision_16px": 0.963855421686747,
+      "mean_error_both_visible_px": 6.949994464709879
+    },
+    "training_loss": null
+  },
+  {
+    "epoch": 1,
+    "training_loss": 0.0005332282544751858,
+    "validation": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 90,
+        "presence_fn": 17,
+        "presence_tp": 88,
+        "localized_tp_16px": 83,
+        "wrong_localization": 5,
+        "presence_tn": 13,
+        "presence_fp": 2
+      },
+      "localization_recall_16px": 0.7904761904761904,
+      "localization_precision_16px": 0.9222222222222223,
+      "mean_error_both_visible_px": 15.981759892827911
+    },
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch01.pth",
+    "checkpoint_sha256": "e5f257078f4edd80811a10d9ac078b48548ace6c9dc575555b067ab02eb41d86"
+  },
+  {
+    "epoch": 2,
+    "training_loss": 0.0004483714426896768,
+    "validation": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 94,
+        "presence_fn": 14,
+        "presence_tp": 91,
+        "localized_tp_16px": 85,
+        "wrong_localization": 6,
+        "presence_tn": 12,
+        "presence_fp": 3
+      },
+      "localization_recall_16px": 0.8095238095238095,
+      "localization_precision_16px": 0.9042553191489362,
+      "mean_error_both_visible_px": 27.69886060015982
+    },
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch02.pth",
+    "checkpoint_sha256": "759f993c47b2bdadb3f14c8cd0d7665e2d9af4918e8cd7d8e73b6a0f4d7c077e"
+  },
+  {
+    "epoch": 3,
+    "training_loss": 0.0004293043712095823,
+    "validation": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 97,
+        "presence_fn": 11,
+        "presence_tp": 94,
+        "localized_tp_16px": 84,
+        "wrong_localization": 10,
+        "presence_tn": 12,
+        "presence_fp": 3
+      },
+      "localization_recall_16px": 0.8,
+      "localization_precision_16px": 0.865979381443299,
+      "mean_error_both_visible_px": 43.275059086085726
+    },
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch03.pth",
+    "checkpoint_sha256": "d531b5b7cb80a708f547fcfddae7b1af80e0e5cc2f9f198154351decdb7b7694"
+  }
+]

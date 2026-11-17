@@ -1,0 +1,512 @@
+[
+  {
+    "source_frame": 154136,
+    "role": "previously_unresolved_gap",
+    "guide_x": 1040.5,
+    "guide_y": 566.5,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154134,
+      154138
+    ],
+    "crop_x0": 560,
+    "crop_y0": 296,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154218,
+    "role": "previously_unresolved_gap",
+    "guide_x": 1096.5,
+    "guide_y": 590.5,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154216,
+      154220
+    ],
+    "crop_x0": 616,
+    "crop_y0": 320,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154244,
+    "role": "previously_unresolved_gap",
+    "guide_x": 1045.5,
+    "guide_y": 590.5,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154242,
+      154246
+    ],
+    "crop_x0": 566,
+    "crop_y0": 320,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154264,
+    "role": "previously_unresolved_gap",
+    "guide_x": 1032.6666666666667,
+    "guide_y": 585.6666666666667,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154262,
+      154268
+    ],
+    "crop_x0": 553,
+    "crop_y0": 316,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154266,
+    "role": "previously_unresolved_gap",
+    "guide_x": 1030.3333333333333,
+    "guide_y": 587.3333333333333,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154262,
+      154268
+    ],
+    "crop_x0": 550,
+    "crop_y0": 317,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154270,
+    "role": "previously_unresolved_gap",
+    "guide_x": 1017.0,
+    "guide_y": 586.5,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154268,
+      154272
+    ],
+    "crop_x0": 537,
+    "crop_y0": 316,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154304,
+    "role": "previously_unresolved_gap",
+    "guide_x": 870.5,
+    "guide_y": 571.5,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154302,
+      154306
+    ],
+    "crop_x0": 390,
+    "crop_y0": 302,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154324,
+    "role": "previously_unresolved_gap",
+    "guide_x": 931.5,
+    "guide_y": 588.5,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154322,
+      154326
+    ],
+    "crop_x0": 452,
+    "crop_y0": 318,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154754,
+    "role": "previously_unresolved_gap",
+    "guide_x": 730.6666666666667,
+    "guide_y": 550.0,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154752,
+      154758
+    ],
+    "crop_x0": 251,
+    "crop_y0": 280,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154756,
+    "role": "previously_unresolved_gap",
+    "guide_x": 746.3333333333334,
+    "guide_y": 544.0,
+    "guide_source": "existing assisted endpoint linear reference",
+    "comparison_x": "",
+    "comparison_y": "",
+    "guide_frames": [
+      154752,
+      154758
+    ],
+    "crop_x0": 266,
+    "crop_y0": 274,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154780,
+    "role": "known_other_object_coordinate_diagnostic",
+    "guide_x": 935.0,
+    "guide_y": 528.5,
+    "guide_source": "adjacent assisted positions excluding rejected target",
+    "comparison_x": 1102.0,
+    "comparison_y": 579.0,
+    "guide_frames": [
+      154778,
+      154782
+    ],
+    "crop_x0": 455,
+    "crop_y0": 258,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154853,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 991.0,
+    "guide_y": 590.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 963.0,
+    "comparison_y": 609.0,
+    "guide_frames": [
+      154854,
+      154855
+    ],
+    "crop_x0": 511,
+    "crop_y0": 320,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154854,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 949.0,
+    "guide_y": 618.5,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 963.0,
+    "comparison_y": 609.0,
+    "guide_frames": [
+      154853,
+      154855
+    ],
+    "crop_x0": 469,
+    "crop_y0": 348,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154855,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 948.0,
+    "guide_y": 618.5,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 935.0,
+    "comparison_y": 628.0,
+    "guide_frames": [
+      154854,
+      154856
+    ],
+    "crop_x0": 468,
+    "crop_y0": 348,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154856,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 923.0,
+    "guide_y": 635.5,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 933.0,
+    "comparison_y": 628.0,
+    "guide_frames": [
+      154855,
+      154857
+    ],
+    "crop_x0": 443,
+    "crop_y0": 366,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154857,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 922.0,
+    "guide_y": 634.5,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 911.0,
+    "comparison_y": 643.0,
+    "guide_frames": [
+      154856,
+      154858
+    ],
+    "crop_x0": 442,
+    "crop_y0": 364,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154858,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 904.5,
+    "guide_y": 638.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 911.0,
+    "comparison_y": 641.0,
+    "guide_frames": [
+      154857,
+      154859
+    ],
+    "crop_x0": 424,
+    "crop_y0": 368,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154859,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 904.5,
+    "guide_y": 636.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 898.0,
+    "comparison_y": 633.0,
+    "guide_frames": [
+      154858,
+      154860
+    ],
+    "crop_x0": 424,
+    "crop_y0": 366,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154860,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 894.0,
+    "guide_y": 626.5,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 898.0,
+    "comparison_y": 631.0,
+    "guide_frames": [
+      154859,
+      154861
+    ],
+    "crop_x0": 414,
+    "crop_y0": 356,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154861,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 893.0,
+    "guide_y": 627.5,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 890.0,
+    "comparison_y": 620.0,
+    "guide_frames": [
+      154860,
+      154862
+    ],
+    "crop_x0": 413,
+    "crop_y0": 358,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154862,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 882.0,
+    "guide_y": 609.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 888.0,
+    "comparison_y": 624.0,
+    "guide_frames": [
+      154860,
+      154861
+    ],
+    "crop_x0": 402,
+    "crop_y0": 339,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154869,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 852.0,
+    "guide_y": 591.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 840.0,
+    "comparison_y": 583.0,
+    "guide_frames": [
+      154870,
+      154871
+    ],
+    "crop_x0": 372,
+    "crop_y0": 321,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154870,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 834.0,
+    "guide_y": 581.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 840.0,
+    "comparison_y": 585.0,
+    "guide_frames": [
+      154869,
+      154871
+    ],
+    "crop_x0": 354,
+    "crop_y0": 311,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154871,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 834.0,
+    "guide_y": 580.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 828.0,
+    "comparison_y": 579.0,
+    "guide_frames": [
+      154870,
+      154872
+    ],
+    "crop_x0": 354,
+    "crop_y0": 310,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154872,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 822.5,
+    "guide_y": 575.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 828.0,
+    "comparison_y": 575.0,
+    "guide_frames": [
+      154871,
+      154873
+    ],
+    "crop_x0": 342,
+    "crop_y0": 305,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154873,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 828.0,
+    "guide_y": 571.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 817.0,
+    "comparison_y": 571.0,
+    "guide_frames": [
+      154871,
+      154872
+    ],
+    "crop_x0": 348,
+    "crop_y0": 301,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154877,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 805.0,
+    "guide_y": 560.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 796.0,
+    "comparison_y": 558.0,
+    "guide_frames": [
+      154878,
+      154879
+    ],
+    "crop_x0": 325,
+    "crop_y0": 290,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154878,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 790.5,
+    "guide_y": 557.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 795.0,
+    "comparison_y": 558.0,
+    "guide_frames": [
+      154877,
+      154879
+    ],
+    "crop_x0": 310,
+    "crop_y0": 287,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154879,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 790.0,
+    "guide_y": 556.5,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 785.0,
+    "comparison_y": 556.0,
+    "guide_frames": [
+      154878,
+      154880
+    ],
+    "crop_x0": 310,
+    "crop_y0": 286,
+    "crop_width": 960,
+    "crop_height": 540
+  },
+  {
+    "source_frame": 154880,
+    "role": "previously_ball_enclosing_candidate",
+    "guide_x": 775.0,
+    "guide_y": 554.0,
+    "guide_source": "two nearest other reviewed end points; target coordinate excluded; not independent evaluation",
+    "comparison_x": 785.0,
+    "comparison_y": 555.0,
+    "guide_frames": [
+      154878,
+      154879
+    ],
+    "crop_x0": 295,
+    "crop_y0": 284,
+    "crop_width": 960,
+    "crop_height": 540
+  }
+]

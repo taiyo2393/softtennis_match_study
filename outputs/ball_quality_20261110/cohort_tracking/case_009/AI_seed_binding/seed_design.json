@@ -1,0 +1,24 @@
+{
+  "candidate_id": "match1_rally_window_009",
+  "selection": "Repair known N2 non-player binding only; seed image is existing QA time(contact nominal minus30), not a new best-visibility feature time.",
+  "seed_source_frame": 21855,
+  "target_slot": "near_rear",
+  "native_detector_raw_id": "148",
+  "source_native_frame_sha256": "a23d008ac65075dbb67924797bb3813878f403109cced01b84aec48ec3df9db3",
+  "seed_box": {
+    "x1": "3040.147705078125",
+    "y1": "1073.7098388671875",
+    "x2": "3273.3193359375",
+    "y2": "1677.63671875"
+  },
+  "export_scope": [
+    21848,
+    22147
+  ],
+  "source": "Codex AI image correspondence: actual near-right server, not the left-edge non-player.",
+  "human_identity_GT": false,
+  "independent_accuracy_evaluation": false,
+  "interpolation": false,
+  "valid_only_for_this_existing_raw_track_and_scope": true,
+  "fixed_input_frames_unchanged": true
+}

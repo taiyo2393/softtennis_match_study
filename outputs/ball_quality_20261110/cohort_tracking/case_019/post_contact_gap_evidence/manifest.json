@@ -1,0 +1,508 @@
+{
+  "selection": "All final-path gaps whose next observation follows inherited contact; no formal point-end certification or accuracy sampling.",
+  "source_path_sha256": "577ad8966ba09bfbb2373f3395705ef5ae769eaa6a07594db1acd63edcc055eb",
+  "script_sha256": "c849d2ffb829ba3dac2cd8ed2783c26aaa7eb9a2ed8c7d16fd66dc4fca6c1096",
+  "gaps": [
+    {
+      "player_slot": "near_rear",
+      "before_source_frame": "46660",
+      "after_source_frame": "46667",
+      "missing_frames": "6",
+      "before_raw_id": "1",
+      "after_raw_id": "1",
+      "image_file": "gap_01_near_rear.jpg",
+      "source_frames": [
+        46648,
+        46660,
+        46663,
+        46667,
+        46673,
+        46679
+      ],
+      "constant_crop_xyxy": [
+        1685,
+        930,
+        2429,
+        1549
+      ],
+      "aspect_preserved": true,
+      "sha256": "4def83c2ae09f1d059d2f2f54903bda6386206ab7880d4a0adc35913b0a31ee5"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46338",
+      "after_source_frame": "46350",
+      "missing_frames": "11",
+      "before_raw_id": "1000196",
+      "after_raw_id": "1000246",
+      "image_file": "gap_02_far_rear.jpg",
+      "source_frames": [
+        46326,
+        46338,
+        46344,
+        46350,
+        46356,
+        46362
+      ],
+      "constant_crop_xyxy": [
+        1423,
+        863,
+        1918,
+        1305
+      ],
+      "aspect_preserved": true,
+      "sha256": "3d83561c2015d6f4c7ca3f7759319b7fa19d089563e845900e7ecb22c79c44bc"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46352",
+      "after_source_frame": "46395",
+      "missing_frames": "42",
+      "before_raw_id": "150",
+      "after_raw_id": "1000246",
+      "image_file": "gap_03_far_rear.jpg",
+      "source_frames": [
+        46340,
+        46352,
+        46373,
+        46395,
+        46401,
+        46407
+      ],
+      "constant_crop_xyxy": [
+        1427,
+        902,
+        1928,
+        1373
+      ],
+      "aspect_preserved": true,
+      "sha256": "476ea764efada4ac84eac238f072aef118199c8fd9053bde76413f80962fcf57"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46438",
+      "after_source_frame": "46456",
+      "missing_frames": "17",
+      "before_raw_id": "1000246",
+      "after_raw_id": "1000308",
+      "image_file": "gap_04_far_rear.jpg",
+      "source_frames": [
+        46426,
+        46438,
+        46447,
+        46456,
+        46462,
+        46468
+      ],
+      "constant_crop_xyxy": [
+        1312,
+        924,
+        1946,
+        1367
+      ],
+      "aspect_preserved": true,
+      "sha256": "daf0ee694c71d8783a174110f389c6e7f62799f4a1b09ed92d68355fd26bf1c2"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46464",
+      "after_source_frame": "46468",
+      "missing_frames": "3",
+      "before_raw_id": "1000308",
+      "after_raw_id": "1000333",
+      "image_file": "gap_05_far_rear.jpg",
+      "source_frames": [
+        46452,
+        46464,
+        46466,
+        46468,
+        46474,
+        46480
+      ],
+      "constant_crop_xyxy": [
+        1298,
+        926,
+        1882,
+        1337
+      ],
+      "aspect_preserved": true,
+      "sha256": "3f7f25ebf977a48218ec1f8ae37da9ceb6673a26e7b1c2a8e50013ce23f1c163"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46480",
+      "after_source_frame": "46483",
+      "missing_frames": "2",
+      "before_raw_id": "1000333",
+      "after_raw_id": "1000333",
+      "image_file": "gap_06_far_rear.jpg",
+      "source_frames": [
+        46468,
+        46480,
+        46481,
+        46483,
+        46489,
+        46495
+      ],
+      "constant_crop_xyxy": [
+        1313,
+        932,
+        1829,
+        1373
+      ],
+      "aspect_preserved": true,
+      "sha256": "8b34e90e8ee58ed93da6839920651a35791b5db6fcf1817d0ad385de199dd392"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46489",
+      "after_source_frame": "46501",
+      "missing_frames": "11",
+      "before_raw_id": "1000333",
+      "after_raw_id": "1000005",
+      "image_file": "gap_07_far_rear.jpg",
+      "source_frames": [
+        46477,
+        46489,
+        46495,
+        46501,
+        46507,
+        46513
+      ],
+      "constant_crop_xyxy": [
+        1299,
+        894,
+        1823,
+        1375
+      ],
+      "aspect_preserved": true,
+      "sha256": "2ab30f4a73c96f0fb73f0fa53548597e256642ac908a0db288fc941222eab540"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46503",
+      "after_source_frame": "46505",
+      "missing_frames": "1",
+      "before_raw_id": "177",
+      "after_raw_id": "177",
+      "image_file": "gap_08_far_rear.jpg",
+      "source_frames": [
+        46491,
+        46503,
+        46504,
+        46505,
+        46511,
+        46517
+      ],
+      "constant_crop_xyxy": [
+        1304,
+        893,
+        1797,
+        1336
+      ],
+      "aspect_preserved": true,
+      "sha256": "f35be2396d4ca0c8a1dd30c39ca9980f72f1689e6f01209864159a6da4b6d0b5"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46505",
+      "after_source_frame": "46509",
+      "missing_frames": "3",
+      "before_raw_id": "177",
+      "after_raw_id": "169",
+      "image_file": "gap_09_far_rear.jpg",
+      "source_frames": [
+        46493,
+        46505,
+        46507,
+        46509,
+        46515,
+        46521
+      ],
+      "constant_crop_xyxy": [
+        1290,
+        893,
+        1815,
+        1373
+      ],
+      "aspect_preserved": true,
+      "sha256": "a7b1892e337e675cbf7edbab407174e0b233031d2906e1aecd03bd556770b4f9"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46517",
+      "after_source_frame": "46525",
+      "missing_frames": "7",
+      "before_raw_id": "169",
+      "after_raw_id": "169",
+      "image_file": "gap_10_far_rear.jpg",
+      "source_frames": [
+        46505,
+        46517,
+        46521,
+        46525,
+        46531,
+        46537
+      ],
+      "constant_crop_xyxy": [
+        1295,
+        894,
+        1827,
+        1382
+      ],
+      "aspect_preserved": true,
+      "sha256": "5c784edb493303a68d451d675da366bb2a254aa09f9b7e20f23d120a8da3d2bc"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46584",
+      "after_source_frame": "46633",
+      "missing_frames": "48",
+      "before_raw_id": "194",
+      "after_raw_id": "209",
+      "image_file": "gap_11_far_rear.jpg",
+      "source_frames": [
+        46572,
+        46584,
+        46608,
+        46633,
+        46639,
+        46645
+      ],
+      "constant_crop_xyxy": [
+        1704,
+        922,
+        2293,
+        1383
+      ],
+      "aspect_preserved": true,
+      "sha256": "7dcd14bb8a576581bb2ceee8db2b7409a18d710961f748c981f90f72030fea4e"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46634",
+      "after_source_frame": "46636",
+      "missing_frames": "1",
+      "before_raw_id": "209",
+      "after_raw_id": "1000434",
+      "image_file": "gap_12_far_rear.jpg",
+      "source_frames": [
+        46622,
+        46634,
+        46635,
+        46636,
+        46642,
+        46648
+      ],
+      "constant_crop_xyxy": [
+        1793,
+        921,
+        2322,
+        1381
+      ],
+      "aspect_preserved": true,
+      "sha256": "bd8764cbd8a29fd984b8823331c6893ad8827874ea4dedf474781054d064991a"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46636",
+      "after_source_frame": "46641",
+      "missing_frames": "4",
+      "before_raw_id": "1000434",
+      "after_raw_id": "1000434",
+      "image_file": "gap_13_far_rear.jpg",
+      "source_frames": [
+        46624,
+        46636,
+        46638,
+        46641,
+        46647,
+        46653
+      ],
+      "constant_crop_xyxy": [
+        1794,
+        920,
+        2363,
+        1377
+      ],
+      "aspect_preserved": true,
+      "sha256": "4785e81e3c43666fb24abd06f216c9fbf0a93685a7b32d55a8d70b94d2ac69aa"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46644",
+      "after_source_frame": "46646",
+      "missing_frames": "1",
+      "before_raw_id": "1000434",
+      "after_raw_id": "1000439",
+      "image_file": "gap_14_far_rear.jpg",
+      "source_frames": [
+        46632,
+        46644,
+        46645,
+        46646,
+        46652,
+        46658
+      ],
+      "constant_crop_xyxy": [
+        1832,
+        913,
+        2363,
+        1377
+      ],
+      "aspect_preserved": true,
+      "sha256": "dadbe9c1b5375b0a301d8672d7ca66073135255974762167e2f91cb4a03f1a21"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46648",
+      "after_source_frame": "46653",
+      "missing_frames": "4",
+      "before_raw_id": "1000439",
+      "after_raw_id": "1000439",
+      "image_file": "gap_15_far_rear.jpg",
+      "source_frames": [
+        46636,
+        46648,
+        46650,
+        46653,
+        46659,
+        46665
+      ],
+      "constant_crop_xyxy": [
+        1860,
+        930,
+        2380,
+        1332
+      ],
+      "aspect_preserved": true,
+      "sha256": "2f2ae3231c1c98986f576f9b26bd4113bc1d57a6682b2c317426b4769927ef13"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46657",
+      "after_source_frame": "46659",
+      "missing_frames": "1",
+      "before_raw_id": "1000439",
+      "after_raw_id": "1000434",
+      "image_file": "gap_16_far_rear.jpg",
+      "source_frames": [
+        46645,
+        46657,
+        46658,
+        46659,
+        46665,
+        46671
+      ],
+      "constant_crop_xyxy": [
+        1885,
+        922,
+        2408,
+        1376
+      ],
+      "aspect_preserved": true,
+      "sha256": "d6e84716ed5c737d9f83048e98d4b98a97b2734b7e3b95810e8348c99a169994"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "46666",
+      "after_source_frame": "46685",
+      "missing_frames": "18",
+      "before_raw_id": "221",
+      "after_raw_id": "236",
+      "image_file": "gap_17_far_rear.jpg",
+      "source_frames": [
+        46654,
+        46666,
+        46675,
+        46685,
+        46691,
+        46697
+      ],
+      "constant_crop_xyxy": [
+        1909,
+        897,
+        2493,
+        1378
+      ],
+      "aspect_preserved": true,
+      "sha256": "ad401fc9d112403ba0a42c5b3e6ada5778665d3a2a65db1a7e73e4c948c1b849"
+    },
+    {
+      "player_slot": "far_front",
+      "before_source_frame": "46646",
+      "after_source_frame": "46665",
+      "missing_frames": "18",
+      "before_raw_id": "156",
+      "after_raw_id": "218",
+      "image_file": "gap_18_far_front.jpg",
+      "source_frames": [
+        46634,
+        46646,
+        46655,
+        46665,
+        46671,
+        46677
+      ],
+      "constant_crop_xyxy": [
+        1797,
+        936,
+        2371,
+        1448
+      ],
+      "aspect_preserved": true,
+      "sha256": "d2c3670ec50605c84b49e0595adcc667d06d615e9796af23fc2e1d4747587342"
+    },
+    {
+      "player_slot": "far_front",
+      "before_source_frame": "46666",
+      "after_source_frame": "46715",
+      "missing_frames": "48",
+      "before_raw_id": "218",
+      "after_raw_id": "253",
+      "image_file": "gap_19_far_front.jpg",
+      "source_frames": [
+        46654,
+        46666,
+        46690,
+        46715,
+        46721,
+        46727
+      ],
+      "constant_crop_xyxy": [
+        1809,
+        935,
+        2377,
+        1409
+      ],
+      "aspect_preserved": true,
+      "sha256": "ed87f5c8b3eaf356541a60b4c87eae067a796c0e6c95fc9d35da9295a73f0703"
+    },
+    {
+      "player_slot": "far_front",
+      "before_source_frame": "46716",
+      "after_source_frame": "46719",
+      "missing_frames": "2",
+      "before_raw_id": "253",
+      "after_raw_id": "253",
+      "image_file": "gap_20_far_front.jpg",
+      "source_frames": [
+        46704,
+        46716,
+        46717,
+        46719,
+        46725,
+        46731
+      ],
+      "constant_crop_xyxy": [
+        1806,
+        952,
+        2372,
+        1413
+      ],
+      "aspect_preserved": true,
+      "sha256": "fa91c45f1577448c04ea5f477cae7ab5ddbd5c7d408f02a7d1c5cb2b8c3b0cb0"
+    }
+  ],
+  "interpolation": false
+}

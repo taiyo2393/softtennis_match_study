@@ -1,0 +1,39 @@
+{
+  "status": "fixed_before_window_inference_or_new_labels",
+  "role": "known_same_match_validation_only_never_training",
+  "windows": "First and last source clips among four already human-confirmed-play challenge anchors, ordered by clip ID. +/-12 source frames, stride2: 13 observations per window.",
+  "selection_uses_new_error_locations": false,
+  "anchor_caveat": "Anchor time only is confirmed play. Neighbours require their own phase/visibility annotation. Earlier challenge selection enriched model disagreements; not population sampling.",
+  "clock": "Legacy edited match1 cache; never map integer frames to redownloaded match1_original",
+  "methods": [
+    "original_threshold0.3_bbox_area",
+    "previously_frozen_displacement_0.1"
+  ],
+  "temporal_config": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "freeze": "Predict both methods on ALL26target times before new labels; existing clicked centers only reused at exact same source frame.",
+  "annotation": "Two existing play/center anchors reused; two other old centers need only phase review;22centers new. Click play-ball center or explicitly choose visible-state/phase uncertainty. No predictions shown.",
+  "no_interpolation": true,
+  "no_new_training": true,
+  "no_parameter_search": true,
+  "evaluation": "Report each window separately. Visible-frame errors16px, missing/wrong/false outputs, adjacent verified pairs and long gaps in sampled timeline. Uncertain/nonplay excluded with reasons, not absent-ball negatives.",
+  "continuity": "Consecutive stride2 observations, ~29.97Hz. No claim about odd frames or whole-rally accuracy. Do not bridge uncertain/missing frames or count repeated-frame pairs as independent.",
+  "no_automatic_adoption": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\play_start_audit\\ball_pilot_start_inventory.csv": "af2d63cc9fc947a71530448aeb8576be24278e4bb2d2606820a1f7f8b32625fa",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\training_selection.json": "4dc7ffeb328c1e12e176035d4735aa6d1476fc6e2fc2d537808ff94a07526f37",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_appearance_training_review\\candidate_review_labels.csv": "b3660d11c8855a0cd2d88b700afc9ac386b525650b39ed38c38778da5286de91",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_training_only_appearance_comparison\\decision.json": "6aa9e31db7c54f1d494916de7a853d013b49fcd36ca38e2cb0f676ab25ee2ff4"
+  },
+  "script_sha256": "a46a8e29d7a15ba27dfbf5f17bc75c335c31a095a60a5ff50bb3836d3b699171"
+}

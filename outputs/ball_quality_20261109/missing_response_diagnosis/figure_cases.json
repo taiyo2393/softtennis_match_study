@@ -1,0 +1,42 @@
+[
+  {
+    "case_id": "B12",
+    "window_id": "B",
+    "candidate_id": "match1_motion_expand_01_008",
+    "local_frame": "205",
+    "source_frame": "57418",
+    "truth_x_px": "676",
+    "truth_y_px": "570",
+    "outcome": "missing_visible",
+    "peak_within16px": 0.031982421875,
+    "bilinear_response_at_manual_center": 0.02835286408662796,
+    "global_peak": 0.045257568359375,
+    "global_peak_source_x": 750.0,
+    "global_peak_source_y": 611.25,
+    "global_peak_distance_from_manual_px": 84.72049633943371,
+    "pixels_above03_near16": 0,
+    "full_components_above03": 0,
+    "local_peak_gap_to03": 0.26801759004592896,
+    "response_note": "Uncalibrated heatmap value; near16 uses gridindex*3.75, no subpixel/physical interpretation."
+  },
+  {
+    "case_id": "B03",
+    "window_id": "B",
+    "candidate_id": "match1_motion_expand_01_008",
+    "local_frame": "187",
+    "source_frame": "57400",
+    "truth_x_px": "692",
+    "truth_y_px": "553",
+    "outcome": "missing_visible",
+    "peak_within16px": 0.25,
+    "bilinear_response_at_manual_center": 0.23424643278121948,
+    "global_peak": 0.25,
+    "global_peak_source_x": 693.75,
+    "global_peak_source_y": 543.75,
+    "global_peak_distance_from_manual_px": 9.414085191881366,
+    "pixels_above03_near16": 0,
+    "full_components_above03": 0,
+    "local_peak_gap_to03": 0.050000011920928955,
+    "response_note": "Uncalibrated heatmap value; near16 uses gridindex*3.75, no subpixel/physical interpretation."
+  }
+]

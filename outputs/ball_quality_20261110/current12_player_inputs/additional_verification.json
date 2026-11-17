@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "previous11_rows_exactly_retained": true,
+  "confirmed_human_outcomes_exactly_retained": 11,
+  "new_unreviewed_outcomes": 1,
+  "unreviewed_winner_and_review_ID_remain_empty": true,
+  "supervised_schema_uses_only_confirmed_labels": true,
+  "provisional_server_side_source_checked": true,
+  "new_contact_bracket_source_JPEG_recreations": 2,
+  "final_path_gap_runs_recalculated": 23,
+  "gap_image_hashes_checked": 4,
+  "model_fitting_performed": false,
+  "independent_tracking_accuracy_established": false
+}

@@ -1,0 +1,102 @@
+{
+  "status": "fixed_before_inference",
+  "targets": [
+    464,
+    467,
+    470,
+    554
+  ],
+  "context_frames": [
+    462,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    472,
+    552,
+    554,
+    556
+  ],
+  "views_xywh": [
+    [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    [
+      0,
+      0,
+      960,
+      540
+    ],
+    [
+      480,
+      0,
+      960,
+      540
+    ],
+    [
+      960,
+      0,
+      960,
+      540
+    ],
+    [
+      0,
+      270,
+      960,
+      540
+    ],
+    [
+      480,
+      270,
+      960,
+      540
+    ],
+    [
+      960,
+      270,
+      960,
+      540
+    ],
+    [
+      0,
+      540,
+      960,
+      540
+    ],
+    [
+      480,
+      540,
+      960,
+      540
+    ],
+    [
+      960,
+      540,
+      960,
+      540
+    ]
+  ],
+  "model_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "recipe": "Reuse044scale probe: fixedfull image+all9uniform2x overlapping crops, unchanged .10floor/top6/halfpeak-weighted centers",
+  "no_view_or_component_chosen_using_true_center": true,
+  "known_labels": "4false displayed candidates only, no true center or absence label",
+  "output": "Diagnostic candidates only. No ball identity, no automatic filling, no re-training or threshold search.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "37154a120d8b76c6a2828ccf66fa07c29f912f79654a36cca47003c2eb0d82d3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\review.json": "b1763e7adce8cf3ba595775ff0f2cadd254207f0bb0be026d74cdc72de003794",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\baseline_balltrack_predictions.csv": "88fd4d6e3441dca6dc5b506a1970d9a7841eb9e45d757cd96c51585ef46fcf0e",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\temporal_balltrack_predictions.csv": "3bacae30cf4e4853c6eb3ed70c520b265baa83661b1d8f3a630cd5c25e4e0dd8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6"
+  },
+  "script_sha256": "38f53634e57f859b77532d791e7a799af40e62337e1eb3bace820bc24ab6f9fa"
+}

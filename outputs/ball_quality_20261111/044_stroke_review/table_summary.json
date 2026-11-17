@@ -1,0 +1,10 @@
+{
+  "AI_proposed_strokes": 5,
+  "new_human_confirmed_strokes": 0,
+  "independent_event_accuracy_established": false,
+  "representative_player_slots": 20,
+  "observed_position_proxies": 19,
+  "missing_position_proxies": 1,
+  "ball_reference_times_with_position": 2,
+  "statement": "Representative frames are within intervals, not exact impact timestamps. Retained outcome facts are separate from AI actor proposals."
+}

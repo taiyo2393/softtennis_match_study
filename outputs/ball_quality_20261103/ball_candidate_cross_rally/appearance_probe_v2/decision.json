@@ -1,0 +1,21 @@
+{
+  "status": "rejected_after_prior_cases_and_new008_confirmation",
+  "automatic_adoption": false,
+  "reason": "Trained on044 only; rejects the confirmed ball002/318 and retains all three confirmed018 hand false detections.",
+  "new_008_candidates": [
+    "A:391",
+    "B:503",
+    "C:615",
+    "D:1623"
+  ],
+  "new_008_review_status": "AC_real_BD_false_confirmed",
+  "frozen_model_sha256": "485c88299646a16f4bbb4f64f78bed39ba8c1c7542288d28de80f15dad8784e1",
+  "frozen_predictions_sha256": "2b6d1204e9aa00fa24a7a0c6b5e3c445dff753faa9013fe6d11b08bcb25c00f1",
+  "no_retuning_after_new_answers": true,
+  "preserved_authoritative_bundle": "../../integrated_044_v4/",
+  "scope": "Tiny selected same-match development checks; not representative in-play accuracy or a final independent test.",
+  "comparison": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\comparison.json",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\review.json",
+  "new_008_result": "Real2/2 retained; false2/2 retained. No improvement over no additional filter.",
+  "combined_safety_and008_result": "Real2/3 retained; false5/5 retained. No model or threshold updated."
+}

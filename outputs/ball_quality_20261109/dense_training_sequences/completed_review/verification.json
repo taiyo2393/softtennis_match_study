@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "history_events_verified": 126,
+  "reviewed_targets_verified": 124,
+  "unique_training_centers_verified": 181,
+  "snapshots_byte_identical": true,
+  "exports_reloaded": true,
+  "model_predictions_not_used_as_truth": true,
+  "protected_inputs_unchanged": true,
+  "script_sha256": "d7bbad812cc912d56c2c77e3b46aaac583f84bc3a9c247fd145bd5bd1dae9ef4"
+}

@@ -1,0 +1,25 @@
+{
+  "rallies": 3,
+  "stroke_candidates": 13,
+  "scoring_side_counts": {
+    "near": 1,
+    "far": 2
+  },
+  "terminal_records_with_receiving_pair_and_bounce": 3,
+  "terminal_labels": {
+    "hitting_side_out": 1,
+    "no_return_observed": 2
+  },
+  "terminal_receiving_side": "near in all three examples",
+  "evidence_images": [
+    "score_source_review.jpg",
+    "near_team_side_review.jpg"
+  ],
+  "limitation": "A single match with three points. Repeated scoreboard outcomes at the stroke level remain three rally outcomes. Shot timing, landing coordinates and causal diagnosis are provisional.",
+  "source_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_receiving_position_trial_v3\\stroke_receiving_positions.json": "40d3b9f89cf8fe495c87ddc077c7acd6278b5b37ef21fb15fe11e4098f6dbcc8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_ball_first_point\\protocol.json": "58c09c3d6c9b9131a6fecce6e8b66541d9cd5c074b51b96b56d4b0acabfedb1b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_points_2_3\\protocol.json": "1dbbd0ea13c9d0fbfce15764e10b14152c0e265028315d227b115d23fce07190",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\match2_raw_stroke_review\\point3_contact_review.json": "1b533e90e37313ce7791b487c7cf4e978e30c7ac60d750b1b106a08de652c0c1"
+  }
+}

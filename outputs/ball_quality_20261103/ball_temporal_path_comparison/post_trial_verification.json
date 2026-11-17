@@ -1,0 +1,79 @@
+{
+  "status": "fixed_selected_temporal_candidate_rule_passes_sparse_development_checks",
+  "chosen_configuration": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "role_summaries": [
+    {
+      "role": "train",
+      "frames": 123,
+      "before_correct": 63,
+      "after_correct": 66,
+      "before_wrong_or_false": 7,
+      "after_wrong_or_false": 4,
+      "original_correct_lost": 0,
+      "missing_before": 34,
+      "missing_after": 34,
+      "false_presence_before": 2,
+      "false_presence_after": 2,
+      "selection_status_counts": "{\"observed_path_selection\": 65, \"original_missing\": 53, \"short_segment_original\": 5}"
+    },
+    {
+      "role": "validation",
+      "frames": 120,
+      "before_correct": 80,
+      "after_correct": 81,
+      "before_wrong_or_false": 3,
+      "after_wrong_or_false": 2,
+      "original_correct_lost": 0,
+      "missing_before": 23,
+      "missing_after": 23,
+      "false_presence_before": 1,
+      "false_presence_after": 1,
+      "selection_status_counts": "{\"original_missing\": 37, \"observed_path_selection\": 81, \"short_segment_original\": 2}"
+    },
+    {
+      "role": "challenge",
+      "frames": 4,
+      "before_correct": 2,
+      "after_correct": 4,
+      "before_wrong_or_false": 2,
+      "after_wrong_or_false": 0,
+      "original_correct_lost": 0,
+      "missing_before": 0,
+      "missing_after": 0,
+      "false_presence_before": 0,
+      "false_presence_after": 0,
+      "selection_status_counts": "{\"observed_path_selection\": 4}"
+    },
+    {
+      "role": "audit",
+      "frames": 60,
+      "before_correct": 34,
+      "after_correct": 35,
+      "before_wrong_or_false": 5,
+      "after_wrong_or_false": 4,
+      "original_correct_lost": 0,
+      "missing_before": 9,
+      "missing_after": 9,
+      "false_presence_before": 3,
+      "false_presence_after": 3,
+      "selection_status_counts": "{\"original_missing\": 21, \"observed_path_selection\": 37, \"short_segment_original\": 1, \"camera_transition_original\": 1}"
+    }
+  ],
+  "all_outputs_verified_original_target_frame_components": true,
+  "all_presence_and_missing_flags_preserved": true,
+  "original_correct_lost": 0,
+  "validation_parameters_fixed_on_training_only": true,
+  "post_evaluation_tuning": false,
+  "missing_recovery_claim": false,
+  "continuous_tracking_accuracy_claim": false,
+  "independent_external_accuracy": false,
+  "operating_on": "Raw original model candidates; existing human-reviewed ball overrides were not replaced",
+  "operational_registries_unchanged": true,
+  "protected_inputs_unchanged": true,
+  "interpretation": "Promising local candidate selection prototype. Old validation/audit previously seen; challenge4same-match actively selected near older frames. No pooling of sample counts across roles.",
+  "next": "Review temporal output on clips and retain explicit human corrections when integrating. Do not infer all context frames are correct from sparse targets."
+}

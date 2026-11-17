@@ -1,0 +1,16 @@
+{
+  "updated_stroke": [
+    [
+      1,
+      2
+    ]
+  ],
+  "changed_routes": [
+    "P1_H01",
+    "P1_H02"
+  ],
+  "first_serve_candidate_landing_shift_m": 0.17749976881755608,
+  "four_positions_in_revised_contact_frames": 5,
+  "receiving_pairs_with_bounce": 7,
+  "video_sha256": "14235a992156ef45ff7361fd68add41af5f12b89b0e6e506ecdd00297220d8a1"
+}

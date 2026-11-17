@@ -1,0 +1,226 @@
+{
+  "baseline": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 128,
+      "pred_visible": 100,
+      "presence_fn": 29,
+      "presence_tp": 99,
+      "localized_tp_16px": 96,
+      "wrong_localization": 3,
+      "presence_tn": 21,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.75,
+    "localization_precision_16px": 0.96,
+    "mean_error_both_visible_px": 7.390818987529981,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "temporal": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 128,
+      "pred_visible": 100,
+      "presence_fn": 29,
+      "presence_tp": 99,
+      "localized_tp_16px": 96,
+      "wrong_localization": 3,
+      "presence_tn": 21,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.75,
+    "localization_precision_16px": 0.96,
+    "mean_error_both_visible_px": 7.390818987529981,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "config": {
+    "radius": 128,
+    "camera": false,
+    "metrics": {
+      "counts": {
+        "frames": 150,
+        "truth_visible": 121,
+        "pred_visible": 88,
+        "presence_tp": 83,
+        "localized_tp_16px": 80,
+        "wrong_localization": 3,
+        "presence_tn": 24,
+        "presence_fn": 38,
+        "presence_fp": 5
+      },
+      "localization_recall_16px": 0.6611570247933884,
+      "localization_precision_16px": 0.9090909090909091,
+      "mean_error_both_visible_px": 7.758443525374216,
+      "median_error_both_visible_px": 3.1622776601683795
+    },
+    "lost_localized": 0,
+    "removed_nonlocalized": 1,
+    "withheld_frames": 17
+  },
+  "diagnostics": [
+    {
+      "candidate_id": "match1_motion_pilot_011",
+      "local_frame": 1022,
+      "reason": "unsupported_excursion",
+      "error_px": 550.3785014859857,
+      "model_points": 23,
+      "support_before": 21,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_011",
+      "local_frame": 1224,
+      "reason": "unsupported_excursion",
+      "error_px": 685.9159390918617,
+      "model_points": 7,
+      "support_before": 2,
+      "support_after": 5
+    },
+    {
+      "candidate_id": "match1_motion_pilot_012",
+      "local_frame": 319,
+      "reason": "unsupported_excursion",
+      "error_px": 705.7448988283388,
+      "model_points": 21,
+      "support_before": 19,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_012",
+      "local_frame": 383,
+      "reason": "unsupported_excursion",
+      "error_px": 759.398592454728,
+      "model_points": 14,
+      "support_before": 7,
+      "support_after": 7
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 626,
+      "reason": "unsupported_excursion",
+      "error_px": 789.5398967640779,
+      "model_points": 6,
+      "support_before": 4,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 630,
+      "reason": "unsupported_excursion",
+      "error_px": 783.9952988025015,
+      "model_points": 6,
+      "support_before": 4,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 751,
+      "reason": "unsupported_excursion",
+      "error_px": 298.5884284796183,
+      "model_points": 27,
+      "support_before": 4,
+      "support_after": 23
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 876,
+      "reason": "unsupported_excursion",
+      "error_px": 438.62627134858184,
+      "model_points": 15,
+      "support_before": 6,
+      "support_after": 9
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 1293,
+      "reason": "unsupported_excursion",
+      "error_px": 509.52490125606226,
+      "model_points": 16,
+      "support_before": 6,
+      "support_after": 10
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 1930,
+      "reason": "unsupported_excursion",
+      "error_px": 801.7452622630361,
+      "model_points": 8,
+      "support_before": 6,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": 24,
+      "reason": "unsupported_excursion",
+      "error_px": 496.4911278159963,
+      "model_points": 23,
+      "support_before": 19,
+      "support_after": 4
+    },
+    {
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": 28,
+      "reason": "unsupported_excursion",
+      "error_px": 432.7701468447194,
+      "model_points": 23,
+      "support_before": 19,
+      "support_after": 4
+    },
+    {
+      "candidate_id": "match1_motion_pilot_016",
+      "local_frame": 186,
+      "reason": "unsupported_excursion",
+      "error_px": 642.3992900060194,
+      "model_points": 13,
+      "support_before": 2,
+      "support_after": 11
+    },
+    {
+      "candidate_id": "match1_motion_pilot_016",
+      "local_frame": 773,
+      "reason": "unsupported_excursion",
+      "error_px": 292.2276509846391,
+      "model_points": 28,
+      "support_before": 26,
+      "support_after": 2
+    },
+    {
+      "candidate_id": "match1_motion_pilot_016",
+      "local_frame": 960,
+      "reason": "unsupported_excursion",
+      "error_px": 424.88604114419167,
+      "model_points": 8,
+      "support_before": 2,
+      "support_after": 6
+    },
+    {
+      "candidate_id": "match1_motion_pilot_017",
+      "local_frame": 384,
+      "reason": "unsupported_excursion",
+      "error_px": 351.6600947253218,
+      "model_points": 16,
+      "support_before": 8,
+      "support_after": 8
+    },
+    {
+      "candidate_id": "match1_motion_pilot_017",
+      "local_frame": 399,
+      "reason": "unsupported_excursion",
+      "error_px": 553.674597575146,
+      "model_points": 19,
+      "support_before": 2,
+      "support_after": 17
+    },
+    {
+      "candidate_id": "match1_motion_pilot_017",
+      "local_frame": 452,
+      "reason": "unsupported_excursion",
+      "error_px": 515.3759184111211,
+      "model_points": 18,
+      "support_before": 2,
+      "support_after": 16
+    }
+  ],
+  "selection_sha256": "238c54d954820add4efb1f9a95b032d2a38e9cfaccd03521d7bac2c4b0cc12e7",
+  "warning": "Reused development test, not independent external performance."
+}

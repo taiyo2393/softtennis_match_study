@@ -1,0 +1,140 @@
+[
+  {
+    "point": 1,
+    "scoring_side": "near",
+    "scoring_team": "船水・上松組",
+    "final_hitter_candidate": "F2",
+    "terminal_review_label": "hitting_side_out",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "bounce_candidate_frame": 12571,
+    "bounce_candidate_court_xy": [
+      0.5859552522474267,
+      -0.035279408396922306
+    ],
+    "geometry_midpoint": {
+      "source_frame": 12470,
+      "pair_court_xy": [
+        [
+          0.7604889992510179,
+          0.15533708529707213
+        ],
+        [
+          0.2677464117704493,
+          0.03222139822654435
+        ]
+      ],
+      "lateral_spacing_m": 5.405386184661837,
+      "depth_difference_m": 2.926459881666445,
+      "nearest_to_bounce_at_contact_m": 3.8418412196757608
+    },
+    "geometry_min_max": {
+      "lateral_spacing_m": [
+        5.369190766681985,
+        5.430304620854804
+      ],
+      "depth_difference_m": [
+        2.8219254995393306,
+        2.9569457554960508
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        3.796285697333829,
+        3.933523939726773
+      ]
+    }
+  },
+  {
+    "point": 2,
+    "scoring_side": "far",
+    "scoring_team": "内本・内田組",
+    "final_hitter_candidate": "F2",
+    "terminal_review_label": "no_return_observed",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "bounce_candidate_frame": 14074,
+    "bounce_candidate_court_xy": [
+      0.0027972691272386894,
+      0.05815027982091519
+    ],
+    "geometry_midpoint": {
+      "source_frame": 14019,
+      "pair_court_xy": [
+        [
+          0.7456098163599767,
+          -0.122248362254462
+        ],
+        [
+          0.30174263867959483,
+          0.09788530635947428
+        ]
+      ],
+      "lateral_spacing_m": 4.869222939153789,
+      "depth_difference_m": 5.232577302953265,
+      "nearest_to_bounce_at_contact_m": 3.412733358825806
+    },
+    "geometry_min_max": {
+      "lateral_spacing_m": [
+        4.840084503994374,
+        4.92204245226665
+      ],
+      "depth_difference_m": [
+        5.225398475672671,
+        5.289719265130794
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        3.3699427749863045,
+        3.4409982116540716
+      ]
+    }
+  },
+  {
+    "point": 3,
+    "scoring_side": "far",
+    "scoring_team": "内本・内田組",
+    "final_hitter_candidate": "F1",
+    "terminal_review_label": "no_return_observed",
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "bounce_candidate_frame": 15477,
+    "bounce_candidate_court_xy": [
+      0.5378145783965796,
+      0.17471148709024958
+    ],
+    "geometry_midpoint": {
+      "source_frame": 15461,
+      "pair_court_xy": [
+        [
+          0.7091643220970367,
+          -0.08303822499647562
+        ],
+        [
+          0.28166239494785095,
+          0.0329730046923099
+        ]
+      ],
+      "lateral_spacing_m": 4.689696140826568,
+      "depth_difference_m": 2.757586929702432,
+      "nearest_to_bounce_at_contact_m": 4.387144334064553
+    },
+    "geometry_min_max": {
+      "lateral_spacing_m": [
+        4.323025456411392,
+        4.999095051998895
+      ],
+      "depth_difference_m": [
+        2.540424080056967,
+        3.0582851653834675
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        4.1282373123167675,
+        4.686345644349998
+      ]
+    }
+  }
+]

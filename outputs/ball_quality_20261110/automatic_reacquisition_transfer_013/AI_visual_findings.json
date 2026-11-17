@@ -1,0 +1,76 @@
+{
+  "reviewer": "Codex AI chronological image inspection",
+  "candidate_id": "match1_rally_window_013",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": false,
+  "AI_identity_binding_added": false,
+  "contact_candidate_frames": [
+    33972,
+    33978
+  ],
+  "contact_status": "AI visual bracket frozen before tracking; not independent contact or service-validity GT",
+  "inspected_raw_context": [
+    "cohort_anchor_proposals/013/coarse_page_01.jpg",
+    "cohort_anchor_proposals/013/coarse_page_02.jpg",
+    "cohort_anchor_proposals/013/service_detail/page_01.jpg",
+    "cohort_anchor_proposals/013/service_detail/page_02.jpg",
+    "cohort_anchor_proposals/013/service_followthrough/page_01.jpg",
+    "phase_evidence/context_grid.jpg"
+  ],
+  "inspected_all_requested_identity_images": [
+    "phase_evidence/input_grid.jpg",
+    "fixed_input_identity/far_all31.jpg",
+    "fixed_input_identity/near_all31.jpg"
+  ],
+  "inspected_annotated_context": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg",
+    "gap_diagnostics/gap_01_far_rear.jpg",
+    "gap_diagnostics/gap_02_far_rear.jpg"
+  ],
+  "observation": "Available requested images show N1 on white/red near teammate, N2 on white/red near-right server, F1 on dark far player and F2 on orange far player. F1 overlaps near N1 and is unassigned for first11 requested times; shown reappearance corresponds to same dark far player. No obvious person swap in inspected assigned boxes.",
+  "fixed_window_requested_times": 31,
+  "four_observation_requested_times": 20,
+  "missing_requested_frames": [
+    34008,
+    34010,
+    34012,
+    34014,
+    34016,
+    34018,
+    34020,
+    34022,
+    34024,
+    34026,
+    34028
+  ],
+  "missing_slot": "far_rear",
+  "initial_F1_raw62_detections_in_missing_requested_frames": 0,
+  "other_fragment_candidates_not_certified_as_same_person": true,
+  "input_boundary_problem_visible": false,
+  "formal_point_end_frame_confirmed": false,
+  "exact_contact_time_newly_human_confirmed": false,
+  "service_validity_newly_human_confirmed": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "gap_observation": "Largest F1 gap33985..34028 shows overlapping near N1; raw62 is absent at all11 missing requested times. No interpolation. Accepted endpoints can be partial.",
+  "late_context_warning": "F34195 is broadcast dissolve; late new near-front raw1000011 is a one-frame context assignment, not a verified in-play recovery.",
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "AI_score_suggestion_not_promoted_to_human_label": true,
+  "offline_future_context_used_for_far_association": true,
+  "transfer_scope": "Frozen guard applied without tuning. All assignments except one omitted late near-front observation are identical, so original source images also describe shared assignments.",
+  "raw_near_ID_change_events": 1,
+  "near_ID_change_frames": [
+    34195
+  ],
+  "near_ID_change_in_fixed_input": false,
+  "near_ID_change_in_reviewed_clean_play_context": false,
+  "only_removed_assignment": {
+    "source_frame": 34195,
+    "slot": "near_front",
+    "raw_id": "1000011"
+  },
+  "evidence_for_new_guard_error_prevention": false,
+  "evidence_for_in_play_nonregression_on_this_context": true,
+  "guard_parameters_changed_after_013_inspection": false
+}

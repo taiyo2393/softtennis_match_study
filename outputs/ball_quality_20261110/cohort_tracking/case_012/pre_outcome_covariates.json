@@ -1,0 +1,11 @@
+{
+  "rally_candidate_id": "match1_rally_window_012",
+  "server_camera_side_candidate": "near",
+  "server_court_half_candidate": "left",
+  "serve_style_candidate": "low_swing_service",
+  "serve_attempt_number": "",
+  "review_status": "AI_visual_candidate_not_independent_human_GT",
+  "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\012\\contact_proposal.json",
+  "source_sha256": "a12d3eb68a4de76ad78cef88fb6962d84fc397decf53634dc35d5fb1bc6d59f2",
+  "source_fixed_before_tracking": true
+}

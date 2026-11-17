@@ -1,0 +1,13 @@
+{
+  "status": "body_part_candidate_promising_not_adopted",
+  "evidence": "Pose can separate the actual torso from the official at019F46511 and006F12421/12422. Pose-derived color raises a near-side appearance conflict for019F46665/F46666. Rear hidden player at019F46634 is not recovered.",
+  "limitations": "Mask-only color comparison has visibly present control-player rejection counterexamples002F2319 and009F21945/F21975. Identical clothing, small torso regions, pose contamination and one-frame anchors remain limitations. Keypoint confidence is not identity confidence or measured ground contact.",
+  "no_improvement_rate_claim": true,
+  "canonical_pipeline_replaced": false,
+  "current22_unchanged": true,
+  "confirmed_human_outcomes": 11,
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "next_unresolved_candidate": "match1_rally_window_019",
+  "next_action": "Use body-part evidence as a supplementary association signal and distinguish same-team ID conflicts from opposite-team/nonplayer conflicts. Test a fixed temporal association comparison on full retained cases before adoption; do not replace foot coordinates or reject on torso color alone."
+}

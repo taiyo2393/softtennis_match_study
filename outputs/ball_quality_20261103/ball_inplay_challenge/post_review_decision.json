@@ -1,0 +1,78 @@
+{
+  "status": "four_main_play_queries_evaluated_original_retained",
+  "human_confirmed_play_targets": 4,
+  "source_labels_sha256": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+  "frozen_predictions_sha256": "a493ab981ee122adf02829d3e123d2159b7a3e5d6a5227b9671859f9c484d8b8",
+  "baseline_correct_cases": [
+    "A",
+    "D"
+  ],
+  "baseline_correct_count": 2,
+  "alternative_comparisons": {
+    "component_peak": {
+      "correct": 3,
+      "new_correct_cases": [
+        "B",
+        "C"
+      ],
+      "original_correct_cases_lost": [
+        "A"
+      ],
+      "errors_px": {
+        "A": 573.1710041514661,
+        "B": 1.0,
+        "C": 3.0,
+        "D": 1.0
+      }
+    },
+    "bbox_mean": {
+      "correct": 3,
+      "new_correct_cases": [
+        "B",
+        "C"
+      ],
+      "original_correct_cases_lost": [
+        "A"
+      ],
+      "errors_px": {
+        "A": 573.1710041514661,
+        "B": 1.0,
+        "C": 3.0,
+        "D": 1.0
+      }
+    },
+    "component_mean": {
+      "correct": 3,
+      "new_correct_cases": [
+        "B",
+        "C"
+      ],
+      "original_correct_cases_lost": [
+        "A"
+      ],
+      "errors_px": {
+        "A": 573.1710041514661,
+        "B": 1.0,
+        "C": 3.0,
+        "D": 1.0
+      }
+    }
+  },
+  "mean_source_pixel_error": {
+    "bbox_area": 122.57947311815263,
+    "component_peak": 144.54275103786654,
+    "bbox_mean": 144.54275103786654,
+    "component_mean": 144.54275103786654
+  },
+  "operational_method": "bbox_area",
+  "operational_threshold": 0.3,
+  "operational_model_and_outputs_changed": false,
+  "reason": "Each score rule recovers B/C but loses previously correct A with a573px displacement. Single-frame score replacement does not satisfy nonregression.",
+  "new_audit_evaluation": false,
+  "audit_reason": "Challenge already reveals original-correct loss; no audit-based rule selection",
+  "training_use_forbidden": true,
+  "post_label_parameter_tuning": false,
+  "interpretation": "This is4 actively selected human-reviewed frames, not general tracking accuracy or trajectory correctness. All4 balls visible; no evaluation of absent-ball false output.",
+  "next": "Use training clips to design any temporal candidate selector, fixing rules before further evaluation. Preserve these4 labels for evaluation only; no new human input needed for the completed comparison.",
+  "protected_original_labels_weights_reviewed_outputs_unchanged": true
+}

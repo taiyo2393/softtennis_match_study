@@ -1,0 +1,141 @@
+{
+  "purpose": "descriptive output availability only; not accuracy or physical ball visibility",
+  "impact_intervals_still_AI_provisional": true,
+  "sampling": "source frame stride 2, nominal source FPS 60000/1001",
+  "windows": [
+    {
+      "stroke_id": "H01",
+      "hitter": "N2",
+      "first": 154088,
+      "last": 154104,
+      "output_kinds": {
+        "observed_assisted": 9
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H02",
+      "hitter": "F1",
+      "first": 154162,
+      "last": 154178,
+      "output_kinds": {
+        "observed_assisted": 9
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H03",
+      "hitter": "N1",
+      "first": 154192,
+      "last": 154208,
+      "output_kinds": {
+        "observed_assisted": 9
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H04",
+      "hitter": "F1",
+      "first": 154262,
+      "last": 154278,
+      "output_kinds": {
+        "observed_assisted": 6,
+        "estimated": 3
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H05",
+      "hitter": "N1",
+      "first": 154302,
+      "last": 154318,
+      "output_kinds": {
+        "observed_assisted": 8,
+        "estimated": 1
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H06",
+      "hitter": "F2",
+      "first": 154354,
+      "last": 154370,
+      "output_kinds": {
+        "observed_assisted": 9
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H07",
+      "hitter": "N2",
+      "first": 154476,
+      "last": 154492,
+      "output_kinds": {
+        "observed_assisted": 9
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H08",
+      "hitter": "F1",
+      "first": 154518,
+      "last": 154534,
+      "output_kinds": {
+        "observed_assisted": 9
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H09",
+      "hitter": "N2",
+      "first": 154644,
+      "last": 154660,
+      "output_kinds": {
+        "observed_assisted": 9
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H10",
+      "hitter": "F2",
+      "first": 154750,
+      "last": 154766,
+      "output_kinds": {
+        "observed_assisted": 7,
+        "estimated": 2
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H11",
+      "hitter": "N1",
+      "first": 154808,
+      "last": 154818,
+      "output_kinds": {
+        "observed_assisted": 6
+      },
+      "outside_existing_annotation_range": 0
+    },
+    {
+      "stroke_id": "H12",
+      "hitter": "F1",
+      "first": 154832,
+      "last": 154840,
+      "output_kinds": {
+        "observed_assisted": 4,
+        "missing": 1
+      },
+      "outside_existing_annotation_range": 1
+    },
+    {
+      "stroke_id": "H13",
+      "hitter": "N1",
+      "first": 154854,
+      "last": 154870,
+      "output_kinds": {
+        "missing": 9
+      },
+      "outside_existing_annotation_range": 9
+    }
+  ]
+}

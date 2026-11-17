@@ -1,0 +1,42 @@
+[
+  {
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_001_timing_comparison_h264.mp4",
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "2997/50",
+    "nb_frames": "240"
+  },
+  {
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_007_timing_comparison_h264.mp4",
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "2997/50",
+    "nb_frames": "240"
+  },
+  {
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\players_044_appearance_motion_guarded\\tracking_review_h264.mp4",
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "2997/50",
+    "nb_frames": "1035"
+  },
+  {
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\players_056_appearance_motion_guarded\\tracking_review_h264.mp4",
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "2997/50",
+    "nb_frames": "770"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "method": "current_temporal",
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_phase_scope_review\\frozen_current_temporal.csv",
+    "sha256": "df5c382a4aec304611df0f60a0b4870f5526e1618ac3029c2245c0ea79ac8b85"
+  },
+  {
+    "method": "native_missing_only",
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_phase_scope_review\\frozen_native_missing_only.csv",
+    "sha256": "d73b352a8692dade353e3695fde1fada197cf97c2aa16dc983b305f0557ea469"
+  },
+  {
+    "method": "crossscale_agreement16",
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_phase_scope_review\\frozen_crossscale_agreement16.csv",
+    "sha256": "941573ce9e93069e4da945dd85502cba7c70086e3dde74a8a9c407a960c983d5"
+  },
+  {
+    "method": "logistic10_oof",
+    "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_phase_scope_review\\frozen_logistic10_oof.csv",
+    "sha256": "d6a27206a15c5aa5c01e049998bf4140e0364482601ef2235f48b832cbfbe86d"
+  }
+]

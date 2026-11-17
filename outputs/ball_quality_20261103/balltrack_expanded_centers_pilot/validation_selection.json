@@ -1,0 +1,75 @@
+{
+  "family_choices": {
+    "control": {
+      "family": "original",
+      "epoch": 0,
+      "threshold": 0.3,
+      "checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+      "checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+      "metrics": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 80,
+          "wrong_localization": 2,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7619047619047619,
+        "localization_precision_16px": 0.963855421686747,
+        "mean_error_both_visible_px": 6.949994464709879
+      }
+    },
+    "expanded": {
+      "family": "original",
+      "epoch": 0,
+      "threshold": 0.3,
+      "checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+      "checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+      "metrics": {
+        "counts": {
+          "frames": 120,
+          "truth_visible": 105,
+          "pred_visible": 83,
+          "presence_fn": 23,
+          "presence_tp": 82,
+          "localized_tp_16px": 80,
+          "wrong_localization": 2,
+          "presence_tn": 14,
+          "presence_fp": 1
+        },
+        "localization_recall_16px": 0.7619047619047619,
+        "localization_precision_16px": 0.963855421686747,
+        "mean_error_both_visible_px": 6.949994464709879
+      }
+    }
+  },
+  "selected": {
+    "family": "original",
+    "epoch": 0,
+    "threshold": 0.3,
+    "checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+    "checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "metrics": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 83,
+        "presence_fn": 23,
+        "presence_tp": 82,
+        "localized_tp_16px": 80,
+        "wrong_localization": 2,
+        "presence_tn": 14,
+        "presence_fp": 1
+      },
+      "localization_recall_16px": 0.7619047619047619,
+      "localization_precision_16px": 0.963855421686747,
+      "mean_error_both_visible_px": 6.949994464709879
+    }
+  },
+  "audit_used_for_selection": false,
+  "automatic_adoption": false
+}

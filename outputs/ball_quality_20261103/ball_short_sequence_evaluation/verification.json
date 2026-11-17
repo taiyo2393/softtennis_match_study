@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "frozen_predictions": 52,
+  "labels": 26,
+  "existing_centers": 4,
+  "existing_play_anchors": 2,
+  "public_cases": 24,
+  "exact_images_checked": 24,
+  "video_range_responses": 24,
+  "invalid_saves_rejected": 2,
+  "decoded_video_frames": 3072,
+  "protected_inputs_unchanged": true,
+  "research_labels_written": false,
+  "model_predictions_hidden": true,
+  "browser_first_video": {
+    "ready_state": 4,
+    "dimensions": [
+      1280,
+      800
+    ],
+    "error": null
+  }
+}

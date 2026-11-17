@@ -1,0 +1,10 @@
+{
+  "pilot": "softtennis_frontcourt_study\\analysis\\person_tracker_comparison\\pilot_010",
+  "mode": "bytetrack",
+  "max_interpolate": 12,
+  "candidate_count": 0,
+  "accepted_count": 0,
+  "candidates": [],
+  "accepted": [],
+  "warning": "Accepted links are provisional until independently checked."
+}

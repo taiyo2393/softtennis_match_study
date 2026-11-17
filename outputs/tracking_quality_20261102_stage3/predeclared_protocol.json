@@ -1,0 +1,79 @@
+{
+  "intervals": [
+    {
+      "tag": "002",
+      "first_frame": 2223,
+      "last_frame": 2577,
+      "frames": 355,
+      "ready_segment": {
+        "video_id": "match1",
+        "segment_id": "match1_ready_002",
+        "start_timestamp_sec": "30.000000",
+        "end_timestamp_sec": "43.000000",
+        "start_source_frame": "1798",
+        "end_source_frame": "2577",
+        "scene_type": "analysis_ready_main_camera",
+        "cut_confidence": "geometry_and_background",
+        "main_camera_confidence": "0.989277",
+        "usable_for_analysis": "true",
+        "human_checked": "false",
+        "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+      },
+      "boundary_status": "candidate_interval_not_human_confirmed_point"
+    },
+    {
+      "tag": "005",
+      "first_frame": 8607,
+      "last_frame": 9051,
+      "frames": 445,
+      "ready_segment": {
+        "video_id": "match1",
+        "segment_id": "match1_ready_006",
+        "start_timestamp_sec": "133.500000",
+        "end_timestamp_sec": "151.000000",
+        "start_source_frame": "8002",
+        "end_source_frame": "9051",
+        "scene_type": "analysis_ready_main_camera",
+        "cut_confidence": "geometry_and_background",
+        "main_camera_confidence": "0.992196",
+        "usable_for_analysis": "true",
+        "human_checked": "false",
+        "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+      },
+      "boundary_status": "candidate_interval_not_human_confirmed_point"
+    },
+    {
+      "tag": "048",
+      "first_frame": 125859,
+      "last_frame": 126758,
+      "frames": 900,
+      "ready_segment": {
+        "video_id": "match1",
+        "segment_id": "match1_ready_050",
+        "start_timestamp_sec": "2098.500000",
+        "end_timestamp_sec": "2124.500000",
+        "start_source_frame": "125784",
+        "end_source_frame": "127343",
+        "scene_type": "analysis_ready_main_camera",
+        "cut_confidence": "geometry_and_background",
+        "main_camera_confidence": "0.982839",
+        "usable_for_analysis": "true",
+        "human_checked": "false",
+        "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+      },
+      "boundary_status": "candidate_interval_not_human_confirmed_point"
+    }
+  ],
+  "settings": "stage2 continuity_size_guard_far_crop, frozen before new inference",
+  "selection_reason": "early game, post-court-change occluded interval, later game; all same match",
+  "sha256": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\improve_players.py": "1fd1752d96af18b5aace1fce2b2128f4d008734aec9fe2f2997efa5aa1537b96",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\four_player_association.py": "363808475eb2dc12e8322ed3f753b81af81d1b2c66ce47d24e10377c528bf5e9",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\scripts\\96_select_four_players_pilot.py": "6fd9fedec519a277091c7ca820a0aa151d308eaff359de459e39475ae19d2c8c",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\racketvision-env\\Lib\\site-packages\\ultralytics\\cfg\\trackers\\bytetrack.yaml": "395701d947a749179dee3e327b1181b730c4ca98e7cac5a2ab05280aae573b8b"
+  },
+  "ultralytics_version": "8.4.146",
+  "max_interval_frames": 900,
+  "warning": "No independent identity labels; earlier snapshots existed for these points."
+}

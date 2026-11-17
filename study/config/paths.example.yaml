@@ -1,0 +1,4 @@
+# 実際の環境固有パスはこのファイルをコピーして paths.local.yaml に書く。
+# paths.local.yaml はGitに追加しない。
+project_root: C:/path/to/softtennis_frontcourt_study
+raw_video_root: D:/softtennis_research/raw_videos

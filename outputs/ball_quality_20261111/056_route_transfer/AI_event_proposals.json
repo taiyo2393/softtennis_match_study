@@ -1,0 +1,159 @@
+{
+  "reviewer": "AI chronological/native-image inspection,not independent human event GT",
+  "strokes": [
+    {
+      "id": "H01",
+      "slot": "near_rear",
+      "first": 154081,
+      "last": 154086,
+      "reference": 154086
+    },
+    {
+      "id": "H02",
+      "slot": "far_rear",
+      "first": 154152,
+      "last": 154160,
+      "reference": 154156
+    },
+    {
+      "id": "H03",
+      "slot": "near_front",
+      "first": 154182,
+      "last": 154190,
+      "reference": 154186
+    },
+    {
+      "id": "H04",
+      "slot": "far_rear",
+      "first": 154252,
+      "last": 154260,
+      "reference": 154256
+    },
+    {
+      "id": "H05",
+      "slot": "near_front",
+      "first": 154292,
+      "last": 154300,
+      "reference": 154296
+    },
+    {
+      "id": "H06",
+      "slot": "far_front",
+      "first": 154344,
+      "last": 154352,
+      "reference": 154348
+    },
+    {
+      "id": "H07",
+      "slot": "near_rear",
+      "first": 154468,
+      "last": 154474,
+      "reference": 154470
+    },
+    {
+      "id": "H08",
+      "slot": "far_rear",
+      "first": 154508,
+      "last": 154516,
+      "reference": 154512
+    },
+    {
+      "id": "H09",
+      "slot": "near_rear",
+      "first": 154634,
+      "last": 154642,
+      "reference": 154638
+    },
+    {
+      "id": "H10",
+      "slot": "far_front",
+      "first": 154740,
+      "last": 154748,
+      "reference": 154744
+    },
+    {
+      "id": "H11",
+      "slot": "near_front",
+      "first": 154786,
+      "last": 154806,
+      "reference": 154796
+    },
+    {
+      "id": "H12",
+      "slot": "far_rear",
+      "first": 154820,
+      "last": 154830,
+      "reference": 154824
+    },
+    {
+      "id": "H13",
+      "slot": "near_front",
+      "first": 154842,
+      "last": 154852,
+      "reference": 154846
+    }
+  ],
+  "visible_bounce_candidates": [
+    {
+      "id": "B01",
+      "frame": 154120,
+      "first": 154116,
+      "last": 154124,
+      "after": "H01",
+      "before": "H02",
+      "side": "far"
+    },
+    {
+      "id": "B02",
+      "frame": 154230,
+      "first": 154226,
+      "last": 154234,
+      "after": "H03",
+      "before": "H04",
+      "side": "far"
+    },
+    {
+      "id": "B03",
+      "frame": 154330,
+      "first": 154328,
+      "last": 154334,
+      "after": "H05",
+      "before": "H06",
+      "side": "far"
+    }
+  ],
+  "predicted_bounce_gaps": [
+    {
+      "id": "P01",
+      "first": 154428,
+      "last": 154444,
+      "after": "H06",
+      "before": "H07",
+      "side": "near"
+    },
+    {
+      "id": "P02",
+      "first": 154592,
+      "last": 154592,
+      "after": "H08",
+      "before": "H09",
+      "side": "near"
+    },
+    {
+      "id": "P03",
+      "first": 154722,
+      "last": 154722,
+      "after": "H09",
+      "before": "H10",
+      "side": "far"
+    }
+  ],
+  "uncertain": [
+    "H09 near N2 contact is partly outside left image; timing and proxy are weak.",
+    "H11 inferred within ball-missing neighborhood; broad interval retained.",
+    "Last net exchange H12/H13 is AI-provisional; original ball annotation ends154838.",
+    "Do not extend inherited human valid-serve/two-bounce-end facts to these timings or actors."
+  ],
+  "not_a_human_confirmed_13stroke_sequence": true,
+  "not_independent_accuracy": true
+}

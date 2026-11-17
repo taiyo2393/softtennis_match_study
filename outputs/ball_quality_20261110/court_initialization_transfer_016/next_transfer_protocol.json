@@ -1,0 +1,52 @@
+{
+  "next_candidate": "match1_rally_window_017",
+  "fixed_before_016_inspection": true,
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "court_initialization_code": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\court_initialization_guard.py",
+  "court_initialization_code_sha256": "79833b98b57eb4746a06a8e94f2af9c65839d7f2ab63da5ac4002adc7cf4cc54",
+  "calibration": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json",
+  "frozen_code_and_calibration_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\court_initialization_guard.py": "79833b98b57eb4746a06a8e94f2af9c65839d7f2ab63da5ac4002adc7cf4cc54",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\confirmed_continuity_guard.py": "72ea68f93575ded43cac6381b3ce045c8fae529c41be181157cd18854b72c4a3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\automatic_reacquisition_guard.py": "83abddbdf97f6bacb74aa3680a798f1f471f5d87c0f2a45fee5ebf4e2e90bb1a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\adaptive_near.py": "557b6034597de05e29b8f2600d6b9131e3e4ee37e21915bffdcf2dada959967d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\temporal_tracker.py": "df793d565a54fdd2f54ac491fe5305ac7779db8c05607ceee56ae0a7ee52b1cf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\improve_players.py": "1fd1752d96af18b5aace1fce2b2128f4d008734aec9fe2f2997efa5aa1537b96",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\four_player_association.py": "363808475eb2dc12e8322ed3f753b81af81d1b2c66ce47d24e10377c528bf5e9",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\scripts\\96_select_four_players_pilot.py": "6fd9fedec519a277091c7ca820a0aa151d308eaff359de459e39475ae19d2c8c"
+  },
+  "frozen_parameters": {
+    "court_x_min": -0.15,
+    "court_x_max": 1.15,
+    "court_y_min": -0.25,
+    "court_y_max": 1.25,
+    "denominator_epsilon": 1e-09,
+    "initialization_only": true
+  },
+  "initialization_confirmation_frames": 8,
+  "tracking_mask_after_initialization": false,
+  "modes": [
+    "baseline",
+    "court_seed_only",
+    "old_guard",
+    "court_seed_plus_old_guard"
+  ],
+  "individual_ID_binding_allowed_in_automatic_comparison": false,
+  "threshold_tuning_on_016": false,
+  "selection": "Next chronological pending candidate; retain failed initialization and unresolved phase, no visibility-driven substitution.",
+  "inherited_reacquisition_protocol": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\automatic_reacquisition_transfer_015\\next_transfer_protocol.json",
+  "previous_development_protocol": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_trial\\protocol.json",
+  "previous_development_protocol_sha256": "895d95740adeeda443b940e48a847fdbd0730d57cdf6e78b6e7e4c789514444a",
+  "scope": "First additional same-match transfer after rule design; not research-wide unseen footage or other-match independent validation.",
+  "phase_policy": "Retain inherited contact if available; otherwise freeze AI bracket from raw sequence before tracking. Never infer phase from initialization.",
+  "calibration_policy": "Rule requires same fixed camera. Inspect line alignment and phase; invalid camera view does not become a successful player initialization just because four boxes exist.",
+  "adoption": "Experimental only; do not replace canonical outputs or remove AI intervention provenance from existing analysis inputs.",
+  "previous_transfer_result": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_016\\result.json",
+  "previous_transfer_result_sha256": "58b4e36e2d45ec046ebcf4c747bd65d08981c31ba61d99c16b475ad54b6f9cc7",
+  "previous_transfer_visual_findings": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_016\\AI_visual_findings.json",
+  "previous_transfer_visual_findings_sha256": "bc79facb2b59e49e53302622088706011f9a0a8f68350b9deccded3d23c36706",
+  "previous_transfer_interpretation": "016 final paths and31timefeatures unchanged acrossfour modes; no extra initialization delay or nonplayer rescue opportunity. Retain24frame late F2 gap. Stable-output comparison only.",
+  "fixed_before_017_inspection": true,
+  "threshold_tuning_on_017": false
+}

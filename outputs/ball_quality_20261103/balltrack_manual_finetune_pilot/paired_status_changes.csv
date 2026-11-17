@@ -1,0 +1,17 @@
+﻿sample_id,role,candidate_id,local_frame,truth_visibility,truth_x_px,truth_y_px,before,after,old_x,old_y,new_x,new_y
+match1_motion_pilot_011_frame_001710,validation,match1_motion_pilot_011,1710,visible,1130,486,missed_visible,correct16,0,0,1128,489
+match1_motion_pilot_012_frame_000253,validation,match1_motion_pilot_012,253,not_visible,,,correct_no_output,false_output_on_not_visible,0,0,1108,526
+match1_motion_pilot_012_frame_000391,validation,match1_motion_pilot_012,391,visible,854,569,missed_visible,wrong_position,0,0,1539,543
+match1_motion_pilot_012_frame_000667,validation,match1_motion_pilot_012,667,visible,797,572,missed_visible,correct16,0,0,798,566
+match1_motion_pilot_013_frame_000015,validation,match1_motion_pilot_013,15,visible,1726,635,missed_visible,wrong_position,0,0,868,485
+match1_motion_pilot_014_frame_000324,validation,match1_motion_pilot_014,324,visible,704,666,missed_visible,wrong_position,0,0,1104,556
+match1_motion_pilot_014_frame_000454,validation,match1_motion_pilot_014,454,visible,508,791,missed_visible,correct16,0,0,510,793
+match1_motion_pilot_015_frame_000285,validation,match1_motion_pilot_015,285,visible,1118,603,missed_visible,wrong_position,0,0,1117,586
+match1_motion_pilot_015_frame_000323,validation,match1_motion_pilot_015,323,visible,1076,420,wrong_position,correct16,1140,624,1078,418
+match1_motion_pilot_017_frame_000951,validation,match1_motion_pilot_017,951,not_visible,,,correct_no_output,false_output_on_not_visible,0,0,999,547
+match1_motion_pilot_019_frame_000169,validation,match1_motion_pilot_019,169,visible,958,555,missed_visible,correct16,0,0,954,549
+match1_motion_pilot_019_frame_000325,validation,match1_motion_pilot_019,325,visible,968,669,missed_visible,wrong_position,0,0,1106,605
+match1_motion_pilot_002_frame_000048,audit,match1_motion_pilot_002,48,visible,1543,731,missed_visible,correct16,0,0,1541,729
+match1_motion_pilot_008_frame_000279,audit,match1_motion_pilot_008,279,visible,713,559,missed_visible,correct16,0,0,712,566
+match1_motion_pilot_016_frame_000194,audit,match1_motion_pilot_016,194,visible,1073,572,missed_visible,wrong_position,0,0,746,598
+match1_motion_pilot_018_frame_000232,audit,match1_motion_pilot_018,232,not_visible,,,correct_no_output,false_output_on_not_visible,0,0,1121,558

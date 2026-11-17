@@ -1,0 +1,34 @@
+{
+  "parameters": {
+    "min_box_height_ratio": 0.6,
+    "max_box_height_ratio": 1.65,
+    "min_torso_visible_fraction": 0.35,
+    "min_torso_pixels": 20,
+    "min_part_pixels": 12,
+    "visible_appearance_max": 0.65,
+    "negative_margin": 0.04,
+    "reference_distance_max_height": 0.75,
+    "selection_margin": 0.08,
+    "candidate_ids": "Only raw IDs of the same reviewed player immediately before or after this missing run",
+    "reference": "linear endpoint reference for candidate gating only; not exported",
+    "preserve_reviewed_rows": true,
+    "interpolation": false,
+    "automatic_adoption": false
+  },
+  "reviewed_input_sha256": "b07fbf0693637b2332ccea4a972904990016bf74c4afc9d6ae13e3c7a65926ff",
+  "reviewed_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\user_reviewed\\observed_player_paths.csv",
+  "original_raw_sha256": "de3d4aae6c52757e488c3bb4dac7630f9ed37ccec3e91fb4ddfa70ba571682d8",
+  "script_sha256": "f5b92ae9f0635c5680c18a158d8f13bd8b9c7f500a1778cd209f683820960d25",
+  "diagnosis_sha256": "9619342b3879d63e3d6d6ae5e33843393d09471edc2bbe5fc6121bf6e57582b1",
+  "scope": "One-clip development; preserve reviewed rows. Added rows have no prior human confirmation.",
+  "mask_method": "Pose torso polygon, head disc, limb capsules; bounding rectangle fallback if pose unreliable",
+  "wrapper_sha256": "5c0618a5e77b5de0e93e69c3d3d56807ab7d939609360252db46c2a664cf8204",
+  "pose_primitives_sha256": "520fbe3453ba72ff1357136a3d0e9bb1d575ef57067590977db7c0edab6e9fec",
+  "mask_parameters": {
+    "torso_polygon_scale": 1.12,
+    "head_radius_height": 0.09,
+    "arm_radius_height": 0.045,
+    "leg_radius_height": 0.065
+  },
+  "gating_parameters_unchanged_from_box_mask_prototype": true
+}

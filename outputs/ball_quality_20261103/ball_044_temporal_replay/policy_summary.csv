@@ -1,0 +1,6 @@
+﻿policy,reviewed_ball_candidates_retained,reviewed_ball_candidates_total,reviewed_false_candidates_selected,reviewed_false_candidates_total,retained_ball_candidate_ids,selected_false_candidate_ids,missed_ball_candidate_ids,unreviewed_candidate_selections_in_scored_window,qualifies_for_adoption
+highest_peak,8,8,3,4,1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A;1091:B,1090:A;1092:A;1093:A,,0,0
+forward_nearest,7,8,4,4,1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A,1090:A;1091:A;1092:A;1093:A,1091:B,0,0
+backward_nearest,8,8,3,4,1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A;1091:B,1090:A;1092:A;1093:A,,0,0
+two_direction_agreement,7,8,3,4,1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A,1090:A;1092:A;1093:A,1091:B,0,0
+velocity_gate,8,8,2,4,1083:A;1084:A;1085:A;1086:A;1087:A;1088:A;1089:A;1091:B,1092:A;1093:A,,0,0

@@ -1,0 +1,4 @@
+﻿pilot,slot,start_frame,end_frame,reason,priority,source_start_sec,source_end_sec,preview_path
+pilot_003,far_rear,512,515,player_missing,medium,8.542,8.592,C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\analysis\person_tracker_comparison\pilot_003\bytetrack_review_01.mp4
+pilot_004,far_rear,2556,2577,overlap_or_short_gap+player_missing,medium,42.643,42.993,C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\analysis\person_tracker_comparison\pilot_004\bytetrack_review_01.mp4
+pilot_005,far_front,4380,4386,player_missing+gap_relinked_review,high,73.073,73.173,C:\Users\ta239\Documents\Codex\2026-09-07\ai-2d-2d-1-2-0\softtennis_frontcourt_study\analysis\person_tracker_comparison\pilot_005\bytetrack_review_01.mp4

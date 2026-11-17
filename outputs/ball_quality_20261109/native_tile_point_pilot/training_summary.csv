@@ -1,0 +1,9 @@
+﻿method,phase_status,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable
+original_temporal,play,52,0,16,1,8
+original_temporal,nonplay,14,2,18,1,11
+previous_static_head,play,59,0,9,1,8
+previous_static_head,nonplay,17,2,15,3,9
+final_native_raw_peak,play,64,2,2,3,6
+final_native_raw_peak,nonplay,18,8,8,5,7
+final_native_missing_only,play,64,2,2,3,6
+final_native_missing_only,nonplay,18,9,7,5,7

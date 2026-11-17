@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "Structural/provenance checks and same-match development comparison, not tracking accuracy",
+  "baseline_exact_replays": 10,
+  "matched_output_csvs": 50,
+  "matched_native_observation_rows": 60726,
+  "v3_controls_unchanged": [
+    "002",
+    "005",
+    "006",
+    "009",
+    "012",
+    "015",
+    "017",
+    "018"
+  ],
+  "v3_removed_rows_all_cases": 9,
+  "v3_added_rows_all_cases": 0,
+  "prior019_AI_probe_rows_rejected": 5,
+  "prior019_AI_probe_rows_remaining": 2,
+  "adjacent_probe_frames_not_independent_trials": true,
+  "all_v3_requested_prefix_native_boxes_unchanged": true,
+  "export019_recalculated_feature_values": 379,
+  "export019_decoded_video_frames": 930,
+  "comparison_decoded_frames": 546,
+  "current22_inputs_unchanged": true,
+  "confirmed11_outcomes_preserved": true,
+  "canonical_pipeline_replaced": false,
+  "independent_identity_or_position_accuracy_established": false
+}

@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "one_frozen_training_selected_candidate": true,
+  "source_diagnostic_weights_preserved": true,
+  "train_clips_and_input_images_disjoint_from_followup": true,
+  "actual_same_frame_candidate_outputs_verified": 152,
+  "original_labels_and_registries_unchanged": true,
+  "summary": [
+    {
+      "role": "validation",
+      "frames": 120,
+      "correct_before": 81,
+      "correct_after": 82,
+      "errors_before": 2,
+      "errors_after": 2,
+      "correct_lost": 0,
+      "correct_gained": 1
+    },
+    {
+      "role": "challenge",
+      "frames": 4,
+      "correct_before": 4,
+      "correct_after": 4,
+      "errors_before": 0,
+      "errors_after": 0,
+      "correct_lost": 0,
+      "correct_gained": 0
+    },
+    {
+      "role": "short_sequence",
+      "frames": 26,
+      "correct_before": 26,
+      "correct_after": 26,
+      "errors_before": 0,
+      "errors_after": 0,
+      "correct_lost": 0,
+      "correct_gained": 0
+    },
+    {
+      "role": "audit",
+      "frames": 60,
+      "correct_before": 35,
+      "correct_after": 34,
+      "errors_before": 4,
+      "errors_after": 4,
+      "correct_lost": 1,
+      "correct_gained": 0
+    }
+  ],
+  "label_outcome_changes": [
+    {
+      "role": "validation",
+      "sample_id": "match1_motion_pilot_015_frame_000285",
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": "285",
+      "source_frame": "104820",
+      "before": "missing_visible_ball",
+      "after": "correct16px",
+      "old_x": "0",
+      "old_y": "0",
+      "new_x": "1125",
+      "new_y": "594",
+      "truth_x": "1118",
+      "truth_y": "603"
+    },
+    {
+      "role": "audit",
+      "sample_id": "match1_motion_pilot_002_frame_000832",
+      "candidate_id": "match1_motion_pilot_002",
+      "local_frame": "832",
+      "source_frame": "15637",
+      "before": "correct16px",
+      "after": "missing_visible_ball",
+      "old_x": "800",
+      "old_y": "562",
+      "new_x": "0",
+      "new_y": "0",
+      "truth_x": "806",
+      "truth_y": "564"
+    }
+  ],
+  "six_outputs_near_prior_false_locations_without_new_truth": true,
+  "audit_failure_preserved": true,
+  "no_post_audit_tuning": true,
+  "new_human_labels": 0,
+  "interpolation": 0,
+  "automatic_adoption": false,
+  "operational_outputs_changed": false
+}

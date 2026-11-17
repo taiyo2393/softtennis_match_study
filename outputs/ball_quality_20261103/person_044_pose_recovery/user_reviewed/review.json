@@ -1,0 +1,100 @@
+{
+  "review_id": "20261103_044_eleven_recovered_boxes_identity",
+  "recorded_date": "2026-11-03",
+  "reviewer": "human_user",
+  "question": "水色の追加枠は、それぞれ対応するF1・F2を囲めていますか？",
+  "answer": "それぞれ対応するF1・F2を囲めている",
+  "status": "human_video_confirmation_of_eleven_added_boxes",
+  "rally_candidate_id": "match1_rally_window_044",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "reviewed_local_frames": [
+    796,
+    797,
+    905,
+    906,
+    907,
+    912,
+    984,
+    985,
+    1112,
+    1113,
+    1114
+  ],
+  "reviewed_observations": [
+    {
+      "local_frame": 796,
+      "source_frame": 115431,
+      "slot": "far_front",
+      "raw_track_id": "20"
+    },
+    {
+      "local_frame": 797,
+      "source_frame": 115432,
+      "slot": "far_front",
+      "raw_track_id": "20"
+    },
+    {
+      "local_frame": 905,
+      "source_frame": 115540,
+      "slot": "far_rear",
+      "raw_track_id": "775"
+    },
+    {
+      "local_frame": 906,
+      "source_frame": 115541,
+      "slot": "far_rear",
+      "raw_track_id": "775"
+    },
+    {
+      "local_frame": 907,
+      "source_frame": 115542,
+      "slot": "far_rear",
+      "raw_track_id": "775"
+    },
+    {
+      "local_frame": 912,
+      "source_frame": 115547,
+      "slot": "far_rear",
+      "raw_track_id": "775"
+    },
+    {
+      "local_frame": 984,
+      "source_frame": 115619,
+      "slot": "far_rear",
+      "raw_track_id": "775"
+    },
+    {
+      "local_frame": 985,
+      "source_frame": 115620,
+      "slot": "far_rear",
+      "raw_track_id": "775"
+    },
+    {
+      "local_frame": 1112,
+      "source_frame": 115747,
+      "slot": "far_rear",
+      "raw_track_id": "870"
+    },
+    {
+      "local_frame": 1113,
+      "source_frame": 115748,
+      "slot": "far_rear",
+      "raw_track_id": "870"
+    },
+    {
+      "local_frame": 1114,
+      "source_frame": 115749,
+      "slot": "far_rear",
+      "raw_track_id": "870"
+    }
+  ],
+  "scope": "Only the eleven cyan recovery boxes correspond to their F1/F2 targets in the displayed video.",
+  "previous_review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\user_reviewed\\review.json",
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\recovery_review_h264.mp4",
+  "video_sha256": "21e91962cf8c3b91f5d2b4b9425d8a774dbcf2bc4b9e68091f07d74ad288edff",
+  "proposed_paths_sha256": "2a1dc31d10805afd9195d31bd83c12ae636a449e89a6b32e32e84585ccfe0043",
+  "independent_frame_identity_groundtruth": false,
+  "precise_box_or_footpoint_reviewed": false,
+  "remaining_gap_visibility_reviewed": false,
+  "near_player_identity_reviewed_here": false
+}

@@ -1,0 +1,9 @@
+﻿method,heldout_clip,real_total,real_kept,false_total,false_kept
+handcrafted672,legacy_match1:match1_motion_pilot_002,1,1,0,0
+handcrafted672,legacy_match1:match1_motion_pilot_008,2,1,2,1
+handcrafted672,legacy_match1:match1_motion_pilot_016,18,13,10,7
+handcrafted672,legacy_match1:match1_motion_pilot_018,0,0,3,3
+frozen_resnet18_512,legacy_match1:match1_motion_pilot_002,1,0,0,0
+frozen_resnet18_512,legacy_match1:match1_motion_pilot_008,2,1,2,0
+frozen_resnet18_512,legacy_match1:match1_motion_pilot_016,18,18,10,6
+frozen_resnet18_512,legacy_match1:match1_motion_pilot_018,0,0,3,3

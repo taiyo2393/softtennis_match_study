@@ -1,0 +1,147 @@
+[
+  {
+    "tag": "003",
+    "frames": 415,
+    "before_near_observations": 560,
+    "after_near_observations": 816,
+    "old_near_rows_retained": 560,
+    "removed_near_rows": 0,
+    "added_near_rows": 256,
+    "near_counts": {
+      "near_front": 408,
+      "near_rear": 408
+    },
+    "far_file_exactly_preserved": true,
+    "warning": "Availability and output changes, not identity accuracy. Same-match development experiment.",
+    "final_far_path_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\recompute\\tracking_quality_20261102_stage7\\players_003_global\\far_pair_path.csv",
+    "final_far_path_matches_previous": false,
+    "final_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\recompute\\tracking_quality_20261102_stage7\\players_003_global\\global_review_h264.mp4",
+    "combined_four_observed_frames": 301,
+    "observed_positions_match_source_boxes": true,
+    "one_to_one_assignments": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "415"
+    }
+  },
+  {
+    "tag": "002",
+    "frames": 355,
+    "before_near_observations": 614,
+    "after_near_observations": 614,
+    "old_near_rows_retained": 614,
+    "removed_near_rows": 0,
+    "added_near_rows": 0,
+    "near_counts": {
+      "near_front": 348,
+      "near_rear": 266
+    },
+    "far_file_exactly_preserved": true,
+    "warning": "Availability and output changes, not identity accuracy. Same-match development experiment.",
+    "final_far_path_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_002_temporal\\frozen_far_path.csv",
+    "final_far_path_matches_previous": true,
+    "final_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_002_temporal\\combined_review_h264.mp4",
+    "combined_four_observed_frames": 222,
+    "observed_positions_match_source_boxes": true,
+    "one_to_one_assignments": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "355"
+    }
+  },
+  {
+    "tag": "005",
+    "frames": 445,
+    "before_near_observations": 854,
+    "after_near_observations": 854,
+    "old_near_rows_retained": 854,
+    "removed_near_rows": 0,
+    "added_near_rows": 0,
+    "near_counts": {
+      "near_front": 427,
+      "near_rear": 427
+    },
+    "far_file_exactly_preserved": true,
+    "warning": "Availability and output changes, not identity accuracy. Same-match development experiment.",
+    "final_far_path_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_005_temporal\\frozen_far_path.csv",
+    "final_far_path_matches_previous": true,
+    "final_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_005_temporal\\combined_review_h264.mp4",
+    "combined_four_observed_frames": 220,
+    "observed_positions_match_source_boxes": true,
+    "one_to_one_assignments": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "445"
+    }
+  },
+  {
+    "tag": "007",
+    "frames": 600,
+    "before_near_observations": 1186,
+    "after_near_observations": 1186,
+    "old_near_rows_retained": 1186,
+    "removed_near_rows": 0,
+    "added_near_rows": 0,
+    "near_counts": {
+      "near_front": 593,
+      "near_rear": 593
+    },
+    "far_file_exactly_preserved": true,
+    "warning": "Availability and output changes, not identity accuracy. Same-match development experiment.",
+    "final_far_path_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_007_temporal\\frozen_far_path.csv",
+    "final_far_path_matches_previous": true,
+    "final_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_007_temporal\\combined_review_h264.mp4",
+    "combined_four_observed_frames": 553,
+    "observed_positions_match_source_boxes": true,
+    "one_to_one_assignments": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "600"
+    }
+  },
+  {
+    "tag": "048",
+    "frames": 900,
+    "before_near_observations": 1770,
+    "after_near_observations": 1770,
+    "old_near_rows_retained": 1770,
+    "removed_near_rows": 0,
+    "added_near_rows": 0,
+    "near_counts": {
+      "near_front": 885,
+      "near_rear": 885
+    },
+    "far_file_exactly_preserved": true,
+    "warning": "Availability and output changes, not identity accuracy. Same-match development experiment.",
+    "final_far_path_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_048_temporal\\frozen_far_path.csv",
+    "final_far_path_matches_previous": true,
+    "final_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_048_temporal\\combined_review_h264.mp4",
+    "combined_four_observed_frames": 515,
+    "observed_positions_match_source_boxes": true,
+    "one_to_one_assignments": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "900"
+    }
+  }
+]

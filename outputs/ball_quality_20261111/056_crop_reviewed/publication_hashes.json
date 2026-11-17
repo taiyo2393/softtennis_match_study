@@ -1,0 +1,10 @@
+{
+  "056_reviewed_ball_observations.csv": "dcd3b2fb5f371514a8f8accab4930e8b50443869c28d42be038c0ba535acc570",
+  "crop_candidate_rows_with_review.csv": "e6a7be3aaa8df9db63aa8ae5f909aa56852ee7fe6896358b460eeac3e4350557",
+  "decision.json": "dd9683d5416122715c935c1309e6d06fc09b36b127941d8ae72b91b12a1a4cf9",
+  "executed_confirmation.py": "342dbb06c6cf1a61bfc5c078cb8d7e2fcecdc8c55dbee61a654193fa31cd2c17",
+  "human_candidate_review.json": "d2181b09af22b1af20d912b2b6545e2d397a421308aaabf8ac0ce3915d107c40",
+  "README.md": "a375cc12fb1f479398fea2a5ee42d8a061da100a4b2fc1486cd26157f85e3e7a",
+  "scoped_candidate_review.csv": "cee23fa3e349e1ef7f6d656acf1560e21d80b167b10946f86c410f3cc3833c5a",
+  "verification.json": "ee075c23a16b3bc32ac93e4316ba92d3b357b70947bde368ffacdd985c8633a6"
+}

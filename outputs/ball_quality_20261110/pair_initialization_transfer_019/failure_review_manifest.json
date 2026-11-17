@@ -1,0 +1,43 @@
+{
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_019\\tracking_quality_20261102_stage7\\players_019_global\\global_review_h264.mp4",
+  "source_video_sha256": "efce21d7862558f7e3ca4b1aa947fee63d540268c418475aa0220b70745f3c4d",
+  "segments": [
+    {
+      "first": 46480,
+      "last": 46540,
+      "label": "A: inspect F1 near background official"
+    },
+    {
+      "first": 46620,
+      "last": 46700,
+      "label": "B: inspect F2 at near-player crossing"
+    }
+  ],
+  "crop_on_1920x1080_video_xyxy": [
+    600,
+    480,
+    1400,
+    950
+  ],
+  "source_fps": 59.94005994005994,
+  "repeated_output_frames_per_source": 3,
+  "display_speed_fraction": 0.3333333333333333,
+  "aspect_preserved": true,
+  "selection": "AI-diagnosed failure neighborhoods, not representative tracking-accuracy sampling",
+  "script_sha256": "3d718846ceeee0e6ce0ad69d4572f84846ee70abe37ced41e1e0c383994c26a8",
+  "output_frames": 426,
+  "decoded_frames": 426,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "video_sha256": "ea74ff9b8874b0c1aa3260ec4b0d13a137cc33b6726b3d2414a6039f62b04586",
+  "QA_image_sha256": "285439cce2b44986aa2a8665e31b8be5ba7d55ef582aa8dc0e1a8ee984e8cbce",
+  "QA_source_frames": [
+    46503,
+    46511,
+    46665,
+    46685
+  ],
+  "is_corrected_tracking_demonstration": false
+}

@@ -1,0 +1,494 @@
+{
+  "match1_motion_pilot_001_frame_000016": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000016.jpg",
+    "sha256": "c816c239e27afa6a59c3af14b39be20d1d4cbab346f873f5ba25b1a172804e41"
+  },
+  "match1_motion_pilot_001_frame_000048": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000048.jpg",
+    "sha256": "626a043303e5161d0c631f1106afdc7a952628ef84dc5bea1bbdce6d9e06c0d2"
+  },
+  "match1_motion_pilot_001_frame_000080": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000080.jpg",
+    "sha256": "127eec92830d8cffecf16fc98dc7382efd439d800f0683242f9ba2547188d68c"
+  },
+  "match1_motion_pilot_001_frame_000112": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000112.jpg",
+    "sha256": "b6bea21a24a1c67243a7409254e26c6ce610954ce5f66012fb50a1b401c43c23"
+  },
+  "match1_motion_pilot_001_frame_000144": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000144.jpg",
+    "sha256": "79227e18a19cbed2dc592954743bc126be27f6bea7e9b92ce4b537dcf201e991"
+  },
+  "match1_motion_pilot_001_frame_000176": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000176.jpg",
+    "sha256": "f309e8f6f8d8a8736137a2ad6d73a39a1068b1abcd45c8bb86157878d54553ae"
+  },
+  "match1_motion_pilot_001_frame_000208": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000208.jpg",
+    "sha256": "c59cf9866040f2f776fd998922d0629572d684e85ab5cd9b57994cd19c42f794"
+  },
+  "match1_motion_pilot_001_frame_000240": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000240.jpg",
+    "sha256": "4d7dcacd771a605d27ba732b6f213235d985ab17c1e8535bcb06760a8bedddf0"
+  },
+  "match1_motion_pilot_001_frame_000272": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000272.jpg",
+    "sha256": "c9645872ff313e44b85f81416bc921e6bcc5963e191d2a3b81565307ca535829"
+  },
+  "match1_motion_pilot_001_frame_000304": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000304.jpg",
+    "sha256": "bc2c138db35ba1dced474f87d458f6bd6f841c78d429f75b9c49d13e64512c60"
+  },
+  "match1_motion_pilot_001_frame_000336": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000336.jpg",
+    "sha256": "3273db1cade5f472cce34554349d2ddd5fbbfda58ea8fa906775c4a33fbc62ba"
+  },
+  "match1_motion_pilot_001_frame_000368": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000368.jpg",
+    "sha256": "5bbd0357cc0b1f7da7919efc1fd5c82ae6d3ba97649f3a324588dd08613107c3"
+  },
+  "match1_motion_pilot_001_frame_000400": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000400.jpg",
+    "sha256": "b68c829ca2ab058c3ebcb71904de0bed5bf60fa8a88fb9011ed0aa2354fe898e"
+  },
+  "match1_motion_pilot_001_frame_000432": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000432.jpg",
+    "sha256": "0b9619741fd80b406ee6b3748c41888e63809692fb797df444072e8133b79282"
+  },
+  "match1_motion_pilot_001_frame_000464": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\frames\\000464.jpg",
+    "sha256": "2c8184a22bfa9f01ab844f44303ae1326ab8b01b95026ba063d520dcbd3c4c99"
+  },
+  "match1_motion_pilot_003_frame_000029": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000029.jpg",
+    "sha256": "e82fd0d17f57fe1bbf9639b645eed2f288a88f221357d200fcb5aaf82f2ff762"
+  },
+  "match1_motion_pilot_003_frame_000087": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000087.jpg",
+    "sha256": "deccbd71e8277ecc9f3e63a395b038488caed3822c53a775d5a1e02785d78172"
+  },
+  "match1_motion_pilot_003_frame_000145": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000145.jpg",
+    "sha256": "734e02d73dfa959308fe68675e9ba824555ffbd5b41fa94ab68d31975f074720"
+  },
+  "match1_motion_pilot_003_frame_000203": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000203.jpg",
+    "sha256": "b7675d9299a0bb10d97dc333cd7ffb9cb72a9711b6ed13cf4b75f229b3b1b08a"
+  },
+  "match1_motion_pilot_003_frame_000261": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000261.jpg",
+    "sha256": "f1784299ef705ce31b09859165b6020b45be4dff3125dcad867d849be8e5f037"
+  },
+  "match1_motion_pilot_003_frame_000319": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000319.jpg",
+    "sha256": "6a604d33a4c4bd216be7119d47b64015388f24fb457335b995e2f1823cef2d62"
+  },
+  "match1_motion_pilot_003_frame_000377": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000377.jpg",
+    "sha256": "c3ae5f103a48400926891f98146d6ee99a846aeea3927eb74a8ac6d1433d4522"
+  },
+  "match1_motion_pilot_003_frame_000435": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000435.jpg",
+    "sha256": "32dae30f0323d9d860f3197786cf8dc7da4467cb6e78995efd88c0f58a78984a"
+  },
+  "match1_motion_pilot_003_frame_000493": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000493.jpg",
+    "sha256": "f5f18b71b90095c0fc31f9d88641ddd94bd0f141774e5288711d4fa48467b372"
+  },
+  "match1_motion_pilot_003_frame_000551": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000551.jpg",
+    "sha256": "a2bca502c032f917000a22639e0df7aa26c8a338a77e7c79ae7e6922b482094a"
+  },
+  "match1_motion_pilot_003_frame_000609": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000609.jpg",
+    "sha256": "72eea2c725230f54c8195b075df9aed2d3b77b9dff4fb6edb808a50f6c49322c"
+  },
+  "match1_motion_pilot_003_frame_000667": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000667.jpg",
+    "sha256": "855ea0e3a094a3f231812c5a7506a5ee274aeaf8a619ea98d38e827aa299dd58"
+  },
+  "match1_motion_pilot_003_frame_000725": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000725.jpg",
+    "sha256": "7f782f16d8e8aff80162b1d4f64c38801cfa6bf1f4b2d267c37216ff8775baeb"
+  },
+  "match1_motion_pilot_003_frame_000783": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000783.jpg",
+    "sha256": "27a38fa155d0e7c7c66752b2195bf17b6a83627c5a40afbedcf7172431e59944"
+  },
+  "match1_motion_pilot_003_frame_000841": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000841.jpg",
+    "sha256": "01434c5b6b2ce0d97c371017d640baea128d19a96595e6799651632fcf1bdba9"
+  },
+  "match1_motion_pilot_004_frame_000014": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000014.jpg",
+    "sha256": "471c2762c79328000adc8e1eb50ba52b033e4a53ab15ae3ae6feef107586ecaa"
+  },
+  "match1_motion_pilot_004_frame_000042": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000042.jpg",
+    "sha256": "c7678a86bb3acf5ee45fea84e7b67a452af1f0f19ec49a8efb43d59f7cdeb413"
+  },
+  "match1_motion_pilot_004_frame_000070": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000070.jpg",
+    "sha256": "9ded2beb1c414ca50d63e74bafbfc115af1d126229f2af2a730f3c58248d6d2e"
+  },
+  "match1_motion_pilot_004_frame_000098": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000098.jpg",
+    "sha256": "c2cfa0cd0858947a35f10624362f342d0ad0d284217f9edd9df5a5db688761b6"
+  },
+  "match1_motion_pilot_004_frame_000126": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000126.jpg",
+    "sha256": "7319e63dccd6b4681c77d5aefea315a2a40097ee19fb1a2a0b9b214166456c5a"
+  },
+  "match1_motion_pilot_004_frame_000154": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000154.jpg",
+    "sha256": "657009e85f0ea8de50ac8fcf1beba7c5c9245487d60a4c6f542b8d88d562477f"
+  },
+  "match1_motion_pilot_004_frame_000182": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000182.jpg",
+    "sha256": "97de26dd6544bb8dba635780d5cfc4cfd81d98b7d11526455ec4583f3ad9c260"
+  },
+  "match1_motion_pilot_004_frame_000210": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000210.jpg",
+    "sha256": "4a2a7eb4b601b7481eaa5d918968da608dbcb606afe6db413440a49da1aee2d2"
+  },
+  "match1_motion_pilot_004_frame_000238": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000238.jpg",
+    "sha256": "89dd3e9763418d673f75f779ed69838ce13aba08cdbe48adf6f8426f3a1d84b1"
+  },
+  "match1_motion_pilot_004_frame_000266": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000266.jpg",
+    "sha256": "639148bd240d26f6d60edc435ad876a437fb3ca7f12a0605bc378f9ad4615b20"
+  },
+  "match1_motion_pilot_004_frame_000294": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000294.jpg",
+    "sha256": "85e685ab643297c58fa2b51310d4f944feb08379533009b7e3e3167bf454a5ed"
+  },
+  "match1_motion_pilot_004_frame_000322": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000322.jpg",
+    "sha256": "6c1dcfc451e28d58962a23ae5bdb31e9d200e71d3101661edca4a895695038d7"
+  },
+  "match1_motion_pilot_004_frame_000350": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000350.jpg",
+    "sha256": "cb67d59f7f74e2cc40d6dc19e486bb5a071f427af0f5ffa6515711ea972b418a"
+  },
+  "match1_motion_pilot_004_frame_000378": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000378.jpg",
+    "sha256": "2c6668a886bcf433270c4d7c404a7fd72a339ecec1b9284b08dcede876f82afe"
+  },
+  "match1_motion_pilot_004_frame_000406": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_004\\frames\\000406.jpg",
+    "sha256": "d590d7b1433c77f2a032744106ac2623b075e7bef10f4fa3b93ec395ed4de960"
+  },
+  "match1_motion_pilot_005_frame_000021": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000021.jpg",
+    "sha256": "148cc299346268726659247f13ecd7c57559dbb46ae5fec63472854da5364a38"
+  },
+  "match1_motion_pilot_005_frame_000063": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000063.jpg",
+    "sha256": "f77fb93b03c3ae302712aaaf828ce89cb5e52c6056100e45f64595c3a0a964fb"
+  },
+  "match1_motion_pilot_005_frame_000105": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000105.jpg",
+    "sha256": "80bf6c1c4cfecb16ae043e4a6651afa31c660b0e4f5aea36c20c8fcbeeb80eb5"
+  },
+  "match1_motion_pilot_005_frame_000147": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000147.jpg",
+    "sha256": "656fd0e6f531883ac8b8dd644102b2c640ec7446b930a448720e13b2716b5a00"
+  },
+  "match1_motion_pilot_005_frame_000189": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000189.jpg",
+    "sha256": "9f4a7d70ce56e88214838f712d34a0cb0b779ece8c59ec29299b8eb52cbb794b"
+  },
+  "match1_motion_pilot_005_frame_000231": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000231.jpg",
+    "sha256": "177d3f84a5e0947fa38d432149da45b997491cb8c314535fbafb39938094ffa2"
+  },
+  "match1_motion_pilot_005_frame_000273": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000273.jpg",
+    "sha256": "9a0772fe7b5a7f0f5cdd08b755d53a0527e1d9883c7c7ae37b3932c9e53363f0"
+  },
+  "match1_motion_pilot_005_frame_000315": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000315.jpg",
+    "sha256": "a79c4508e3c777710d0b5f3c7780cd8ab2122fcbf5059abb5e54faa96370ca54"
+  },
+  "match1_motion_pilot_005_frame_000357": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000357.jpg",
+    "sha256": "8be5f5e3b545ef2dc8a881784d250768496757de21b99829f6f261e1472ea60f"
+  },
+  "match1_motion_pilot_005_frame_000399": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000399.jpg",
+    "sha256": "db941e13e7ea3c118b4ec5ff52f55514abdf704fd047c459d7eb36ca816734e7"
+  },
+  "match1_motion_pilot_005_frame_000441": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000441.jpg",
+    "sha256": "ea61bee9f2d8b2a8e8be2db1e1aa9c1b0211151491ea8f251fa5104de85ae1e8"
+  },
+  "match1_motion_pilot_005_frame_000483": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000483.jpg",
+    "sha256": "cd2dcc3f22bf10221fba3de30cf10a0d6e5e572e0cb4d6ab16076961f3a864e4"
+  },
+  "match1_motion_pilot_005_frame_000525": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000525.jpg",
+    "sha256": "aa9d60b592db47ad9c618109d7318cc814900a4a5b8e087dd5b5cd2b25853846"
+  },
+  "match1_motion_pilot_005_frame_000567": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000567.jpg",
+    "sha256": "e92ce5a118e8e64ddd8b22122a464ab12d60d6a312ccfb3d56cd513548079e82"
+  },
+  "match1_motion_pilot_005_frame_000609": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_005\\frames\\000609.jpg",
+    "sha256": "42c7c11a7966f1e8fcb626ac283c6804cb4b08e0574e43e058d565a676ae0e1c"
+  },
+  "match1_motion_pilot_006_frame_000031": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000031.jpg",
+    "sha256": "530e11391116359e23064d1f8195a70602a42acabd45bfad56c4d4366ed35866"
+  },
+  "match1_motion_pilot_006_frame_000093": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000093.jpg",
+    "sha256": "3eb928c154b1d974be57e0a27abacba3a8a68e6ec703ce13e56a62a39a62812d"
+  },
+  "match1_motion_pilot_006_frame_000155": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000155.jpg",
+    "sha256": "0caa642aff36bca5de765bef1f1e5408eec3be7350b8d7038fcef242da62e09e"
+  },
+  "match1_motion_pilot_006_frame_000217": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000217.jpg",
+    "sha256": "45f2b1d96d94f3a9d2c1f004003a75a32e80e286051e3f3cea6c1f263ec3f7df"
+  },
+  "match1_motion_pilot_006_frame_000279": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000279.jpg",
+    "sha256": "4e1bac9491a9fc03b4ddc85ef2d71670807e4c4f84a6b9e755c36a54b505b256"
+  },
+  "match1_motion_pilot_006_frame_000341": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000341.jpg",
+    "sha256": "ebbb5e4fd2842acaae2965ab699105973ce58159edf8ebe6f6057ee548016c95"
+  },
+  "match1_motion_pilot_006_frame_000403": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000403.jpg",
+    "sha256": "597a3e6d5cbd50a53e6e019ca4f412b9867c8b2ef4a2d77ad532f7a76f6d10e0"
+  },
+  "match1_motion_pilot_006_frame_000465": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000465.jpg",
+    "sha256": "7458f4176062a49eb214aebeea1171f2a5c718c09df705207a036ca8ad5435da"
+  },
+  "match1_motion_pilot_006_frame_000527": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000527.jpg",
+    "sha256": "9abd2f2a28b1816d9e122dce5d227044b95424e337f4848be1fd0c0f5079d974"
+  },
+  "match1_motion_pilot_006_frame_000589": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000589.jpg",
+    "sha256": "5aefddcbc3a4e9f0868b0b169ffc43011547dcaf9f464f3f06dd404887f587f4"
+  },
+  "match1_motion_pilot_006_frame_000651": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000651.jpg",
+    "sha256": "beb83a8e7ee60eee0ee4705a916126117751e268ac56c3a1cd314496da5f2e40"
+  },
+  "match1_motion_pilot_006_frame_000713": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000713.jpg",
+    "sha256": "209c1c0e18e916c3ceac6019a18a2431b320e7be77964823f1de0c6f2788db4f"
+  },
+  "match1_motion_pilot_006_frame_000775": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000775.jpg",
+    "sha256": "2b7fe6721caff7498b8f96612a5a05f67ea8e848a7e2d0ec3bb100fe53595591"
+  },
+  "match1_motion_pilot_006_frame_000837": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000837.jpg",
+    "sha256": "a7b9a3f216346090d5a17915beeb019ce0b5450dc8c707266845207d0ebcb64c"
+  },
+  "match1_motion_pilot_006_frame_000899": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000899.jpg",
+    "sha256": "3fa6b9d367c149fff9959203879c2e1e362afdfe39e0cf9307ae696d2e608530"
+  },
+  "match1_motion_pilot_007_frame_000032": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000032.jpg",
+    "sha256": "75490ad07c3a036dc083b3a28c6ea0e11af79b15a3384887954de10019a3cb4f"
+  },
+  "match1_motion_pilot_007_frame_000096": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000096.jpg",
+    "sha256": "aebf1512a051621c2a3ffba0e988df2500cc9c9f135ff7c39ed04002bf5def8e"
+  },
+  "match1_motion_pilot_007_frame_000160": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000160.jpg",
+    "sha256": "edb2c0ecf397fb6328951e2b4421e2200f8a7c6a7e103b48bca787052c829e05"
+  },
+  "match1_motion_pilot_007_frame_000224": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000224.jpg",
+    "sha256": "b83af342d927d97caba810973baa2ce733ea88845aefd863ebe1b69a5001740c"
+  },
+  "match1_motion_pilot_007_frame_000288": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000288.jpg",
+    "sha256": "2036af33358badc129705993bed5929c0fdb0816b2462cb88b0736eed0940f3b"
+  },
+  "match1_motion_pilot_007_frame_000352": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000352.jpg",
+    "sha256": "0961b17c2894594d05f76f71a6e00b0b7cf32c4a6fc6f37b66c5a7e1250de97d"
+  },
+  "match1_motion_pilot_007_frame_000416": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000416.jpg",
+    "sha256": "05e25ccfe3b8b72b883933290bbb55da186cb8f1e556eb1a1a47bd6b8f435f56"
+  },
+  "match1_motion_pilot_007_frame_000480": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000480.jpg",
+    "sha256": "81ba8e3ea59ba50512ec27884ec36bdbbb6aad77fb5d1d4d8660b6957499b8ed"
+  },
+  "match1_motion_pilot_007_frame_000544": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000544.jpg",
+    "sha256": "bc1cc54c72cd0189dfaec143f91ff2d6ee77f05e0a9c346789cb9c818e7ae7c5"
+  },
+  "match1_motion_pilot_007_frame_000608": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000608.jpg",
+    "sha256": "ee73a5d410b0e644c0dfdd0cc56c00959297800f0ecbe322034ba96b49f5860d"
+  },
+  "match1_motion_pilot_007_frame_000672": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000672.jpg",
+    "sha256": "dd06e6751f0c9194d93f1f0dfc52438226c972191679ee7a03ebe7b40834745a"
+  },
+  "match1_motion_pilot_007_frame_000736": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000736.jpg",
+    "sha256": "3b9b6b5ede6f8dd3f4f1c0b748e061634e41da93433165fd032f12a425e1909e"
+  },
+  "match1_motion_pilot_007_frame_000800": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000800.jpg",
+    "sha256": "6da6f161db095206eb626ca51a12b00053d65649dabe071e87dd6fee72e7f11a"
+  },
+  "match1_motion_pilot_007_frame_000864": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000864.jpg",
+    "sha256": "9e769903d6d9d143347ccc178caf95e14a9f6affee8c2050f5e9ce0451c47b44"
+  },
+  "match1_motion_pilot_007_frame_000928": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000928.jpg",
+    "sha256": "15bbdedcec03171caab75317a0086dc911f674ff2045ff7acef2784b2c0a7fe2"
+  },
+  "match1_motion_pilot_009_frame_000039": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000039.jpg",
+    "sha256": "33a46cd1ce3ccce32dbb1797cc7718589ddc3d6655a8c733eec044221fdc70c8"
+  },
+  "match1_motion_pilot_009_frame_000119": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000119.jpg",
+    "sha256": "6752bfe52d595b8ec31fa4b0cea957aa63723275f1067c2efbfb1057c26f1fe8"
+  },
+  "match1_motion_pilot_009_frame_000199": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000199.jpg",
+    "sha256": "9a280e7b3449e58c002627d381ed63f7ab29feaf7bbc9e2456ebeb197129627d"
+  },
+  "match1_motion_pilot_009_frame_000279": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000279.jpg",
+    "sha256": "e96c6f01d7372cfaed874b1df537df27e0097fbb1ee3dc167bbe9d30a7ea5f73"
+  },
+  "match1_motion_pilot_009_frame_000359": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000359.jpg",
+    "sha256": "b4b161bc1dead3896ce9fc5a402dbfef6d73849a24bb7918a542f3d5e2becbf3"
+  },
+  "match1_motion_pilot_009_frame_000439": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000439.jpg",
+    "sha256": "639d60b2f51932b59d2113cd8db568010add3602bafc9879d458aa3d85706777"
+  },
+  "match1_motion_pilot_009_frame_000519": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000519.jpg",
+    "sha256": "0b05b547b149db81daa8d97e875a93e1f3f425d0ae649dc625ff07fa77e84404"
+  },
+  "match1_motion_pilot_009_frame_000599": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000599.jpg",
+    "sha256": "a5199746bd4bb345415a9cd27a4709702a05da854487e44c106711d0604e1d21"
+  },
+  "match1_motion_pilot_009_frame_000679": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000679.jpg",
+    "sha256": "5d5cb9b27720e855f2e1c00a6725a20a766e067ce1ecb8532ac0fd49e3592183"
+  },
+  "match1_motion_pilot_009_frame_000759": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000759.jpg",
+    "sha256": "cea792cf88d652a2ca3be3d17f9b765800c480c9eeed096ffd762419887652da"
+  },
+  "match1_motion_pilot_009_frame_000839": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000839.jpg",
+    "sha256": "3c95eeee231f191b21f11037ee8615a4133e1a98fd12d79f1f8aed1f05060d5b"
+  },
+  "match1_motion_pilot_009_frame_000919": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000919.jpg",
+    "sha256": "02d017c613379c200e7cbe77893ed66a298858e7ee028a17591f78790c4e9015"
+  },
+  "match1_motion_pilot_009_frame_000999": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\000999.jpg",
+    "sha256": "552dfb4299d95e0d9c4bf4e6f42e6dd1f281fd40ebb043e97fb29ebdb5a41346"
+  },
+  "match1_motion_pilot_009_frame_001079": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\001079.jpg",
+    "sha256": "29bf280510e2159e4965a0ba6bc2be54c0560775883e5591bd688cfeb12727e3"
+  },
+  "match1_motion_pilot_009_frame_001159": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_009\\frames\\001159.jpg",
+    "sha256": "e646ead30edc010b69cd100447449bd019a3c251ef4b866547c95cf26073fbf8"
+  },
+  "match1_motion_pilot_010_frame_000045": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000045.jpg",
+    "sha256": "6281e5eab9475057561ac0de1961bb7c1db83261eb5da19ae5528eea9c944f28"
+  },
+  "match1_motion_pilot_010_frame_000137": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000137.jpg",
+    "sha256": "0179433f15caf546319f622a1d80b20f0fec76611af5fe39b4e46fef09f41d43"
+  },
+  "match1_motion_pilot_010_frame_000229": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000229.jpg",
+    "sha256": "4909d74f00608a07b3772a2bf1be8758b83c001e4b3987b02fdded4762bbe807"
+  },
+  "match1_motion_pilot_010_frame_000321": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000321.jpg",
+    "sha256": "321d1e6746938d435291ad693f58a7167b597bc6d8903e65e0e3b92bdcf8ce2e"
+  },
+  "match1_motion_pilot_010_frame_000413": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000413.jpg",
+    "sha256": "92fe4a2bb0efc3cf3f64f7e1fa17da78c38d923be9fe443abfbbc3ff6e19eb09"
+  },
+  "match1_motion_pilot_010_frame_000505": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000505.jpg",
+    "sha256": "a0e7da77d9956afebdbfb03bd2e13451a1003fa72cf4f554b575ee913b49b929"
+  },
+  "match1_motion_pilot_010_frame_000597": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000597.jpg",
+    "sha256": "7197fd398abc8c4326ccf7ada87bf38fd46e06cbf9b2cad3e59af212305afc99"
+  },
+  "match1_motion_pilot_010_frame_000689": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000689.jpg",
+    "sha256": "bfc4ba25c61e135ca34dc7880bfb064d4a5b66cc95eeb5c95734779edbb70e11"
+  },
+  "match1_motion_pilot_010_frame_000781": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000781.jpg",
+    "sha256": "479de1b04cd93e8c1b1b121c5961b059c34bc65b9686e492f63b9cbbda553752"
+  },
+  "match1_motion_pilot_010_frame_000873": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000873.jpg",
+    "sha256": "c8622106815067f55cd30a80e3239153e8eef5e4d74f18575211cf2b88e89f96"
+  },
+  "match1_motion_pilot_010_frame_000965": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000965.jpg",
+    "sha256": "1df76b021da3bed2896b225ae8879d164918c1eabc39a34a97abbb354c827f50"
+  },
+  "match1_motion_pilot_010_frame_001057": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\001057.jpg",
+    "sha256": "d6d54b1712cf597b47cd8a3efd35eda8d57e97ccf4febb7bc5782d611896ea6c"
+  },
+  "match1_motion_pilot_010_frame_001149": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\001149.jpg",
+    "sha256": "a2832925942c13c05fa41f0333a31d452ca9eb887276c1e12c9914ac98bd65ba"
+  },
+  "match1_motion_pilot_010_frame_001241": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\001241.jpg",
+    "sha256": "b0067d9f130517773e3ca32bd549f6eeaaab2b10f82135ed68b701743fda7516"
+  },
+  "match1_motion_pilot_010_frame_001333": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\001333.jpg",
+    "sha256": "7363221d8b7111575d09e7aa1bea6da245c25617e3d0a1d12647101e8d3947f4"
+  },
+  "match1_motion_pilot_003_frame_000291": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000291.jpg",
+    "sha256": "9de82d07fc46d51ac0cdaf061ca7b804878098f261268e860b03d6464e738d97"
+  },
+  "match1_motion_pilot_007_frame_000851": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000851.jpg",
+    "sha256": "7d8740acb82dc840d4ce4623ab811b80c1eb7e515161e5cf68e2d3d3db88737c"
+  },
+  "match1_motion_pilot_010_frame_000262": {
+    "path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000262.jpg",
+    "sha256": "05ef8ac0f0115531a226283d460d912699cf1edad930db8bd93894569a9166c1"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "requested_source_frames": [
+    21915,
+    21917,
+    21919,
+    21921,
+    21923,
+    21925,
+    21927,
+    21929,
+    21931,
+    21933,
+    21935,
+    21937,
+    21939,
+    21941,
+    21943,
+    21945,
+    21947,
+    21949,
+    21951,
+    21953,
+    21955,
+    21957,
+    21959,
+    21961,
+    21963,
+    21965,
+    21967,
+    21969,
+    21971,
+    21973,
+    21975
+  ],
+  "native_crop_xyxy": {
+    "far": [
+      1250,
+      920,
+      2650,
+      1480
+    ],
+    "near": [
+      0,
+      1050,
+      3840,
+      2160
+    ]
+  },
+  "aspect_preserved": true,
+  "source_path_sha256": "bd4c1cbf3398c1b60e6b866f7ed0062018bd3774ff644b7ae757dcb19dc80e56",
+  "images": {
+    "far_all31.jpg": "2cd8d35ef68a8ac94e6135233c21889f53a482b895f784cfc45f080c2f208ec6",
+    "near_all31.jpg": "4ac5d039a6cb03bd2f024d0b2a4d4d82f0670789b9ceef08f984c526e2f9cc17"
+  },
+  "script_sha256": "e331bf99e04e1ea0563331edbc30f89843da1070aaf0c4bafc136e3aed147ea5",
+  "scope": "All requested times, AI image evidence only; not independent identity GT."
+}

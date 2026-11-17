@@ -1,0 +1,32 @@
+{
+  "reviewer": "Codex AI image inspection",
+  "candidate_id": "match1_rally_window_009",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "inspected_raw_context": "phase_evidence/context_grid.jpg",
+  "inspected_all_requested_times": "phase_evidence/input_grid.jpg",
+  "contact_evidence_status": "inherited_manual_impact_record_precision_unknown",
+  "input_boundary_problem_visible": false,
+  "formal_point_end_frame_confirmed": false,
+  "service_validity_newly_human_confirmed": false,
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "independent_human_identity_GT_added": false,
+  "known_wrong_person_assignment": false,
+  "fully_automatic_result": false,
+  "AI_identity_binding_added": true,
+  "repair_method": "AI image-selected server raw148, native observed boxes only in21848..22147; other three slots unchanged.",
+  "AI_seed_frame": 21855,
+  "AI_spot_checked_frames": [
+    21855,
+    21885,
+    21915,
+    21945,
+    21975,
+    22130
+  ],
+  "observation": "In repaired images, cyan N2 follows the actual near-right server through service, recovery and later approach. N1 stays on near teammate; far pair retains orange/dark players where observed. No obvious teammate exchange in these inspected images.",
+  "position_quality_caution": "Far rear remains absent at15requested times and may be occluded/partial; no retrospective coordinate fill or independent identity/ground-position GT.",
+  "input_four_observation_times": 16,
+  "requested_times": 31,
+  "baseline_wrong_N2_preserved_and_rejected": true
+}

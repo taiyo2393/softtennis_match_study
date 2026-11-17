@@ -1,0 +1,11 @@
+{
+  "status": "manual_references_frozen_and_evaluated",
+  "stage": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\position_reference_evaluation_20261110_r55",
+  "label_revision": 55,
+  "state_counts": {
+    "point": 48,
+    "unplaceable": 4
+  },
+  "live_reference_file_changed": false,
+  "canonical_inputs_changed": false
+}

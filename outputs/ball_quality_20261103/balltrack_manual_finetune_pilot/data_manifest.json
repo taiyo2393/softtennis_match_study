@@ -1,0 +1,62 @@
+{
+  "status": "manual_center_source_confirmed_fixed_partitions_exported",
+  "source_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "train_clips": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10
+  ],
+  "validation_clips": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    19,
+    20
+  ],
+  "audit_clips": [
+    2,
+    8,
+    16,
+    18
+  ],
+  "split_counts": {
+    "train": {
+      "visible": 99,
+      "not_visible": 21
+    },
+    "validation": {
+      "visible": 105,
+      "not_visible": 15
+    },
+    "audit": {
+      "visible": 45,
+      "not_visible": 15
+    }
+  },
+  "roles": "train120,validation120,audit60. Audit clips contain all36 previously reviewed candidates and never enter training or checkpoint selection.",
+  "phase_scope": "Existing dataset includes preparation,play and transitions; do not call its aggregate metric in-play-only accuracy.",
+  "independence": "Same-match, repeatedly seen development data; no claim of independent external performance.",
+  "no_random_frame_split": true,
+  "four_frame_input_hashes_disjoint_between_roles": true,
+  "source_labels_unchanged": true,
+  "input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0"
+  },
+  "partition_hashes": {
+    "train": "e718edb3af4aea5e32c6497d315f6aa3155a479a0f7eed2bc2427b453fa59df9",
+    "validation": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "audit": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2"
+  },
+  "annotation_provenance": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\manual_annotation_provenance.json"
+}

@@ -1,0 +1,31 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\recovery_review_h264.mp4",
+  "decoded_frames": 594,
+  "silent": true,
+  "speed": 0.25,
+  "extra_pause_source_local_frames": [
+    796,
+    905,
+    912,
+    984,
+    1112
+  ],
+  "new_box_local_frames": [
+    796,
+    797,
+    905,
+    906,
+    907,
+    912,
+    984,
+    985,
+    1112,
+    1113,
+    1114
+  ],
+  "paths_sha256": "2a1dc31d10805afd9195d31bd83c12ae636a449e89a6b32e32e84585ccfe0043",
+  "source_aspect_preserved": true,
+  "crop_enlargement": 2,
+  "fixed_crop_each_run": true,
+  "identity_accuracy_established": false
+}

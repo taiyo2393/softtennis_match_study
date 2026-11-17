@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1080pt" height="504pt" viewBox="0 0 1080 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-24T13:41:01.907642</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 1080 504 
+L 1080 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 70.2 378 
+L 509.4 378 
+L 509.4 100.8 
+L 70.2 100.8 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m2524c79e87" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m2524c79e87" x="114.12" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="114.12" y="399.078125" transform="rotate(-0 114.12 399.078125)">0.5秒前</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m2524c79e87" x="289.8" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="289.8" y="399.078125" transform="rotate(-0 289.8 399.078125)">0.3秒前</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m2524c79e87" x="377.64" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="377.64" y="399.078125" transform="rotate(-0 377.64 399.078125)">0.2秒前</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m2524c79e87" x="465.48" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="465.48" y="399.078125" transform="rotate(-0 465.48 399.078125)">0.1秒前</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="289.8" y="427.078125" transform="rotate(-0 289.8 427.078125)">相手後衛の打球前の評価時点</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <path d="M 70.2 378 
+L 509.4 378 
+" clip-path="url(#p0954b5f0f3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <defs>
+       <path id="m14dbb2bcb7" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="70.2" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="63.2" y="385.039062" transform="rotate(-0 63.2 385.039062)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <path d="M 70.2 329.791304 
+L 509.4 329.791304 
+" clip-path="url(#p0954b5f0f3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="70.2" y="329.791304" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="63.2" y="336.830367" transform="rotate(-0 63.2 336.830367)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <path d="M 70.2 281.582609 
+L 509.4 281.582609 
+" clip-path="url(#p0954b5f0f3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="70.2" y="281.582609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="63.2" y="288.621671" transform="rotate(-0 63.2 288.621671)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <path d="M 70.2 233.373913 
+L 509.4 233.373913 
+" clip-path="url(#p0954b5f0f3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="70.2" y="233.373913" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="63.2" y="240.412976" transform="rotate(-0 63.2 240.412976)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <path d="M 70.2 185.165217 
+L 509.4 185.165217 
+" clip-path="url(#p0954b5f0f3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="70.2" y="185.165217" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="63.2" y="192.20428" transform="rotate(-0 63.2 192.20428)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <path d="M 70.2 136.956522 
+L 509.4 136.956522 
+" clip-path="url(#p0954b5f0f3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="70.2" y="136.956522" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="63.2" y="143.995584" transform="rotate(-0 63.2 143.995584)">100</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="30.585625" y="239.4" transform="rotate(-90 30.585625 239.4)">方向の一致率（％）</text>
+    </g>
+   </g>
+   <g id="line2d_17">
+    <path d="M 114.12 217.304348 
+L 289.8 190.521739 
+L 377.64 217.304348 
+L 465.48 185.165217 
+" clip-path="url(#p0954b5f0f3)" style="fill: none; stroke: #214f76; stroke-width: 2.7; stroke-linecap: square"/>
+    <defs>
+     <path id="m6b29359efa" d="M 0 4 
+C 1.060812 4 2.078319 3.578535 2.828427 2.828427 
+C 3.578535 2.078319 4 1.060812 4 0 
+C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 
+C 2.078319 -3.578535 1.060812 -4 0 -4 
+C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 
+C -3.578535 -2.078319 -4 -1.060812 -4 0 
+C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 
+C -2.078319 3.578535 -1.060812 4 0 4 
+z
+" style="stroke: #214f76"/>
+    </defs>
+    <g clip-path="url(#p0954b5f0f3)">
+     <use xlink:href="#m6b29359efa" x="114.12" y="217.304348" style="fill: #214f76; stroke: #214f76"/>
+     <use xlink:href="#m6b29359efa" x="289.8" y="190.521739" style="fill: #214f76; stroke: #214f76"/>
+     <use xlink:href="#m6b29359efa" x="377.64" y="217.304348" style="fill: #214f76; stroke: #214f76"/>
+     <use xlink:href="#m6b29359efa" x="465.48" y="185.165217" style="fill: #214f76; stroke: #214f76"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 70.2 378 
+L 70.2 100.8 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 70.2 378 
+L 509.4 378 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <g id="patch_5">
+     <path d="M 87.718203 206.834348 
+L 140.521797 206.834348 
+L 140.521797 152.774348 
+L 87.718203 152.774348 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(89.248203 173.512356)">66.7％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(93.986953 199.012356)">(2/3)</text>
+   </g>
+   <g id="text_14">
+    <g id="patch_6">
+     <path d="M 263.398203 180.051739 
+L 316.201797 180.051739 
+L 316.201797 125.991739 
+L 263.398203 125.991739 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(264.928203 146.729747)">77.8％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(269.666953 172.229747)">(7/9)</text>
+   </g>
+   <g id="text_15">
+    <g id="patch_7">
+     <path d="M 351.238203 206.834348 
+L 404.041797 206.834348 
+L 404.041797 152.774348 
+L 351.238203 152.774348 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(352.768203 173.512356)">66.7％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(357.506953 199.012356)">(4/6)</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_8">
+     <path d="M 439.078203 174.695217 
+L 491.881797 174.695217 
+L 491.881797 120.635217 
+L 439.078203 120.635217 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(440.608203 141.373225)">80.0％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #214f76" transform="translate(440.620156 166.873225)">(8/10)</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 21px; font-family: 'Yu Gothic'; text-anchor: middle" x="289.8" y="78.8" transform="rotate(-0 289.8 78.8)">前衛P1 対 後衛H2（33場面）</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 619.2 378 
+L 1058.4 378 
+L 1058.4 100.8 
+L 619.2 100.8 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m2524c79e87" x="663.12" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="663.12" y="399.078125" transform="rotate(-0 663.12 399.078125)">0.5秒前</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m2524c79e87" x="838.8" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="838.8" y="399.078125" transform="rotate(-0 838.8 399.078125)">0.3秒前</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m2524c79e87" x="926.64" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="926.64" y="399.078125" transform="rotate(-0 926.64 399.078125)">0.2秒前</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m2524c79e87" x="1014.48" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="1014.48" y="399.078125" transform="rotate(-0 1014.48 399.078125)">0.1秒前</text>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="838.8" y="427.078125" transform="rotate(-0 838.8 427.078125)">相手後衛の打球前の評価時点</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_22">
+      <path d="M 619.2 378 
+L 1058.4 378 
+" clip-path="url(#p9825ba224d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="619.2" y="378" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="612.2" y="385.039062" transform="rotate(-0 612.2 385.039062)">0</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_24">
+      <path d="M 619.2 329.791304 
+L 1058.4 329.791304 
+" clip-path="url(#p9825ba224d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="619.2" y="329.791304" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="612.2" y="336.830367" transform="rotate(-0 612.2 336.830367)">20</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_26">
+      <path d="M 619.2 281.582609 
+L 1058.4 281.582609 
+" clip-path="url(#p9825ba224d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="619.2" y="281.582609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="612.2" y="288.621671" transform="rotate(-0 612.2 288.621671)">40</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_28">
+      <path d="M 619.2 233.373913 
+L 1058.4 233.373913 
+" clip-path="url(#p9825ba224d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="619.2" y="233.373913" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="612.2" y="240.412976" transform="rotate(-0 612.2 240.412976)">60</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_30">
+      <path d="M 619.2 185.165217 
+L 1058.4 185.165217 
+" clip-path="url(#p9825ba224d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="619.2" y="185.165217" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="612.2" y="192.20428" transform="rotate(-0 612.2 192.20428)">80</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_32">
+      <path d="M 619.2 136.956522 
+L 1058.4 136.956522 
+" clip-path="url(#p9825ba224d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.25; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#m14dbb2bcb7" x="619.2" y="136.956522" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: end" x="612.2" y="143.995584" transform="rotate(-0 612.2 143.995584)">100</text>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 16px; font-family: 'Yu Gothic'; text-anchor: middle" x="579.585625" y="239.4" transform="rotate(-90 579.585625 239.4)">方向の一致率（％）</text>
+    </g>
+   </g>
+   <g id="line2d_34">
+    <path d="M 663.12 281.582609 
+L 838.8 224.608696 
+L 926.64 136.956522 
+L 1014.48 227.347826 
+" clip-path="url(#p9825ba224d)" style="fill: none; stroke: #b45f06; stroke-width: 2.7; stroke-linecap: square"/>
+    <defs>
+     <path id="m4912e3a260" d="M 0 4 
+C 1.060812 4 2.078319 3.578535 2.828427 2.828427 
+C 3.578535 2.078319 4 1.060812 4 0 
+C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 
+C 2.078319 -3.578535 1.060812 -4 0 -4 
+C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 
+C -3.578535 -2.078319 -4 -1.060812 -4 0 
+C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 
+C -2.078319 3.578535 -1.060812 4 0 4 
+z
+" style="stroke: #b45f06"/>
+    </defs>
+    <g clip-path="url(#p9825ba224d)">
+     <use xlink:href="#m4912e3a260" x="663.12" y="281.582609" style="fill: #b45f06; stroke: #b45f06"/>
+     <use xlink:href="#m4912e3a260" x="838.8" y="224.608696" style="fill: #b45f06; stroke: #b45f06"/>
+     <use xlink:href="#m4912e3a260" x="926.64" y="136.956522" style="fill: #b45f06; stroke: #b45f06"/>
+     <use xlink:href="#m4912e3a260" x="1014.48" y="227.347826" style="fill: #b45f06; stroke: #b45f06"/>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 619.2 378 
+L 619.2 100.8 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 619.2 378 
+L 1058.4 378 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_30">
+    <g id="patch_12">
+     <path d="M 636.718203 271.112609 
+L 689.521797 271.112609 
+L 689.521797 217.052609 
+L 636.718203 217.052609 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(638.248203 237.790617)">40.0％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(638.260156 263.290617)">(4/10)</text>
+   </g>
+   <g id="text_31">
+    <g id="patch_13">
+     <path d="M 812.398203 214.138696 
+L 865.201797 214.138696 
+L 865.201797 160.078696 
+L 812.398203 160.078696 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(813.928203 180.816703)">63.6％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(813.940156 206.316703)">(7/11)</text>
+   </g>
+   <g id="text_32">
+    <g id="patch_14">
+     <path d="M 895.511406 204.486522 
+L 957.768594 204.486522 
+L 957.768594 150.426522 
+L 895.511406 150.426522 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(897.041406 171.16453)">100.0％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(906.506953 196.66453)">(5/5)</text>
+   </g>
+   <g id="text_33">
+    <g id="patch_15">
+     <path d="M 988.078203 216.877826 
+L 1040.881797 216.877826 
+L 1040.881797 162.817826 
+L 988.078203 162.817826 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(989.608203 183.555834)">62.5％</text>
+    <text style="font-size: 17px; font-family: 'Yu Gothic'; fill: #b45f06" transform="translate(994.346953 209.055834)">(5/8)</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 21px; font-family: 'Yu Gothic'; text-anchor: middle" x="838.8" y="78.8" transform="rotate(-0 838.8 78.8)">前衛P2 対 後衛H1（47場面）</text>
+   </g>
+  </g>
+  <g id="text_35">
+   <text style="font-size: 24px; font-family: 'Yu Gothic'; text-anchor: middle" x="540" y="36.237188" transform="rotate(-0 540 36.237188)">前衛と相手後衛の組合せ別の方向の一致率</text>
+  </g>
+  <g id="text_36">
+   <text style="font-size: 14px; font-family: 'Yu Gothic'" transform="translate(70.2 462.84)">括弧内：一致数／左右を判定した場面数。基準はコート幅の1.5％。</text>
+   <text style="font-size: 14px; font-family: 'Yu Gothic'" transform="translate(70.2 483.84)">各時点で集計対象が異なり、組合せ間の差から前衛・後衛それぞれの影響は分離できない。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0954b5f0f3">
+   <rect x="70.2" y="100.8" width="439.2" height="277.2"/>
+  </clipPath>
+  <clipPath id="p9825ba224d">
+   <rect x="619.2" y="100.8" width="439.2" height="277.2"/>
+  </clipPath>
+ </defs>
+</svg>

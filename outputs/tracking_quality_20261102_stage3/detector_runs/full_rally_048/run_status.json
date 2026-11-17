@@ -1,0 +1,32 @@
+{
+  "tag": "048",
+  "first_frame": 125859,
+  "last_frame": 126758,
+  "frames": 900,
+  "ready_segment": {
+    "video_id": "match1",
+    "segment_id": "match1_ready_050",
+    "start_timestamp_sec": "2098.500000",
+    "end_timestamp_sec": "2124.500000",
+    "start_source_frame": "125784",
+    "end_source_frame": "127343",
+    "scene_type": "analysis_ready_main_camera",
+    "cut_confidence": "geometry_and_background",
+    "main_camera_confidence": "0.982839",
+    "usable_for_analysis": "true",
+    "human_checked": "false",
+    "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+  },
+  "boundary_status": "candidate_interval_not_human_confirmed_point",
+  "source_fps": 59.94005994005994,
+  "source_width": 3840,
+  "source_height": 2160,
+  "initialization_status": "four_seeds_proposed",
+  "seed_ids": {
+    "near_front": 3,
+    "near_rear": 1,
+    "far_rear": 5,
+    "far_front": 2
+  },
+  "seed_review_status": "not_human_confirmed"
+}

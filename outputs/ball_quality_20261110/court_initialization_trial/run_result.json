@@ -1,0 +1,970 @@
+{
+  "status": "completed15_matched_development_replays",
+  "cases": [
+    {
+      "tag": "001",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 7,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 3,
+            "far_front": 4
+          },
+          "near_observations": 1186,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2363,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 7,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 3,
+            "far_front": 4
+          },
+          "near_observations": 1186,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2363,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 7,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 3,
+            "far_front": 4
+          },
+          "near_observations": 1186,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2363,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 7,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 3,
+            "far_front": 4
+          },
+          "near_observations": 1186,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2363,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "002",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 2230,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 614,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1242,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 2230,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 614,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1242,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 2230,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 607,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1235,
+          "removed_assignments": 7,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 2230,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 607,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1235,
+          "removed_assignments": 7,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "003",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 4208,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 816,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1566,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 4208,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 816,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1566,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 4208,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 811,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1561,
+          "removed_assignments": 5,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 4208,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 811,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1561,
+          "removed_assignments": 5,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "004",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 6391,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 1004,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2007,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 6391,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 1004,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2007,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 6391,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 1004,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2007,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 6391,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 1004,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2007,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "005",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 8625,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 22,
+            "far_front": 3
+          },
+          "near_observations": 854,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1592,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 8625,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 22,
+            "far_front": 3
+          },
+          "near_observations": 854,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1592,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 8625,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 22,
+            "far_front": 3
+          },
+          "near_observations": 854,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1592,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 8625,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 22,
+            "far_front": 3
+          },
+          "near_observations": 854,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1592,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "006",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 10575,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 59,
+            "far_front": 4
+          },
+          "near_observations": 3728,
+          "near_raw_ID_changes": 3,
+          "total_temporal_observations": 7357,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 10575,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 59,
+            "far_front": 4
+          },
+          "near_observations": 3728,
+          "near_raw_ID_changes": 3,
+          "total_temporal_observations": 7357,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 10575,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 59,
+            "far_front": 4
+          },
+          "near_observations": 3713,
+          "near_raw_ID_changes": 2,
+          "total_temporal_observations": 7342,
+          "removed_assignments": 15,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 10575,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 59,
+            "far_front": 4
+          },
+          "near_observations": 3713,
+          "near_raw_ID_changes": 2,
+          "total_temporal_observations": 7342,
+          "removed_assignments": 15,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "008",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 17899,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 2564,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5042,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 17899,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 2564,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5042,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 17899,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 2564,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5042,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 17899,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 2564,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5042,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "009",
+      "role": "known_AI_diagnosed_initial_nonplayer_failure",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 21101,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 8,
+            "far_rear": 81,
+            "far_front": 6
+          },
+          "near_observations": 1990,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 4009,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 21226,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 148,
+            "far_rear": 81,
+            "far_front": 6
+          },
+          "near_observations": 1844,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 3610,
+          "removed_assignments": 1504,
+          "added_assignments": 1105
+        },
+        "old_guard": {
+          "initialized_frame": 21101,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 8,
+            "far_rear": 81,
+            "far_front": 6
+          },
+          "near_observations": 1983,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 4002,
+          "removed_assignments": 7,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 21226,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 148,
+            "far_rear": 81,
+            "far_front": 6
+          },
+          "near_observations": 1844,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 3610,
+          "removed_assignments": 1504,
+          "added_assignments": 1105
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "010",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 23533,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 10,
+            "far_front": 4
+          },
+          "near_observations": 1726,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 3255,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 23533,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 10,
+            "far_front": 4
+          },
+          "near_observations": 1726,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 3255,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 23533,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 10,
+            "far_front": 4
+          },
+          "near_observations": 1726,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 3255,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 23533,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 10,
+            "far_front": 4
+          },
+          "near_observations": 1726,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 3255,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "011",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 26141,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 5558,
+          "near_raw_ID_changes": 7,
+          "total_temporal_observations": 10960,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 26141,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 5558,
+          "near_raw_ID_changes": 7,
+          "total_temporal_observations": 10960,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 26141,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 5776,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 11190,
+          "removed_assignments": 1857,
+          "added_assignments": 2087
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 26141,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "near_observations": 5776,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 11190,
+          "removed_assignments": 1857,
+          "added_assignments": 2087
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "012",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 31936,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 1,
+            "far_rear": 40,
+            "far_front": 25
+          },
+          "near_observations": 624,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1240,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 31936,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 1,
+            "far_rear": 40,
+            "far_front": 25
+          },
+          "near_observations": 624,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1240,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 31936,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 1,
+            "far_rear": 40,
+            "far_front": 25
+          },
+          "near_observations": 624,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1240,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 31936,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 1,
+            "far_rear": 40,
+            "far_front": 25
+          },
+          "near_observations": 624,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1240,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "013",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 33797,
+          "seed_ids": {
+            "near_front": 49,
+            "near_rear": 2,
+            "far_rear": 62,
+            "far_front": 33
+          },
+          "near_observations": 798,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1586,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 33797,
+          "seed_ids": {
+            "near_front": 49,
+            "near_rear": 2,
+            "far_rear": 62,
+            "far_front": 33
+          },
+          "near_observations": 798,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1586,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 33797,
+          "seed_ids": {
+            "near_front": 49,
+            "near_rear": 2,
+            "far_rear": 62,
+            "far_front": 33
+          },
+          "near_observations": 797,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1585,
+          "removed_assignments": 1,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 33797,
+          "seed_ids": {
+            "near_front": 49,
+            "near_rear": 2,
+            "far_rear": 62,
+            "far_front": 33
+          },
+          "near_observations": 797,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 1585,
+          "removed_assignments": 1,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "014",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 35252,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 3
+          },
+          "near_observations": 2864,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5577,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 35252,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 3
+          },
+          "near_observations": 2864,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5577,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 35252,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 3
+          },
+          "near_observations": 2864,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5577,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 35252,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 3
+          },
+          "near_observations": 2864,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 5577,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "015",
+      "role": "known_AI_diagnosed_initial_nonplayer_failure",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 38548,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 1306,
+          "near_raw_ID_changes": 5,
+          "total_temporal_observations": 2602,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 38548,
+          "seed_ids": {
+            "near_front": 3,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 1306,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2602,
+          "removed_assignments": 653,
+          "added_assignments": 653
+        },
+        "old_guard": {
+          "initialized_frame": 38548,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 1281,
+          "near_raw_ID_changes": 3,
+          "total_temporal_observations": 2577,
+          "removed_assignments": 25,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 38548,
+          "seed_ids": {
+            "near_front": 3,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "near_observations": 1306,
+          "near_raw_ID_changes": 0,
+          "total_temporal_observations": 2602,
+          "removed_assignments": 653,
+          "added_assignments": 653
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "025",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "baseline_replay_exact": true,
+      "modes": {
+        "baseline": {
+          "initialized_frame": 60013,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 6,
+            "far_front": 4
+          },
+          "near_observations": 745,
+          "near_raw_ID_changes": 2,
+          "total_temporal_observations": 1730,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "court_seed_only": {
+          "initialized_frame": 60013,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 6,
+            "far_front": 4
+          },
+          "near_observations": 745,
+          "near_raw_ID_changes": 2,
+          "total_temporal_observations": 1730,
+          "removed_assignments": 0,
+          "added_assignments": 0
+        },
+        "old_guard": {
+          "initialized_frame": 60013,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 6,
+            "far_front": 4
+          },
+          "near_observations": 744,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1729,
+          "removed_assignments": 1,
+          "added_assignments": 0
+        },
+        "court_seed_plus_old_guard": {
+          "initialized_frame": 60013,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 6,
+            "far_front": 4
+          },
+          "near_observations": 744,
+          "near_raw_ID_changes": 1,
+          "total_temporal_observations": 1729,
+          "removed_assignments": 1,
+          "added_assignments": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    }
+  ],
+  "baseline_exact_cases": 15,
+  "protected_sources_unchanged": true,
+  "canonical_pipeline_changed": false,
+  "current19_inputs_changed": false,
+  "independent_accuracy_established": false
+}

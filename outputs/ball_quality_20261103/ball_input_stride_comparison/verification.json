@@ -1,0 +1,197 @@
+{
+  "status": "saved_heatmaps_and_causal_input_alignment_verified",
+  "input_rows": 558,
+  "decoded_rows_reproduced": 546,
+  "fresh_stride1_matches_old_raw": {
+    "rows": 243,
+    "identical": 243,
+    "changed": 0
+  },
+  "protected_inputs_unchanged": true,
+  "source_image_hashes_verified": 1530,
+  "candidate_summary": [
+    {
+      "role": "train",
+      "stride": 1,
+      "truth_visible": 102,
+      "candidate_upper_bound16px": 66,
+      "selected_correct16px": 63,
+      "selection_failures": 3,
+      "no_candidate_near_truth": 36
+    },
+    {
+      "role": "train",
+      "stride": 2,
+      "truth_visible": 102,
+      "candidate_upper_bound16px": 70,
+      "selected_correct16px": 69,
+      "selection_failures": 1,
+      "no_candidate_near_truth": 32
+    },
+    {
+      "role": "validation",
+      "stride": 1,
+      "truth_visible": 105,
+      "candidate_upper_bound16px": 81,
+      "selected_correct16px": 80,
+      "selection_failures": 1,
+      "no_candidate_near_truth": 24
+    },
+    {
+      "role": "validation",
+      "stride": 2,
+      "truth_visible": 105,
+      "candidate_upper_bound16px": 87,
+      "selected_correct16px": 85,
+      "selection_failures": 2,
+      "no_candidate_near_truth": 18
+    },
+    {
+      "role": "challenge",
+      "stride": 1,
+      "truth_visible": 4,
+      "candidate_upper_bound16px": 4,
+      "selected_correct16px": 2,
+      "selection_failures": 2,
+      "no_candidate_near_truth": 0
+    },
+    {
+      "role": "challenge",
+      "stride": 2,
+      "truth_visible": 4,
+      "candidate_upper_bound16px": 4,
+      "selected_correct16px": 2,
+      "selection_failures": 2,
+      "no_candidate_near_truth": 0
+    },
+    {
+      "role": "short_sequence",
+      "stride": 1,
+      "truth_visible": 26,
+      "candidate_upper_bound16px": 26,
+      "selected_correct16px": 26,
+      "selection_failures": 0,
+      "no_candidate_near_truth": 0
+    },
+    {
+      "role": "short_sequence",
+      "stride": 2,
+      "truth_visible": 26,
+      "candidate_upper_bound16px": 26,
+      "selected_correct16px": 26,
+      "selection_failures": 0,
+      "no_candidate_near_truth": 0
+    }
+  ],
+  "prior_correct_lost_mechanisms": [
+    {
+      "role": "train",
+      "stride": 2,
+      "sample_id": "match1_motion_pilot_007_frame_000032",
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": "32",
+      "truth_visible": 1,
+      "candidate_count": 0,
+      "nearest_candidate_error_px": null,
+      "selected_correct16px": 0,
+      "real_candidate_available16px": 0,
+      "mechanism": "no_candidate_near_manual_center",
+      "prior_temporal_correct_lost": 1
+    },
+    {
+      "role": "train",
+      "stride": 2,
+      "sample_id": "match1_motion_pilot_007_frame_000851",
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": "851",
+      "truth_visible": 1,
+      "candidate_count": 2,
+      "nearest_candidate_error_px": 2.0,
+      "selected_correct16px": 0,
+      "real_candidate_available16px": 1,
+      "mechanism": "selection_failure_with_real_candidate",
+      "prior_temporal_correct_lost": 1
+    },
+    {
+      "role": "validation",
+      "stride": 2,
+      "sample_id": "match1_motion_pilot_015_frame_000323",
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": "323",
+      "truth_visible": 1,
+      "candidate_count": 2,
+      "nearest_candidate_error_px": 2.0,
+      "selected_correct16px": 0,
+      "real_candidate_available16px": 1,
+      "mechanism": "selection_failure_with_real_candidate",
+      "prior_temporal_correct_lost": 1
+    },
+    {
+      "role": "validation",
+      "stride": 2,
+      "sample_id": "match1_motion_pilot_019_frame_000299",
+      "candidate_id": "match1_motion_pilot_019",
+      "local_frame": "299",
+      "truth_visible": 1,
+      "candidate_count": 2,
+      "nearest_candidate_error_px": 2.23606797749979,
+      "selected_correct16px": 0,
+      "real_candidate_available16px": 1,
+      "mechanism": "selection_failure_with_real_candidate",
+      "prior_temporal_correct_lost": 1
+    },
+    {
+      "role": "challenge",
+      "stride": 2,
+      "sample_id": "match1_motion_pilot_015_frame_000328",
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": "328",
+      "truth_visible": 1,
+      "candidate_count": 2,
+      "nearest_candidate_error_px": 1.0,
+      "selected_correct16px": 0,
+      "real_candidate_available16px": 1,
+      "mechanism": "selection_failure_with_real_candidate",
+      "prior_temporal_correct_lost": 1
+    },
+    {
+      "role": "challenge",
+      "stride": 2,
+      "sample_id": "match1_motion_pilot_019_frame_000305",
+      "candidate_id": "match1_motion_pilot_019",
+      "local_frame": "305",
+      "truth_visible": 1,
+      "candidate_count": 2,
+      "nearest_candidate_error_px": 3.0,
+      "selected_correct16px": 0,
+      "real_candidate_available16px": 1,
+      "mechanism": "selection_failure_with_real_candidate",
+      "prior_temporal_correct_lost": 1
+    }
+  ],
+  "training_image_change_proxy": [
+    {
+      "stride": 1,
+      "training_examples": 123,
+      "median_court_rgb_mean_absolute_change": 0.34048574542005855,
+      "caveat": "Encoded image-change proxy only; not an independently established motion-update frame rate."
+    },
+    {
+      "stride": 2,
+      "training_examples": 123,
+      "median_court_rgb_mean_absolute_change": 0.6250361601511637,
+      "caveat": "Encoded image-change proxy only; not an independently established motion-update frame rate."
+    }
+  ],
+  "six_false": {
+    "no_output_position_unknown": 4,
+    "near_known_false_point_unverified": 1,
+    "different_unverified_candidate": 1
+  },
+  "audit_not_run": true,
+  "operational_outputs_changed": false,
+  "new_human_labels": 0,
+  "additional_parameter_selection": false,
+  "input_timing_fix_proven": false,
+  "unseen_match_accuracy_established": false
+}

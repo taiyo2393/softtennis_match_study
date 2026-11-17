@@ -1,0 +1,19 @@
+{
+  "pilot": "match1_motion_pilot_016",
+  "rally": "044",
+  "local_frames": [
+    739,
+    1140
+  ],
+  "fps": 59.94005994005994,
+  "boundary_status": "Existing AI contact/end intervals; second serve validity previously human confirmed",
+  "model": "unchanged RacketVision MS-TrackNetV3",
+  "checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "input": "BGR JPEG t-3..t, median120, resize512x288, divide255",
+  "components": "peak floor0.10, top6, half-peak weighted centroid",
+  "baseline_sha256": "143e1c71d270f7e3c4f4ee8accb77709c6b4367ca0141ff48e371fb77d008123",
+  "scope_sha256": "2fa952b6480af2ab9b21de172831d7c3e82276903d13b4566ad85137d64e0aa6",
+  "script_sha256": "a83a7a36d6af97f3b1fc9080e0e04be4494b3743a5a79169bf5bf989c9b3dab0",
+  "development_only": true,
+  "ball_identity_annotations_used": false
+}

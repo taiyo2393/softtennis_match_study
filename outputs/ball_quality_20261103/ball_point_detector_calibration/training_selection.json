@@ -1,0 +1,187 @@
+{
+  "chosen": null,
+  "training_baseline": {
+    "counts": {
+      "frames": 123,
+      "truth_visible": 102,
+      "pred_visible": 70,
+      "presence_tp": 68,
+      "localized_tp_16px": 66,
+      "wrong_localization": 2,
+      "presence_tn": 19,
+      "presence_fn": 34,
+      "presence_fp": 2
+    },
+    "localization_recall_16px": 0.6470588235294118,
+    "localization_precision_16px": 0.9428571428571428,
+    "mean_error_both_visible_px": 5.760533423739907
+  },
+  "grid": [
+    {
+      "arm": "positive_control",
+      "threshold": 0.3,
+      "correct": 65,
+      "errors": 58,
+      "correct_lost": 5,
+      "lost_sample_ids": "match1_motion_pilot_001_frame_000304;match1_motion_pilot_003_frame_000261;match1_motion_pilot_009_frame_001159;match1_motion_pilot_010_frame_000321;match1_motion_pilot_010_frame_000781",
+      "feasible": 0,
+      "missing_visible": 0
+    },
+    {
+      "arm": "positive_control",
+      "threshold": 0.4,
+      "correct": 73,
+      "errors": 50,
+      "correct_lost": 2,
+      "lost_sample_ids": "match1_motion_pilot_009_frame_001159;match1_motion_pilot_010_frame_000781",
+      "feasible": 0,
+      "missing_visible": 0
+    },
+    {
+      "arm": "positive_control",
+      "threshold": 0.5,
+      "correct": 81,
+      "errors": 42,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "feasible": 0,
+      "missing_visible": 0
+    },
+    {
+      "arm": "positive_control",
+      "threshold": 0.6,
+      "correct": 77,
+      "errors": 32,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "feasible": 0,
+      "missing_visible": 9
+    },
+    {
+      "arm": "positive_control",
+      "threshold": 0.7,
+      "correct": 74,
+      "errors": 12,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "feasible": 0,
+      "missing_visible": 22
+    },
+    {
+      "arm": "positive_control",
+      "threshold": 0.8,
+      "correct": 69,
+      "errors": 9,
+      "correct_lost": 1,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000291",
+      "feasible": 0,
+      "missing_visible": 29
+    },
+    {
+      "arm": "positive_control",
+      "threshold": 0.9,
+      "correct": 61,
+      "errors": 4,
+      "correct_lost": 6,
+      "lost_sample_ids": "match1_motion_pilot_001_frame_000304;match1_motion_pilot_003_frame_000291;match1_motion_pilot_003_frame_000435;match1_motion_pilot_005_frame_000105;match1_motion_pilot_005_frame_000399;match1_motion_pilot_007_frame_000672",
+      "feasible": 0,
+      "missing_visible": 39
+    },
+    {
+      "arm": "positive_control",
+      "threshold": 0.95,
+      "correct": 47,
+      "errors": 2,
+      "correct_lost": 19,
+      "lost_sample_ids": "match1_motion_pilot_001_frame_000304;match1_motion_pilot_001_frame_000336;match1_motion_pilot_003_frame_000261;match1_motion_pilot_003_frame_000291;match1_motion_pilot_003_frame_000435;match1_motion_pilot_004_frame_000210;match1_motion_pilot_005_frame_000105;match1_motion_pilot_005_frame_000147;match1_motion_pilot_005_frame_000231;match1_motion_pilot_005_frame_000315;match1_motion_pilot_005_frame_000399;match1_motion_pilot_006_frame_000093;match1_motion_pilot_006_frame_000837;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000672;match1_motion_pilot_009_frame_001159;match1_motion_pilot_010_frame_000321;match1_motion_pilot_010_frame_000781;match1_motion_pilot_010_frame_001241",
+      "feasible": 0,
+      "missing_visible": 54
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.3,
+      "correct": 70,
+      "errors": 53,
+      "correct_lost": 5,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000261;match1_motion_pilot_003_frame_000291;match1_motion_pilot_009_frame_001159;match1_motion_pilot_010_frame_000321;match1_motion_pilot_010_frame_000781",
+      "feasible": 0,
+      "missing_visible": 0
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.4,
+      "correct": 79,
+      "errors": 33,
+      "correct_lost": 1,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000291",
+      "feasible": 0,
+      "missing_visible": 7
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.5,
+      "correct": 69,
+      "errors": 13,
+      "correct_lost": 1,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000291",
+      "feasible": 0,
+      "missing_visible": 26
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.6,
+      "correct": 68,
+      "errors": 9,
+      "correct_lost": 1,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000291",
+      "feasible": 0,
+      "missing_visible": 30
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.7,
+      "correct": 66,
+      "errors": 5,
+      "correct_lost": 1,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000291",
+      "feasible": 0,
+      "missing_visible": 34
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.8,
+      "correct": 55,
+      "errors": 4,
+      "correct_lost": 11,
+      "lost_sample_ids": "match1_motion_pilot_001_frame_000304;match1_motion_pilot_001_frame_000336;match1_motion_pilot_003_frame_000261;match1_motion_pilot_003_frame_000291;match1_motion_pilot_003_frame_000435;match1_motion_pilot_005_frame_000105;match1_motion_pilot_005_frame_000315;match1_motion_pilot_005_frame_000399;match1_motion_pilot_007_frame_000672;match1_motion_pilot_010_frame_000781;match1_motion_pilot_010_frame_001241",
+      "feasible": 0,
+      "missing_visible": 45
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.9,
+      "correct": 24,
+      "errors": 0,
+      "correct_lost": 42,
+      "lost_sample_ids": "match1_motion_pilot_001_frame_000112;match1_motion_pilot_001_frame_000144;match1_motion_pilot_001_frame_000208;match1_motion_pilot_001_frame_000240;match1_motion_pilot_001_frame_000304;match1_motion_pilot_001_frame_000336;match1_motion_pilot_003_frame_000203;match1_motion_pilot_003_frame_000261;match1_motion_pilot_003_frame_000291;match1_motion_pilot_003_frame_000435;match1_motion_pilot_003_frame_000667;match1_motion_pilot_004_frame_000210;match1_motion_pilot_004_frame_000350;match1_motion_pilot_005_frame_000105;match1_motion_pilot_005_frame_000147;match1_motion_pilot_005_frame_000189;match1_motion_pilot_005_frame_000231;match1_motion_pilot_005_frame_000273;match1_motion_pilot_005_frame_000315;match1_motion_pilot_005_frame_000399;match1_motion_pilot_005_frame_000483;match1_motion_pilot_006_frame_000093;match1_motion_pilot_006_frame_000155;match1_motion_pilot_006_frame_000713;match1_motion_pilot_006_frame_000775;match1_motion_pilot_006_frame_000837;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000416;match1_motion_pilot_007_frame_000544;match1_motion_pilot_007_frame_000672;match1_motion_pilot_007_frame_000736;match1_motion_pilot_007_frame_000851;match1_motion_pilot_009_frame_000839;match1_motion_pilot_009_frame_000919;match1_motion_pilot_009_frame_001079;match1_motion_pilot_009_frame_001159;match1_motion_pilot_010_frame_000262;match1_motion_pilot_010_frame_000321;match1_motion_pilot_010_frame_000413;match1_motion_pilot_010_frame_000505;match1_motion_pilot_010_frame_000781;match1_motion_pilot_010_frame_001241",
+      "feasible": 0,
+      "missing_visible": 78
+    },
+    {
+      "arm": "point_negative",
+      "threshold": 0.95,
+      "correct": 0,
+      "errors": 0,
+      "correct_lost": 66,
+      "lost_sample_ids": "match1_motion_pilot_001_frame_000016;match1_motion_pilot_001_frame_000080;match1_motion_pilot_001_frame_000112;match1_motion_pilot_001_frame_000144;match1_motion_pilot_001_frame_000208;match1_motion_pilot_001_frame_000240;match1_motion_pilot_001_frame_000304;match1_motion_pilot_001_frame_000336;match1_motion_pilot_001_frame_000432;match1_motion_pilot_003_frame_000145;match1_motion_pilot_003_frame_000203;match1_motion_pilot_003_frame_000261;match1_motion_pilot_003_frame_000291;match1_motion_pilot_003_frame_000319;match1_motion_pilot_003_frame_000435;match1_motion_pilot_003_frame_000493;match1_motion_pilot_003_frame_000551;match1_motion_pilot_003_frame_000609;match1_motion_pilot_003_frame_000667;match1_motion_pilot_003_frame_000725;match1_motion_pilot_004_frame_000126;match1_motion_pilot_004_frame_000154;match1_motion_pilot_004_frame_000182;match1_motion_pilot_004_frame_000210;match1_motion_pilot_004_frame_000350;match1_motion_pilot_005_frame_000105;match1_motion_pilot_005_frame_000147;match1_motion_pilot_005_frame_000189;match1_motion_pilot_005_frame_000231;match1_motion_pilot_005_frame_000273;match1_motion_pilot_005_frame_000315;match1_motion_pilot_005_frame_000399;match1_motion_pilot_005_frame_000441;match1_motion_pilot_005_frame_000483;match1_motion_pilot_006_frame_000093;match1_motion_pilot_006_frame_000155;match1_motion_pilot_006_frame_000527;match1_motion_pilot_006_frame_000589;match1_motion_pilot_006_frame_000713;match1_motion_pilot_006_frame_000775;match1_motion_pilot_006_frame_000837;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000416;match1_motion_pilot_007_frame_000544;match1_motion_pilot_007_frame_000672;match1_motion_pilot_007_frame_000736;match1_motion_pilot_007_frame_000800;match1_motion_pilot_007_frame_000851;match1_motion_pilot_007_frame_000864;match1_motion_pilot_009_frame_000119;match1_motion_pilot_009_frame_000279;match1_motion_pilot_009_frame_000679;match1_motion_pilot_009_frame_000839;match1_motion_pilot_009_frame_000919;match1_motion_pilot_009_frame_000999;match1_motion_pilot_009_frame_001079;match1_motion_pilot_009_frame_001159;match1_motion_pilot_010_frame_000262;match1_motion_pilot_010_frame_000321;match1_motion_pilot_010_frame_000413;match1_motion_pilot_010_frame_000505;match1_motion_pilot_010_frame_000689;match1_motion_pilot_010_frame_000781;match1_motion_pilot_010_frame_000965;match1_motion_pilot_010_frame_001057;match1_motion_pilot_010_frame_001241",
+      "feasible": 0,
+      "missing_visible": 102
+    }
+  ],
+  "validation_used": false,
+  "challenge_used": false,
+  "short_used": false,
+  "six_false_used": false,
+  "audit_used": false,
+  "choice_frozen": true
+}

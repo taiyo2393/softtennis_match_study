@@ -1,0 +1,189 @@
+{
+  "settings_hashes_unchanged": true,
+  "initialization_attempts": 3,
+  "initialization_proposals": 2,
+  "initialization_withheld": 1,
+  "missing_runs": [
+    {
+      "tag": "002",
+      "player_slot": "near_rear",
+      "start_frame": "2370",
+      "end_frame": "2451",
+      "frames": "82",
+      "duration_sec": "1.3680333333333334",
+      "last_raw_id": "2",
+      "same_raw_id_present_frames": "0",
+      "exceeds_90_frame_reactivation_limit": "False",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "002",
+      "player_slot": "far_front",
+      "start_frame": "2290",
+      "end_frame": "2296",
+      "frames": "7",
+      "duration_sec": "0.11678333333333334",
+      "last_raw_id": "4",
+      "same_raw_id_present_frames": "7",
+      "exceeds_90_frame_reactivation_limit": "False",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "002",
+      "player_slot": "far_front",
+      "start_frame": "2394",
+      "end_frame": "2577",
+      "frames": "184",
+      "duration_sec": "3.069733333333333",
+      "last_raw_id": "1000003",
+      "same_raw_id_present_frames": "0",
+      "exceeds_90_frame_reactivation_limit": "True",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "048",
+      "player_slot": "far_rear",
+      "start_frame": "126181",
+      "end_frame": "126201",
+      "frames": "21",
+      "duration_sec": "0.35035",
+      "last_raw_id": "1000004",
+      "same_raw_id_present_frames": "0",
+      "exceeds_90_frame_reactivation_limit": "False",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "048",
+      "player_slot": "far_rear",
+      "start_frame": "126209",
+      "end_frame": "126211",
+      "frames": "3",
+      "duration_sec": "0.050050000000000004",
+      "last_raw_id": "1000484",
+      "same_raw_id_present_frames": "2",
+      "exceeds_90_frame_reactivation_limit": "False",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "048",
+      "player_slot": "far_rear",
+      "start_frame": "126213",
+      "end_frame": "126758",
+      "frames": "546",
+      "duration_sec": "9.1091",
+      "last_raw_id": "1000496",
+      "same_raw_id_present_frames": "0",
+      "exceeds_90_frame_reactivation_limit": "True",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "048",
+      "player_slot": "far_front",
+      "start_frame": "126239",
+      "end_frame": "126249",
+      "frames": "11",
+      "duration_sec": "0.18351666666666666",
+      "last_raw_id": "2",
+      "same_raw_id_present_frames": "0",
+      "exceeds_90_frame_reactivation_limit": "False",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "048",
+      "player_slot": "far_front",
+      "start_frame": "126601",
+      "end_frame": "126613",
+      "frames": "13",
+      "duration_sec": "0.21688333333333334",
+      "last_raw_id": "1000516",
+      "same_raw_id_present_frames": "0",
+      "exceeds_90_frame_reactivation_limit": "False",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "048",
+      "player_slot": "far_front",
+      "start_frame": "126667",
+      "end_frame": "126675",
+      "frames": "9",
+      "duration_sec": "0.15015",
+      "last_raw_id": "100",
+      "same_raw_id_present_frames": "0",
+      "exceeds_90_frame_reactivation_limit": "False",
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    }
+  ],
+  "media": [
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\results\\players_002_frozen_stage2\\tracking_review_h264.mp4",
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "355"
+    },
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\results\\players_048_frozen_stage2\\tracking_review_h264.mp4",
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "900"
+    }
+  ],
+  "warning": "Missing assignments are not proven tracking errors. No independent identity accuracy measured.",
+  "availability": [
+    {
+      "tag": "002",
+      "frames": 355,
+      "four_assigned": 140,
+      "fraction": 0.39436619718309857
+    },
+    {
+      "tag": "048",
+      "frames": 900,
+      "four_assigned": 330,
+      "fraction": 0.36666666666666664
+    }
+  ],
+  "long_missing_runs": [
+    {
+      "tag": "002",
+      "player_slot": "near_rear",
+      "start_frame": 2370,
+      "end_frame": 2451,
+      "frames": 82,
+      "duration_sec": 1.3680333333333334,
+      "last_raw_id": "2",
+      "same_raw_id_present_frames": 0,
+      "exceeds_90_frame_reactivation_limit": false,
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "002",
+      "player_slot": "far_front",
+      "start_frame": 2394,
+      "end_frame": 2577,
+      "frames": 184,
+      "duration_sec": 3.069733333333333,
+      "last_raw_id": "1000003",
+      "same_raw_id_present_frames": 0,
+      "exceeds_90_frame_reactivation_limit": true,
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    },
+    {
+      "tag": "048",
+      "player_slot": "far_rear",
+      "start_frame": 126213,
+      "end_frame": 126758,
+      "frames": 546,
+      "duration_sec": 9.1091,
+      "last_raw_id": "1000496",
+      "same_raw_id_present_frames": 0,
+      "exceeds_90_frame_reactivation_limit": true,
+      "interpretation": "assignment_gap_not_ground_truth_error"
+    }
+  ]
+}

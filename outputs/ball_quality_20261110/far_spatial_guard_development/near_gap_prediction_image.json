@@ -1,0 +1,21 @@
+{
+  "source_frames": [
+    46658,
+    46659,
+    46660,
+    46665
+  ],
+  "crop_native_xyxy": [
+    1400,
+    1000,
+    2500,
+    1600
+  ],
+  "display_size": [
+    880,
+    480
+  ],
+  "aspect_preserved": true,
+  "image_sha256": "91120506059ece64f761f3d4bc66dce0e050b3687832a3d5d93c0f58a4a111de",
+  "AI_inspection_not_human_GT": true
+}

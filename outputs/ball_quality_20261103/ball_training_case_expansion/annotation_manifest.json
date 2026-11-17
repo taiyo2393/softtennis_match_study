@@ -1,0 +1,47 @@
+{
+  "status": "four_training_frames_ready_for_blinded_manual_annotation",
+  "cases": 4,
+  "training_only": true,
+  "source_clips": [
+    3,
+    6,
+    7,
+    10
+  ],
+  "existing300_labels_unchanged": true,
+  "initial_reviewed_rows": 0,
+  "original_image_native_wh": [
+    1920,
+    1080
+  ],
+  "model_points_not_rendered_in_annotation_ui": true,
+  "no_auto_negative_or_center_labels": true,
+  "video_decode_verified": true,
+  "context_warning": "Video is context, image is exact target. If ball is invisible choose not_visible; if ambiguous/multiple target unclear choose uncertain. Do not infer a position.",
+  "selection": "Top temporal-deviation candidate per clip, prefer clips not containing the2 old hard cases; excludes old labelled frames and transitions. Not representative evaluation sampling.",
+  "phase_warning": "No new human-confirmed rally boundary; optional phase field remains unknown until reviewed.",
+  "cases_sha256": "0e400697d76dc0695acc771e99a4e8667c92b3ca5b23be6e9da6d86f6b04502e",
+  "initial_labels_sha256": "c295c7a59f24d487b9beb0c6c9a2aeaef3c0f6af5ad83ac09a8cacfbfbcb9f7d",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_001\\balltrack_predictions.csv": "bebc85a930738490c1b847a4341358c670b0c4fcd5f42ce72af88cd3aaf0d6ea",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_001.json": "307d4847c4ddde4f346ad1446a4e0b089a661be4c1d99d6f8605ab3ab68962c9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_003\\balltrack_predictions.csv": "0893f835417849c9f773b3c71702ac6fbc02ef80c990be6117a81a3249a53c3f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_003.json": "f0b8b3809d6b026d45cda3b99968f143764d885207a1e632785b3cb851e7422a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_004\\balltrack_predictions.csv": "bfbb0fba01abb0d584fcf13e98724d7e127d678bfb3e3b74cf581d53a1c5e1fe",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_004.json": "981fe1fb016aefa725b9016408603ca7d0741ae162a6bf3822e2ae169ee4a90a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_005\\balltrack_predictions.csv": "9fa71698d758a65e063849050962dc7e4396f2d32e58a7e1ab27394eac7ee7f7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_005.json": "19a9e472d47d394791cc49659848efe46249d5cd31147cc1442db746666413a1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_006\\balltrack_predictions.csv": "e37bd40a1da0e0ffa80e0ae811f921fcf22919798842b4642d00497bde7dae46",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_006.json": "64ec9518c39fc2375b16b0c4d85c8102c944aff2ae8f2322ad0ff894fc279de3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_007\\balltrack_predictions.csv": "297f514c3db620f61377e4876660cc1e436a41caac42ebd83d5f71319cf4d10f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_007.json": "c7837ee2bca0353d29902d546aee0e49019c5cc2d41ac37aeb701ba3a3de8bd8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_009\\balltrack_predictions.csv": "6221f1ec4a352eec9fe4048cba8891bef5d75f5cad5242e261da49f7fc258cbf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_009.json": "005ae886a9cca0447cdfae23f0adaa61d9c82841adb5b5641fe9fae97a47c069",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_010\\balltrack_predictions.csv": "2b7063df77779b7cee7df274844666652432747de4888e21dcd7d1bddc81eda0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\camera_features\\match1_motion_pilot_010.json": "205e1837ec53156f0ff303a9fb8ca0133479cdc4d472e5639e8058245146d5c1"
+  }
+}

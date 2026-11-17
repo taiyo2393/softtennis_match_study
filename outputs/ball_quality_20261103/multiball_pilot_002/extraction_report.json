@@ -1,0 +1,414 @@
+{
+  "frames": 81,
+  "components": 90,
+  "multiple_component_frames": 15,
+  "baseline_reproduction_checks": [
+    {
+      "local_frame": 280,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 281,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 282,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 283,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 284,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 285,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 286,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 287,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 288,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 289,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 290,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 291,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 292,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 293,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 294,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 295,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 296,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 297,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 298,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 299,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 300,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 301,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 302,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 303,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 304,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 305,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 306,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 307,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 308,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 309,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 310,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 311,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 312,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 313,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 314,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 315,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 316,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 317,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 318,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 319,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 0
+    },
+    {
+      "local_frame": 320,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 321,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 322,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 323,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 324,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 325,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 326,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 327,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 328,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 329,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 330,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 331,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 332,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 333,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 334,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 335,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 336,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 337,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 338,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 339,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 340,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 341,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 342,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 343,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 344,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 345,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 346,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 347,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 348,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 349,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 350,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 351,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 352,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 353,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 354,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 355,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 356,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 357,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 358,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 359,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    },
+    {
+      "local_frame": 360,
+      "baseline_delta_px": 0.0,
+      "baseline_visible": 1
+    }
+  ],
+  "annotation_coordinates_used": false,
+  "warning": "Multiple heatmap components are candidate outputs, not verified balls or target identities."
+}

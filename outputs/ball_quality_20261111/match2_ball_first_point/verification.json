@@ -1,0 +1,15 @@
+{
+  "source_cache_frames": 420,
+  "raw_review_video_frames_decoded": 183,
+  "baseline_target_frames": 243,
+  "frames_with_candidate_output": 199,
+  "baseline_target_frame_range": [
+    12327,
+    12569
+  ],
+  "reference_frames": 12,
+  "independent_ball_labels_available": 0,
+  "frozen_match1_weight_verified": true,
+  "source_cache_unchanged": true,
+  "publication_date": "2026-11-11"
+}

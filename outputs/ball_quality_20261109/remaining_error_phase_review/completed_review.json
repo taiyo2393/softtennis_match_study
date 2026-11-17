@@ -1,0 +1,61 @@
+{
+  "status": "three_target_phases_human_confirmed_ended",
+  "date_jst": "2026-11-09",
+  "confirmed_targets": 3,
+  "original_answers": [
+    {
+      "review_id": "A",
+      "answer": "終了後"
+    },
+    {
+      "review_id": "B",
+      "answer": "2か所とも終了後"
+    }
+  ],
+  "target_phases": [
+    {
+      "candidate_id": "match1_motion_pilot_001",
+      "local_frame": 464,
+      "source_frame": 584,
+      "phase_status": "ended"
+    },
+    {
+      "candidate_id": "match1_motion_pilot_006",
+      "local_frame": 279,
+      "source_frame": 46103,
+      "phase_status": "ended"
+    },
+    {
+      "candidate_id": "match1_motion_pilot_006",
+      "local_frame": 341,
+      "source_frame": 46165,
+      "phase_status": "ended"
+    }
+  ],
+  "labels_sha256": "db04157f777fc8c4ff9e2f8d5597fc222bc136e3207dc5c3c63c8254f1630aaf",
+  "events_sha256": "012a8195b8c3772fed1c3a708dffcb47b3e69d5a08bf3d8ea0f0ed9448d484d1",
+  "initial_snapshot_sha256": "a4b8b8c29536d6ebed5abc1eddb02b344f093b483d9a04fe405ccd775ca6b9e4",
+  "scope": "Only highlighted target moments; neither precise rally end nor neighbouring-frame phases established.",
+  "conclusion": "All three remaining added errors of the grouped gate occurred after the rally according to the user.",
+  "no_error_only_exclusion_or_new_inplay_metric": true,
+  "old_comparison_retained": {
+    "original": [
+      66,
+      4
+    ],
+    "tiled": [
+      77,
+      14
+    ],
+    "grouped_gate": [
+      77,
+      7
+    ]
+  },
+  "adoption_unchanged": true,
+  "model_or_canonical_tracking_changed": false,
+  "ball_centers_changed": false,
+  "next": "Establish phase scope across successes and failures before any in-play effectiveness claim or further tuning.",
+  "protected_inputs_unchanged": true,
+  "script_sha256": "1b3a5eb0ea8011dac201d1c356e6bbc1b7ad9f0505294176499babe556959cd8"
+}

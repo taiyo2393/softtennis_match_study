@@ -1,0 +1,146 @@
+[
+  {
+    "source_frame": 60006,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 60007,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 60008,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 60009,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 60010,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 60011,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 60012,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 60013,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      1000011,
+      1000012,
+      1000017
+    ]
+  }
+]

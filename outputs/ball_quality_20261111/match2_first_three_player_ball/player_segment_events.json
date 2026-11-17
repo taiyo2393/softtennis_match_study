@@ -1,0 +1,74 @@
+[
+  {
+    "point": 1,
+    "segment": 1,
+    "start": 12288,
+    "events": [
+      {
+        "event": "initialized",
+        "frame": 12295,
+        "window_start": 12288,
+        "seed_ids": {
+          "near_front": 2,
+          "near_rear": 1,
+          "far_rear": 5,
+          "far_front": 4
+        },
+        "identity_status": "candidate_not_ground_truth"
+      }
+    ]
+  },
+  {
+    "point": 2,
+    "segment": 1,
+    "start": 13560,
+    "events": [
+      {
+        "event": "initialized",
+        "frame": 13567,
+        "window_start": 13560,
+        "seed_ids": {
+          "near_front": 1,
+          "near_rear": 3,
+          "far_rear": 5,
+          "far_front": 4
+        },
+        "identity_status": "candidate_not_ground_truth"
+      },
+      {
+        "event": "reacquired_candidate",
+        "frame": 13977,
+        "player_slot": "near_rear",
+        "last_observed_frame": 13860,
+        "old_raw_id": 3,
+        "new_raw_id": 384,
+        "confirmation_start": 13970,
+        "confirmation_frames": 8,
+        "confirmation_raw_ids": [
+          384
+        ],
+        "alternative_cost_margin": 0.4723385978481998,
+        "identity_status": "requires_identity_review"
+      }
+    ]
+  },
+  {
+    "point": 3,
+    "segment": 1,
+    "start": 15150,
+    "events": [
+      {
+        "event": "initialized",
+        "frame": 15159,
+        "window_start": 15152,
+        "seed_ids": {
+          "near_front": 2,
+          "near_rear": 1,
+          "far_rear": 9,
+          "far_front": 3
+        },
+        "identity_status": "candidate_not_ground_truth"
+      }
+    ]
+  }
+]

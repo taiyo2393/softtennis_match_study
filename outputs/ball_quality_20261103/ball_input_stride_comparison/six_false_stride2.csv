@@ -1,0 +1,7 @@
+﻿sample_id,candidate_id,local_frame,source_frame,role,input_stride,truth_visibility,truth_x_px,truth_y_px,x_px,y_px,visible,confidence,component_count,interpolated
+match1_motion_pilot_015_frame_000463,match1_motion_pilot_015,463,104998,six_false,2,,,,0,0,0,0.0,0,0
+match1_motion_pilot_015_frame_000464,match1_motion_pilot_015,464,104999,six_false,2,,,,0,0,0,0.0,0,0
+match1_motion_pilot_015_frame_000465,match1_motion_pilot_015,465,105000,six_false,2,,,,0,0,0,0.0,0,0
+match1_motion_pilot_015_frame_000467,match1_motion_pilot_015,467,105002,six_false,2,,,,838,628,1,0.3606679439544678,1,0
+match1_motion_pilot_015_frame_000470,match1_motion_pilot_015,470,105005,six_false,2,,,,0,0,0,0.0,0,0
+match1_motion_pilot_015_frame_000554,match1_motion_pilot_015,554,105089,six_false,2,,,,1434,579,1,0.39371201395988464,1,0

@@ -1,0 +1,68 @@
+{
+  "rally_candidate": "044",
+  "ball_pilot": "match1_motion_pilot_016",
+  "source_frame_interval": [
+    115360,
+    115775
+  ],
+  "local_frame_interval": [
+    725,
+    1140
+  ],
+  "source_clock": "legacy edited match1",
+  "raw_detector_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\full_rally_044\\bytetrack.csv",
+  "raw_source_sha256": "de3d4aae6c52757e488c3bb4dac7630f9ed37ccec3e91fb4ddfa70ba571682d8",
+  "search_parameters": {
+    "beam_width": 48,
+    "options_per_person": 4,
+    "appearance_max": 0.7,
+    "missing_cost": 0.9,
+    "uncertainty_height_base": 0.25,
+    "uncertainty_per_missing_frame": 0.03,
+    "max_motion_normalized": 6.0,
+    "velocity_retention_missing": 0.98,
+    "observation_feature_weight": 0.8,
+    "motion_weight": 0.35,
+    "detector_id_change_cost": 0.04,
+    "pair_overlap_max": 0.55,
+    "stable_tracklet_min_observations": 8,
+    "tracklet_split_gap": 4,
+    "tracklet_jump_base_height": 0.4,
+    "tracklet_jump_per_frame_height": 0.3,
+    "bridge_max_frame_delta": 30,
+    "bridge_context_observations": 5,
+    "bridge_min_context": 3,
+    "bridge_two_sided_error_max_height": 0.75,
+    "scope": "offline_development_not_independent_evaluation"
+  },
+  "search_code_sha256": "0e0da9818ddf3c010061f0167b34ba213b26fd236951d365ec97d6fddb0a08b1",
+  "runner_sha256": "b51549453ca9bd1311504264c9b8b1b00bf23f18e4820668a7c57efbf507c7d8",
+  "seed_ids": {
+    "far_rear": 422,
+    "far_front": 20
+  },
+  "near_ids": {
+    "near_front": 2,
+    "near_rear": 1
+  },
+  "seed_role_meaning": "F1=far-side server at initialization; F2=far-side partner. Names remain identities after movement.",
+  "initialization": "Spatially selected detector seeds near known service, not manual identity ground truth",
+  "far_candidate_roi": {
+    "x": [
+      0.2,
+      0.9
+    ],
+    "y": [
+      0.49,
+      0.665
+    ]
+  },
+  "anchor_window_source_frames": [
+    115340,
+    115360
+  ],
+  "negative_templates": 6,
+  "interpolation": false,
+  "independent_accuracy_claim": false,
+  "difference_from_prior_candidate_extraction": "Reinitialize near effective service; extend coarse lateral ROI for the far player running toward the right sideline; retain exact existing joint solver parameters."
+}

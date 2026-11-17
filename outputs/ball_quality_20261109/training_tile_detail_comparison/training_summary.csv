@@ -1,0 +1,7 @@
+﻿method,correct,errors,wrong_position,output_when_not_observable,missing_visible,old_correct_lost,lost_sample_ids,own_pool_center_upper_bound,meets_safety,strict_improvement
+global_area,63,7,5,2,34,3,match1_motion_pilot_003_frame_000291;match1_motion_pilot_007_frame_000851;match1_motion_pilot_010_frame_000262,66,0,0
+global_peak,64,6,4,2,34,2,match1_motion_pilot_001_frame_000336;match1_motion_pilot_003_frame_000291,66,0,0
+native_peak,76,12,5,7,21,1,match1_motion_pilot_004_frame_000126,76,0,0
+degraded_peak,66,5,2,3,34,6,match1_motion_pilot_004_frame_000126;match1_motion_pilot_004_frame_000154;match1_motion_pilot_005_frame_000231;match1_motion_pilot_007_frame_000032;match1_motion_pilot_009_frame_001159;match1_motion_pilot_010_frame_001241,66,0,0
+native_missing_only,77,14,7,7,18,0,,76,0,0
+degraded_missing_only,72,7,4,3,26,0,,66,0,0

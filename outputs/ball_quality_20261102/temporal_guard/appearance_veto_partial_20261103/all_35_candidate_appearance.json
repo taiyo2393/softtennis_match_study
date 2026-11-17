@@ -1,0 +1,300 @@
+[
+  {
+    "case_id": "01_001_f390",
+    "candidate_id": "match1_motion_pilot_001",
+    "local_frame": 390,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "02_002_f318",
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 318,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "03_004_f313",
+    "candidate_id": "match1_motion_pilot_004",
+    "local_frame": 313,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "04_005_f279",
+    "candidate_id": "match1_motion_pilot_005",
+    "local_frame": 279,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "05_006_f884",
+    "candidate_id": "match1_motion_pilot_006",
+    "local_frame": 884,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "06_007_f603",
+    "candidate_id": "match1_motion_pilot_007",
+    "local_frame": 603,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "07_007_f633",
+    "candidate_id": "match1_motion_pilot_007",
+    "local_frame": 633,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "08_007_f635",
+    "candidate_id": "match1_motion_pilot_007",
+    "local_frame": 635,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "09_008_f503",
+    "candidate_id": "match1_motion_pilot_008",
+    "local_frame": 503,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "10_008_f1345",
+    "candidate_id": "match1_motion_pilot_008",
+    "local_frame": 1345,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "11_009_f123",
+    "candidate_id": "match1_motion_pilot_009",
+    "local_frame": 123,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "12_009_f125",
+    "candidate_id": "match1_motion_pilot_009",
+    "local_frame": 125,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "13_009_f379",
+    "candidate_id": "match1_motion_pilot_009",
+    "local_frame": 379,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "14_010_f262",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 262,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "15_010_f362",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 362,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "16_010_f1024",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 1024,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "17_010_f1026",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 1026,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "18_011_f1022",
+    "candidate_id": "match1_motion_pilot_011",
+    "local_frame": 1022,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "19_011_f1224",
+    "candidate_id": "match1_motion_pilot_011",
+    "local_frame": 1224,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "20_012_f319",
+    "candidate_id": "match1_motion_pilot_012",
+    "local_frame": 319,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "21_012_f383",
+    "candidate_id": "match1_motion_pilot_012",
+    "local_frame": 383,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "22_014_f626",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 626,
+    "protect": true,
+    "yellow_pixels": 24,
+    "components": [
+      {
+        "area": 24,
+        "distance_px": 5.310661446562,
+        "centroid": [
+          473.25,
+          643.625
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "23_014_f630",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 630,
+    "protect": true,
+    "yellow_pixels": 22,
+    "components": [
+      {
+        "area": 22,
+        "distance_px": 2.337265478578596,
+        "centroid": [
+          482.72727272727275,
+          657.4545454545455
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "24_014_f751",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 751,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "25_014_f876",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 876,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "26_014_f1293",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 1293,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "27_014_f1930",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 1930,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "28_015_f24",
+    "candidate_id": "match1_motion_pilot_015",
+    "local_frame": 24,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "29_015_f28",
+    "candidate_id": "match1_motion_pilot_015",
+    "local_frame": 28,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "30_016_f186",
+    "candidate_id": "match1_motion_pilot_016",
+    "local_frame": 186,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "31_016_f773",
+    "candidate_id": "match1_motion_pilot_016",
+    "local_frame": 773,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "32_016_f960",
+    "candidate_id": "match1_motion_pilot_016",
+    "local_frame": 960,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "33_017_f384",
+    "candidate_id": "match1_motion_pilot_017",
+    "local_frame": 384,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "34_017_f399",
+    "candidate_id": "match1_motion_pilot_017",
+    "local_frame": 399,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  },
+  {
+    "case_id": "35_017_f452",
+    "candidate_id": "match1_motion_pilot_017",
+    "local_frame": 452,
+    "protect": false,
+    "yellow_pixels": 0,
+    "components": []
+  }
+]

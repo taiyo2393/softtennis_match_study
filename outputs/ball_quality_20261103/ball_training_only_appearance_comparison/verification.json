@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "human_object_labels": 9,
+  "confirmed_not_ball": 9,
+  "uncertain": 0,
+  "manual_center_positives": 102,
+  "training_clips": 8,
+  "negative_clips": 5,
+  "grouped_heads_verified": 16,
+  "training_and_evaluation_images_disjoint": true,
+  "training_and_evaluation_clips_disjoint": true,
+  "all_source_images_and_patches_verified": true,
+  "protected_inputs_unchanged": true,
+  "final_heads_unchanged": true,
+  "audit_not_run": true,
+  "in_sample_only": [
+    {
+      "method": "handcrafted672",
+      "in_sample_real_kept": 101,
+      "in_sample_false_kept": 0,
+      "not_a_generalization_estimate": true
+    },
+    {
+      "method": "frozen_resnet18_512",
+      "in_sample_real_kept": 101,
+      "in_sample_false_kept": 0,
+      "not_a_generalization_estimate": true
+    }
+  ],
+  "summary": [
+    {
+      "method": "handcrafted672",
+      "validation_correct_before": 81,
+      "validation_correct_after": 77,
+      "validation_wrong_before": 2,
+      "validation_wrong_after": 2,
+      "correct_lost": 4,
+      "challenge_correct": 4,
+      "six_false_withheld": 0,
+      "six_false_retained": 6
+    },
+    {
+      "method": "frozen_resnet18_512",
+      "validation_correct_before": 81,
+      "validation_correct_after": 79,
+      "validation_wrong_before": 2,
+      "validation_wrong_after": 2,
+      "correct_lost": 2,
+      "challenge_correct": 4,
+      "six_false_withheld": 0,
+      "six_false_retained": 6
+    }
+  ]
+}

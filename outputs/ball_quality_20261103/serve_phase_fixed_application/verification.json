@@ -1,0 +1,8 @@
+{
+  "frozen_code_parameters_and_calibration_match": true,
+  "extractor_four_development_frames_equivalent": true,
+  "feature_and_runner_hashes_match": true,
+  "outcomes_remain_unknown": true,
+  "source_review_tables_unchanged": true,
+  "warning": "Software/provenance checks, not independent start-detection accuracy."
+}

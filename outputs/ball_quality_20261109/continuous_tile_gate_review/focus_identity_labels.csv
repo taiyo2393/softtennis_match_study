@@ -1,0 +1,4 @@
+﻿window_id,local_frame,source_frame,output_source,x_px,y_px,identity_status,review_status,reviewer_id,reviewed_at_utc,notes
+B,275,57488,original_temporal,954,586,confirmed_not_rally_ball,human_target_identity_review,human_user,2026-11-09T06:39:48.932051+00:00,"Explicit answer: 別物体. Target identity only; no ball center, visibility or neighbouring-frame labels inferred."
+D,515,154441,added_native_candidate,265,533,confirmed_not_rally_ball,human_target_identity_review,human_user,2026-11-09T06:39:48.932051+00:00,"Explicit answer: 別物体. Target identity only; no ball center, visibility or neighbouring-frame labels inferred."
+D,516,154442,added_native_candidate,265,533,confirmed_not_rally_ball,human_target_identity_review,human_user,2026-11-09T06:39:48.932051+00:00,"Explicit answer: 別物体. Target identity only; no ball center, visibility or neighbouring-frame labels inferred."

@@ -1,0 +1,43 @@
+[
+  {
+    "candidate_id": "match1_rally_window_044",
+    "tracker_first_frame": 114710,
+    "tracker_last_frame": 114889,
+    "roi_frames_with_four_or_more_candidate_boxes": 180,
+    "geometric_seed_first_frame": 114710,
+    "geometric_seed_available_frames": 176,
+    "selected_four_candidate_frames": 151,
+    "provisional_contact_first_frame": 114740,
+    "provisional_contact_last_frame": 114760,
+    "selected_four_during_contact_candidate_frames": 21,
+    "identity_ground_truth_available": false,
+    "status": "selection_candidate_only"
+  },
+  {
+    "candidate_id": "match1_rally_window_056",
+    "tracker_first_frame": 154051,
+    "tracker_last_frame": 154230,
+    "roi_frames_with_four_or_more_candidate_boxes": 180,
+    "geometric_seed_first_frame": 154086,
+    "geometric_seed_available_frames": 132,
+    "selected_four_candidate_frames": null,
+    "provisional_contact_first_frame": 154081,
+    "provisional_contact_last_frame": 154086,
+    "selected_four_during_contact_candidate_frames": null,
+    "identity_ground_truth_available": false,
+    "status": "initial_seed_failed",
+    "deferred_seed": {
+      "first_frame": 154086,
+      "last_frame": 154230,
+      "frames": 145,
+      "initial_frames_unselected": 35,
+      "four_observed_candidate_frames": 136,
+      "four_with_interpolation_candidate_frames": 137,
+      "original_observed_slots": 476,
+      "provisionally_relinked_observed_slots": 95,
+      "interpolated_unobserved_slots": 1,
+      "provisional_relink": "far_rear ID42 to ID61 at F154136",
+      "warning": "Four candidate boxes can be selected; identity and foot positions remain unverified"
+    }
+  }
+]

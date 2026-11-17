@@ -1,0 +1,14 @@
+{
+  "candidate_id": "match1_rally_window_012",
+  "reviewer": "Codex AI initial-image inspection plus exact unchanged-box comparison",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": false,
+  "AI_identity_binding_added": false,
+  "initialization_source_frame": 31935,
+  "initialization_image": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\pair_initialization_development\\matched_trial\\initialization_evidence\\012_F31935.jpg",
+  "initialization_image_sha256": "7166c1caf210a20d3a885e42c58a02413739711ff1da48ebed148980bcf3a8a6",
+  "observation": "Initial boxes enclose near-right dark-capped teammate, near-left white-capped server, dark far player and orange far player. All later original boxes are unchanged; only four real boxes atF31935 are added. Requested window features are identical to retained012.",
+  "prior_AI_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_012\\AI_visual_findings.json",
+  "prior_AI_review_sha256": "6819df2f19d7b7ad186a837a1b41c6cb48d19f2c128972da9af63916198b1ad0",
+  "independent_identity_or_position_accuracy_established": false
+}

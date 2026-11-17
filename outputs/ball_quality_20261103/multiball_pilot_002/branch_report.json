@@ -1,0 +1,54 @@
+{
+  "protocol": "seeded local association: gate32+8*gap px, max gap8 frames, competing candidates within8px distance margin stay unresolved",
+  "seed_review_sha256": "d5d8d31c85940d3b70c4c551af532d6ce4d3db11722779cb15cdbe24812b84d7",
+  "seed_frame": 318,
+  "seed_xy": [
+    558.0,
+    680.0
+  ],
+  "selected_component_frames": 16,
+  "selected_frames": [
+    294,
+    296,
+    298,
+    302,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    314,
+    315,
+    316,
+    317,
+    318
+  ],
+  "old_output_agrees_with_selected_component_frames": 1,
+  "frames_without_assignment": 65,
+  "association_events": [
+    {
+      "direction": -1,
+      "local_frame": 285,
+      "event": "stopped_after_eight_frame_gap"
+    },
+    {
+      "direction": 1,
+      "local_frame": 327,
+      "event": "stopped_after_eight_frame_gap"
+    }
+  ],
+  "video": {
+    "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\multiball_pilot_002\\seeded_branch_slow_h264.mp4",
+    "decoded_frames": 384,
+    "full_decode": true,
+    "nominal_speed": 0.25,
+    "additional_target_freezes_frames": [
+      310,
+      318
+    ]
+  },
+  "interpolated_positions": 0,
+  "warning": "16 assigned observed components are not 16 independently confirmed correct ball positions. No held-out identity or localization accuracy evaluation."
+}

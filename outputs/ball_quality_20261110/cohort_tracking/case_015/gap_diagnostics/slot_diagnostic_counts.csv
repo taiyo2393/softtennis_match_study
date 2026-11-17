@@ -1,0 +1,5 @@
+﻿player_slot,observations,raw_id_count,raw_id_changes,gap_runs
+near_front,653,2,5,0
+near_rear,653,1,0,0
+far_rear,638,2,2,1
+far_front,653,2,1,0

@@ -1,0 +1,9 @@
+{
+  "reviewer": "human_user",
+  "response": "合っている",
+  "question": "上の005の動画では、F1（紫）・F2（黄）が途中で入れ替わらず、同じ選手を追えていますか？",
+  "reviewed_artifact": "global_review_h264.mp4",
+  "status": "human_video_level_identity_confirmation",
+  "scope": "User confirmed F1/F2 correspondence in the displayed stage7 updated 005 video",
+  "limitations": "Video-level confirmation, not an independent per-frame identity benchmark, position-accuracy measurement, or confirmation of other rallies. Missing positions remain missing."
+}

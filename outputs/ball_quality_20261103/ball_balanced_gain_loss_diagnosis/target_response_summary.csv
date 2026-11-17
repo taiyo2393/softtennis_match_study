@@ -1,0 +1,5 @@
+﻿case_id,model,local_frame,source_frame,is_target,global_peak,global_peak_source_x,global_peak_source_y,peak_within16px,pixels_over03_within16px,full_component_count,closest_component_center_error_px,gt_scope
+A,original,285,104820,1,0.298828125,1117.5,596.25,0.298828125,0,0,,"Exact center confirmed ONLY at target; elsewhere score probe uses fixed target location, not moving GT."
+A,balanced,285,104820,1,0.31103515625,1125.0,592.5,0.31103515625,10,1,11.40175425099138,"Exact center confirmed ONLY at target; elsewhere score probe uses fixed target location, not moving GT."
+B,original,832,15637,1,0.343994140625,798.75,562.5,0.343994140625,35,1,6.324555320336759,"Exact center confirmed ONLY at target; elsewhere score probe uses fixed target location, not moving GT."
+B,balanced,832,15637,1,0.29443359375,802.5,547.5,0.294189453125,0,0,,"Exact center confirmed ONLY at target; elsewhere score probe uses fixed target location, not moving GT."

@@ -1,0 +1,13 @@
+﻿arm,method,local_frame,x_px,y_px,visible,distance_to_known_false_point,status,true_ball_center,physical_visibility
+positive_control,raw,463,1136,675,1,272.8094573140748,different_unverified_candidate,unknown,not_labelled
+positive_control,raw,464,1141,646,1,273.59276306218334,different_unverified_candidate,unknown,not_labelled
+positive_control,raw,465,1126,684,1,283.0070670495703,different_unverified_candidate,unknown,not_labelled
+positive_control,raw,467,1140,671,1,302.7887052054617,different_unverified_candidate,unknown,not_labelled
+positive_control,raw,470,1123,646,1,295.28630174798155,different_unverified_candidate,unknown,not_labelled
+positive_control,raw,554,1230,603,1,145.67086187704115,different_unverified_candidate,unknown,not_labelled
+positive_control,temporal,463,864,605,1,19.4164878389476,different_unverified_candidate,unknown,not_labelled
+positive_control,temporal,464,870,626,1,2.8284271247461903,near_known_false_point_unverified,unknown,not_labelled
+positive_control,temporal,465,849,579,1,47.0,different_unverified_candidate,unknown,not_labelled
+positive_control,temporal,467,828,598,1,34.17601498127012,different_unverified_candidate,unknown,not_labelled
+positive_control,temporal,470,819,598,1,36.138621999185304,different_unverified_candidate,unknown,not_labelled
+positive_control,temporal,554,1428,588,1,54.45181356024793,different_unverified_candidate,unknown,not_labelled

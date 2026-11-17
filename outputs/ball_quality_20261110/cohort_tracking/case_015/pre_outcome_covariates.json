@@ -1,0 +1,27 @@
+{
+  "rally_candidate_id": "match1_rally_window_015",
+  "server_camera_side_candidate": "far",
+  "server_court_half_candidate": "left",
+  "serve_style_candidate": "underhand_service_AI_candidate",
+  "serve_attempt_number": "",
+  "review_status": "AI_visual_candidate_not_independent_human_GT",
+  "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_015\\phase_evidence\\manifest.json",
+  "source_sha256": "d4d5c1725f9cd6618653016b75a19477dc566911bde9d031ee8e72e51cd143d5",
+  "source_fixed_before_tracking": false,
+  "inference_uses_only_pre_outcome_frames": true,
+  "inferred_from_winner": false,
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "annotation_timing": "Raw pre-outcome images inspected after automatic person inference; before outcome-model fitting.",
+  "evidence_images": [
+    {
+      "source_frame": 38799,
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_015\\phase_evidence\\F38799.jpg",
+      "sha256": "f49d6ae0cff9a67633bcb713c08bc04d2a0aec5ad8754b0d2b7756bc0c894544"
+    },
+    {
+      "source_frame": 38816,
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_015\\phase_evidence\\F38816.jpg",
+      "sha256": "160b14b47186322707851e9499591d2dfe802f272becad3cce83bab85601242d"
+    }
+  ]
+}

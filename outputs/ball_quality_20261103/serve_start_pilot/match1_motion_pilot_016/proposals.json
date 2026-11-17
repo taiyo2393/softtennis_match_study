@@ -1,0 +1,9 @@
+{
+  "pilot": "016",
+  "person_tracklets": 28,
+  "proposals": [],
+  "raw_gesture_episodes": [],
+  "protocol_sha256": "334055c95d1e44258679966f1d8133d158f3fdb8b3903b054cfd1798e8d908f1",
+  "feature_sha256": "023cf0060197be8d4c8da2ecc70c6009edce5134126071918f4a6e83add69af9",
+  "labels_read": false
+}

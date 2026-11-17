@@ -1,0 +1,84 @@
+{
+  "segments": [
+    {
+      "tag": "002",
+      "first": 2269,
+      "last": 2269,
+      "repeat": 90,
+      "slot": "far_front",
+      "label": "Rectangle-only overlap warning; still image",
+      "crop_native_xyxy": [
+        2067,
+        949,
+        2548,
+        1504
+      ]
+    },
+    {
+      "tag": "002",
+      "first": 2303,
+      "last": 2303,
+      "repeat": 90,
+      "slot": "far_front",
+      "label": "Proxy on foreground body; still image",
+      "crop_native_xyxy": [
+        2122,
+        932,
+        2567,
+        1491
+      ]
+    },
+    {
+      "tag": "019",
+      "first": 46396,
+      "last": 46396,
+      "repeat": 90,
+      "slot": "far_rear",
+      "label": "Fixed input-window proxy warning; still image",
+      "crop_native_xyxy": [
+        1440,
+        958,
+        1858,
+        1566
+      ]
+    },
+    {
+      "tag": "019",
+      "first": 46500,
+      "last": 46521,
+      "repeat": 6,
+      "slot": "far_rear",
+      "label": "Mixed native box;1/6 speed",
+      "crop_native_xyxy": [
+        1263,
+        932,
+        1806,
+        1535
+      ]
+    },
+    {
+      "tag": "019",
+      "first": 46625,
+      "last": 46641,
+      "repeat": 6,
+      "slot": "far_rear",
+      "label": "Rear player hidden by teammate;1/6 speed",
+      "crop_native_xyxy": [
+        1862,
+        960,
+        2397,
+        1687
+      ]
+    }
+  ],
+  "source_clock": "legacy_edited_match1",
+  "selection_after_diagnostic_outputs": true,
+  "aspect_preserved": true,
+  "dimensions": [
+    1600,
+    560
+  ],
+  "fps": 59.94005994005994,
+  "interpretation": "Warnings and body/ankle estimates only; no repaired coordinates or identity changes.",
+  "script_sha256": "e813f4114c8cffb726b4ef894224f435e30bbe1003df86eba39318d0783c75bc"
+}

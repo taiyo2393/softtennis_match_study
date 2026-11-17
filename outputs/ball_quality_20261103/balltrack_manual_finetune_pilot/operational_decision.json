@@ -1,0 +1,17 @@
+{
+  "status": "retain_original_detector_with_existing_reviewed_overrides",
+  "original_checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+  "original_checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "operational_threshold": 0.3,
+  "manual_annotation_source_confirmed": true,
+  "experimental_training_selected_epoch": 2,
+  "experimental_training_model_applied": false,
+  "calibration_no_feasible_new_setting": true,
+  "all_source_labels_and_reviewed_registries_unchanged": true,
+  "reason": "Fine tuning increases localized detections and false outputs; no calibrated setting preserves all validation baseline TP and keeps the original error count.",
+  "records": {
+    "training": "decision.json",
+    "calibration": "calibration/decision.json",
+    "provenance": "manual_annotation_provenance.json"
+  }
+}

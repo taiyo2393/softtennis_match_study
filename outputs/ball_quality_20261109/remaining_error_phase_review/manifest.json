@@ -1,0 +1,27 @@
+{
+  "status": "three_phase_judgments_pending",
+  "review_videos": 2,
+  "target_frames": 3,
+  "new_labels": 0,
+  "initial_review_labels_sha256": "a4b8b8c29536d6ebed5abc1eddb02b344f093b483d9a04fe405ccd775ca6b9e4",
+  "contexts_sha256": "c10e0221dd4d50f432e55ffb4d39fb4f62a13c20d90bcced1365f2a2e301395f",
+  "total_display_frames": 1500,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\result.json": "f56d7cf3f725a30791ec3e4dff4c0917f47ecee260231b0c5769e4daa3c26294",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\verification.json": "ffd8f17db5d38dcb0a1b01cd9a6362dd251b8b7f17afea0bb89d35dc61898682",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\training_tile_gate_grouped\\remaining_added_errors.csv": "99688a3cbdab2156371ef6db0878945cb14d618706f81e6572dc3975af40ca9b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\play_start_audit\\ball_pilot_start_inventory.csv": "af2d63cc9fc947a71530448aeb8576be24278e4bb2d2606820a1f7f8b32625fa",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\analysis_ready_main_camera_segments.csv": "23a6e7c52958c2791d507ec929b22380f598965a8a915c31cbae3fb5033c8c19",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\rally_label_review.csv": "4ed13dd37b790eeb200ac675f84f453c83fdae5dbb8eff84af1590e8b221fe21",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\completed_review\\manual_sequence_labels.csv": "3591d0dd0e465bf5f8714e7a16f60d9793cc2646513a3b190f26d1987e8275b5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\evaluation_report.json": "2bca1032122b9e0616e41bbe52ea6de36cc082dd820aa0f7ba7e286520ab8cac",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold030_median120\\run_metadata.json": "dd9434aa87c42343fae23b52259169eb17ffa58b98e8f2bac953c0a6062de196",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\runs\\threshold030_median120\\run_metadata.json": "d1254b1395bde49fb5134b049308edef003a5a993f4e758a2a22443c116a91e0"
+  },
+  "no_performance_reclassification": true,
+  "no_canonical_updates": true
+}

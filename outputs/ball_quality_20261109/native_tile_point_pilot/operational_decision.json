@@ -1,0 +1,13 @@
+{
+  "status": "not_selected_training_gate_failed",
+  "date_jst": "2026-11-09",
+  "reason": "In-sample correct centers increased59to64,but wrong positions increased0to2and outputs on human-unobservable times increased1to3.",
+  "operational_adoption": false,
+  "new_confirmation_inference_permitted": false,
+  "new_confirmation_inference_performed": false,
+  "threshold_or_epoch_retry": false,
+  "candidate_checkpoint_retained_for_reproducibility": true,
+  "canonical_tracking_changed": false,
+  "EF26_or_ABCD52_transferred_to_training": false,
+  "interpretation": "Training-only candidate generation improvement with additional incorrect or unverified outputs;not demonstrated tracking quality or generalization."
+}

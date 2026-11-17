@@ -1,0 +1,7 @@
+﻿sample_id,candidate_id,local_frame,decision,before_anchor,after_anchor,missing_run_frames,reference_x_px,reference_y_px,candidate_residual_px,camera_flag
+match1_motion_pilot_004_frame_000322,match1_motion_pilot_004,322,add_observed_finetuned_candidate,321,323,1,846.0,552.0,5.0990195135927845,0
+match1_motion_pilot_004_frame_000378,match1_motion_pilot_004,378,add_observed_finetuned_candidate,377,381,3,1057.75,636.75,6.373774391990981,0
+match1_motion_pilot_006_frame_000341,match1_motion_pilot_006,341,add_observed_finetuned_candidate,337,343,5,831.3333333333333,581.3333333333334,4.533823502911829,0
+match1_motion_pilot_006_frame_000465,match1_motion_pilot_006,465,add_observed_finetuned_candidate,464,466,1,834.0,494.5,5.5,0
+match1_motion_pilot_007_frame_000352,match1_motion_pilot_007,352,add_observed_finetuned_candidate,351,353,1,1070.0,464.5,1.5,0
+match1_motion_pilot_007_frame_000608,match1_motion_pilot_007,608,candidate_outside_support_gate,607,609,1,1365.5,552.5,34.007352146263905,0

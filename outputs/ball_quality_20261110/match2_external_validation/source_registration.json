@@ -1,0 +1,31 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_video_sha256": "8461f522c2bf8c9029e928d1ef93527b3fdefe71b9dfd539c6656ef54e9aadaf",
+  "bytes": 1439072083,
+  "source_url": "https://www.youtube.com/watch?v=iRRLb6MLtXc",
+  "match": "2024全日本選手権男子決勝",
+  "players": [
+    "内本隆文",
+    "内田理久",
+    "船水颯人",
+    "上松俊貴"
+  ],
+  "development_match": "2025全日本選手権男子決勝",
+  "development_players": [
+    "橋場柊一郎",
+    "菊山太陽",
+    "上岡俊介",
+    "丸山海斗"
+  ],
+  "separate_match_and_player_sets_disjoint": true,
+  "source_file_unmodified": true,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": "60000/1001",
+  "frames": 182506,
+  "duration_video_sec": 3044.808433,
+  "codec": "av1",
+  "nominal_fps_not_effective_motion_rate": true
+}

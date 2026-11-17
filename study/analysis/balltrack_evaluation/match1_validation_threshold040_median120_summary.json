@@ -1,0 +1,29 @@
+{
+  "model": "RacketVision_MS-TrackNetV3_background_median_seq4",
+  "run_name": "threshold040_median120",
+  "tolerance_px": 16.0,
+  "important": "Scores exclude unreviewed/uncertain labels. Do not use test results to select the threshold.",
+  "counts": {
+    "total": 150,
+    "evaluable": 150,
+    "unreviewed": 0,
+    "uncertain": 0,
+    "presence_tp": 82,
+    "presence_fp": 3,
+    "presence_fn": 39,
+    "presence_tn": 26,
+    "localized_tp": 59,
+    "localized_fp": 26,
+    "localized_fn": 62,
+    "localized_tn": 26,
+    "wrong_localization": 23
+  },
+  "metrics": {
+    "presence_precision": 0.964706,
+    "presence_recall": 0.677686,
+    "localized_precision": 0.694118,
+    "localized_recall": 0.487603,
+    "mean_distance_px_when_both_visible": 18.5931,
+    "median_distance_px_when_both_visible": 11.1803
+  }
+}

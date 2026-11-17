@@ -1,0 +1,64 @@
+{
+  "tag": "009",
+  "role": "known_AI_diagnosed_initial_nonplayer_failure",
+  "baseline_replay_exact": true,
+  "modes": {
+    "baseline": {
+      "initialized_frame": 21101,
+      "seed_ids": {
+        "near_front": 4,
+        "near_rear": 8,
+        "far_rear": 81,
+        "far_front": 6
+      },
+      "near_observations": 1990,
+      "near_raw_ID_changes": 1,
+      "total_temporal_observations": 4009,
+      "removed_assignments": 0,
+      "added_assignments": 0
+    },
+    "court_seed_only": {
+      "initialized_frame": 21226,
+      "seed_ids": {
+        "near_front": 4,
+        "near_rear": 148,
+        "far_rear": 81,
+        "far_front": 6
+      },
+      "near_observations": 1844,
+      "near_raw_ID_changes": 0,
+      "total_temporal_observations": 3610,
+      "removed_assignments": 1504,
+      "added_assignments": 1105
+    },
+    "old_guard": {
+      "initialized_frame": 21101,
+      "seed_ids": {
+        "near_front": 4,
+        "near_rear": 8,
+        "far_rear": 81,
+        "far_front": 6
+      },
+      "near_observations": 1983,
+      "near_raw_ID_changes": 1,
+      "total_temporal_observations": 4002,
+      "removed_assignments": 7,
+      "added_assignments": 0
+    },
+    "court_seed_plus_old_guard": {
+      "initialized_frame": 21226,
+      "seed_ids": {
+        "near_front": 4,
+        "near_rear": 148,
+        "far_rear": 81,
+        "far_front": 6
+      },
+      "near_observations": 1844,
+      "near_raw_ID_changes": 0,
+      "total_temporal_observations": 3610,
+      "removed_assignments": 1504,
+      "added_assignments": 1105
+    }
+  },
+  "independent_identity_accuracy_established": false
+}

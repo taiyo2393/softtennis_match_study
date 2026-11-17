@@ -1,0 +1,12 @@
+[
+  {
+    "candidate_id": "B01",
+    "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000780.jpg",
+    "sha256": "30330a03d079d7a0b808a10e3847290e684e6ad9371fe20ae24df08ec4f7e45d"
+  },
+  {
+    "candidate_id": "B02",
+    "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000936.jpg",
+    "sha256": "e089c597024a777fb16fe2f8fe7c0a4130f0433e8b97e8214adcb4f4229316ef"
+  }
+]

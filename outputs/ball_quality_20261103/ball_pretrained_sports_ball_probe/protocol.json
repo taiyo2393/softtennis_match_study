@@ -1,0 +1,29 @@
+{
+  "status": "specified_before_inference",
+  "model": "existing local YOLO11m COCO sports-ball class",
+  "weights": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt",
+  "weights_sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+  "training_on_study_cases": false,
+  "inputs": "Native96x96 candidate patch, OpenCV BGR, network imgsz640, candidate at48/48; no generated detail",
+  "class_id": 32,
+  "expected_class_name": "sports ball",
+  "confidence_min": 0.1,
+  "nms_iou": 0.7,
+  "candidate_match": "Predicted sports-ball box center at most8 native source-image pixels from candidate patch center",
+  "candidate_match_radius_native_px": 8.0,
+  "abstention_meaning": "A missing nearby sports-ball detection is not proof that the original candidate is false; evaluated as an experimental keep/drop gate only",
+  "score_semantics": "Detector confidence is not a calibrated correctness probability",
+  "selection": "All36 already-reviewed candidates, selected same-match development data, not independent accuracy",
+  "no_parameter_search": true,
+  "no_fine_tuning": true,
+  "no_download": true,
+  "automatic_adoption": false,
+  "corpus_sha256": "bc27094098ad18f01c862e1cc4a3b581c719da26a61f3777861f5903814268dc",
+  "script_sha256": "3f59f7fa926802520c4e4729fdcf960f3b9146a8b4a52b372cb2c644581f7c2a",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\all_reviewed_candidate_cases.csv": "bc27094098ad18f01c862e1cc4a3b581c719da26a61f3777861f5903814268dc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "label_history_replayed": 384,
+  "timing_events_recomputed": 524,
+  "source_images_verified": 803,
+  "exported_positions_reloaded": 334,
+  "snapshot_and_export_hashes_exact": true,
+  "assisted_groundtruth_not_claimed": true
+}

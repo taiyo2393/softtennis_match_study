@@ -1,0 +1,4 @@
+﻿sample_id,role,method,candidate_id,local_frame,source_frame,truth_visibility,truth_x_px,truth_y_px,x_px,y_px,visible,confidence,ranking_score,selected_component,component_count
+match1_motion_pilot_003_frame_000291,three_training_examples,component_peak,match1_motion_pilot_003,291,23817,visible,650,629,911,581,1,0.36413636803627014,0.52392578125,1,2
+match1_motion_pilot_007_frame_000851,three_training_examples,component_peak,match1_motion_pilot_007,851,52429,visible,1181,380,1181,382,1,0.3804551661014557,0.55859375,1,2
+match1_motion_pilot_010_frame_000262,three_training_examples,component_peak,match1_motion_pilot_010,262,71351,visible,974,543,975,541,1,0.3885498046875,0.619140625,1,2

@@ -1,0 +1,26 @@
+{
+  "initialized_frame": 43646,
+  "seed_ids": {
+    "near_front": 3,
+    "near_rear": 1,
+    "far_rear": 4,
+    "far_front": 5
+  },
+  "near_observations": 1237,
+  "individual_ID_binding_added": false,
+  "status": "passed",
+  "baseline_temporal_replay_exact": true,
+  "temporal_assignments_equal_baseline": true,
+  "full_assignments_equal_baseline": true,
+  "removed_full_assignments": 0,
+  "added_full_assignments": 0,
+  "fixed31_features_equal_baseline": true,
+  "matched_native_boxes": 2408,
+  "recalculated_feature_values": 379,
+  "video_frames_decoded": 630,
+  "four_observation_requested_times": 31,
+  "requested_times": 31,
+  "initialization_delay_from_baseline": 0,
+  "numeric_thresholds_changed": false,
+  "independent_identity_or_position_accuracy_established": false
+}

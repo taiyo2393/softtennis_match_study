@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "candidate_id": "match1_rally_window_017",
+  "previous_input_rows_exactly_retained": 20,
+  "total_input_rows": 21,
+  "confirmed_human_outcomes_preserved": 11,
+  "pending_outcomes": 10,
+  "assignment_changes": {
+    "court_seed_only": {
+      "added_rows": 4,
+      "removed_rows": 0,
+      "added_source_frames": [
+        41845
+      ],
+      "removed_source_frames": [],
+      "initialization_delta_frames": -1
+    },
+    "old_guard": {
+      "added_rows": 0,
+      "removed_rows": 0,
+      "added_source_frames": [],
+      "removed_source_frames": [],
+      "initialization_delta_frames": 0
+    },
+    "court_seed_plus_old_guard": {
+      "added_rows": 4,
+      "removed_rows": 0,
+      "added_source_frames": [
+        41845
+      ],
+      "removed_source_frames": [],
+      "initialization_delta_frames": -1
+    }
+  },
+  "all_four_modes_fixed31_features_equal": true,
+  "requested_four_candidate_times": 28,
+  "requested_times": 31,
+  "missing_requested_times": [
+    {
+      "source_frame": 42140,
+      "missing_slots": [
+        "far_front"
+      ]
+    },
+    {
+      "source_frame": 42142,
+      "missing_slots": [
+        "far_front"
+      ]
+    },
+    {
+      "source_frame": 42144,
+      "missing_slots": [
+        "far_front"
+      ]
+    }
+  ],
+  "individual_ID_binding_added": false,
+  "threshold_tuning": false,
+  "matched_native_observation_rows_across_four_outputs": 9428,
+  "recalculated_feature_values_across_four_outputs": 1516,
+  "decoded_frames_before_excerpt": 3000,
+  "review_video_frames": 420,
+  "contact_status": "legacy_record_precision_unknown_not_new_GT",
+  "existing_score_validation_sample_unchanged": true,
+  "canonical_pipeline_replaced": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "evidence_for_new_error_prevention": false
+}

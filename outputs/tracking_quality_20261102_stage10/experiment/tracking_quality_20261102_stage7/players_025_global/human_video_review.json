@@ -1,0 +1,8 @@
+{
+  "reviewer": "human_user",
+  "response": "合ってる",
+  "reviewed_artifact": "global_review_h264.mp4",
+  "status": "human_video_level_identity_confirmation",
+  "scope": "User confirmed F1/F2 correspondence in the displayed stage10 updated 025 video, including the late segment",
+  "limitations": "Video-level confirmation, not independent per-frame identity annotation or position-accuracy measurement. Does not validate missing positions, other intervals, or superseded 025 outputs."
+}

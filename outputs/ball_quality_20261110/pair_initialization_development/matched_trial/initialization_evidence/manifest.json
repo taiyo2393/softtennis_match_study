@@ -1,0 +1,31 @@
+{
+  "selection": "All changed initializations: no success-only selection",
+  "images": [
+    {
+      "tag": "012",
+      "source_frame": 31935,
+      "seed_ids": {
+        "near_front": 4,
+        "near_rear": 1,
+        "far_rear": 40,
+        "far_front": 25
+      },
+      "image": "012_F31935.jpg",
+      "sha256": "7166c1caf210a20d3a885e42c58a02413739711ff1da48ebed148980bcf3a8a6"
+    },
+    {
+      "tag": "018",
+      "source_frame": 43643,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 4,
+        "far_front": 5
+      },
+      "image": "018_F43643.jpg",
+      "sha256": "b63d78e903b5c36a191fb35429ece936a5fb0c07637b714e9e42b053a1124aaf"
+    }
+  ],
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "independent_identity_GT": false
+}

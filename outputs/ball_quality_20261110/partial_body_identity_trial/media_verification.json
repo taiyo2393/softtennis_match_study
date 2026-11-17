@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "frames_decoded": 31,
+  "fps": 7.492507492507492,
+  "source_stride2_map_complete": true,
+  "original_aspect_preserved": true,
+  "interpolated_identity_or_position_frames": 0
+}

@@ -1,0 +1,8 @@
+{
+  "removed": [
+    154780
+  ],
+  "added": [],
+  "numerical_rule_changed": false,
+  "meaning": "Derived candidate availability only, not event precision/recall or new event GT."
+}

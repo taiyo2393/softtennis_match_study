@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "training_frames": 102,
+  "positive_points": 102,
+  "negative_points": 9,
+  "not_visible_training_frames": 0,
+  "matched_updates_per_arm": 153,
+  "final_epoch_only": 3,
+  "trainable_parameter_tensors_per_arm": 8,
+  "source_weights_and_registries_unchanged": true,
+  "train_evaluation_clips_and_inputs_disjoint": true,
+  "teacher_arrays_unchanged_after_numerical_repair": true,
+  "sparse_point_support_masks_verified": true,
+  "all_training_outputs_have_actual_same_frame_component": true,
+  "training_point_responses": [
+    {
+      "arm": "original",
+      "kind": "manual_positive",
+      "points": 102,
+      "mean_sampled_probability": 0.3958626931679307,
+      "points_above_detector_threshold03": 66,
+      "interpretation": "Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+    },
+    {
+      "arm": "original",
+      "kind": "confirmed_non_ball",
+      "points": 9,
+      "mean_sampled_probability": 0.4313784705268012,
+      "points_above_detector_threshold03": 8,
+      "interpretation": "Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+    },
+    {
+      "arm": "positive_control",
+      "kind": "manual_positive",
+      "points": 102,
+      "mean_sampled_probability": 0.8084202899652368,
+      "points_above_detector_threshold03": 101,
+      "interpretation": "Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+    },
+    {
+      "arm": "positive_control",
+      "kind": "confirmed_non_ball",
+      "points": 9,
+      "mean_sampled_probability": 0.8798089424769083,
+      "points_above_detector_threshold03": 9,
+      "interpretation": "Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+    },
+    {
+      "arm": "point_negative",
+      "kind": "manual_positive",
+      "points": 102,
+      "mean_sampled_probability": 0.6805174566951453,
+      "points_above_detector_threshold03": 98,
+      "interpretation": "Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+    },
+    {
+      "arm": "point_negative",
+      "kind": "confirmed_non_ball",
+      "points": 9,
+      "mean_sampled_probability": 0.7339413629637824,
+      "points_above_detector_threshold03": 9,
+      "interpretation": "Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+    }
+  ],
+  "no_new_human_labels": true,
+  "no_dense_background_ground_truth": true,
+  "soft_teacher_is_not_ground_truth": true,
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "independent_generalization_established": false
+}

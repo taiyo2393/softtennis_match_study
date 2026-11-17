@@ -1,0 +1,39 @@
+{
+  "status": "fixed_before_new_maps_and_validation_comparison",
+  "methods": [
+    "bbox_area",
+    "component_peak",
+    "bbox_mean",
+    "component_mean"
+  ],
+  "source_checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+  "source_checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "model_changes": false,
+  "threshold": 0.3,
+  "candidates": "Same external contours above0.3, same source bbox centers and mean score; no candidates removed or added",
+  "component_scores": "peak and mean on thresholded pixels within that contour; bbox_mean equals existing confidence; area=w*h",
+  "tie_breakers": "Larger bbox area, then earlier OpenCV contour index, for all methods",
+  "validation": "Fixed120 manually clicked/visibility labels,8 clips; no training or fitting",
+  "selection": "Original bbox_area included. Preserve every original correct validation frame and errors<=3. Max correct16px, then fewer wrong_position+presenceFP. Method order breaks ties, original first.",
+  "audit": "Only after immutable validation choice. If no strict improvement, no audit evaluation; otherwise evaluate selected method against original on fixed60 labels.",
+  "post_audit": "Safety check only; never select another method on audit failures. No automatic operational registry or weight changes.",
+  "training_examples": "A/C/D only qualitative development diagnostics, not counted as validation/audit; B excluded as post-play by user",
+  "scope": "Same-match previously seen sparse labels with preparation and transitions, not in-play-only or external testing",
+  "no_adaptive_score_threshold_search": true,
+  "no_interpolation": true,
+  "no_new_user_labels": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\train_labels.csv": "e718edb3af4aea5e32c6497d315f6aa3155a479a0f7eed2bc2427b453fa59df9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_labels.csv": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_training_case_expansion\\manual_center_labels.csv": "23a663c32bea94993d600dd61aed2081bb849ca859f1da5d7997d7b8285ad17f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\decision.json": "d2d4c22d283c0250da16c282666d669f99ed45bd16c3a3c85400b54ef3da6f26",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342"
+  },
+  "script_sha256": "c4d89f26377378f48b888505333b3139d1ebb80828c316a4beb618e75f1232b4",
+  "inference_helper_sha256": "8a976183ab06084deba82edc85a085b64e7d11e9cea6541b3b794aa1b53467e8"
+}

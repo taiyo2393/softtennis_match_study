@@ -1,0 +1,19 @@
+{
+  "reviewer": "AI_assistant_not_human_GT",
+  "inspected_frames": {
+    "006": [
+      10437,
+      10536,
+      10546,
+      10574,
+      10575
+    ],
+    "009_ungated_rejected": [
+      21046
+    ]
+  },
+  "finding": "006 near boxes appear consistent with the same two court players at these sampled frames and common-seed handoff.009 ungated output surrounds close-up/dissolve figures rather than calibrated court-scale players.",
+  "video_rendering": "Aspect-preserved1280x720 source image plus80px header; text does not cover source image.181 output frames decoded successfully.",
+  "continuous_video_identity_validation": false,
+  "independent_identity_accuracy_established": false
+}

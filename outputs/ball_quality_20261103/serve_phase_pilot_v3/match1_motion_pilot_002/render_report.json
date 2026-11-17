@@ -1,0 +1,13 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_phase_pilot_v3\\match1_motion_pilot_002\\phase_review_h264.mp4",
+  "decoded_frames": 702,
+  "source_local_frames": [
+    650,
+    1000
+  ],
+  "speed": 0.5,
+  "audio": true,
+  "source_content_aspect_ratio_preserved": true,
+  "phase_output_sha256": "a29b47a26aa26292a740491ddbc8f9c62cc8ee4cc7af2e1535f740356ca30465",
+  "accuracy_claim": false
+}

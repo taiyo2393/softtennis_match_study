@@ -1,0 +1,174 @@
+[
+  {
+    "team": "上岡俊介・丸山海斗",
+    "role": "serve",
+    "total_contexts": 5,
+    "usable_pair_contexts": 5,
+    "medians": {
+      "lateral_gap": 0.3958572745323181,
+      "longitudinal_gap": 0.3867429085075855,
+      "team_view_center_x": 0.48773904144763947,
+      "team_view_left_margin": 0.3503802716732025,
+      "team_view_right_margin": 0.28167450428009033
+    },
+    "observation_text": "サーブ時の対象5場面中、ペア2人の概算位置が揃うのは5場面です。左右間隔の中央値はコート幅の39.6%、前後間隔はコート長の38.7%でした。自陣からネットを向いた左右に統一したペア中心の中央値は、左端0・右端100として48.8です。",
+    "evidence": [
+      {
+        "candidate_id": "001",
+        "source_frame": "117",
+        "clip": "001_first_point_side_anchor_h264.mp4"
+      },
+      {
+        "candidate_id": "002",
+        "source_frame": "2259",
+        "clip": "002_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "003",
+        "source_frame": "4253",
+        "clip": "003_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "004",
+        "source_frame": "6803",
+        "clip": "004_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "025",
+        "source_frame": "60006",
+        "clip": "025_full_score_context_h264.mp4"
+      }
+    ],
+    "recommendation_status": "abstain_effectiveness_unverified",
+    "claim_kind": "descriptive_observation_only"
+  },
+  {
+    "team": "上岡俊介・丸山海斗",
+    "role": "receive",
+    "total_contexts": 6,
+    "usable_pair_contexts": 4,
+    "medians": {
+      "lateral_gap": 0.336575,
+      "longitudinal_gap": 0.23340212175369263,
+      "team_view_center_x": 0.5388287539625167,
+      "team_view_left_margin": 0.3611047301387787,
+      "team_view_right_margin": 0.2974403364467621
+    },
+    "observation_text": "レシーブ時の対象6場面中、ペア2人の概算位置が揃うのは4場面です。左右間隔の中央値はコート幅の33.7%、前後間隔はコート長の23.3%でした。自陣からネットを向いた左右に統一したペア中心の中央値は、左端0・右端100として53.9です。",
+    "evidence": [
+      {
+        "candidate_id": "007",
+        "source_frame": "15593",
+        "clip": "007_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "044",
+        "source_frame": "115403",
+        "clip": "044_full_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "048",
+        "source_frame": "125911",
+        "clip": "048_finish_score_context_h264.mp4"
+      },
+      {
+        "candidate_id": "056",
+        "source_frame": "154116",
+        "clip": "056_full_point_context_h264.mp4"
+      }
+    ],
+    "recommendation_status": "abstain_effectiveness_unverified",
+    "claim_kind": "descriptive_observation_only"
+  },
+  {
+    "team": "橋場柊一郎・菊山太陽",
+    "role": "serve",
+    "total_contexts": 6,
+    "usable_pair_contexts": 6,
+    "medians": {
+      "lateral_gap": 0.44298499999999996,
+      "longitudinal_gap": 0.40845,
+      "team_view_center_x": 0.5854022433137893,
+      "team_view_left_margin": 0.323136930809021,
+      "team_view_right_margin": 0.19902359365463257
+    },
+    "observation_text": "サーブ時の対象6場面中、ペア2人の概算位置が揃うのは6場面です。左右間隔の中央値はコート幅の44.3%、前後間隔はコート長の40.8%でした。自陣からネットを向いた左右に統一したペア中心の中央値は、左端0・右端100として58.5です。",
+    "evidence": [
+      {
+        "candidate_id": "005",
+        "source_frame": "8648",
+        "clip": "005_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "006",
+        "source_frame": "10536",
+        "clip": "006_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "007",
+        "source_frame": "15593",
+        "clip": "007_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "044",
+        "source_frame": "115403",
+        "clip": "044_full_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "048",
+        "source_frame": "125911",
+        "clip": "048_finish_score_context_h264.mp4"
+      },
+      {
+        "candidate_id": "056",
+        "source_frame": "154116",
+        "clip": "056_full_point_context_h264.mp4"
+      }
+    ],
+    "recommendation_status": "abstain_effectiveness_unverified",
+    "claim_kind": "descriptive_observation_only"
+  },
+  {
+    "team": "橋場柊一郎・菊山太陽",
+    "role": "receive",
+    "total_contexts": 5,
+    "usable_pair_contexts": 5,
+    "medians": {
+      "lateral_gap": 0.4681394696235657,
+      "longitudinal_gap": 0.12125873565673828,
+      "team_view_center_x": 0.507524162530899,
+      "team_view_left_margin": 0.2734544277191162,
+      "team_view_right_margin": 0.2584061026573181
+    },
+    "observation_text": "レシーブ時の対象5場面中、ペア2人の概算位置が揃うのは5場面です。左右間隔の中央値はコート幅の46.8%、前後間隔はコート長の12.1%でした。自陣からネットを向いた左右に統一したペア中心の中央値は、左端0・右端100として50.8です。",
+    "evidence": [
+      {
+        "candidate_id": "001",
+        "source_frame": "117",
+        "clip": "001_first_point_side_anchor_h264.mp4"
+      },
+      {
+        "candidate_id": "002",
+        "source_frame": "2259",
+        "clip": "002_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "003",
+        "source_frame": "4253",
+        "clip": "003_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "004",
+        "source_frame": "6803",
+        "clip": "004_score_point_context_h264.mp4"
+      },
+      {
+        "candidate_id": "025",
+        "source_frame": "60006",
+        "clip": "025_full_score_context_h264.mp4"
+      }
+    ],
+    "recommendation_status": "abstain_effectiveness_unverified",
+    "claim_kind": "descriptive_observation_only"
+  }
+]

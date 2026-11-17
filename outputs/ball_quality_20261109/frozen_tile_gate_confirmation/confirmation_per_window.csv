@@ -1,0 +1,9 @@
+﻿method,window_id,correct16px,missing_visible_ball,wrong_position,output_when_not_observable,no_output_when_not_observable,excluded_ball_uncertain,excluded_nonplay,excluded_phase_uncertain,visible_total,visible_recall16px,longest_correct_sampled_run
+current_temporal,A,8,2,0,0,0,3,0,0,10,0.8,4
+current_temporal,B,3,10,0,0,0,0,0,0,13,0.23076923076923078,3
+current_temporal,C,13,0,0,0,0,0,0,0,13,1.0,13
+current_temporal,D,9,0,0,0,4,0,0,0,9,1.0,9
+logistic10_frozen,A,9,1,0,0,0,3,0,0,10,0.9,5
+logistic10_frozen,B,9,4,0,0,0,0,0,0,13,0.6923076923076923,9
+logistic10_frozen,C,13,0,0,0,0,0,0,0,13,1.0,13
+logistic10_frozen,D,9,0,0,0,4,0,0,0,9,1.0,9

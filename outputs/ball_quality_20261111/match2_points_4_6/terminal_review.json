@@ -1,0 +1,35 @@
+{
+  "assessment": "Model-assisted visual review of raw chronological footage, with a user-confirmed contact and ending type for point 6. Exact contact frames remain unresolved.",
+  "points": [
+    {
+      "point": 4,
+      "terminal_ball_direction_candidate": "toward_far_side",
+      "last_receiver_side": null,
+      "evidence_frames": [17248, 17292],
+      "note": "A late high ball comes from the right edge and moves toward the far-court area. The near player is off screen and the grounding or final contact is unresolved.",
+      "transition_visible_by_frame": 17302
+    },
+    {
+      "point": 5,
+      "terminal_ball_direction_candidate": null,
+      "last_receiver_side": null,
+      "evidence_frames": [19012, 19055],
+      "note": "The ball approaches the far left player's racket, and there is a later small candidate near the net. The cut and the missing intervening positions prevent a decisive terminal classification.",
+      "transition_visible_by_frame": 19060
+    },
+    {
+      "point": 6,
+      "terminal_ball_direction_candidate": null,
+      "last_receiver_side": "far",
+      "last_hitter": "F2",
+      "terminal_result": "net",
+      "terminal_result_source": "user_video_review",
+      "last_contact_frame": null,
+      "contact_review_window": [21325, 21374],
+      "evidence_frames": [21345, 21394],
+      "note": "The user confirmed that F2 touched the ball and the return hit the net. The ball landing side remains unresolved.",
+      "transition_visible_by_frame": 21398
+    }
+  ],
+  "evaluation_scope": "Transition can begin in the extra terminal context of points 4 and 6. Candidate coverage for the core interval excludes this context."
+}

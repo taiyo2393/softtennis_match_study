@@ -1,0 +1,24 @@
+{
+  "candidate_id": "match1_motion_pilot_016",
+  "rally_window_candidate_id": "match1_rally_window_044",
+  "context_local_frames": [
+    650,
+    900
+  ],
+  "contact_candidate_local_frames": [
+    730,
+    738
+  ],
+  "contact_candidate_source_frames": [
+    115365,
+    115373
+  ],
+  "fps": 59.94005994005994,
+  "decoded_frames": 251,
+  "audio_present": true,
+  "cache_match_verified_at_local_frame": 738,
+  "status": "existing_contact_bracket_provisional",
+  "serve_validity_status": "human_confirmed",
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\play_start_audit\\044_effective_start_context_h264.mp4",
+  "warning": "No serve-validity, exact contact-frame, point-end or original4K-clock labels are newly confirmed."
+}

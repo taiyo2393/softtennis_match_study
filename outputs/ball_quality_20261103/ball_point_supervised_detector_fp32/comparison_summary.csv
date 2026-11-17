@@ -1,0 +1,17 @@
+﻿arm,role,method,correct,errors,missing_visible,original_current_correct,original_current_errors,original_correct_lost
+positive_control,train,raw,1,122,0,66,4,66
+positive_control,train,temporal,65,58,0,66,4,5
+positive_control,validation,raw,1,119,0,81,2,81
+positive_control,validation,temporal,78,42,0,81,2,5
+positive_control,challenge,raw,0,4,0,4,0,4
+positive_control,challenge,temporal,4,0,0,4,0,0
+positive_control,short_sequence,raw,0,26,0,26,0,26
+positive_control,short_sequence,temporal,26,0,0,26,0,0
+point_negative,train,raw,2,121,0,66,4,65
+point_negative,train,temporal,70,53,0,66,4,5
+point_negative,validation,raw,2,118,0,81,2,80
+point_negative,validation,temporal,82,38,0,81,2,4
+point_negative,challenge,raw,0,4,0,4,0,4
+point_negative,challenge,temporal,4,0,0,4,0,0
+point_negative,short_sequence,raw,0,26,0,26,0,26
+point_negative,short_sequence,temporal,26,0,0,26,0,0

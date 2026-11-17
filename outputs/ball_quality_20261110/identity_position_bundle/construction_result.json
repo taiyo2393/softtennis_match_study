@@ -1,0 +1,15 @@
+{
+  "status": "separated_bundle_constructed_reference_pilot_pending",
+  "contexts": 10,
+  "frame_slot_rows": 28156,
+  "position_policy_rows": 56312,
+  "fixed_prefix_frame_feature_rows": 620,
+  "feature_values_independently_checked": 7580,
+  "reference_images": 13,
+  "uniform_context_samples": 10,
+  "known_warning_challenge_samples": 4,
+  "human_reference_labels_created": false,
+  "current22_changed": false,
+  "position_filter_adopted": false,
+  "accuracy_established": false
+}

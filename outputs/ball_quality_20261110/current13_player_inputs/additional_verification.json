@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "previous12_input_rows_exactly_retained": true,
+  "confirmed_human_outcomes_preserved": 11,
+  "unreviewed_outcomes": 2,
+  "known_wrong_automatic_output_rejected_before_writing": true,
+  "model_input_uses_explicit_AI_seed_variant": true,
+  "near_pair_observed_fraction": 1.0,
+  "far_pair_observed_fraction": 0.5161290322580645,
+  "identity_assistance_not_counted_as_full_automation": true,
+  "independent_identity_or_position_accuracy_established": false
+}

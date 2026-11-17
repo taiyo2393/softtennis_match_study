@@ -1,0 +1,58 @@
+{
+  "selection": "All final-path gaps whose next observation follows inherited contact; no formal point-end certification or accuracy sampling.",
+  "source_path_sha256": "152c08952893bd1f385c06a04e2e842723bee14049455b9eecd761a363087f64",
+  "script_sha256": "c849d2ffb829ba3dac2cd8ed2783c26aaa7eb9a2ed8c7d16fd66dc4fca6c1096",
+  "gaps": [
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "40647",
+      "after_source_frame": "40649",
+      "missing_frames": "1",
+      "before_raw_id": "23",
+      "after_raw_id": "23",
+      "image_file": "gap_01_far_rear.jpg",
+      "source_frames": [
+        40635,
+        40647,
+        40648,
+        40649,
+        40655,
+        40661
+      ],
+      "constant_crop_xyxy": [
+        2050,
+        883,
+        2553,
+        1331
+      ],
+      "aspect_preserved": true,
+      "sha256": "61be0f20626996e149694bfdefd22d0ed2ec4d60ead9ae6a22ea2a0aa7459e9f"
+    },
+    {
+      "player_slot": "far_front",
+      "before_source_frame": "40812",
+      "after_source_frame": "40837",
+      "missing_frames": "24",
+      "before_raw_id": "4",
+      "after_raw_id": "85",
+      "image_file": "gap_02_far_front.jpg",
+      "source_frames": [
+        40800,
+        40812,
+        40824,
+        40837,
+        40843,
+        40849
+      ],
+      "constant_crop_xyxy": [
+        1666,
+        913,
+        2286,
+        1451
+      ],
+      "aspect_preserved": true,
+      "sha256": "e00f931d4045c0396ff4c109f5c2cabe30bbb42245a3d617b2474090625ed1e7"
+    }
+  ],
+  "interpolation": false
+}

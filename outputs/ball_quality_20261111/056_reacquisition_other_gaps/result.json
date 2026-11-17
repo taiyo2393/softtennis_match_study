@@ -1,0 +1,18 @@
+{
+  "audited_missing_times": 43,
+  "eligibility_counts": {
+    "crosses_AI_contact_or_bounce_interval": 14,
+    "eligible_same_flight_short_gap": 10,
+    "gap_exceeds_frozen_maximum": 18,
+    "known_wrong_candidate_no_true_location": 1
+  },
+  "eligible_times": 10,
+  "new_unconfirmed_candidates": 0,
+  "unresolved_eligible_times": 10,
+  "proposed_frames": [],
+  "original_model_outputs_reproduced_exactly": 36,
+  "new_human_ball_labels": 0,
+  "new_interpolated_output_positions": 0,
+  "old_publications_unchanged": true,
+  "independent_accuracy_established": false
+}

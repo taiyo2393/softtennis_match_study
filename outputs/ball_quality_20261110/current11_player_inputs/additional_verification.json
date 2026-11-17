@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "previous10_rows_preserved": true,
+  "all11_existing_human_outcomes_exactly_preserved": true,
+  "initialization_wait_requested_times": 20,
+  "observable_requested_times": 11,
+  "endpoint_both_pair_flags": 1,
+  "pair_mean_observed_fraction": 0.3548387096774194,
+  "endpoint_deltas_remain_missing": true,
+  "final_path_gap_runs_recalculated": 44,
+  "gap_image_hashes_checked": 6,
+  "coordinate_imputation_performed": false,
+  "independent_accuracy_established": false
+}

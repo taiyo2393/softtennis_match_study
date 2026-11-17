@@ -1,0 +1,12 @@
+{
+  "decoded_frames": 482,
+  "audio": true,
+  "source_aspect_preserved": true,
+  "phase_output_sha256": "58e35e80169f4f226ed45666e9a837cf58f01eb24af3c0c24a29b3790b339fee",
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_phase_fixed_application\\match1_motion_pilot_003\\failure_review_h264.mp4",
+  "source_frames": [
+    0,
+    240
+  ],
+  "speed": 0.5
+}

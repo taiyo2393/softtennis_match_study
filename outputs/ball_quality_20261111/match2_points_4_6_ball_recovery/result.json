@@ -1,0 +1,24 @@
+{
+  "total_exclusions": 22,
+  "tested_frames": 21,
+  "candidate_outcomes": {
+    "both": 10,
+    "neither": 7,
+    "crop_only": 4
+  },
+  "baseline_reproductions": [
+    {
+      "point": 4,
+      "reproduced_baseline_frames": 28
+    },
+    {
+      "point": 5,
+      "reproduced_baseline_frames": 16
+    },
+    {
+      "point": 6,
+      "reproduced_baseline_frames": 12
+    }
+  ],
+  "visually_validated_recovery_frames": 0
+}

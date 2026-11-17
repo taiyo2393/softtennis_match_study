@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "tag": "002",
+      "all_source_frames": 355,
+      "matching_assignments": 1242,
+      "initialization_frame": 2230,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "005",
+      "all_source_frames": 445,
+      "matching_assignments": 1592,
+      "initialization_frame": 8625,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "006",
+      "all_source_frames": 2128,
+      "matching_assignments": 7357,
+      "initialization_frame": 10575,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "009",
+      "all_source_frames": 1109,
+      "matching_assignments": 3610,
+      "initialization_frame": 21226,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "012",
+      "all_source_frames": 330,
+      "matching_assignments": 1244,
+      "initialization_frame": 31935,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "015",
+      "all_source_frames": 660,
+      "matching_assignments": 2602,
+      "initialization_frame": 38548,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "016",
+      "all_source_frames": 301,
+      "matching_assignments": 1159,
+      "initialization_frame": 40556,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "017",
+      "all_source_frames": 600,
+      "matching_assignments": 2369,
+      "initialization_frame": 41845,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "018",
+      "all_source_frames": 630,
+      "matching_assignments": 2472,
+      "initialization_frame": 43643,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    },
+    {
+      "tag": "019",
+      "all_source_frames": 930,
+      "matching_assignments": 3434,
+      "initialization_frame": 45831,
+      "assignments_and_costs_match": true,
+      "old_camera_identity_transform": true
+    }
+  ],
+  "contexts": 10,
+  "numeric_tolerance": 1e-09,
+  "independent_accuracy_claim": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "fixed_before_calibration_evaluation",
+  "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch02.pth",
+  "checkpoint_sha256": "759f993c47b2bdadb3f14c8cd0d7665e2d9af4918e8cd7d8e73b6a0f4d7c077e",
+  "threshold_grid": [
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+  ],
+  "comparison_baseline": "Original pretrained checkpoint,threshold0.3",
+  "validation_only_constraints": "Retain all80 originally correct validation sample IDs and wrong-position+nonvisible-output count<=3",
+  "selection": "Original model included; among feasible candidates maximise localizedTP16px,then fewer errors. Keep original on exact tie; no audit tuning.",
+  "calibration_reason": "Fine tuning at unchanged0.3 increased correct detections and false outputs. This is a separate development calibration, not a change to the original fixed training experiment.",
+  "data_reuse": "Validation and audit have been seen previously; this remains development, not independent external evaluation",
+  "automatic_adoption": false,
+  "source_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "validation_partition_sha256": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+  "audit_partition_sha256": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2",
+  "script_sha256": "a3aed1945e1ef905599f34bcfc954132b61f4b6cd90f38f2ea6864dbd5b31540"
+}

@@ -1,0 +1,20 @@
+{
+  "clip_id": "match2_unseen_003",
+  "slot": "near_rear",
+  "post_initialization_missing_observations": 68,
+  "contiguous_runs": [
+    {
+      "first": 144328,
+      "last": 144395,
+      "frames": 68
+    }
+  ],
+  "review_frames": [
+    144327,
+    144328,
+    144362,
+    144395,
+    144396
+  ],
+  "independent_visibility_label_created": false
+}

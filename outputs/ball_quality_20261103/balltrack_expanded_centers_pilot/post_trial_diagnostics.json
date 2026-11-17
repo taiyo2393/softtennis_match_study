@@ -1,0 +1,146 @@
+{
+  "validation_phase_scope": "Includes preparation/transitions; not in-play-only",
+  "matched_epoch2_threshold03": [
+    {
+      "family": "control",
+      "epoch": 2,
+      "threshold": 0.3,
+      "correct": 85,
+      "errors": 7,
+      "wrong_position": 5,
+      "presence_fp": 2,
+      "original_correct_lost": 1,
+      "lost_sample_ids": "match1_motion_pilot_014_frame_000714",
+      "feasible": 0
+    },
+    {
+      "family": "expanded",
+      "epoch": 2,
+      "threshold": 0.3,
+      "correct": 84,
+      "errors": 7,
+      "wrong_position": 5,
+      "presence_fp": 2,
+      "original_correct_lost": 0,
+      "lost_sample_ids": "",
+      "feasible": 0
+    }
+  ],
+  "status_changes_control_to_expanded": [
+    {
+      "sample_id": "match1_motion_pilot_012_frame_000667",
+      "original": "missing",
+      "control": "correct",
+      "expanded": "missing",
+      "truth_x": "797",
+      "truth_y": "572",
+      "control_x": "796",
+      "control_y": "568",
+      "expanded_x": "0",
+      "expanded_y": "0"
+    },
+    {
+      "sample_id": "match1_motion_pilot_014_frame_000714",
+      "original": "correct",
+      "control": "wrong_position",
+      "expanded": "correct",
+      "truth_x": "550",
+      "truth_y": "355",
+      "control_x": "395",
+      "control_y": "564",
+      "expanded_x": "549",
+      "expanded_y": "354"
+    },
+    {
+      "sample_id": "match1_motion_pilot_015_frame_000323",
+      "original": "wrong_position",
+      "control": "correct",
+      "expanded": "wrong_position",
+      "truth_x": "1076",
+      "truth_y": "420",
+      "control_x": "1078",
+      "control_y": "421",
+      "expanded_x": "1141",
+      "expanded_y": "622"
+    }
+  ],
+  "new_three_training_centers_fit": [
+    {
+      "family": "original",
+      "epoch": 0,
+      "correct": 0,
+      "statuses": [
+        "wrong_position",
+        "wrong_position",
+        "wrong_position"
+      ]
+    },
+    {
+      "family": "control",
+      "epoch": 1,
+      "correct": 1,
+      "statuses": [
+        "wrong_position",
+        "correct",
+        "wrong_position"
+      ]
+    },
+    {
+      "family": "control",
+      "epoch": 2,
+      "correct": 0,
+      "statuses": [
+        "wrong_position",
+        "wrong_position",
+        "wrong_position"
+      ]
+    },
+    {
+      "family": "control",
+      "epoch": 3,
+      "correct": 0,
+      "statuses": [
+        "wrong_position",
+        "wrong_position",
+        "wrong_position"
+      ]
+    },
+    {
+      "family": "expanded",
+      "epoch": 1,
+      "correct": 0,
+      "statuses": [
+        "wrong_position",
+        "wrong_position",
+        "wrong_position"
+      ]
+    },
+    {
+      "family": "expanded",
+      "epoch": 2,
+      "correct": 1,
+      "statuses": [
+        "wrong_position",
+        "correct",
+        "wrong_position"
+      ]
+    },
+    {
+      "family": "expanded",
+      "epoch": 3,
+      "correct": 1,
+      "statuses": [
+        "wrong_position",
+        "correct",
+        "wrong_position"
+      ]
+    }
+  ],
+  "fitting_diagnostic_used_for_selection": false,
+  "feasible_configuration_count": 1,
+  "strictly_improved_feasible_configurations": 0,
+  "candidate_settings_checked": 30,
+  "operational_original_retained": true,
+  "original_and_new_labels_models_reviewed_registries_unchanged": true,
+  "interpretation": "New3 training targets do not constitute held-out evidence; assess their fit separately from validation. No more threshold/multiplier searches in this trial."
+}

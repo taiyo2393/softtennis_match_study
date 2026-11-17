@@ -1,0 +1,90 @@
+[
+  {
+    "case_id": "A",
+    "display_label": "A",
+    "sample_id": "match1_motion_pilot_003_frame_000291",
+    "candidate_id": "match1_motion_pilot_003",
+    "local_frame": 291,
+    "source_frame": 23817,
+    "source_timestamp_sec": "397.354850",
+    "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\frames\\000291.jpg",
+    "source_image_sha256": "9de82d07fc46d51ac0cdaf061ca7b804878098f261268e860b03d6464e738d97",
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_training_case_expansion\\context_A_003_291_h264.mp4",
+    "context_video_sha256": "55ab05e1ed23305849057d427e1014acf5ac672422855122646d7b62f4873228",
+    "context_local_frames": [
+      261,
+      321
+    ],
+    "decoded_video_frames": 152,
+    "source_width": 1920,
+    "source_height": 1080,
+    "phase_status": "AI overview suggests court activity; human phase unknown",
+    "role": "training_expansion_only"
+  },
+  {
+    "case_id": "B",
+    "display_label": "B",
+    "sample_id": "match1_motion_pilot_006_frame_000884",
+    "candidate_id": "match1_motion_pilot_006",
+    "local_frame": 884,
+    "source_frame": 46708,
+    "source_timestamp_sec": "779.248067",
+    "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_006\\frames\\000884.jpg",
+    "source_image_sha256": "af57918a22aa83fd3ad52afec68e79cba3f532505ddbf1632f3bbdfcd248ce9f",
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_training_case_expansion\\context_B_006_884_h264.mp4",
+    "context_video_sha256": "4ea4f5ba399810a8fd4f140a7cc55b1329bd6a982899d3cb187c8206c624fc9f",
+    "context_local_frames": [
+      854,
+      914
+    ],
+    "decoded_video_frames": 152,
+    "source_width": 1920,
+    "source_height": 1080,
+    "phase_status": "AI overview suggests court activity; human phase unknown",
+    "role": "training_expansion_only"
+  },
+  {
+    "case_id": "C",
+    "display_label": "C",
+    "sample_id": "match1_motion_pilot_007_frame_000851",
+    "candidate_id": "match1_motion_pilot_007",
+    "local_frame": 851,
+    "source_frame": 52429,
+    "source_timestamp_sec": "874.697517",
+    "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_007\\frames\\000851.jpg",
+    "source_image_sha256": "7d8740acb82dc840d4ce4623ab811b80c1eb7e515161e5cf68e2d3d3db88737c",
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_training_case_expansion\\context_C_007_851_h264.mp4",
+    "context_video_sha256": "5465297a62089150c876b7b695f711f89e88fdda4d2182d8e3fc52f267d56214",
+    "context_local_frames": [
+      821,
+      881
+    ],
+    "decoded_video_frames": 152,
+    "source_width": 1920,
+    "source_height": 1080,
+    "phase_status": "AI overview suggests court activity; human phase unknown",
+    "role": "training_expansion_only"
+  },
+  {
+    "case_id": "D",
+    "display_label": "D",
+    "sample_id": "match1_motion_pilot_010_frame_000262",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 262,
+    "source_frame": 71351,
+    "source_timestamp_sec": "1190.371033",
+    "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_010\\frames\\000262.jpg",
+    "source_image_sha256": "05ef8ac0f0115531a226283d460d912699cf1edad930db8bd93894569a9166c1",
+    "context_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_training_case_expansion\\context_D_010_262_h264.mp4",
+    "context_video_sha256": "984a686e063d162296de1ffbf30c76352667dfa53f7269df45d3208a45515b6f",
+    "context_local_frames": [
+      232,
+      292
+    ],
+    "decoded_video_frames": 152,
+    "source_width": 1920,
+    "source_height": 1080,
+    "phase_status": "AI overview suggests court activity; human phase unknown",
+    "role": "training_expansion_only"
+  }
+]

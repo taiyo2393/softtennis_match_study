@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "synthetic_tests": 5,
+  "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK\n",
+  "no_foot_positions_in_all1240_rows": true,
+  "unique_pose_per_far_identity_per_frame": true,
+  "synthetic_tests_not_accuracy_validation": true
+}

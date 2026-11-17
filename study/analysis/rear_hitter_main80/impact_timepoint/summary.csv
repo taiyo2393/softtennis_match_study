@@ -1,0 +1,10 @@
+﻿mode,group,timepoint_sec,total_events,directional_events,matches,disagreements,below_threshold,missing_pose,agreement_percent,classification_percent
+centered_clipped_at_impact,全体,0,80,28,14,14,50,2,50.0,35.0
+centered_clipped_at_impact,前衛P1 対 後衛H2,0,33,14,8,6,17,2,57.142857142857146,42.42424242424242
+centered_clipped_at_impact,前衛P2 対 後衛H1,0,47,14,6,8,33,0,42.857142857142854,29.78723404255319
+trailing_three,全体,0,80,27,14,13,51,2,51.851851851851855,33.75
+trailing_three,前衛P1 対 後衛H2,0,33,14,8,6,17,2,57.142857142857146,42.42424242424242
+trailing_three,前衛P2 対 後衛H1,0,47,13,6,7,34,0,46.15384615384615,27.659574468085108
+raw_endpoint,全体,0,80,35,16,19,43,2,45.714285714285715,43.75
+raw_endpoint,前衛P1 対 後衛H2,0,33,16,10,6,15,2,62.5,48.484848484848484
+raw_endpoint,前衛P2 対 後衛H1,0,47,19,6,13,28,0,31.57894736842105,40.42553191489362

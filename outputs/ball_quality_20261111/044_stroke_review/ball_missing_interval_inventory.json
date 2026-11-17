@@ -1,0 +1,44 @@
+[
+  {
+    "first_sampled_frame": 115425,
+    "last_sampled_frame": 115431,
+    "missing_samples": 4,
+    "physical_ball_visibility_or_event_type": "not inferred from missing center"
+  },
+  {
+    "first_sampled_frame": 115441,
+    "last_sampled_frame": 115445,
+    "missing_samples": 3,
+    "physical_ball_visibility_or_event_type": "not inferred from missing center"
+  },
+  {
+    "first_sampled_frame": 115475,
+    "last_sampled_frame": 115499,
+    "missing_samples": 13,
+    "physical_ball_visibility_or_event_type": "not inferred from missing center"
+  },
+  {
+    "first_sampled_frame": 115521,
+    "last_sampled_frame": 115521,
+    "missing_samples": 1,
+    "physical_ball_visibility_or_event_type": "not inferred from missing center"
+  },
+  {
+    "first_sampled_frame": 115555,
+    "last_sampled_frame": 115561,
+    "missing_samples": 4,
+    "physical_ball_visibility_or_event_type": "not inferred from missing center"
+  },
+  {
+    "first_sampled_frame": 115597,
+    "last_sampled_frame": 115599,
+    "missing_samples": 2,
+    "physical_ball_visibility_or_event_type": "not inferred from missing center"
+  },
+  {
+    "first_sampled_frame": 115693,
+    "last_sampled_frame": 115711,
+    "missing_samples": 10,
+    "physical_ball_visibility_or_event_type": "not inferred from missing center"
+  }
+]

@@ -1,0 +1,4 @@
+﻿sample_id,role,truth_visibility,component_count,any_component_within16px,nearest_component_error_px
+match1_motion_pilot_003_frame_000291,three_training_examples,visible,2,1,1.0
+match1_motion_pilot_007_frame_000851,three_training_examples,visible,2,1,2.0
+match1_motion_pilot_010_frame_000262,three_training_examples,visible,2,1,2.23606797749979

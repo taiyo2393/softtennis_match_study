@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_id": "match1_motion_pilot_001",
+    "local_frame": 16,
+    "coordinate_delta_px": 0.0,
+    "confidence_delta": 4.7356843948354044e-05
+  },
+  {
+    "candidate_id": "match1_motion_pilot_001",
+    "local_frame": 112,
+    "coordinate_delta_px": 0.0,
+    "confidence_delta": 3.588151931743777e-06
+  },
+  {
+    "candidate_id": "match1_motion_pilot_001",
+    "local_frame": 230,
+    "coordinate_delta_px": 0.0,
+    "confidence_delta": 0.00010084247589109419
+  },
+  {
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 16,
+    "coordinate_delta_px": 0.0,
+    "confidence_delta": 0.0
+  },
+  {
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 112,
+    "coordinate_delta_px": 0.0,
+    "confidence_delta": 9.037995338440075e-05
+  },
+  {
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 230,
+    "coordinate_delta_px": 0.0,
+    "confidence_delta": 6.37640953063956e-05
+  }
+]

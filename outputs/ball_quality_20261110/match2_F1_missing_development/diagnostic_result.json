@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "exact_native_path_replay": true,
+      "matching_observations": 1184
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "exact_native_path_replay": true,
+      "matching_observations": 2512
+    }
+  ],
+  "missing_F1_frames": [
+    54328,
+    54330,
+    54538,
+    54544
+  ],
+  "missing_frames_without_previous_F1_raw_ID": 4,
+  "conclusion": "The previously accepted F1 raw-ID box is absent from the saved ByteTrack candidate stream at all4 times. This does not yet establish a YOLO detector miss: framewise detections or another rawID may remain.",
+  "model_or_thresholds_modified": false,
+  "independent_accuracy_claim": false
+}

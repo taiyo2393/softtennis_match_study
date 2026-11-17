@@ -1,0 +1,44 @@
+[
+  {
+    "case_id": "08_013_f435",
+    "clip": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\motion_prediction_pilot\\match1\\match1_motion_pilot_013.mp4",
+    "local_frame": 435,
+    "sequential_decode_cache_mean_abs_difference": 0.7847283482551575,
+    "jpeg_reencoding_exact_match_qualities": [
+      95
+    ],
+    "existing_label": [
+      605.0,
+      606.0
+    ],
+    "baseline": [
+      633.0,
+      540.0
+    ],
+    "totnet": [
+      633.75,
+      543.75
+    ]
+  },
+  {
+    "case_id": "23_018_f216",
+    "clip": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\motion_prediction_pilot\\match1\\match1_motion_pilot_018.mp4",
+    "local_frame": 216,
+    "sequential_decode_cache_mean_abs_difference": 0.7914695739746094,
+    "jpeg_reencoding_exact_match_qualities": [
+      95
+    ],
+    "existing_label": [
+      740.0,
+      575.0
+    ],
+    "baseline": [
+      648.0,
+      534.0
+    ],
+    "totnet": [
+      645.0,
+      536.25
+    ]
+  }
+]

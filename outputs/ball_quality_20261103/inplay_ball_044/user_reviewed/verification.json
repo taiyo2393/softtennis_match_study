@@ -1,0 +1,20 @@
+{
+  "review_id": "20261103_044_ball_components_773_784_1103",
+  "full_clip_rows": 1169,
+  "changed_local_frames": [
+    773,
+    784,
+    1103
+  ],
+  "other_rows_original_columns_unchanged": true,
+  "original_baseline_unchanged": true,
+  "visibility_unchanged": true,
+  "missing_outputs_added": 0,
+  "interpolated_positions": 0,
+  "source_review_tables_unchanged": true,
+  "precise_center_groundtruth_created": false,
+  "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "reviewed_output_sha256": "76505e49061d64cf358ebd840ff91cf6bfeb46f197a2281ffe8e8b331d5ac9f3",
+  "baseline_sha256": "143e1c71d270f7e3c4f4ee8accb77709c6b4367ca0141ff48e371fb77d008123",
+  "review_sha256": "64482054c27eeeac31271a25656547bdaf8f6c32422c7fa714fba78e0b098526"
+}

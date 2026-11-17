@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "heatmap_floor": 0.1,
+    "components_per_frame": 6,
+    "batch_size": 16,
+    "component_position": "half-peak weighted centroid",
+    "context": "t-3,t-2,t-1,t",
+    "cache_resized_frames": 96
+  },
+  "phase": "test",
+  "model_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "code_sha256": "2983535be17fff16c91aeca31abe8014461ecf91b7f6224752770912e5a6f962",
+  "note": "No label coordinates used for candidate inference; baseline-present frames are unchanged."
+}

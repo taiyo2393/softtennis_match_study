@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "decoded_video_frames": 450,
+      "all899_source_frames_analyzed": true,
+      "video_uses450_real_source_frames": true,
+      "fps": 29.97002997002997,
+      "frame_map_complete": true
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "decoded_video_frames": 450,
+      "all899_source_frames_analyzed": true,
+      "video_uses450_real_source_frames": true,
+      "fps": 29.97002997002997,
+      "frame_map_complete": true
+    }
+  ]
+}

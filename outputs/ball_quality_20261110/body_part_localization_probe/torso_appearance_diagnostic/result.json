@@ -1,0 +1,9 @@
+{
+  "status": "completed_diagnostic_only",
+  "comparison_rows": 532,
+  "available_rows": 342,
+  "mask_disagreements_not_errors": 28,
+  "protected_inputs_unchanged": true,
+  "tracker_modified": false,
+  "accuracy_established": false
+}

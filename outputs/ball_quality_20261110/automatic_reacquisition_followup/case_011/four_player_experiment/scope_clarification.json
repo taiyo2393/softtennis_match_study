@@ -1,0 +1,8 @@
+{
+  "near_assignment_policy_changed": true,
+  "existing_numeric_thresholds_retained": true,
+  "manual_ID_binding": false,
+  "canonical_pipeline_changed": false,
+  "original_inherited_parameter_flag": "algorithm_parameters_changed:false refers retained numeric thresholds; this is a new association policy.",
+  "whole_pipeline_online": false
+}

@@ -1,0 +1,13 @@
+{
+  "source_model_rows_preserved": 803,
+  "raw_model_fields_exact": true,
+  "old_publications_unchanged": true,
+  "source_frames_decoded": 71,
+  "tail_source_frames": 42,
+  "tail_model_candidate_frames": 21,
+  "new_human_labels": 0,
+  "new_interpolated_positions": 0,
+  "new_3D_or_ground_ball_positions": 0,
+  "connections_across_contact_or_bounce_intervals": 0,
+  "note": "All counts measure output availability. Late final bounce positions remain unconfirmed."
+}

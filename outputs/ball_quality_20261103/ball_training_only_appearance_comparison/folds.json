@@ -1,0 +1,130 @@
+[
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_001",
+    "train_count": 95,
+    "check_count": 16,
+    "head": "fold_001_handcrafted672.npz",
+    "head_sha256": "3107e62e38f679e90ef72f8f7c23a99ab8ab5d6930bcaf8fac612cc9f22ffaac"
+  },
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_003",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_003_handcrafted672.npz",
+    "head_sha256": "8408d723f4f9e963cc21bc6ad003eb2a4d907ac891f83ce6952c654b656182a7"
+  },
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_004",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_004_handcrafted672.npz",
+    "head_sha256": "2c2198f28e106096ad944eacb4b47e11fe6c55c024a96ca2e6420d99cfca7f9a"
+  },
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_005",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_005_handcrafted672.npz",
+    "head_sha256": "6d7057fe7ebf83637fa8518785dfd450534305306545c6147b494e66a6f2c766"
+  },
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_006",
+    "train_count": 101,
+    "check_count": 10,
+    "head": "fold_006_handcrafted672.npz",
+    "head_sha256": "c577d7ab9772320f2e0c49bceded2f0f38130a5ff76aa8a96dfdb4a51ac79de8"
+  },
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_007",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_007_handcrafted672.npz",
+    "head_sha256": "69b6e27f12e1761066c44e78a28794a4addfff9cf5d0545cc2a01eac5daf4fe9"
+  },
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_009",
+    "train_count": 96,
+    "check_count": 15,
+    "head": "fold_009_handcrafted672.npz",
+    "head_sha256": "462cf82489af1477ed7f43027f536d1b35afcb3ab3d9a9a73bfd2be447728872"
+  },
+  {
+    "method": "handcrafted672",
+    "heldout": "legacy_match1:match1_motion_pilot_010",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_010_handcrafted672.npz",
+    "head_sha256": "3949f4304358f2e8b0425f706740064283473bf9d81ec446bc4b24a3cbf4edf0"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_001",
+    "train_count": 95,
+    "check_count": 16,
+    "head": "fold_001_frozen_resnet18_512.npz",
+    "head_sha256": "27009ad1142f295095413fee0dc70e78e45422b47121f0e7df8cdddab7e951d3"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_003",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_003_frozen_resnet18_512.npz",
+    "head_sha256": "29621df95e1aa115dc9808dda909b7125304007392dbd4159d9aa1e5fc0b146e"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_004",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_004_frozen_resnet18_512.npz",
+    "head_sha256": "1ba259059f8988e66fc1ee5eebf466ec84a98e71b02919098ed2622c453bd931"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_005",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_005_frozen_resnet18_512.npz",
+    "head_sha256": "82fb895c7201ee59a32c423813737709a39b738ec606e10662c5824157ca82c7"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_006",
+    "train_count": 101,
+    "check_count": 10,
+    "head": "fold_006_frozen_resnet18_512.npz",
+    "head_sha256": "59051be8a42cf3e50363418ceac90cd786ac3f426fe4ee51c99638b97b43806b"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_007",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_007_frozen_resnet18_512.npz",
+    "head_sha256": "5809d6debe9246b43f496f2309883d504b456cd09932d2bbfcbe4deba2f3693a"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_009",
+    "train_count": 96,
+    "check_count": 15,
+    "head": "fold_009_frozen_resnet18_512.npz",
+    "head_sha256": "e39643adac8e3c2faedb416d455129971f1bd582ac75daa953f8d221ecd19dbf"
+  },
+  {
+    "method": "frozen_resnet18_512",
+    "heldout": "legacy_match1:match1_motion_pilot_010",
+    "train_count": 97,
+    "check_count": 14,
+    "head": "fold_010_frozen_resnet18_512.npz",
+    "head_sha256": "f3836e6d068fc75baa8ac995027fac12eff0645681bedc234163376122dc29b4"
+  }
+]

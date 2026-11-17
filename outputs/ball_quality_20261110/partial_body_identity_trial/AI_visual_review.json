@@ -1,0 +1,35 @@
+{
+  "reviewer": "AI assistant, not independent human labels",
+  "case006_F1_all_added_frames_reviewed": [
+    10558,
+    10560,
+    10562,
+    10564,
+    10566,
+    10568,
+    10570,
+    10572,
+    10574
+  ],
+  "case006_full_frame_samples": [
+    10536,
+    10546,
+    10558,
+    10560,
+    10574,
+    10576
+  ],
+  "other_control_samples": [
+    {
+      "tag": "017",
+      "source_frame": 42134
+    }
+  ],
+  "findings": [
+    "All9 newly supported006 F1 torso polygons appear aligned with the orange far player, without moving to the white near player or blue official in these images.",
+    "006 F2 sampled torso polygons appear on the black far player; deep-overlap F1 at10546 remains unsupported.",
+    "01742134 F2 torso appears on the partly visible far player behind a near player; the larger pose body box differs from the native box. IoU disagreement alone does not establish an ID swap."
+  ],
+  "independent_accuracy_established": false,
+  "all10_contexts_human_identity_reviewed": false
+}

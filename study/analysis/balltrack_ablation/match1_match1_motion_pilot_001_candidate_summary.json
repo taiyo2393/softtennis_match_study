@@ -1,0 +1,104 @@
+{
+  "video_id": "match1",
+  "candidate_id": "match1_motion_pilot_001",
+  "design": "one-factor-at-a-time around threshold=0.50 and 120 median samples",
+  "interpretation": "candidate_rate, confidence, and visible_runs are operational outputs only. They are not precision, recall, MDE, or impact-detection accuracy. Use a separately labelled held-out frame sample for accuracy evaluation.",
+  "conditions": [
+    {
+      "run_name": "threshold030_median120",
+      "threshold": 0.3,
+      "background_mode": "median",
+      "median_samples_requested": 120,
+      "frames": 480,
+      "candidate_frames": 315,
+      "candidate_rate": 0.65625,
+      "median_candidate_confidence": 0.3862,
+      "visible_runs": 37,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold030_median120\\balltrack_predictions.csv"
+    },
+    {
+      "run_name": "threshold040_median120",
+      "threshold": 0.4,
+      "background_mode": "median",
+      "median_samples_requested": 120,
+      "frames": 480,
+      "candidate_frames": 296,
+      "candidate_rate": 0.616667,
+      "median_candidate_confidence": 0.4622,
+      "visible_runs": 33,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold040_median120\\balltrack_predictions.csv"
+    },
+    {
+      "run_name": "threshold050_median120",
+      "threshold": 0.5,
+      "background_mode": "median",
+      "median_samples_requested": 120,
+      "frames": 480,
+      "candidate_frames": 271,
+      "candidate_rate": 0.564583,
+      "median_candidate_confidence": 0.5391,
+      "visible_runs": 35,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold050_median120\\balltrack_predictions.csv"
+    },
+    {
+      "run_name": "threshold060_median120",
+      "threshold": 0.6,
+      "background_mode": "median",
+      "median_samples_requested": 120,
+      "frames": 480,
+      "candidate_frames": 180,
+      "candidate_rate": 0.375,
+      "median_candidate_confidence": 0.6191,
+      "visible_runs": 45,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold060_median120\\balltrack_predictions.csv"
+    },
+    {
+      "run_name": "threshold070_median120",
+      "threshold": 0.7,
+      "background_mode": "median",
+      "median_samples_requested": 120,
+      "frames": 480,
+      "candidate_frames": 28,
+      "candidate_rate": 0.058333,
+      "median_candidate_confidence": 0.7095,
+      "visible_runs": 8,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold070_median120\\balltrack_predictions.csv"
+    },
+    {
+      "run_name": "threshold050_median030",
+      "threshold": 0.5,
+      "background_mode": "median",
+      "median_samples_requested": 30,
+      "frames": 480,
+      "candidate_frames": 271,
+      "candidate_rate": 0.564583,
+      "median_candidate_confidence": 0.5396,
+      "visible_runs": 36,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold050_median030\\balltrack_predictions.csv"
+    },
+    {
+      "run_name": "threshold050_medianall",
+      "threshold": 0.5,
+      "background_mode": "median",
+      "median_samples_requested": "all",
+      "frames": 480,
+      "candidate_frames": 270,
+      "candidate_rate": 0.5625,
+      "median_candidate_confidence": 0.5396,
+      "visible_runs": 36,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold050_medianall\\balltrack_predictions.csv"
+    },
+    {
+      "run_name": "threshold050_firstframe",
+      "threshold": 0.5,
+      "background_mode": "first_frame",
+      "median_samples_requested": 1,
+      "frames": 480,
+      "candidate_frames": 256,
+      "candidate_rate": 0.533333,
+      "median_candidate_confidence": 0.542,
+      "visible_runs": 39,
+      "prediction_csv": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold050_firstframe\\balltrack_predictions.csv"
+    }
+  ]
+}

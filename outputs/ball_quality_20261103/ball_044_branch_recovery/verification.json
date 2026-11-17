@@ -1,0 +1,8 @@
+{
+  "reviewed_input_and_all_original_columns_preserved": true,
+  "all_nonmissing_proposed_coordinates_from_same_frame_model_components": true,
+  "existing_three_user_confirmed_ball_coordinates_unchanged": true,
+  "no_interpolation": true,
+  "global_temporal_filter_not_reenabled": true,
+  "accuracy_established": false
+}

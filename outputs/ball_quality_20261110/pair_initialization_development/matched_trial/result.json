@@ -1,0 +1,1126 @@
+{
+  "status": "completed18_matched_development_replays",
+  "cases": [
+    {
+      "tag": "001",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 7,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 3,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2363,
+          "near_rows": 1186,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 7,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 3,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2363,
+          "near_rows": 1186,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 7,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 3,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2363,
+          "near_rows": 1186,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "002",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 2230,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1242,
+          "near_rows": 614,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 2230,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1242,
+          "near_rows": 614,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 2230,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1242,
+          "near_rows": 614,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "003",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 4208,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1566,
+          "near_rows": 816,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 4208,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1566,
+          "near_rows": 816,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 4208,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1566,
+          "near_rows": 816,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "004",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 6391,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2007,
+          "near_rows": 1004,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 6391,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2007,
+          "near_rows": 1004,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 6391,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2007,
+          "near_rows": 1004,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "005",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 8625,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 22,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1592,
+          "near_rows": 854,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 8625,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 22,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1592,
+          "near_rows": 854,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 8625,
+          "seed_ids": {
+            "near_front": 1,
+            "near_rear": 2,
+            "far_rear": 22,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1592,
+          "near_rows": 854,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "006",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 10575,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 59,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 7357,
+          "near_rows": 3728,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 10575,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 59,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 7357,
+          "near_rows": 3728,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 10575,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 59,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 7357,
+          "near_rows": 3728,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "008",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 17899,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 5042,
+          "near_rows": 2564,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 17899,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 5042,
+          "near_rows": 2564,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 17899,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 5042,
+          "near_rows": 2564,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "009",
+      "role": "known_AI_diagnosed_initial_nonplayer_failure",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 21226,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 148,
+            "far_rear": 81,
+            "far_front": 6
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 3610,
+          "near_rows": 1844,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 21226,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 148,
+            "far_rear": 81,
+            "far_front": 6
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 3610,
+          "near_rows": 1844,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 9
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 21226,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 148,
+            "far_rear": 81,
+            "far_front": 6
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 3610,
+          "near_rows": 1844,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 7,
+          "ambiguous_candidate_frames": 9
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "010",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 23533,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 10,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 3255,
+          "near_rows": 1726,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 23533,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 10,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 3255,
+          "near_rows": 1726,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 23533,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 10,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 3255,
+          "near_rows": 1726,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "011",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 26141,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 10960,
+          "near_rows": 5558,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 26141,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 10960,
+          "near_rows": 5558,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 26141,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 5,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 10960,
+          "near_rows": 5558,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "012",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 31936,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 1,
+            "far_rear": 40,
+            "far_front": 25
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1240,
+          "near_rows": 624,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 31935,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 1,
+            "far_rear": 40,
+            "far_front": 25
+          },
+          "initialization_delta_from_court_filter": -1,
+          "temporal_rows": 1244,
+          "near_rows": 626,
+          "same_temporal_output_as_court_filter": false,
+          "removed_box_rows": 0,
+          "added_box_rows": 4,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 12
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 31935,
+          "seed_ids": {
+            "near_front": 4,
+            "near_rear": 1,
+            "far_rear": 40,
+            "far_front": 25
+          },
+          "initialization_delta_from_court_filter": -1,
+          "temporal_rows": 1244,
+          "near_rows": 626,
+          "same_temporal_output_as_court_filter": false,
+          "removed_box_rows": 0,
+          "added_box_rows": 4,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 5,
+          "ambiguous_candidate_frames": 12
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "013",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 33797,
+          "seed_ids": {
+            "near_front": 49,
+            "near_rear": 2,
+            "far_rear": 62,
+            "far_front": 33
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1586,
+          "near_rows": 798,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 33797,
+          "seed_ids": {
+            "near_front": 49,
+            "near_rear": 2,
+            "far_rear": 62,
+            "far_front": 33
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1586,
+          "near_rows": 798,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 8
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 33797,
+          "seed_ids": {
+            "near_front": 49,
+            "near_rear": 2,
+            "far_rear": 62,
+            "far_front": 33
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1586,
+          "near_rows": 798,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 8
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "014",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 35252,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 5577,
+          "near_rows": 2864,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 35252,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 5577,
+          "near_rows": 2864,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 35252,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 3
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 5577,
+          "near_rows": 2864,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "015",
+      "role": "known_AI_diagnosed_initial_nonplayer_failure",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 38548,
+          "seed_ids": {
+            "near_front": 3,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2602,
+          "near_rows": 1306,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 38548,
+          "seed_ids": {
+            "near_front": 3,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2602,
+          "near_rows": 1306,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 38548,
+          "seed_ids": {
+            "near_front": 3,
+            "near_rear": 2,
+            "far_rear": 5,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2602,
+          "near_rows": 1306,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "016",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 40556,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 8,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1159,
+          "near_rows": 588,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 40556,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 8,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1159,
+          "near_rows": 588,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 8
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 40556,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 8,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1159,
+          "near_rows": 588,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 8
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "017",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 41845,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 3,
+            "far_rear": 4,
+            "far_front": 5
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2369,
+          "near_rows": 1186,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 41845,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 3,
+            "far_rear": 4,
+            "far_front": 5
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2369,
+          "near_rows": 1186,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 41845,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 3,
+            "far_rear": 4,
+            "far_front": 5
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2369,
+          "near_rows": 1186,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "018",
+      "role": "known_AI_diagnosed_initial_nonplayer_failure",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 43646,
+          "seed_ids": {
+            "near_front": 3,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 5
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 2457,
+          "near_rows": 1237,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 43643,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 5
+          },
+          "initialization_delta_from_court_filter": -3,
+          "temporal_rows": 2472,
+          "near_rows": 1246,
+          "same_temporal_output_as_court_filter": false,
+          "removed_box_rows": 617,
+          "added_box_rows": 632,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 8
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 43643,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 4,
+            "far_front": 5
+          },
+          "initialization_delta_from_court_filter": -3,
+          "temporal_rows": 2472,
+          "near_rows": 1246,
+          "same_temporal_output_as_court_filter": false,
+          "removed_box_rows": 617,
+          "added_box_rows": 632,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 8
+        }
+      },
+      "independent_identity_accuracy_established": false
+    },
+    {
+      "tag": "025",
+      "role": "initialization_correspondence_control_not_certified_whole_tracking_accuracy",
+      "court_filter_temporal_replay_exact": true,
+      "modes": {
+        "court_seed_only": {
+          "initialized_frame": 60013,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 6,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1730,
+          "near_rows": 745,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank": {
+          "initialized_frame": 60013,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 6,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1730,
+          "near_rows": 745,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        },
+        "pair_rank_abstain": {
+          "initialized_frame": 60013,
+          "seed_ids": {
+            "near_front": 2,
+            "near_rear": 1,
+            "far_rear": 6,
+            "far_front": 4
+          },
+          "initialization_delta_from_court_filter": 0,
+          "temporal_rows": 1730,
+          "near_rows": 745,
+          "same_temporal_output_as_court_filter": true,
+          "removed_box_rows": 0,
+          "added_box_rows": 0,
+          "new_person_ID_bindings": false,
+          "abstained_frames": 0,
+          "ambiguous_candidate_frames": 0
+        }
+      },
+      "independent_identity_accuracy_established": false
+    }
+  ],
+  "court_filter_exact_replays": 18,
+  "protected_sources_unchanged": true,
+  "analysis_inputs_changed": false,
+  "canonical_pipeline_replaced": false,
+  "independent_identity_accuracy_established": false
+}

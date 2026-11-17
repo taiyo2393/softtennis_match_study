@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "source_crops_verified": 1197,
+  "unique_image_features_recomputed": 539,
+  "maximum_embedding_abs_difference": 0.0,
+  "heads_checked": 8,
+  "head_scores_verified": 1197,
+  "optimization_max_abs_gradients": [
+    2.1026771633569918e-07,
+    1.4159631370018466e-07,
+    1.9151608213197058e-07,
+    7.097022441948653e-08,
+    1.9146053935673035e-07,
+    1.4627646880219225e-07,
+    1.9357990159950787e-07,
+    2.0074222870786196e-07
+  ],
+  "held_predictions_verified": 123,
+  "detector_fit_and_head_fit_exclusion_preserved": true,
+  "geometry_and_candidate_sources_unchanged": true,
+  "verified_play_outcome_changes": [
+    {
+      "sample_id": "match1_motion_pilot_005_frame_000609",
+      "local_frame": "609",
+      "source_frame": "44245",
+      "geometry_outcome": "no_output_when_not_observable",
+      "appearance_outcome": "output_when_not_observable"
+    }
+  ],
+  "protected_inputs_unchanged": true,
+  "operational_adoption": false,
+  "script_sha256": "30f85b693a1ec166d00348df9f06242facb23e2e98ac11b58412c18caac3320b"
+}

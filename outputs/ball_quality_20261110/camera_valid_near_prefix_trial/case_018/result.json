@@ -1,0 +1,19 @@
+{
+  "tag": "018",
+  "common_initialized_frame": 43643,
+  "near_prefix_initialized_frame": null,
+  "near_prefix_seed_ids": {},
+  "common_near_seed_ids": {
+    "near_front": 2,
+    "near_rear": 1
+  },
+  "slot_handoff_matches_raw_IDs": true,
+  "additional_native_boxes": 0,
+  "additional_requested_time_native_boxes": 0,
+  "baseline_near_complete_times": 31,
+  "candidate_near_complete_times": 31,
+  "baseline_four_complete_times": 31,
+  "candidate_four_complete_times": 31,
+  "existing_observations_unchanged": true,
+  "identity_accuracy_established": false
+}

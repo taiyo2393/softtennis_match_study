@@ -1,0 +1,15 @@
+{
+  "protected_inputs_and_cached_images_unchanged": true,
+  "person_rows_exact_actual_source_boxes": 786,
+  "projected_person_proxy_inverse_error_max_canonical_px": 2.7284841053187847e-12,
+  "ball_annotated_rows_exact_original": 201,
+  "ball_positions_retained": 164,
+  "ball_unavailable_retained": 37,
+  "extra_display_times_without_ball_annotation": 12,
+  "ball_homography_or_3D_positions_created": false,
+  "decoded_video_frames": 213,
+  "source_frame_alignment": "exact integer legacy IDs",
+  "source_images_not_retimed_to_replaced_raw_video": true,
+  "new_human_labels_created": false,
+  "independent_accuracy_established": false
+}

@@ -1,0 +1,10 @@
+{
+  "supersedes_statement_in": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_fixed_window_transfer\\AI_visual_review.json",
+  "correction": "Previous statement that all4 gaps occurred during overlap with near N1 was too broad. Native zooms show F54328/54330 overlap with far F2; F54538/54544 overlap with near N1. Prior immutable report retained.",
+  "evidence": "four_missing_frames_review.jpg and both native-aspect slow-motion clips",
+  "person_reacquisition_interpretation": "All4 new boxes visually surround far F1; this is AI review, not independent human truth.",
+  "coordinate_limitation": "At54538 and54544 the F1 box covers upper body only; a detected person does not imply a measured foot location. No court-plane coordinate is validated by this audit.",
+  "old_tracker_behavior": "At54328/54330 only a competing F2 candidate could be given finite F1 cost; one-to-one matching keeps it assigned to F2. At54538/54544 no valid F1 candidate survives. Relaxing assignment gates would not supply missing image evidence.",
+  "full_predict_diagnostic": "F54328/54330/54544 anonymous full-frame prediction has a box overlapping the crop F1 box (IoU0.418/0.708/0.611), absent from saved ByteTrack candidates. F54538 has no comparable box (maxIoU0.048). These stage comparisons suggest candidate filtering in3 cases and a full-frame detection miss in1; replayed anonymous predictions are not an exact internal trace or independent person labels.",
+  "independent_accuracy_established": false
+}

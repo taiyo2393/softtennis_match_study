@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "missing_four_players_never_quiet": true,
+    "ready_hold_is_explicit_and_expires": true,
+    "no_return_required_and_no_timeout_only_unlock": true,
+    "quiet_reset_allows_candidate_but_never_infers_fault_or_point_id": true,
+    "complete_crop_boxes_same_protocol_and_unchanged_feature_inputs": true,
+    "002_complete_near_server_recovered_at_frame700": true
+  },
+  "independent_accuracy_evaluation": false
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "mode": "botsort_reid",
+    "seed_frame": 36404,
+    "analysis_ready_end_frame": 36623,
+    "seed_ids": {
+      "near_front": 5,
+      "near_rear": 1,
+      "far_rear": 4,
+      "far_front": 2
+    },
+    "stitches": [],
+    "slots": {
+      "near_front": {
+        "raw_track_ids": [
+          5
+        ],
+        "observed_frames": 180,
+        "total_frames": 180,
+        "missing_runs": []
+      },
+      "near_rear": {
+        "raw_track_ids": [
+          1
+        ],
+        "observed_frames": 180,
+        "total_frames": 180,
+        "missing_runs": []
+      },
+      "far_rear": {
+        "raw_track_ids": [
+          4
+        ],
+        "observed_frames": 165,
+        "total_frames": 180,
+        "missing_runs": [
+          [
+            36569,
+            36583
+          ]
+        ]
+      },
+      "far_front": {
+        "raw_track_ids": [
+          2
+        ],
+        "observed_frames": 83,
+        "total_frames": 180,
+        "missing_runs": [
+          [
+            36487,
+            36583
+          ]
+        ]
+      }
+    }
+  }
+]

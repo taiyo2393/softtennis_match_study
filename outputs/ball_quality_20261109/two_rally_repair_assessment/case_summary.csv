@@ -1,0 +1,3 @@
+﻿rally,candidate_scope_seconds,review_sample_times,new_review_targets,reused_centers,captured_active_seconds,unmeasured_gap_seconds,recorded_pause_wall_seconds,initial_position_outputs,accepted_predictions,new_clicked_centers,filled_missing,replaced_existing,input_outputs_marked_unobservable,final_position_times,unobservable_times,uncertain_times,nonplay_times,position_availability_only,new_independent_center_gt,input_status
+044,6.7067000000000005,201,195,6,248.891,0.0,0.0,146,135,23,22,1,4,164,37,0,0,0.8159203980099502,0,previously_repaired_input_with_6_existing_human_centers
+056,12.56255,376,376,0,683.001,0.0,11.912908,241,225,109,97,12,4,334,42,0,0,0.8882978723404256,0,unpatched_original_model_output

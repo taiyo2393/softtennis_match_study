@@ -1,0 +1,10 @@
+{
+  "status": "frozen_additional_window_camera_ablation_completed",
+  "conclusion": "Frozen association alone can initialize using an incompatible view and retain those seeds, or continue emitting after a cut. A separate camera-reset control arm prevents such state carryover by construction and improves main-view candidate availability in002.",
+  "not_proven": "This does not establish person-ID accuracy, camera classification accuracy or cross-camera ReID. Line-geometry failures may suppress valid views; the method is not automatically adopted into canonical data.",
+  "next": "Review the4 remaining post-init missing frames in003 and within-segment raw-ID handovers; extend the frozen native/crop/far-path comparison only after recording geometry assumptions. Keep camera cuts and preparation footage distinct from in-play player errors.",
+  "core_association_thresholds_changed": false,
+  "new_homography_fitted_to_player_outputs": false,
+  "main_camera_to_closeup_identity_reconnected": false,
+  "current22_or_outcome_labels_changed": false
+}

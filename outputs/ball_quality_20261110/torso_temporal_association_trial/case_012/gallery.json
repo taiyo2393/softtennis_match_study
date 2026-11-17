@@ -1,0 +1,10 @@
+{
+  "anchors": {
+    "near_front": 8,
+    "near_rear": 0,
+    "far_rear": 8,
+    "far_front": 8
+  },
+  "unselected_initial_pose_features": 4,
+  "independent_GT": false
+}

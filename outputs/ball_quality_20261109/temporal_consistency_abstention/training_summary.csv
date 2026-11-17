@@ -1,0 +1,9 @@
+﻿method,phase_status,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable
+original_temporal,play,52,0,16,1,8
+original_temporal,nonplay,14,2,18,1,11
+static_supplement,play,59,0,9,1,8
+static_supplement,nonplay,17,2,15,3,9
+guard_additions_only,play,59,0,9,1,8
+guard_additions_only,nonplay,17,2,15,3,9
+guard_all_outputs,play,59,0,9,1,8
+guard_all_outputs,nonplay,17,2,15,3,9

@@ -1,0 +1,4 @@
+candidate_id,scoreboard_observation,implication,independent_video_review_status
+match1_rally_window_025,At start bottom game 1 point 4; by candidate end minus 3 seconds bottom game 2 point 0; at end plus 1 second bottom point 1,Post-window plus-1-second sample can include the next point; winner cannot be assigned from one simple difference,pending
+match1_rally_window_048,Top point changes 2 to 3 between candidate end minus 3 and minus 2 seconds,Candidate end can substantially lag the broadcast score update; temporal linkage needs motion review,pending
+match1_rally_window_050,Game and point display remain unchanged from candidate end minus 3 through plus 8 seconds,No observed score event in the checked interval; candidate-to-point linkage unresolved,pending

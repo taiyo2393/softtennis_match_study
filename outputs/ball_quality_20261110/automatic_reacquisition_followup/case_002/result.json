@@ -1,0 +1,11 @@
+{
+  "tag": "002",
+  "near_counts": {
+    "near_front": 348,
+    "near_rear": 259
+  },
+  "removed_near_observations": 7,
+  "added_near_observations": 0,
+  "initialized_frame": 2230,
+  "identity_binding_by_AI": false
+}

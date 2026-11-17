@@ -1,0 +1,10 @@
+{
+  "display_frames": 401,
+  "person_observations": 1474,
+  "four_candidate_frames": 319,
+  "ball_annotated_times": 376,
+  "ball_positions": 334,
+  "direction_change_candidates": 15,
+  "new_human_labels": 0,
+  "independent_accuracy_established": false
+}

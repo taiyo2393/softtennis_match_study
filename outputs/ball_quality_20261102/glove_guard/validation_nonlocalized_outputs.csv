@@ -1,0 +1,10 @@
+﻿sample_id,evaluation_split,candidate_id,play_window_id,sample_order,local_frame,source_frame,source_timestamp_sec,sampling_method,prediction_visible,prediction_x_px,prediction_y_px,prediction_confidence,truth_visibility,truth_x_px,truth_y_px,reviewer_id,label_confidence,notes,baseline_x_px,baseline_y_px,baseline_error_px
+match1_motion_pilot_001_frame_000336,validation,match1_motion_pilot_001,match1_play_001,11,336,456,7.605600,time_stratified_15_per_clip,1,1235,630,0.501,visible,1274,647,,,,1083,585,200.81085628023203
+match1_motion_pilot_002_frame_000244,validation,match1_motion_pilot_002,match1_play_006,3,244,15049,251.070733,time_stratified_15_per_clip,1,551,695,0.5493,not_visible,,,,,サービス前，ボールが二つ見える,549,691,
+match1_motion_pilot_002_frame_001420,validation,match1_motion_pilot_002,match1_play_006,15,1420,16225,270.690333,time_stratified_15_per_clip,1,1758,656,0.5156,not_visible,,,,,,1824,658,
+match1_motion_pilot_003_frame_000783,validation,match1_motion_pilot_003,match1_play_009,14,783,24309,405.563050,time_stratified_15_per_clip,0,0,0,0.0,not_visible,,,,,,1198,596,
+match1_motion_pilot_006_frame_000031,validation,match1_motion_pilot_006,match1_play_018,1,31,45855,765.017183,time_stratified_15_per_clip,0,0,0,0.0,visible,797,575,,,,791,526,49.36598018878993
+match1_motion_pilot_006_frame_000899,validation,match1_motion_pilot_006,match1_play_018,15,899,46723,779.498317,time_stratified_15_per_clip,0,0,0,0.0,not_visible,,,,,,1233,513,
+match1_motion_pilot_008_frame_000503,validation,match1_motion_pilot_008,match1_play_024,5,503,62961,1050.391717,time_stratified_15_per_clip,1,999,260,0.5337,visible,994,252,,,,1113,555,325.53033652794943
+match1_motion_pilot_008_frame_001623,validation,match1_motion_pilot_008,match1_play_024,15,1623,64081,1069.077050,time_stratified_15_per_clip,0,0,0,0.0,not_visible,,,,,,1074,596,
+match1_motion_pilot_009_frame_000599,validation,match1_motion_pilot_009,match1_play_025,8,599,66713,1112.993317,time_stratified_15_per_clip,0,0,0,0.0,visible,1328,684,,,サービス前，手にボールを持っている,1329,564,120.00416659433121

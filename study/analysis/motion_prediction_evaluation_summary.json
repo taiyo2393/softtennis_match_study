@@ -1,0 +1,128 @@
+{
+  "dataset": "softtennis_frontcourt_study\\analysis\\motion_prediction_dataset.csv",
+  "evaluation": "leave-one-event-out; all events originate from one match",
+  "alpha": 1.0,
+  "metric_unit": "image-width normalized horizontal displacement",
+  "results": [
+    {
+      "horizon_sec": 0.1,
+      "model": "static",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.010908762857142859,
+      "rmse_norm": 0.012023920052245857,
+      "sign_accuracy_nonzero": 0.0,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.1,
+      "model": "constant_velocity",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.005812915714285744,
+      "rmse_norm": 0.007913285639379812,
+      "sign_accuracy_nonzero": 1.0,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.1,
+      "model": "ridge_front_history",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.008655779148890421,
+      "rmse_norm": 0.010829740594111287,
+      "sign_accuracy_nonzero": 0.7142857142857143,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.1,
+      "model": "ridge_front_plus_hitter",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.005184365565940422,
+      "rmse_norm": 0.00785738266329312,
+      "sign_accuracy_nonzero": 0.8571428571428571,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.2,
+      "model": "static",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.01906288,
+      "rmse_norm": 0.020388787886021362,
+      "sign_accuracy_nonzero": 0.0,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.2,
+      "model": "constant_velocity",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.008002880000000066,
+      "rmse_norm": 0.011609378084537705,
+      "sign_accuracy_nonzero": 1.0,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.2,
+      "model": "ridge_front_history",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.012862359020589643,
+      "rmse_norm": 0.015533145369859721,
+      "sign_accuracy_nonzero": 0.7142857142857143,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.2,
+      "model": "ridge_front_plus_hitter",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.011829577810854182,
+      "rmse_norm": 0.015244595598454142,
+      "sign_accuracy_nonzero": 0.7142857142857143,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.3,
+      "model": "static",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.028165481428571428,
+      "rmse_norm": 0.030043989224635984,
+      "sign_accuracy_nonzero": 0.0,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.3,
+      "model": "constant_velocity",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.013078760000000087,
+      "rmse_norm": 0.016575231355854102,
+      "sign_accuracy_nonzero": 1.0,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.3,
+      "model": "ridge_front_history",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.019186800616044542,
+      "rmse_norm": 0.023873820168427397,
+      "sign_accuracy_nonzero": 0.7142857142857143,
+      "n_nonzero": 7
+    },
+    {
+      "horizon_sec": 0.3,
+      "model": "ridge_front_plus_hitter",
+      "n_events": 7,
+      "alpha": 1.0,
+      "mae_norm": 0.018713477210375865,
+      "rmse_norm": 0.023362524997441993,
+      "sign_accuracy_nonzero": 0.5714285714285714,
+      "n_nonzero": 7
+    }
+  ]
+}

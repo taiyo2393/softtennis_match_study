@@ -1,0 +1,20 @@
+{
+  "056_four_reacquisition_candidates.mp4": "af16739a2e68aa99e3edecaab4a52fe28ecf55b7cf586059250b2878dfed09f9",
+  "all_weak_components.csv": "44b456c71901ed195e79a16edaeebf0764a6715e8b40c211dbe98edea5d64ed2",
+  "baseline_reproduction.csv": "50987bc688f051ab0c80c5482f1062a79397b5aad628c46b466d4489f41ba3a6",
+  "executed_render.py": "a5539e12e100649fb94dc31b1fce7b35a8f374f693d12901f8ef57063c2246df",
+  "executed_trial.py": "c0033319ad3c1ea4a89e812728341bfe8d8e12413a2949b4c88e3ab2a0e35ff8",
+  "four_new_candidates.jpg": "cfe1aa60fabe7d2b7ba887f415a7a6267145aeb08fe20ee1a9fda7e573adaff0",
+  "full_heatmaps.npz": "ea191ca767353e6ec7397763f90ed35515b25cfe55afbcb641f3017edc7c06c2",
+  "new_candidate_F154861.jpg": "1c46eab151e0a65ef24ca94eb90fcca36b4055ebe588c71b3f90e1cbc4b00301",
+  "new_candidate_F154862.jpg": "e2aff9b2777c340f26e4a1b6d70c0f0c84a902d5e97308b364c570e30de41d59",
+  "new_candidate_F154873.jpg": "3e5574f6fce4193625eb70471905eb528c0020d1f07563f545959e37183d6399",
+  "new_candidate_F154878.jpg": "dc4711061cb1e1ef92999906f8ce21c23687dd6cf85ac3e22060aa4540aeffb0",
+  "proposed_path.csv": "f25e63141ca51c22958b3ac7045cfb199e234aabe64ae3ea4b26ca880febb094",
+  "protocol.json": "e514148e76a2b19023beb4912af278011322b55913d15721dd52e569020df058",
+  "README.md": "034fdce3ea68b2d878474d31c6a93aa25c032c75e487366add46879c23421ef0",
+  "result.json": "105b7b2d25b25de441c477d5d26b8e66b71857e7f3ac4510dc96d01b31368f6c",
+  "source_images.json": "69fca9d141b0294e0bd3aff3b0a130692e74e072c9f600fe5d43d7809f18833e",
+  "verification.json": "934e150b6774e6667ff30f91dd6dfeb43f5e0768669268dc5e41bbb9aa49e48f",
+  "video_source_frame_map.csv": "345f28c9cbf2037b8b0b4a57d48e44e5eab052d9fdb04087d4fcaeb5ad5e8f02"
+}

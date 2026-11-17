@@ -1,0 +1,8 @@
+{
+  "status": "no_eligible_sustained_runs_no_labels_created",
+  "sampled_frames": 716,
+  "spatial_competition_frames": 26,
+  "disagreement_frames": 4,
+  "initial_protocol_preserved": true,
+  "original_rule": "At least3 consecutive stride2 sampled competing frames, excluding old labels +/-8"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "event": "initialized",
+    "frame": 8625,
+    "window_start": 8618,
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 22,
+      "far_front": 3
+    },
+    "identity_status": "candidate_not_ground_truth",
+    "identity_scope": "clip_local_initial_anchor_not_global_player_name"
+  }
+]

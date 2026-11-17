@@ -1,0 +1,15 @@
+{
+  "model": "TOTNet tennis pretrained",
+  "standalone_criterion_met": false,
+  "fallback_criterion_met": false,
+  "active_baseline_changed": false,
+  "reason": "No automatic adoption from sampled-frame evaluation; retain current aligned baseline.",
+  "evidence": [
+    "protocol.json",
+    "selection.json",
+    "test_results.json",
+    "fallback_selection.json",
+    "fallback_test_results.json"
+  ],
+  "review_scope": "300 labeled samples, no continuous-track validation or independent external test"
+}

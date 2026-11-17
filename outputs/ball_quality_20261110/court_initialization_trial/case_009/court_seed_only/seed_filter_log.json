@@ -1,0 +1,3118 @@
+[
+  {
+    "source_frame": 21039,
+    "available": 11,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010
+    ]
+  },
+  {
+    "source_frame": 21040,
+    "available": 11,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010
+    ]
+  },
+  {
+    "source_frame": 21041,
+    "available": 11,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010
+    ]
+  },
+  {
+    "source_frame": 21042,
+    "available": 13,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010,
+      1000015,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21043,
+    "available": 14,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010,
+      1000015,
+      1000017,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 21044,
+    "available": 13,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010,
+      1000015,
+      1000019
+    ]
+  },
+  {
+    "source_frame": 21045,
+    "available": 15,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010,
+      1000015,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21046,
+    "available": 15,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      1000008,
+      1000010,
+      1000015,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21047,
+    "available": 17,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      1000008,
+      1000010,
+      1000015,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21048,
+    "available": 17,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      1000008,
+      1000010,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21049,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21050,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21051,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21052,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21053,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21054,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21055,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21056,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      8,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21057,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21058,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21059,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21060,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21061,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21062,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21063,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21064,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21065,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21066,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21067,
+    "available": 15,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21068,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014
+    ]
+  },
+  {
+    "source_frame": 21069,
+    "available": 16,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21070,
+    "available": 16,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21071,
+    "available": 15,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21072,
+    "available": 15,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21073,
+    "available": 16,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21074,
+    "available": 16,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21075,
+    "available": 15,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21076,
+    "available": 15,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21077,
+    "available": 15,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000014,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21078,
+    "available": 14,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21079,
+    "available": 14,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21080,
+    "available": 14,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 21081,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21082,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21083,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21084,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21085,
+    "available": 13,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21086,
+    "available": 13,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21087,
+    "available": 13,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21088,
+    "available": 13,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21089,
+    "available": 13,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21090,
+    "available": 13,
+    "eligible": 3,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21091,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21092,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21093,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21094,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21095,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21096,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21097,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21098,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21099,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21100,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21101,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21102,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21103,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21104,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21105,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21106,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21107,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21108,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21109,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21110,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21111,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21112,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21113,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21114,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21115,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21116,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21117,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      27,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21118,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21119,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21120,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21121,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21122,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21123,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21124,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21125,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21126,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21127,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21128,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21129,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21130,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21131,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21132,
+    "available": 14,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022,
+      1000008
+    ]
+  },
+  {
+    "source_frame": 21133,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21134,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21135,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21136,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21137,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21138,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21139,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21140,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21141,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21142,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21143,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21144,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21145,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21146,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21147,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21148,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21149,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21150,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21151,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21152,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21153,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21154,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21155,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21156,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21157,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21158,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21159,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21160,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21161,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21162,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21163,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21164,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21165,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21166,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21167,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21168,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21169,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21170,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21171,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21172,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21173,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21174,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21175,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21176,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21177,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21178,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21179,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21180,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21181,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21182,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21183,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21184,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21185,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21186,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21187,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21188,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21189,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21190,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21191,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21192,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21193,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21194,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21195,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21196,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21197,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21198,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21199,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21200,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21201,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21202,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21203,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21204,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21205,
+    "available": 13,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21206,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21207,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21208,
+    "available": 16,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21209,
+    "available": 17,
+    "eligible": 8,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21210,
+    "available": 17,
+    "eligible": 8,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21211,
+    "available": 16,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21212,
+    "available": 16,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21213,
+    "available": 16,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21214,
+    "available": 16,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21215,
+    "available": 15,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21216,
+    "available": 15,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21217,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21218,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21219,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21220,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21221,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21222,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21223,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21224,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21225,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  },
+  {
+    "source_frame": 21226,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      7,
+      9,
+      22,
+      25,
+      32,
+      8,
+      1000019,
+      1000021,
+      1000022
+    ]
+  }
+]

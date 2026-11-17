@@ -1,0 +1,31 @@
+﻿tag,source_frame,AI_observation,independent_human_GT,ground_position_certified
+002,2319,Torso-only color rule newly disagrees on a visibly present far player. At002F2319 the competing color anchor is the other far slot; at009F21945/F21975 it is near_front. Do not use this as a hard rejection.,0,0
+002,2559,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+005,8990,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+006,12217,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+006,12421,Pose torso follows actual orange player rather than cyan official within the native mixed box. Rectangle-color veto disagrees with native slot; torso-color veto does not. No measured ground location recovered.,0,0
+006,12422,Pose torso follows actual orange player rather than cyan official within the native mixed box. Rectangle-color veto disagrees with native slot; torso-color veto does not. No measured ground location recovered.,0,0
+009,21945,Torso-only color rule newly disagrees on a visibly present far player. At002F2319 the competing color anchor is the other far slot; at009F21945/F21975 it is near_front. Do not use this as a hard rejection.,0,0
+009,21975,Torso-only color rule newly disagrees on a visibly present far player. At002F2319 the competing color anchor is the other far slot; at009F21945/F21975 it is near_front. Do not use this as a hard rejection.,0,0
+009,22075,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+012,31935,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+015,39160,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+016,40556,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+016,40625,Actual dark server has a pose at far_context scale and is not rejected by either color region in this diagnostic.,0,0
+016,40626,Actual dark server has a pose at far_context scale and is not rejected by either color region in this diagnostic.,0,0
+017,41845,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+018,44166,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+019,46352,Visible head/body fragment is not separately recovered as a full person by either pose scale.,0,0
+019,46501,Far-context model follows cyan official for some frames; pose presence does not establish a player identity.,0,0
+019,46502,Far-context model follows cyan official for some frames; pose presence does not establish a player identity.,0,0
+019,46503,Official/dark-player mixed native rectangle remains without a separating pose proposal at this frame.,0,0
+019,46505,Official/dark-player mixed native rectangle remains without a separating pose proposal at this frame.,0,0
+019,46511,Far-context pose torso follows visible dark player inside official+player mixed native rectangle; original native ID/box remains unchanged.,0,0
+019,46633,Orange player receives the pose; rear dark player is not separately localized. Do not infer hidden ground position.,0,0
+019,46634,Orange player receives the pose; rear dark player is not separately localized. Do not infer hidden ground position.,0,0
+019,46658,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+019,46659,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+019,46660,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0
+019,46665,White/red near player is still given native far F2 label; pose-derived color disagrees and favors a near-side appearance anchor. No identity reassignment made.,0,0
+019,46666,White/red near player is still given native far F2 label; pose-derived color disagrees and favors a near-side appearance anchor. No identity reassignment made.,0,0
+019,46667,Selected control/overlap image inspected for body-part feasibility. Keypoints and native IDs are not independently verified truth.,0,0

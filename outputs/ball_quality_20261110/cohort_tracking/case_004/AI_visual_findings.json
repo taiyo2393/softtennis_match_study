@@ -1,0 +1,39 @@
+{
+  "reviewer": "Codex AI image inspection",
+  "candidate_id": "match1_rally_window_004",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "inspected_raw_context": "phase_evidence/context_grid.jpg",
+  "inspected_all_requested_times": "phase_evidence/input_grid.jpg",
+  "inspected_annotated_images": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg"
+  ],
+  "annotated_QA_frames": [
+    6743,
+    6757,
+    6773,
+    6803,
+    6833,
+    6863,
+    6878,
+    6893
+  ],
+  "extra_full_size_phase_frames": [
+    6863,
+    6893
+  ],
+  "scope": "AI chronological images and sparse identity correspondence; not independent human phase/identity GT",
+  "observation": "Near-left service and recovery lead to far-right receiving swing and near-right response movement. A ball-like image and response movement continue after the fixed input end, includingF6878/F6893. The later context includes a broadcast transition/score update, which is not used as terminal-event timing.",
+  "input_boundary_problem_visible": false,
+  "formal_point_end_frame_confirmed": false,
+  "service_validity_newly_human_confirmed": false,
+  "input_four_distinct_players_at_spot_frames": [
+    6803,
+    6833
+  ],
+  "missing_slot_at_last_requested_time": "far_front",
+  "no_obvious_far_pair_swap_in_inspected_frames": true,
+  "independent_human_identity_GT_added": false,
+  "exact_contact_time_newly_confirmed": false,
+  "caution": "Short sequence near the end: AI phase support does not certify the decisive rule event. No window shift or last-observed-frame replacement."
+}

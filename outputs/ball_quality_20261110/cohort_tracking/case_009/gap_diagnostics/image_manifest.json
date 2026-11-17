@@ -1,0 +1,127 @@
+[
+  {
+    "player_slot": "near_rear",
+    "before_source_frame": 21550,
+    "after_source_frame": 21625,
+    "missing_frames": 74,
+    "before_raw_id": "8",
+    "after_raw_id": "423",
+    "image_file": "gap_01_near_rear.jpg",
+    "source_frames": [
+      21538,
+      21550,
+      21587,
+      21625,
+      21631,
+      21637
+    ],
+    "constant_crop_xyxy": [
+      0,
+      1037,
+      283,
+      1512
+    ],
+    "aspect_preserved": true,
+    "sha256": "df89c17697f2b9c0966dea0fd82e653be23c7c99bfff557d706c897a43adace0"
+  },
+  {
+    "player_slot": "near_rear",
+    "before_source_frame": 21496,
+    "after_source_frame": 21513,
+    "missing_frames": 16,
+    "before_raw_id": "8",
+    "after_raw_id": "8",
+    "image_file": "gap_02_near_rear.jpg",
+    "source_frames": [
+      21484,
+      21496,
+      21504,
+      21513,
+      21519,
+      21525
+    ],
+    "constant_crop_xyxy": [
+      0,
+      1036,
+      283,
+      1511
+    ],
+    "aspect_preserved": true,
+    "sha256": "8ced9ae18aeba4210856e359e2d752c865cfda0f2e4cfb5064494a626bc5d6cf"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 21251,
+    "after_source_frame": 21325,
+    "missing_frames": 73,
+    "before_raw_id": "81",
+    "after_raw_id": "81",
+    "image_file": "gap_03_far_rear.jpg",
+    "source_frames": [
+      21239,
+      21251,
+      21288,
+      21325,
+      21331,
+      21337
+    ],
+    "constant_crop_xyxy": [
+      1417,
+      917,
+      1856,
+      1354
+    ],
+    "aspect_preserved": true,
+    "sha256": "fb308ca4b8f7a072219a2b17c1425c0a1b1c9e9bfa274ae21734d255330e2d0d"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 21460,
+    "after_source_frame": 21501,
+    "missing_frames": 40,
+    "before_raw_id": "1000026",
+    "after_raw_id": "296",
+    "image_file": "gap_04_far_rear.jpg",
+    "source_frames": [
+      21448,
+      21460,
+      21480,
+      21501,
+      21507,
+      21513
+    ],
+    "constant_crop_xyxy": [
+      1415,
+      918,
+      1876,
+      1355
+    ],
+    "aspect_preserved": true,
+    "sha256": "8e0147a62b31a85b4638ce8c104e60ea184494604f3718f2e6edbd99b96f7ab1"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 22084,
+    "after_source_frame": 22095,
+    "missing_frames": 10,
+    "before_raw_id": "6",
+    "after_raw_id": "6",
+    "image_file": "gap_05_far_front.jpg",
+    "source_frames": [
+      22072,
+      22084,
+      22089,
+      22095,
+      22101,
+      22107
+    ],
+    "constant_crop_xyxy": [
+      1447,
+      939,
+      2025,
+      1454
+    ],
+    "aspect_preserved": true,
+    "sha256": "c20edaacfbe6c38f9c8768bb583976cdf7420279455734bfb1b9f02e102c4036"
+  }
+]

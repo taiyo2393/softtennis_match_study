@@ -1,0 +1,88 @@
+{
+  "validation": {
+    "frames": [
+      19,
+      57,
+      95,
+      133,
+      171,
+      209,
+      247,
+      285,
+      323,
+      361,
+      399,
+      437,
+      475,
+      513,
+      551
+    ],
+    "current": {
+      "counts": {
+        "frames": 15,
+        "truth_visible": 14,
+        "pred_visible": 12,
+        "presence_tp": 12,
+        "localized_tp_16px": 11,
+        "wrong_localization": 1,
+        "presence_fn": 2,
+        "presence_tn": 1,
+        "presence_fp": 0
+      },
+      "localization_recall_16px": 0.7857142857142857,
+      "localization_precision_16px": 0.9166666666666666,
+      "mean_error_both_visible_px": 21.204868568081842
+    },
+    "proposed": {
+      "counts": {
+        "frames": 15,
+        "truth_visible": 14,
+        "pred_visible": 12,
+        "presence_tp": 12,
+        "localized_tp_16px": 12,
+        "wrong_localization": 0,
+        "presence_fn": 2,
+        "presence_tn": 1,
+        "presence_fp": 0
+      },
+      "localization_recall_16px": 0.8571428571428571,
+      "localization_precision_16px": 1.0,
+      "mean_error_both_visible_px": 3.5545645482248154
+    }
+  },
+  "four_case_challenge_subset": {
+    "frames": [
+      328
+    ],
+    "current": {
+      "counts": {
+        "frames": 1,
+        "truth_visible": 1,
+        "pred_visible": 1,
+        "presence_tp": 1,
+        "localized_tp_16px": 0,
+        "wrong_localization": 1,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 0.0,
+      "localization_precision_16px": 0.0,
+      "mean_error_both_visible_px": 265.63132345414385
+    },
+    "proposed": {
+      "counts": {
+        "frames": 1,
+        "truth_visible": 1,
+        "pred_visible": 1,
+        "presence_tp": 1,
+        "localized_tp_16px": 1,
+        "wrong_localization": 0,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 1.0,
+      "localization_precision_16px": 1.0,
+      "mean_error_both_visible_px": 1.0
+    }
+  }
+}

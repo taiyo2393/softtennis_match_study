@@ -1,0 +1,5 @@
+﻿sampling_group,position_policy,pairs,predicted_complete_pairs,reference_complete_position_pairs,scored_pairs,reference_unplaceable_pairs,prediction_incomplete_pairs_regardless_reference
+uniform_one_per_context,retain_native_proxy,20,18,18,17,2,2
+uniform_one_per_context,withhold_body_warning_proxy,20,17,18,17,2,3
+known_body_warning_challenge,retain_native_proxy,4,4,1,1,3,0
+known_body_warning_challenge,withhold_body_warning_proxy,4,0,1,0,3,4

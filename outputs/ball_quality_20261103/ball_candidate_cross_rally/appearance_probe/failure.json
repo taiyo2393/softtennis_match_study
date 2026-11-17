@@ -1,0 +1,8 @@
+{
+  "status": "environment_initialisation_failure_before_training_or_predictions",
+  "reason": "The installed minimal cv2 module has no HOGDescriptor. No model fit or new-case predictions were produced.",
+  "original_implementation": "failed_implementation.py",
+  "replacement": "../appearance_probe_v2/",
+  "replacement_reason": "Use an explicitly specified NumPy gradient-histogram implementation; no dependencies installed and no label-driven tuning.",
+  "new_human_answers_seen": false
+}

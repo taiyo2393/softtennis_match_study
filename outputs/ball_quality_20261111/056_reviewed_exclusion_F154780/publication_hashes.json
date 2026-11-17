@@ -1,0 +1,21 @@
+{
+  "056_transfer_bounces_and_routes.mp4": "22b8dcf0f14cb278af26b0f185b58b066d132f03f7f4c97129436614ddf7cefd",
+  "AI_stroke_records.csv": "c968565be9c8c4530726e8bf62831ba574f630a352bfa8bd4fe63d81c319b55f",
+  "bounce_court_points.csv": "a84dccddb5179f9b338049694d6b840a0e6b92789da776ae13816ee5da86e68e",
+  "direction_candidate_changes.json": "a76471cd5e203e07949178b39ef81cdb2bdee34636d618ec9f32244bf007fadd",
+  "direction_change_candidates_after_exclusion.csv": "d886cf35db962dfc9cb37655aa4c740f1fb95e953af296e0b8609745b9a8c958",
+  "executed_source.py": "80497d339b09f76f8c835ba2ff11c105558b105e7312be2a2976525044473ee0",
+  "human_candidate_rejection.json": "8712bfdf0a4f9b1107bdcfb5b351af77dcc26116d2e888bb5a02f1083dbafac9",
+  "observed_and_estimated_image_path.csv": "02aa22f7ec12d27229bd3e7c93b82b2d29cfab966a273a9219dac95f948094c4",
+  "player_court_proxies.csv": "a61a226f6cdfadb4a8c442a1c53abc652389d9eb62dc3be9d28640cae9c9ea95",
+  "protocol.json": "7c24a1c6625803eeee1a7d80036da6c1a3a97a7fa04c52e759aef58a332a2af3",
+  "README.md": "921a648d70009cf9bae9e3d493018e109952c116740d2db36750c0f95069d35a",
+  "schematic_court_routes.csv": "764d8d463cbf7acefceafe77012d6c09204ccb9efc26c47f5c3b8e2cb1b38097",
+  "scoped_exclusion.csv": "b3652d0558614a1369451d838519e09e0cc9acd2495b20b29103e90ba12a193e",
+  "transfer_F154230.jpg": "9718eac329b7e6701843ad567db221283e3cc6294606f46fc50ef2d01a27295a",
+  "transfer_F154470.jpg": "4e534f1fa431caf2b40e835bc06d8f4d88b50fc283a1025ae205066c858b0284",
+  "transfer_F154780.jpg": "95c25160a39c3d9a7eb97a8dd0a953db04672321224fd7080a811e0ad4891a10",
+  "transfer_F154846.jpg": "3b533ed575aa9e4cd9639addbb9ef7bb9896e99c10325c1182b7e15784140eaa",
+  "verification.json": "8f611658c4b43983b2c08f1c84c996fc8e1d4ebcc7e5f888c11f85e4b88a48c0",
+  "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697"
+}

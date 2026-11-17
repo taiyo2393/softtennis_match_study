@@ -1,0 +1,31 @@
+{
+  "status": "nine_candidate_comparison_inputs_constructed",
+  "candidates": 9,
+  "outcome_counts": {
+    "near": 6,
+    "far": 3
+  },
+  "fixed30_constructed_inputs": 6,
+  "fixed30_pending_inputs": 24,
+  "supplementary_development_candidates": 3,
+  "B1_inputs": 1,
+  "B2_snapshot_inputs": 11,
+  "B2_window_inputs": 11,
+  "model_fitting_performed": false,
+  "performance_estimated": false,
+  "ball_comparison_ready": false,
+  "new_human_annotation_requested": false,
+  "canonical_tracking_changed": false,
+  "hashes": {
+    "B1_server_side.csv": "607398090dc1babd994befa0f8bc8677e76d60303bf619871300a1bdbe942a38",
+    "B2_snapshot.csv": "fc06757c04f36d06e8e8b1678c8d7f828cc5e72df4e2ed54028c4fcd9ad9a646",
+    "B2_window_means.csv": "ccee42267c1d0ad0b2017e64bb4e2dc2d122a6d80d61ad65c004534fb1f6b4e8",
+    "diagnostic_snapshot_masks_only.csv": "6b103180cee90c15932053c0677d3257c28c3335928943385a89cf44743cf2ce",
+    "diagnostic_window_masks_only.csv": "6f6e074eb54cc240063c237b62b56ea04c8e45eafff38c988c41b909727408cb",
+    "fixed30_processing_progress.csv": "14763558e46f9f9301ad15c221db2244fd9b007c21e37b1ac7d5649f40fddff9",
+    "human_outcomes.csv": "6a810db5f125009ac173fbeb20ad9f3c3ee855058cbc91b4994544385401c85a",
+    "rally_metadata.csv": "bad70013603dcaf82b929981971e0c0f60ae24b96516d96c3c797886fc2a7ce7",
+    "source_snapshot_features.csv": "4396f02bbc90e24c9c0baf1c0cce481d30de63de09bbcbc83238b89c65677f15",
+    "source_window_summary_features.csv": "dbea3f65e38818919f4a3c3013ce5635e634a7f5be4c8353995e66b586dd4c5a"
+  }
+}

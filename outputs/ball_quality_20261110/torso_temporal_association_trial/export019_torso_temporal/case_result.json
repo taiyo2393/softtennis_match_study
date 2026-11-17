@@ -1,0 +1,9 @@
+{
+  "status": "partial_far_guard_development_export",
+  "artifact_hashes": {
+    "four_player_path.csv": "b9d4c0539e773e66e3a72db43b6d78fba25f5397fe62b84c1388da77d337acbb",
+    "prefix_frame_features.csv": "cea24a9b3bcb1d8c10746f63a26e3388e764ac1bcdb001e0e55a2a22b9d02be0",
+    "prefix_player_summary_features.csv": "4b85dc342dd74889c1ac1cfe330c53025d5bdf3d79ba7159fd2829ccdd89b3a2",
+    "snapshot_player_features.csv": "af986eb9ad3a85bc9d30769eced55770eb72953f36a97692ca41656d724f13cf"
+  }
+}

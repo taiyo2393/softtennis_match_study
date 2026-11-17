@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "selected_boxes_matched_to_augmented_detection_source": 2321,
+  "recalculated_feature_values": 379,
+  "requested_times": 31,
+  "four_observation_times": 31,
+  "video_frames_decoded": 1200,
+  "videos": [
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\tracking_quality_20261102_stage4\\players_001_temporal\\tracking_review_h264.mp4",
+      "frames": 600,
+      "sha256": "9eebb1f255d0d6d438ca0586956ee735b15ffc32df107d7f823c33bf82b45eb9"
+    },
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_001\\tracking_quality_20261102_stage7\\players_001_global\\global_review_h264.mp4",
+      "frames": 600,
+      "sha256": "8c4e03b574a599098c7d3eb48940fb11f842a3ffbd82c244647e356ca3935882"
+    }
+  ],
+  "interpolation_found": false,
+  "duplicate_slot_or_raw_detection_assignments_found": false,
+  "protected_sources_unchanged": true,
+  "independent_identity_or_position_accuracy_established": false
+}

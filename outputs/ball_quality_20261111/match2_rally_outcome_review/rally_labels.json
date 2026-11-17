@@ -1,0 +1,149 @@
+[
+  {
+    "point": 1,
+    "serve_contact_candidate_interval": [
+      12324,
+      12326
+    ],
+    "terminal_candidate_interval": [
+      12570,
+      12578
+    ],
+    "scoreboard_before": [
+      0,
+      0
+    ],
+    "scoreboard_after": [
+      0,
+      1
+    ],
+    "scoreboard_frames": [
+      12327,
+      12647
+    ],
+    "scoreboard_order": [
+      "内本・内田組",
+      "船水・上松組"
+    ],
+    "scoring_side": "near",
+    "scoring_team": "船水・上松組",
+    "score_evidence": "scoreboard changes; team sides checked using near-team jerseys",
+    "near_team_source_frames": [
+      12485,
+      12510
+    ],
+    "stroke_candidates": 3,
+    "final_hitter_candidate": "F2",
+    "terminal_review": {
+      "label": "hitting_side_out",
+      "evidence": "Original-video user response アウト",
+      "visual_review_frames": [
+        12554,
+        12577
+      ],
+      "exact_terminal_frame": null
+    }
+  },
+  {
+    "point": 2,
+    "serve_contact_candidate_interval": [
+      13647,
+      13656
+    ],
+    "terminal_candidate_interval": [
+      14056,
+      14090
+    ],
+    "scoreboard_before": [
+      0,
+      1
+    ],
+    "scoreboard_after": [
+      1,
+      1
+    ],
+    "scoreboard_frames": [
+      13607,
+      14147
+    ],
+    "scoreboard_order": [
+      "内本・内田組",
+      "船水・上松組"
+    ],
+    "scoring_side": "far",
+    "scoring_team": "内本・内田組",
+    "score_evidence": "scoreboard changes; team sides checked using near-team jerseys",
+    "near_team_source_frames": [
+      13997,
+      14018
+    ],
+    "stroke_candidates": 5,
+    "final_hitter_candidate": "F2",
+    "terminal_review": {
+      "label": "no_return_observed",
+      "evidence": "Source footage: no return seen before camera cut; point awarded to the hitting side. Racket contact and line judgment remain unverified.",
+      "visual_review_frames": [
+        14019,
+        14087
+      ],
+      "exact_terminal_frame": null
+    }
+  },
+  {
+    "point": 3,
+    "serve_contact_candidate_interval": [
+      15214,
+      15222
+    ],
+    "terminal_candidate_interval": [
+      15506,
+      15522
+    ],
+    "scoreboard_before": [
+      1,
+      1
+    ],
+    "scoreboard_after": [
+      2,
+      1
+    ],
+    "scoreboard_frames": [
+      15167,
+      15587
+    ],
+    "scoreboard_order": [
+      "内本・内田組",
+      "船水・上松組"
+    ],
+    "scoring_side": "far",
+    "scoring_team": "内本・内田組",
+    "score_evidence": "scoreboard changes; team sides checked using near-team jerseys",
+    "near_team_source_frames": [
+      15232,
+      15260
+    ],
+    "stroke_candidates": 5,
+    "final_hitter_candidate": "F1",
+    "terminal_review": {
+      "label": "no_return_observed",
+      "evidence": "Source footage: no return seen. User saw no N2 racket contact at F15496–15500; the end event and frame were not independently reviewed.",
+      "visual_review_frames": [
+        15461,
+        15522
+      ],
+      "exact_terminal_frame": null,
+      "confirmed_local_contact_assessment": {
+        "point": 3,
+        "display_id": "N2",
+        "first_source_frame": 15496,
+        "last_source_frame": 15500,
+        "racket_contact": "no_contact",
+        "review_source": "user_followup_on_raw_detail_video",
+        "user_response": "触れていない",
+        "review_clip": "point3_contact_raw_detail.mp4",
+        "review_clip_sha256": "c9a8d6a38db7eb967b7f0bd852f72e8029335cd4c822d4f7d6e49f46bf19f6a7",
+        "display_note": "終盤のN2は接触なし（確認済み）"
+      }
+    }
+  }
+]

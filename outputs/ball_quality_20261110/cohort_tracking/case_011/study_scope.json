@@ -1,0 +1,10 @@
+{
+  "candidate_id": "match1_rally_window_011",
+  "existing_frozen_score_validation_member": true,
+  "score_validation_registry_changed": false,
+  "tracking_use": "same-match development and chronological input construction, not an untouched holdout evaluation",
+  "first_attempt_label": "not human adjudicated; stopped then retry visible",
+  "earlier_attempt_excluded_from_fixed_input": true,
+  "independent_identity_or_position_GT_added": false,
+  "outcome_label_status": "unreviewed"
+}

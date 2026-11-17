@@ -1,0 +1,28 @@
+{
+  "source_frame": 3656,
+  "all_four_paint_lines_supported": false,
+  "line_diagnostics": {
+    "far": {
+      "pixels": 0,
+      "bin_coverage": 0,
+      "accepted": false
+    },
+    "right": {
+      "pixels": 0,
+      "bin_coverage": 0,
+      "accepted": false
+    },
+    "near": {
+      "pixels": 24,
+      "bin_coverage": 0.1,
+      "accepted": false
+    },
+    "left": {
+      "pixels": 0,
+      "bin_coverage": 0.0,
+      "accepted": false
+    }
+  },
+  "geometry": null,
+  "independent_human_calibration": false
+}

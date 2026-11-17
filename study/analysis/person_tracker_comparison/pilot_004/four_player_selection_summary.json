@@ -1,0 +1,118 @@
+[
+  {
+    "mode": "bytetrack",
+    "seed_frame": 2471,
+    "analysis_ready_end_frame": 2577,
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 5,
+      "far_front": 4
+    },
+    "stitches": [
+      {
+        "slot": "far_rear",
+        "old_id": 5,
+        "new_id": 29,
+        "start_frame": 2557,
+        "link_type": "overlap_or_short_gap",
+        "link_score": 0.614
+      }
+    ],
+    "slots": {
+      "near_front": {
+        "raw_track_ids": [
+          1
+        ],
+        "observed_frames": 107,
+        "total_frames": 107,
+        "missing_runs": []
+      },
+      "near_rear": {
+        "raw_track_ids": [
+          2
+        ],
+        "observed_frames": 107,
+        "total_frames": 107,
+        "missing_runs": []
+      },
+      "far_rear": {
+        "raw_track_ids": [
+          5,
+          29
+        ],
+        "observed_frames": 93,
+        "total_frames": 107,
+        "missing_runs": [
+          [
+            2564,
+            2577
+          ]
+        ]
+      },
+      "far_front": {
+        "raw_track_ids": [
+          4
+        ],
+        "observed_frames": 107,
+        "total_frames": 107,
+        "missing_runs": []
+      }
+    }
+  },
+  {
+    "mode": "botsort_reid",
+    "seed_frame": 2471,
+    "analysis_ready_end_frame": 2577,
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 5,
+      "far_front": 4
+    },
+    "stitches": [],
+    "slots": {
+      "near_front": {
+        "raw_track_ids": [
+          1
+        ],
+        "observed_frames": 107,
+        "total_frames": 107,
+        "missing_runs": []
+      },
+      "near_rear": {
+        "raw_track_ids": [
+          2
+        ],
+        "observed_frames": 107,
+        "total_frames": 107,
+        "missing_runs": []
+      },
+      "far_rear": {
+        "raw_track_ids": [
+          5
+        ],
+        "observed_frames": 89,
+        "total_frames": 107,
+        "missing_runs": [
+          [
+            2558,
+            2561
+          ],
+          [
+            2564,
+            2577
+          ]
+        ]
+      },
+      "far_front": {
+        "raw_track_ids": [
+          4
+        ],
+        "observed_frames": 107,
+        "total_frames": 107,
+        "missing_runs": []
+      }
+    }
+  }
+]

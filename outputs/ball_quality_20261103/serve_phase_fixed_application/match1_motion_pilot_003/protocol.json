@@ -1,0 +1,33 @@
+{
+  "pilot": "match1_motion_pilot_003",
+  "frames": 870,
+  "fps": 59.94005994005994,
+  "sampling_stride": 2,
+  "metadata": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_003\\runs\\threshold030_median120\\run_metadata.json",
+  "metadata_sha256": "a2e877b9664c76fd1f58144736d93b30ed97702bb72a7671ed05f87e285cc5cd",
+  "clip_sha256": "f20d39aad2d68b9e6db37b85f11239e938e8c61650d0d267be441bade22712cf",
+  "clock": "legacy_edited_match1_cached_clip_local_frames_not_match1_original",
+  "frozen_protocol_file_sha256": "7cc0f5ee3d0218b8087793c469564bd299c0c913d70dd1475387cd03be290b4d",
+  "runner_sha256": "d006125eb0695373623b2bbbb32d722e0ac5c34c31cb153b58df31f517a9af1d",
+  "model_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+  "imgsz": 1920,
+  "confidence": 0.25,
+  "iou": 0.7,
+  "regions": [
+    [
+      480,
+      360,
+      1536,
+      720
+    ],
+    [
+      0,
+      320,
+      1920,
+      1080
+    ]
+  ],
+  "crop_edge_margin_px": 4,
+  "dedup_iou": 0.5,
+  "labels_read": false
+}

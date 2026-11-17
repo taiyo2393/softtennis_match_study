@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_visible_play_targets": 139,
+  "datasets_kept_separate": 3,
+  "actual_output_provenance_verified": true,
+  "candidate_center_upper_bounds_recomputed": true,
+  "deficit_rows": 15,
+  "no_training_or_threshold_changes": true,
+  "no_new_labels": true,
+  "oracle_not_tracking_accuracy": true,
+  "protected_inputs_unchanged": true,
+  "script_sha256": "fadcdf53038c8985d7e2e92dfb235bd1518e2f6c210b05573ded1e8b79e6645f"
+}

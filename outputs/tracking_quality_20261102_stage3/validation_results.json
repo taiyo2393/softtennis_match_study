@@ -1,0 +1,254 @@
+[
+  {
+    "tag": "002",
+    "first_frame": 2223,
+    "last_frame": 2577,
+    "frames": 355,
+    "ready_segment": {
+      "video_id": "match1",
+      "segment_id": "match1_ready_002",
+      "start_timestamp_sec": "30.000000",
+      "end_timestamp_sec": "43.000000",
+      "start_source_frame": "1798",
+      "end_source_frame": "2577",
+      "scene_type": "analysis_ready_main_camera",
+      "cut_confidence": "geometry_and_background",
+      "main_camera_confidence": "0.989277",
+      "usable_for_analysis": "true",
+      "human_checked": "false",
+      "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+    },
+    "boundary_status": "candidate_interval_not_human_confirmed_point",
+    "source_fps": 59.94005994005994,
+    "source_width": 3840,
+    "source_height": 2160,
+    "initialization_status": "four_seeds_proposed",
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 5,
+      "far_front": 4
+    },
+    "seed_review_status": "not_human_confirmed",
+    "tracking_summary": {
+      "candidate_id": "002",
+      "method": "frozen_stage2",
+      "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+      "first_frame": 2223,
+      "last_frame": 2577,
+      "frames": 355,
+      "seeds": {
+        "near_front": 1,
+        "near_rear": 2,
+        "far_rear": 5,
+        "far_front": 4
+      },
+      "initial_seed_boxes": [
+        [
+          "N1",
+          1,
+          [
+            1090,
+            536,
+            1138,
+            674
+          ]
+        ],
+        [
+          "N2",
+          2,
+          [
+            275,
+            534,
+            390,
+            843
+          ]
+        ],
+        [
+          "F1",
+          5,
+          [
+            842,
+            537,
+            868,
+            612
+          ]
+        ],
+        [
+          "F2",
+          4,
+          [
+            1161,
+            527,
+            1196,
+            613
+          ]
+        ]
+      ],
+      "counts": {
+        "near_front": 355,
+        "near_rear": 273,
+        "far_rear": 355,
+        "far_front": 164,
+        "four_simultaneous": 140,
+        "total_observed_assignments": 1147
+      },
+      "decision_count": 6,
+      "detection_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\crop_runs\\augmented_detections_002.csv",
+      "warning": "Assignment availability only; no independent identity reference. Match-specific geometry, manually inspect seeds and junctions. Slots are initial identities, not changing front/rear roles.",
+      "parameters": {
+        "max_missing_frames": 90,
+        "missing_cost": 1.05,
+        "min_global_margin": 0.1,
+        "appearance": "fixed initial torso/shorts HSV histograms",
+        "negative_guard": true,
+        "interpolation": false,
+        "continuity_veto_bypass": {
+          "max_gap": 2,
+          "max_residual_height": 0.4,
+          "same_raw_id_required": true
+        },
+        "min_initial_height_fraction": 0.5
+      }
+    }
+  },
+  {
+    "tag": "005",
+    "first_frame": 8607,
+    "last_frame": 9051,
+    "frames": 445,
+    "ready_segment": {
+      "video_id": "match1",
+      "segment_id": "match1_ready_006",
+      "start_timestamp_sec": "133.500000",
+      "end_timestamp_sec": "151.000000",
+      "start_source_frame": "8002",
+      "end_source_frame": "9051",
+      "scene_type": "analysis_ready_main_camera",
+      "cut_confidence": "geometry_and_background",
+      "main_camera_confidence": "0.992196",
+      "usable_for_analysis": "true",
+      "human_checked": "false",
+      "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+    },
+    "boundary_status": "candidate_interval_not_human_confirmed_point",
+    "source_fps": 59.94005994005994,
+    "source_width": 3840,
+    "source_height": 2160,
+    "initialization_status": "withheld_cannot_seed_four",
+    "reason": "Cannot automatically seed four players at F8607: near=2 far=1"
+  },
+  {
+    "tag": "048",
+    "first_frame": 125859,
+    "last_frame": 126758,
+    "frames": 900,
+    "ready_segment": {
+      "video_id": "match1",
+      "segment_id": "match1_ready_050",
+      "start_timestamp_sec": "2098.500000",
+      "end_timestamp_sec": "2124.500000",
+      "start_source_frame": "125784",
+      "end_source_frame": "127343",
+      "scene_type": "analysis_ready_main_camera",
+      "cut_confidence": "geometry_and_background",
+      "main_camera_confidence": "0.982839",
+      "usable_for_analysis": "true",
+      "human_checked": "false",
+      "notes": "background<=0.05; geometry>=0.95; edge_margin_sec=1.0"
+    },
+    "boundary_status": "candidate_interval_not_human_confirmed_point",
+    "source_fps": 59.94005994005994,
+    "source_width": 3840,
+    "source_height": 2160,
+    "initialization_status": "four_seeds_proposed",
+    "seed_ids": {
+      "near_front": 3,
+      "near_rear": 1,
+      "far_rear": 5,
+      "far_front": 2
+    },
+    "seed_review_status": "not_human_confirmed",
+    "tracking_summary": {
+      "candidate_id": "048",
+      "method": "frozen_stage2",
+      "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+      "first_frame": 125859,
+      "last_frame": 126758,
+      "frames": 900,
+      "seeds": {
+        "near_front": 3,
+        "near_rear": 1,
+        "far_rear": 5,
+        "far_front": 2
+      },
+      "initial_seed_boxes": [
+        [
+          "N1",
+          3,
+          [
+            789,
+            545,
+            837,
+            698
+          ]
+        ],
+        [
+          "N2",
+          1,
+          [
+            1374,
+            603,
+            1550,
+            838
+          ]
+        ],
+        [
+          "F1",
+          5,
+          [
+            759,
+            527,
+            793,
+            607
+          ]
+        ],
+        [
+          "F2",
+          2,
+          [
+            1030,
+            541,
+            1084,
+            646
+          ]
+        ]
+      ],
+      "counts": {
+        "near_front": 900,
+        "near_rear": 900,
+        "far_rear": 330,
+        "far_front": 867,
+        "four_simultaneous": 330,
+        "total_observed_assignments": 2997
+      },
+      "decision_count": 9,
+      "detection_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\crop_runs\\augmented_detections_048.csv",
+      "warning": "Assignment availability only; no independent identity reference. Match-specific geometry, manually inspect seeds and junctions. Slots are initial identities, not changing front/rear roles.",
+      "parameters": {
+        "max_missing_frames": 90,
+        "missing_cost": 1.05,
+        "min_global_margin": 0.1,
+        "appearance": "fixed initial torso/shorts HSV histograms",
+        "negative_guard": true,
+        "interpolation": false,
+        "continuity_veto_bypass": {
+          "max_gap": 2,
+          "max_residual_height": 0.4,
+          "same_raw_id_required": true
+        },
+        "min_initial_height_fraction": 0.5
+      }
+    }
+  }
+]

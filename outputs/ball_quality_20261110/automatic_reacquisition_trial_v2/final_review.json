@@ -1,0 +1,13 @@
+{
+  "computational_status": {
+    "status": "completed_all_five_matched_replays",
+    "baseline_exact_cases": 5,
+    "AI_control_image_review_pending": true,
+    "canonical_pipeline_changed": false,
+    "current15_inputs_changed": false,
+    "independent_accuracy_established": false
+  },
+  "AI_control_review_complete": true,
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\automatic_reacquisition_followup\\AI_visual_findings.json",
+  "decision": "B/C rejected for legitimate sustained003 switch regression."
+}

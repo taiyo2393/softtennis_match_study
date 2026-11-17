@@ -1,0 +1,5 @@
+﻿role,frames,before_correct,after_correct,before_wrong_or_false,after_wrong_or_false,original_correct_lost,missing_before,missing_after,false_presence_before,false_presence_after,selection_status_counts
+train,123,63,66,7,4,0,34,34,2,2,"{""observed_path_selection"": 65, ""original_missing"": 53, ""short_segment_original"": 5}"
+validation,120,80,81,3,2,0,23,23,1,1,"{""original_missing"": 37, ""observed_path_selection"": 81, ""short_segment_original"": 2}"
+challenge,4,2,4,2,0,0,0,0,0,0,"{""observed_path_selection"": 4}"
+audit,60,34,35,5,4,0,9,9,3,3,"{""original_missing"": 21, ""observed_path_selection"": 37, ""short_segment_original"": 1, ""camera_transition_original"": 1}"

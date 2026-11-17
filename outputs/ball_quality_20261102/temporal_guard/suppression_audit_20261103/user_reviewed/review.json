@@ -1,0 +1,17 @@
+{
+  "review_id": "20261103_match1_motion_pilot_002_frame318",
+  "candidate_id": "match1_motion_pilot_002",
+  "local_frame": 318,
+  "recorded_date": "2026-11-03",
+  "reviewer": "user",
+  "review_scope": "raw_detector_candidate_is_a_real_ball",
+  "question": "上の002の動画で、frame318のオレンジの丸は、バウンド中の本物のボールを囲んでいますか？",
+  "answer": "本物のボール",
+  "candidate_is_ball": true,
+  "precise_pixel_center_reviewed": false,
+  "coordinate_source": "unchanged raw model output",
+  "raw_model_x_px": "558",
+  "raw_model_y_px": "680",
+  "implication": "Human-confirmed false withholding by temporal consensus. Not an independent 16px localization label.",
+  "original_groundtruth_csv_modified": false
+}

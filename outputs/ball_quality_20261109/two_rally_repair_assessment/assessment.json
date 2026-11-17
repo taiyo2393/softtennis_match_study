@@ -1,0 +1,107 @@
+{
+  "status": "two_case_feasibility_assessment_complete",
+  "cases": [
+    {
+      "rally": "044",
+      "candidate_scope_seconds": 6.7067000000000005,
+      "review_sample_times": 201,
+      "new_review_targets": 195,
+      "reused_centers": 6,
+      "captured_active_seconds": 248.891,
+      "unmeasured_gap_seconds": 0.0,
+      "recorded_pause_wall_seconds": 0.0,
+      "initial_position_outputs": 146,
+      "accepted_predictions": 135,
+      "new_clicked_centers": 23,
+      "filled_missing": 22,
+      "replaced_existing": 1,
+      "input_outputs_marked_unobservable": 4,
+      "final_position_times": 164,
+      "unobservable_times": 37,
+      "uncertain_times": 0,
+      "nonplay_times": 0,
+      "position_availability_only": 0.8159203980099502,
+      "new_independent_center_gt": 0,
+      "input_status": "previously_repaired_input_with_6_existing_human_centers"
+    },
+    {
+      "rally": "056",
+      "candidate_scope_seconds": 12.56255,
+      "review_sample_times": 376,
+      "new_review_targets": 376,
+      "reused_centers": 0,
+      "captured_active_seconds": 683.001,
+      "unmeasured_gap_seconds": 0.0,
+      "recorded_pause_wall_seconds": 11.912908,
+      "initial_position_outputs": 241,
+      "accepted_predictions": 225,
+      "new_clicked_centers": 109,
+      "filled_missing": 97,
+      "replaced_existing": 12,
+      "input_outputs_marked_unobservable": 4,
+      "final_position_times": 334,
+      "unobservable_times": 42,
+      "uncertain_times": 0,
+      "nonplay_times": 0,
+      "position_availability_only": 0.8882978723404256,
+      "new_independent_center_gt": 0,
+      "input_status": "unpatched_original_model_output"
+    }
+  ],
+  "verification": {
+    "044": {
+      "status": "passed",
+      "label_history_replayed": 202,
+      "timing_events_recomputed": 253,
+      "source_images_verified": 426,
+      "exported_positions_reloaded": 164,
+      "snapshot_and_export_hashes_exact": true,
+      "assisted_groundtruth_not_claimed": true
+    },
+    "056": {
+      "status": "passed",
+      "label_history_replayed": 384,
+      "timing_events_recomputed": 524,
+      "source_images_verified": 803,
+      "exported_positions_reloaded": 334,
+      "snapshot_and_export_hashes_exact": true,
+      "assisted_groundtruth_not_claimed": true
+    }
+  },
+  "case_count": 2,
+  "source_result_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_pilot_044_v2\\completed_review\\result.json": "ff5f6fbe3ae93cc3db3dd78d9920610eec79f7346f44f15ead1b030319fc1192",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_pilot_044_v2\\completed_review\\review_labels.csv": "f265f61436720a496b821733258f25700d4e7f83c45c81311aab7ae7532953e9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_pilot_044_v2\\completed_review\\timing_events.jsonl": "35ae8f135eee171634f3b26cadbb45800037fa3a22d27bc19d148b8d5f099865",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\completed_review\\result.json": "60d0e656aac9a673a6c0daecd884e73107144e954fe336de6dec2d038366618c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\completed_review\\review_labels.csv": "9422ec1f521a5af21d35394e3f147e526395a5617f1c5bb6e7e510e76def5b7a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\rally_repair_056\\completed_review\\timing_events.jsonl": "7538e841ca71e236e0fa88daa721baac39cff2f46226ed5ebc1158329891cea8"
+  },
+  "conclusions": [
+    "Both scoped samples were processed with explicit accept/edit/unobservable decisions and closed time logs.",
+    "A concrete semi-automatic preparation route exists for these cases;unobservable positions still remain.",
+    "Unpatched056needed109new centers and683.001capturedseconds;ball preparation is not unattended automation.",
+    "044and056have different prior repairs,durations,andcontent. Do not infer method superiority from the time difference.",
+    "Do not compute independent detector accuracy from prediction-assisted acceptance or a time-savings rate without a from-scratch comparator."
+  ],
+  "decision": {
+    "stop_additional_timed_review_requests_for_now": true,
+    "keep_original_detector_weights": true,
+    "prioritize": "Define the rally-level analysis and minimum needed ball observations before expanding annotation;retain four-player positions and point outcome as the research core.",
+    "data_use": "Keep explicit provenance and missingness. Assisted coordinates may support development/preparation but are not an untouched independent evaluation set.",
+    "no_new_model_training": true,
+    "no_canonical_tracking_update": true
+  },
+  "limitations": [
+    "Known same-match cases,not random or external samples.",
+    "Candidate interiors and stride2sampling,not exact full-rally/all-frame labels.",
+    "Operator times exclude historical044repairs,instructions,setup,and model processing.",
+    "Four-player identity/ground-point quality and causal loss explanations were not evaluated."
+  ],
+  "export_hashes": {
+    "case_summary.csv": "42243aaac304b09070f069048b45bf338f931e20ae719c0740a14d41dd5ee130",
+    "input_output_dispositions.csv": "4ba21f53efb47e0ae7c773aed0481e3fcef198b9069034c69cd102606faa8307",
+    "planning_scenarios.json": "0c3bfa48644a6e663833047cf4b135df4767b7f87ef1245b0b57d31ccfe55742"
+  },
+  "script_sha256": "c2daebbbd251cc09fb5a35296febd9853eee15056f5f1d46cde6801ccfe9e9ef"
+}

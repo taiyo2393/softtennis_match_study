@@ -1,0 +1,21 @@
+{
+  "max_absolute_mean_feature_difference": {
+    "mask_native_box_overlap": {
+      "tag": "002",
+      "feature": "far_y_gap_norm_mean",
+      "absolute_difference": 0.007474713566327299
+    },
+    "mask_pose_body_overlap": {
+      "tag": "002",
+      "feature": "far_y_gap_norm_mean",
+      "absolute_difference": 0.0006557528820102087
+    }
+  },
+  "snapshot_changed_cases": {
+    "mask_native_box_overlap": [
+      "002"
+    ],
+    "mask_pose_body_overlap": []
+  },
+  "interpretation": "Sensitivity to these masks only, not measurement error or accuracy. Fewer retained points also change missingness and can select particular geometries."
+}

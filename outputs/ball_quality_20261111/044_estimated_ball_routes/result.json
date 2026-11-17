@@ -1,0 +1,10 @@
+{
+  "near_bounces_approximately_plausible_user_review": 2,
+  "estimated_far_bounces": 2,
+  "original_assisted_image_observations": 164,
+  "estimated_image_positions": 31,
+  "remaining_missing_display_times": 18,
+  "physical_3D_ball_positions_created": 0,
+  "ground_schematic_routes": 4,
+  "original_observations_or_missing_labels_changed": false
+}

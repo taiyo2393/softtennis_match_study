@@ -1,0 +1,15 @@
+﻿scope,sample_id,arm,truth_visibility,prediction_present,x_px,y_px,position_error_px,native_candidate_count,native_nearest_center_error_px,true_center_candidate_count,true_center_candidate_max_peak,selected_component_peak
+legacy_play,match1_motion_pilot_004_frame_000266,sparse,visible,0,0,0,,0,,0,,0
+legacy_play,match1_motion_pilot_004_frame_000266,dense,visible,1,838,533,47.50789408087881,2,47.50789408087881,0,,0.38720703125
+legacy_play,match1_motion_pilot_010_frame_000229,sparse,not_visible,0,0,0,,0,,0,,0
+legacy_play,match1_motion_pilot_010_frame_000229,dense,not_visible,1,1022,534,,1,,0,,0.395263671875
+dense_packet_play,match1_motion_pilot_007_frame_000716,sparse,not_visible,0,0,0,,0,,0,,0
+dense_packet_play,match1_motion_pilot_007_frame_000716,dense,not_visible,1,990,537,,1,,0,,0.31640625
+dense_packet_play,match1_motion_pilot_007_frame_000718,sparse,not_visible,0,0,0,,0,,0,,0
+dense_packet_play,match1_motion_pilot_007_frame_000718,dense,not_visible,1,992,536,,1,,0,,0.3134765625
+dense_packet_play,match1_motion_pilot_007_frame_000720,sparse,visible,0,0,0,,0,,0,,0
+dense_packet_play,match1_motion_pilot_007_frame_000720,dense,visible,1,994,535,279.30807363912703,1,279.30807363912703,0,,0.301513671875
+dense_packet_play,match1_motion_pilot_007_frame_000722,sparse,visible,0,0,0,,0,,0,,0
+dense_packet_play,match1_motion_pilot_007_frame_000722,dense,visible,1,997,535,284.92981591964013,1,284.92981591964013,0,,0.33544921875
+dense_packet_play,match1_motion_pilot_007_frame_000754,sparse,visible,1,712,442,1.4142135623730951,8,1.4142135623730951,4,0.64892578125,0.64892578125
+dense_packet_play,match1_motion_pilot_007_frame_000754,dense,visible,1,815,584,174.0258601472781,8,2.8284271247461903,4,0.662109375,0.662109375

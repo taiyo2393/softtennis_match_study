@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "file": "tracking_quality_20261102/four_player_association.py",
+      "condition": "Image foot y divided by2160; near/far recovery gates are camera dependent."
+    },
+    {
+      "file": "tracking_quality_20261102_stage4/temporal_tracker.py",
+      "condition": "Initial selector called with3840,2160; court geometry plus overlap/past8 confirmation required."
+    },
+    {
+      "file": "tracking_quality_20261102_stage9/adaptive_near.py",
+      "condition": "Reference-height floor multiplied by2160; native1080 boxes cannot be used directly."
+    },
+    {
+      "file": "ball_quality_20261103/run_body_part_localization_probe.py",
+      "condition": "Court/far-context image crops use canonical4K pixel coordinates; a new camera calibration is distinct from resolution conversion."
+    }
+  ],
+  "conclusion": "Coordinate unit mismatch has an explicit tested adapter. New-camera/zoom/alternate-view eligibility and seed/recovery geometry are unresolved prerequisites. Do not equate1080 adaptation with full cross-camera validity."
+}

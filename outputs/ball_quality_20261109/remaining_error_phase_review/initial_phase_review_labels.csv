@@ -1,0 +1,4 @@
+﻿review_id,candidate_id,local_frame,source_frame,phase_status,reviewer_id,reviewed_at_utc,notes,automated_ready_main_view,ready_human_checked,prior_boundary_review_status,scope
+A,match1_motion_pilot_001,464,584,unreviewed,,,,0,,pending,target_moment_only_not_rally_boundary
+B,match1_motion_pilot_006,279,46103,unreviewed,,,,1,false,pending,target_moment_only_not_rally_boundary
+B,match1_motion_pilot_006,341,46165,unreviewed,,,,1,false,pending,target_moment_only_not_rally_boundary

@@ -1,0 +1,18 @@
+{
+  "frames": 900,
+  "crop_boxes": 12049,
+  "added_boxes": 1546,
+  "overlap_rejected": 7379,
+  "border_rejected": 2526,
+  "source_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\detector_runs\\full_rally_048\\bytetrack.csv",
+  "crop_normalized": [
+    0.18,
+    0.43,
+    0.82,
+    0.68
+  ],
+  "model": "existing yolo11m.pt",
+  "imgsz": 1280,
+  "confidence": 0.25,
+  "warning": "Additional candidates, not true-positive counts. Geometry is match1-specific."
+}

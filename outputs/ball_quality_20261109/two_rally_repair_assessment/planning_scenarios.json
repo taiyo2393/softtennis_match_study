@@ -1,0 +1,14 @@
+[
+  {
+    "rallies": 30,
+    "assumed_active_seconds_per_rally": 683.001,
+    "active_hours": 5.691675,
+    "assumption": "Every rally has same operator burden as this056candidate interior;not validated. Excludes processing/setup,player review,score labels,and independent evaluation."
+  },
+  {
+    "rallies": 50,
+    "assumed_active_seconds_per_rally": 683.001,
+    "active_hours": 9.486125,
+    "assumption": "Every rally has same operator burden as this056candidate interior;not validated. Excludes processing/setup,player review,score labels,and independent evaluation."
+  }
+]

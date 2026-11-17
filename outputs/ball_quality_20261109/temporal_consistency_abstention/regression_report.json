@@ -1,0 +1,54 @@
+{
+  "status": "known_development_regression_complete",
+  "known_targets": [
+    {
+      "window_id": "B",
+      "local_frame": "275",
+      "source_frame": "57488",
+      "wrong_output_withheld": true,
+      "visible_after": 0,
+      "human_center_known": false
+    },
+    {
+      "window_id": "D",
+      "local_frame": "515",
+      "source_frame": "154441",
+      "wrong_output_withheld": true,
+      "visible_after": 0,
+      "human_center_known": false
+    },
+    {
+      "window_id": "D",
+      "local_frame": "516",
+      "source_frame": "154442",
+      "wrong_output_withheld": true,
+      "visible_after": 0,
+      "human_center_known": false
+    }
+  ],
+  "known_wrong_frames_withheld": 3,
+  "known_failure_segments": 2,
+  "no_ball_positions_recovered": true,
+  "sparse52_development_counts": {
+    "before_guard": {
+      "correct16px": 40,
+      "excluded_ball_uncertain": 3,
+      "missing_visible_ball": 5,
+      "no_output_when_not_observable": 4
+    },
+    "after_guard": {
+      "correct16px": 40,
+      "excluded_ball_uncertain": 3,
+      "missing_visible_ball": 5,
+      "no_output_when_not_observable": 4
+    }
+  },
+  "lost_correct_sparse_sample_ids": [],
+  "continuous_withheld": 3,
+  "same_frame_positions_never_changed": true,
+  "newly_validated_continuous_accuracy": null,
+  "boundary_note": "At4window edges,anchor evidence truncated to stored review targets; unknown support is retained rather than labelled wrong.",
+  "operational_adoption": false,
+  "model_or_canonical_tracking_changed": false,
+  "interpretation": "Known-case diagnostic and52previously examined anchors only. Suppressing known wrong outputs is not recovered localization or external validation."
+}

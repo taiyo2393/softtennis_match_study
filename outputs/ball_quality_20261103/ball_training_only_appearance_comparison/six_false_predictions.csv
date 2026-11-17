@@ -1,0 +1,13 @@
+﻿method,local_frame,x_px,y_px,score,withheld,physical_visibility,true_center
+handcrafted672,463,868,624,0.7702793051095302,0,not_labelled,unknown
+handcrafted672,464,868,628,0.8397327408524361,0,not_labelled,unknown
+handcrafted672,465,849,626,0.9631859827349762,0,not_labelled,unknown
+handcrafted672,467,840,630,0.9648489346648571,0,not_labelled,unknown
+handcrafted672,470,828,633,0.8578658496825515,0,not_labelled,unknown
+handcrafted672,554,1374,581,0.9663211784139442,0,not_labelled,unknown
+frozen_resnet18_512,463,868,624,0.7705500397824651,0,not_labelled,unknown
+frozen_resnet18_512,464,868,628,0.818321280748306,0,not_labelled,unknown
+frozen_resnet18_512,465,849,626,0.8103147167533035,0,not_labelled,unknown
+frozen_resnet18_512,467,840,630,0.5408617195643725,0,not_labelled,unknown
+frozen_resnet18_512,470,828,633,0.6772490501312013,0,not_labelled,unknown
+frozen_resnet18_512,554,1374,581,0.9039092779567941,0,not_labelled,unknown

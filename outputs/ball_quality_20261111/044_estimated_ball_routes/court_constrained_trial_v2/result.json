@@ -1,0 +1,8 @@
+{
+  "estimated_far_points": 2,
+  "boundary_active_solutions": 2,
+  "original_unconstrained_trial_retained": true,
+  "measured_landing_truth_created": false,
+  "physical_3D_positions_created": false,
+  "display_warning": "Both point/time and curve depend on in-court assumption and weak image-space model; boundary solutions are low confidence."
+}

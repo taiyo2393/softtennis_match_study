@@ -1,0 +1,11 @@
+event_id,video_id,pose_model,pose_status,review_note
+match1_motion_pilot_001_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_004_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_005_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_006_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_008_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_009_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_010_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_015_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_016_event_001,match1,yolo11m-pose.pt,usable,
+match1_motion_pilot_017_event_001,match1,yolo11m-pose.pt,usable,

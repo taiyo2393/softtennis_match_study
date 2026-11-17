@@ -1,0 +1,29 @@
+{
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "native_detections_sha256": "f2655961015bd06d1887dff76a3d380c5c84952dcb58e23e550a0edc60e825e5",
+  "source_frames": [
+    38548,
+    38786,
+    38816,
+    38846,
+    38876,
+    38906,
+    39074,
+    39100,
+    39200
+  ],
+  "images": {
+    "F38548.jpg": "9b57bd58a6dc45e2be43b71f120723e2560218f7c597fe42b415ff18d453a755",
+    "F38786.jpg": "ec8687e21cf75232371dec25b92c45a93a499c92ea83ec3a3ba6ed471e22481c",
+    "F38816.jpg": "341ce4835628502bbdee3b4f7a11916530f3995ccf5bb530dc7edaf3c8c7dfd4",
+    "F38846.jpg": "53b745a3b7611f80fea8b43522046ed1ea25e3df178257a8c69e36c25bec9014",
+    "F38876.jpg": "acfb6e4bc32e49f4fb225916c8cec19e6bb77c6dbe614bdd41b11212dc0856b6",
+    "F38906.jpg": "4b30671122ed429b7fb35243f8358b75bc7d81fab675e8ff38c1c96af185f9ca",
+    "F39074.jpg": "64e488f423e7481c29296427ee9398f4b80e9b885525bf1e038318cddcc02b89",
+    "F39100.jpg": "62657271738321046a6e7a564b2ebd18f886c718e7dcdf8d277114ce7e68dc16",
+    "F39200.jpg": "49bf0b8ef56dba2b5fc9df6f0dc3bff1c82ef1f2e81a9f403711ee8c17c6d18b",
+    "native_correspondence_grid.jpg": "1d924d2b41366bbcbecc1757329243ba8a928bcb607957695dea059ca441e3fa"
+  },
+  "script_sha256": "05cfd5a2c55a885763863b2cbe9a94c09f8d26b0ffb76f008e3fb74fc69fc034",
+  "scope": "Native candidates for AI diagnosis, not a person identity truth dataset."
+}

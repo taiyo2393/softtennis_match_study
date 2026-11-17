@@ -1,0 +1,8 @@
+{
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_010\\tracking_quality_20261102_stage7\\players_010_global\\global_review_h264.mp4",
+  "first_source_frame": 23660,
+  "last_source_frame": 23848,
+  "frames": 189,
+  "video_sha256": "c81660f0ec2c156f47d7bbe76eeb815c2b84418f56a383804dcb088cff10c8e1",
+  "scope": "Short excerpt of existing offline path, not a new tracker or point-boundary GT."
+}

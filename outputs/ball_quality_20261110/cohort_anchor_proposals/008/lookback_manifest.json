@@ -1,0 +1,24 @@
+{
+  "reason": "Inherited candidate begins during active movement; inspect earlier footage to avoid treating first visible stroke as serve.",
+  "source_frames": [
+    17502,
+    17532,
+    17562,
+    17592,
+    17622,
+    17652,
+    17682,
+    17712,
+    17742,
+    17772,
+    17802,
+    17832,
+    17862,
+    17892,
+    17922,
+    17952
+  ],
+  "source_clock": "legacy_edited_match1",
+  "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\008\\lookback_292_299_5.jpg",
+  "sha256": "9b67ba73ede03fa8660a16b8ff11a024cbfac538820c00fe11babb177bc58242"
+}

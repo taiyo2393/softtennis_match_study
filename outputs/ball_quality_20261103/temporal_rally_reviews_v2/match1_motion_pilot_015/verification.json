@@ -1,0 +1,135 @@
+{
+  "status": "whole_scope_candidate_review_ready_not_promoted",
+  "ball_pilot_id": "match1_motion_pilot_015",
+  "rally_candidate_id": "match1_rally_window_040",
+  "displayed_local_frames": [
+    0,
+    569
+  ],
+  "source_frames": 570,
+  "raw_different_component_frames": [
+    47,
+    323,
+    324,
+    328
+  ],
+  "genuine_output_changes": 4,
+  "changed_local_frames": [
+    47,
+    323,
+    324,
+    328
+  ],
+  "reviewed_frames_preserved": 0,
+  "confirmed_real_candidates_preserved": 0,
+  "numerical_jitter_frames_not_applied": 8,
+  "current_output_frames": 432,
+  "proposed_output_frames": 432,
+  "large_displacement_counts": {
+    "current": 9,
+    "proposed": 1,
+    "meaning": "diagnostic cues, not accuracy/errors"
+  },
+  "existing_sparse_center_checks": {
+    "validation": {
+      "frames": [
+        19,
+        57,
+        95,
+        133,
+        171,
+        209,
+        247,
+        285,
+        323,
+        361,
+        399,
+        437,
+        475,
+        513,
+        551
+      ],
+      "current": {
+        "counts": {
+          "frames": 15,
+          "truth_visible": 14,
+          "pred_visible": 12,
+          "presence_tp": 12,
+          "localized_tp_16px": 11,
+          "wrong_localization": 1,
+          "presence_fn": 2,
+          "presence_tn": 1,
+          "presence_fp": 0
+        },
+        "localization_recall_16px": 0.7857142857142857,
+        "localization_precision_16px": 0.9166666666666666,
+        "mean_error_both_visible_px": 21.204868568081842
+      },
+      "proposed": {
+        "counts": {
+          "frames": 15,
+          "truth_visible": 14,
+          "pred_visible": 12,
+          "presence_tp": 12,
+          "localized_tp_16px": 12,
+          "wrong_localization": 0,
+          "presence_fn": 2,
+          "presence_tn": 1,
+          "presence_fp": 0
+        },
+        "localization_recall_16px": 0.8571428571428571,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 3.5545645482248154
+      }
+    },
+    "four_case_challenge_subset": {
+      "frames": [
+        328
+      ],
+      "current": {
+        "counts": {
+          "frames": 1,
+          "truth_visible": 1,
+          "pred_visible": 1,
+          "presence_tp": 1,
+          "localized_tp_16px": 0,
+          "wrong_localization": 1,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 0.0,
+        "localization_precision_16px": 0.0,
+        "mean_error_both_visible_px": 265.63132345414385
+      },
+      "proposed": {
+        "counts": {
+          "frames": 1,
+          "truth_visible": 1,
+          "pred_visible": 1,
+          "presence_tp": 1,
+          "localized_tp_16px": 1,
+          "wrong_localization": 0,
+          "presence_fp": 0,
+          "presence_fn": 0
+        },
+        "localization_recall_16px": 1.0,
+        "localization_precision_16px": 1.0,
+        "mean_error_both_visible_px": 1.0
+      }
+    }
+  },
+  "all_previous_review_fields_preserved": true,
+  "unchanged_component_coordinates_exactly_preserved": true,
+  "presence_and_missing_flags_preserved": true,
+  "interpolated_positions": 0,
+  "person_tracks_changed": false,
+  "operational_registry_changed": false,
+  "protected_inputs_unchanged": true,
+  "full_track_accuracy_established": false,
+  "proposal_csv_sha256": "356a140bc8a35ae442325ed13815dac784b95bf69dc0a1c62eb57191d7825759",
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\temporal_rally_reviews_v2\\match1_motion_pilot_015\\comparison_h264.mp4",
+  "sha256": "624e5d1960072cfe3ff9fb7b81679d8aa9d95e33340bfc98f29d8d24516ff696",
+  "decoded_video_frames": 1140,
+  "duration_seconds": 19.019000000000002,
+  "audio": true
+}

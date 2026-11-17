@@ -1,0 +1,2 @@
+﻿start_utc,end_utc,captured_ms,wall_ms,close_kind,reason
+2026-11-09T13:33:57.813752+00:00,2026-11-09T13:38:06.708675+00:00,248891,248895,pause,all_targets_completed

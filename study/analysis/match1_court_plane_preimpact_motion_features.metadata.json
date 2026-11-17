@@ -1,0 +1,52 @@
+{
+  "video_id": "match1",
+  "events": 98,
+  "event_outcome_counts": {
+    "front_right": 48,
+    "front_left": 50
+  },
+  "timepoints_sec": [
+    -0.5,
+    -0.3,
+    -0.2,
+    -0.1
+  ],
+  "motion_window_ms": 100.0,
+  "motion_window_frames": 6,
+  "median_radius_frames": 1,
+  "calibration": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json",
+  "calibration_validation": {
+    "method": "net/sideline points 5-6 are not used to fit the homography",
+    "mapped_held_out_net_points": [
+      [
+        0.008104000240564346,
+        0.5196869969367981
+      ],
+      [
+        0.9978560209274292,
+        0.5005239844322205
+      ]
+    ],
+    "errors_in_normalized_court_units": [
+      0.021289,
+      0.002207
+    ],
+    "maximum_error_in_normalized_court_units": 0.021289,
+    "acceptance_rule": "maximum error <= 0.03 normalized court units",
+    "status": "usable"
+  },
+  "direction_reviews": [
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\match1_full_match_near_front_direction_review.csv",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\match1_full_match_far_front_direction_review.csv"
+  ],
+  "pose_reviews": [
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\match1_full_match_near_front_final_01_pose_review.csv",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\match1_full_match_far_front_final_01_pose_review.csv"
+  ],
+  "poses": [
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\pose\\target_front\\match1_full_match_near_front_final_01_pose_yolo11m.csv",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\pose\\target_front\\match1_full_match_far_front_final_01_pose_yolo11m.csv"
+  ],
+  "identity_review": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\match1_target_front_identity_review.csv",
+  "analysis_guard": "This single-match table applies one manually validated fixed-camera homography. It enables near/far pooling for lateral court-width displacement, but not causal, anticipation, or player-independent claims."
+}

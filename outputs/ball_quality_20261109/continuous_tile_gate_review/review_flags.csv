@@ -1,0 +1,14 @@
+﻿window_id,local_frame,source_frame,previous_local_frame,no_output_frames_between,distance_px,flag,human_diagnosis
+A,1067,11437,1058,8,12.36931687685298,reappearance_after_no_output_run,unreviewed_not_confirmed_switch
+B,126,57339,118,7,43.32435804486894,reappearance_after_no_output_run,unreviewed_not_confirmed_switch
+B,148,57361,132,15,374.22586762542215,reappearance_after_no_output_run,unreviewed_not_confirmed_switch
+B,208,57421,199,8,63.071388124885914,reappearance_after_no_output_run,unreviewed_not_confirmed_switch
+B,275,57488,274,0,150.56227947264878,large_adjacent_displacement,unreviewed_not_confirmed_switch
+B,276,57489,275,0,150.4027925272666,large_adjacent_displacement,unreviewed_not_confirmed_switch
+C,179,117901,165,13,175.80102388780332,reappearance_after_no_output_run,unreviewed_not_confirmed_switch
+C,181,117903,180,0,68.76772498781678,large_adjacent_displacement,unreviewed_not_confirmed_switch
+C,183,117905,182,0,69.52697318307479,large_adjacent_displacement,unreviewed_not_confirmed_switch
+C,315,118037,314,0,64.4980619863884,large_adjacent_displacement,unreviewed_not_confirmed_switch
+D,515,154441,500,14,906.7855314240518,reappearance_after_no_output_run,unreviewed_not_confirmed_switch
+D,547,154473,546,0,73.54590403278758,large_adjacent_displacement,unreviewed_not_confirmed_switch
+D,549,154475,548,0,73.824115301167,large_adjacent_displacement,unreviewed_not_confirmed_switch

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "exact_threshold_map_checks": 24,
+  "empty_maps_checked": true,
+  "non_amp_loss_rejected": true,
+  "fixture_note": "Embedded first self-test used unrounded FP32 0.1 inside a retained hole, so the intended loss guard rejected it. This fixture rounds all values to actual AMP precision; production inference was unchanged.",
+  "test_script_sha256": "25007d478db5c5d0769c3fa3bd49875ce646a0483b9b8c9e8a1163f1d1aaaddd"
+}

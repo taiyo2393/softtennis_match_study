@@ -1,0 +1,84 @@
+{
+  "protected_in_all_35": [
+    "22_014_f626",
+    "23_014_f630"
+  ],
+  "reports": [
+    {
+      "candidate_id": "match1_motion_pilot_002",
+      "frames": 1469,
+      "input_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_002\\balltrack_predictions.csv",
+      "input_sha256": "08c71a80d46cffa0b3a7956ae6753cb379c42be6b8e4cf4188d3062f435c4f1c",
+      "original_withheld": 1,
+      "protected": []
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "frames": 1949,
+      "input_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_014\\balltrack_predictions.csv",
+      "input_sha256": "6bdb1a636476ad46ba5507cc70a0481771cd998b3181fea5e7f0796a234bdcd9",
+      "original_withheld": 25,
+      "protected": [
+        {
+          "candidate_id": "match1_motion_pilot_014",
+          "local_frame": 626,
+          "x_px": "478",
+          "y_px": "646",
+          "evidence": {
+            "protect": true,
+            "yellow_pixels": 24,
+            "components": [
+              {
+                "area": 24,
+                "distance_px": 5.310661446562,
+                "centroid": [
+                  473.25,
+                  643.625
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "candidate_id": "match1_motion_pilot_014",
+          "local_frame": 630,
+          "x_px": "485",
+          "y_px": "658",
+          "evidence": {
+            "protect": true,
+            "yellow_pixels": 22,
+            "components": [
+              {
+                "area": 22,
+                "distance_px": 2.337265478578596,
+                "centroid": [
+                  482.72727272727275,
+                  657.4545454545455
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "frames": 240,
+      "input_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\glove_guard\\continuous_predictions\\match1_motion_pilot_018\\balltrack_predictions.csv",
+      "input_sha256": "8458600c3dac4ef5ee2747d8e163008df52158372fa4f795fc659a3d9f829cb3",
+      "original_withheld": 9,
+      "protected": []
+    }
+  ],
+  "user_regressions_208_229_230_still_withheld": true,
+  "two_held_ball_counterexamples_preserved": true,
+  "unresolved_counterexample": {
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 318,
+    "reason": "Ball-like moving image is desaturated/brownish and has no component in the fixed yellow range. No threshold widening to force success."
+  },
+  "safe_for_blanket_adoption": false,
+  "source_predictions_not_changed": true,
+  "source_annotations_not_changed": true,
+  "warning": "Protection means color support, not independent correctness or unique target-ball identity."
+}

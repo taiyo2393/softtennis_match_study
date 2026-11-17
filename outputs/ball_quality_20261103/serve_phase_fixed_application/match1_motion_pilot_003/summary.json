@@ -1,0 +1,11 @@
+{
+  "pilot": "match1_motion_pilot_003",
+  "repaired_only": 1,
+  "court_filtered": 1,
+  "retained": [],
+  "suppressed": 0,
+  "deferred": 1,
+  "complete_four_samples": 169,
+  "quiet_samples": 5,
+  "samples": 435
+}

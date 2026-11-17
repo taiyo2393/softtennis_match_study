@@ -1,0 +1,5 @@
+﻿letter,point,source_frame,method,marker_color,candidate_x_px,candidate_y_px,human_decision,exact_center_validated
+A,1,12388,local_crop,yellow,1112.4375,491.9375,actual_ball,0
+B,2,13840,full_image,blue,1903.125,637.5,rejected,0
+C,2,13973,local_crop,yellow,979.625,481.375,actual_ball,0
+C,2,13973,full_image,blue,943.125,485.625,rejected,0

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "decision_counts_recomputed": true,
+  "active_time_ms_recomputed": 248891,
+  "unmeasured_gap_ms": 0,
+  "source_image_hashes_checked": 426,
+  "position_export_reloaded": 164,
+  "snapshot_and_export_hashes_unchanged": true,
+  "assisted_labels_not_independent_gt": true
+}

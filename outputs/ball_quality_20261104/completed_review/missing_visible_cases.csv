@@ -1,0 +1,13 @@
+﻿case_id,candidate_id,local_frame,source_frame,truth_x_px,truth_y_px,candidate_components_over03,direct_failure_stage,physical_ball_absence
+A07,match1_motion_expand_01_003,1064,11434,1141,597,0,no_thresholded_candidate_at_target,False
+A13,match1_motion_expand_01_003,1076,11446,1155,556,0,no_thresholded_candidate_at_target,False
+B01,match1_motion_expand_01_008,183,57396,704,549,0,no_thresholded_candidate_at_target,False
+B02,match1_motion_expand_01_008,185,57398,698,551,0,no_thresholded_candidate_at_target,False
+B03,match1_motion_expand_01_008,187,57400,692,553,0,no_thresholded_candidate_at_target,False
+B07,match1_motion_expand_01_008,195,57408,663,570,0,no_thresholded_candidate_at_target,False
+B08,match1_motion_expand_01_008,197,57410,657,577,0,no_thresholded_candidate_at_target,False
+B09,match1_motion_expand_01_008,199,57412,650,586,0,no_thresholded_candidate_at_target,False
+B10,match1_motion_expand_01_008,201,57414,653,584,0,no_thresholded_candidate_at_target,False
+B11,match1_motion_expand_01_008,203,57416,668,576,0,no_thresholded_candidate_at_target,False
+B12,match1_motion_expand_01_008,205,57418,676,570,0,no_thresholded_candidate_at_target,False
+B13,match1_motion_expand_01_008,207,57420,694,561,0,no_thresholded_candidate_at_target,False

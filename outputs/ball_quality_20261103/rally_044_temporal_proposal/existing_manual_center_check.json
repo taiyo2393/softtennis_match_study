@@ -1,0 +1,43 @@
+{
+  "annotated_frames": [
+    740,
+    818,
+    896,
+    974,
+    1052,
+    1130
+  ],
+  "metrics": {
+    "current_reviewed": {
+      "counts": {
+        "frames": 6,
+        "truth_visible": 6,
+        "pred_visible": 6,
+        "presence_tp": 6,
+        "localized_tp_16px": 6,
+        "wrong_localization": 0,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 1.0,
+      "localization_precision_16px": 1.0,
+      "mean_error_both_visible_px": 3.5841432994235056
+    },
+    "proposal": {
+      "counts": {
+        "frames": 6,
+        "truth_visible": 6,
+        "pred_visible": 6,
+        "presence_tp": 6,
+        "localized_tp_16px": 6,
+        "wrong_localization": 0,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 1.0,
+      "localization_precision_16px": 1.0,
+      "mean_error_both_visible_px": 3.5841432994235056
+    }
+  },
+  "interpretation": "Previously seen sparse centers only; no full-track accuracy or re-labelling"
+}

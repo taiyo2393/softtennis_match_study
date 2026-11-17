@@ -1,0 +1,11 @@
+{
+  "status": "first_new_match_camera_transfer_feasibility_complete",
+  "result": "With provided new camera plane, temporal4-slot candidates initialize; original image-region gates do not. This is output availability, not independent identity/position accuracy.",
+  "no_post_match2_tracking_threshold_tuning": true,
+  "remaining_missing_F2_frames": [
+    12506,
+    12507
+  ],
+  "next": "Inspect the2 missing F2 frames and extend the same frozen comparison to the other preselected contexts/full pipeline without hiding camera cuts or initialization failures. Independent manual reference is still needed for accuracy.",
+  "canonical_pipeline_changed": false
+}

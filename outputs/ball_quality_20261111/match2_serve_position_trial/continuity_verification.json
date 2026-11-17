@@ -1,0 +1,20 @@
+[
+  {
+    "point": 1,
+    "original_overlap_frames": 9,
+    "identical_boxes_ids_proxies": true,
+    "candidate_counts_match_original_preroll": true
+  },
+  {
+    "point": 2,
+    "original_overlap_frames": 9,
+    "identical_boxes_ids_proxies": true,
+    "candidate_counts_match_original_preroll": true
+  },
+  {
+    "point": 3,
+    "original_overlap_frames": 9,
+    "identical_boxes_ids_proxies": true,
+    "candidate_counts_match_original_preroll": true
+  }
+]

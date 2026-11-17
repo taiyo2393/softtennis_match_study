@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "human_training_frames": 68,
+  "verified_crop_targets": 612,
+  "positive_target_crops": 258,
+  "zero_target_center_crops": 354,
+  "trainable_tensor_count": 8,
+  "changed_trainable_tensor_count": 8,
+  "all_frozen_tensors_and_BN_buffers_exact": true,
+  "optimizer_updates": 918,
+  "reconstructed_native_maps": 1107,
+  "raw_and_missing_only_outputs_verified": 246,
+  "phase_scoped_metrics_recomputed": true,
+  "play_change_counts": {
+    "missing_visible_ball->correct16px": 5,
+    "missing_visible_ball->wrong_position": 2,
+    "no_output_when_not_observable->output_when_not_observable": 2
+  },
+  "new_center_candidate_correct_additions": 4,
+  "original_candidate_now_selected_correct": 1,
+  "source_weights_labels_and_canonical_outputs_unchanged": true,
+  "validation_not_run": true,
+  "operational_adoption": false,
+  "script_sha256": "079a3c1ab86f06d6462dfe8e1ff6aa9bc11ddf8f10f554f3c87d57417f509d87",
+  "artifacts": {
+    "candidate_pools.json": "2632695fee0ebb31901f36021bd3dc8d4806dc79310f01218df085d6533d890e",
+    "component_rectangles.npz": "e4d88ccafc2ed833936025f0b5fe9c09c429dc36e290b1b04ea01ba0fb406dfc",
+    "executed_source.py": "cba927099d0ce3cfc7e3c6d2e7c55f1fedf515f29fb6ad33342640f471225ac1",
+    "final_epoch03.pth": "f94b302b4b6dcd97a73d83e6750049301d1d703a9ba7d5f2f56a09bd8983a572",
+    "input_image_hashes.json": "a0a3aa48d17ec76300f2ee211ac856765404ba5f30cfd799a22177cee61e86f5",
+    "map_records.csv": "94199de3a90f20dae1da8b94f3beb64df97cab09c0cb885daee391795b4c8f58",
+    "missing_only_predictions.csv": "3f395874f42f04a4cc8d46ee5a0120836417ad0050342357e1e18984fceae343",
+    "protocol.json": "2bd8cd8a2b4e89f3a179c1305c2646cc261d9cf27a74edd83445f41979a74460",
+    "raw_peak_predictions.csv": "753415807a3d72fa618d5428ad429fba727c6332f8cfaeb109239bdf8b17d4ba",
+    "result.json": "9641dbaf24adf307d460d597a83b3f941623f3f3c94083c8ff513b3457a41cf1",
+    "trainable_parameters.json": "d50e028dd9dffc956ffa9fac5293953425f645829738b157b2d6c6d90d70ab24",
+    "training_crop_manifest.csv": "23233226586dee36086b094420579f666cc8f541d53e058473e3af0d54076e71",
+    "training_history.json": "00ae9fe2bebb46701a7c348ab76b4f3213650f29afa155aa16d52a21b1decbe6",
+    "training_summary.csv": "eb3f99b00565adf8930cf7240ef122c7801e37c42babf53c5b781868378bcd9c",
+    "verified_play_changes.csv": "5b4b58484d4552aeb603cce0a7af93114e358e741e60ffebd63c9adb0cc5bf24"
+  }
+}

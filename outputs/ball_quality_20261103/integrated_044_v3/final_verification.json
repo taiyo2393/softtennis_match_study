@@ -1,0 +1,12 @@
+{
+  "snapshot": "integrated_044_v3",
+  "reviewed_ball_hash_matches": true,
+  "person_entities_identical_to_v2": true,
+  "positive_components_exported_at_same_frame": true,
+  "four_rejected_only_frames_have_no_ball_output": true,
+  "full_video_decoded_frames": 804,
+  "excerpt_decoded_frames": 123,
+  "excerpt_audio_present": true,
+  "excerpt": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v3\\corrected_1080_excerpt_h264.mp4",
+  "independent_accuracy_established": false
+}

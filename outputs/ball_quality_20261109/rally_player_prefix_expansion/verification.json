@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "recalculated_feature_values": 3704,
+  "recalculated_contact_variant_windows": 93,
+  "requested_player_slots": 992,
+  "exported_observations_present": 949,
+  "missing_slots": 43,
+  "all_source_and_artifact_hashes_match": true,
+  "latest_human_side_labels_match": true,
+  "corrected048_anchor_and025_outcome_preserved": true,
+  "same_point050_051_group_preserved": true,
+  "feature_allowlist_checked": true,
+  "limitation": "Data integrity and deterministic feature construction verified; not independent identity/position accuracy or pre-outcome confirmation of all eight candidates."
+}

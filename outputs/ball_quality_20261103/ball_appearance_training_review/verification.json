@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "public_cases": 9,
+  "images_and_patches_exact": 18,
+  "video_range_responses": 9,
+  "invalid_saves_rejected": 2,
+  "research_labels_written": false,
+  "protected_inputs_unchanged": true,
+  "remaining_unreviewed": 9,
+  "browser_video_ready_state": 4,
+  "browser_video_dimensions": [
+    1280,
+    800
+  ],
+  "browser_video_error": null
+}

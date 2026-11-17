@@ -1,0 +1,189 @@
+[
+  {
+    "source_frame": 43636,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      1000011,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43637,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      1000011,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43638,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43639,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43640,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43641,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      1000012,
+      1000014,
+      1000016,
+      1000017
+    ]
+  },
+  {
+    "source_frame": 43642,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43643,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43644,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43645,
+    "available": 16,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      1000012,
+      1000014,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 43646,
+    "available": 16,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      1000012,
+      1000014,
+      1000016
+    ]
+  }
+]

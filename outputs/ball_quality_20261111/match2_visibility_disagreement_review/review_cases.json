@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "letter": "A",
+      "point": 1,
+      "source_frame": 12393,
+      "candidate_xy_px": [
+        1138.0,
+        519.0
+      ],
+      "original_reference": "not_visible",
+      "video": "A_F12393.mp4",
+      "video_sha256": "9a32fbbc7a5fdd902f6715a6e3e7c813088e7e42db73bb0bde6749ae85731b85",
+      "frames_decoded": 54
+    },
+    {
+      "letter": "B",
+      "point": 2,
+      "source_frame": 13896,
+      "candidate_xy_px": [
+        1310.0,
+        67.0
+      ],
+      "original_reference": "not_visible",
+      "video": "B_F13896.mp4",
+      "video_sha256": "0b5c587851ec4ec60fb97c6682ee92c49423e1af5f948fc0c0657c357562371d",
+      "frames_decoded": 54
+    }
+  ],
+  "reference_comparison_sha256": "d31aea240d067fe957c2425a7018c14d0a2bf19ad42830636ffa4ada506233cb",
+  "review_scope": "Model-visible candidate identity check following the original raw-image reference review."
+}

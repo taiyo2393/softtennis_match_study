@@ -1,0 +1,21 @@
+{
+  "source_frames": 925,
+  "baseline_candidate_output_frames": 747,
+  "merged_candidate_output_frames": 751,
+  "new_confirmed_from_current_review": [
+    12388,
+    13973
+  ],
+  "prior_recovery_frames": [
+    12389,
+    15505
+  ],
+  "original_baseline_fields_preserved": true,
+  "remaining_unlocated_frames": 174,
+  "new_independent_position_labels": 0,
+  "original_baseline_hashes": {
+    "1": "e794fb65879a5016ebc4a2378e0b0b65211103de70902c0af6556400b1e78cda",
+    "2": "9c9b255c91aa730b9293af10838e5d3dd5cd1df1e0876ecacf6a48afd0522bbf",
+    "3": "18386b9b130bfeac98dd0020345a9cdbb522bc1f38a608b5911546ab9a330d39"
+  }
+}

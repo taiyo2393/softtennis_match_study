@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "training_fit_examples": 81,
+  "training_standardization_exact": true,
+  "objective_stationarity_max_abs_gradient": 2.5391217894910056e-07,
+  "training_scores_verified": 88,
+  "exact_tile_maps_reconstructed": 936,
+  "candidate_pools_exact": true,
+  "independently_recomputed_candidate_features_and_scores": 41,
+  "final_predictions_provenance_verified": 52,
+  "per_method_evaluation_rows_verified": 104,
+  "observed_gains": 7,
+  "observed_losses": 0,
+  "remaining_missing_visible": [
+    {
+      "case_id": "A07",
+      "sample_id": "match1_motion_expand_01_003_frame_001064",
+      "window_id": "A",
+      "local_frame": "1064",
+      "source_frame": "11434"
+    },
+    {
+      "case_id": "B10",
+      "sample_id": "match1_motion_expand_01_008_frame_000201",
+      "window_id": "B",
+      "local_frame": "201",
+      "source_frame": "57414"
+    },
+    {
+      "case_id": "B11",
+      "sample_id": "match1_motion_expand_01_008_frame_000203",
+      "window_id": "B",
+      "local_frame": "203",
+      "source_frame": "57416"
+    },
+    {
+      "case_id": "B12",
+      "sample_id": "match1_motion_expand_01_008_frame_000205",
+      "window_id": "B",
+      "local_frame": "205",
+      "source_frame": "57418"
+    },
+    {
+      "case_id": "B13",
+      "sample_id": "match1_motion_expand_01_008_frame_000207",
+      "window_id": "B",
+      "local_frame": "207",
+      "source_frame": "57420"
+    }
+  ],
+  "labels_model_and_operational_references_unchanged": true,
+  "automatic_adoption": false,
+  "independent_external_validation": false,
+  "script_sha256": "81b398a2df23d4094a7aeaefe9e5d11bb5dbe6761202007143e5cef1aab963d1",
+  "artifacts": {
+    "candidate_pools.json": "eee9b85809bd4b4a5a0ca551e23b08fe624c04a50b03d347d4a67d807980d1e2",
+    "component_rectangles.npz": "f9bc86f8ccf97e68cca771e02dd8828da465f4e23d8964d2a5b5e3cb07e61e27",
+    "confirmation_adjacent_pairs.csv": "e6bad6dea5bf1031d67e40e94259151e36401d44836e145c05fcda6b47906daa",
+    "confirmation_candidate_features.csv": "5bcabda4657b474e2c89302cb8b2975a521da1e8e88f04210cf780843ac5d415",
+    "confirmation_paired_changes.csv": "797242acf6c58003b96332d4308c42c13610a80a3a95161152fc1100b4d1aede",
+    "confirmation_per_frame.csv": "9c1b8b746b2b8a36566a0f958ea59a2742360c584c1302fc56f7b1823475e941",
+    "confirmation_per_window.csv": "3af90279599a6dea20efa968f98d8156a67b847249f9d92fd1a8360b76317e01",
+    "evaluation_report.json": "7baaef7b94870622518fbdbb1f413eac3f284ebcfe33e6c89371605b422e0de3",
+    "executed_source.py": "0e737283b5682ef999e0ad216e36b08772a71f6a06d2a15056772d43e98c5980",
+    "fit_manifest.json": "470840f378f0d71157e4d5e7ea21d0ca6b31f1918501eb32f52200b98cdf414a",
+    "frozen_confirmation_predictions.csv": "ff6c8d8b0486c07b88a7d47fb020ffdf32dea35e7c42b56b9644bcffa553c29f",
+    "frozen_training_head.npz": "91a05599577e9462092b05ae27109a1e30089adaf6f3dee186436b7493e504b8",
+    "full_fit_decision.json": "faf031931e9a9f41835fd9ecb53042e554d5ffe6b7924284ab745b1a9794e245",
+    "global_replay.csv": "d9f84b993e439163165d1a2ab95dded66a025664dec39c4f1b901e9366eb249b",
+    "inference_manifest.json": "3df2f66eaad2a76a260cd3486eed774668fea327bcf049c1bf846eaa9a018805",
+    "input_image_hashes.json": "de183532bb9aff5ebf0bbed7f3790d006939ad6de98697df7b4a12bbd609fe79",
+    "map_records.csv": "63851b371da030be306d3e5203f7b3ab268edd3d24a2f9ffa489ee53da52e1c6",
+    "protocol.json": "d070b557c0051fc1d46821fabdbc0dfd90a969c8c21f7fa9181fbe76fbf10e03",
+    "training_candidate_scores.csv": "ef8bd3a48d76361dfb08f1b1e091d873ab7ad6cee70690d02acf692306aadb2e",
+    "training_predictions.csv": "068a3cadfcedc84022e9734303561e38fc6db8e17d1d19f063dc10c48dcd22fd"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "saved_maps_matching_candidates": 36,
+  "probe_records_reproduced": 36,
+  "target_outputs_reproduced": 4,
+  "full_video_frames_decoded": 256,
+  "video_fps": 59.94005994005994,
+  "target_video_previews": [
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_gain_loss_diagnosis\\video_target_48.png",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_gain_loss_diagnosis\\video_target_176.png"
+  ],
+  "corrected_figure": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_gain_loss_diagnosis\\paired_evidence_v2.png",
+  "corrected_figure_sha256": "d3231229c12ea99bd3c63a11662a1056a3ca96fae8227b23eef906081e74d985",
+  "figure_fix": "Spacing only: second title and colorbar no longer overlap panels; original retained.",
+  "protected_files_unchanged": 146,
+  "new_inference": false,
+  "new_labels": false,
+  "operational_changes": false,
+  "script_sha256": "71540c8f32f4503e20c61cb00ba0069b5cccf023f2bd0c2b87066beffd196e61"
+}

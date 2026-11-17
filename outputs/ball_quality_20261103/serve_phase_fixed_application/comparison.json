@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "summary": {
+        "pilot": "match1_motion_pilot_003",
+        "repaired_only": 1,
+        "court_filtered": 1,
+        "retained": [],
+        "suppressed": 0,
+        "deferred": 1,
+        "complete_four_samples": 169,
+        "quiet_samples": 5,
+        "samples": 435
+      },
+      "mapped_rally_id": "match1_rally_window_010",
+      "reasons": {
+        "missing_or_moving_four_player_context": 1
+      },
+      "legacy_contact_local_frame": null,
+      "reference_status": "no_existing_fine_contact_reference_in_inventory",
+      "phases_sha256": "58e35e80169f4f226ed45666e9a837cf58f01eb24af3c0c24a29b3790b339fee",
+      "boundary_accuracy_measured": false,
+      "conclusion": "No retained automatic start; do not interpret this as no rally."
+    },
+    {
+      "summary": {
+        "pilot": "match1_motion_pilot_008",
+        "repaired_only": 2,
+        "court_filtered": 3,
+        "retained": [],
+        "suppressed": 0,
+        "deferred": 3,
+        "complete_four_samples": 311,
+        "quiet_samples": 5,
+        "samples": 840
+      },
+      "mapped_rally_id": "match1_rally_window_026",
+      "reasons": {
+        "missing_or_moving_four_player_context": 1,
+        "not_near_baseline": 2
+      },
+      "legacy_contact_local_frame": 19.08989010989099,
+      "reference_status": "legacy_impact_timestamp_not_independent_fine_contact_interval",
+      "phases_sha256": "678862522c8415b2779b58143a3947290c276891983869a9d23c10048e6a3f79",
+      "boundary_accuracy_measured": false,
+      "conclusion": "No retained automatic start; do not interpret this as no rally."
+    }
+  ],
+  "frozen_conditions_unchanged": true,
+  "source_review_tables_unchanged": true,
+  "independent_accuracy_established": false,
+  "decision": "Do not gate tracking with these automatic starts. Preserve reviewed/provisional boundaries and do not remove no-output clips from evaluation."
+}

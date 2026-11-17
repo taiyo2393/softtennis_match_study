@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "person_track_id": 12,
+      "raised_first_local_frame": 332,
+      "raised_last_local_frame": 344,
+      "raised_pose_samples": 4,
+      "prior_body_motion_by_height": 0.036414263915851564,
+      "audio_peak_local_sec": 5.65,
+      "audio_rise_db": 12.245931625366211,
+      "contact_candidate_first_local_frame": 323,
+      "contact_candidate_last_local_frame": 354,
+      "status": "motion_audio_start_proposal_not_confirmed_contact",
+      "serve_outcome": "unknown",
+      "score": 8.163954416910807,
+      "phase_before": "unknown",
+      "baseline_distance_roi": 0.0319165926005177,
+      "quiet_context_frame": 330,
+      "four_player_quiet": false,
+      "decision": "missing_or_moving_four_player_context",
+      "accepted_candidate": false,
+      "last_four_player_quiet_frame": 34,
+      "quiet_evidence_age_sec": 4.938266666666666,
+      "outcome": "unknown",
+      "point_id": null,
+      "review_action": "defer_insufficient_start_evidence"
+    },
+    {
+      "person_track_id": 17,
+      "raised_first_local_frame": 1280,
+      "raised_last_local_frame": 1290,
+      "raised_pose_samples": 3,
+      "prior_body_motion_by_height": 0.005369979416095939,
+      "audio_peak_local_sec": 21.47,
+      "audio_rise_db": 4.341902732849121,
+      "contact_candidate_first_local_frame": 1271,
+      "contact_candidate_last_local_frame": 1302,
+      "status": "motion_audio_start_proposal_not_confirmed_contact",
+      "serve_outcome": "unknown",
+      "score": 2.1709513664245605,
+      "phase_before": "unknown",
+      "baseline_distance_roi": 0.4865769997449867,
+      "quiet_context_frame": 1278,
+      "four_player_quiet": false,
+      "decision": "not_near_baseline",
+      "accepted_candidate": false,
+      "last_four_player_quiet_frame": 34,
+      "quiet_evidence_age_sec": 20.754066666666667,
+      "outcome": "unknown",
+      "point_id": null,
+      "review_action": "defer_insufficient_start_evidence"
+    },
+    {
+      "person_track_id": 16,
+      "raised_first_local_frame": 1584,
+      "raised_last_local_frame": 1612,
+      "raised_pose_samples": 11,
+      "prior_body_motion_by_height": 0.10731464093333981,
+      "audio_peak_local_sec": 26.98,
+      "audio_rise_db": 19.280223846435547,
+      "contact_candidate_first_local_frame": 1602,
+      "contact_candidate_last_local_frame": 1633,
+      "status": "motion_audio_start_proposal_not_confirmed_contact",
+      "serve_outcome": "unknown",
+      "score": 19.280223846435547,
+      "phase_before": "unknown",
+      "baseline_distance_roi": 0.24702903642312168,
+      "quiet_context_frame": 1582,
+      "four_player_quiet": false,
+      "decision": "not_near_baseline",
+      "accepted_candidate": false,
+      "last_four_player_quiet_frame": 1318,
+      "quiet_evidence_age_sec": 4.4044,
+      "outcome": "unknown",
+      "point_id": null,
+      "review_action": "defer_insufficient_start_evidence"
+    }
+  ],
+  "accepted_candidates": [],
+  "state_transitions": [
+    {
+      "local_frame": 30,
+      "state": "ready_candidate",
+      "reason": "four_player_quiet_context",
+      "quiet_since": 30
+    },
+    {
+      "local_frame": 88,
+      "state": "unknown",
+      "reason": "quiet_context_lost"
+    },
+    {
+      "local_frame": 1316,
+      "state": "ready_candidate",
+      "reason": "four_player_quiet_context",
+      "quiet_since": 1316
+    },
+    {
+      "local_frame": 1320,
+      "state": "unknown",
+      "reason": "quiet_context_lost"
+    }
+  ],
+  "limitation": "Activity lock and quiet reset are candidate phases only; reset does not establish point end, fault, retry number, or winner.",
+  "labels_read": false,
+  "serve_outcome_inferred": false,
+  "feature_sha256": "eea8b0de9fd906803e797efe4830bd73c50e54cb71faa7e9f3172403ea63b1a3",
+  "frozen_protocol_file_sha256": "7cc0f5ee3d0218b8087793c469564bd299c0c913d70dd1475387cd03be290b4d",
+  "runner_sha256": "d006125eb0695373623b2bbbb32d722e0ac5c34c31cb153b58df31f517a9af1d",
+  "repaired_only_candidates": [
+    {
+      "person_track_id": 20,
+      "raised_first_local_frame": 332,
+      "raised_last_local_frame": 344,
+      "raised_pose_samples": 4,
+      "prior_body_motion_by_height": 0.05986797640743192,
+      "audio_peak_local_sec": 5.65,
+      "audio_rise_db": 12.245931625366211,
+      "contact_candidate_first_local_frame": 323,
+      "contact_candidate_last_local_frame": 354,
+      "status": "motion_audio_start_proposal_not_confirmed_contact",
+      "serve_outcome": "unknown",
+      "score": 8.163954416910807
+    },
+    {
+      "person_track_id": 27,
+      "raised_first_local_frame": 1584,
+      "raised_last_local_frame": 1612,
+      "raised_pose_samples": 11,
+      "prior_body_motion_by_height": 0.1238114922558845,
+      "audio_peak_local_sec": 26.98,
+      "audio_rise_db": 19.280223846435547,
+      "contact_candidate_first_local_frame": 1602,
+      "contact_candidate_last_local_frame": 1633,
+      "status": "motion_audio_start_proposal_not_confirmed_contact",
+      "serve_outcome": "unknown",
+      "score": 19.280223846435547
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "nine_training_object_queries_ready_labels_pending",
+  "cases": 9,
+  "existing_manual_center_positive_patches": 102,
+  "training_only": true,
+  "unreviewed_candidates": 9,
+  "automatic_negative_labels": 0,
+  "eval_six_candidates_not_included": true,
+  "cases_sha256": "f37a962c24619b17f1810e20f1f3b3553ed22ca9094d5564282120070a936992",
+  "initial_labels_sha256": "82ea3352b0eda6777bc4effd17d6342c973ae3e1b03ec4a322a95a0682724c17",
+  "positive_table_sha256": "bea2c27a2c0ccbac589d542a526c8a4f0f4e6aab6f20061b65917a403cf3ccb5",
+  "decoded_video_frames": 1136,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_component_cache.json": "c5b1740d4a37ad8ca48e34a4a4f0255935797e1797c77e315bcd004b02edb35c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\candidate_review.csv": "c8bc01430819f8aa7971a5341b31965da3ce40a2179f619cb3a94757afa04fd4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_labels.csv": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2"
+  }
+}

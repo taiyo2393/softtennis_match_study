@@ -1,0 +1,17 @@
+{
+  "winner_side": "near",
+  "winner_status": "human_confirmed",
+  "end_type": "out",
+  "end_status": "human_confirmed_event_type_frame_pending",
+  "serve_bracket": [
+    115365,
+    115373
+  ],
+  "end_bracket": [
+    115776,
+    115790
+  ],
+  "exact_event_times_confirmed": false,
+  "scope": "Existing human event types and side; provisional AI temporal intervals. No new labels.",
+  "first_fault_same_point_preserved": true
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 18482,
+    "after_source_frame": 18545,
+    "missing_frames": 62,
+    "before_raw_id": "1000328",
+    "after_raw_id": "288",
+    "image_file": "gap_01_far_rear.jpg",
+    "source_frames": [
+      18470,
+      18482,
+      18513,
+      18545,
+      18551,
+      18557
+    ],
+    "constant_crop_xyxy": [
+      1436,
+      919,
+      1858,
+      1318
+    ],
+    "aspect_preserved": true,
+    "sha256": "11545f53f992c1094c5ef6ac4d4501a026cb353afa3e2de89ef27c1bfad9cb26"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 18566,
+    "after_source_frame": 18601,
+    "missing_frames": 34,
+    "before_raw_id": "1000372",
+    "after_raw_id": "1000376",
+    "image_file": "gap_02_far_rear.jpg",
+    "source_frames": [
+      18554,
+      18566,
+      18583,
+      18601,
+      18607,
+      18613
+    ],
+    "constant_crop_xyxy": [
+      1464,
+      934,
+      1963,
+      1340
+    ],
+    "aspect_preserved": true,
+    "sha256": "cda841548fbe8e3fcfa6b44f7019b980b47635392f969d6bbc60a8db1dccfba6"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 19144,
+    "after_source_frame": 19154,
+    "missing_frames": 9,
+    "before_raw_id": "4",
+    "after_raw_id": "4",
+    "image_file": "gap_03_far_front.jpg",
+    "source_frames": [
+      19132,
+      19144,
+      19149,
+      19154,
+      19160,
+      19166
+    ],
+    "constant_crop_xyxy": [
+      1435,
+      942,
+      2000,
+      1445
+    ],
+    "aspect_preserved": true,
+    "sha256": "74d8a032224d250efadcf468d2f4ed8a6b162351e244e419a1bb910ed7bcc9f9"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 19122,
+    "after_source_frame": 19125,
+    "missing_frames": 2,
+    "before_raw_id": "4",
+    "after_raw_id": "4",
+    "image_file": "gap_04_far_front.jpg",
+    "source_frames": [
+      19110,
+      19122,
+      19123,
+      19125,
+      19131,
+      19137
+    ],
+    "constant_crop_xyxy": [
+      1581,
+      950,
+      2171,
+      1449
+    ],
+    "aspect_preserved": true,
+    "sha256": "05e1e6b04f0842d4136d6fc4cb002bf6c44f23b69c80e2fe00e9d2fec3fc83f8"
+  }
+]

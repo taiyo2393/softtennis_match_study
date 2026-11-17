@@ -1,0 +1,7 @@
+﻿arm,kind,points,mean_sampled_probability,points_above_detector_threshold03,interpretation
+original,manual_positive,102,0.3958626931679307,66,"Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+original,confirmed_non_ball,9,0.4313784705268012,8,"Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+positive_control,manual_positive,102,0.8084202899652368,101,"Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+positive_control,confirmed_non_ball,9,0.8798089424769083,9,"Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+point_negative,manual_positive,102,0.6805174566951453,98,"Bilinear sampled training point response, not number of retained/rejected objects or independent performance."
+point_negative,confirmed_non_ball,9,0.7339413629637824,9,"Bilinear sampled training point response, not number of retained/rejected objects or independent performance."

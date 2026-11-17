@@ -1,0 +1,95 @@
+{
+  "scope": "Development candidates; availability and disagreements, not identity accuracy",
+  "comparison": [
+    {
+      "tag": "002",
+      "total_frames": 355,
+      "previous_four_assigned": 140,
+      "current_four_assigned": 247,
+      "initialization_wait_frames": 7,
+      "reacquisition_proposals": 0,
+      "cross_version_disagreement_frames": 12
+    },
+    {
+      "tag": "005",
+      "total_frames": 445,
+      "previous_four_assigned": null,
+      "current_four_assigned": 311,
+      "initialization_wait_frames": 18,
+      "reacquisition_proposals": 0,
+      "cross_version_disagreement_frames": 0
+    },
+    {
+      "tag": "048",
+      "total_frames": 900,
+      "previous_four_assigned": 330,
+      "current_four_assigned": 638,
+      "initialization_wait_frames": 15,
+      "reacquisition_proposals": 2,
+      "cross_version_disagreement_frames": 136
+    }
+  ],
+  "reacquisitions": [
+    {
+      "tag": "048",
+      "event": "reacquired_candidate",
+      "frame": 126294,
+      "player_slot": "far_rear",
+      "last_observed_frame": 126180,
+      "old_raw_id": 1000004,
+      "new_raw_id": 86,
+      "confirmation_start": 126287,
+      "confirmation_frames": 8,
+      "confirmation_raw_ids": [
+        86
+      ],
+      "alternative_cost_margin": 0.41285374439572153,
+      "identity_status": "requires_identity_review"
+    },
+    {
+      "tag": "048",
+      "event": "reacquired_candidate",
+      "frame": 126486,
+      "player_slot": "far_rear",
+      "last_observed_frame": 126457,
+      "old_raw_id": 1000746,
+      "new_raw_id": 100,
+      "confirmation_start": 126479,
+      "confirmation_frames": 8,
+      "confirmation_raw_ids": [
+        100
+      ],
+      "alternative_cost_margin": 0.5934005344056363,
+      "identity_status": "requires_identity_review"
+    }
+  ],
+  "media": [
+    {
+      "tag": "002",
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "355"
+    },
+    {
+      "tag": "005",
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "445"
+    },
+    {
+      "tag": "048",
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "900"
+    }
+  ]
+}

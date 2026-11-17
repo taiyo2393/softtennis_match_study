@@ -1,0 +1,13 @@
+{
+  "page_http": 200,
+  "exact_image_hashes_checked": 4,
+  "video_range_checks": 4,
+  "predictions_hidden": true,
+  "missing_phase_rejected": true,
+  "invalid_case_rejected": true,
+  "labels_and_events_unchanged": true,
+  "frozen_method_predictions_unchanged": true,
+  "protected_inputs_unchanged": true,
+  "decoded_video_frames": 1110,
+  "completed_rows": 0
+}

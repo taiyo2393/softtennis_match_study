@@ -1,0 +1,17 @@
+{
+  "validation": {
+    "frames": 120,
+    "presence_equal": true,
+    "max_coordinate_difference_px": 0.0
+  },
+  "audit": {
+    "frames": 60,
+    "presence_equal": true,
+    "max_coordinate_difference_px": 0.0
+  },
+  "challenge": {
+    "frames": 4,
+    "presence_equal": true,
+    "max_coordinate_difference_px": 0.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pilot": "match1_motion_pilot_016",
+  "frames": 1169,
+  "fps": 59.94005994005994,
+  "sampling_stride": 2,
+  "image": "cached source JPEG, court-oriented crop y320:1080, full width",
+  "far_court_tile": [
+    480,
+    360,
+    1536,
+    720
+  ],
+  "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m-pose.pt",
+  "model_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+  "imgsz": 1920,
+  "confidence": 0.25,
+  "iou": 0.7,
+  "geometry": "person height>=55px, feet y>=0.48H, center x in0.12W..0.94W",
+  "audio": "source clip mono16k PCM; 20ms RMS,10ms hop; positive log-energy rise over prior70ms median",
+  "labels_used": false,
+  "purpose": "Development start candidates, not a validated contact/validity classifier.",
+  "repair": "Reject boxes within4px of extraction-crop edge BEFORE deduplication; recover full-court detections suppressed by truncated tile boxes",
+  "tiled_feature_sha256": "6f0a8cfdf35f4003c972569ef03e2ea01d6fb6b12507fc07370a14b5f6cb4650",
+  "full_court_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_start_pilot\\match1_motion_pilot_016\\features.json",
+  "full_court_sha256": "023cf0060197be8d4c8da2ecc70c6009edce5134126071918f4a6e83add69af9",
+  "rejected_crop_edge_boxes": 666,
+  "script_sha256": "1b4f3a623aa55bafc035520b9924cb7ca1e37f27cf9af8e3250a593f9a7718d7"
+}

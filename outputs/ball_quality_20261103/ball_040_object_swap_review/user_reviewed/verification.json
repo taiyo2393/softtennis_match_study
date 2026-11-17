@@ -1,0 +1,33 @@
+{
+  "status": "four_explicit_false_candidates_recorded_and_excluded",
+  "rejected_local_frames": [
+    464,
+    467,
+    470,
+    554
+  ],
+  "baseline_rows": 570,
+  "experimental_rows": 570,
+  "modified_position_rows_per_branch": 4,
+  "other566positions_preserved": true,
+  "candidates_per_rejected_frame": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "physical_visibility_labels_added": 0,
+  "center_groundtruth_added": 0,
+  "baseline_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\baseline_balltrack_predictions.csv",
+  "baseline_sha256": "88fd4d6e3441dca6dc5b506a1970d9a7841eb9e45d757cd96c51585ef46fcf0e",
+  "experimental_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\temporal_balltrack_predictions.csv",
+  "experimental_sha256": "3bacae30cf4e4853c6eb3ed70c520b265baa83661b1d8f3a630cd5c25e4e0dd8",
+  "old_raw_and_proposal_unchanged": true,
+  "old044and008registry_entries_unchanged": true,
+  "person_and_integrated_registries_unchanged": true,
+  "registry_previous_sha256": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+  "registry_new_sha256": "37154a120d8b76c6a2828ccf66fa07c29f912f79654a36cca47003c2eb0d82d3",
+  "prior_experiment_hash_notice": "Old protocols keep their old registry hash; archived previous registry reproduces it. No historical results edited.",
+  "algorithm_changes": false,
+  "automatic_temporal_adoption": false
+}

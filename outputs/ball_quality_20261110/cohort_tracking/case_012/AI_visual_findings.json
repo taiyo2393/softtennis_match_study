@@ -1,0 +1,43 @@
+{
+  "reviewer": "Codex AI chronological image inspection",
+  "candidate_id": "match1_rally_window_012",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": false,
+  "AI_identity_binding_added": false,
+  "contact_candidate_frames": [
+    32020,
+    32026
+  ],
+  "contact_status": "AI visual bracket frozen before tracking; not independent contact/service-validity GT",
+  "inspected_raw_context": [
+    "cohort_anchor_proposals/012/coarse_page_01.jpg",
+    "cohort_anchor_proposals/012/coarse_page_02.jpg",
+    "cohort_anchor_proposals/012/service_detail/page_01.jpg",
+    "cohort_anchor_proposals/012/service_detail/page_02.jpg",
+    "phase_evidence/context_grid.jpg",
+    "phase_evidence/input_grid.jpg"
+  ],
+  "inspected_all_requested_identity_images": [
+    "fixed_input_identity/far_all31.jpg",
+    "fixed_input_identity/near_all31.jpg"
+  ],
+  "inspected_annotated_context": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg",
+    "gap_diagnostics/gap_01_far_front.jpg"
+  ],
+  "observation": "In requested images N1 follows white/red near teammate, N2 capped white/red near-left server, F1 dark far player, F2 orange far player; no obvious person substitution in inspected frames. All31 requested times show four candidates.",
+  "input_boundary_problem_visible": false,
+  "formal_point_end_frame_confirmed": false,
+  "exact_contact_time_newly_human_confirmed": false,
+  "service_validity_newly_human_confirmed": false,
+  "independent_identity_or_position_accuracy_established": false,
+  "gap_observation": "One far-front gap F32210..32225, beyond requested input, occurs as orange player overlaps near N1; before/after shown clothing correspondence is plausible. No coordinate filling. Late candidate context includes broadcast dissolve.",
+  "full_context_denominator_warning": "330 inherited context frames include broadcast transitions, not330 independently adjudicated in-play frames.",
+  "fixed_window_requested_times": 31,
+  "four_observation_requested_times": 31,
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "AI_score_suggestion_not_promoted_to_human_label": true,
+  "offline_future_context_used_for_far_association": true
+}

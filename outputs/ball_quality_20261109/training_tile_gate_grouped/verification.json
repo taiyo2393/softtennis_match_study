@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "candidate_features_reproduced": 88,
+  "visible_center_fit_examples": 81,
+  "unobservable_excluded_from_fit": 7,
+  "held_clip_models_verified": 8,
+  "held_out_score_predictions_reproduced": 88,
+  "clip_overlap_between_fit_and_check": 0,
+  "preserved_old_outputs_per_method": 70,
+  "addition_effects": [
+    {
+      "method": "crossscale_agreement16",
+      "rejected_correct_center16": 5,
+      "rejected_wrong_target_position": 4,
+      "kept_correct_center16": 6,
+      "kept_wrong_target_position": 1,
+      "rejected_output_when_not_observable": 5
+    },
+    {
+      "method": "logistic10_oof",
+      "kept_correct_center16": 11,
+      "rejected_wrong_target_position": 4,
+      "kept_wrong_target_position": 1,
+      "rejected_output_when_not_observable": 3,
+      "kept_output_when_not_observable": 2
+    }
+  ],
+  "all_protected_models_labels_and_tracking_unchanged": true,
+  "no_full_fit_or_new_validation": true,
+  "files": {
+    "protocol.json": "5f7e204923422818b1a0b1e94520276d0ed607631e2a466b8064b1afddb4ec30",
+    "executed_source.py": "eb4dd642d14ec91f7b0a96c18f80af0d2ebc1960bea5b6e5b7ccdc3f0ec767a1",
+    "candidate_features_and_training_labels.csv": "49040c6446943b11b0c69557c95a23a79ab10d7404ad1939f835ad631e5be83d",
+    "folds.json": "7e8708dae0272c817999eac6fe2c4a11a5c203ba59637f655fcc4446f81c3747",
+    "oof_candidate_scores.csv": "04725fc53937e231e5c9be4f51d6e3af1ab567888f53a8304590ce2b4ec23cff",
+    "result.json": "f56d7cf3f725a30791ec3e4dff4c0917f47ecee260231b0c5769e4daa3c26294",
+    "grouped_comparison.csv": "15fb6752ae6f30ee2b30d21ff241d85059174c7475800ca3ffb0a38104bc8179",
+    "remaining_added_errors.csv": "99688a3cbdab2156371ef6db0878945cb14d618706f81e6572dc3975af40ca9b",
+    "addition_effects.json": "70bfc6f82b3264cdbf05cce4f0b1a5b806120c5f151fffde8fba7d52054d48bc"
+  },
+  "script_sha256": "366e0e2ed18d644e66ae54e23dbfa98dac4db997a8c472f7c41f317f86d41a6c"
+}

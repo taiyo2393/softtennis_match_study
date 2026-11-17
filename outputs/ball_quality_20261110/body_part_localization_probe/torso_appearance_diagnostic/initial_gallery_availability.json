@@ -1,0 +1,293 @@
+{
+  "galleries": [
+    {
+      "tag": "002",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 2230,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose0",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6",
+        "initial_unselected_pose7"
+      ]
+    },
+    {
+      "tag": "002",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 2230,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose0",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6",
+        "initial_unselected_pose7"
+      ]
+    },
+    {
+      "tag": "005",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 8625,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose1",
+        "initial_unselected_pose3",
+        "initial_unselected_pose4"
+      ]
+    },
+    {
+      "tag": "005",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 8625,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose1",
+        "initial_unselected_pose3",
+        "initial_unselected_pose4"
+      ]
+    },
+    {
+      "tag": "006",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 10575,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose2",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6",
+        "initial_unselected_pose7"
+      ]
+    },
+    {
+      "tag": "006",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 10575,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose2",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6",
+        "initial_unselected_pose7"
+      ]
+    },
+    {
+      "tag": "009",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 21226,
+      "roles": [
+        "near_front",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose1",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5"
+      ]
+    },
+    {
+      "tag": "009",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 21226,
+      "roles": [
+        "near_front",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose1",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5"
+      ]
+    },
+    {
+      "tag": "012",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 31935,
+      "roles": [
+        "near_front",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose1",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "012",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 31935,
+      "roles": [
+        "near_front",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose1",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "015",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 38548,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6",
+        "initial_unselected_pose7"
+      ]
+    },
+    {
+      "tag": "015",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 38548,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6",
+        "initial_unselected_pose7"
+      ]
+    },
+    {
+      "tag": "016",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 40556,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose3",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "016",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 40556,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose3",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "017",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 41845,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose3",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "017",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 41845,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose3",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "018",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 43643,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose3",
+        "initial_unselected_pose4",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "018",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 43643,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose3",
+        "initial_unselected_pose4",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "019",
+      "policy": "pose_box_upper_rectangle",
+      "initial_frame": 45831,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    },
+    {
+      "tag": "019",
+      "policy": "pose_torso_polygon",
+      "initial_frame": 45831,
+      "roles": [
+        "near_front",
+        "near_rear",
+        "far_rear",
+        "far_front",
+        "initial_unselected_pose4",
+        "initial_unselected_pose5",
+        "initial_unselected_pose6"
+      ]
+    }
+  ],
+  "certified_identities": false
+}

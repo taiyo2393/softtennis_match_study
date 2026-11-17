@@ -1,0 +1,9 @@
+{
+  "anchor_counts": {
+    "near_front": 8,
+    "near_rear": 8,
+    "far_rear": 8,
+    "far_front": 8
+  },
+  "negative_count": 19
+}

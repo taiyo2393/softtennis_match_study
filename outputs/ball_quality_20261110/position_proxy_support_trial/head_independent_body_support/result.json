@@ -1,0 +1,16 @@
+{
+  "status": "position_support_and_sensitivity_complete",
+  "cases": 10,
+  "search_frames": 7019,
+  "sidecar_rows": 28076,
+  "fixed_input_times": 310,
+  "sensitivity_policies": [
+    "retain_native_proxies",
+    "mask_native_box_overlap",
+    "mask_pose_body_overlap"
+  ],
+  "recalculated_feature_values_checked": 11370,
+  "native_ID_paths_changed": false,
+  "mask_policies_adopted": false,
+  "independent_position_accuracy_established": false
+}

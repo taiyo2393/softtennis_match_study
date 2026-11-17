@@ -1,0 +1,5 @@
+﻿case_id,sample_id,candidate_id,local_frame,source_frame,phase_status,truth_x_px,truth_y_px,bbox_area_x_px,bbox_area_y_px,bbox_area_error_px,bbox_area_correct16px,component_peak_x_px,component_peak_y_px,component_peak_error_px,component_peak_correct16px,bbox_mean_x_px,bbox_mean_y_px,bbox_mean_error_px,bbox_mean_correct16px,component_mean_x_px,component_mean_y_px,component_mean_error_px,component_mean_correct16px
+A,match1_motion_pilot_012_frame_000303,match1_motion_pilot_012,303,83620,human_confirmed_play,966,529,965,530,1.4142135623730951,1,1539,543,573.1710041514661,0,1539,543,573.1710041514661,0,1539,543,573.1710041514661,0
+B,match1_motion_pilot_015_frame_000328,match1_motion_pilot_015,328,104863,human_confirmed_play,1071,393,1155,645,265.63132345414385,0,1072,393,1.0,1,1072,393,1.0,1,1072,393,1.0,1
+C,match1_motion_pilot_019_frame_000305,match1_motion_pilot_019,305,161813,human_confirmed_play,1106,541,1325,579,222.27235545609355,0,1106,538,3.0,1,1106,538,3.0,1,1106,538,3.0,1
+D,match1_motion_pilot_020_frame_000171,match1_motion_pilot_020,171,172379,human_confirmed_play,814,367,813,367,1.0,1,813,367,1.0,1,813,367,1.0,1,813,367,1.0,1

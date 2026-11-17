@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "ac2c99325d6c82bcc9764ba470525dd7d5039621f8daa2c71cd20937e3bef12f",
+  "additional_verification.json": "e63336faf35f5df0f8aa6e8557e38f4e15bf79fccadb6feba0315bda19ae58f8",
+  "B1_server_side.csv": "221a9fdf99cc45ed465b61ed4e997e039e4b32fe87840c89b91daea453ab5b39",
+  "B2_snapshot.csv": "140239362e966b723d67755ce5769f1dd2b5f68d3408b6d6250ec96e31574f50",
+  "B2_window_means.csv": "bbff84f6d49de5069ab0f4c280ec45b33ffe33ee600ae947f7e4fb3084e107dd",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "691c27ffdd6a40bce580efa976d6361986421e68050eb30240155e8090ef38cc",
+  "diagnostic_window_masks_only.csv": "5ff4ea027982454523ff646836d030d26bc94830177890ee038c7c1354998ea3",
+  "executed_source.py": "73be7c1fb554b899ef43d923eab10a7f43e35e539e9e1ca49044cb5bc4d8f926",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "405f91617d2cae8966eddd45d32a5c5345a8084026c222edaed7a37d439fcf1c",
+  "human_outcomes.csv": "95aa365ab9f1cac4460ff984c96d575a28debb5c220730fbfb31de1cb4f541f3",
+  "outcome_label_status.csv": "543d332b0982c704e68793c75ef0a7e18137ca5880226a543ab079584cb8c6fe",
+  "processing_interventions.csv": "b44d2d27720d9c5595ec6633c1b67f2b8cbc6133f0c3e6ffcb75163a5feae0f5",
+  "protocol.json": "e157c029d7c6adc9b3f13ec28dc5397589953531a1646d2fc01ec8eca17812f4",
+  "rally_metadata.csv": "fac447e39798f097d4367ef712d2d0ad8f9782178abbe2f85c2454abf557e1b5",
+  "README.md": "3e3400e4eee152047ad2716f050d63414148aea87255fab841c38ba7d21cb308",
+  "result.json": "8a15465e367fa40e37666aad51604f4a2a30f253d4e9adeebe84494de2547da6",
+  "source_snapshot_features.csv": "1a3a84bc475bf20a8b863ec0e341f77d9c55f06d505a1e278c25755300b67281",
+  "source_window_summary_features.csv": "fbb1b73f858887c6a1fc49ac69181918996f276677cd7f56971405fe177d26d7",
+  "verification.json": "1564f230d01160b06bad78895bc84667541fed56408369cc9eeca9fde145633d"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "detector_models_checked": 8,
+  "classifier_models_checked": 8,
+  "held_input_overlap": 0,
+  "detector_or_classifier_fit_includes_held": false,
+  "frozen_parameters_and_BN_exact": true,
+  "changed_trainable_tensor_counts": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "candidate_geometry_rows_checked": 1197,
+  "candidate_head_scores_recomputed": 1197,
+  "held_output_provenance_verified": 246,
+  "phase_metrics_recomputed": true,
+  "fold_checks": [
+    {
+      "held": "match1_motion_pilot_001",
+      "detector_fit_frames": 56,
+      "classifier_frames": 55,
+      "input_overlap": 0
+    },
+    {
+      "held": "match1_motion_pilot_003",
+      "detector_fit_frames": 58,
+      "classifier_frames": 56,
+      "input_overlap": 0
+    },
+    {
+      "held": "match1_motion_pilot_004",
+      "detector_fit_frames": 61,
+      "classifier_frames": 61,
+      "input_overlap": 0
+    },
+    {
+      "held": "match1_motion_pilot_005",
+      "detector_fit_frames": 58,
+      "classifier_frames": 56,
+      "input_overlap": 0
+    },
+    {
+      "held": "match1_motion_pilot_006",
+      "detector_fit_frames": 62,
+      "classifier_frames": 60,
+      "input_overlap": 0
+    },
+    {
+      "held": "match1_motion_pilot_007",
+      "detector_fit_frames": 60,
+      "classifier_frames": 58,
+      "input_overlap": 0
+    },
+    {
+      "held": "match1_motion_pilot_009",
+      "detector_fit_frames": 64,
+      "classifier_frames": 62,
+      "input_overlap": 0
+    },
+    {
+      "held": "match1_motion_pilot_010",
+      "detector_fit_frames": 57,
+      "classifier_frames": 55,
+      "input_overlap": 0
+    }
+  ],
+  "protected_inputs_unchanged": true,
+  "operational_adoption": false,
+  "warning": "Current fit stages exclude held clips;historically selected reference/features/hyperparameters are not fully nested or independent external validation.",
+  "script_sha256": "4c86b12dd56e3b43600d66ecfe5082a21d50450ee1fad73d0b529f6d339ba178"
+}

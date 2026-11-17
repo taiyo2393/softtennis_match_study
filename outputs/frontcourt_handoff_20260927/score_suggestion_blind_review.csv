@@ -1,0 +1,17 @@
+﻿review_order,candidate_id,clip_file,candidate_start_video_sec,candidate_end_video_sec,actual_score_change_row,score_change_linked_to_candidate_point,winner_team,winner_camera_side,start_confirmed,point_end_confirmed,reviewer,review_status
+1,match1_rally_window_022,022_score_validation_h264.mp4,1.000,17.000,,,,,,,,unreviewed
+2,match1_rally_window_061,061_score_validation_h264.mp4,1.000,13.500,,,,,,,,unreviewed
+3,match1_rally_window_057,057_score_validation_h264.mp4,1.000,29.500,,,,,,,,unreviewed
+4,match1_rally_window_043,043_score_validation_h264.mp4,1.000,17.500,,,,,,,,unreviewed
+5,match1_rally_window_013,013_score_validation_h264.mp4,1.000,8.000,,,,,,,,unreviewed
+6,match1_rally_window_032,032_score_validation_h264.mp4,1.000,19.500,,,,,,,,unreviewed
+7,match1_rally_window_005,005_score_validation_h264.mp4,1.000,20.500,,,,far,,,human_user_2026-11-02,partial_camera_side_only_score_row_linkage_unreviewed
+8,match1_rally_window_021,021_score_validation_h264.mp4,1.000,8.500,,,,,,,,unreviewed
+9,match1_rally_window_029,029_score_validation_h264.mp4,1.000,24.000,,,,,,,,unreviewed
+10,match1_rally_window_012,012_score_validation_h264.mp4,1.000,6.500,,,,,,,,unreviewed
+11,match1_rally_window_048,048_score_validation_h264.mp4,1.000,29.000,,,,far,,,human_user_2026-11-02,partial_camera_side_only_score_row_linkage_unreviewed
+12,match1_rally_window_011,011_score_validation_h264.mp4,1.000,49.500,,,,,,,,unreviewed
+13,match1_rally_window_037,037_score_validation_h264.mp4,1.000,14.000,,,,,,,,unreviewed
+14,match1_rally_window_023,023_score_validation_h264.mp4,1.000,24.500,,,,,,,,unreviewed
+15,match1_rally_window_063,063_score_validation_h264.mp4,1.000,18.500,,,,,,,,unreviewed
+16,match1_rally_window_014,014_score_validation_h264.mp4,1.000,25.000,,,,,,,,unreviewed

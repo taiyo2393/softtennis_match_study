@@ -1,0 +1,41 @@
+{
+  "candidate_id": "match1_rally_window_018",
+  "frozen_plan": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_017\\next_transfer_protocol.json",
+  "frozen_plan_sha256": "b670606c0b380ebdaea76b5602aabc1c9fa7ea338827b8775946adefacae79a5",
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "scope": "Additional same-match transfer after rule freeze, not independent other-match evaluation.",
+  "modes": [
+    "baseline",
+    "court_seed_only",
+    "old_guard",
+    "court_seed_plus_old_guard"
+  ],
+  "individual_ID_binding_added": false,
+  "numeric_thresholds_changed": false,
+  "transfer_results_used_to_tune": false,
+  "canonical_pipeline_replaced": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_017\\next_transfer_protocol.json": "b670606c0b380ebdaea76b5602aabc1c9fa7ea338827b8775946adefacae79a5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\run_court_initialization_transfer.py": "fa29e03a391f5f42a9bb3aecb8aba3666fa2593cad2239dc00c634640311754a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\gap_pair_tracking.py": "0e0da9818ddf3c010061f0167b34ba213b26fd236951d365ec97d6fddb0a08b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\protocol.json": "bc4e02cdd6ec6b10408bd8d003709eaab3db4f67589f31fc97a4e78af1ac82c4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\four_player_path.csv": "cdc72bbcc0fac694b1b8c7a293420c93e94b088ea32978e1db70cd1968959753",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\case_result.json": "59aec8ffe2b89341f5b034f122c24ef551ba0d710ac3ce1022d20a5f33162f5b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\tracking_quality_20261102_stage4\\players_018_temporal\\summary.json": "cf1bddcd81ef4216839ba474054c5d3067a426dd5f78b92f754434003029da1a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\tracking_quality_20261102_stage4\\players_018_temporal\\events.json": "7a4d4cdbd13757131e41b1e12bff94ede920cd047bbb6b4a81e1aeb22d412d7f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\tracking_quality_20261102_stage4\\players_018_temporal\\selected_four.csv": "fc8e07f95976bb5c75d165b39c937a02549fdec97103356fd44f8299507a3c3a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\crop_runs\\augmented_detections_018.csv": "6a2f2b30126bdab8dd475660731ff8f913acf39e5c4ac78c7c2458da0bb7b9a9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\prefix_frame_features.csv": "6f163e797f4b71db84f1e9661cb640eaff2f16f78f4a95b02f99f1cd939a35ce",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\snapshot_player_features.csv": "d16ef15e06cb4aaa3f4c512e60840aecafecfab2fc37dc00a77f5d6efa9cedc6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\prefix_player_summary_features.csv": "605a6a096698b447d8b358566ecc2d25a4254a21ca854510574d2d7849040c99",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\court_initialization_guard.py": "79833b98b57eb4746a06a8e94f2af9c65839d7f2ab63da5ac4002adc7cf4cc54",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\confirmed_continuity_guard.py": "72ea68f93575ded43cac6381b3ce045c8fae529c41be181157cd18854b72c4a3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\automatic_reacquisition_guard.py": "83abddbdf97f6bacb74aa3680a798f1f471f5d87c0f2a45fee5ebf4e2e90bb1a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\adaptive_near.py": "557b6034597de05e29b8f2600d6b9131e3e4ee37e21915bffdcf2dada959967d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage4\\temporal_tracker.py": "df793d565a54fdd2f54ac491fe5305ac7779db8c05607ceee56ae0a7ee52b1cf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage2\\improve_players.py": "1fd1752d96af18b5aace1fce2b2128f4d008734aec9fe2f2997efa5aa1537b96",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\four_player_association.py": "363808475eb2dc12e8322ed3f753b81af81d1b2c66ce47d24e10377c528bf5e9",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\scripts\\96_select_four_players_pilot.py": "6fd9fedec519a277091c7ca820a0aa151d308eaff359de459e39475ae19d2c8c"
+  }
+}

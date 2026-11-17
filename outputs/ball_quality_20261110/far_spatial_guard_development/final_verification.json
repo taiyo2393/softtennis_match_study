@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "scope": "Native-box/provenance/feature/video and past-only exclusion checks; not identity accuracy",
+  "matched_cases": 10,
+  "baseline_exact_replays_reused": 10,
+  "output_csvs": 20,
+  "native_output_rows_checked": 25000,
+  "unchanged_complete_paths": [
+    "002",
+    "005",
+    "009",
+    "012",
+    "015",
+    "016",
+    "017",
+    "018"
+  ],
+  "removed_rows_all_cases": 6,
+  "added_rows_all_cases": 0,
+  "background_vs_background_and_near_paths_identical_cases": 10,
+  "all10_requested_prefix_native_boxes_unchanged": true,
+  "predicted_exclusion_rows_checked": 31,
+  "predicted_positions_exported_to_player_paths": false,
+  "AI_reviewed_cells": 12,
+  "export019_native_rows": 3264,
+  "export019_recalculated_values": 379,
+  "export019_decoded_video_frames": 930,
+  "comparison_video_decoded_frames": 615,
+  "prior_publication_files_verified": 429,
+  "current22_inputs_and11_confirmed_outcomes_unchanged": true,
+  "canonical_pipeline_replaced": false,
+  "independent_accuracy_established": false
+}

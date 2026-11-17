@@ -1,0 +1,18 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_start_pilot_tiled_v2\\match1_motion_pilot_016\\automatic_start_candidates_h264.mp4",
+  "decoded_frames": 524,
+  "speed": 0.5,
+  "audio_time_stretched": 0.5,
+  "context_windows_local_frames": [
+    [
+      48,
+      178
+    ],
+    [
+      672,
+      802
+    ]
+  ],
+  "overlays": "Automatic proposal intervals only, no reference contact markers or predicted fault/valid labels.",
+  "visualization": "Full view at half size plus selected person256px crop enlarged2x without aspect distortion."
+}

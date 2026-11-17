@@ -1,0 +1,73 @@
+{
+  "images": [
+    {
+      "case": "match1_motion_pilot_002_frame_000048",
+      "before": "missed_visible",
+      "after": "correct16",
+      "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\frames\\000048.jpg",
+      "source_image_sha256": "5418a4ca216d9501a551e0f2a8dd6eaeeed742319cfddfe349b8d62b27e9d16f",
+      "render": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_change_1_002_48.jpg",
+      "crop_xywh": [
+        1223,
+        551,
+        640,
+        360
+      ],
+      "right_scale": 1.5,
+      "source_aspect_preserved": true
+    },
+    {
+      "case": "match1_motion_pilot_008_frame_000279",
+      "before": "missed_visible",
+      "after": "correct16",
+      "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000279.jpg",
+      "source_image_sha256": "9f58948b373141dca86557dc46c2a05acd7e9e25fba2a837c3b16aa5e93131bf",
+      "render": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_change_2_008_279.jpg",
+      "crop_xywh": [
+        393,
+        379,
+        640,
+        360
+      ],
+      "right_scale": 1.5,
+      "source_aspect_preserved": true
+    },
+    {
+      "case": "match1_motion_pilot_016_frame_000194",
+      "before": "missed_visible",
+      "after": "wrong_position",
+      "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000194.jpg",
+      "source_image_sha256": "c8dc8b6edd61217ccb8d0387dafcd3737f8efe3a445ced94fdeb928904d9970f",
+      "render": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_change_3_016_194.jpg",
+      "crop_xywh": [
+        753,
+        392,
+        640,
+        360
+      ],
+      "right_scale": 1.5,
+      "source_aspect_preserved": true
+    },
+    {
+      "case": "match1_motion_pilot_018_frame_000232",
+      "before": "correct_no_output",
+      "after": "false_output_on_not_visible",
+      "source_image": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000232.jpg",
+      "source_image_sha256": "8744f4dd87e697e741a5b0f6103b279327a3aa9541e1e34c9f8467bdcefb5f24",
+      "render": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_change_4_018_232.jpg",
+      "crop_xywh": [
+        801,
+        378,
+        640,
+        360
+      ],
+      "right_scale": 1.5,
+      "source_aspect_preserved": true
+    }
+  ],
+  "source_labels": "Existing user-confirmed manual center table, not newly generated labels",
+  "gains_and_errors_both_included": true,
+  "independent_performance_claim": false,
+  "labels_and_reviewed_outputs_not_modified": true,
+  "atlas": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_changes_contact_sheet.jpg"
+}

@@ -1,0 +1,37 @@
+{
+  "tag": "048",
+  "first_frame": 125859,
+  "last_frame": 126758,
+  "frames": 900,
+  "initialized_frame": 125874,
+  "counts": {
+    "four_simultaneous": 638,
+    "pre_initialization_frames": 15,
+    "near_front": 885,
+    "total_observed_assignments": 3273,
+    "near_rear": 885,
+    "far_rear": 729,
+    "far_front": 774
+  },
+  "reacquisition_proposals": 2,
+  "parameters": {
+    "initialization_source_frames": 8,
+    "recovery_source_frames": 8,
+    "min_recovery_gap": 6,
+    "recovery_appearance_max": 0.65,
+    "recovery_negative_margin": 0.06,
+    "recovery_assignment_margin": 0.18,
+    "recovery_missing_cost": 0.85,
+    "gallery_size": 8,
+    "gallery_sample_interval": 12,
+    "gallery_cost_max": 0.55,
+    "gallery_margin_min": 0.2,
+    "occlusion_intersection_fraction": 0.45,
+    "pending_iou_min": 0.3,
+    "pending_motion_max_height": 0.35,
+    "interpolation": false
+  },
+  "input_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage3\\crop_runs\\augmented_detections_048.csv",
+  "input_sha256": "09ebddeebc85f2d0eca4b033c5917c1df4a3c55680a4d3d2347d1585ddc51f81",
+  "warning": "Development on formerly inspected same-match intervals; candidate availability is not identity accuracy. No retroactive output or interpolation."
+}

@@ -1,0 +1,16 @@
+{
+  "hypothesis": "Preserve a directly visible yellow-ball-like component even when a majority trajectory disagrees.",
+  "trigger": "AI review of all 35 temporal withholdings found plausible real balls at 002/318,014/626,014/630.",
+  "hsv": {
+    "h_min": 20,
+    "h_max": 42,
+    "s_min": 80,
+    "v_min": 110
+  },
+  "patch_radius_px": 10,
+  "min_component_area_px": 4,
+  "max_centroid_distance_px": 8,
+  "action": "Restore only the input model coordinate; retain temporal warning; never override camera transition.",
+  "scope": "Match-specific conservative preservation, not a universal ball classifier; visual evidence does not certify target-ball identity.",
+  "evaluation": "Development counterexamples; no fresh held-out evaluation or source-label modification."
+}

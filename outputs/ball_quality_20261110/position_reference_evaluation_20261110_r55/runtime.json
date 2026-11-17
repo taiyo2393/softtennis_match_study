@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.2",
+  "opencv": "5.0.0",
+  "matplotlib": "3.11.1",
+  "new_model_inference_performed": false
+}

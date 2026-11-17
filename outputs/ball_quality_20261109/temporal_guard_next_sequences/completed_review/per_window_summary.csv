@@ -1,0 +1,7 @@
+﻿method,window_id,correct16px,wrong_position,missing_visible_ball,output_when_not_observable,no_output_when_not_observable,excluded_ball_uncertain,excluded_nonplay,excluded_phase_uncertain,visible_targets,recall16px
+original_temporal,E,11,1,1,0,0,0,0,0,13,0.8461538461538461
+original_temporal,F,13,0,0,0,0,0,0,0,13,1.0
+static_supplement,E,12,1,0,0,0,0,0,0,13,0.9230769230769231
+static_supplement,F,13,0,0,0,0,0,0,0,13,1.0
+two_anchor_guard_all_outputs,E,11,1,1,0,0,0,0,0,13,0.8461538461538461
+two_anchor_guard_all_outputs,F,13,0,0,0,0,0,0,0,13,1.0

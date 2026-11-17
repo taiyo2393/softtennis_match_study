@@ -1,0 +1,50 @@
+{
+  "status": "metadata_only_reservation_before_predictions_and_annotations",
+  "date_jst": "2026-11-09",
+  "selection": "Remove all4previous reserved clips from20old-pilot-separated eligible clips;sort16remaining chronologically. Select2equal-strata midpoint indexes floor((j+.5)*16/2)=[4,12]. No images or output scores inspected.",
+  "selected_clips": [
+    "match1_motion_expand_01_006",
+    "match1_motion_expand_01_016"
+  ],
+  "window_ids": [
+    "E",
+    "F"
+  ],
+  "target_count": 26,
+  "target_sampling": "Each full-clip midpoint +/-12sourceframes step2. Context +/-90frames for continuous inspection.",
+  "full_clip_120frame_separation_from_old20_and_prior4": true,
+  "methods_fixed": [
+    "original_temporal",
+    "static_supplement",
+    "two_anchor_guard_all_outputs"
+  ],
+  "annotation": "Blind human main-rally phase,ball visibility/uncertainty,and center clicks where observable; predictions hidden. No labels assumed from metadata or model.",
+  "scope_definition": "Main-rally valid serve contact through point determination; excludes fault/let attempts. Official in-play begins earlier. Do not infer precise boundaries from momentary phase labels.",
+  "analysis": "All26targets,common play/visibility exclusions,per-window and pooled counts,correct16px,wrong center,output-on-unobservable,missing visible,lost correct,withheld outputs,and sampled-pair differences. No frame-independence significance tests.",
+  "safety": "Guard must lose no static-supplement correct targets and not increase wrong_position/output_when_not_observable; pipeline must retain original correct targets and improve localization without extra errors to show a benefit over original. If guard never acts,no direct new discrimination evidence. Never choose an alternative after failure.",
+  "decision": "Small same-match confirmation only; passing cannot authorize automatic adoption or establish external/full-rally tracking quality.",
+  "limitations": "Clips existed before with prior exposure incompletely known; metadata-only new selection after rule fixed does not make an untouched external test.",
+  "no_predictions_generated": true,
+  "new_human_labels": 0,
+  "operational_adoption": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\clip_exposure_inventory.csv": "f44e0f9985f9694ba8f9618213fe578ea1f4977c8d50c41512159926b7b98504",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\reserved_windows.json": "9c27551fac4398c146284f85ef2dc07fba4072c1f874376fc36506c1445158bd",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_consistency_abstention\\protocol.json": "b70833b1d38eaf5dd02c1963e47266ad1bbf7f5c930df02aeff5f98ffdf1eff0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_consistency_abstention\\training_decision.json": "7a58f732c7a68b9a8c948131a3b37c8c658828d3b1a0aadf293e92500b86906f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_consistency_abstention\\regression_report.json": "0e2ef00d3505dd685f8e9fa1b28ac5ddb205f109f2ea63020b0a8e700f6a854f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\temporal_consistency_abstention\\verification.json": "d18012967c0c53a8817fb376b441df124533922b618e10d73b899c1568afe726",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_consistency_rule.py": "00797fa0393188599a80fdeddd3bf06e4595ae97046c46218843e1c1807642c7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261109\\frozen_tile_gate_confirmation\\frozen_training_head.npz": "91a05599577e9462092b05ae27109a1e30089adaf6f3dee186436b7493e504b8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_expand_01_006\\runs\\threshold030_median120\\run_metadata.json": "7956209119035be23455e4e00f92d15f2571bbf5a092593ce7a464fb30eef65c",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_expand_01_006\\runs\\threshold030_median120\\median.npz": "15d9c3f6ea522ec26ae5034dd3feae1125e2fe4fdabdbdd2fd3c4b78ae742b3e",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_expand_01_016\\runs\\threshold030_median120\\run_metadata.json": "2e8b45ef0448dd01ce26fe782a692c9e375ccf1071a869dde2e1826f27194795",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_expand_01_016\\runs\\threshold030_median120\\median.npz": "3dbe0cb8f2cd1a2f8ba945d0f5734704087fcc9aa1b6b24a031f7da17241b863"
+  },
+  "reserved_targets_sha256": "2255a264456959e51ab67633d596a42b8d813711d223748b97b832556c0dc66a",
+  "reserved_windows_sha256": "c7b28b233d31019161c326b1cbcc38b8ff97223aaa61018ea724709142697f83",
+  "script_sha256": "a79c805b111ec47bb89c654d6f65a635b251fd38f1a56b7b62db00ebe147d5bb"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "fixed_contexts": 10,
+  "fixed_times": 310,
+  "native_candidate_rows": 7853,
+  "initialization_event_exact_replay": true,
+  "preinit_fixed_times": 20,
+  "blocking_counts": {
+    "candidate_shortage_under_current_definition": 13,
+    "selected_overlap": 3,
+    "past8_confirmation": 4
+  },
+  "protected_inputs_unchanged": true,
+  "additional_far_ID_or_position_outputs": 0,
+  "media_decode_verified": true,
+  "independent_accuracy_established": false
+}

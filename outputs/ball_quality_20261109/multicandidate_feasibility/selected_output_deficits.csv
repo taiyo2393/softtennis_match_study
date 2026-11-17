@@ -1,0 +1,16 @@
+﻿dataset,sample_id,case_id,candidate_id,local_frame,source_frame,truth_x_px,truth_y_px,global_components,native_components,exact_center_union_count,nearest_global_error_px,nearest_native_error_px,nearest_union_error_px,selected_error_px,selected_visible,category,oracle_not_automatic_accuracy
+training123,match1_motion_pilot_001_frame_000272,,match1_motion_pilot_001,272,392,758,587,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+training123,match1_motion_pilot_001_frame_000368,,match1_motion_pilot_001,368,488,1811,692,0,2,1,,674.8607263724864,674.8607263724864,,0,no_center_candidate_in_current_union,True
+training123,match1_motion_pilot_001_frame_000400,,match1_motion_pilot_001,400,520,1238,590,0,4,2,,5.0,5.0,,0,near_center_candidate_exists_not_selected,True
+training123,match1_motion_pilot_004_frame_000238,,match1_motion_pilot_004,238,34014,866,622,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+training123,match1_motion_pilot_004_frame_000266,,match1_motion_pilot_004,266,34042,797,557,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+training123,match1_motion_pilot_004_frame_000378,,match1_motion_pilot_004,378,34154,968,608,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+training123,match1_motion_pilot_006_frame_000651,,match1_motion_pilot_006,651,46475,776,584,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+training123,match1_motion_pilot_007_frame_000608,,match1_motion_pilot_007,608,52186,1400,580,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+training123,match1_motion_pilot_010_frame_000137,,match1_motion_pilot_010,137,71226,818,627,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+known_ABCD52,match1_motion_expand_01_003_frame_001064,A07,match1_motion_expand_01_003,1064,11434,1141,597,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+known_ABCD52,match1_motion_expand_01_008_frame_000201,B10,match1_motion_expand_01_008,201,57414,653,584,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+known_ABCD52,match1_motion_expand_01_008_frame_000203,B11,match1_motion_expand_01_008,203,57416,668,576,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+known_ABCD52,match1_motion_expand_01_008_frame_000205,B12,match1_motion_expand_01_008,205,57418,676,570,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+known_ABCD52,match1_motion_expand_01_008_frame_000207,B13,match1_motion_expand_01_008,207,57420,694,561,0,0,0,,,,,0,no_center_candidate_in_current_union,True
+known_EF26,match1_motion_expand_01_006_frame_000156,E10,match1_motion_expand_01_006,156,40705,471,660,1,0,1,21.2602916254693,,21.2602916254693,21.2602916254693,1,no_center_candidate_in_current_union,True

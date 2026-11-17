@@ -1,0 +1,72 @@
+{
+  "fps": "60000/1001",
+  "frame_index": "zero-based",
+  "entries": [
+    {
+      "file": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\interim_presentation\\output\\実映像画像\\画像①_コート全景_F145668.png",
+      "source": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+      "source_frame_zero_based": 145668,
+      "source_pts": 145813668,
+      "source_time_seconds": 2430.2278,
+      "event_id": "match1_direction_match1_remaining_01_182",
+      "crop_width_height_x_y": null,
+      "processing": "Exact source PTS selection and crop only; no generated pixels or retouching"
+    },
+    {
+      "file": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\interim_presentation\\output\\実映像画像\\画像③-A_インパクト前0.3秒_F104663.png",
+      "source": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+      "source_frame_zero_based": 104663,
+      "source_pts": 104767663,
+      "source_time_seconds": 1746.1277166666666,
+      "event_id": "match1_direction_pilot_01_020",
+      "crop_width_height_x_y": [
+        800,
+        450,
+        780,
+        1060
+      ],
+      "processing": "Exact source PTS selection and crop only; no generated pixels or retouching"
+    },
+    {
+      "file": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\interim_presentation\\output\\実映像画像\\画像③-B_インパクト前0.2秒_F104669.png",
+      "source": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+      "source_frame_zero_based": 104669,
+      "source_pts": 104773669,
+      "source_time_seconds": 1746.2278166666667,
+      "event_id": "match1_direction_pilot_01_020",
+      "crop_width_height_x_y": [
+        800,
+        450,
+        780,
+        1060
+      ],
+      "processing": "Exact source PTS selection and crop only; no generated pixels or retouching"
+    },
+    {
+      "file": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\analysis\\interim_presentation\\output\\実映像画像\\画像②_足首追跡_F399.png",
+      "source": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\pose\\target_front\\previews\\match1_direction_match1_remaining_01_003.mp4",
+      "local_frame_zero_based": 24,
+      "source_frame_zero_based": 399,
+      "event_id": "match1_direction_match1_remaining_01_003",
+      "crop_width_height_x_y": [
+        320,
+        180,
+        365,
+        325
+      ],
+      "processing": "Extracted from existing audited pose-preview video; original overlays retained",
+      "overlay": "Yellow: target box; magenta: ankle estimates; green: screen-space ankle midpoint guide (not the homography-transformed analysis coordinate)"
+    }
+  ],
+  "motion_example": {
+    "event_id": "match1_direction_pilot_01_020",
+    "impact_source_frame": 104681,
+    "A_relative_seconds": -0.3003,
+    "B_relative_seconds": -0.2002,
+    "interval_seconds": 0.1001,
+    "median_displacement_court_width": 0.038573,
+    "threshold_court_width": 0.015,
+    "movement_direction_target_front_view": "right",
+    "note": "A/B are raw frames. The reported displacement uses the existing 3-frame median-filtered analysis, not a measurement from the cropped screenshots."
+  }
+}

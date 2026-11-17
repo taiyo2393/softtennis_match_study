@@ -1,0 +1,14 @@
+{
+  "candidate_id": "match1_motion_pilot_002",
+  "start_frame": 280,
+  "end_frame_inclusive": 360,
+  "model": "existing MS-TrackNetV3, unchanged weights",
+  "checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "input": "cached BGR JPEG frames t-3..t + original median120 background; resize512x288; divide255",
+  "component_floor": 0.1,
+  "top_k": 6,
+  "component_position": "half-peak weighted centroid, same as prior weak-component experiment",
+  "selection": "No ball chosen at extraction. Candidate rank is per-frame score order, never persistent identity.",
+  "baseline_sha256": "08c71a80d46cffa0b3a7956ae6753cb379c42be6b8e4cf4188d3062f435c4f1c",
+  "purpose": "Two-real-ball counterexample; development only, not new held-out accuracy."
+}

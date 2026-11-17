@@ -1,0 +1,92 @@
+{
+  "reviewer": "AI assistant, not independent human GT",
+  "items": [
+    {
+      "clip_id": "match2_fixed_clip_001",
+      "reference_index": 1,
+      "source_frame": 3656,
+      "AI_view_state": "closeup",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_001",
+      "reference_index": 2,
+      "source_frame": 4046,
+      "AI_view_state": "closeup",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_001",
+      "reference_index": 3,
+      "source_frame": 4436,
+      "AI_view_state": "closeup",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "reference_index": 1,
+      "source_frame": 18042,
+      "AI_view_state": "alternate_oblique_view",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "reference_index": 2,
+      "source_frame": 18432,
+      "AI_view_state": "alternate_oblique_view",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "reference_index": 3,
+      "source_frame": 18821,
+      "AI_view_state": "main_view_candidate",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "reference_index": 1,
+      "source_frame": 54006,
+      "AI_view_state": "main_view_candidate",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "reference_index": 2,
+      "source_frame": 54396,
+      "AI_view_state": "main_view_candidate",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "reference_index": 3,
+      "source_frame": 54785,
+      "AI_view_state": "closeup",
+      "independent_human_view_label": false,
+      "identity_GT_created": false,
+      "position_GT_created": false
+    }
+  ],
+  "counts": {
+    "closeup": 4,
+    "alternate_oblique_view": 2,
+    "main_view_candidate": 3
+  },
+  "notes": "Three fixed time clips contain close-ups, another camera angle and frontal wide views. Keep all frames and cases. These preflight samples are not automatically valid in-play rallies or nine usable four-player reference frames. Even frontal shots need camera/zoom consistency checks before sharing a homography."
+}

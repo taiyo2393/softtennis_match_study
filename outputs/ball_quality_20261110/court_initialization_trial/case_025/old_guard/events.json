@@ -1,0 +1,29 @@
+[
+  {
+    "event": "initialized",
+    "frame": 60013,
+    "window_start": 60006,
+    "seed_ids": {
+      "near_front": 2,
+      "near_rear": 1,
+      "far_rear": 6,
+      "far_front": 4
+    },
+    "identity_status": "candidate_not_ground_truth"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 60302,
+    "player_slot": "near_rear",
+    "last_observed_frame": 60190,
+    "old_raw_id": 1,
+    "new_raw_id": 84,
+    "confirmation_start": 60295,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      84
+    ],
+    "alternative_cost_margin": 0.5320148064356246,
+    "identity_status": "requires_identity_review"
+  }
+]

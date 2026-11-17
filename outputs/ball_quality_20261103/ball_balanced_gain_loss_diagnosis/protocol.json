@@ -1,0 +1,32 @@
+{
+  "status": "fixed_before_replay_and_visualization",
+  "cases": "ALL changed label outcomes from previous one-candidate validation: gain015/285 and loss002/832, no other case selection",
+  "replay": "For every requested t-8..t+8step2, reproduce its ORIGINAL sorted per-clip batch4 using saved context keys. Same JPEGs,median,inputt-3..t,CUDA AMP.",
+  "threshold": 0.3,
+  "models": [
+    "original_weights",
+    "already_fixed_balanced_snapshot"
+  ],
+  "no_new_weights": true,
+  "no_threshold_search": true,
+  "measures": "Whole-map peak,peak within16source-px of existing manual center,threshold component count and closest bbox center; compare saved selection vs raw.",
+  "causal_scope": "Direct mechanism of changed output availability only. Does not isolate the neural-training root cause or prove a globally useful new method.",
+  "media": "Same native128x128 source crop centered at humanGT,3x nearest magnification,shared0..1heatmap color scale with exact source-grid remapping. No per-model normalization.",
+  "context_video": "Original full-frame aspect ratio1280x720+80header,0.5x,+/-24source frames,target held30extra displayframes; GT andmodelmarkers ONLY at target. No interpolated GT/trajectory.",
+  "unchanged_decision": "Prior audit failure remains; never patch only002/832 or lower threshold using this audit case.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\candidate_frozen_delta.pth": "84088a4417ec7faca654d9f664f36eff09689f21c31d664916ac5a0759aa30d5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\protocol.json": "628ff985709a97028dc3e5dda5205083a834a21261a0cdfd3f57d997c33d891a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\result.json": "9792060af36188e0027756860ade170e4a9fc189493e4ce0994244be58bbeca7",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\verification.json": "6e1e2714f51ca1c190041e52e0d45c63b1741e3c091926f37d57861b93dc9fb2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\frozen_selection.json": "987ef137ebc0a58a36c697f23c1f69130470e06515f62c0cfc0a1356da762c78",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\operational_decision.json": "97c0976cb1e9bc7ee05f54e108b0be84b1990b177cdb0417345a15ff6a3a58c4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\changed_label_outcomes.csv": "41aa17485a47d0fc135119f4e7fb1d526407a8fa4f48fbc9e111f9c70fdfe189",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1"
+  },
+  "script_sha256": "ebec1a377f0c41c3b7eb67f68fca14b32c67020999fd2c5ec0ba99202e6691d3"
+}

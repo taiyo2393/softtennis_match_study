@@ -1,0 +1,154 @@
+[
+  {
+    "control": {
+      "tag": "002",
+      "slot": "near_rear",
+      "frame": 2452,
+      "new_id": 78
+    },
+    "mode": "baseline",
+    "frames": [
+      2357,
+      2369,
+      2452,
+      2459,
+      2465,
+      2482
+    ],
+    "image_file": "002_near_rear_2452_baseline.jpg",
+    "sha256": "1b52a2f3bd9c15aefc6126987be4d0232b9414d9877af3d9c992ee45abe3f740"
+  },
+  {
+    "control": {
+      "tag": "002",
+      "slot": "near_rear",
+      "frame": 2452,
+      "new_id": 78
+    },
+    "mode": "confirm_new_id_opponent_negatives",
+    "frames": [
+      2357,
+      2369,
+      2452,
+      2459,
+      2465,
+      2482
+    ],
+    "image_file": "002_near_rear_2452_confirm_new_id_opponent_negatives.jpg",
+    "sha256": "f92a9f5add92e0ad85656db00bb72c9e9a4892966296924e62b147d16357ae39"
+  },
+  {
+    "control": {
+      "tag": "003",
+      "slot": "near_front",
+      "frame": 4572,
+      "new_id": 202
+    },
+    "mode": "baseline",
+    "frames": [
+      4559,
+      4571,
+      4572,
+      4579,
+      4585,
+      4602
+    ],
+    "image_file": "003_near_front_4572_baseline.jpg",
+    "sha256": "200f734a2aedb7738c61a223b69890d67ca6d784bdb5ece7811d00db735fff1f"
+  },
+  {
+    "control": {
+      "tag": "003",
+      "slot": "near_front",
+      "frame": 4572,
+      "new_id": 202
+    },
+    "mode": "confirm_new_id_opponent_negatives",
+    "frames": [
+      4559,
+      4571,
+      4572,
+      4579,
+      4585,
+      4602
+    ],
+    "image_file": "003_near_front_4572_confirm_new_id_opponent_negatives.jpg",
+    "sha256": "4b954eac85bf0380695320d8cbe231c1bc0ef2b4717893dbddd5b88e88e06ea7"
+  },
+  {
+    "control": {
+      "tag": "025",
+      "slot": "near_front",
+      "frame": 60372,
+      "new_id": 107
+    },
+    "mode": "baseline",
+    "frames": [
+      60358,
+      60370,
+      60372,
+      60379,
+      60385,
+      60402
+    ],
+    "image_file": "025_near_front_60372_baseline.jpg",
+    "sha256": "88f73a25ab8c20a8f080133560bcecc513e12f8aebcf3b0aedaa34ac7332e675"
+  },
+  {
+    "control": {
+      "tag": "025",
+      "slot": "near_front",
+      "frame": 60372,
+      "new_id": 107
+    },
+    "mode": "confirm_new_id_opponent_negatives",
+    "frames": [
+      60358,
+      60370,
+      60372,
+      60379,
+      60385,
+      60402
+    ],
+    "image_file": "025_near_front_60372_confirm_new_id_opponent_negatives.jpg",
+    "sha256": "7efb092b69df5e13b3ad6e33c26fe95f10fbe3eb7eb477b65ab323a250c13d81"
+  },
+  {
+    "control": {
+      "tag": "025",
+      "slot": "near_rear",
+      "frame": 60302,
+      "new_id": 84
+    },
+    "mode": "baseline",
+    "frames": [
+      60178,
+      60190,
+      60302,
+      60309,
+      60315,
+      60332
+    ],
+    "image_file": "025_near_rear_60302_baseline.jpg",
+    "sha256": "804588dc83ff9a0eda126f8d28bc401601bd100086cea896921d4b83d10c5ed6"
+  },
+  {
+    "control": {
+      "tag": "025",
+      "slot": "near_rear",
+      "frame": 60302,
+      "new_id": 84
+    },
+    "mode": "confirm_new_id_opponent_negatives",
+    "frames": [
+      60178,
+      60190,
+      60302,
+      60309,
+      60315,
+      60332
+    ],
+    "image_file": "025_near_rear_60302_confirm_new_id_opponent_negatives.jpg",
+    "sha256": "5df12620f7c2b55df546136255a930ef38fe1864b3dfaa6dfa7a63643ae74216"
+  }
+]

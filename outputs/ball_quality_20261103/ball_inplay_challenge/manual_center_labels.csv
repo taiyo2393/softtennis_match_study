@@ -1,0 +1,5 @@
+﻿sample_id,case_id,evaluation_split,candidate_id,local_frame,source_frame,truth_visibility,truth_x_px,truth_y_px,reviewer_id,label_confidence,phase_status,phase_review_status,ball_annotation_scope,notes,annotated_at_utc
+match1_motion_pilot_012_frame_000303,A,validation_challenge_never_training,match1_motion_pilot_012,303,83620,visible,966,529,human_user,,play,human_confirmed,human_ball_review,,2026-11-03T08:53:47.668731+00:00
+match1_motion_pilot_015_frame_000328,B,validation_challenge_never_training,match1_motion_pilot_015,328,104863,visible,1071,393,human_user,,play,human_confirmed,human_ball_review,,2026-11-03T08:54:13.525947+00:00
+match1_motion_pilot_019_frame_000305,C,validation_challenge_never_training,match1_motion_pilot_019,305,161813,visible,1106,541,human_user,,play,human_confirmed,human_ball_review,,2026-11-03T08:54:36.302368+00:00
+match1_motion_pilot_020_frame_000171,D,validation_challenge_never_training,match1_motion_pilot_020,171,172379,visible,814,367,human_user,,play,human_confirmed,human_ball_review,,2026-11-03T08:55:09.028124+00:00

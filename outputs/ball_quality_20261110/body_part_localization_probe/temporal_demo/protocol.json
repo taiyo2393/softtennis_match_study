@@ -1,0 +1,76 @@
+{
+  "segments": [
+    {
+      "tag": "006",
+      "first": 12410,
+      "last": 12432,
+      "label": "Actual player beside official"
+    },
+    {
+      "tag": "016",
+      "first": 40615,
+      "last": 40635,
+      "label": "Actual server retained"
+    },
+    {
+      "tag": "019",
+      "first": 46485,
+      "last": 46535,
+      "label": "Mixed official/player rectangles"
+    },
+    {
+      "tag": "019",
+      "first": 46620,
+      "last": 46645,
+      "label": "Rear player hidden behind teammate"
+    },
+    {
+      "tag": "019",
+      "first": 46650,
+      "last": 46680,
+      "label": "Near player wrongly labelled far F2"
+    }
+  ],
+  "selection_after_diagnostic_images": true,
+  "purpose": "Explain body-part feasibility and remaining failures over continuous source frames; not an independent temporal tracking test.",
+  "parameters": {
+    "imgsz": 1920,
+    "confidence": 0.25,
+    "nms_iou": 0.7,
+    "device": 0,
+    "pose_match_iou_min": 0.5,
+    "keypoint_confidence": 0.5,
+    "crop_edge_margin_native_pixels": 8,
+    "model_ankle_estimates_never_exported_as_observed_player_positions": true
+  },
+  "crop_model_native": [
+    960,
+    720,
+    3072,
+    1440
+  ],
+  "crop_display_native": [
+    1200,
+    970,
+    2800,
+    1900
+  ],
+  "output_dimensions": [
+    1920,
+    720
+  ],
+  "source_fps": 59.94005994005994,
+  "repeat": 3,
+  "aspect_preserved": true,
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "source_clock": "legacy_edited_match1",
+  "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m-pose.pt",
+  "native_IDs_unchanged": true,
+  "pose_indices_are_per_frame_not_track_IDs": true,
+  "model_outputs_not_exported_as_ground_contact": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\render_body_part_temporal_probe.py": "b49753153eae749da381f21df6dd6a159771b4f82b273f9ad9eb95da3739732b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\body_part_localization_probe\\protocol.json": "0220f3e73900ab4ddb715a3a40b5565a39b734f3f7451264cb0e3f5de28261a9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\body_part_localization_probe\\pose_predictions.json": "86fc365b546993220abf71c49249ff7673254af0b32fb3814c8c0ce6b08816b3"
+  }
+}

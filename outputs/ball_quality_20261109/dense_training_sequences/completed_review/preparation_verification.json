@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "metadata_selection_recomputed": true,
+  "original_clip_jpegs_exact": 124,
+  "source_images_hashed": 724,
+  "target_times_verified": 124,
+  "reused_centers_verified": 4,
+  "pending_new_human_targets": 120,
+  "decoded_video_frames": 724,
+  "context_videos": 4,
+  "input_sequences_verified": 124,
+  "target_seek_times_verified": 124,
+  "synthetic_save_history_passed": true,
+  "labels_unchanged": true,
+  "phase_not_propagated": true,
+  "no_inference_or_training": true,
+  "source_clip_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\motion_prediction_pilot\\match1\\match1_motion_pilot_003.mp4": "f20d39aad2d68b9e6db37b85f11239e938e8c61650d0d267be441bade22712cf",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\motion_prediction_pilot\\match1\\match1_motion_pilot_005.mp4": "6c2e419abd6ed5cc637d640e4d09200f01637ea44e501e9611d67efc07edc735",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\motion_prediction_pilot\\match1\\match1_motion_pilot_007.mp4": "61f8684ba135a935cf35a2730a28898f22c6cb3796eb0d0e85d6183863fce207",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\motion_prediction_pilot\\match1\\match1_motion_pilot_010.mp4": "71f4944f3b6001a694551addfd8a8176a6c60aa61352e0612532320e4412cc52"
+  },
+  "script_sha256": "0db99d8efbf4e5687646269e9844d2baf1ebe4e20cfc747242de2700c8ccb164"
+}

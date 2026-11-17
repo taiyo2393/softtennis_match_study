@@ -1,0 +1,54 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "fps": "60000/1001",
+  "clips": [
+    {
+      "point": 1,
+      "first_frame": 12312,
+      "last_frame": 12577,
+      "frames": 266,
+      "slowdown": 0.5,
+      "file": "point1_raw.mp4",
+      "sha256": "927015cb6a622844118dfdd6ce34a626c86898faff90b121d7fcb300322a9033"
+    },
+    {
+      "point": 2,
+      "first_frame": 13621,
+      "last_frame": 14086,
+      "frames": 466,
+      "slowdown": 0.5,
+      "file": "point2_raw.mp4",
+      "sha256": "326da308056802c1036c651c931f02ed9e877625237b57d817edef3575318be6"
+    },
+    {
+      "point": 3,
+      "first_frame": 15201,
+      "last_frame": 15522,
+      "frames": 322,
+      "slowdown": 0.5,
+      "file": "point3_raw.mp4",
+      "sha256": "3c992e34ae401dad7e6b125ee2941785b8e493d66edcc85f7bf2fdaff39c814f"
+    },
+    {
+      "point": 3,
+      "first_frame": 15475,
+      "last_frame": 15522,
+      "frames": 48,
+      "slowdown": 0.25,
+      "file": "point3_contact_raw_detail.mp4",
+      "sha256": "c9a8d6a38db7eb967b7f0bd852f72e8029335cd4c822d4f7d6e49f46bf19f6a7"
+    }
+  ],
+  "frozen_candidate_artifacts": {
+    "stroke_candidates.csv": "0253d3cc76f57875be8cb5c8d411de4c79784cdd4edef765fb655e9deb81fbf2",
+    "schematic_routes.json": "8c4d5a2842146105c172dffa4840c8c6822833635bfcc841eb9b416f7a8d000f"
+  },
+  "display": "source video and retimed original audio; no candidate tracks or hit timing cues",
+  "question": "Did the near red-and-black player make racket contact in the final exchange of point 3?",
+  "response_options": [
+    "contact",
+    "no contact",
+    "unclear"
+  ],
+  "reference_status": "not collected; prior exposure to predictions means this is a follow-up review"
+}

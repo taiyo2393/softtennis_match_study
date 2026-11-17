@@ -1,0 +1,32 @@
+{
+  "status": "fixed_before_new_object_labels",
+  "role": "training_only_never_evaluation",
+  "training_clips": [
+    "match1_motion_pilot_001",
+    "match1_motion_pilot_003",
+    "match1_motion_pilot_004",
+    "match1_motion_pilot_005",
+    "match1_motion_pilot_006",
+    "match1_motion_pilot_007",
+    "match1_motion_pilot_009",
+    "match1_motion_pilot_010"
+  ],
+  "positive_source": "102visible user-clicked centers in existing training120+newA/C/D3. Not new independent ball-enclosure checks.",
+  "review_pool": "ALLthreshold0.3 components >=64source pixels from visible manual target, on training clips only",
+  "label_caution": "Far from target is not generic non-ball. Multiple real balls possible, especially before play. Every actual ball counts positive regardless of target ID.",
+  "object_labels": "ball / not_ball / uncertain; none inferred from distance or old empty reviewer fields",
+  "patches": "Raw96x96 native source pixels saved PNG, reflect padding if needed; marker/header never enter training patches",
+  "media": "Target image with neutral candidate ring; context +/-24source frames at0.5x, target held. No manual target marker or presumed class displayed.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_component_cache.json": "c5b1740d4a37ad8ca48e34a4a4f0255935797e1797c77e315bcd004b02edb35c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\candidate_review.csv": "c8bc01430819f8aa7971a5341b31965da3ce40a2179f619cb3a94757afa04fd4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_labels.csv": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2"
+  },
+  "script_sha256": "01bd39fa9b7669978694a5fb60e8f14494f8b43ef96bfe67994b6939a0ef3abb"
+}

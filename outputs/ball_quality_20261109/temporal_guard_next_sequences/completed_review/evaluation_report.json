@@ -1,0 +1,63 @@
+{
+  "status": "completed_human_annotation_fixed_comparison",
+  "totals": {
+    "original_temporal": {
+      "correct16px": 24,
+      "wrong_position": 1,
+      "missing_visible_ball": 1,
+      "output_when_not_observable": 0,
+      "no_output_when_not_observable": 0,
+      "excluded_ball_uncertain": 0,
+      "excluded_nonplay": 0,
+      "excluded_phase_uncertain": 0,
+      "visible_targets": 26,
+      "pooled_visible_recall16px": 0.9230769230769231,
+      "macro_window_recall16px": 0.9230769230769231
+    },
+    "static_supplement": {
+      "correct16px": 25,
+      "wrong_position": 1,
+      "missing_visible_ball": 0,
+      "output_when_not_observable": 0,
+      "no_output_when_not_observable": 0,
+      "excluded_ball_uncertain": 0,
+      "excluded_nonplay": 0,
+      "excluded_phase_uncertain": 0,
+      "visible_targets": 26,
+      "pooled_visible_recall16px": 0.9615384615384616,
+      "macro_window_recall16px": 0.9615384615384616
+    },
+    "two_anchor_guard_all_outputs": {
+      "correct16px": 24,
+      "wrong_position": 1,
+      "missing_visible_ball": 1,
+      "output_when_not_observable": 0,
+      "no_output_when_not_observable": 0,
+      "excluded_ball_uncertain": 0,
+      "excluded_nonplay": 0,
+      "excluded_phase_uncertain": 0,
+      "visible_targets": 26,
+      "pooled_visible_recall16px": 0.9230769230769231,
+      "macro_window_recall16px": 0.9230769230769231
+    }
+  },
+  "guard_lost_no_static_correct": false,
+  "guard_lost_no_original_correct": false,
+  "pipeline_strict_improvement_guard_passed": false,
+  "guard_withheld_target_count": 1,
+  "guard_discrimination_not_demonstrated_if_zero_actions": false,
+  "phase_counts": {
+    "play": 26
+  },
+  "visibility_counts": {
+    "visible": 26
+  },
+  "labels_sha256": "41606625d89ad3cb2642d28f6a4709806f48495f3de249b95fd2d19915b69165",
+  "events_sha256": "8ed91aa7c5d26b837364df1fc958d70e349646cd0e16c601b7e8d361b64d6625",
+  "predictions_sha256": "5c6f536cf7f0fb0280df0afad97f40c512f998d478adcd278ebdd2ffd36f0ac7",
+  "reservation_sha256": "806d1424981623a16f26d1aed42badd5d45f8fd390a0d39124ac56d704d3a671",
+  "automatic_adoption": false,
+  "model_changed": false,
+  "canonical_tracking_changed": false,
+  "limitations": "Two small same-match development sequences;selection fixed before predictions,prior exposure incomplete,nearby samples correlated. Human phase conditional,not automatic segmentation/external/full-rally performance."
+}

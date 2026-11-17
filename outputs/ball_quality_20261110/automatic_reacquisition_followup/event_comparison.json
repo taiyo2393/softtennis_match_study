@@ -1,0 +1,214 @@
+{
+  "controls": [
+    {
+      "tag": "002",
+      "slot": "near_rear",
+      "frame": 2452,
+      "new_id": 78,
+      "baseline_observations_after_switch": 126,
+      "first_followup_matching_frame": 2459,
+      "additional_delay_frames": 7,
+      "within_original13frame_budget": true,
+      "AI_evidence_status": "pending_image_inspection",
+      "independent_human_GT": false
+    },
+    {
+      "tag": "003",
+      "slot": "near_front",
+      "frame": 4572,
+      "new_id": 202,
+      "baseline_observations_after_switch": 44,
+      "first_followup_matching_frame": 4577,
+      "additional_delay_frames": 5,
+      "within_original13frame_budget": true,
+      "AI_evidence_status": "pending_image_inspection",
+      "independent_human_GT": false
+    },
+    {
+      "tag": "025",
+      "slot": "near_front",
+      "frame": 60372,
+      "new_id": 107,
+      "baseline_observations_after_switch": 1,
+      "first_followup_matching_frame": null,
+      "additional_delay_frames": null,
+      "within_original13frame_budget": false,
+      "AI_evidence_status": "pending_image_inspection",
+      "independent_human_GT": false
+    },
+    {
+      "tag": "025",
+      "slot": "near_rear",
+      "frame": 60302,
+      "new_id": 84,
+      "baseline_observations_after_switch": 208,
+      "first_followup_matching_frame": 60302,
+      "additional_delay_frames": 0,
+      "within_original13frame_budget": true,
+      "AI_evidence_status": "pending_image_inspection",
+      "independent_human_GT": false
+    }
+  ],
+  "known011_failure_probes": [
+    {
+      "mode": "baseline",
+      "known_failure_probes": [
+        {
+          "source_frame": 27514,
+          "near_rear_raw_id": "409"
+        },
+        {
+          "source_frame": 27526,
+          "near_rear_raw_id": "409"
+        },
+        {
+          "source_frame": 27652,
+          "near_rear_raw_id": "409"
+        },
+        {
+          "source_frame": 27664,
+          "near_rear_raw_id": "409"
+        },
+        {
+          "source_frame": 27854,
+          "near_rear_raw_id": "409"
+        },
+        {
+          "source_frame": 27892,
+          "near_rear_raw_id": "409"
+        },
+        {
+          "source_frame": 27904,
+          "near_rear_raw_id": "409"
+        },
+        {
+          "source_frame": 27997,
+          "near_rear_raw_id": "409"
+        }
+      ],
+      "N2_raw409_assignment_rows": 821,
+      "raw_ID_counts_are_not_identity_accuracy": true
+    },
+    {
+      "mode": "confirm_new_id",
+      "known_failure_probes": [
+        {
+          "source_frame": 27514,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27526,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27652,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27664,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27854,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27892,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27904,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27997,
+          "near_rear_raw_id": "1"
+        }
+      ],
+      "N2_raw409_assignment_rows": 0,
+      "raw_ID_counts_are_not_identity_accuracy": true
+    },
+    {
+      "mode": "confirm_new_id_opponent_negatives",
+      "known_failure_probes": [
+        {
+          "source_frame": 27514,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27526,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27652,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27664,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27854,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27892,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27904,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27997,
+          "near_rear_raw_id": "1"
+        }
+      ],
+      "N2_raw409_assignment_rows": 0,
+      "raw_ID_counts_are_not_identity_accuracy": true
+    },
+    {
+      "mode": "followup",
+      "known_failure_probes": [
+        {
+          "source_frame": 27514,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27526,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27652,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27664,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27854,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27892,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27904,
+          "near_rear_raw_id": "1"
+        },
+        {
+          "source_frame": 27997,
+          "near_rear_raw_id": "1"
+        }
+      ],
+      "N2_raw409_assignment_rows": 0,
+      "raw_ID_counts_are_not_identity_accuracy": true
+    }
+  ],
+  "stable005_near_assignments_exactly_unchanged": true,
+  "original_guardBC_decision": "Reject:003 valid sustained switch lost44 frames;025 edge observation also not retained.",
+  "followup_decision": "Experimental candidate only. Three sustained switches recover;025 one-frame edge switch not retained. Needs image inspection and independent evaluation.",
+  "independent_identity_accuracy_established": false
+}

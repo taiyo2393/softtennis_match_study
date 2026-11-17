@@ -1,0 +1,393 @@
+[
+  {
+    "point": 1,
+    "stroke": 1,
+    "hitter_candidate": "F1",
+    "contact_interval": [
+      12324,
+      12326
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": 12411,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.292593860830465,
+        4.293579784953348
+      ],
+      "depth_difference_m": [
+        3.8222942510360873,
+        3.823808380156369
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        1.3570832135821072,
+        1.3576912330309865
+      ]
+    },
+    "next_hitter_candidate": "N1",
+    "terminal_review_label": null,
+    "scoring_side": "near",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 1,
+    "stroke": 2,
+    "hitter_candidate": "N1",
+    "contact_interval": [
+      12434,
+      12438
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": null,
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.464509074243642,
+        3.5001349557352874
+      ],
+      "depth_difference_m": [
+        0.004371306282930476,
+        0.23556483111173065
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "next_hitter_candidate": "F2",
+    "terminal_review_label": null,
+    "scoring_side": "near",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 1,
+    "stroke": 3,
+    "hitter_candidate": "F2",
+    "contact_interval": [
+      12466,
+      12475
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": 12571,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        5.369190766681985,
+        5.430304620854804
+      ],
+      "depth_difference_m": [
+        2.8219254995393306,
+        2.9569457554960508
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        3.796285697333829,
+        3.933523939726773
+      ]
+    },
+    "next_hitter_candidate": null,
+    "terminal_review_label": "hitting_side_out",
+    "scoring_side": "near",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 2,
+    "stroke": 1,
+    "hitter_candidate": "F1",
+    "contact_interval": [
+      13647,
+      13656
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": 13712,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.3185750276277752,
+        3.3768793887926094
+      ],
+      "depth_difference_m": [
+        4.3312952069616175,
+        4.364226087436622
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        1.8506308025746665,
+        1.89414688584996
+      ]
+    },
+    "next_hitter_candidate": "N2",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 2,
+    "stroke": 2,
+    "hitter_candidate": "N2",
+    "contact_interval": [
+      13728,
+      13734
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": null,
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.45375482086574,
+        3.4908164187727526
+      ],
+      "depth_difference_m": [
+        2.0950491956856503,
+        2.501433934039772
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "next_hitter_candidate": "F2",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 2,
+    "stroke": 3,
+    "hitter_candidate": "F2",
+    "contact_interval": [
+      13754,
+      13766
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": null,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.057139642444678,
+        4.254659744537063
+      ],
+      "depth_difference_m": [
+        3.38230484576317,
+        3.578691871485446
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "next_hitter_candidate": "N1",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 2,
+    "stroke": 4,
+    "hitter_candidate": "N1",
+    "contact_interval": [
+      13851,
+      13860
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": 13979,
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.430083784674956,
+        3.6140528425692287
+      ],
+      "depth_difference_m": [
+        0.2952173648790932,
+        0.6058261438618064
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        6.894384474888242,
+        7.02065801505506
+      ]
+    },
+    "next_hitter_candidate": "F2",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 2,
+    "stroke": 5,
+    "hitter_candidate": "F2",
+    "contact_interval": [
+      14016,
+      14022
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": 14074,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.840084503994374,
+        4.92204245226665
+      ],
+      "depth_difference_m": [
+        5.225398475672671,
+        5.289719265130794
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        3.3699427749863045,
+        3.4409982116540716
+      ]
+    },
+    "next_hitter_candidate": null,
+    "terminal_review_label": "no_return_observed",
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 3,
+    "stroke": 1,
+    "hitter_candidate": "F2",
+    "contact_interval": [
+      15214,
+      15222
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": 15250,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.698653739680753,
+        4.740659956980224
+      ],
+      "depth_difference_m": [
+        4.486946305829723,
+        4.541431791242954
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        6.11222331394968,
+        6.150490193435323
+      ]
+    },
+    "next_hitter_candidate": "N1",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 3,
+    "stroke": 2,
+    "hitter_candidate": "N1",
+    "contact_interval": [
+      15276,
+      15285
+    ],
+    "receiving_pair_full_contact_window": false,
+    "bounce_candidate_frame": null,
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "features_min_max": {},
+    "next_hitter_candidate": "F1",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 3,
+    "stroke": 3,
+    "hitter_candidate": "F1",
+    "contact_interval": [
+      15313,
+      15321
+    ],
+    "receiving_pair_full_contact_window": false,
+    "bounce_candidate_frame": 15344,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {},
+    "next_hitter_candidate": "N1",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 3,
+    "stroke": 4,
+    "hitter_candidate": "N1",
+    "contact_interval": [
+      15378,
+      15383
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": null,
+    "receiving_players": [
+      "F1",
+      "F2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        3.3464775022272466,
+        3.4423016983133365
+      ],
+      "depth_difference_m": [
+        10.940583237458224,
+        11.739550956193359
+      ],
+      "nearest_to_bounce_at_contact_m": null
+    },
+    "next_hitter_candidate": "F1",
+    "terminal_review_label": null,
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  },
+  {
+    "point": 3,
+    "stroke": 5,
+    "hitter_candidate": "F1",
+    "contact_interval": [
+      15457,
+      15465
+    ],
+    "receiving_pair_full_contact_window": true,
+    "bounce_candidate_frame": 15477,
+    "receiving_players": [
+      "N1",
+      "N2"
+    ],
+    "features_min_max": {
+      "lateral_spacing_m": [
+        4.323025456411392,
+        4.999095051998895
+      ],
+      "depth_difference_m": [
+        2.540424080056967,
+        3.0582851653834675
+      ],
+      "nearest_to_bounce_at_contact_m": [
+        4.1282373123167675,
+        4.686345644349998
+      ]
+    },
+    "next_hitter_candidate": null,
+    "terminal_review_label": "no_return_observed",
+    "scoring_side": "far",
+    "outcome_role": "rally_level_label_shared_across_strokes"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "status": "training_safety_passed",
+  "passed": true,
+  "previous_play": {
+    "method": "static_supplement",
+    "phase_status": "play",
+    "correct16px": 59,
+    "wrong_position": 0,
+    "missing_visible_ball": 9,
+    "output_when_not_observable": 1,
+    "no_output_when_not_observable": 8
+  },
+  "guarded_play": {
+    "method": "guard_all_outputs",
+    "phase_status": "play",
+    "correct16px": 59,
+    "wrong_position": 0,
+    "missing_visible_ball": 9,
+    "output_when_not_observable": 1,
+    "no_output_when_not_observable": 8
+  },
+  "lost_correct_sample_ids": [],
+  "target_numeric_match_count": 123,
+  "target_count": 123,
+  "total_withheld": 0,
+  "known_failure_regression_permitted": true,
+  "operational_adoption": false,
+  "scope": "Training-only sanity check of one fixed heuristic,not external evaluation.",
+  "artifacts": {
+    "protocol.json": "b70833b1d38eaf5dd02c1963e47266ad1bbf7f5c930df02aeff5f98ffdf1eff0",
+    "training_global_contexts.json": "bd2bcb971dc104b12ca3e33ee7f0bcfdb88d22bf2dc3bc8aecb8d062784ad140",
+    "training_anchor_observations.json": "d8ba78ec89000506f7486643094abc4326d71975d1ec0435e96512f1e885713a",
+    "training_input_hashes.json": "4ae5054e70dd43fe6188fa17ab10e0957243bdb4f7974d81d4e737b056c8795a",
+    "training_guarded_predictions.csv": "068a3cadfcedc84022e9734303561e38fc6db8e17d1d19f063dc10c48dcd22fd",
+    "training_additions_only_guard.csv": "068a3cadfcedc84022e9734303561e38fc6db8e17d1d19f063dc10c48dcd22fd",
+    "training_guard_diagnostics.csv": "567747e3e6ae78464d975d646550242eba7b3840bc39129afc774bedbda97b90",
+    "training_summary.csv": "92dca5d6d2cd7f07dcff984c08e1e64769827393a3dea19f630c3646f71b38c0",
+    "training_per_frame_outcomes.csv": "d6cabc3b4eb182da767b1633fbb386d2d780825a1e43793291a5917b8bd918e5"
+  }
+}

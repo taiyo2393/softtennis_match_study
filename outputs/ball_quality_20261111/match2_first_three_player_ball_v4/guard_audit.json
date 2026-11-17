@@ -1,0 +1,47 @@
+{
+  "original_tracking_sha256": "296b686102ae955aa1ba791404fdda2c2bb9d63e00fcc78adba1c44d1dc4d838",
+  "report": {
+    "1": {
+      "counts": {
+        "proxy_shown": 406,
+        "foot_overlap": 78
+      },
+      "raw_largest_adjacent_step_m": 5.811274433434291,
+      "shown_largest_adjacent_step_m": 0.38339702506137074
+    },
+    "2": {
+      "counts": {
+        "proxy_shown": 752,
+        "foot_overlap": 42
+      },
+      "raw_largest_adjacent_step_m": 7.8674551991804265,
+      "shown_largest_adjacent_step_m": 0.4238619090666712
+    },
+    "3": {
+      "counts": {
+        "airborne_serve_visual_review": 5,
+        "proxy_shown": 429,
+        "foot_overlap": 119,
+        "unstable_foot_position": 13
+      },
+      "raw_largest_adjacent_step_m": 4.562493650075433,
+      "shown_largest_adjacent_step_m": 0.40392741120380316
+    }
+  },
+  "upper_bound_adjacent_display_step_m": 0.45,
+  "minimum_visible_run_frames": 3,
+  "scope": "Display rule developed on these three rallies. Covered positions are missing, not ground truth.",
+  "point3_terminal_contact_review": {
+    "point": 3,
+    "display_id": "N2",
+    "first_source_frame": 15496,
+    "last_source_frame": 15500,
+    "racket_contact": "no_contact",
+    "review_source": "user_followup_on_raw_detail_video",
+    "user_response": "触れていない",
+    "review_clip": "point3_contact_raw_detail.mp4",
+    "review_clip_sha256": "c9a8d6a38db7eb967b7f0bd852f72e8029335cd4c822d4f7d6e49f46bf19f6a7",
+    "display_note": "終盤のN2は接触なし（確認済み）"
+  },
+  "shot_uncertainty": "P3 N2 F15496–15500: user reviewed no contact."
+}

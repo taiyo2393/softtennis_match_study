@@ -1,0 +1,21 @@
+{
+  "status": "frozen_full_fit_passed_training_scope",
+  "passed": true,
+  "baseline": {
+    "correct16px": 52,
+    "no_output_when_not_observable": 8,
+    "missing_visible_ball": 16,
+    "output_when_not_observable": 1
+  },
+  "candidate": {
+    "correct16px": 59,
+    "no_output_when_not_observable": 8,
+    "missing_visible_ball": 9,
+    "output_when_not_observable": 1
+  },
+  "original_outputs_preserved": true,
+  "model_sha256": "91a05599577e9462092b05ae27109a1e30089adaf6f3dee186436b7493e504b8",
+  "no_confirmation_labels_used_in_fit": true,
+  "threshold": 0.5,
+  "automatic_adoption": false
+}

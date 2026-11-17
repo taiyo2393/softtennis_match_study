@@ -1,0 +1,5 @@
+﻿source_frame,player_slot,reviewer,identity_visual_interpretation,overlapping_player,bbox_bottom_position_risk,independent_identity_label_created,independent_foot_label_created,validated_court_position_available,position_imputation_performed
+54328,far_rear,AI assistant; not independent GT,Box surrounds the same magenta-shirt far player in these neighboring frames,F2,Not independently validated,0,0,0,0
+54330,far_rear,AI assistant; not independent GT,Box surrounds the same magenta-shirt far player in these neighboring frames,F2,Not independently validated,0,0,0,0
+54538,far_rear,AI assistant; not independent GT,Box surrounds the same magenta-shirt far player in these neighboring frames,N1,"Upper-body detection; bottom ends near waist, not feet",0,0,0,0
+54544,far_rear,AI assistant; not independent GT,Box surrounds the same magenta-shirt far player in these neighboring frames,N1,"Upper-body detection; bottom ends near waist, not feet",0,0,0,0

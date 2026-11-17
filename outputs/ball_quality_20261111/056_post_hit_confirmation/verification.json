@@ -1,0 +1,10 @@
+{
+  "prior_publication_files_unchanged": 15,
+  "original_tail_rows_preserved": 42,
+  "all_original_columns_exact": true,
+  "post_interval_displayed_candidates_receiving_window_review": 15,
+  "human_review_actions": 1,
+  "new_exact_center_labels": 0,
+  "new_absence_labels": 0,
+  "new_interpolated_or_predicted_positions": 0
+}

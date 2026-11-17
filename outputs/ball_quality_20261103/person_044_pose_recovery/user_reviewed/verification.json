@@ -1,0 +1,14 @@
+{
+  "review_id": "20261103_044_eleven_recovered_boxes_identity",
+  "confirmed_added_boxes": 11,
+  "previous1577_rows_preserved_exactly": true,
+  "all_coordinates_unchanged_from_proposed_observations": true,
+  "interpolated_positions_added": 0,
+  "remaining_missing_player_times": 76,
+  "frames_with_four_observed_boxes": 326,
+  "original_proposed_and_previous_reviewed_files_preserved": true,
+  "reviewed_ball_output_unchanged": true,
+  "source_review_tables_unchanged": true,
+  "reviewed_output_sha256": "55f4ffdbfea897a1df679ff11ac12a383fae370f8d2853ea73d4ac4070ec8b42",
+  "independent_accuracy_established": false
+}

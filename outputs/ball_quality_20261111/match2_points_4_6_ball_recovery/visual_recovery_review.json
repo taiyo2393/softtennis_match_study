@@ -1,0 +1,21 @@
+{
+  "basis": "Assistant spot review of magnified source images before, during, and after each proposal. Candidate centres remain approximate. This review is not independent ground truth.",
+  "accepted": [
+    {"source_frame": 16795, "method": "local_crop"},
+    {"source_frame": 16831, "method": "local_crop"},
+    {"source_frame": 16832, "method": "full_image"},
+    {"source_frame": 17136, "method": "local_crop"},
+    {"source_frame": 18723, "method": "local_crop"},
+    {"source_frame": 18947, "method": "local_crop"},
+    {"source_frame": 18989, "method": "local_crop"},
+    {"source_frame": 20883, "method": "local_crop"},
+    {"source_frame": 20930, "method": "local_crop"},
+    {"source_frame": 21211, "method": "local_crop"}
+  ],
+  "rejected": [{"source_frame": 16788, "reason": "Both methods pick the moving racket head."}],
+  "uncertain": [
+    {"source_frame": 16794, "reason": "At the logo edge; streak not separable."},
+    {"source_frame": 16824, "reason": "Ball over lettering; the ring may mark lettering or an offset candidate."},
+    {"source_frame": 16826, "reason": "Ball near the net tape; insufficient visual separation at the ring."}
+  ]
+}

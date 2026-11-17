@@ -1,0 +1,25 @@
+{
+  "scope": "Retrospective diagnosis of the sole visible reference miss among the first three points.",
+  "target": 15505,
+  "inputs_to_guide": [
+    15503,
+    15504
+  ],
+  "guide_xy_px": [
+    727.0,
+    654.0
+  ],
+  "guide_rule": "One-frame constant velocity from the two preceding baseline candidates. Reference position is used only for scoring.",
+  "temporal_difference_from_056": "Past-only guide, because this is the last frame of the analysis window.",
+  "threshold": 0.1,
+  "search_radius_px": 32.0,
+  "crop_xyxy": [
+    247,
+    384,
+    1207,
+    924
+  ],
+  "weight_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "baseline_sha256": "18386b9b130bfeac98dd0020345a9cdbb522bc1f38a608b5911546ab9a330d39",
+  "candidate_rule": "Return exactly one heatmap component center inside the guide radius. No returned extrapolated point."
+}

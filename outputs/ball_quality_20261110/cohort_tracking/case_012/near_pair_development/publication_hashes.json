@@ -1,0 +1,23 @@
+{
+  "AI_visual_findings.json": "be0a6ad158807486bbdb78e0bc6f36505ce9be8fb96d64ba0b4c0be8c879c1ac",
+  "case_result.json": "69aa55159c4556f54a1bf5af31a273de0797750a601829622b59c0f3379e719d",
+  "executed_finalize_pair_initialization_development.py": "3b21e1eb9e20c7a0e4987484f5d24c7336a80d1197d090dae94482e792b94708",
+  "executed_materialize_pair_initialization_case.py": "9c7e87cb9501a5b5c534303d54b4609d1ccac52fcc10df1e39ed87609b655bb0",
+  "executed_pair_initialization_guard.py": "1a4da3a958e94a47398224e54c49400b43f22e69ce323aa2b79ca76a691627b4",
+  "executed_record_pair_development_review.py": "4afb1fcb9e56d837e8d254c743e61093b9427d58e07835de0a7686e978e6b82a",
+  "four_player_path.csv": "b022710f8ec28f032251363599e2588bd5e40f1c882224cce5df47bd2fe6891c",
+  "prefix_frame_features.csv": "fe701e498a7ed716b4788961f22c4f98e6595eb74b32e40641e604c90e621635",
+  "prefix_player_summary_features.csv": "1bcdee5b2f5a31ab6d9818ac9dd69b37cac3230d6c53f40a60fbdc828df7f3d6",
+  "protocol.json": "1186a40539638451088eade4e93f006e576de75a1ee5516e8df5555648ee640b",
+  "README.md": "a635315d1c1fb37fb776a7ea8079e1162607ca0e0b80061a1e220283c757544d",
+  "snapshot_player_features.csv": "609fb04f85e2aa9781ec9e29e382934e1baf015b307777cfd8ea0cfb1b44b089",
+  "tracking_quality_20261102_stage4\\players_012_temporal\\events.json": "0b5f0805eccf2ec52b92c7b86ba45f925fc0242cea295fa88f0c1c0a7951b84f",
+  "tracking_quality_20261102_stage4\\players_012_temporal\\selected_four.csv": "2a953c0e69430f8b93c4fcdc0d022bfa55f2a464a1680c0997b30eae77cf6843",
+  "tracking_quality_20261102_stage4\\players_012_temporal\\summary.json": "f86a8a790e952d2512994a6fd202fd30cc6dadddae7ed4970a7a6f44f22dd661",
+  "tracking_quality_20261102_stage7\\players_012_global\\far_pair_path.csv": "b83c58ae543bcbb39deb3ebd859562d34a7530865a2ab589c6bbcc2a42352e78",
+  "tracking_quality_20261102_stage7\\players_012_global\\global_review_h264.mp4": "e4c758b94a8cbd85331d011fac00abaa87ac78d59b9904bb1907fb6e429065b2",
+  "tracking_quality_20261102_stage7\\players_012_global\\intermediate.mp4": "4c1289c5af0c245c149e548a880436d47b6726103e075e6066b33553bb428680",
+  "tracking_quality_20261102_stage7\\players_012_global\\protocol.json": "bbaa8cc6269355be0c4acb07c1fa8eee907a1125fa0e2eda2215c170bbf6a8df",
+  "tracking_quality_20261102_stage7\\players_012_global\\summary.json": "326e0c72d4ca077fd15921b72dccb49d3c8f5e8a072920a89874cb4334039a70",
+  "verification.json": "a7370be9e5ef6e2b6938cab638967eb791ff34a21a0a494f2edc330f5472cf57"
+}

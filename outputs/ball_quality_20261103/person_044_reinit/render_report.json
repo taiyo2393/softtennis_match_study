@@ -1,0 +1,20 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\person_review_h264.mp4",
+  "decoded_frames": 832,
+  "audio": true,
+  "source_local_frames": [
+    725,
+    1140
+  ],
+  "speed": 0.5,
+  "source_aspect_preserved": true,
+  "fixed_crop_source_pixels": [
+    600,
+    430,
+    1680,
+    730
+  ],
+  "crop_enlargement": 1.3333333333333333,
+  "paths_sha256": "98da909086bdcd5fc144f7d2875bc692652d8f3aa7994b4016afe899548ca016",
+  "identity_accuracy_established": false
+}

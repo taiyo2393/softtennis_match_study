@@ -1,0 +1,8 @@
+{
+  "ambiguous_candidates_not_forced": true,
+  "long_gaps_do_not_connect": true,
+  "no_invented_intermediate_coordinates": true,
+  "previous_user_confirmed_points_preserved": true,
+  "raw968_exclusion_is_two_sided_distance_supported": true,
+  "independent_accuracy_evaluation": false
+}

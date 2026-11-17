@@ -1,0 +1,36 @@
+{
+  "points": [
+    {
+      "point": 2,
+      "source_frames": 399,
+      "candidate_output_frames": 304,
+      "human_reference_frames_selected": 6,
+      "human_references_saved": 0,
+      "baseline_csv_sha256": "9c9b255c91aa730b9293af10838e5d3dd5cd1df1e0876ecacf6a48afd0522bbf"
+    },
+    {
+      "point": 3,
+      "source_frames": 283,
+      "candidate_output_frames": 244,
+      "human_reference_frames_selected": 6,
+      "human_references_saved": 0,
+      "baseline_csv_sha256": "18386b9b130bfeac98dd0020345a9cdbb522bc1f38a608b5911546ab9a330d39"
+    }
+  ],
+  "total_reference_frames": 12,
+  "ball_weight_verified": true,
+  "reference_images": {
+    "F13657.png": "10f204255b4ee1a5a074cdeba652b5acd2a2e613839a3cef3ca1616d141c9f9d",
+    "F13737.png": "96f8ed13f607a6303a6823cb77509ac27d4daf65606619e0996c1c1af646f45a",
+    "F13816.png": "9dc9ed868616e9589c3f7592a4d0a0e3f5c7b336ebe5b4477ff48743d7cc64eb",
+    "F13896.png": "8bde6e8154aa2bc4bae386bbaeb6dafa39499b4f3bbcb3028f326281fc8e5238",
+    "F13975.png": "47432dcb7c61570d94881b9684f7d8b664a73155e22bc78af8ebc362ed2d022b",
+    "F14055.png": "f4fcd366fa4eda6759b0dc2d03e2da1b3502fcb6408dde42a9530a56e9d1b2e8",
+    "F15223.png": "8130539507c50932c2512391cb377f2e9f11a8e62906ab367c4d8d90ac5b2fc0",
+    "F15279.png": "7702d2b6b9b61978445e355f9d005934f2a524ff7ca5090307a622eed9f08827",
+    "F15336.png": "c403b9a975c0812129805f070bc4a15c265788ec1f1ff27270fa571229873e02",
+    "F15392.png": "f892c514d77d096759c3308723001542c09cfafd14f361f494348777a013f60a",
+    "F15449.png": "b0c9edd4e08beeed13e08250ae2970595c5f2eabb2e80d8f290446fd9bbed1b7",
+    "F15505.png": "bd07b8184a30b5edde8e961334b5170f742babdd2e7df10d8dc5b7d49f338c60"
+  }
+}

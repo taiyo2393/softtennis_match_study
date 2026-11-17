@@ -1,0 +1,16 @@
+{
+  "status": "four_human_centers_ingested_three_used",
+  "human_center_count": 4,
+  "training_added": 3,
+  "excluded_case": "B",
+  "excluded_reason": "User note explicitly says post-play; no need to track it",
+  "raw_annotations_preserved": true,
+  "all_saved_events_match_csv": true,
+  "source_clocks_checked": true,
+  "new_training_input_hashes_disjoint_from_validation_and_audit": true,
+  "phase_of_other_three": "unknown; no in-play claim",
+  "selected_active_learning_cases_not_evaluation": true,
+  "labels_sha256": "23a663c32bea94993d600dd61aed2081bb849ca859f1da5d7997d7b8285ad17f",
+  "event_log_sha256": "450daba1e5c88032a6c476449c0a78999a8e0a51910352298bbccb1faec8c900",
+  "expanded_labels_sha256": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334"
+}

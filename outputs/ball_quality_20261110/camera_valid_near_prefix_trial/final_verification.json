@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "contexts": 10,
+  "requested_times": 310,
+  "changed_requested_times": 20,
+  "changed_contexts": [
+    "006"
+  ],
+  "added_requested_native_boxes": 40,
+  "additional_prefix_contexts": [
+    "005",
+    "006"
+  ],
+  "compatible_observed_raw_ID_handoffs": 2,
+  "no_independent_early_initialization_in_remaining_contexts": 8,
+  "all_original_native_observations_and_far_paths_unchanged": true,
+  "all_protected_hashes_unchanged": true,
+  "synthetic_invariant_tests_passed": 7,
+  "media_decode_verified": true,
+  "current22_and_published_reference_evaluation_unchanged": true,
+  "independent_accuracy_claim": false
+}

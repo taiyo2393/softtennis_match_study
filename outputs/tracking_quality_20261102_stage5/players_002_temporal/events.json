@@ -1,0 +1,195 @@
+[
+  {
+    "event": "initialized",
+    "frame": 2230,
+    "window_start": 2223,
+    "seed_ids": {
+      "near_front": 1,
+      "near_rear": 2,
+      "far_rear": 5,
+      "far_front": 4
+    },
+    "identity_status": "candidate_not_ground_truth",
+    "identity_scope": "clip_local_initial_anchor_not_global_player_name"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2467,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2460,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.4591335686021484,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2475,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2468,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.3736350760814208,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2483,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2476,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.358615900144388,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2491,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2484,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.44850405815002015,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2499,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2492,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.47705650905694086,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2507,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2500,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.48915344603910305,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2515,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2508,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.5089142912672369,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2523,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2516,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.4977675381450702,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2531,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2524,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.5061328646509775,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2539,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2532,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.5061607116813656,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2547,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2540,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.5124429018977803,
+    "identity_status": "unresolved_not_assigned"
+  },
+  {
+    "event": "reacquisition_withheld_partner_ambiguous",
+    "frame": 2555,
+    "player_slot": "far_front",
+    "last_observed_frame": 2389,
+    "old_raw_id": 4,
+    "new_raw_id": 76,
+    "confirmation_start": 2548,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      76
+    ],
+    "alternative_cost_margin": 0.5180248519656552,
+    "identity_status": "unresolved_not_assigned"
+  }
+]

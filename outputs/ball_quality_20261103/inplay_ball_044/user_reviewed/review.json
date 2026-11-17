@@ -1,0 +1,65 @@
+{
+  "review_id": "20261103_044_ball_components_773_784_1103",
+  "recorded_date": "2026-11-03",
+  "reviewer": "user",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "rally_candidate_id": "match1_rally_window_044",
+  "clock": "legacy edited match1; clip local frame indices",
+  "question": "この3箇所で、緑の丸は実際のボールを囲めていますか？",
+  "answer": "この3箇所で、緑の丸は実際のボールを囲めている．",
+  "scope": "The three displayed green candidates enclose the real ball. No full-track or precise-center confirmation.",
+  "candidates": [
+    {
+      "local_frame": 773,
+      "source_frame": 115408,
+      "original_xy_px": [
+        1310.0,
+        658.0
+      ],
+      "reviewed_component_xy_px": [
+        1026.5181343607728,
+        607.1428829973778
+      ],
+      "component_rank": 2,
+      "component_peak": 0.3564453125,
+      "candidate_is_ball": true,
+      "precise_pixel_center_reviewed": false
+    },
+    {
+      "local_frame": 784,
+      "source_frame": 115419,
+      "original_xy_px": [
+        1233.0,
+        637.0
+      ],
+      "reviewed_component_xy_px": [
+        1106.2069861040588,
+        672.6955703526279
+      ],
+      "component_rank": 2,
+      "component_peak": 0.4619140625,
+      "candidate_is_ball": true,
+      "precise_pixel_center_reviewed": false
+    },
+    {
+      "local_frame": 1103,
+      "source_frame": 115738,
+      "original_xy_px": [
+        691.0,
+        556.0
+      ],
+      "reviewed_component_xy_px": [
+        823.8513873711323,
+        533.1147994751086
+      ],
+      "component_rank": 2,
+      "component_peak": 0.396728515625,
+      "candidate_is_ball": true,
+      "precise_pixel_center_reviewed": false
+    }
+  ],
+  "reviewed_video_sha256": "932f69155e8a774636267909303e30bf733a1763829e23074993749231621743",
+  "proposal_csv_sha256": "3a60edadf1819393a0f5b862d60dbe1d4f0fe38d26612c5e7ae5dc5a054bf2de",
+  "frozen_evaluation_labels_modified": false,
+  "independent_localization_accuracy_measured": false
+}

@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "483e6cd09a3b0cccdf07043c215c577e835b4ea2b075d56cee04f7452b4693f6",
+  "additional_verification.json": "bf3ee5c1f6fcfc5a45dc40168bb5b92912e37db34e86359b7fa7c9933e1556fd",
+  "B1_server_side.csv": "dbf6eb73c7da0ccf6b99ebbf99f8d4477c493aef56b6bcb0141315327a50a1a0",
+  "B2_snapshot.csv": "66dca26a054def227070c93a7e9de09b86eca5f4754cc5b3914ea11d9285c9dd",
+  "B2_window_means.csv": "b1484df95c060b5cdb18b187683f60e09d04c375088c11a1284b23b441b60536",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "f34b60442354d5c256280f5b46fe2393c568e294b37e452b70b86a27a74bc9b9",
+  "diagnostic_window_masks_only.csv": "d9b8f7210afb8a37647eba49e3126f583edd04750c70fc244eb1b175d98ce0e9",
+  "executed_source.py": "73be7c1fb554b899ef43d923eab10a7f43e35e539e9e1ca49044cb5bc4d8f926",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "f449353aabb3ef382db68d43f2f6912af52a84203375cff3ed6781b85e309ac5",
+  "human_outcomes.csv": "7ba54433351b51f78c4a844cbde91e50259020a49ee5dede9179d3d97a987e8b",
+  "outcome_label_status.csv": "3dd15cf20981a33794dc1127a7d2a770337e1a24c462d8e749537720eebc3b55",
+  "processing_interventions.csv": "f1d6a2ec38d5b7540bc4540a78f235b455aca6d99921611f0658b66711ea0e3f",
+  "protocol.json": "b8d5a8b071a27dab3db1b95be8f25d4b0aad132fbcae86d21e14681a6e8900d6",
+  "rally_metadata.csv": "c3108fa3c53ab9d6acc8a519af613deb290da0070b9c10bbb873da452337b4f5",
+  "README.md": "ee141732860f6b405bcc6da95a50c8949aaaefc9b49cea84cb4c5ffea2b389e2",
+  "result.json": "6c008363c8febb9f0b7158a8afe12f14c6588c2409fb6f2180b103b6eeab0bbf",
+  "source_snapshot_features.csv": "4dd3768c73deb54d9c6b73fb6eee3dee64a516d4119a2215aa1633245631e96e",
+  "source_window_summary_features.csv": "3f67366a57849825df5e4fc8b2d3537e6e09c510b698f5dbf6378b3c42ba1172",
+  "verification.json": "4d691c11f949eb51a3f5f73de4c523bf3792b4c78b51de4f5597c2ca6bbf48ba"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "partial_result_not_adopted",
+  "reason": "Spatial support preserves prior016 observations but fails to reject remaining mixed/wrong-person boxes in019. Near-exclusion ablation has no output effect in any of the ten cases.",
+  "canonical_pipeline_replaced": false,
+  "current22_unchanged": true,
+  "confirmed_human_outcomes": 11,
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "next_unresolved_candidate": "match1_rally_window_019",
+  "do_not_skip019_or_change_input_windows": true,
+  "remaining_known_or_ambiguous_examples": [
+    46511,
+    46634,
+    46665,
+    46666
+  ],
+  "independent_accuracy_established": false,
+  "next_action": "Address single-person localization and identity evidence separately. Use a controlled masked-appearance or body-part localization prototype before another numerical threshold change; compare the retained failures and all nine controls, and keep native observations distinct from inferred positions."
+}

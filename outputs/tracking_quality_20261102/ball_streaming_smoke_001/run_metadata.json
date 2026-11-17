@@ -1,0 +1,19 @@
+{
+  "video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\motion_prediction_pilot\\match1\\match1_motion_pilot_001.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 59.94005994005994,
+  "start_frame": 0,
+  "end_frame_exclusive": 240,
+  "frames": 240,
+  "threshold": 0.3,
+  "device": "cuda",
+  "checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+  "checkpoint_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "median_source": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_001\\runs\\threshold030_median120\\median.npz",
+  "background_mode": "provided_median_resized",
+  "median_samples": null,
+  "temporal_alignment": "last input frame equals output frame",
+  "interpolation": false,
+  "warning": "Heatmap confidence is not calibrated probability; coordinates use the input video resolution. Online future-free inference is not claimed: median may use the entire interval."
+}

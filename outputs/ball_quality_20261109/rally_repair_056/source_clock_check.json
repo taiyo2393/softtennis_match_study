@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "contact_frames": [
+    154079,
+    154080,
+    154081,
+    154082,
+    154083,
+    154084,
+    154085,
+    154086,
+    154087
+  ],
+  "finish_frames": [
+    154865,
+    154868,
+    154871,
+    154874,
+    154877,
+    154880,
+    154883,
+    154886,
+    154889,
+    154892,
+    154895,
+    154898
+  ],
+  "contact_sheet_sha256": "312947745aa45c2907d6c297fc9ac480115c016d4bac18501e326ebd9fcca9be",
+  "finish_sheet_sha256": "d369b061876e6996eb50cb944551dd81210429ef8d5db6c793699d7dade34479",
+  "both_sheets_byte_identical": true,
+  "conclusion": "Raw match1.mp4 matches legacy056clock;not a certificate of exact serve/end event boundaries."
+}

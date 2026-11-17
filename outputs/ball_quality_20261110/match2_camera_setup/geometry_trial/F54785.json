@@ -1,0 +1,30 @@
+{
+  "source_frame": 54785,
+  "all_four_paint_lines_supported": false,
+  "line_diagnostics": {
+    "far": {
+      "pixels": 4448,
+      "bin_coverage": 0.6,
+      "median_residual_px": 3.9794156653806567,
+      "accepted": false
+    },
+    "right": {
+      "pixels": 11,
+      "bin_coverage": 0.05,
+      "accepted": false
+    },
+    "near": {
+      "pixels": 1545,
+      "bin_coverage": 0.15,
+      "median_residual_px": 3.9999895068141313,
+      "accepted": false
+    },
+    "left": {
+      "pixels": 0,
+      "bin_coverage": 0,
+      "accepted": false
+    }
+  },
+  "geometry": null,
+  "independent_human_calibration": false
+}

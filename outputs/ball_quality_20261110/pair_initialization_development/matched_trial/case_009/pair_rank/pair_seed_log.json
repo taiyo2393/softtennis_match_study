@@ -1,0 +1,119 @@
+[
+  {
+    "source_frame": 21208,
+    "near_candidate_count": 4,
+    "valid_pairs": 3,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      148
+    ],
+    "best_distance": 0.8273415357295479,
+    "second_distance": 0.8420094387432229,
+    "distance_margin": 0.014667903013674932
+  },
+  {
+    "source_frame": 21209,
+    "near_candidate_count": 5,
+    "valid_pairs": 4,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      152
+    ],
+    "best_distance": 0.7489459564823635,
+    "second_distance": 0.7880604319624869,
+    "distance_margin": 0.03911447548012337
+  },
+  {
+    "source_frame": 21210,
+    "near_candidate_count": 5,
+    "valid_pairs": 4,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      152
+    ],
+    "best_distance": 0.7608954393608653,
+    "second_distance": 0.7809875534485087,
+    "distance_margin": 0.02009211408764333
+  },
+  {
+    "source_frame": 21211,
+    "near_candidate_count": 4,
+    "valid_pairs": 3,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      152
+    ],
+    "best_distance": 0.7113442944230317,
+    "second_distance": 0.7667562432417684,
+    "distance_margin": 0.05541194881873668
+  },
+  {
+    "source_frame": 21212,
+    "near_candidate_count": 4,
+    "valid_pairs": 3,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      152
+    ],
+    "best_distance": 0.7303968894417947,
+    "second_distance": 0.7597673373189875,
+    "distance_margin": 0.029370447877192785
+  },
+  {
+    "source_frame": 21213,
+    "near_candidate_count": 4,
+    "valid_pairs": 3,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      153
+    ],
+    "best_distance": 0.7292552751640159,
+    "second_distance": 0.742312059944467,
+    "distance_margin": 0.013056784780451136
+  },
+  {
+    "source_frame": 21214,
+    "near_candidate_count": 4,
+    "valid_pairs": 3,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      153
+    ],
+    "best_distance": 0.7189311483963675,
+    "second_distance": 0.743323723171136,
+    "distance_margin": 0.024392574774768527
+  },
+  {
+    "source_frame": 21215,
+    "near_candidate_count": 3,
+    "valid_pairs": 2,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      153
+    ],
+    "best_distance": 0.6847051698731941,
+    "second_distance": 0.75125403992947,
+    "distance_margin": 0.06654887005627597
+  },
+  {
+    "source_frame": 21216,
+    "near_candidate_count": 3,
+    "valid_pairs": 2,
+    "abstained": false,
+    "best_pair_ids": [
+      4,
+      153
+    ],
+    "best_distance": 0.6852153410612065,
+    "second_distance": 0.7924889212407216,
+    "distance_margin": 0.10727358017951505
+  }
+]

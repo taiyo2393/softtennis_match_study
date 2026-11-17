@@ -1,0 +1,82 @@
+[
+  {
+    "regime": "train016_only_check_other8",
+    "heldout": "other_clips",
+    "train_cases": 28,
+    "test_cases": 8,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "test_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "head_sha256": "79ca3ed4d46da4f6ee5ae270200f5c2c6b20476e19481e7e716551268ea06f58",
+    "head_file": "train016_only_check_other8__other_clips.npz"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_002",
+    "train_cases": 35,
+    "test_cases": 1,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_016",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "test_groups": [
+      "legacy_match1:match1_motion_pilot_002"
+    ],
+    "head_sha256": "0ac8b3708b5945adf36a49a2d48698836dfc775ab04bac2d25f0504ee08dca9f",
+    "head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_002.npz"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_008",
+    "train_cases": 32,
+    "test_cases": 4,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_016",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "test_groups": [
+      "legacy_match1:match1_motion_pilot_008"
+    ],
+    "head_sha256": "2a7bb603f5758e9c101939276afa7fd9bc8a23479237770ff0d84ad04b881bd5",
+    "head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_008.npz"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_016",
+    "train_cases": 8,
+    "test_cases": 28,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "test_groups": [
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "head_sha256": "9a55a8774af41133626271095b7335b0645cde266da9c577ad007d7db65ba0bd",
+    "head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_016.npz"
+  },
+  {
+    "regime": "leave_one_source_clip_out",
+    "heldout": "legacy_match1:match1_motion_pilot_018",
+    "train_cases": 33,
+    "test_cases": 3,
+    "train_groups": [
+      "legacy_match1:match1_motion_pilot_002",
+      "legacy_match1:match1_motion_pilot_008",
+      "legacy_match1:match1_motion_pilot_016"
+    ],
+    "test_groups": [
+      "legacy_match1:match1_motion_pilot_018"
+    ],
+    "head_sha256": "b4892ecffa2411c715d50a01c94f9a5a8cbe69c70aa0e7251b48af87ac76a014",
+    "head_file": "leave_one_source_clip_out__legacy_match1_match1_motion_pilot_018.npz"
+  }
+]

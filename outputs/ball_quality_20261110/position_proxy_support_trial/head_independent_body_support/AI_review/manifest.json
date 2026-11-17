@@ -1,0 +1,245 @@
+{
+  "selection": "Every four body-mask change in fixed prefixes, first rectangle-only risk per affected case, retained019 mixed/fragment frames and one clear control. Post-output diagnostic selection; not independent accuracy.",
+  "items": [
+    {
+      "tag": "002",
+      "source_frame": 2269,
+      "slot": "far_front",
+      "reason": "First fixed-window rectangle-only overlap; inspect possible over-masking",
+      "image": "01_002_F2269.jpg",
+      "image_sha256": "9e6198c1f8a3dae644336602c173d397323b62f871ccd6826685a1bc993f3539",
+      "crop_native_xyxy": [
+        2067,
+        949,
+        2548,
+        1504
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 0
+    },
+    {
+      "tag": "002",
+      "source_frame": 2303,
+      "slot": "far_front",
+      "reason": "Every position-only body-mask change in the fixed input windows",
+      "image": "02_002_F2303.jpg",
+      "image_sha256": "5c5b90f6d2542c1bf7ebe9215af2f2ed1a5d457c319b8d4cfde7e216bd8a30f3",
+      "crop_native_xyxy": [
+        2122,
+        932,
+        2567,
+        1491
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 1
+    },
+    {
+      "tag": "009",
+      "source_frame": 21945,
+      "slot": "far_rear",
+      "reason": "First fixed-window rectangle-only overlap; inspect possible over-masking",
+      "image": "03_009_F21945.jpg",
+      "image_sha256": "3688ff800d5a6013ca3283a9c2a0e2aaa7fadc12e0064f5717471b2abe545ee8",
+      "crop_native_xyxy": [
+        1437,
+        975,
+        1894,
+        1515
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 0
+    },
+    {
+      "tag": "016",
+      "source_frame": 40625,
+      "slot": "far_rear",
+      "reason": "Retained mixed/fragment/clear-person diagnostic, not independent GT",
+      "image": "04_016_F40625.jpg",
+      "image_sha256": "121c28c3c5b1b2069b5ce093cf216c4438bf20106250ede5f0ff3f0c70474cc5",
+      "crop_native_xyxy": [
+        2134,
+        935,
+        2635,
+        1729
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 0
+    },
+    {
+      "tag": "017",
+      "source_frame": 42130,
+      "slot": "far_front",
+      "reason": "First fixed-window rectangle-only overlap; inspect possible over-masking",
+      "image": "05_017_F42130.jpg",
+      "image_sha256": "2cbb4a5c03348d8d1a6bcc7d79c93a2d8763da54e73582730785eaaf8f36c2d6",
+      "crop_native_xyxy": [
+        1582,
+        960,
+        2016,
+        1551
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 0
+    },
+    {
+      "tag": "017",
+      "source_frame": 42132,
+      "slot": "far_front",
+      "reason": "Every position-only body-mask change in the fixed input windows",
+      "image": "06_017_F42132.jpg",
+      "image_sha256": "643f2cf55770b4f4e95aa7b156856ef41cb49d6fe3a637c8654ca0b2571f46a4",
+      "crop_native_xyxy": [
+        1585,
+        958,
+        2010,
+        1552
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 1
+    },
+    {
+      "tag": "017",
+      "source_frame": 42138,
+      "slot": "far_front",
+      "reason": "Every position-only body-mask change in the fixed input windows",
+      "image": "07_017_F42138.jpg",
+      "image_sha256": "d2dde7d85eabb423b1c38028f87817a30b9cf9e162efae4ee303fa5b5420db80",
+      "crop_native_xyxy": [
+        1593,
+        957,
+        2021,
+        1552
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 1
+    },
+    {
+      "tag": "019",
+      "source_frame": 46352,
+      "slot": "far_rear",
+      "reason": "Retained mixed/fragment/clear-person diagnostic, not independent GT",
+      "image": "08_019_F46352.jpg",
+      "image_sha256": "539efd7cd3f08cdf3a95bd4363302c045de7c8c86527c4158220bc0c6d028b8f",
+      "crop_native_xyxy": [
+        1453,
+        942,
+        1845,
+        1561
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 1
+    },
+    {
+      "tag": "019",
+      "source_frame": 46396,
+      "slot": "far_rear",
+      "reason": "Every position-only body-mask change in the fixed input windows",
+      "image": "09_019_F46396.jpg",
+      "image_sha256": "44b0597508a1aa94b116bca8b60f0ac559e82dd85ad7eee37894f1a3a62a3463",
+      "crop_native_xyxy": [
+        1440,
+        958,
+        1858,
+        1566
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 1
+    },
+    {
+      "tag": "019",
+      "source_frame": 46398,
+      "slot": "far_rear",
+      "reason": "First fixed-window rectangle-only overlap; inspect possible over-masking",
+      "image": "10_019_F46398.jpg",
+      "image_sha256": "a201198684ef2469fbb8e78107711ea7ac281e7ab93749500e4358647d9183a2",
+      "crop_native_xyxy": [
+        1439,
+        960,
+        1861,
+        1565
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 0
+    },
+    {
+      "tag": "019",
+      "source_frame": 46406,
+      "slot": "far_rear",
+      "reason": "Retained mixed/fragment/clear-person diagnostic, not independent GT",
+      "image": "11_019_F46406.jpg",
+      "image_sha256": "c9a57becaecafd4e660611572032f7c7365cd70e99c54f2b804ee73c6e2da946",
+      "crop_native_xyxy": [
+        1507,
+        963,
+        1866,
+        1370
+      ],
+      "aspect_preserved": true,
+      "box_risk": 0,
+      "body_risk": 0
+    },
+    {
+      "tag": "019",
+      "source_frame": 46436,
+      "slot": "far_rear",
+      "reason": "Retained mixed/fragment/clear-person diagnostic, not independent GT",
+      "image": "12_019_F46436.jpg",
+      "image_sha256": "60f42ff443b677aa35cfbd57f6fd9eeb9fd620f364bb092045615db9b98de701",
+      "crop_native_xyxy": [
+        1505,
+        968,
+        1881,
+        1367
+      ],
+      "aspect_preserved": true,
+      "box_risk": 0,
+      "body_risk": 0
+    },
+    {
+      "tag": "019",
+      "source_frame": 46511,
+      "slot": "far_rear",
+      "reason": "Retained mixed/fragment/clear-person diagnostic, not independent GT",
+      "image": "13_019_F46511.jpg",
+      "image_sha256": "8ab4941f0c23262adaff6503d67a4fb4afb1891483341772a6aff52404212fd6",
+      "crop_native_xyxy": [
+        1310,
+        933,
+        1804,
+        1535
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 0
+    },
+    {
+      "tag": "019",
+      "source_frame": 46634,
+      "slot": "far_rear",
+      "reason": "Retained mixed/fragment/clear-person diagnostic, not independent GT",
+      "image": "14_019_F46634.jpg",
+      "image_sha256": "dee5264892cee1b4af1429b67a66860d34fd992205962977dd365838231ad9e3",
+      "crop_native_xyxy": [
+        1863,
+        961,
+        2275,
+        1449
+      ],
+      "aspect_preserved": true,
+      "box_risk": 1,
+      "body_risk": 1
+    }
+  ],
+  "script_sha256": "e84b6b715c95bfe674eed440aae5789cf7886ea26b77a33518fb89bb4e6f8f5c",
+  "independent_GT": false
+}

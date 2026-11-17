@@ -1,0 +1,42 @@
+{
+  "image_id": "P011",
+  "source_frame": 10546,
+  "baseline_near_predictions": 0,
+  "candidate_near_predictions": 2,
+  "errors": [
+    {
+      "player_slot": "near_front",
+      "raw_id": "2",
+      "native_point": [
+        2164.3768310546875,
+        1344.187255859375
+      ],
+      "manual_point": [
+        2163.4,
+        1341.9
+      ],
+      "error_px": 2.4871144476373757,
+      "dx": 0.976831054687409,
+      "dy": 2.287255859374909
+    },
+    {
+      "player_slot": "near_rear",
+      "raw_id": "1",
+      "native_point": [
+        1127.4400634765625,
+        1711.2869873046875
+      ],
+      "manual_point": [
+        1121.9,
+        1697.3
+      ],
+      "error_px": 15.04420543551009,
+      "dx": 5.540063476562409,
+      "dy": 13.986987304687545
+    }
+  ],
+  "mean_error_px": 8.765659941573732,
+  "unordered_within_side_position_comparison_not_ID_accuracy": true,
+  "reference_known_before_development": true,
+  "independent_test": false
+}

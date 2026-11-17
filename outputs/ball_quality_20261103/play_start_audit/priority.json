@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-03",
+  "current_priority": "Establish play starts before expanding preparation-phase ball tracking",
+  "start_definition": "Service racket-ball contact, separate each serve attempt within the same point",
+  "main_tracking_scope": "After effective service contact, with event-boundary uncertainty retained",
+  "multiball_expansion": "diagnostic_only_not_current_priority",
+  "existing_confirmations_reused": "044 first fault, second valid; precise contact interval remains AI provisional",
+  "automatic_start_detector_implemented": false,
+  "automatic_candidate_prototype_implemented": true,
+  "candidate_prototype_status": "../serve_phase_fixed_application/decision.json; fixed application supplied no retained starts in003/008, not adopted as tracking gate",
+  "source_labels_or_predictions_overwritten": false,
+  "current_deliverables": ["ball_pilot_start_inventory.csv", "044_start_scoped_raw_ball_observations.csv", "044_scope_report.json"],
+  "next": "Use reviewed serve outcomes and provisional contact intervals to improve in-play tracking; defer further automatic start heuristics and preserve unknown boundary labels"
+}

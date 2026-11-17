@@ -1,0 +1,42 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "frames": [
+    23690,
+    23692,
+    23694,
+    23696,
+    23698,
+    23700,
+    23702,
+    23704,
+    23706,
+    23708,
+    23710,
+    23712,
+    23714
+  ],
+  "native_crop_xyxy": [
+    500,
+    1000,
+    1400,
+    1900
+  ],
+  "images": {
+    "F23690_raw.jpg": "7a60a66219317be7d51171139e5649746e740e11409cf0f822d91fbdbe17753d",
+    "F23692_raw.jpg": "3a4ceb5e709d41494547442e4f1d570f3ef5b0e4d729b0b8000ab145e49aaf8e",
+    "F23694_raw.jpg": "82c017750c963570f79be83aa54843639a4a091dda02abc3c9c5df7e8cc504d4",
+    "F23696_raw.jpg": "d206199ecb3e2031d54e922baf2729b04df22a9601b89a0b65bf688778c3a1a6",
+    "F23698_raw.jpg": "ab0b8a0a0f64092262c999e8f4c0785db5aae9920eddd60ab0778de546ed69fb",
+    "F23700_raw.jpg": "f49e522188e14fbd0e5004b37c754bff0eb67b2a2d6021e1c44cde0df33516cf",
+    "F23702_raw.jpg": "b8a42db41076988df8e5fac589f20f32323848b9bbeea02ba475ea798268dc91",
+    "F23704_raw.jpg": "1d1f428ed50799f72c08c6b7a2e98a8bae2490edfd6d4ea72f3115bcf1651209",
+    "F23706_raw.jpg": "b130e980bd63ceb3af042eac0201523be49c95f53bf6ed4dbfcfcc737f17e212",
+    "F23708_raw.jpg": "6a138ce1c4c32ea53f6e0793f012e056c9ab379aa77f6967104607ada67e35fd",
+    "F23710_raw.jpg": "b161a27922547cb56736c36883f308448dc140a1aedfacfd54006979ff1f39ba",
+    "F23712_raw.jpg": "348488d7ee4827d3b05cb33b0959976d7fca2b432dc922794d33b2bec9b03f2f",
+    "F23714_raw.jpg": "ac9e1cb788c1bf4902808b9a1ca4256e84e0e49724202bcee2e1c17bec2fed65",
+    "page_01.jpg": "f447cd11aa944455e94cfd43888b34adaa8f3ebaef4b2ef43a0c993e28ab92cf"
+  },
+  "script_sha256": "992c65df756e7174c603ba8af546f997dc07e93d4704946e118e774eb7a8099a",
+  "independent_GT": false
+}

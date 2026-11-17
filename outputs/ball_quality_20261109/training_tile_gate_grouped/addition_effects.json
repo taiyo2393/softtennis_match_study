@@ -1,0 +1,18 @@
+[
+  {
+    "method": "crossscale_agreement16",
+    "rejected_correct_center16": 5,
+    "rejected_wrong_target_position": 4,
+    "kept_correct_center16": 6,
+    "kept_wrong_target_position": 1,
+    "rejected_output_when_not_observable": 5
+  },
+  {
+    "method": "logistic10_oof",
+    "kept_correct_center16": 11,
+    "rejected_wrong_target_position": 4,
+    "kept_wrong_target_position": 1,
+    "rejected_output_when_not_observable": 3,
+    "kept_output_when_not_observable": 2
+  }
+]

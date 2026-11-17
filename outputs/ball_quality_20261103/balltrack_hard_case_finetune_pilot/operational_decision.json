@@ -1,0 +1,24 @@
+{
+  "status": "retain_original_after_fixed_hard_case_reweighting_trial",
+  "automatic_adoption": false,
+  "operational_checkpoint": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+  "operational_threshold": 0.3,
+  "hard_multiplier_search_ended": true,
+  "ordinary_epoch2_threshold03": {
+    "correct": 85,
+    "wrong_or_false": 9
+  },
+  "weighted_epoch2_threshold03": {
+    "correct": 86,
+    "wrong_or_false": 6
+  },
+  "matched_effect": {
+    "false_or_wrong_outputs_withheld": 2,
+    "localization_status_changed_due_2px_shift": 1,
+    "new_ball_observations_recovered_versus_ordinary": 0
+  },
+  "full_replacement_selected": "original",
+  "fallback_selected": "original",
+  "old_models_labels_and_reviewed_outputs_unchanged": true,
+  "next": "Add diverse training-side difficult cases and predefine main-play evaluation scope before further learning/search; avoid using the two cases as a repeated multiplier-tuning benchmark."
+}

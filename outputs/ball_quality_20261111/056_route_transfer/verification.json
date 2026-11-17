@@ -1,0 +1,13 @@
+{
+  "prior044publication_files_unchanged": 31,
+  "protected_inputs_and401source_images_unchanged": true,
+  "original334ball_positions_and42missing_labels_exact": true,
+  "original_person_observations_preserved": 1474,
+  "estimated_image_positions": 21,
+  "suspicious_assisted_point_preserved": 154780,
+  "new_human_event_or_bounce_labels": 0,
+  "new_exact_impact_or_landing_GT": 0,
+  "full_video_frames_decoded": 401,
+  "same_frozen_curve_solver_and_numeric_parameters": true,
+  "independent_accuracy_or_transfer_success_not_established": true
+}

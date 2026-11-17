@@ -1,0 +1,21 @@
+[
+  {
+    "segment_id": "match2_fixed_clip_003:S001",
+    "first_frame": 53946,
+    "last_frame": 54581,
+    "events": [
+      {
+        "event": "initialized",
+        "frame": 53953,
+        "window_start": 53946,
+        "seed_ids": {
+          "near_front": 2,
+          "near_rear": 1,
+          "far_rear": 5,
+          "far_front": 3
+        },
+        "identity_status": "candidate_not_ground_truth"
+      }
+    ]
+  }
+]

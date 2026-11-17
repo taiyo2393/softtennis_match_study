@@ -1,0 +1,75 @@
+{
+  "status": "fixed_before_temporal_inference_and_training_parameter_selection",
+  "training": "Existing120 + new A/C/D3; B postplay excluded. Training8clips only.",
+  "original_model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth",
+  "threshold": 0.3,
+  "context_offsets": [
+    -8,
+    -6,
+    -4,
+    -2,
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "context": "9 observations over16source frames; offline future8frames (~0.133s at59.94fps)",
+  "candidates": "Unchanged external contours and bbox centers; output only actual target-frame observed centers. No interpolation or new presence.",
+  "emission": "-log(component_peak), uncalibrated heuristic cost, not calibrated probability",
+  "displacement_cost": "strength*min(source_pixel_displacement/64,4) per2source frames",
+  "acceleration_cost": "strength*min(norm(p[t]-2*p[t-2]+p[t-4])/16,4)",
+  "parameter_grid": [
+    {
+      "name": "displacement_0.1",
+      "order": "displacement",
+      "strength": 0.1
+    },
+    {
+      "name": "displacement_0.3",
+      "order": "displacement",
+      "strength": 0.3
+    },
+    {
+      "name": "displacement_1",
+      "order": "displacement",
+      "strength": 1.0
+    },
+    {
+      "name": "acceleration_0.1",
+      "order": "acceleration",
+      "strength": 0.1
+    },
+    {
+      "name": "acceleration_0.3",
+      "order": "acceleration",
+      "strength": 0.3
+    },
+    {
+      "name": "acceleration_1",
+      "order": "acceleration",
+      "strength": 1.0
+    }
+  ],
+  "parameters_fitted_on": "Training labels123 only; validation/challenge coordinates not read for fitting",
+  "fallback": "Original area if cut-mask anywhere in window, nonempty segment<3 observations, or target missing; reset at empty contexts. Contour indices are never identity labels.",
+  "selection": "Include original. Require every original correct TRAINING frame retained, errors<=training original. Max correct16px, then fewer wrong_position+presenceFP; ties original then grid order. No iterative search.",
+  "validation": "Evaluate ONE frozen chosen configuration on fixed120; if it loses any original correct frame or adds errors, stop before challenge/audit.",
+  "challenge": "Only after validation nonregression: frozen configuration on4 confirmed-play centers, never training/tuning. Previously seen same-match developmental challenge, not independent.",
+  "audit": "Only if chosen config passes validation and challenge nonregression and improves either: original vs selected on60, no alternative choices.",
+  "limitations": "Sparse labels include preparation/transitions; temporal candidates can be consistent but false; no full-track accuracy or external validation claim",
+  "automatic_adoption": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_labels.csv": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\frozen_method_predictions.csv": "a493ab981ee122adf02829d3e123d2159b7a3e5d6a5227b9671859f9c484d8b8",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342"
+  },
+  "script_sha256": "84cd02f4654d2b694a12adfdf24eb959f1ded3844aaf3cadf32c2ce75f547abf"
+}

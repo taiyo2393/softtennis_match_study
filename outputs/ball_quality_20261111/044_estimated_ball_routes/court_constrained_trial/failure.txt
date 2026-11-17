@@ -1,0 +1,1 @@
+Stopped before any fit outputs: installed NumPy disallows np.cross on 2D vectors. V2 replaces it with the exact scalar2D determinant. Model/parameters unchanged.

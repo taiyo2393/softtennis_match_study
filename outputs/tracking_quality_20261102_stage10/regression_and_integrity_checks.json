@@ -1,0 +1,104 @@
+[
+  {
+    "tag": "025",
+    "previous_path_exactly_preserved": false,
+    "old_rows": 968,
+    "new_rows": 968,
+    "shared_rows": 921,
+    "input_boxes_preserved": true,
+    "one_to_one_across_both_sides": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "504"
+    }
+  },
+  {
+    "tag": "002",
+    "previous_path_exactly_preserved": true,
+    "old_rows": 581,
+    "new_rows": 581,
+    "shared_rows": 581,
+    "input_boxes_preserved": true,
+    "one_to_one_across_both_sides": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "355"
+    }
+  },
+  {
+    "tag": "003",
+    "previous_path_exactly_preserved": true,
+    "old_rows": 708,
+    "new_rows": 708,
+    "shared_rows": 708,
+    "input_boxes_preserved": true,
+    "one_to_one_across_both_sides": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "415"
+    }
+  },
+  {
+    "tag": "005",
+    "previous_path_exactly_preserved": true,
+    "old_rows": 612,
+    "new_rows": 612,
+    "shared_rows": 612,
+    "input_boxes_preserved": true,
+    "one_to_one_across_both_sides": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "445"
+    }
+  },
+  {
+    "tag": "007",
+    "previous_path_exactly_preserved": true,
+    "old_rows": 1146,
+    "new_rows": 1146,
+    "shared_rows": 1146,
+    "input_boxes_preserved": true,
+    "one_to_one_across_both_sides": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "600"
+    }
+  },
+  {
+    "tag": "048",
+    "previous_path_exactly_preserved": true,
+    "old_rows": 1351,
+    "new_rows": 1351,
+    "shared_rows": 1351,
+    "input_boxes_preserved": true,
+    "one_to_one_across_both_sides": true,
+    "media": {
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "900"
+    }
+  }
+]

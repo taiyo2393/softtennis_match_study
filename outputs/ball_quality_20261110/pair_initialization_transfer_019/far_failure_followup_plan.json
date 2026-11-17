@@ -1,0 +1,13 @@
+{
+  "status": "planned_not_implemented",
+  "reason": "Initial pair selection left far official/near-person assignment failures unchanged",
+  "development_case": "019",
+  "known_probe_file": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\pair_initialization_transfer_019\\AI_failure_probes.csv",
+  "known_probe_sha256": "5478eac258606ad875cfc4b8af209a6438d0373029f41f810a20cccec18c477b",
+  "preserve_cases_and_missing": true,
+  "do_not_hardcode_frame_or_ID": true,
+  "comparators": "Retained original far association versus proposed rejection/association rule; unchanged detections, near path and fixed requested times.",
+  "evaluation": "Record wrong-object rejection and lost true observations separately; new rule needs controls before a frozen additional transfer. AI-probe review remains development, not independent identity/position GT.",
+  "cohort_candidate_remains_pending": "match1_rally_window_019",
+  "canonical_pipeline_replaced": false
+}

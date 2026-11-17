@@ -1,0 +1,20 @@
+[
+  {
+    "epoch": 1,
+    "mean_weighted_loss": 0.0006017443815191352,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_hard_case_finetune_pilot\\hard_weighted_epoch01.pth",
+    "checkpoint_sha256": "d22b34f1045c0337dcca7b7789ad58f50533b6b2f0bd12712227f8708bbe2348"
+  },
+  {
+    "epoch": 2,
+    "mean_weighted_loss": 0.0005090599142325421,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_hard_case_finetune_pilot\\hard_weighted_epoch02.pth",
+    "checkpoint_sha256": "07450215a19de77ac857e226368c2c95dfe804b873ca93c0d775f84d7732bbc9"
+  },
+  {
+    "epoch": 3,
+    "mean_weighted_loss": 0.0004718997763120569,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_hard_case_finetune_pilot\\hard_weighted_epoch03.pth",
+    "checkpoint_sha256": "e8d22e2e1360e995e6e9e58cab402fb5774408fc2acd4b67bbf8820383427643"
+  }
+]

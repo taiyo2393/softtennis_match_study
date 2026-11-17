@@ -1,0 +1,29 @@
+{
+  "summary": [
+    {
+      "arm": "original",
+      "frames": 120,
+      "frames_with_component": 83,
+      "median_largest_bbox_area_among_outputs_network_pixels": 210.0,
+      "mean_threshold_positive_fraction": 0.0007805153175636573,
+      "threshold": 0.3
+    },
+    {
+      "arm": "positive_control",
+      "frames": 120,
+      "frames_with_component": 120,
+      "median_largest_bbox_area_among_outputs_network_pixels": 2723.0,
+      "mean_threshold_positive_fraction": 0.022429798267505786,
+      "threshold": 0.3
+    },
+    {
+      "arm": "point_negative",
+      "frames": 120,
+      "frames_with_component": 120,
+      "median_largest_bbox_area_among_outputs_network_pixels": 1328.0,
+      "mean_threshold_positive_fraction": 0.010547440140335648,
+      "threshold": 0.3
+    }
+  ],
+  "interpretation": "Fixed0.3 response footprint, not proof of calibrated probabilities or an independently evaluated alternative threshold. No threshold search performed."
+}

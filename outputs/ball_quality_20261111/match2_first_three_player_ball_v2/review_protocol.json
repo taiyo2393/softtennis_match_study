@@ -1,0 +1,31 @@
+{
+  "source_tracking_sha256": "296b686102ae955aa1ba791404fdda2c2bb9d63e00fcc78adba1c44d1dc4d838",
+  "source_ball_path_sha256": "dd133df89c1f44ac0c1ea439207500b1ff2b25f1e331e164b49d5987ab851219",
+  "point_1_id_cues": {
+    "N1": "burgundy",
+    "N2": "red and black",
+    "F1": "red shoes",
+    "F2": "dark teal shoes"
+  },
+  "changed_slot_display_ids": {
+    "1": {},
+    "2": {
+      "near_front": "near_rear",
+      "near_rear": "near_front"
+    },
+    "3": {
+      "near_front": "near_rear",
+      "near_rear": "near_front",
+      "far_front": "far_rear",
+      "far_rear": "far_front"
+    }
+  },
+  "identity_evidence": "visual spot review across all three points; no independent ID labels",
+  "point_2_F2_foot_occlusion_review": [
+    14023,
+    14043
+  ],
+  "route_evidence": "four visually selected shots with approximate bounce anchors",
+  "source_core_denominators_unchanged": true,
+  "point_1_extra_frame": "F12571 shown with an approximately 0.8 second hold for the bounce"
+}

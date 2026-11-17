@@ -1,0 +1,40 @@
+{
+  "initialization_source_frame": 10575,
+  "initialization_confirmation_window": [
+    10568,
+    10575
+  ],
+  "requested_frames_before_initialization": [
+    10536,
+    10538,
+    10540,
+    10542,
+    10544,
+    10546,
+    10548,
+    10550,
+    10552,
+    10554,
+    10556,
+    10558,
+    10560,
+    10562,
+    10564,
+    10566,
+    10568,
+    10570,
+    10572,
+    10574
+  ],
+  "requested_times_before_initialization": 20,
+  "coordinate_rows_at_these_requested_times": 0,
+  "explanation": "Four-person joint initialization with eight consecutive source frames delays all four output slots, including visibly present near players. These are unassigned times, not physical player absence.",
+  "input_times_not_shifted": true,
+  "retroactive_fill_performed": false,
+  "later_initialized_near_raw_ids": [
+    "2",
+    "1"
+  ],
+  "pre_initialization_requested_times_with_both_later_near_raw_ids": 20,
+  "raw_detection_identity_is_not_independent_GT": true
+}

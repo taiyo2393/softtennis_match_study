@@ -1,0 +1,307 @@
+[
+  {
+    "source_frame": 31918,
+    "available": 25,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      1000002,
+      1000010,
+      1000012,
+      1000016
+    ]
+  },
+  {
+    "source_frame": 31919,
+    "available": 20,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      18,
+      19,
+      1000002,
+      1000010,
+      1000012
+    ]
+  },
+  {
+    "source_frame": 31920,
+    "available": 21,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      19,
+      14,
+      1000002,
+      1000010,
+      1000012
+    ]
+  },
+  {
+    "source_frame": 31921,
+    "available": 21,
+    "eligible": 7,
+    "excluded_raw_ids": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      19,
+      22,
+      18,
+      1000010,
+      1000012
+    ]
+  },
+  {
+    "source_frame": 31922,
+    "available": 18,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      15,
+      19,
+      22,
+      18,
+      1000010,
+      1000012
+    ]
+  },
+  {
+    "source_frame": 31923,
+    "available": 16,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      6,
+      8,
+      10,
+      11,
+      22,
+      26,
+      27,
+      7,
+      1000010,
+      1000012
+    ]
+  },
+  {
+    "source_frame": 31924,
+    "available": 15,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      6,
+      8,
+      10,
+      11,
+      22,
+      26,
+      1000010,
+      1000012,
+      1000021
+    ]
+  },
+  {
+    "source_frame": 31925,
+    "available": 14,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      6,
+      8,
+      11,
+      22,
+      26,
+      1000010,
+      1000012,
+      1000015
+    ]
+  },
+  {
+    "source_frame": 31926,
+    "available": 12,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      5,
+      8,
+      11,
+      22,
+      1000012,
+      1000024
+    ]
+  },
+  {
+    "source_frame": 31927,
+    "available": 13,
+    "eligible": 6,
+    "excluded_raw_ids": [
+      5,
+      11,
+      22,
+      35,
+      36,
+      1000012,
+      1000021
+    ]
+  },
+  {
+    "source_frame": 31928,
+    "available": 10,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      5,
+      11,
+      22,
+      35,
+      1000012
+    ]
+  },
+  {
+    "source_frame": 31929,
+    "available": 8,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      22,
+      35,
+      1000031
+    ]
+  },
+  {
+    "source_frame": 31930,
+    "available": 12,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      22,
+      35,
+      42,
+      43,
+      1000031,
+      1000033,
+      1000024
+    ]
+  },
+  {
+    "source_frame": 31931,
+    "available": 12,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      22,
+      35,
+      42,
+      43,
+      46,
+      1000031,
+      1000024
+    ]
+  },
+  {
+    "source_frame": 31932,
+    "available": 12,
+    "eligible": 5,
+    "excluded_raw_ids": [
+      22,
+      35,
+      42,
+      43,
+      46,
+      48,
+      1000031
+    ]
+  },
+  {
+    "source_frame": 31933,
+    "available": 11,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      22,
+      35,
+      42,
+      43,
+      46,
+      48,
+      49
+    ]
+  },
+  {
+    "source_frame": 31934,
+    "available": 11,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      22,
+      35,
+      42,
+      43,
+      46,
+      48,
+      49
+    ]
+  },
+  {
+    "source_frame": 31935,
+    "available": 11,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      22,
+      35,
+      42,
+      43,
+      46,
+      48,
+      49
+    ]
+  },
+  {
+    "source_frame": 31936,
+    "available": 11,
+    "eligible": 4,
+    "excluded_raw_ids": [
+      22,
+      35,
+      42,
+      43,
+      46,
+      48,
+      49
+    ]
+  }
+]

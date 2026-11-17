@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "model_weights_unchanged": true,
+  "retraining": false,
+  "thresholds": [
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "training_grid_rows": 16,
+  "feasible_settings": 0,
+  "threshold03_predictions_reproduced": 246,
+  "sparse_context_nodes_reproduced": 2214,
+  "sparse_cache": [
+    {
+      "arm": "positive_control",
+      "context_frames": 1107,
+      "retained_values": 7229705,
+      "file_bytes": 16814656,
+      "sha256": "cf2df96dcfddb544024c8876a728569a7c1ed24027a80a8deb7c024356cd54a5"
+    },
+    {
+      "arm": "point_negative",
+      "context_frames": 1107,
+      "retained_values": 3507637,
+      "file_bytes": 7172569,
+      "sha256": "48f59e0ade00c0d64d528722ef74e89947669c39a09cc1eb344250d660ee1e94"
+    }
+  ],
+  "no_new_evaluation_inference": true,
+  "protected_inputs_unchanged": true,
+  "point_order_diagnostic": [
+    {
+      "arm": "original",
+      "point_pairs": 9,
+      "true_above_non_ball": 6,
+      "mean_point_response_margin": 0.08440837760766347,
+      "not_object_detection_accuracy": true
+    },
+    {
+      "arm": "positive_control",
+      "point_pairs": 9,
+      "true_above_non_ball": 6,
+      "mean_point_response_margin": 0.009547743532392714,
+      "not_object_detection_accuracy": true
+    },
+    {
+      "arm": "point_negative",
+      "point_pairs": 9,
+      "true_above_non_ball": 6,
+      "mean_point_response_margin": 0.03911097844441732,
+      "not_object_detection_accuracy": true
+    }
+  ],
+  "source_snapshot_sha256": "477cba90fbc7f3272c72f335d7ee5561de44f1131a536ef7983e5d8d8400a1d1",
+  "current_script_sha256": "93116525a08fd9a3ef0175d208c9216bf43fab39c3322e2756645f0254c33211",
+  "source_fix_note": "After the run completed, only embedded synthetic fixture FP32 0.1 was rounded to FP16. Original executed source is preserved. No inference/selection code or result changed.",
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "new_human_labels": 0,
+  "interpolation": 0,
+  "independent_generalization_established": false
+}

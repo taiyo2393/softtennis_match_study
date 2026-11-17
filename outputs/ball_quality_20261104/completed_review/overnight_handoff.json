@@ -1,0 +1,48 @@
+{
+  "status": "human_review_pending_no_background_training",
+  "date_jst": "2026-11-04",
+  "completed": [
+    "70clip temporal exposure inventory",
+    "4windows reserved before viewing predictions",
+    "104frozen predictions from2already fixed methods",
+    "52blind review images and context videos",
+    "decoder/clock/selection/media/HTTP/browser checks",
+    "post-annotation evaluation implementation"
+  ],
+  "pending": {
+    "human_target_reviews": 52,
+    "new_accuracy": null
+  },
+  "blocked_reason": "Independent phase and source-image ball-center truth must come from human review; do not substitute model predictions.",
+  "scope": "Additional same-match development sequences, prior nonpilot exposure not fully known; not external or independent match validation.",
+  "prior_model_decision": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_balanced_fixed_validation\\operational_decision.json",
+  "prior_model_decision_sha256": "97c0976cb1e9bc7ee05f54e108b0be84b1990b177cdb0417345a15ff6a3a58c4",
+  "retained": "Original weights, existing reviewed tracking references and labels",
+  "training_runs": 0,
+  "new_human_labels": 0,
+  "operational_changes": false,
+  "current_review_url": "http://127.0.0.1:54028/gGmEeA7Ib226VVeziqpK3pQK/",
+  "restart_command": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\start_review.ps1",
+  "final_artifact_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\README.md": "9a186ebffeaac13faf932d734a06f23ac1c66221c945814b24180c6c59a06cf8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\inventory_manifest.json": "55785c584701e2f6cd6bde16676a1c9e689f0a158f619062ea34dff3d3219707",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\sequence_protocol.json": "452934efd295c240eec3d44ccdd053983889a41cf018d47ff68d7144f7a7c6c6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\manifest.json": "f11be36c23ee27ffeb23fe2d654c81d45ba861eb53a69e1899b18d2a24f6ca38",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\verification.json": "3a65939ee1c1771b710d5909aed510c918b8a940c96637aef540263f120fd1ab",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\http_verification.json": "2274bf550c60fa619ce6e59494623d2d888950d2ada862496ca216c2e7f8894d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\view_verification.json": "ae1534d1014a6c9eaa9d4eb8dc65420b59528ada83ac6ea14a99096394c91156",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\view_revision.json": "970eb97c7f1bfecacf6031aa1b07de0cef1bb76fd9feb276347a1c4132fe1c83",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\initial_labels_snapshot.csv": "6314f5b9c2f907fb9f96858944b3dd3bdbf96fe1d7fd7b809315d230d2e97548",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261104\\start_review.ps1": "a2fbe74fc6688a7910103eb7c8b0c56b25c1f3006e51ed922b542a7f264105a3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inventory_next_ball_sequences.py": "fb307742a0959d3fede3bf33c70125dea9a5949d1702de4a2cb62b1ed74c57e0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\prepare_reserved_ball_sequences.py": "e3fe026f9e785958229ed46b37c5dafbbf62aca87190c858a04998c498d4d9a2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\make_reserved_review_tools.py": "83522dd5df22e764e3fe02a3eb2846d11345ad2284cfb4f9d398a972d6085fc1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_reserved_ball_sequence_review.py": "2faf8f30d884df45c55602d6dc8970bfb1f767310cb81f0c5291a7f6bbcb59bc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_reserved_ball_sequence_review_fit.py": "7c32b8d8cec4f8cdd10fce5088a4b6db4b4f81e448c700d07b0ebf2f417cd7ae",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\evaluate_reserved_ball_sequences.py": "841a4d99b4857e8271c74b6671aa4c9976b3ec4ddfe30649aa64337b4c448ef5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\verify_reserved_ball_sequences.py": "14a69384b347a63e1c0071c95b2714000fcc5ee787dd812e07afd37b9734cd17",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\fit_reserved_review_view.py": "4a9effbcb2c25efd876c8267b7551edd965220d6fcd4205e32c00afbae86286d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\verify_reserved_review_view.py": "9b6aa290213f4643999c281c79251e8fbaf12de20cbc819cf68eb2c6e604a22f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\seal_reserved_ball_packet.py": "3193b1e4677412d18a86db53b0c6ca1b968b3c695f8ca63639c0c6008023db45"
+  }
+}

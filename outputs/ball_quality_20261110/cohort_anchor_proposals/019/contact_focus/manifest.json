@@ -1,0 +1,47 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match1.mp4",
+  "frames": [
+    46310,
+    46312,
+    46314,
+    46316,
+    46318,
+    46320,
+    46322,
+    46324,
+    46326,
+    46328,
+    46330,
+    46332,
+    46334,
+    46336,
+    46338
+  ],
+  "native_crop_xyxy": [
+    1550,
+    900,
+    1850,
+    1140
+  ],
+  "aspect_preserved": true,
+  "images": {
+    "F46310_raw.jpg": "3619e605a3e4ba58c999732459a88c18fc5fc9553f196df1c15cf66e5046ff01",
+    "F46312_raw.jpg": "15a9fc8f4b69612521584fdb6f837a4988a8c07b7c7067f399b63a749038a7ca",
+    "F46314_raw.jpg": "ee378c28b6350fb985ddc5ad07d559a79e0328df1bce473e7674ea8b913bf1a3",
+    "F46316_raw.jpg": "1d308e8ec7942d394e4900f1ac2aaba2a6cc0cce5bf26f5c1dbb4d92b1d385fc",
+    "F46318_raw.jpg": "f12117f9c3932870a9745b0aab52facaf1a8e6bf1f68f84dc9d8c37037003bf1",
+    "F46320_raw.jpg": "c1b0e50bf23b05a63efa0bafdb364beb56ca951af1029c6b157740f0baa36fa9",
+    "F46322_raw.jpg": "257f069fd3594efd19fa7c735e561363050bebfad409f418152747cc90dbcc35",
+    "F46324_raw.jpg": "30837c791915b5ae1d9919c91f61faf3015924ab9b879c1b016007c2d67077fb",
+    "F46326_raw.jpg": "8c79f3463dfd3dac950ad83a5ad5ef78634060574946bf44a635b903e8ec788a",
+    "F46328_raw.jpg": "8d5d52809be03fb8dc46af8e98aaccdc2e6d78fd5652a64fdb0b4a99468527d8",
+    "F46330_raw.jpg": "0ea28e30764c96e1da81c0af0ee6a9674e6bac8592e2b912ae310324160d3f75",
+    "F46332_raw.jpg": "3f6f3db31758ed7f1d1acb2c3b26b829a0b26b4c0d454fa15a4866e36a162eac",
+    "F46334_raw.jpg": "7315a08d3e22307b443fd99962cc810b4b85373c4b16de492e79f56ad2f140e3",
+    "F46336_raw.jpg": "fa8633b54c6eca54489c07a37ac7292f37f98f549cf5a7245120b941ebe1ad46",
+    "F46338_raw.jpg": "d384d57e2c0bfd8520960bd8bc149faf20b42dedc0972f6a44505e3ae8184141",
+    "page_01.jpg": "90d54e298b00221b6e720b325bb62ed75fee38026528036a35eda545b89e4815"
+  },
+  "script_sha256": "d864bb927b20c46dd45b30f2fe23260879c8bccc7f71996b6ebc2b4723e2179b",
+  "independent_GT": false
+}

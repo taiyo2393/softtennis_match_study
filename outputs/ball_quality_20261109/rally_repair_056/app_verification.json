@@ -1,0 +1,15 @@
+{
+  "status": "browser_ready_for_second_timed_review",
+  "observed_at_utc": "2026-11-09T14:03:15.2849273Z",
+  "browser_tab_id": "7",
+  "observed_case": "R001/source154088/local10",
+  "source_image_display_verified": true,
+  "context_playback_and_target_return_verified": true,
+  "normal_and_zoom_display_verified": true,
+  "save_before_timing_blocked": true,
+  "new_real_labels_saved_by_agent": 0,
+  "user_timing_started_by_agent": false,
+  "pending_at_check": 376,
+  "real_answer_journal_exists": false,
+  "real_timing_journal_exists": false
+}

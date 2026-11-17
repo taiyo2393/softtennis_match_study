@@ -1,0 +1,13 @@
+{
+  "all_consecutive_reference_proxy_changes.csv": "abc38cbb0ae758d2fa1a878f26ba7bf603a63010ee1d00a7b5d25e82392374a0",
+  "confirmed_sequence_arrangement.jpg": "1ea253f1b42522eaf1756b8070dfac4410be418bad59d5ab71fa2e9a2884bf16",
+  "confirmed_sequence_arrangement_layout_v1.jpg": "d4d1cb7bf7c1df4f1c58ef0db287658a7a37904dee26b71aff294928869f9993",
+  "confirmed_stroke_sequence.csv": "5165e9547d8fa545ede4d5cde9e8de9e073f7b8582d4fc95059cebf3ca795bad",
+  "executed_source.py": "9bed102040f82416e7f2b1dfb78b5baacb63fcf74583a0cf9f8ea8b3054af2c1",
+  "human_sequence_confirmation.json": "f393d0183257965677c7148a15df1ee310b8e06d29d53ccd3b3f8eefe8eabddc",
+  "README.md": "19fde37fde5df618861312c1521478c27e1c8f4447dd5204f8bfebf6f533a438",
+  "reference_arrangement_diagnostics.csv": "69b7fc95fcf503f67187584ba6e0a85139578a05e39b4fb448e58d47ebbc770b",
+  "source_hashes.json": "46341c13fbf8873b8788527595804823ae08dceed83a8a973e33d26c27b80023",
+  "unchanged_reference_player_proxies.csv": "7af865a38332ce1450e5fa0383356f74182b43b8d67fd31d3ed09574ddf8f2dc",
+  "verification.json": "7a8f5e47eaa4cfb68b5b54030685e02dd51dcc9bd3e3db54225e3d8387518b9e"
+}

@@ -1,0 +1,88 @@
+{
+  "status": "fixed_before_training_gate_selection",
+  "base_selector": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "configurations": [
+    {
+      "name": "unknown1.2_switch0.25",
+      "unknown_cost": 1.2,
+      "switch_cost": 0.25
+    },
+    {
+      "name": "unknown1.2_switch0.5",
+      "unknown_cost": 1.2,
+      "switch_cost": 0.5
+    },
+    {
+      "name": "unknown1.2_switch1",
+      "unknown_cost": 1.2,
+      "switch_cost": 1.0
+    },
+    {
+      "name": "unknown1.8_switch0.25",
+      "unknown_cost": 1.8,
+      "switch_cost": 0.25
+    },
+    {
+      "name": "unknown1.8_switch0.5",
+      "unknown_cost": 1.8,
+      "switch_cost": 0.5
+    },
+    {
+      "name": "unknown1.8_switch1",
+      "unknown_cost": 1.8,
+      "switch_cost": 1.0
+    },
+    {
+      "name": "unknown2.4_switch0.25",
+      "unknown_cost": 2.4,
+      "switch_cost": 0.25
+    },
+    {
+      "name": "unknown2.4_switch0.5",
+      "unknown_cost": 2.4,
+      "switch_cost": 0.5
+    },
+    {
+      "name": "unknown2.4_switch1",
+      "unknown_cost": 2.4,
+      "switch_cost": 1.0
+    }
+  ],
+  "costs": "Selected candidate -log(peak); unknown q when a candidate exists,0 otherwise; changing keep/unknown costs switch; keep-to-keep uses previous displacement0.1cost",
+  "paths": "Freeze candidate path from previous selector first, then2state DP keep/unknown across gaps. Never choose new coordinates, fill gaps or infer physical absence.",
+  "training": "Only123labels on8training clips. Include no-abstention baseline; retain all66correct and errors<=4; minimise errors then maximise retained correct; ties baseline then listed order.",
+  "evaluation": "ONE training-selected configuration on120validation and4challenge; evaluate6newfalse-candidate labels as a separate diagnostic regardless of gates. No tuning using those labels.",
+  "six_case_source": "Before-manual-exclusion v2proposal and raw model components. Never score already removed zero-output rows as automatic rejections.",
+  "audit": "Only if validation and challenge keep all previously correct points without adding errors, and there is measurable withheld-error benefit; one config only.",
+  "fallback": "Camera guard retains previous selected output; no automatic removal of prior human-confirmed points/registry updates",
+  "scope": "Known same-match developmental failures motivated design. Training-only numeric selection is not independent external validation.",
+  "automatic_adoption": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\validation_labels.csv": "2425c308f3dbf9b6a1fc9551625e4b44eefd23ae1a1d8045acc287604bfc27f9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\audit_labels.csv": "757b149fdcb081db656177681dcc5de2ae5ab18b0c6f27ca3a20016f00eab3e2",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv": "c8d726a78e9fae0c2a222b1956bf43d4a7e1689236b0f5bef0a85e7745882fd6",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\training_selection.json": "4dc7ffeb328c1e12e176035d4735aa6d1476fc6e2fc2d537808ff94a07526f37",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\candidate_review.csv": "c8bc01430819f8aa7971a5341b31965da3ce40a2179f619cb3a94757afa04fd4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\review.json": "ec4100ca09d8d5c981c567c8291e8fc327c3bc5d96de5cd58dacfecf8a95163e",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\temporal_rally_reviews_v2\\match1_motion_pilot_015\\balltrack_predictions_proposed.csv": "356a140bc8a35ae442325ed13815dac784b95bf69dc0a1c62eb57191d7825759",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\temporal_rally_reviews_v2\\match1_motion_pilot_015\\full_scope_component_cache.json": "c404acdd55bbed965f0deb866c3d5997ea2fb16c9903fe8b2c3ef509ce128b8b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_component_cache.json": "c5b1740d4a37ad8ca48e34a4a4f0255935797e1797c77e315bcd004b02edb35c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\train_context_image_hashes.json": "35fbac59816d6fad38ce3e58fe80129813bb7373b3703c8d73b001914c3090bd",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\validation_component_cache.json": "e8a20509b8dc4bbce537d069af2090a542c31bc0f541c915c6fff7e21e62c5db",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\validation_context_image_hashes.json": "ca4b5de9d731b9685c18cb571598b8146cce1358b48ebbcb41743ce01a87ccb3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\challenge_component_cache.json": "b33ab9f67514abf6ba5585bc0d4d58ac1f446fbabe0fc37b5467548b8f62b417",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\challenge_context_image_hashes.json": "4d9b13d190386f62ab3d68e833a9b928cae0869c4905f75bdd68fa9f12e91f9f",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\audit_component_cache.json": "eaf79f3494f1ba443e110496d22623cf7fa0d4a0290dec0dd82c0484f7b33d18",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_temporal_path_comparison\\audit_context_image_hashes.json": "b4449c869f42023d7b7e7e5aaa1d7d8df8cf0b109a810bdc4385ee237430af01",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342"
+  },
+  "script_sha256": "6cbcae3eff369e6c71b11ed8b9a3437ddddb444947da068212fc39f292ae7e63"
+}

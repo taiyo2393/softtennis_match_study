@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "C:\\Users\\ta239\\Documents\\datasets",
+  "weights_dir": "C:\\Users\\ta239\\Documents\\Codex\\weights",
+  "runs_dir": "C:\\Users\\ta239\\Documents\\Codex\\runs",
+  "uuid": "d40864e0fe9ec86a9913793b7e0929191aad51c00510cd77175b3383a23e8517",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

@@ -1,0 +1,8 @@
+{
+  "withheld_frames": 35,
+  "validation": 17,
+  "test": 18,
+  "overlap_with_existing_annotation": 1,
+  "source_labels_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "warning": "Counts describe changed outputs, not confirmed errors removed."
+}

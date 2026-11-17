@@ -1,0 +1,29 @@
+{
+  "status": "three_user_confirmed_component_substitutions_applied_in_reviewed_output",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "rally_candidate_id": "match1_rally_window_044",
+  "candidate_main_play_local_frames": [
+    739,
+    1140
+  ],
+  "proposed_change_local_frames": [
+    773,
+    784,
+    1103
+  ],
+  "human_ball_identity_review": "user_confirmed_three_displayed_candidates_are_ball",
+  "automatic_baseline_replacement": false,
+  "baseline_modified": false,
+  "interpolation": false,
+  "detections_deleted": 0,
+  "missing_outputs_added": 0,
+  "independent_accuracy_established": false,
+  "remaining": [
+    "multi-frame false branches",
+    "long gaps",
+    "far-player absence in old044 person output"
+  ],
+  "next": "Repair far-player initialization near effective serve; retain multi-frame ball switches and long gaps as unresolved.",
+  "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json"
+}

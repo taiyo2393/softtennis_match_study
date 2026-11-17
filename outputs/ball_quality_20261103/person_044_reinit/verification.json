@@ -1,0 +1,9 @@
+{
+  "all_output_boxes_from_same_frame_original_detections": true,
+  "no_predicted_or_interpolated_positions_exported": true,
+  "no_detection_assigned_to_two_far_identities": true,
+  "continuous_tracklet_owner_consistent": true,
+  "source_detector_csv_unchanged": true,
+  "source_frame_to_local_offset": 114635,
+  "identity_accuracy_verified": false
+}

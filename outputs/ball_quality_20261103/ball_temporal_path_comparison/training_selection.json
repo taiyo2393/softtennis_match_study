@@ -1,0 +1,93 @@
+{
+  "chosen_configuration": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "training_original": {
+    "counts": {
+      "frames": 123,
+      "truth_visible": 102,
+      "pred_visible": 70,
+      "presence_tp": 68,
+      "localized_tp_16px": 63,
+      "wrong_localization": 5,
+      "presence_tn": 19,
+      "presence_fn": 34,
+      "presence_fp": 2
+    },
+    "localization_recall_16px": 0.6176470588235294,
+    "localization_precision_16px": 0.9,
+    "mean_error_both_visible_px": 24.941580516771136
+  },
+  "selected_training_key": [
+    66,
+    -4
+  ],
+  "validation_labels_used": false,
+  "challenge_labels_used": false,
+  "training_results": [
+    {
+      "name": "displacement_0.1",
+      "order": "displacement",
+      "strength": 0.1,
+      "correct": 66,
+      "errors": 4,
+      "original_correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1
+    },
+    {
+      "name": "displacement_0.3",
+      "order": "displacement",
+      "strength": 0.3,
+      "correct": 66,
+      "errors": 4,
+      "original_correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1
+    },
+    {
+      "name": "displacement_1",
+      "order": "displacement",
+      "strength": 1.0,
+      "correct": 66,
+      "errors": 4,
+      "original_correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1
+    },
+    {
+      "name": "acceleration_0.1",
+      "order": "acceleration",
+      "strength": 0.1,
+      "correct": 66,
+      "errors": 4,
+      "original_correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1
+    },
+    {
+      "name": "acceleration_0.3",
+      "order": "acceleration",
+      "strength": 0.3,
+      "correct": 66,
+      "errors": 4,
+      "original_correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1
+    },
+    {
+      "name": "acceleration_1",
+      "order": "acceleration",
+      "strength": 1.0,
+      "correct": 66,
+      "errors": 4,
+      "original_correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1
+    }
+  ],
+  "selection_frozen": true,
+  "automatic_adoption": false
+}

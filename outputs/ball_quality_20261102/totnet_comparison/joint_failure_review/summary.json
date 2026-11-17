@@ -1,0 +1,15 @@
+{
+  "context_counts": {
+    "preparation_or_between_points": 9,
+    "moving_ball_or_stroke_context": 16,
+    "shared_white_glove_false_positive": 2
+  },
+  "review_kind": "AI diagnostic from sampled temporal frames, not an independent annotation or full video playback review",
+  "inspection": "All 27 targets at offsets -12,-6,0,+6,+12; two glove cases also at -2,0,+2 with raw crops and 3x pixel enlargement.",
+  "source_labels_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "source_labels_unchanged_since_comparison": true,
+  "score_recomputed": false,
+  "adopted_predictions_changed": false,
+  "evidence": "Two glove cases: original clip decoded sequentially, cache exactly equals JPEG quality95 reencoding of corresponding frame.",
+  "scope_warning": "Counts are descriptive of 27 selected joint failures only, not prevalence in all rallies or an eligible-rally count."
+}

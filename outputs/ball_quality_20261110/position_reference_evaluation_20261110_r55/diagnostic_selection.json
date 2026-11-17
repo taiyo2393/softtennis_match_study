@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "reason": "Largest conditional point distance in uniform near",
+      "point": {
+        "sampling_group": "uniform_one_per_context",
+        "image_id": "P007",
+        "tag": "016",
+        "source_frame": "40715",
+        "camera_side": "near",
+        "position_policy": "retain_native_proxy",
+        "reference_slot": "near_right",
+        "native_player_slot": "near_front",
+        "native_track_id": "2",
+        "reference_x": 2555.9,
+        "reference_y": 1573.7,
+        "native_proxy_x": "2560.354736328125",
+        "native_proxy_y": "1625.2874755859375",
+        "dx_px": 4.454736328124909,
+        "dy_px": 51.587475585937455,
+        "distance_px": 51.779458408550475,
+        "body_warning": "0",
+        "not_independent_ID_truth": 1
+      },
+      "image": "diagnostic_example_01.jpg",
+      "image_sha256": "6d2fd2c23348bc78f556a8ddac453fb3dfa92d5c6c87b22c1d94501c28f9d729",
+      "crop_native_xyxy": [
+        2336,
+        1068,
+        2783,
+        1745
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "reason": "Largest conditional point distance in uniform far",
+      "point": {
+        "sampling_group": "uniform_one_per_context",
+        "image_id": "P002",
+        "tag": "002",
+        "source_frame": "2277",
+        "camera_side": "far",
+        "position_policy": "retain_native_proxy",
+        "reference_slot": "far_right",
+        "native_player_slot": "far_front",
+        "native_track_id": "4",
+        "reference_x": 2379.7,
+        "reference_y": 1218.3,
+        "native_proxy_x": "2353.6898193359375",
+        "native_proxy_y": "1233.3160400390625",
+        "dx_px": -26.010180664062318,
+        "dy_px": 15.016040039062545,
+        "distance_px": 30.033497242776953,
+        "body_warning": "0",
+        "not_independent_ID_truth": 1
+      },
+      "image": "diagnostic_example_02.jpg",
+      "image_sha256": "481e03bc0dbe06922f496cfe49325ecebdaf4e5d80128e2f40ddf3811ecd1073",
+      "crop_native_xyxy": [
+        2187,
+        987,
+        2519,
+        1353
+      ],
+      "aspect_preserved": true
+    },
+    {
+      "reason": "Reference placed; warning would remove this native proxy",
+      "point": {
+        "sampling_group": "known_body_warning_challenge",
+        "image_id": "P012",
+        "tag": "019",
+        "source_frame": "46396",
+        "camera_side": "far",
+        "position_policy": "retain_native_proxy",
+        "reference_slot": "far_left",
+        "native_player_slot": "far_rear",
+        "native_track_id": "1000246",
+        "reference_x": 1678.2,
+        "reference_y": 1209.0,
+        "native_proxy_x": "1679.1915588378906",
+        "native_proxy_y": "1213.1504211425781",
+        "dx_px": 0.9915588378905795,
+        "dy_px": 4.150421142578125,
+        "distance_px": 4.267222116290459,
+        "body_warning": "1",
+        "not_independent_ID_truth": 1
+      },
+      "image": "diagnostic_example_03.jpg",
+      "image_sha256": "d4870882ddad6ba14e0fa9c09d14e6ade2c76ba14dff7b897603942bd675c95c",
+      "crop_native_xyxy": [
+        1530,
+        998,
+        1828,
+        1333
+      ],
+      "aspect_preserved": true
+    }
+  ],
+  "selection_after_fixed_primary_evaluation": true,
+  "not_representative_accuracy_sampling": true,
+  "reference_points_not_modified": true
+}

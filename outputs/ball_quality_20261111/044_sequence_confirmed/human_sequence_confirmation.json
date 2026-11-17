@@ -1,0 +1,29 @@
+{
+  "recorded_on_jst": "2026-11-11",
+  "reviewer": "human_user",
+  "rally": "match1_rally_window_044",
+  "question_item_id": "[\"request_user_input_async\",\"call_91e1ef0825294eb186d21ad6ca302e8f\",0]",
+  "question": "今回の044の動画で、サーブからの打球順は「F1（奥・紫枠）→N2（手前・青枠）→F1→N2→F1」の5打球で合っていますか？ 打球数と打球者だけの確認で、正確な接触フレームの指定は不要です。",
+  "answer": "合っている",
+  "evidence_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_stroke_review\\044_AI_stroke_sequence_half_speed.mp4",
+  "evidence_video_sha256": "27f4289ba6f3322cb91767b59537101468e74223edc785bf90b5714ce1fb33ab",
+  "confirmed_fields": [
+    "five_strokes_including_serve_in_displayed_sequence",
+    "hitter_order_F1_N2_F1_N2_F1"
+  ],
+  "not_confirmed_fields": [
+    "exact_contact_frame_or_AI_brackets",
+    "all_frame_tracking_identity",
+    "physical_foot_or_court_positions",
+    "ball_center_accuracy",
+    "bounce_labels_or_bounce_times",
+    "landing_coordinates",
+    "shot_type",
+    "tactical_intention_or_cause_of_point"
+  ],
+  "prediction_visible_to_reviewer": true,
+  "independent_blind_accuracy_evaluation": false,
+  "review_actions": 1,
+  "sequences": 1,
+  "not_five_independent_rallies": true
+}

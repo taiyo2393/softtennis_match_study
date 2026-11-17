@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "candidate_id": "match1_rally_window_013",
+  "selected_boxes_matched_to_augmented_detection_source": 1531,
+  "recalculated_feature_values": 379,
+  "requested_times": 31,
+  "four_observation_times": 20,
+  "missing_requested_times": [
+    {
+      "source_frame": 34008,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34010,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34012,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34014,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34016,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34018,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34020,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34022,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34024,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34026,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 34028,
+      "missing_slots": [
+        "far_rear"
+      ]
+    }
+  ],
+  "source_JPEG_recreations": 4,
+  "video_frames_decoded": 840,
+  "videos": [
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_013\\tracking_quality_20261102_stage4\\players_013_temporal\\tracking_review_h264.mp4",
+      "frames": 420,
+      "sha256": "3394a99388e9ecb231a572a558635889f8aea035210539e05add9810959c9980"
+    },
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_013\\tracking_quality_20261102_stage7\\players_013_global\\global_review_h264.mp4",
+      "frames": 420,
+      "sha256": "0ea1e9593b4b0818988450a5ededb36dc694f8b198415f2557f273899ecaac50"
+    }
+  ],
+  "numerical_parameters_equal_retained001": true,
+  "QA_grid_source_frames": [
+    33948,
+    33972,
+    33978,
+    34008,
+    34038,
+    34068,
+    34083,
+    34098,
+    34195
+  ],
+  "interpolation_found": false,
+  "duplicate_slot_or_raw_detection_assignments_found": false,
+  "protected_sources_unchanged": true,
+  "independent_identity_or_position_accuracy_established": false
+}

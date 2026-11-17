@@ -1,0 +1,50 @@
+[
+  {
+    "family": "control",
+    "epoch": 1,
+    "loss": 0.0005552657180652615,
+    "updates": 62,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\control_epoch01.pth",
+    "checkpoint_sha256": "413cd38a84c5c8d3904357a24e2a905f1ca0ff13c0032ce5ca59b88f858c25b2"
+  },
+  {
+    "family": "control",
+    "epoch": 2,
+    "loss": 0.00048524593042994607,
+    "updates": 124,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\control_epoch02.pth",
+    "checkpoint_sha256": "3ec0fa287a18e58610698bde8d07e1059ff5e8019cf92687f7317a3c468b0bdb"
+  },
+  {
+    "family": "control",
+    "epoch": 3,
+    "loss": 0.0004406244743515873,
+    "updates": 186,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\control_epoch03.pth",
+    "checkpoint_sha256": "e9e849ac25ed9bddff3945602214d6058f99a6cd6d3ad149a2596361777c2cbc"
+  },
+  {
+    "family": "expanded",
+    "epoch": 1,
+    "loss": 0.0005862074335471246,
+    "updates": 62,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_epoch01.pth",
+    "checkpoint_sha256": "1b72dbd1eb538c790f7bc51fa846ce4b8f1223eb4467cc2c8cb7a87f3679cce3"
+  },
+  {
+    "family": "expanded",
+    "epoch": 2,
+    "loss": 0.0005219886359466932,
+    "updates": 124,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_epoch02.pth",
+    "checkpoint_sha256": "d3600459775c09d817fbcf594754d8747c5faf075a974e4004e513ec951bd215"
+  },
+  {
+    "family": "expanded",
+    "epoch": 3,
+    "loss": 0.0004807745364169316,
+    "updates": 186,
+    "checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_epoch03.pth",
+    "checkpoint_sha256": "6ffd083f3683b755ae5ab040ae9e715653cc14abeeee66d357f4df86582b2302"
+  }
+]

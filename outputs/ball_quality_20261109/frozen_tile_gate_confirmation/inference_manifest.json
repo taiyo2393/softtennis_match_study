@@ -1,0 +1,21 @@
+{
+  "status": "predictions_frozen_before_scoring",
+  "model_sha256": "91a05599577e9462092b05ae27109a1e30089adaf6f3dee186436b7493e504b8",
+  "targets": 52,
+  "original_contexts_replayed": 84,
+  "stored_tile_maps": 936,
+  "no_confirmation_labels_used_in_predictions": true,
+  "artifact_hashes": {
+    "frozen_confirmation_predictions.csv": "ff6c8d8b0486c07b88a7d47fb020ffdf32dea35e7c42b56b9644bcffa553c29f",
+    "candidate_pools.json": "eee9b85809bd4b4a5a0ca551e23b08fe624c04a50b03d347d4a67d807980d1e2",
+    "map_records.csv": "63851b371da030be306d3e5203f7b3ab268edd3d24a2f9ffa489ee53da52e1c6",
+    "component_rectangles.npz": "f9bc86f8ccf97e68cca771e02dd8828da465f4e23d8964d2a5b5e3cb07e61e27",
+    "global_replay.csv": "d9f84b993e439163165d1a2ab95dded66a025664dec39c4f1b901e9366eb249b",
+    "input_image_hashes.json": "de183532bb9aff5ebf0bbed7f3790d006939ad6de98697df7b4a12bbd609fe79",
+    "full_fit_decision.json": "faf031931e9a9f41835fd9ecb53042e554d5ffe6b7924284ab745b1a9794e245",
+    "frozen_training_head.npz": "91a05599577e9462092b05ae27109a1e30089adaf6f3dee186436b7493e504b8",
+    "fit_manifest.json": "470840f378f0d71157e4d5e7ea21d0ca6b31f1918501eb32f52200b98cdf414a",
+    "protocol.json": "d070b557c0051fc1d46821fabdbc0dfd90a969c8c21f7fa9181fbe76fbf10e03",
+    "confirmation_candidate_features.csv": "5bcabda4657b474e2c89302cb8b2975a521da1e8e88f04210cf780843ac5d415"
+  }
+}

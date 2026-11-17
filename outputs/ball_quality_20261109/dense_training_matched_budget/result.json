@@ -1,0 +1,89 @@
+{
+  "status": "matched_budget_dense_clip_excluded_comparison_complete",
+  "folds": 8,
+  "training_updates": 6429,
+  "sparse_training_centers": 68,
+  "dense_training_centers": 181,
+  "held_predictions": 732,
+  "stored_maps": 4374,
+  "summary": [
+    {
+      "scope": "legacy_play",
+      "method": "sparse_legacy_missing_only",
+      "targets": 77,
+      "correct16px": 64,
+      "wrong_position": 2,
+      "missing_visible_ball": 2,
+      "output_when_not_observable": 4,
+      "no_output_when_not_observable": 5
+    },
+    {
+      "scope": "legacy_play",
+      "method": "dense_legacy_missing_only",
+      "targets": 77,
+      "correct16px": 64,
+      "wrong_position": 3,
+      "missing_visible_ball": 1,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 4
+    },
+    {
+      "scope": "dense_packet_play",
+      "method": "sparse_raw_native_peak",
+      "targets": 124,
+      "correct16px": 110,
+      "wrong_position": 1,
+      "missing_visible_ball": 6,
+      "output_when_not_observable": 1,
+      "no_output_when_not_observable": 6
+    },
+    {
+      "scope": "dense_packet_play",
+      "method": "dense_raw_native_peak",
+      "targets": 124,
+      "correct16px": 109,
+      "wrong_position": 4,
+      "missing_visible_ball": 4,
+      "output_when_not_observable": 3,
+      "no_output_when_not_observable": 4
+    },
+    {
+      "scope": "legacy_nonplay",
+      "method": "sparse_legacy_missing_only",
+      "targets": 46,
+      "correct16px": 18,
+      "wrong_position": 8,
+      "missing_visible_ball": 8,
+      "output_when_not_observable": 5,
+      "no_output_when_not_observable": 7
+    },
+    {
+      "scope": "legacy_nonplay",
+      "method": "dense_legacy_missing_only",
+      "targets": 46,
+      "correct16px": 20,
+      "wrong_position": 8,
+      "missing_visible_ball": 6,
+      "output_when_not_observable": 4,
+      "no_output_when_not_observable": 8
+    }
+  ],
+  "legacy_correct_lost": [],
+  "dense_packet_correct_lost": [
+    "match1_motion_pilot_007_frame_000754"
+  ],
+  "passes_internal_gate": false,
+  "exact_sparse_legacy_replay_targets": 123,
+  "compute_budget_matched": true,
+  "held_clip_fit_exclusion": true,
+  "all_bn_and_other_weights_fixed": true,
+  "new_head_fit": false,
+  "threshold_retry": false,
+  "full_data_training": false,
+  "new_confirmation_inference": false,
+  "operational_adoption": false,
+  "canonical_tracking_changed": false,
+  "elapsed_sec": 384.78100000001723,
+  "decision": "Reject this fixed dense-data proposal at the current budget;no parameter retry,head/full fit or confirmation inference.",
+  "limitation": "Known same-match internal comparison;temporal labels densely sampled in4shortwindows,not independent trial frames or external validation."
+}

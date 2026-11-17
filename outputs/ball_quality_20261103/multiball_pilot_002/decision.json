@@ -1,0 +1,15 @@
+{
+  "status": "diagnostic_only_preparation_phase_not_current_priority",
+  "priority_update": "User prioritizes play-start detection before tracking; see ../play_start_audit/priority.json",
+  "reason": "A single reference trajectory confused another real ball or an official with the selected target ball.",
+  "candidate_extraction": "Retain multiple model components before target assignment",
+  "branch_A_seed": "User confirmed raw ball candidate at frame318; model coordinate, not a precise manual center",
+  "branch_B_seed": "Another model component at frame310; not manually annotated",
+  "user_confirmation": "Two balls in scene; full trajectories were not confirmed",
+  "branch_A_observed_frames": 16,
+  "branch_B_observed_frames": 73,
+  "interpolated_positions": 0,
+  "independent_accuracy_claim": false,
+  "next_served_ball_identified": false,
+  "original_labels_and_predictions_changed": false
+}

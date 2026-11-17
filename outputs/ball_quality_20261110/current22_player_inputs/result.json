@@ -1,0 +1,40 @@
+{
+  "status": "expanded_comparison_inputs_constructed",
+  "candidates": 22,
+  "added_candidate": "match1_rally_window_018",
+  "outcome_counts": {
+    "near": 7,
+    "far": 4,
+    "unknown": 11
+  },
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "next_candidate": "match1_rally_window_019",
+  "new_case_four_observation_times": 31,
+  "new_case_requested_times": 31,
+  "added_case_AI_identity_binding": false,
+  "added_case_processing_intervention": "automatic_near_pair_initialization_development",
+  "added_case_development_after_known_failure": true,
+  "confirmed_human_outcome_rows": 11,
+  "pending_outcome_rows": 11,
+  "model_fitting_performed": false,
+  "performance_estimated": false,
+  "ball_comparison_ready": false,
+  "new_human_annotation_requested": false,
+  "canonical_tracking_changed": false,
+  "artifact_hashes": {
+    "B1_server_side.csv": "4534a43fa1b9f182522e85c91c5e7d6aa3039314c7037ba826084d43a2c16b59",
+    "B2_snapshot.csv": "7c6c0a59309a42ad166febd238ef95ff8af1396d67b8438640f2a254ca717ab3",
+    "B2_window_means.csv": "e1341879e6ad4ba7a3865abcf1d9bdcd643f41b091c8f0993c7bfb92611f6bc6",
+    "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+    "diagnostic_snapshot_masks_only.csv": "deb6cdb6e7a7f9ee6fc3789c6ba13db472bd7d9214f23f600f510ddd064ea958",
+    "diagnostic_window_masks_only.csv": "a36769d62774ad12548ef9c94ffb3fdf66d447055b3b82490b4f93279a7d6ac2",
+    "fixed30_processing_progress.csv": "73ed9948975b6549c5db168bcb7fb227bed3a0fa3f357c1cd46662f1df099462",
+    "human_outcomes.csv": "210a70b884288d8a9e5022151b1e47c1d7aef548817f77bd5ba0d24f8f18b8bb",
+    "outcome_label_status.csv": "bb2d21d1012f3e8af9276b51e56cb67d0a5eadb5d532e9a6123743bc03d009db",
+    "processing_interventions.csv": "46c5e179ba256351b18179c192c4e3b18462ff2dfbb4260d0dbbfd51c716781b",
+    "rally_metadata.csv": "e2312b0a51eeccc34c5bd8faccec5b5aec336eaa1fe4f4e3a2611ae3acd3c94c",
+    "source_snapshot_features.csv": "83ab3e36fa73069739ebf374d23aeb5dda0db1fce0a3e5b7a3dcf3d0447fc71e",
+    "source_window_summary_features.csv": "57e429987dc251be88662a4d1170d50aa656bfe9d4a9a855ad46dea3792beadf"
+  }
+}

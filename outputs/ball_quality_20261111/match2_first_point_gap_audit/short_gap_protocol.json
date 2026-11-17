@@ -1,0 +1,26 @@
+{
+  "frozen_before_recovery_outputs": true,
+  "targets": [
+    12388,
+    12389
+  ],
+  "anchors": [
+    12387,
+    12390
+  ],
+  "anchor_source": "Original detector endpoints judged plausible in the preceding raw-image AI inspection. Human endpoint references not collected.",
+  "selection": "First short gap, raw inspection supports a single incoming flight without visible contact. Exploratory, selected from six baseline gaps.",
+  "threshold": 0.1,
+  "search_radius_native_px": 32.0,
+  "full_frame_size": [
+    1920,
+    1080
+  ],
+  "local_crop_size": [
+    960,
+    540
+  ],
+  "selection_rule": "Keep a candidate only when exactly one component center is within the 32px search disk.",
+  "saved_baseline_sha256": "e794fb65879a5016ebc4a2378e0b0b65211103de70902c0af6556400b1e78cda",
+  "weight_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342"
+}

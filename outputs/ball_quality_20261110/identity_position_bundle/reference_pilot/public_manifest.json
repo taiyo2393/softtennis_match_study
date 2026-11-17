@@ -1,0 +1,90 @@
+{
+  "title": "画像上の選手位置・小規模確認",
+  "slots": [
+    "near_left",
+    "near_right",
+    "far_left",
+    "far_right"
+  ],
+  "items": [
+    {
+      "image_id": "P001",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P001.png"
+    },
+    {
+      "image_id": "P002",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P002.png"
+    },
+    {
+      "image_id": "P003",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P003.png"
+    },
+    {
+      "image_id": "P004",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P004.png"
+    },
+    {
+      "image_id": "P005",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P005.png"
+    },
+    {
+      "image_id": "P006",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P006.png"
+    },
+    {
+      "image_id": "P007",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P007.png"
+    },
+    {
+      "image_id": "P008",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P008.png"
+    },
+    {
+      "image_id": "P009",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P009.png"
+    },
+    {
+      "image_id": "P010",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P010.png"
+    },
+    {
+      "image_id": "P011",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P011.png"
+    },
+    {
+      "image_id": "P012",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P012.png"
+    },
+    {
+      "image_id": "P013",
+      "width": 3840,
+      "height": 2160,
+      "image_file": "P013.png"
+    }
+  ],
+  "instruction": "足元が分かる選手だけ、左右の靴の中央x・低い方の靴底yを目安に点を置きます。厳密な接地判定は不要です。隠れている位置は推測せず「位置不明」を選んでください。"
+}

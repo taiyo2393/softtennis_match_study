@@ -1,0 +1,76 @@
+{
+  "status": "fixed_before_factor_training",
+  "purpose": "Training diagnosis ONLY: separate negative-exposure frequency and original-response preservation. No validation, model selection or deployment candidate.",
+  "conditions": [
+    [
+      "rare_preserve",
+      "rare",
+      1.0
+    ],
+    [
+      "rare_no_preserve",
+      "rare",
+      0.0
+    ],
+    [
+      "balanced_preserve",
+      "balanced",
+      1.0
+    ],
+    [
+      "balanced_no_preserve",
+      "balanced",
+      0.0
+    ]
+  ],
+  "unique_positive_images": 102,
+  "unique_negative_points": 9,
+  "source_clips": 8,
+  "negative_clips": 5,
+  "updates_per_condition": 153,
+  "batch_size": 2,
+  "image_slots_per_condition": 306,
+  "seed": 20261103,
+  "learning_rate": 0.0001,
+  "optimizer": "Adam",
+  "precision": "FP32",
+  "gradient_clip": 1.0,
+  "trainable": [
+    "up_block_3",
+    "predictor"
+  ],
+  "frozen": "All other weights and ALLBatchNorm buffers;eval always",
+  "rare": "Exact old3permutations of102frames,51batches/epoch; each positive image3times, each of9negative points3times; negative multiplier102/9.",
+  "balanced": "153batches: one paired-frame slot cycling9each17times + one generic-positive slot cyclingall102. Negative loss only in paired slot, multiplier2. Same image may occupy both slots; no BatchNorm update.",
+  "positive_importance": "Each positive image loss weight3/(its total exposure count). Thus every positive center total weight3, and every preservation image total weight3 when enabled.",
+  "negative_importance": "Every negative point total weight34 in both schedules; total positive weight306 and negative weight306. Equal weighted dose does not imply identical clipped/Adam trajectories: frequency is the factor.",
+  "preservation": "Prior implementation unchanged, coefficient0or1 only. Same original AMP soft teacher and sparse point support masks in all conditions; teacher not GT.",
+  "labels": "Point labels only; no nonvisible training frames or dense background GT. Adjacent21nonvisible labels are used only in TRAINING-SET post-fit raw-output diagnosis.",
+  "final_probe": "Final153updates only, fixed0.3. Positive/negative point response, within-image pair ordering and per-frame point fit. Raw training123 output also reported to separate point fit from detector precision.",
+  "reproduction": "Compare rare_preserve final weight tensors with old point_negative153update model; record exact/numerical differences, no checkpoint substitution.",
+  "inference": "Fixed original causal median+BGRt-3..t,512x288; FP32 probe for all four and original. No new threshold/crop/stride choice.",
+  "no_validation_or_audit": true,
+  "no_best_model_selection": true,
+  "no_new_human_labels": true,
+  "no_automatic_adoption": true,
+  "inference_warning": "Training probes are same data being fit, not held-out performance. Single seed and small selected negative corpus limit causal conclusions to this controlled run.",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\third_party\\RacketVision\\source\\BallTrack\\checkpoints\\balltrack_best.pth": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\protocol.json": "36903773322889cf12d5b9ac8f3d6c9aafdfe18a27b3e448c35cb484be03bd27",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\positive_training_manifest.csv": "e7875a72c947db18e96f2631bbf66e77b7011a380772df68f058de59b7221b4d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\negative_point_manifest.csv": "d8b0eca08e69a5eb8d8de252317961eb500a3de1798a25f25341ce1fceb9d6e9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\original_teacher_maps.npz": "0a6d3e5412f589ec6c392da359b26973287978a1a72eebb65aa717be531ec4d9",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\point_negative_epoch03_delta.pth": "05cbc2f9d8737b945a9cd305333d03d494d62fdfdcbb7f4caf939a349caf327c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\trained_models.json": "90d1175979dc8d6478486e7f00071f7fc7b5c45d5ebbb70e221ed090f48b0c60",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervised_detector_fp32\\verification.json": "6e55d03f7903460c482ef806419cc163f944011339a28c0d4f624ed73c5ecccf",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_detector_calibration\\decision.json": "44b32c50a23448885c0332ecaf77211cce63c363ebe1cb65c44084a5a44f9194",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervision_sanity\\result.json": "b45bdff42ba54757c43c0f682e60a15c2fcfc97b706dfac23759546e507bb919",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_point_supervision_sanity\\point_scores.csv": "08dc3731ff2b701e9f6d64efef0ae2e21f0c29e7f78674dc5f00b0f02745f7ef",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_expanded_centers_pilot\\expanded_train_labels.csv": "49410e2c98299f8ec2480b412eb2beac507b14977733a9bdcd0f9d74c3319334",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\train_point_supervised_ball_detector_fp32.py": "6e03325967657b3f832b320282c67738b51cd9233f4320eb8651be6ea561180a"
+  },
+  "script_sha256": "679dcdd43ff5022ce4b03ac9d66f220546b4af5a3d61c11601d0be2e7130406e"
+}

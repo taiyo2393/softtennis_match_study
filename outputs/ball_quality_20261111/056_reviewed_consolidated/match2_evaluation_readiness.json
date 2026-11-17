@@ -1,0 +1,19 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_file_present": true,
+  "registered_bytes": 1439072083,
+  "current_bytes": 1439072083,
+  "registration_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\source_registration.json",
+  "registration_sha256": "f98b3acb39dc31a86ed40a14e3b0ae2593329323cfdd15f63beffc0db5cf5541",
+  "known_previous_work": "Camera calibration and person-tracking development including205..209s, fixed300s/900s and1200s/1800s/2400s windows.",
+  "fully_unseen_match": false,
+  "ball_method_transfer_result_not_found_in_examined_match2_publications": true,
+  "next_required_work": "Fix rally serve/end boundaries from raw video before ball analysis; freeze baseline and any assisted repair procedure before viewing new ball outputs.",
+  "evaluation": "Call it separate-match ball transfer, not a fully untouched-match final test. Report repair effort, missed visible balls and wrong-object candidates separately; do not convert person candidate availability to ID accuracy.",
+  "inspected_documents": [
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_external_validation\\README.md",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_camera_setup\\README.md",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_camera_transfer_pilot\\README.md",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\match2_unseen_crop_transfer\\README.md"
+  ]
+}

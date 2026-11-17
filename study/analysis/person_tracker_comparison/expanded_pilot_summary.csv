@@ -1,0 +1,8 @@
+﻿pilot,event_id,impact_frame,target_camera_end,target_player_id,status,observed_player_frames,possible_player_frames,missing_player_frames,id_links,note
+pilot_007,match1_direction_match1_remaining_01_062,36464,near,P1,selected,619,720,101,0,
+pilot_008,match1_direction_pilot_01_011,62553,near,P2,selected,662,720,58,0,
+pilot_009,match1_direction_match1_remaining_01_106,72024,near,P2,selected,681,720,39,0,
+pilot_010,match1_far_front_direction_02_046,94383,far,P2,selected,576,720,144,0,
+pilot_011,match1_far_front_direction_02_059,115440,far,P1,selected,683,720,37,0,
+pilot_012,match1_far_front_direction_02_078,140961,far,P1,selected,606,720,114,0,
+pilot_013,match1_direction_match1_remaining_01_190,154156,near,P1,selected,575,720,145,0,

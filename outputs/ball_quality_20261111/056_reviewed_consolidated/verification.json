@@ -1,0 +1,22 @@
+{
+  "encoded_and_decoded_frames": 401,
+  "display_counts": {
+    "missing": 37,
+    "reviewed_observation": 344,
+    "estimated": 20
+  },
+  "retained_reviewed_observation_times": 404,
+  "observed_position_times": 354,
+  "unlocated_annotation_times": 50,
+  "crop_positive_reviews_applied": [
+    154270,
+    154780
+  ],
+  "crop_negative_candidate_excluded": 154324,
+  "all_protected_inputs_unchanged": true,
+  "person_bounce_and_schematic_tables_unchanged": true,
+  "new_interpolated_positions": 0,
+  "new_3D_ball_positions": 0,
+  "no_trace_connections_across_contact_or_bounce_intervals": true,
+  "independent_accuracy_established": false
+}

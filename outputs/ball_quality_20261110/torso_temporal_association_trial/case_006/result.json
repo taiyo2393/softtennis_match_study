@@ -1,0 +1,21 @@
+{
+  "tag": "006",
+  "baseline_path_and_cost_exact": true,
+  "search_frames": 1923,
+  "modes": {
+    "torso_team_soft_cost": {
+      "far_observations": 3454,
+      "removed_baseline_rows": 0,
+      "added_rows": 0,
+      "same_native_path": true,
+      "path_cost": 2278.7715096896904
+    },
+    "torso_team_soft_cost_pose_exclusive": {
+      "far_observations": 3454,
+      "removed_baseline_rows": 0,
+      "added_rows": 0,
+      "same_native_path": true,
+      "path_cost": 2278.7715096896904
+    }
+  }
+}

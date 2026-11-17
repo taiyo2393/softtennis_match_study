@@ -1,0 +1,66 @@
+{
+  "prior_development_publication_unchanged": 47,
+  "protected_inputs_and_source_hash_unchanged": true,
+  "all_three_fixed_windows_retained": true,
+  "all93_fixed_times_in_both_arms": true,
+  "provenance_checks": [
+    {
+      "clip_id": "match2_unseen_001",
+      "mode": "full_only",
+      "selected_observations": 1548,
+      "all_same_frame_real_candidate_boxes": true,
+      "all_geometry_unsupported_outputs_absent": true,
+      "one_to_one_assignment": true,
+      "measured_position_values": 0
+    },
+    {
+      "clip_id": "match2_unseen_001",
+      "mode": "full_plus_frozen_camera_crop",
+      "selected_observations": 1548,
+      "all_same_frame_real_candidate_boxes": true,
+      "all_geometry_unsupported_outputs_absent": true,
+      "one_to_one_assignment": true,
+      "measured_position_values": 0
+    },
+    {
+      "clip_id": "match2_unseen_002",
+      "mode": "full_only",
+      "selected_observations": 1305,
+      "all_same_frame_real_candidate_boxes": true,
+      "all_geometry_unsupported_outputs_absent": true,
+      "one_to_one_assignment": true,
+      "measured_position_values": 0
+    },
+    {
+      "clip_id": "match2_unseen_002",
+      "mode": "full_plus_frozen_camera_crop",
+      "selected_observations": 1313,
+      "all_same_frame_real_candidate_boxes": true,
+      "all_geometry_unsupported_outputs_absent": true,
+      "one_to_one_assignment": true,
+      "measured_position_values": 0
+    },
+    {
+      "clip_id": "match2_unseen_003",
+      "mode": "full_only",
+      "selected_observations": 2304,
+      "all_same_frame_real_candidate_boxes": true,
+      "all_geometry_unsupported_outputs_absent": true,
+      "one_to_one_assignment": true,
+      "measured_position_values": 0
+    },
+    {
+      "clip_id": "match2_unseen_003",
+      "mode": "full_plus_frozen_camera_crop",
+      "selected_observations": 2304,
+      "all_same_frame_real_candidate_boxes": true,
+      "all_geometry_unsupported_outputs_absent": true,
+      "one_to_one_assignment": true,
+      "measured_position_values": 0
+    }
+  ],
+  "no_manual_ID_mapping": true,
+  "no_interpolated_positions": true,
+  "no_human_truth_created": true,
+  "independent_accuracy_established": false
+}

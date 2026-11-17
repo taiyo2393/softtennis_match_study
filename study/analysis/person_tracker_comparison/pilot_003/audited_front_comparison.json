@@ -1,0 +1,24 @@
+[
+  {
+    "mode": "bytetrack",
+    "reference_event": "match1_far_front_direction_01_002",
+    "reference_frames": 43,
+    "detections_iou_at_least_050": 43,
+    "mean_best_iou": 0.885,
+    "matched_track_ids": {
+      "3": 43
+    },
+    "missed_frames": []
+  },
+  {
+    "mode": "botsort_reid",
+    "reference_event": "match1_far_front_direction_01_002",
+    "reference_frames": 43,
+    "detections_iou_at_least_050": 43,
+    "mean_best_iou": 0.965,
+    "matched_track_ids": {
+      "3": 43
+    },
+    "missed_frames": []
+  }
+]

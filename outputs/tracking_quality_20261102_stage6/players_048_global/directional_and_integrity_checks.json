@@ -1,0 +1,26 @@
+{
+  "reverse_anchor_frame": 126741,
+  "reverse_anchor_ids": {
+    "far_rear": 163,
+    "far_front": 151
+  },
+  "reverse_returned_initial_ids": {
+    "far_rear": 5,
+    "far_front": 2
+  },
+  "original_initial_ids": {
+    "far_rear": 5,
+    "far_front": 2
+  },
+  "jointly_observed_comparisons": 1334,
+  "agreeing_boxes_iou_ge_half": 1334,
+  "note": "Reverse anchors are derived from the forward proposal. Directional stability is not independent identity accuracy.",
+  "media": {
+    "full_decode": "passed",
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "nb_frames": "900"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "selection": "All final-path gaps whose next observation follows inherited contact; no formal point-end certification or accuracy sampling.",
+  "source_path_sha256": "fc87acbc9fe69fa72dee194daf7cde68aa7dd29c3ba8a7ff93d67c26533d5f6a",
+  "script_sha256": "c849d2ffb829ba3dac2cd8ed2783c26aaa7eb9a2ed8c7d16fd66dc4fca6c1096",
+  "gaps": [
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "36628",
+      "after_source_frame": "36630",
+      "missing_frames": "1",
+      "before_raw_id": "1000074",
+      "after_raw_id": "387",
+      "image_file": "gap_01_far_rear.jpg",
+      "source_frames": [
+        36616,
+        36628,
+        36629,
+        36630,
+        36636,
+        36642
+      ],
+      "constant_crop_xyxy": [
+        1441,
+        924,
+        1971,
+        1364
+      ],
+      "aspect_preserved": true,
+      "sha256": "2d62670b290a472cfd60157e1b5935598010c23a43acd442b9672556bf3caaca"
+    },
+    {
+      "player_slot": "far_rear",
+      "before_source_frame": "36632",
+      "after_source_frame": "36642",
+      "missing_frames": "9",
+      "before_raw_id": "1001126",
+      "after_raw_id": "388",
+      "image_file": "gap_02_far_rear.jpg",
+      "source_frames": [
+        36620,
+        36632,
+        36637,
+        36642,
+        36648,
+        36654
+      ],
+      "constant_crop_xyxy": [
+        1482,
+        911,
+        1999,
+        1368
+      ],
+      "aspect_preserved": true,
+      "sha256": "29cff0c38aef8a0fb447df7c893f1dd09d989863037797cc3d71cacbd78a7f52"
+    },
+    {
+      "player_slot": "far_front",
+      "before_source_frame": "36483",
+      "after_source_frame": "36519",
+      "missing_frames": "35",
+      "before_raw_id": "315",
+      "after_raw_id": "367",
+      "image_file": "gap_03_far_front.jpg",
+      "source_frames": [
+        36471,
+        36483,
+        36501,
+        36519,
+        36525,
+        36531
+      ],
+      "constant_crop_xyxy": [
+        1905,
+        892,
+        2492,
+        1407
+      ],
+      "aspect_preserved": true,
+      "sha256": "6e71dcbe31cac062b4e5987c0e838808cc1d90bf169b1c16050e161746d22b52"
+    },
+    {
+      "player_slot": "far_front",
+      "before_source_frame": "36633",
+      "after_source_frame": "36635",
+      "missing_frames": "1",
+      "before_raw_id": "367",
+      "after_raw_id": "367",
+      "image_file": "gap_04_far_front.jpg",
+      "source_frames": [
+        36621,
+        36633,
+        36634,
+        36635,
+        36641,
+        36647
+      ],
+      "constant_crop_xyxy": [
+        1699,
+        953,
+        2228,
+        1442
+      ],
+      "aspect_preserved": true,
+      "sha256": "1e19b989eb3c848cd83af964ecb66eb3c4895bcd6b37210a2c2eadd5d84ca598"
+    },
+    {
+      "player_slot": "far_front",
+      "before_source_frame": "36635",
+      "after_source_frame": "36641",
+      "missing_frames": "5",
+      "before_raw_id": "367",
+      "after_raw_id": "367",
+      "image_file": "gap_05_far_front.jpg",
+      "source_frames": [
+        36623,
+        36635,
+        36638,
+        36641,
+        36647,
+        36653
+      ],
+      "constant_crop_xyxy": [
+        1695,
+        967,
+        2222,
+        1442
+      ],
+      "aspect_preserved": true,
+      "sha256": "20822c846ba3581fb5b67522f72e9a9cab8f624478b00caed81d885b81c6a7c7"
+    }
+  ],
+  "interpolation": false
+}

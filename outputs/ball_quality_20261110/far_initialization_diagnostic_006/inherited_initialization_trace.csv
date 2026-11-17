@@ -1,0 +1,207 @@
+﻿source_frame,proposed_ids_json,maximum_selected_overlap,blocking_stage,consecutive_confirmation_frames,emitted_seed_boxes
+10370,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10371,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10372,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10373,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10374,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10375,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10376,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10377,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10378,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10379,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10380,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10381,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10382,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10383,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10384,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10385,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10386,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10387,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10388,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10389,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10390,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10391,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10392,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10393,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10394,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10395,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10396,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10397,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10398,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10399,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10400,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10401,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10402,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10403,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10404,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10405,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10406,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10407,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10408,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10409,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10410,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10411,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10412,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10413,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10414,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10415,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10416,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10417,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10418,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10419,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10420,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10421,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10422,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10423,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10424,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10425,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10426,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10427,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10428,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10429,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 10, ""far_front"": 4}",0.7387426387503094,selected_box_overlap,0,0
+10430,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 10, ""far_front"": 4}",0.7313337567203693,selected_box_overlap,0,0
+10431,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10432,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10433,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10434,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10435,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10436,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10437,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10438,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10439,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 32, ""far_front"": 4}",0.5747354625221672,selected_box_overlap,0,0
+10440,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 32, ""far_front"": 4}",0.5751545233375656,selected_box_overlap,0,0
+10441,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 32, ""far_front"": 4}",0.5727729761924842,selected_box_overlap,0,0
+10442,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10443,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 36, ""far_front"": 4}",0.6037313258674404,selected_box_overlap,0,0
+10444,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 36, ""far_front"": 4}",0.6110119299877217,selected_box_overlap,0,0
+10445,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 36, ""far_front"": 4}",0.6053309279481127,selected_box_overlap,0,0
+10446,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 36, ""far_front"": 4}",0.6119011336818152,selected_box_overlap,0,0
+10447,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10448,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10449,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10450,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10451,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10452,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10453,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10454,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10455,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10456,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 41, ""far_front"": 4}",0.6890788098488269,selected_box_overlap,0,0
+10457,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 41, ""far_front"": 4}",0.7086315046529503,selected_box_overlap,0,0
+10458,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9876809132135661,selected_box_overlap,0,0
+10459,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.991331516136512,selected_box_overlap,0,0
+10460,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9941912580372891,selected_box_overlap,0,0
+10461,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9863440432983976,selected_box_overlap,0,0
+10462,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.984032599142153,selected_box_overlap,0,0
+10463,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9512974486993728,selected_box_overlap,0,0
+10464,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9391914118354109,selected_box_overlap,0,0
+10465,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9655754455166469,selected_box_overlap,0,0
+10466,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9742334424025728,selected_box_overlap,0,0
+10467,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9954796954460347,selected_box_overlap,0,0
+10468,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9930145186000747,selected_box_overlap,0,0
+10469,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9658140110955837,selected_box_overlap,0,0
+10470,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9543580140751594,selected_box_overlap,0,0
+10471,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9426600676367156,selected_box_overlap,0,0
+10472,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9157061978035811,selected_box_overlap,0,0
+10473,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9205857381605641,selected_box_overlap,0,0
+10474,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9160453802968436,selected_box_overlap,0,0
+10475,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.91844836486853,selected_box_overlap,0,0
+10476,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9271770383311155,selected_box_overlap,0,0
+10477,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9345063361727157,selected_box_overlap,0,0
+10478,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9357283295180004,selected_box_overlap,0,0
+10479,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9467915199373955,selected_box_overlap,0,0
+10480,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9504641182908213,selected_box_overlap,0,0
+10481,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9425004179693015,selected_box_overlap,0,0
+10482,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 44, ""far_front"": 4}",0.9390105266773136,selected_box_overlap,0,0
+10483,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9300313703800906,selected_box_overlap,0,0
+10484,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9299278849333478,selected_box_overlap,0,0
+10485,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9415722451226204,selected_box_overlap,0,0
+10486,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9458901584472488,selected_box_overlap,0,0
+10487,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9447218097243141,selected_box_overlap,0,0
+10488,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9451990348388389,selected_box_overlap,0,0
+10489,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9458106726776552,selected_box_overlap,0,0
+10490,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000103, ""far_front"": 4}",0.9451555267593391,selected_box_overlap,0,0
+10491,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10492,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10493,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10494,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10495,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10496,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10497,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10498,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10499,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000009, ""far_front"": 4}",0.5161151062611912,selected_box_overlap,0,0
+10500,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000009, ""far_front"": 4}",0.52369045691022,selected_box_overlap,0,0
+10501,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000009, ""far_front"": 4}",0.5156921085599986,selected_box_overlap,0,0
+10502,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 50, ""far_front"": 4}",0.5329828904928696,selected_box_overlap,0,0
+10503,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000009, ""far_front"": 4}",0.4822473449905625,selected_box_overlap,0,0
+10504,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000009, ""far_front"": 4}",0.47194712860546945,selected_box_overlap,0,0
+10505,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 1000009, ""far_front"": 4}",0.4696008201877939,selected_box_overlap,0,0
+10506,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.779045709761711,selected_box_overlap,0,0
+10507,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.7436203800650693,selected_box_overlap,0,0
+10508,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.7335865114980685,selected_box_overlap,0,0
+10509,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.7239752479879341,selected_box_overlap,0,0
+10510,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.7216174961730969,selected_box_overlap,0,0
+10511,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6979083996580184,selected_box_overlap,0,0
+10512,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6819820991652018,selected_box_overlap,0,0
+10513,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6893941068123566,selected_box_overlap,0,0
+10514,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6964511117134967,selected_box_overlap,0,0
+10515,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6388555227548499,selected_box_overlap,0,0
+10516,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6160775624094503,selected_box_overlap,0,0
+10517,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5902920906133373,selected_box_overlap,0,0
+10518,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5790835767060709,selected_box_overlap,0,0
+10519,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5083605961799688,selected_box_overlap,0,0
+10520,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.4772952199379289,selected_box_overlap,0,0
+10521,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5373276702416182,selected_box_overlap,0,0
+10522,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5438832446668012,selected_box_overlap,0,0
+10523,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5198433903715197,selected_box_overlap,0,0
+10524,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5134962601869794,selected_box_overlap,0,0
+10525,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5565145160411403,selected_box_overlap,0,0
+10526,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.572511146545473,selected_box_overlap,0,0
+10527,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5861575763093594,selected_box_overlap,0,0
+10528,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.5916475488983765,selected_box_overlap,0,0
+10529,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6219636847111806,selected_box_overlap,0,0
+10530,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 51, ""far_front"": 4}",0.6523224459419373,selected_box_overlap,0,0
+10531,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10532,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10533,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10534,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10535,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10536,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10537,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10538,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10539,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10540,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10541,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10542,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10543,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10544,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10545,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10546,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10547,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10548,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10549,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10550,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10551,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10552,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10553,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10554,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10555,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10556,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10557,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10558,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10559,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.47494949294546834,selected_box_overlap,0,0
+10560,{},,fewer_than_two_geometry_candidates_on_a_side,0,0
+10561,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.4938928312792622,selected_box_overlap,0,0
+10562,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.5105362029555028,selected_box_overlap,0,0
+10563,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.4966112212697221,selected_box_overlap,0,0
+10564,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.49597770725531715,selected_box_overlap,0,0
+10565,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.48956280779112643,selected_box_overlap,0,0
+10566,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.4930287088800062,selected_box_overlap,0,0
+10567,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.4557201340122838,selected_box_overlap,0,0
+10568,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.4434852413344197,confirming_past8,1,0
+10569,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.410154961882509,confirming_past8,2,0
+10570,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.3968488348744238,confirming_past8,3,0
+10571,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.3158070950600437,confirming_past8,4,0
+10572,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.2848262277752393,confirming_past8,5,0
+10573,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.21096543904534568,confirming_past8,6,0
+10574,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.17873219934826506,confirming_past8,7,0
+10575,"{""near_front"": 2, ""near_rear"": 1, ""far_rear"": 59, ""far_front"": 4}",0.10115754990723255,initialized,8,4

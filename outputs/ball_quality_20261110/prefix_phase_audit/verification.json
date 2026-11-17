@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_frame_JPEG_recreations": 24,
+  "continuous_clip_frames_decoded": 2058,
+  "continuous_clips": 6,
+  "detail_crop_frames_recreated": 14,
+  "image_and_clip_hashes_match": true,
+  "protected_previous_outputs_unchanged": true,
+  "note": "Verifies evidence generation and linkage; does not independently validate AI visual phase decisions."
+}

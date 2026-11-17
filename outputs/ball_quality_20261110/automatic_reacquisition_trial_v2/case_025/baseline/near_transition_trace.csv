@@ -1,0 +1,3 @@
+﻿source_frame,player_slot,old_id,new_id,old_observed_frame,gap,identity_source,cost,margin,own_gallery_distance,closest_initial_opponent_distance,nearest_distractor_distance
+60302,near_rear,1,84,60190,112,gallery_reacquisition_candidate,0.3179851935643754,0.5320148064356246,0.3653409780674247,0.8700965940755319,0.6730494437519363
+60372,near_front,2,107,60370,2,continuous_assignment,0.5910298257498664,0.45897017425013353,0.6377183196030024,0.7054509970621416,0.8129481856492597

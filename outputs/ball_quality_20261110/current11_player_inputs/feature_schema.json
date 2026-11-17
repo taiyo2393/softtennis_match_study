@@ -1,0 +1,50 @@
+{
+  "inputs": {
+    "B1_server_side.csv": [
+      "server_side_near"
+    ],
+    "B2_snapshot.csv": [
+      "server_side_near",
+      "near_center_x_norm",
+      "near_center_y_norm",
+      "near_x_gap_norm",
+      "near_y_gap_norm",
+      "far_center_x_norm",
+      "far_center_y_norm",
+      "far_x_gap_norm",
+      "far_y_gap_norm",
+      "near_pair_valid",
+      "far_pair_valid"
+    ],
+    "B2_window_means.csv": [
+      "server_side_near",
+      "near_center_x_norm_mean",
+      "near_center_y_norm_mean",
+      "near_x_gap_norm_mean",
+      "near_y_gap_norm_mean",
+      "far_center_x_norm_mean",
+      "far_center_y_norm_mean",
+      "far_x_gap_norm_mean",
+      "far_y_gap_norm_mean",
+      "near_pair_observed_fraction",
+      "far_pair_observed_fraction"
+    ],
+    "diagnostic_snapshot_masks_only.csv": [
+      "server_side_near",
+      "near_pair_valid",
+      "far_pair_valid"
+    ],
+    "diagnostic_window_masks_only.csv": [
+      "server_side_near",
+      "near_pair_observed_fraction",
+      "far_pair_observed_fraction"
+    ]
+  },
+  "join_key_not_model_input": "rally_candidate_id",
+  "labels_file": "human_outcomes.csv",
+  "metadata_not_model_inputs": [
+    "rally_metadata.csv",
+    "fixed30_processing_progress.csv"
+  ],
+  "empty_coordinates": "Missing; preserve as blank, never zero; fit any future imputation only on training groups"
+}

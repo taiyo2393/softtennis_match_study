@@ -1,0 +1,534 @@
+{
+  "selection": "All retained known development-example frames plus maximum-native-far-pair-overlap frame per case. Not every pose output; no independent accuracy denominator.",
+  "items": [
+    {
+      "tag": "002",
+      "source_frame": 2559,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.502687"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1487,
+        967,
+        2004,
+        1493
+      ],
+      "aspect_preserved": true,
+      "image": "01_002_F2559.jpg",
+      "image_sha256": "13dedcf3a34b3652e780c36ed8676ceb501a779b8dba36bdbca876c4e6542b5e"
+    },
+    {
+      "tag": "005",
+      "source_frame": 8990,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.518464"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1523,
+        943,
+        2001,
+        1480
+      ],
+      "aspect_preserved": true,
+      "image": "02_005_F8990.jpg",
+      "image_sha256": "00391a1cf2e1a9be7af3ad7c3aafdb6215f40c62f4c498519915584f4ab5eb37"
+    },
+    {
+      "tag": "006",
+      "source_frame": 12217,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.545410"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1767,
+        934,
+        2227,
+        1465
+      ],
+      "aspect_preserved": true,
+      "image": "03_006_F12217.jpg",
+      "image_sha256": "31643e4baf466993063faa0993835898c8651bdfbb31091a0e7e14e56d69c11e"
+    },
+    {
+      "tag": "006",
+      "source_frame": 12421,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1092,
+        950,
+        1549,
+        1391
+      ],
+      "aspect_preserved": true,
+      "image": "04_006_F12421.jpg",
+      "image_sha256": "4a0c074e28d443d0c4740e55394cc6d288406d029608b0b005819f796d2e6fb4"
+    },
+    {
+      "tag": "006",
+      "source_frame": 12422,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1095,
+        950,
+        1550,
+        1386
+      ],
+      "aspect_preserved": true,
+      "image": "05_006_F12422.jpg",
+      "image_sha256": "5cdff1b63d57049edaf64b8c69926a7cece3c4cb6c66d7a48ef55280d3897acb"
+    },
+    {
+      "tag": "009",
+      "source_frame": 22075,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.481348"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1568,
+        957,
+        2132,
+        1504
+      ],
+      "aspect_preserved": true,
+      "image": "06_009_F22075.jpg",
+      "image_sha256": "7c0e26b532f3396347dac4810def1c68de1c2eddd0eb1854025b49dbccf80120"
+    },
+    {
+      "tag": "012",
+      "source_frame": 31935,
+      "reasons": [
+        "initialization",
+        "maximum_native_far_pair_overlap:0.000000"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1580,
+        944,
+        2265,
+        1448
+      ],
+      "aspect_preserved": true,
+      "image": "07_012_F31935.jpg",
+      "image_sha256": "45e7f051d1a6e4bb368548b8da6535905e8bb1a999b33813df965a5d93eafe0d"
+    },
+    {
+      "tag": "015",
+      "source_frame": 39160,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.493749"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1749,
+        933,
+        2218,
+        1455
+      ],
+      "aspect_preserved": true,
+      "image": "08_015_F39160.jpg",
+      "image_sha256": "2976fdd313e0e9c3c89e97784d7c9d43a61252ee0b9a76c2bb4290730c9a31ae"
+    },
+    {
+      "tag": "016",
+      "source_frame": 40556,
+      "reasons": [
+        "initialization",
+        "maximum_native_far_pair_overlap:0.000000"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1434,
+        935,
+        2533,
+        1498
+      ],
+      "aspect_preserved": true,
+      "image": "09_016_F40556.jpg",
+      "image_sha256": "238fca7926d3789e435064e6f83899210ccea7242dc69497cea9de40b5d835f8"
+    },
+    {
+      "tag": "016",
+      "source_frame": 40625,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        2104,
+        935,
+        2522,
+        1407
+      ],
+      "aspect_preserved": true,
+      "image": "10_016_F40625.jpg",
+      "image_sha256": "6f281a5382de5a822f0d23cddf488f6502051b6b15cc79cda07441cf12576f90"
+    },
+    {
+      "tag": "016",
+      "source_frame": 40626,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        2105,
+        934,
+        2522,
+        1407
+      ],
+      "aspect_preserved": true,
+      "image": "11_016_F40626.jpg",
+      "image_sha256": "5e361ee609768d93a2b70c7ac4e9590bd25b34ce19e2e1dfe245ee90c333cf5f"
+    },
+    {
+      "tag": "017",
+      "source_frame": 41845,
+      "reasons": [
+        "initialization",
+        "maximum_native_far_pair_overlap:0.000000"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1601,
+        929,
+        2419,
+        1415
+      ],
+      "aspect_preserved": true,
+      "image": "12_017_F41845.jpg",
+      "image_sha256": "c263e74c5a3cf12302197ef80889e969a6c753bf3170c3951dbf83b96cbc205f"
+    },
+    {
+      "tag": "018",
+      "source_frame": 44166,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.347939"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1938,
+        943,
+        2431,
+        1475
+      ],
+      "aspect_preserved": true,
+      "image": "13_018_F44166.jpg",
+      "image_sha256": "7b01af896cbb29abf91cb60f7c732ecb0b690690aee2a18c4c74e0e9ff57e9f7"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46352,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1467,
+        942,
+        1873,
+        1352
+      ],
+      "aspect_preserved": true,
+      "image": "14_019_F46352.jpg",
+      "image_sha256": "e0c1914741f45b144861737e09ac5eeca78d1516f28c80032e2a1d587c6b6cdd"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46501,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1339,
+        934,
+        1751,
+        1381
+      ],
+      "aspect_preserved": true,
+      "image": "15_019_F46501.jpg",
+      "image_sha256": "bf61f299675bf043a472958fbd9f7d2dd8f4807318ef71450bec0d7eae16161f"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46502,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1340,
+        934,
+        1748,
+        1378
+      ],
+      "aspect_preserved": true,
+      "image": "16_019_F46502.jpg",
+      "image_sha256": "4180f5fc0374afc458c3c4fd5514b4652a54852d4f709279eb9cba7cc5e7a8a2"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46503,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1344,
+        933,
+        1752,
+        1376
+      ],
+      "aspect_preserved": true,
+      "image": "17_019_F46503.jpg",
+      "image_sha256": "d437e7430795f43c1fe4e833a5f9fa8d7ef903a3f1c019e6613b632566c17f72"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46505,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1347,
+        933,
+        1757,
+        1376
+      ],
+      "aspect_preserved": true,
+      "image": "18_019_F46505.jpg",
+      "image_sha256": "6c1d287ecc090fbd4ff2b2ad746736bc73f4db0d05c674e14d823bb2bdacf076"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46511,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1333,
+        933,
+        1775,
+        1416
+      ],
+      "aspect_preserved": true,
+      "image": "19_019_F46511.jpg",
+      "image_sha256": "f904a5fe3dec3ec347220e2e47a9d7bf24da812cb3352b7dae5d601113ecccfa"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46633,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.542279"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1832,
+        962,
+        2303,
+        1489
+      ],
+      "aspect_preserved": true,
+      "image": "20_019_F46633.jpg",
+      "image_sha256": "f5617a38a12c41e305faad5a7f35acedf736fd6f85a3dac9162d53cffe2897d1"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46634,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1833,
+        961,
+        2254,
+        1421
+      ],
+      "aspect_preserved": true,
+      "image": "21_019_F46634.jpg",
+      "image_sha256": "f1509829c4ed794eb403618173101fae6302b37ba136e676354af88777f2bd5c"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46658,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "near_rear"
+      ],
+      "crop_native_xyxy": [
+        1686,
+        989,
+        2230,
+        1573
+      ],
+      "aspect_preserved": true,
+      "image": "22_019_F46658.jpg",
+      "image_sha256": "9ffdb8f78d47e4fb4f64c86d929e38fc117f14b01bc844f267308709af1cc975"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46659,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1925,
+        962,
+        2368,
+        1416
+      ],
+      "aspect_preserved": true,
+      "image": "23_019_F46659.jpg",
+      "image_sha256": "3d99828cedc5e635f1ebc5fa8f80c5da39a7e7b8c9cc03c5b7fd2bbacec85fd8"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46660,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1926,
+        963,
+        2367,
+        1416
+      ],
+      "aspect_preserved": true,
+      "image": "24_019_F46660.jpg",
+      "image_sha256": "802a3b982a8139a7232b69c48db345f3dc2e0714e302d4ff452dff7230118091"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46665,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1857,
+        976,
+        2331,
+        1445
+      ],
+      "aspect_preserved": true,
+      "image": "25_019_F46665.jpg",
+      "image_sha256": "0bc407f7a09f3e56beb2f4b0cce22d5b0732d95f57bb8f22c88d23523c23ff1e"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46666,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1861,
+        975,
+        2337,
+        1449
+      ],
+      "aspect_preserved": true,
+      "image": "26_019_F46666.jpg",
+      "image_sha256": "ceb273daf678d43e13f5648d4232a08e6fb2797b767a59c3d251cc384293920e"
+    },
+    {
+      "tag": "019",
+      "source_frame": 46667,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "near_rear"
+      ],
+      "crop_native_xyxy": [
+        1843,
+        970,
+        2389,
+        1589
+      ],
+      "aspect_preserved": true,
+      "image": "27_019_F46667.jpg",
+      "image_sha256": "a570f9d68948e6d393312af3a54e529071e3216e4e95b9eea8fc7445d9007a6e"
+    }
+  ],
+  "pages": 14,
+  "script_sha256": "99cdee4eb28cbf0761f911a81ba2d9f39d65d54da1bf9217a05664c5aed743ff",
+  "independent_GT": false
+}

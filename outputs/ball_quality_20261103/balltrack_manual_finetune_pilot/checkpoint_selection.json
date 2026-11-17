@@ -1,0 +1,16 @@
+{
+  "selected_epoch": 2,
+  "selected_checkpoint": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_manual_finetune_pilot\\epoch02.pth",
+  "selected_checkpoint_sha256": "759f993c47b2bdadb3f14c8cd0d7665e2d9af4918e8cd7d8e73b6a0f4d7c077e",
+  "validation_selection_key": [
+    85,
+    -9
+  ],
+  "baseline_key": [
+    80,
+    -3
+  ],
+  "audit_results_used": false,
+  "automatic_adoption": false,
+  "source_model_unchanged": true
+}

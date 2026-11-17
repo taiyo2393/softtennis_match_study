@@ -1,0 +1,92 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\balltrack_observed_fallback\\fallback_gains_and_error_h264.mp4",
+  "video_sha256": "8e4f97e61554a1d5b31dd59cda3796edb1269c04d61b0fab58eb33f8f4e542af",
+  "decoded_frames": 460,
+  "duration_sec": 7.674333333333333,
+  "cases": [
+    {
+      "candidate_id": "match1_motion_pilot_011",
+      "target_frame": 1710,
+      "start": 1695,
+      "end": 1725,
+      "sample_id": "match1_motion_pilot_011_frame_001710",
+      "target_error_px": 3.605551275463989,
+      "target_matches_manual16px": true,
+      "crop_xywh": [
+        889,
+        353,
+        480,
+        270
+      ]
+    },
+    {
+      "candidate_id": "match1_motion_pilot_012",
+      "target_frame": 667,
+      "start": 652,
+      "end": 682,
+      "sample_id": "match1_motion_pilot_012_frame_000667",
+      "target_error_px": 6.082762530298219,
+      "target_matches_manual16px": true,
+      "crop_xywh": [
+        558,
+        434,
+        480,
+        270
+      ]
+    },
+    {
+      "candidate_id": "match1_motion_pilot_014",
+      "target_frame": 454,
+      "start": 439,
+      "end": 469,
+      "sample_id": "match1_motion_pilot_014_frame_000454",
+      "target_error_px": 2.8284271247461903,
+      "target_matches_manual16px": true,
+      "crop_xywh": [
+        269,
+        657,
+        480,
+        270
+      ]
+    },
+    {
+      "candidate_id": "match1_motion_pilot_019",
+      "target_frame": 169,
+      "start": 154,
+      "end": 184,
+      "sample_id": "match1_motion_pilot_019_frame_000169",
+      "target_error_px": 7.211102550927978,
+      "target_matches_manual16px": true,
+      "crop_xywh": [
+        716,
+        417,
+        480,
+        270
+      ]
+    },
+    {
+      "candidate_id": "match1_motion_pilot_019",
+      "target_frame": 325,
+      "start": 310,
+      "end": 340,
+      "sample_id": "match1_motion_pilot_019_frame_000325",
+      "target_error_px": 152.11837495845134,
+      "target_matches_manual16px": false,
+      "crop_xywh": [
+        797,
+        502,
+        480,
+        270
+      ]
+    }
+  ],
+  "manual_target_agreements": 4,
+  "manual_target_wrong_locations": 1,
+  "unlabelled_surrounding_frames_not_counted_as_accuracy": true,
+  "original_observations_preserved": true,
+  "no_interpolation": true,
+  "automatic_adoption": false,
+  "reviewed_registry_and_source_labels_unchanged": true,
+  "source_aspect_preserved": true,
+  "crop_uniform_enlargement": 2
+}

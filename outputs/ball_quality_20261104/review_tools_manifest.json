@@ -1,0 +1,13 @@
+{
+  "status": "review_server_prepared_not_started",
+  "source_template": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_short_ball_sequence_review.py",
+  "source_template_sha256": "dd1e8feed52add29561c7b18d3a1bb02843b7e0c4414242fe13568b4fe6f1cf3",
+  "server_script": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\serve_reserved_ball_sequence_review.py",
+  "server_script_sha256": "2faf8f30d884df45c55602d6dc8970bfb1f767310cb81f0c5291a7f6bbcb59bc",
+  "adaptations": [
+    "52pending cases",
+    "ABCD case IDs",
+    "new output directory only"
+  ],
+  "real_labels_written": false
+}

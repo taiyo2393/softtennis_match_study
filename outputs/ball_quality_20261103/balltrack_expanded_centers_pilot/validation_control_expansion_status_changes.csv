@@ -1,0 +1,4 @@
+﻿sample_id,original,control,expanded,truth_x,truth_y,control_x,control_y,expanded_x,expanded_y
+match1_motion_pilot_012_frame_000667,missing,correct,missing,797,572,796,568,0,0
+match1_motion_pilot_014_frame_000714,correct,wrong_position,correct,550,355,395,564,549,354
+match1_motion_pilot_015_frame_000323,wrong_position,correct,wrong_position,1076,420,1078,421,1141,622

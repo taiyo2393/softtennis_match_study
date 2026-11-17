@@ -1,0 +1,22 @@
+{
+  "encoded_frames_decoded": 96,
+  "source_aspect_preserved": true,
+  "uniformly_enlarged_review_crop": [
+    512,
+    288,
+    960,
+    540
+  ],
+  "protected_inputs_unchanged": true,
+  "prior_confirmed_control_times": 19,
+  "controls_with_output": 18,
+  "missing_control_frames": [
+    154853
+  ],
+  "max_displacement_from_prior_candidate_px": 7.634215742301235,
+  "displacement_is_not_accuracy": true,
+  "new_gap_candidates": 2,
+  "new_diagnostic_candidate": 1,
+  "new_human_confirmations": 0,
+  "review_pending": true
+}

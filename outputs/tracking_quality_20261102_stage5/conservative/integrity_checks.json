@@ -1,0 +1,44 @@
+{
+  "scope": "Abstention/integrity checks only; identity accuracy remains unmeasured",
+  "runs": [
+    {
+      "tag": "002",
+      "labeled_rows": 1002,
+      "unknown_rows": 192,
+      "four_labeled_frames": 60,
+      "withheld_handover_frames": 88,
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "355"
+    },
+    {
+      "tag": "005",
+      "labeled_rows": 1565,
+      "unknown_rows": 14,
+      "four_labeled_frames": 299,
+      "withheld_handover_frames": 27,
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "445"
+    },
+    {
+      "tag": "048",
+      "labeled_rows": 2360,
+      "unknown_rows": 739,
+      "four_labeled_frames": 225,
+      "withheld_handover_frames": 169,
+      "full_decode": "passed",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "yuv420p",
+      "nb_frames": "900"
+    }
+  ]
+}

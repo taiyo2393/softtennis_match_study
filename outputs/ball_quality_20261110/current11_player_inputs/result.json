@@ -1,0 +1,31 @@
+{
+  "status": "expanded_comparison_inputs_constructed",
+  "candidates": 11,
+  "added_candidate": "match1_rally_window_006",
+  "outcome_counts": {
+    "near": 7,
+    "far": 4
+  },
+  "fixed30_constructed_inputs": 8,
+  "fixed30_pending_inputs": 22,
+  "next_candidate": "match1_rally_window_008",
+  "new_case_four_observation_times": 11,
+  "new_case_requested_times": 31,
+  "model_fitting_performed": false,
+  "performance_estimated": false,
+  "ball_comparison_ready": false,
+  "new_human_annotation_requested": false,
+  "canonical_tracking_changed": false,
+  "artifact_hashes": {
+    "B1_server_side.csv": "8a96c484aa0328bb66c5a210adcd6308c8971a444021e42f713d79a6d78d27b5",
+    "B2_snapshot.csv": "20e80d97746291fd9ff4700028c3f50dfbfee20ccecee2c680c8755aba7e86ad",
+    "B2_window_means.csv": "fbd9ec7c8345be4fe65da5fee79ab5ad32b26d93090f5d44041e7a52d15ac429",
+    "diagnostic_snapshot_masks_only.csv": "314673b90be1179476fd047e8aef4544cab8767f9fceb14255710f94e5c322f7",
+    "diagnostic_window_masks_only.csv": "98b944c60e8dfd236759dcf07a59149dc04f1aa82786bba9e219177d602f13d5",
+    "fixed30_processing_progress.csv": "f8760c9ab275cc283e755df3e410e3e989602bcbbf664b266aebe90318a3c8e1",
+    "human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+    "rally_metadata.csv": "19479ac6dd40c06b26fddb6ed0413bf5ad8abdaa6e2a4e417de64e1dc3ef03cb",
+    "source_snapshot_features.csv": "b74bbcd60822c21712c41ce1af19b9e4095a3d924a51e1bb12799ba7706a2b4c",
+    "source_window_summary_features.csv": "fc12ad61a9145b2fd9ef2216f2aadc5d337f4f536ef04553bdb513e44cf5d223"
+  }
+}

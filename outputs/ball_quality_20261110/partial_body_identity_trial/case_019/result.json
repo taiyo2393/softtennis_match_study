@@ -1,0 +1,21 @@
+{
+  "tag": "019",
+  "modes": {
+    "unmasked_torso": {
+      "requested_slot_times": 62,
+      "body_candidates": 31,
+      "candidates_where_baseline_missing": 0,
+      "compared_to_existing_native": 31,
+      "native_same_slot_iou_at_least_half": 31,
+      "position_coordinates_created": 0
+    },
+    "exclude_near_rectangles": {
+      "requested_slot_times": 62,
+      "body_candidates": 31,
+      "candidates_where_baseline_missing": 0,
+      "compared_to_existing_native": 31,
+      "native_same_slot_iou_at_least_half": 31,
+      "position_coordinates_created": 0
+    }
+  }
+}

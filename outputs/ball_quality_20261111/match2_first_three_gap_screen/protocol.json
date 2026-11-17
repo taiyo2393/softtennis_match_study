@@ -1,0 +1,69 @@
+{
+  "frozen_before_new_outputs": true,
+  "scope": "Three already explored match2 points; exploratory candidate screening.",
+  "target_rule": "First frame of each original no-output run, with two immediately preceding original candidates.",
+  "guide_rule": "One-frame constant velocity; no recursive use of recovered candidates.",
+  "inputs": "Existing per-point offline median plus t-3..t. Same weight, preprocessing, CUDA AMP.",
+  "threshold": 0.1,
+  "radius_native_px": 32.0,
+  "crop_native_wh": [
+    960,
+    540
+  ],
+  "candidate_rule": "Exactly one component within the search radius. Keep methods separate and expose conflicts.",
+  "selection_for_spot_check": "First full-only and first crop-only output not previously reviewed; first pair more than 16px apart if present.",
+  "weight_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "points": [
+    {
+      "point": 1,
+      "baseline_sha256": "e794fb65879a5016ebc4a2378e0b0b65211103de70902c0af6556400b1e78cda",
+      "eligible_frames": [
+        12388,
+        12420,
+        12461,
+        12470
+      ]
+    },
+    {
+      "point": 2,
+      "baseline_sha256": "9c9b255c91aa730b9293af10838e5d3dd5cd1df1e0876ecacf6a48afd0522bbf",
+      "eligible_frames": [
+        13688,
+        13730,
+        13735,
+        13740,
+        13749,
+        13755,
+        13825,
+        13840,
+        13973,
+        13989,
+        14003,
+        14011,
+        14019,
+        14053
+      ]
+    },
+    {
+      "point": 3,
+      "baseline_sha256": "18386b9b130bfeac98dd0020345a9cdbb522bc1f38a608b5911546ab9a330d39",
+      "eligible_frames": [
+        15237,
+        15247,
+        15272,
+        15281,
+        15308,
+        15311,
+        15324,
+        15390,
+        15425,
+        15428,
+        15463,
+        15470,
+        15496,
+        15500,
+        15505
+      ]
+    }
+  ]
+}

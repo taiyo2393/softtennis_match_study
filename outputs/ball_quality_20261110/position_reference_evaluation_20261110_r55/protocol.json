@@ -1,0 +1,30 @@
+{
+  "reference_snapshot_revision": 55,
+  "reference_snapshot_sha256": "5e17dde1161118428299db95313da624ebdc668dc2572b6a01cbd6d118ca40b1",
+  "reference_state_counts": {
+    "point": 48,
+    "unplaceable": 4
+  },
+  "images": 13,
+  "manual_reference_fields": 52,
+  "reference_definition": "Approximate shoe-midpoint x and lower shoe-bottom y in the original image. No physical ground-contact or surveyed-coordinate claim.",
+  "reference_source": "User completed the UI without displaying model point/box outputs. Reviewer had seen prior development material, so full reviewer blinding is not claimed.",
+  "position_policies_fixed_before_new_reference_coordinates": true,
+  "evaluation_algorithm_sha256": "5a7e2abe97a1a8bbddd77a83a2e0ce1bef88691a0eeede9c2d89a95b993264e4",
+  "uniform10_and_known_warning4_reported_separately": true,
+  "one_shared_image_not_an_independent_extra_observation": true,
+  "within_side_unordered_correspondence_not_ID_accuracy": true,
+  "missing_predictions_and_unplaceable_references_not_discarded": true,
+  "no_error_pass_threshold_or_after_label_tuning": true,
+  "no_outcome_model_fit": true,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\identity_position_bundle\\publication_hashes.json": "b2f1eb12a8a745da5cd4ef06d2f33025638245c74c35e717cd3d3854c3621873",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\identity_position_bundle\\position_policy_observations.csv": "5129627febdc8f1cbf16a51ae498b446e244fc247ba611398d92ec55b2b6d753",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\identity_position_bundle\\reference_pilot\\private_sampling_manifest.json": "b7c8645fd908f351aa6fe7b1943255fe877e0ea7376a3e6357c57212193ac8d3",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\identity_position_bundle\\reference_pilot\\private_sampling_protocol.json": "83802d51bab2772658ba4702a267201910e973870ca1fd1a89ae1bc85fadd012",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\identity_position_bundle\\reference_pilot\\index.html": "f134f1729788958a78fcd626447dbfe2bde6d4b4ae7a814825c5647d94f18859",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\evaluate_position_reference_pilot.py": "5a7e2abe97a1a8bbddd77a83a2e0ce1bef88691a0eeede9c2d89a95b993264e4",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\evaluate_completed_position_reference.py": "3db6db4f5aaf739be25fbe315361c2d4a213aacd17c1dc57f8cf8bfc9a4ff16b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\position_reference_evaluation_20261110_r55\\human_reference_labels.json": "5e17dde1161118428299db95313da624ebdc668dc2572b6a01cbd6d118ca40b1"
+  }
+}

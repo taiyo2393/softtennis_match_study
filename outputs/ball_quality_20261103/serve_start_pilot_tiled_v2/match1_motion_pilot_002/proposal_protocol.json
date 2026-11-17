@@ -1,0 +1,19 @@
+{
+  "raised": "wrist confidence>=0.35 and wrist above nose by0.02*height; fallback head=shoulder-0.15height",
+  "raised_samples_min": 3,
+  "raised_span_frames": [
+    4,
+    120
+  ],
+  "prior_sec": 0.6,
+  "prior_samples_min": 4,
+  "max_body_motion_by_height": 0.45,
+  "gesture_gap_sec": 0.25,
+  "person_link_max_gap_frames": 12,
+  "person_link_max_displacement_by_height": 0.5,
+  "audio_search": "raised first frame through last+0.25s; largest positive energy rise",
+  "audio_timing_uncertainty_sec": 0.25,
+  "global_event_suppression_sec": 0.5,
+  "labels_read": false,
+  "limitation": "Overhead actions only; no underhand-serve model or fault/validity classification."
+}

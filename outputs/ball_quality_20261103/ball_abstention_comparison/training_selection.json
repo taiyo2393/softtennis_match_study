@@ -1,0 +1,128 @@
+{
+  "chosen": {
+    "name": "unknown1.2_switch0.25",
+    "unknown_cost": 1.2,
+    "switch_cost": 0.25
+  },
+  "training_baseline": {
+    "counts": {
+      "frames": 123,
+      "truth_visible": 102,
+      "pred_visible": 70,
+      "presence_tp": 68,
+      "localized_tp_16px": 66,
+      "wrong_localization": 2,
+      "presence_tn": 19,
+      "presence_fn": 34,
+      "presence_fp": 2
+    },
+    "localization_recall_16px": 0.6470588235294118,
+    "localization_precision_16px": 0.9428571428571428,
+    "mean_error_both_visible_px": 5.760533423739907
+  },
+  "grid": [
+    {
+      "name": "unknown1.2_switch0.25",
+      "unknown_cost": 1.2,
+      "switch_cost": 0.25,
+      "correct": 66,
+      "errors": 2,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1,
+      "withheld": 2
+    },
+    {
+      "name": "unknown1.2_switch0.5",
+      "unknown_cost": 1.2,
+      "switch_cost": 0.5,
+      "correct": 63,
+      "errors": 2,
+      "correct_lost": 3,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000261;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736",
+      "eligible": 0,
+      "withheld": 5
+    },
+    {
+      "name": "unknown1.2_switch1",
+      "unknown_cost": 1.2,
+      "switch_cost": 1.0,
+      "correct": 61,
+      "errors": 2,
+      "correct_lost": 5,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000261;match1_motion_pilot_003_frame_000725;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736;match1_motion_pilot_009_frame_001159",
+      "eligible": 0,
+      "withheld": 7
+    },
+    {
+      "name": "unknown1.8_switch0.25",
+      "unknown_cost": 1.8,
+      "switch_cost": 0.25,
+      "correct": 66,
+      "errors": 4,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1,
+      "withheld": 0
+    },
+    {
+      "name": "unknown1.8_switch0.5",
+      "unknown_cost": 1.8,
+      "switch_cost": 0.5,
+      "correct": 66,
+      "errors": 2,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1,
+      "withheld": 2
+    },
+    {
+      "name": "unknown1.8_switch1",
+      "unknown_cost": 1.8,
+      "switch_cost": 1.0,
+      "correct": 63,
+      "errors": 2,
+      "correct_lost": 3,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000261;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736",
+      "eligible": 0,
+      "withheld": 5
+    },
+    {
+      "name": "unknown2.4_switch0.25",
+      "unknown_cost": 2.4,
+      "switch_cost": 0.25,
+      "correct": 66,
+      "errors": 4,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1,
+      "withheld": 0
+    },
+    {
+      "name": "unknown2.4_switch0.5",
+      "unknown_cost": 2.4,
+      "switch_cost": 0.5,
+      "correct": 66,
+      "errors": 4,
+      "correct_lost": 0,
+      "lost_sample_ids": "",
+      "eligible": 1,
+      "withheld": 0
+    },
+    {
+      "name": "unknown2.4_switch1",
+      "unknown_cost": 2.4,
+      "switch_cost": 1.0,
+      "correct": 63,
+      "errors": 2,
+      "correct_lost": 3,
+      "lost_sample_ids": "match1_motion_pilot_003_frame_000261;match1_motion_pilot_007_frame_000032;match1_motion_pilot_007_frame_000736",
+      "eligible": 0,
+      "withheld": 5
+    }
+  ],
+  "validation_labels_used": false,
+  "six_false_labels_used": false,
+  "challenge_labels_used": false,
+  "choice_frozen": true
+}

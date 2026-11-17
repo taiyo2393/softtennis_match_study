@@ -1,0 +1,8 @@
+{
+  "reviewer": "human_user",
+  "response": "おｋ",
+  "reviewed_artifact": "final_review_h264.mp4",
+  "status": "human_video_level_identity_confirmation",
+  "scope": "User confirmed the displayed 003 updated tracking video after near-player size adaptation and far-path recomputation",
+  "limitations": "Video-level confirmation, not independent per-frame identity annotation or position-accuracy measurement. Does not validate missing positions, other intervals, or superseded intermediate videos."
+}

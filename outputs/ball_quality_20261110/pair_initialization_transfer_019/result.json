@@ -1,0 +1,75 @@
+{
+  "status": "completed_frozen_same_match_transfer",
+  "candidate_id": "match1_rally_window_019",
+  "modes": {
+    "baseline": {
+      "initialized_frame": 45831,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 5,
+        "far_front": 3
+      },
+      "near_observations": 1840,
+      "individual_ID_binding_added": false,
+      "baseline_temporal_replay_exact": true,
+      "final_path_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_019\\four_player_path.csv"
+    },
+    "court_seed_only": {
+      "initialized_frame": 45831,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 5,
+        "far_front": 3
+      },
+      "near_observations": 1840,
+      "individual_ID_binding_added": false,
+      "status": "passed",
+      "baseline_temporal_replay_exact": true,
+      "temporal_assignments_equal_baseline": true,
+      "full_assignments_equal_baseline": true,
+      "removed_full_assignments": 0,
+      "added_full_assignments": 0,
+      "fixed31_features_equal_baseline": true,
+      "matched_native_boxes": 3268,
+      "recalculated_feature_values": 379,
+      "video_frames_decoded": 930,
+      "four_observation_requested_times": 21,
+      "requested_times": 31,
+      "initialization_delay_from_baseline": 0,
+      "numeric_thresholds_changed": false,
+      "independent_identity_or_position_accuracy_established": false
+    },
+    "pair_rank": {
+      "initialized_frame": 45831,
+      "seed_ids": {
+        "near_front": 2,
+        "near_rear": 1,
+        "far_rear": 5,
+        "far_front": 3
+      },
+      "near_observations": 1840,
+      "individual_ID_binding_added": false,
+      "status": "passed",
+      "baseline_temporal_replay_exact": true,
+      "temporal_assignments_equal_baseline": true,
+      "full_assignments_equal_baseline": true,
+      "removed_full_assignments": 0,
+      "added_full_assignments": 0,
+      "fixed31_features_equal_baseline": true,
+      "matched_native_boxes": 3268,
+      "recalculated_feature_values": 379,
+      "video_frames_decoded": 930,
+      "four_observation_requested_times": 21,
+      "requested_times": 31,
+      "initialization_delay_from_baseline": 0,
+      "numeric_thresholds_changed": false,
+      "independent_identity_or_position_accuracy_established": false
+    }
+  },
+  "baseline_temporal_replay_exact": true,
+  "protected_sources_unchanged": true,
+  "independent_identity_or_position_accuracy_established": false,
+  "canonical_pipeline_replaced": false
+}

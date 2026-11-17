@@ -1,0 +1,18 @@
+{
+  "recorded_on_jst": "2026-11-11",
+  "reviewer": "human_user",
+  "question_item_id": "[\"request_user_input_async\",\"call_137e7f3d15f047d8b96f844bc0ec36b8\",0]",
+  "question": "056の短い拡大動画「F154780_ball_identity_review.mp4」で、停止時の赤丸はラリーの実球を囲んでいますか？ この1点だけの確認です。",
+  "answer": "別物体を囲んでいる",
+  "source_frame": 154780,
+  "candidate_image_x_px": 1102.0,
+  "candidate_image_y_px": 579.0,
+  "evidence_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\056_route_transfer\\F154780_ball_identity_review.mp4",
+  "evidence_video_sha256": "a5f810b6b0fa73598258baa3c89404ac9a47c5a7a9ecd0f41056890ae01db74c",
+  "scope": "Reject the one displayed candidate as another object. No true ball center, precise impact time, neighboring frame correctness or13stroke order confirmed.",
+  "ball_absent_label_created": false,
+  "zero_target_training_mask_created": false,
+  "true_center_created": false,
+  "automatic_filter_accuracy_established": false,
+  "review_actions": 1
+}

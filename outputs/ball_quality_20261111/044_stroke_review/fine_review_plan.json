@@ -1,0 +1,92 @@
+{
+  "source": "AI whole-interval chronological image inspection, after previous direction-change proposals",
+  "not_independent_evaluation": true,
+  "windows": [
+    {
+      "id": "B01",
+      "kind": "bounce_candidate",
+      "first": 115407,
+      "last": 115423,
+      "roi": [
+        940,
+        560,
+        1370,
+        850
+      ]
+    },
+    {
+      "id": "H02",
+      "kind": "near_return_candidate",
+      "first": 115433,
+      "last": 115451,
+      "roi": [
+        1050,
+        480,
+        1420,
+        800
+      ]
+    },
+    {
+      "id": "C02",
+      "kind": "unclassified_turn_before_far_return",
+      "first": 115501,
+      "last": 115519,
+      "roi": [
+        640,
+        490,
+        900,
+        680
+      ]
+    },
+    {
+      "id": "H03",
+      "kind": "far_return_candidate",
+      "first": 115515,
+      "last": 115531,
+      "roi": [
+        640,
+        490,
+        900,
+        680
+      ]
+    },
+    {
+      "id": "B02",
+      "kind": "bounce_candidate",
+      "first": 115563,
+      "last": 115581,
+      "roi": [
+        1130,
+        570,
+        1510,
+        850
+      ]
+    },
+    {
+      "id": "H04",
+      "kind": "near_return_candidate",
+      "first": 115591,
+      "last": 115609,
+      "roi": [
+        1460,
+        520,
+        1900,
+        900
+      ]
+    },
+    {
+      "id": "H05",
+      "kind": "far_return_candidate",
+      "first": 115721,
+      "last": 115739,
+      "roi": [
+        640,
+        480,
+        910,
+        680
+      ]
+    }
+  ],
+  "script_sha256": "3e17bb2670b75b92ac3b22421f5f83a87b30eda91eb8b1da8f2e106e1a20e8d2",
+  "policy": "Source JPEGs only; raw crop preserves aspect; no ball marker or model boxes on fine reference images. No user truth created."
+}

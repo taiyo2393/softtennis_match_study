@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "contexts": 10,
+  "fixed_times": 310,
+  "two_policy_far_slot_rows": 1240,
+  "body_candidates_unmasked": 534,
+  "body_candidates_masked": 528,
+  "new006_body_candidates": 29,
+  "remaining006_unsupported_preinit_slot_times": 11,
+  "no_new_analysis_or_foot_coordinates": true,
+  "unique_pose_assignment": true,
+  "protected_inputs_and_current22_unchanged": true,
+  "offline_future_anchor_explicit": true,
+  "tests_passed": 5,
+  "media_decode_passed": true,
+  "independent_accuracy_claim": false
+}

@@ -1,0 +1,178 @@
+{
+  "selected_model": "original",
+  "selected_threshold": 0.3,
+  "validation_selected": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.949994464709879
+  },
+  "original_correct_frame_loss": 0,
+  "validation_original": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.949994464709879
+  },
+  "threshold_results": [
+    {
+      "threshold": 0.3,
+      "localized_tp_16px": 85,
+      "wrong_positions": 6,
+      "nonvisible_outputs": 3,
+      "original_correct_frames_lost": 0,
+      "lost_sample_ids": [],
+      "feasible": false
+    },
+    {
+      "threshold": 0.4,
+      "localized_tp_16px": 84,
+      "wrong_positions": 3,
+      "nonvisible_outputs": 2,
+      "original_correct_frames_lost": 0,
+      "lost_sample_ids": [],
+      "feasible": false
+    },
+    {
+      "threshold": 0.5,
+      "localized_tp_16px": 80,
+      "wrong_positions": 3,
+      "nonvisible_outputs": 1,
+      "original_correct_frames_lost": 1,
+      "lost_sample_ids": [
+        "match1_motion_pilot_013_frame_000375"
+      ],
+      "feasible": false
+    },
+    {
+      "threshold": 0.6,
+      "localized_tp_16px": 74,
+      "wrong_positions": 2,
+      "nonvisible_outputs": 0,
+      "original_correct_frames_lost": 6,
+      "lost_sample_ids": [
+        "match1_motion_pilot_011_frame_000530",
+        "match1_motion_pilot_012_frame_000483",
+        "match1_motion_pilot_013_frame_000375",
+        "match1_motion_pilot_017_frame_001287",
+        "match1_motion_pilot_017_frame_001511",
+        "match1_motion_pilot_020_frame_000143"
+      ],
+      "feasible": false
+    },
+    {
+      "threshold": 0.7,
+      "localized_tp_16px": 32,
+      "wrong_positions": 1,
+      "nonvisible_outputs": 0,
+      "original_correct_frames_lost": 48,
+      "lost_sample_ids": [
+        "match1_motion_pilot_011_frame_000176",
+        "match1_motion_pilot_011_frame_000294",
+        "match1_motion_pilot_011_frame_000412",
+        "match1_motion_pilot_011_frame_000530",
+        "match1_motion_pilot_011_frame_001002",
+        "match1_motion_pilot_011_frame_001238",
+        "match1_motion_pilot_011_frame_001592",
+        "match1_motion_pilot_012_frame_000023",
+        "match1_motion_pilot_012_frame_000161",
+        "match1_motion_pilot_012_frame_000483",
+        "match1_motion_pilot_012_frame_000529",
+        "match1_motion_pilot_012_frame_000621",
+        "match1_motion_pilot_013_frame_000195",
+        "match1_motion_pilot_013_frame_000225",
+        "match1_motion_pilot_013_frame_000255",
+        "match1_motion_pilot_013_frame_000285",
+        "match1_motion_pilot_013_frame_000375",
+        "match1_motion_pilot_014_frame_001364",
+        "match1_motion_pilot_014_frame_001494",
+        "match1_motion_pilot_014_frame_001624",
+        "match1_motion_pilot_015_frame_000057",
+        "match1_motion_pilot_015_frame_000171",
+        "match1_motion_pilot_015_frame_000399",
+        "match1_motion_pilot_015_frame_000437",
+        "match1_motion_pilot_015_frame_000551",
+        "match1_motion_pilot_017_frame_000279",
+        "match1_motion_pilot_017_frame_000391",
+        "match1_motion_pilot_017_frame_000503",
+        "match1_motion_pilot_017_frame_001063",
+        "match1_motion_pilot_017_frame_001175",
+        "match1_motion_pilot_017_frame_001287",
+        "match1_motion_pilot_017_frame_001511",
+        "match1_motion_pilot_019_frame_000013",
+        "match1_motion_pilot_019_frame_000039",
+        "match1_motion_pilot_019_frame_000091",
+        "match1_motion_pilot_019_frame_000195",
+        "match1_motion_pilot_019_frame_000247",
+        "match1_motion_pilot_020_frame_000011",
+        "match1_motion_pilot_020_frame_000055",
+        "match1_motion_pilot_020_frame_000077",
+        "match1_motion_pilot_020_frame_000099",
+        "match1_motion_pilot_020_frame_000143",
+        "match1_motion_pilot_020_frame_000165",
+        "match1_motion_pilot_020_frame_000187",
+        "match1_motion_pilot_020_frame_000209",
+        "match1_motion_pilot_020_frame_000231",
+        "match1_motion_pilot_020_frame_000253",
+        "match1_motion_pilot_020_frame_000275"
+      ],
+      "feasible": false
+    }
+  ],
+  "audit_used_for_selection": false,
+  "automatic_adoption": false,
+  "audit_selected": {
+    "counts": {
+      "frames": 60,
+      "truth_visible": 45,
+      "pred_visible": 39,
+      "presence_fn": 9,
+      "presence_tn": 12,
+      "presence_fp": 3,
+      "presence_tp": 36,
+      "localized_tp_16px": 34,
+      "wrong_localization": 2
+    },
+    "localization_recall_16px": 0.7555555555555555,
+    "localization_precision_16px": 0.8717948717948718,
+    "mean_error_both_visible_px": 15.244100226851202
+  },
+  "audit_original": {
+    "counts": {
+      "frames": 60,
+      "truth_visible": 45,
+      "pred_visible": 39,
+      "presence_fn": 9,
+      "presence_tn": 12,
+      "presence_fp": 3,
+      "presence_tp": 36,
+      "localized_tp_16px": 34,
+      "wrong_localization": 2
+    },
+    "localization_recall_16px": 0.7555555555555555,
+    "localization_precision_16px": 0.8717948717948718,
+    "mean_error_both_visible_px": 15.244100226851202
+  },
+  "original_checkpoint_and_reviewed_outputs_unchanged": true,
+  "conclusion": "No automatic adoption; retain the original if no threshold satisfies the predefined validation non-regression constraints."
+}

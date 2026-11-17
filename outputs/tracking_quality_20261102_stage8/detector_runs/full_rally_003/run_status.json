@@ -1,0 +1,18 @@
+{
+  "tag": "003",
+  "first_frame": 4201,
+  "last_frame": 4615,
+  "frames": 415,
+  "boundary_status": "candidate_interval_not_human_confirmed_full_rally",
+  "source_fps": 59.94005994005994,
+  "source_width": 3840,
+  "source_height": 2160,
+  "initialization_status": "four_seeds_proposed",
+  "seed_ids": {
+    "near_front": 2,
+    "near_rear": 1,
+    "far_rear": 5,
+    "far_front": 3
+  },
+  "seed_review_status": "not_human_confirmed"
+}

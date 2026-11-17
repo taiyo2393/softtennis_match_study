@@ -1,0 +1,77 @@
+{
+  "status": "fixed_manual_supervised_pilot_complete_not_adopted",
+  "automatic_adoption": false,
+  "selected_epoch": 2,
+  "validation_original": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 83,
+      "presence_fn": 23,
+      "presence_tp": 82,
+      "localized_tp_16px": 80,
+      "wrong_localization": 2,
+      "presence_tn": 14,
+      "presence_fp": 1
+    },
+    "localization_recall_16px": 0.7619047619047619,
+    "localization_precision_16px": 0.963855421686747,
+    "mean_error_both_visible_px": 6.949994464709879
+  },
+  "validation_selected": {
+    "counts": {
+      "frames": 120,
+      "truth_visible": 105,
+      "pred_visible": 94,
+      "presence_fn": 14,
+      "presence_tp": 91,
+      "localized_tp_16px": 85,
+      "wrong_localization": 6,
+      "presence_tn": 12,
+      "presence_fp": 3
+    },
+    "localization_recall_16px": 0.8095238095238095,
+    "localization_precision_16px": 0.9042553191489362,
+    "mean_error_both_visible_px": 27.69886060015982
+  },
+  "audit_original": {
+    "counts": {
+      "frames": 60,
+      "truth_visible": 45,
+      "pred_visible": 39,
+      "presence_fn": 9,
+      "presence_tn": 12,
+      "presence_fp": 3,
+      "presence_tp": 36,
+      "localized_tp_16px": 34,
+      "wrong_localization": 2
+    },
+    "localization_recall_16px": 0.7555555555555555,
+    "localization_precision_16px": 0.8717948717948718,
+    "mean_error_both_visible_px": 15.244100226851202
+  },
+  "audit_selected": {
+    "counts": {
+      "frames": 60,
+      "truth_visible": 45,
+      "pred_visible": 43,
+      "presence_tp": 39,
+      "localized_tp_16px": 36,
+      "wrong_localization": 3,
+      "presence_tn": 11,
+      "presence_fp": 4,
+      "presence_fn": 6
+    },
+    "localization_recall_16px": 0.8,
+    "localization_precision_16px": 0.8372093023255814,
+    "mean_error_both_visible_px": 22.567887338992286
+  },
+  "audit_key_nonworse": true,
+  "source_and_reviewed_outputs_unchanged": true,
+  "frozen_parameters_and_batchnorm_buffers_unchanged": true,
+  "train_validation_audit_clips_disjoint": true,
+  "training_seconds": 15.937999999994645,
+  "manual_annotation_source_confirmed": true,
+  "independent_external_accuracy": false,
+  "next": "Review validation/audit changes before any operational adoption. Do not retune on audit or overwrite the reviewed ball/player outputs."
+}

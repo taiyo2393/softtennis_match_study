@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "aggregate_counts_recomputed": true,
+  "all_181_center_and_phase_sources_hash_verified": true,
+  "export_and_snapshot_hashes_unchanged": true,
+  "as_run_source_preserved": true,
+  "snapshot_name_correction_verified": true,
+  "model_training": false
+}

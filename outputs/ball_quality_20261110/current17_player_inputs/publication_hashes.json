@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "156b9b2bf468263966ce5a2dd21188f942f68e72ef0c3c93339be8fcb92dcdb2",
+  "additional_verification.json": "fe95a3420814fb1a498e54ac77a71c7f899307c7ede140ebfe9886a26c4c9c40",
+  "B1_server_side.csv": "ecdb5aac9518203e8d39e56c014e17582655fd5058139353ca8801bbd1d9cd55",
+  "B2_snapshot.csv": "b3df48226979effb8bde20758169f05b2ea7a733caf9afa0d26caa429645882b",
+  "B2_window_means.csv": "b009ccd19d96bdc244f34e450cfb0ca58c6800c6f92fbd0028b7e5284a69aec4",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "49812e4bbc75c94ca2d0ce506faf38684111e1d448b1ab91ab9882d128118c65",
+  "diagnostic_window_masks_only.csv": "78c1771b9f9b9c56d6492a8ad8b946e86b36b4371be69b2a09d262a6aa0c2696",
+  "executed_source.py": "73be7c1fb554b899ef43d923eab10a7f43e35e539e9e1ca49044cb5bc4d8f926",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "ac95df67ad006c261e5cd516b1e3453456999d7395bde229166f8c14ce91f0fd",
+  "human_outcomes.csv": "0449002a9900ed74701feb5765ed1297521930f187670071905667e95d05712e",
+  "outcome_label_status.csv": "18769cf6098b2cd69812b6175a2f83d75092fd7d7b2c63319784374f8a7fa28a",
+  "processing_interventions.csv": "7150952c2fbe3490db91e7a4d2adc4ee8d531af1e1ab280c14d74cebb014efc2",
+  "protocol.json": "dbe3de475b549777d23296b4ddfe1cc00509c0dfc5122a2dec27e985b8d2611f",
+  "rally_metadata.csv": "496314ba77a9c7b3f8c6c96d94553cf1bafdda3a6b00bf193e994cbe0cbb7550",
+  "README.md": "06c75ae42b6f02a7d781ee5c0c18749b37dcfb731bdf62cab04fe01b3206b01d",
+  "result.json": "52423a313cdf71cbc1eba0f710b62e72a0c4cf6332d4a3bc0e9f310cac38d0cf",
+  "source_snapshot_features.csv": "4eb152ae2f0c9524f5800e8f85dac1db3bc0a6fac3788d9918e185423e2b707f",
+  "source_window_summary_features.csv": "ecf6466e8b56adaddb7e15709b38be68b090cb63f18798b84a0aed510f212eb4",
+  "verification.json": "ad063c6942288ac47b23a6040c780f165097718bcdf05fe897ecd9143740fa68"
+}

@@ -1,0 +1,27 @@
+{
+  "methods": [
+    "bbox_area",
+    "component_peak"
+  ],
+  "chosen_for_visualisation": "Peak was a predeclared alternative, not selected for operational use",
+  "labels": "Three training examples only, A/C/D; B excluded as post-play by user",
+  "context_half_window_frames": 24,
+  "truth": "Exact human frame only; no interpolated truth; unlabelled context never counted as accuracy",
+  "original_image_wh": [
+    1920,
+    1080
+  ],
+  "render_wh": [
+    1920,
+    1180
+  ],
+  "header_height": 100,
+  "output_fps": 29.97002997002997,
+  "speed": "0.5x from59.94fps, extra30 output frames hold target",
+  "audio": false,
+  "original_case_hashes": {
+    "match1_motion_pilot_003_frame_000291": "9de82d07fc46d51ac0cdaf061ca7b804878098f261268e860b03d6464e738d97",
+    "match1_motion_pilot_007_frame_000851": "7d8740acb82dc840d4ce4623ab811b80c1eb7e515161e5cf68e2d3d3db88737c",
+    "match1_motion_pilot_010_frame_000262": "05ef8ac0f0115531a226283d460d912699cf1edad930db8bd93894569a9166c1"
+  }
+}

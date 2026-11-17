@@ -1,0 +1,26 @@
+{
+  "parent_publication_files_unchanged": 72,
+  "all_protected_inputs_unchanged": true,
+  "baseline_paths_and_costs_exactly_replayed_in_two_cases": true,
+  "baseline_observations_preserved": 3696,
+  "added_selected_observations": 4,
+  "all_added_boxes_exact_actual_same_frame_crop_detections": true,
+  "interpolation": false,
+  "manual_ID_assignment": false,
+  "independent_accuracy_established": false,
+  "counter_audit": [
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "legacy_initial_allocated_max": 8,
+      "mapped_initial_allocated_max": 11,
+      "duplicate_ID_within_frame": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "legacy_initial_allocated_max": 9,
+      "mapped_initial_allocated_max": 11,
+      "duplicate_ID_within_frame": false
+    }
+  ],
+  "shared_ID_counter_note": "Installed ByteTrack uses a class-global counter. Second model resets it once on initialization. Its initial allocated maximum is >= first model maximum in both cases, so subsequent global increments cannot reuse any prior ID inside either model. persist=True returns existing trackers and skips resets thereafter. IDs are local to each clip/mode, never identities across runs. Shared counter remains a maintenance risk: future concurrent-model code should isolate counters or use sequential passes."
+}

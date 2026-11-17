@@ -1,0 +1,27 @@
+{
+  "first_source_frame": 53946,
+  "last_source_frame": 54844,
+  "source_fps": "60000/1001",
+  "display_fps": 29.97002997002997,
+  "display_source_stride": 2,
+  "playback_speed": 1,
+  "image_aspect_preserved": true,
+  "all_source_frames_still_analyzed": true,
+  "diagnostic_stills": [
+    53946,
+    53953,
+    54006,
+    54264,
+    54328,
+    54330,
+    54396,
+    54538,
+    54544,
+    54581,
+    54582,
+    54785,
+    54844
+  ],
+  "selection": "Fixed raw reference frames plus initialization/line transitions and every post-init incomplete frame; selected diagnostics after results, not accuracy sampling.",
+  "IDs": "Segment-local candidates only. Cross-camera or cross-clip identity is not bound."
+}

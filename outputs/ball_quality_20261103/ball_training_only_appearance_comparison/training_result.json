@@ -1,0 +1,24 @@
+{
+  "internal_clip_holdout": [
+    {
+      "method": "handcrafted672",
+      "real_total": 102,
+      "real_kept": 97,
+      "false_total": 9,
+      "false_kept": 8
+    },
+    {
+      "method": "frozen_resnet18_512",
+      "real_total": 102,
+      "real_kept": 95,
+      "false_total": 9,
+      "false_kept": 8
+    }
+  ],
+  "full_models_frozen": true,
+  "final_model_hashes": {
+    "handcrafted672": "6e3efe0a3e7ffa632acf483cee805de9956fc2a37f4a772105ac933eaa130348",
+    "frozen_resnet18_512": "3337046bc982d7b8c972bbf7b89d526e05abd2de5f96942d80e6d81e12aabd6e"
+  },
+  "evaluation_labels_used_for_fitting": false
+}

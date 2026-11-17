@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "327c7295e685c961f2864bd79eb1e2e849d328277e208b587183abc957ab272f",
+  "additional_verification.json": "038665b1f98cbfbc32abfae4003f4fa34f0eec92870cec27ec5a2b4d3135442f",
+  "B1_server_side.csv": "4534a43fa1b9f182522e85c91c5e7d6aa3039314c7037ba826084d43a2c16b59",
+  "B2_snapshot.csv": "7c6c0a59309a42ad166febd238ef95ff8af1396d67b8438640f2a254ca717ab3",
+  "B2_window_means.csv": "e1341879e6ad4ba7a3865abcf1d9bdcd643f41b091c8f0993c7bfb92611f6bc6",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "deb6cdb6e7a7f9ee6fc3789c6ba13db472bd7d9214f23f600f510ddd064ea958",
+  "diagnostic_window_masks_only.csv": "a36769d62774ad12548ef9c94ffb3fdf66d447055b3b82490b4f93279a7d6ac2",
+  "executed_source.py": "f9573bd57cdce60b3f9fb4cbab06ef3aa8a55e7bdb8fdc02e35118983064525c",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "73ed9948975b6549c5db168bcb7fb227bed3a0fa3f357c1cd46662f1df099462",
+  "human_outcomes.csv": "210a70b884288d8a9e5022151b1e47c1d7aef548817f77bd5ba0d24f8f18b8bb",
+  "outcome_label_status.csv": "bb2d21d1012f3e8af9276b51e56cb67d0a5eadb5d532e9a6123743bc03d009db",
+  "processing_interventions.csv": "46c5e179ba256351b18179c192c4e3b18462ff2dfbb4260d0dbbfd51c716781b",
+  "protocol.json": "d098f68701b36930690060e8158936092a613524bf3f7b01a2e4fdee18f2267f",
+  "rally_metadata.csv": "e2312b0a51eeccc34c5bd8faccec5b5aec336eaa1fe4f4e3a2611ae3acd3c94c",
+  "README.md": "67983005fe5d71274d7df6a74f3e39daa4d15c2d24f7a341b161777fae25e338",
+  "result.json": "eb60ff1c3b45a9dccf3843bbe728fbe927b82a1f6fd9146da683c5bf6a6cbb18",
+  "source_snapshot_features.csv": "83ab3e36fa73069739ebf374d23aeb5dda0db1fce0a3e5b7a3dcf3d0447fc71e",
+  "source_window_summary_features.csv": "57e429987dc251be88662a4d1170d50aa656bfe9d4a9a855ad46dea3792beadf",
+  "verification.json": "c70fb741f773d7223681b5d654891603142dd59464c398f122c8485c9f69c404"
+}

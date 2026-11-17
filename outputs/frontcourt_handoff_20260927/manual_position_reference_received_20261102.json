@@ -1,0 +1,138 @@
+{
+  "schema": "manual_image_footpoint_reference_v1",
+  "scope": "image_point_reference_not_independent_physical_ground_truth",
+  "annotations": [
+    {
+      "candidate_id": "001",
+      "source_frame": 117,
+      "image_slot": "near_left",
+      "x_px": 1725.5025828372723,
+      "y_px": 1348.6164530868396,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:51:22.831Z"
+    },
+    {
+      "candidate_id": "001",
+      "source_frame": 117,
+      "image_slot": "near_right",
+      "x_px": 2894.7576225230555,
+      "y_px": 1641.4978085297278,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:51:29.000Z"
+    },
+    {
+      "candidate_id": "001",
+      "source_frame": 117,
+      "image_slot": "far_left",
+      "x_px": 1587.386696272447,
+      "y_px": 1247.962130457037,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:51:36.088Z"
+    },
+    {
+      "candidate_id": "001",
+      "source_frame": 117,
+      "image_slot": "far_right",
+      "x_px": 2126.6062534090943,
+      "y_px": 1223.3661514796688,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:51:45.801Z"
+    },
+    {
+      "candidate_id": "007",
+      "source_frame": 15593,
+      "image_slot": "far_right",
+      "x_px": 2066.0623031341024,
+      "y_px": 1269.1525498757164,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:52:18.501Z"
+    },
+    {
+      "candidate_id": "007",
+      "source_frame": 15593,
+      "image_slot": "near_left",
+      "x_px": 1490.8947755216782,
+      "y_px": 1759.5584960732526,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:52:33.149Z"
+    },
+    {
+      "candidate_id": "007",
+      "source_frame": 15593,
+      "image_slot": "near_right",
+      "x_px": 2777.4537188652585,
+      "y_px": 1659.282581780906,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:52:43.597Z"
+    },
+    {
+      "candidate_id": "007",
+      "source_frame": 15593,
+      "image_slot": "far_left",
+      "x_px": 1702.7986014841504,
+      "y_px": 1229.7989488684025,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:52:49.713Z"
+    },
+    {
+      "candidate_id": "056",
+      "source_frame": 154116,
+      "image_slot": "near_left",
+      "x_px": 1188.1750241467182,
+      "y_px": 1644.1465947179104,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:52:58.682Z"
+    },
+    {
+      "candidate_id": "056",
+      "source_frame": 154116,
+      "image_slot": "near_right",
+      "x_px": 2179.5822098997123,
+      "y_px": 1335.7508583093725,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:53:02.287Z"
+    },
+    {
+      "candidate_id": "056",
+      "source_frame": 154116,
+      "image_slot": "far_left",
+      "x_px": 1791.7225284505448,
+      "y_px": 1210.8789650396577,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:53:06.076Z"
+    },
+    {
+      "candidate_id": "056",
+      "source_frame": 154116,
+      "image_slot": "far_right",
+      "x_px": 2132.282248747375,
+      "y_px": 1199.5269747424109,
+      "status": "annotated",
+      "point_definition": "midpoint_of_two_shoe_bottoms_in_image",
+      "reviewer": "human_user",
+      "timestamp": "2026-11-02T06:53:08.456Z"
+    }
+  ]
+}

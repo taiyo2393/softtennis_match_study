@@ -1,0 +1,32 @@
+{
+  "review_id": "20261103_040_four_other_object_candidates",
+  "recorded_date": "2026-11-03",
+  "reviewer": "human_user",
+  "user_answer": "464,467,470,554は別の物体に移ってる",
+  "ball_pilot_id": "match1_motion_pilot_015",
+  "rally_candidate_id": "match1_rally_window_040",
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\temporal_rally_reviews_v2\\match1_motion_pilot_015\\comparison_h264.mp4",
+  "source_video_sha256": "624e5d1960072cfe3ff9fb7b81679d8aa9d95e33340bfc98f29d8d24516ff696",
+  "scope": "Only4 displayed locations at local464/467/470/554 are rejected. No judgement of adjacent frames, physical ball absence or true centers.",
+  "confirmed_false_raw_local_frames": [
+    464,
+    467,
+    470,
+    554
+  ],
+  "confirmed_false_proposal_local_frames": [
+    464,
+    467,
+    470,
+    554
+  ],
+  "findings": "All4 have exactly1 threshold0.3 component, shared by original and proposed output; not regressions introduced by the4 new temporal rerankings.",
+  "correction": "Exclude only the4 reviewed false candidates; retain missing with physical visibility unknown, no synthetic replacement.",
+  "canonical_branch": "Original raw baseline with4human exclusions, without adopting automatic temporal reranking",
+  "experimental_branch": "Temporal proposal with same4human exclusions; other proposed points stay unreviewed",
+  "previous_registry_sha256": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+  "original_raw_sha256": "802e92ae5288ecefc74870bb57616330673db2fad1b0c8a56d6164a2ef610b5b",
+  "original_proposal_sha256": "356a140bc8a35ae442325ed13815dac784b95bf69dc0a1c62eb57191d7825759",
+  "independent_full_track_accuracy": false,
+  "training_labels_updated": false
+}

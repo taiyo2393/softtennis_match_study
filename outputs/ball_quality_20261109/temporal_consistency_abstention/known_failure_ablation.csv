@@ -1,0 +1,4 @@
+﻿method,B275_wrong_output_retained,D515_wrong_output_retained,D516_wrong_output_retained,known_diagnostic_not_accuracy
+static_supplement,1,1,1,True
+guard_additions_only,1,0,0,True
+guard_all_outputs,0,0,0,True

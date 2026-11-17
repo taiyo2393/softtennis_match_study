@@ -1,0 +1,26 @@
+{
+  "status": "fixed_before_render",
+  "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\temporal_balltrack_predictions.csv",
+  "source_sha256": "628cd918f7db5eacc80cabef5a321afca32c38191ee1775ba2133dd32f286f45",
+  "rejected_frames": [
+    463,
+    464,
+    465,
+    467,
+    470,
+    554
+  ],
+  "neighbour_queue": "Within2source frames and32pixels of a rejected location, for visual review only; no automatic rejection or training labels",
+  "pending_frames": [],
+  "markers": "Blue:remaining output,redX:user-rejected location,no ball output; amber:unreviewed neighbour",
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "render_dimensions": [
+    1920,
+    1180
+  ],
+  "speed": 0.5,
+  "missing_ball_positions_filled": false
+}

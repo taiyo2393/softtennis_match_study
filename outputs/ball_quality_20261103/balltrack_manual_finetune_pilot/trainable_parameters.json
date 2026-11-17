@@ -1,0 +1,14 @@
+{
+  "names": [
+    "up_block_3.conv_1.conv.weight",
+    "up_block_3.conv_1.bn.weight",
+    "up_block_3.conv_1.bn.bias",
+    "up_block_3.conv_2.conv.weight",
+    "up_block_3.conv_2.bn.weight",
+    "up_block_3.conv_2.bn.bias",
+    "predictor.weight",
+    "predictor.bias"
+  ],
+  "count": 147972,
+  "batchnorm_running_statistics_fixed": true
+}

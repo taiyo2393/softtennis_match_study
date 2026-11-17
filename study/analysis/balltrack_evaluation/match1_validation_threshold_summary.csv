@@ -1,0 +1,6 @@
+threshold,run_name,presence_precision,presence_recall,localized_recall,mean_distance_px_when_both_visible,selected_by_validation_rule
+0.3,threshold030_median120,0.944444,0.702479,0.495868,20.2502,True
+0.4,threshold040_median120,0.964706,0.677686,0.487603,18.5931,False
+0.5,threshold050_median120,0.975,0.644628,0.46281,18.855,False
+0.6,threshold060_median120,0.982759,0.471074,0.330579,19.9126,False
+0.7,threshold070_median120,1.0,0.033058,0.024793,11.7969,False

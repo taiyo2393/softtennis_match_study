@@ -1,0 +1,11 @@
+{
+  "http_page": 200,
+  "cases": 4,
+  "prediction_coordinates_hidden": true,
+  "exact_image_hashes_checked": 4,
+  "video_range_checks": 4,
+  "invalid_post_status": 400,
+  "labels_unchanged": true,
+  "annotation_events_unchanged": true,
+  "protected_inputs_unchanged": true
+}

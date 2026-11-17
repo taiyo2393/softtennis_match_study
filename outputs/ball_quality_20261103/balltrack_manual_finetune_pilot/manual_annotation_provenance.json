@@ -1,0 +1,13 @@
+{
+  "recorded_date": "2026-11-03",
+  "source_label_table": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv",
+  "source_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "question": "以前の20動画区間×15フレーム＝300件の球位置注釈は、どのように付けたものですか？",
+  "user_answer": "自分で球をクリックして付けた",
+  "annotator_kind": "human_user",
+  "scope": "User confirms the existing ball-position annotation was made by manually clicking the ball. Preserve original visibility states and coordinates.",
+  "actual_annotation_date": "not_established",
+  "blindness_to_original_predictions": "not_established",
+  "interpretation": "Manual center annotations can supply supervised development targets. This does not turn repeatedly used same-match data into an independent external test.",
+  "reviewer_id_field": "Blank source fields are retained; no invented author ID or annotation date is written to the source table."
+}

@@ -1,0 +1,24 @@
+{
+  "ball_pilot_clips": 20,
+  "legacy_start_methods": {
+    "manual_valid_serve_impact": 7,
+    "camera_entry_confirmed_not_impact": 13
+  },
+  "fine_start_brackets_available": 2,
+  "clip_contact_relation": {
+    "legacy_timestamp_before_clip": 4,
+    "clip_contains_contact_candidate": 2,
+    "unresolved": 11,
+    "clip_contains_legacy_timestamp_only": 3
+  },
+  "source_hashes": {
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\match1_motion_prediction_pilot_queue.csv": "5d6d2d8e2aae31f44bc0c94959803ceed5a892de26aecfef3ab1260abffe3cee",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\match1_reviewed_play_windows.csv": "74d803e94393f59b0de6531068b0e3fda604239896985de8b0852562620ba729",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\segments\\match1_serve_impact_review.csv": "9a8db9bdab0284bb5178a756a3013e7d03f91f83a6f7cfdd58c30fd63b9a4b65",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\six_service_contact_brackets.csv": "1ffd0ec46fff000ea5552a0340b1cf3bae49fe69393949a82c68137a00ab3e95",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\044_serve_attempt_review.csv": "c87ef0b83f8a3d67e6d9cbf8ac27355c392a95b85d7d18bd868444be5d029014",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\effective_serve_contact_refinement_candidates.csv": "f84ea42ba71a50bca91c548599711438784622ac21f2c9de0246d3a3529ef26a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\rally_label_review.csv": "4ed13dd37b790eeb200ac675f84f453c83fdae5dbb8eff84af1590e8b221fe21"
+  },
+  "warning": "Retains prior reviews; no automatic boundary/serve-validity confirmation. These IDs are different namespaces, linked by tables."
+}

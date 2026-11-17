@@ -1,0 +1,9 @@
+{
+  "missing_wrists_not_raised": true,
+  "short_pose_occlusion_merged": true,
+  "outcome_not_inferred": true,
+  "same_frozen_parameters_and_code_on_both_clips": true,
+  "source_review_tables_unchanged": true,
+  "labels_not_read_by_feature_or_proposal_stage": true,
+  "limitation": "These are consistency and provenance checks, not start detection performance."
+}

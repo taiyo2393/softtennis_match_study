@@ -1,0 +1,44 @@
+[
+  {
+    "event": "initialized",
+    "frame": 125874,
+    "window_start": 125867,
+    "seed_ids": {
+      "near_front": 3,
+      "near_rear": 1,
+      "far_rear": 5,
+      "far_front": 2
+    },
+    "identity_status": "candidate_not_ground_truth"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 126294,
+    "player_slot": "far_rear",
+    "last_observed_frame": 126180,
+    "old_raw_id": 1000004,
+    "new_raw_id": 86,
+    "confirmation_start": 126287,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      86
+    ],
+    "alternative_cost_margin": 0.41285374439572153,
+    "identity_status": "requires_identity_review"
+  },
+  {
+    "event": "reacquired_candidate",
+    "frame": 126486,
+    "player_slot": "far_rear",
+    "last_observed_frame": 126457,
+    "old_raw_id": 1000746,
+    "new_raw_id": 100,
+    "confirmation_start": 126479,
+    "confirmation_frames": 8,
+    "confirmation_raw_ids": [
+      100
+    ],
+    "alternative_cost_margin": 0.5934005344056363,
+    "identity_status": "requires_identity_review"
+  }
+]

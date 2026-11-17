@@ -1,0 +1,16 @@
+{
+  "reviewer": "Codex AI saved-image inspection",
+  "diagnostic_images_inspected": 12,
+  "selection": "Every changed native row across ten cases, all retained prior019 probes, and the two previous016 false rejections.",
+  "near_prediction_diagnostic_frames_inspected": [
+    46658,
+    46659,
+    46660,
+    46665
+  ],
+  "comparison_QA_frames_inspected": 5,
+  "observations": "006 removes two mixed official/player rectangles.019 removes four contaminated rectangles, retains mixed46511 and overlapping46634 plus near-player-as-far assignments46665/46666.01640625/40626 actual-server boxes are preserved. Near-rear last box lower edge moves downward by14.57 native pixels from46659 to46660; extrapolating that box bottom is not extrapolating measured ground contact.",
+  "independent_identity_or_position_accuracy_established": false,
+  "not_an_accuracy_estimate": true,
+  "new_human_labels": false
+}

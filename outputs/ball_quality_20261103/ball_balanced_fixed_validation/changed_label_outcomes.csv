@@ -1,0 +1,3 @@
+﻿role,sample_id,candidate_id,local_frame,source_frame,before,after,old_x,old_y,new_x,new_y,truth_x,truth_y
+validation,match1_motion_pilot_015_frame_000285,match1_motion_pilot_015,285,104820,missing_visible_ball,correct16px,0,0,1125,594,1118,603
+audit,match1_motion_pilot_002_frame_000832,match1_motion_pilot_002,832,15637,correct16px,missing_visible_ball,800,562,0,0,806,564

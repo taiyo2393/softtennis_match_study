@@ -1,0 +1,59 @@
+{
+  "tag": "006",
+  "requested_frames": [
+    10536,
+    10538,
+    10540,
+    10542,
+    10544,
+    10546,
+    10548,
+    10550,
+    10552,
+    10554,
+    10556,
+    10558,
+    10560,
+    10562,
+    10564,
+    10566,
+    10568,
+    10570,
+    10572,
+    10574,
+    10576,
+    10578,
+    10580,
+    10582,
+    10584,
+    10586,
+    10588,
+    10590,
+    10592,
+    10594,
+    10596
+  ],
+  "illustrative_stills": [
+    10536,
+    10546,
+    10558,
+    10560,
+    10574,
+    10576
+  ],
+  "chosen_after_result": true,
+  "not_accuracy_sampling": true,
+  "model_torso_display_not_pixel_visibility_truth": true,
+  "original_image_dimensions": [
+    3840,
+    2160
+  ],
+  "display_image_dimensions": [
+    1280,
+    720
+  ],
+  "header_pixels": 100,
+  "playback_speed": 0.25,
+  "source_frame_stride": 2,
+  "source_clock_unchanged": true
+}

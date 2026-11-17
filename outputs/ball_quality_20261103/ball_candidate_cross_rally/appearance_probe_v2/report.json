@@ -1,0 +1,18 @@
+{
+  "status": "predictions_saved_before_new_human_answers",
+  "model_sha256": "485c88299646a16f4bbb4f64f78bed39ba8c1c7542288d28de80f15dad8784e1",
+  "frozen_predictions_sha256": "2b6d1204e9aa00fa24a7a0c6b5e3c445dff753faa9013fe6d11b08bcb25c00f1",
+  "training_features": 672,
+  "training_cases": 28,
+  "new008_cases_pending": 4,
+  "prior_regression_cases": 4,
+  "prior_real_candidates_retained": 0,
+  "prior_real_total": 1,
+  "prior_false_candidates_retained": 3,
+  "prior_false_total": 3,
+  "image_hashes_disjoint_between_train_and_check": true,
+  "training_and_check_groups_disjoint": true,
+  "all_registries_and_old_source_files_unchanged": true,
+  "automatic_adoption": false,
+  "evaluation_warning": "These4 are previously known safety cases: preparation ball and hands near edits. Counts are not in-play performance."
+}

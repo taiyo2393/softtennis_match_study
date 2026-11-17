@@ -1,0 +1,15 @@
+{
+  "status": "automatic_start_candidate_prototype_not_accepted_as_tracking_gate",
+  "development_clip": "ball pilot016, rally candidate044",
+  "fixed_parameter_application_clip": "ball pilot002, rally candidate007",
+  "development_proposals": 2,
+  "development_reference_attempts_overlapped": 2,
+  "fixed_application_proposals": 9,
+  "fixed_application_later_serve_reference_overlapped": false,
+  "automatic_serve_outcome_classification": false,
+  "independent_start_accuracy_claim": false,
+  "source_annotations_changed": false,
+  "reason": "Pose/audio can propose actions but currently mixes rally strokes with service starts and misplaces a later serve window.",
+  "next_design": "Phase-state modeling and ordered toss-contact-flight cues, with explicit retries and end states",
+  "tracking_uses": "Continue using previously reviewed start evidence; never automatically replace it with these proposals"
+}

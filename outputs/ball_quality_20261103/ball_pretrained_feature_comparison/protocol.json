@@ -1,0 +1,51 @@
+{
+  "status": "fixed_before_new_feature_extraction_and_fitting",
+  "scope": "Retrospective comparison on36 explicitly reviewed, selected same-match candidates; all labels previously seen",
+  "corpus_sha256": "bc27094098ad18f01c862e1cc4a3b581c719da26a61f3777861f5903814268dc",
+  "class_counts": {
+    "real": 21,
+    "false": 15
+  },
+  "groups": [
+    "legacy_match1:match1_motion_pilot_002",
+    "legacy_match1:match1_motion_pilot_008",
+    "legacy_match1:match1_motion_pilot_016",
+    "legacy_match1:match1_motion_pilot_018"
+  ],
+  "methods": [
+    "handcrafted672",
+    "frozen_resnet18_512"
+  ],
+  "handcrafted_source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\fit_frozen_ball_appearance_probe.py",
+  "handcrafted_code_sha256": "2837d89652fa364b8c6a5491a24c0ea56ccb54f13471d1aa323e4d96e35249d2",
+  "pretrained_weights": "C:\\Users\\ta239\\.cache\\torch\\hub\\checkpoints\\resnet18-f37072fd.pth",
+  "pretrained_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "pretrained_weights_kind": "Torchvision ResNet18 IMAGENET1K_V1, cached local weights",
+  "torchvision_version": "0.26.0+cu128",
+  "backbone": "eval,all parameters frozen,fc replaced with identity,512 global-average features",
+  "deep_input": "Central32x32 native pixels from each96px patch, BGR->RGB; official weights.transforms():bilinear short-side256,center224, /255, ImageNet mean/std",
+  "image_context_warning": "The32px input has only original detail; resizing is not recovery of lost pixels. Hand and deep preprocessing differ, so this is a method comparison, not a causal isolation of pretraining.",
+  "training": "Same feature-wise training-only standardisation, class-balanced logistic mean loss +0.5*L2(weights);CPUfloat64,LBFGS300,strong_wolfe,zero initialisation",
+  "threshold": 0.5,
+  "score_semantics": "Uncalibrated sigmoid scores",
+  "regimes": [
+    "train016_only_check_other8",
+    "leave_one_source_clip_out"
+  ],
+  "split_unit": "Entire source clip; frame/patch random splits forbidden",
+  "hyperparameter_search": false,
+  "fine_tuning": false,
+  "new_download": false,
+  "automatic_adoption": false,
+  "minimum_safety": "Any confirmed real-candidate loss or zero false-candidate rejection prevents adoption from this check alone; passing still requires new untouched evaluation",
+  "official_reference": "https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.resnet18.html",
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\all_reviewed_candidate_cases.csv": "bc27094098ad18f01c862e1cc4a3b581c719da26a61f3777861f5903814268dc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "978062a823520255b7416c5f45670901a61c955d28bf5794771ccf16ec0cb56b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\appearance_probe_v2\\model.npz": "485c88299646a16f4bbb4f64f78bed39ba8c1c7542288d28de80f15dad8784e1",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\appearance_probe_v2\\frozen_predictions.csv": "2b6d1204e9aa00fa24a7a0c6b5e3c445dff753faa9013fe6d11b08bcb25c00f1"
+  },
+  "script_sha256": "eb2860c29945ef4b4032d34cd7bc2eec56ad9e6360063ed771941a233e50f24d"
+}

@@ -1,0 +1,32 @@
+{
+  "court_seed_only": {
+    "temporal_box_ID_rows_equal": true,
+    "removed_temporal_box_ID_rows": 0,
+    "added_temporal_box_ID_rows": 0,
+    "metadata_differing_fields_on_matching_boxes": {
+      "identity_source": 0,
+      "assignment_cost": 0,
+      "alternative_cost_margin": 0
+    }
+  },
+  "old_guard": {
+    "temporal_box_ID_rows_equal": false,
+    "removed_temporal_box_ID_rows": 20,
+    "added_temporal_box_ID_rows": 1,
+    "metadata_differing_fields_on_matching_boxes": {
+      "identity_source": 2,
+      "assignment_cost": 297,
+      "alternative_cost_margin": 308
+    }
+  },
+  "court_seed_plus_old_guard": {
+    "temporal_box_ID_rows_equal": false,
+    "removed_temporal_box_ID_rows": 20,
+    "added_temporal_box_ID_rows": 1,
+    "metadata_differing_fields_on_matching_boxes": {
+      "identity_source": 2,
+      "assignment_cost": 297,
+      "alternative_cost_margin": 308
+    }
+  }
+}

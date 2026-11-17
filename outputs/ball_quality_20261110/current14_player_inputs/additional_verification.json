@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "previous13_input_rows_exactly_retained": true,
+  "confirmed_human_outcomes_preserved": 11,
+  "unreviewed_outcomes": 3,
+  "new_case_requested_times": 31,
+  "new_case_four_observation_times": 27,
+  "all_four_missing_requested_times_have_native_raw41_detections": true,
+  "retained_negative_appearance_veto_reproduced_at_all_four_missing_times": true,
+  "threshold_or_path_changed": false,
+  "AI_identity_seed_binding_added": false,
+  "AI_contact_proposal_frozen_before_tracking": true,
+  "independent_identity_or_position_accuracy_established": false,
+  "offline_future_context_in_association_documented": true,
+  "prediction_evaluation_performed": false,
+  "excerpt_video_frames_decoded": 189
+}

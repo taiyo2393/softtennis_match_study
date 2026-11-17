@@ -1,0 +1,273 @@
+{
+  "status": "provisional_research_baseline",
+  "runs": [
+    {
+      "candidate_id": "002",
+      "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_002_global\\global_review_h264.mp4",
+      "far_positions_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_002_global\\far_pair_path.csv",
+      "person_correspondence_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage7\\players_002_global\\human_video_review.json",
+      "review_scope": "User confirmed F1/F2 correspondence in the displayed stage7 updated 002 video",
+      "current_output_status": "path_reviewed_directly_or_preserved_from_reviewed_version",
+      "summary": {
+        "tag": "002",
+        "parameters": {
+          "beam_width": 48,
+          "options_per_person": 4,
+          "appearance_max": 0.7,
+          "missing_cost": 0.9,
+          "uncertainty_height_base": 0.25,
+          "uncertainty_per_missing_frame": 0.03,
+          "max_motion_normalized": 6.0,
+          "velocity_retention_missing": 0.98,
+          "observation_feature_weight": 0.8,
+          "motion_weight": 0.35,
+          "detector_id_change_cost": 0.04,
+          "pair_overlap_max": 0.55,
+          "stable_tracklet_min_observations": 8,
+          "tracklet_split_gap": 4,
+          "tracklet_jump_base_height": 0.4,
+          "tracklet_jump_per_frame_height": 0.3,
+          "bridge_max_frame_delta": 30,
+          "bridge_context_observations": 5,
+          "bridge_min_context": 3,
+          "bridge_two_sided_error_max_height": 0.75,
+          "scope": "offline_development_not_independent_evaluation"
+        },
+        "search": {
+          "best_path_cost": 387.25452180089997,
+          "surviving_final_hypotheses": 48,
+          "caution": "Beam search is approximate; path score is not calibrated identity confidence."
+        },
+        "far_detection_assignments": 581,
+        "frames_with_both_far": 233,
+        "frames": 355,
+        "warning": "New development candidate; no human identity accuracy measured. Near tracks reused from stage4."
+      }
+    },
+    {
+      "candidate_id": "003",
+      "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_003_global\\global_review_h264.mp4",
+      "far_positions_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_003_global\\far_pair_path.csv",
+      "person_correspondence_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage9\\players_003_temporal\\human_video_review.json",
+      "review_scope": "User confirmed the displayed 003 updated tracking video after near-player size adaptation and far-path recomputation",
+      "current_output_status": "path_reviewed_directly_or_preserved_from_reviewed_version",
+      "summary": {
+        "tag": "003",
+        "parameters": {
+          "beam_width": 48,
+          "options_per_person": 4,
+          "appearance_max": 0.7,
+          "missing_cost": 0.9,
+          "uncertainty_height_base": 0.25,
+          "uncertainty_per_missing_frame": 0.03,
+          "max_motion_normalized": 6.0,
+          "velocity_retention_missing": 0.98,
+          "observation_feature_weight": 0.8,
+          "motion_weight": 0.35,
+          "detector_id_change_cost": 0.04,
+          "pair_overlap_max": 0.55,
+          "stable_tracklet_min_observations": 8,
+          "tracklet_split_gap": 4,
+          "tracklet_jump_base_height": 0.4,
+          "tracklet_jump_per_frame_height": 0.3,
+          "bridge_max_frame_delta": 30,
+          "bridge_context_observations": 5,
+          "bridge_min_context": 3,
+          "bridge_two_sided_error_max_height": 0.75,
+          "scope": "offline_development_not_independent_evaluation"
+        },
+        "search": {
+          "best_path_cost": 467.87304939196025,
+          "surviving_final_hypotheses": 48,
+          "caution": "Beam search is approximate; path score is not calibrated identity confidence."
+        },
+        "far_detection_assignments": 708,
+        "frames_with_both_far": 301,
+        "frames": 415,
+        "warning": "New development candidate; no human identity accuracy measured. Near tracks reused from stage4."
+      }
+    },
+    {
+      "candidate_id": "005",
+      "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_005_global\\global_review_h264.mp4",
+      "far_positions_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_005_global\\far_pair_path.csv",
+      "person_correspondence_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage7\\players_005_global\\human_video_review.json",
+      "review_scope": "User confirmed F1/F2 correspondence in the displayed stage7 updated 005 video",
+      "current_output_status": "path_reviewed_directly_or_preserved_from_reviewed_version",
+      "summary": {
+        "tag": "005",
+        "parameters": {
+          "beam_width": 48,
+          "options_per_person": 4,
+          "appearance_max": 0.7,
+          "missing_cost": 0.9,
+          "uncertainty_height_base": 0.25,
+          "uncertainty_per_missing_frame": 0.03,
+          "max_motion_normalized": 6.0,
+          "velocity_retention_missing": 0.98,
+          "observation_feature_weight": 0.8,
+          "motion_weight": 0.35,
+          "detector_id_change_cost": 0.04,
+          "pair_overlap_max": 0.55,
+          "stable_tracklet_min_observations": 8,
+          "tracklet_split_gap": 4,
+          "tracklet_jump_base_height": 0.4,
+          "tracklet_jump_per_frame_height": 0.3,
+          "bridge_max_frame_delta": 30,
+          "bridge_context_observations": 5,
+          "bridge_min_context": 3,
+          "bridge_two_sided_error_max_height": 0.75,
+          "scope": "offline_development_not_independent_evaluation"
+        },
+        "search": {
+          "best_path_cost": 527.941541614248,
+          "surviving_final_hypotheses": 48,
+          "caution": "Beam search is approximate; path score is not calibrated identity confidence."
+        },
+        "far_detection_assignments": 612,
+        "frames_with_both_far": 220,
+        "frames": 445,
+        "warning": "New development candidate; no human identity accuracy measured. Near tracks reused from stage4."
+      }
+    },
+    {
+      "candidate_id": "007",
+      "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_007_global\\global_review_h264.mp4",
+      "far_positions_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_007_global\\far_pair_path.csv",
+      "person_correspondence_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage8\\tracking_quality_20261102_stage7\\players_007_global\\human_video_review.json",
+      "review_scope": "User confirmed correspondence in the displayed stage8 fixed-setting 007 tracking video",
+      "current_output_status": "path_reviewed_directly_or_preserved_from_reviewed_version",
+      "summary": {
+        "tag": "007",
+        "parameters": {
+          "beam_width": 48,
+          "options_per_person": 4,
+          "appearance_max": 0.7,
+          "missing_cost": 0.9,
+          "uncertainty_height_base": 0.25,
+          "uncertainty_per_missing_frame": 0.03,
+          "max_motion_normalized": 6.0,
+          "velocity_retention_missing": 0.98,
+          "observation_feature_weight": 0.8,
+          "motion_weight": 0.35,
+          "detector_id_change_cost": 0.04,
+          "pair_overlap_max": 0.55,
+          "stable_tracklet_min_observations": 8,
+          "tracklet_split_gap": 4,
+          "tracklet_jump_base_height": 0.4,
+          "tracklet_jump_per_frame_height": 0.3,
+          "bridge_max_frame_delta": 30,
+          "bridge_context_observations": 5,
+          "bridge_min_context": 3,
+          "bridge_two_sided_error_max_height": 0.75,
+          "scope": "offline_development_not_independent_evaluation"
+        },
+        "search": {
+          "best_path_cost": 579.7758488416088,
+          "surviving_final_hypotheses": 48,
+          "caution": "Beam search is approximate; path score is not calibrated identity confidence."
+        },
+        "far_detection_assignments": 1146,
+        "frames_with_both_far": 553,
+        "frames": 600,
+        "warning": "New development candidate; no human identity accuracy measured. Near tracks reused from stage4."
+      }
+    },
+    {
+      "candidate_id": "025",
+      "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_025_global\\global_review_h264.mp4",
+      "far_positions_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_025_global\\far_pair_path.csv",
+      "person_correspondence_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_025_global\\human_video_review.json",
+      "review_scope": "User confirmed F1/F2 correspondence in the displayed stage10 updated 025 video, including the late segment",
+      "current_output_status": "path_reviewed_directly_or_preserved_from_reviewed_version",
+      "summary": {
+        "tag": "025",
+        "parameters": {
+          "beam_width": 48,
+          "options_per_person": 4,
+          "appearance_max": 0.7,
+          "missing_cost": 0.9,
+          "uncertainty_height_base": 0.25,
+          "uncertainty_per_missing_frame": 0.03,
+          "max_motion_normalized": 6.0,
+          "velocity_retention_missing": 0.98,
+          "observation_feature_weight": 0.8,
+          "motion_weight": 0.35,
+          "detector_id_change_cost": 0.04,
+          "pair_overlap_max": 0.55,
+          "stable_tracklet_min_observations": 8,
+          "tracklet_split_gap": 4,
+          "tracklet_jump_base_height": 0.4,
+          "tracklet_jump_per_frame_height": 0.3,
+          "bridge_max_frame_delta": 30,
+          "bridge_context_observations": 5,
+          "bridge_min_context": 3,
+          "bridge_two_sided_error_max_height": 0.75,
+          "scope": "offline_development_not_independent_evaluation"
+        },
+        "search": {
+          "best_path_cost": 535.1102738744011,
+          "surviving_final_hypotheses": 48,
+          "caution": "Beam search is approximate; path score is not calibrated identity confidence."
+        },
+        "far_detection_assignments": 968,
+        "frames_with_both_far": 471,
+        "frames": 504,
+        "warning": "New development candidate; no human identity accuracy measured. Near tracks reused from stage4."
+      }
+    },
+    {
+      "candidate_id": "048",
+      "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_048_global\\global_review_h264.mp4",
+      "far_positions_csv": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\experiment\\tracking_quality_20261102_stage7\\players_048_global\\far_pair_path.csv",
+      "person_correspondence_review": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage6\\players_048_global\\human_video_review.json",
+      "review_scope": "Displayed 048 video: user confirmed the presented F1/F2 correspondence",
+      "current_output_status": "path_reviewed_directly_or_preserved_from_reviewed_version",
+      "summary": {
+        "tag": "048",
+        "parameters": {
+          "beam_width": 48,
+          "options_per_person": 4,
+          "appearance_max": 0.7,
+          "missing_cost": 0.9,
+          "uncertainty_height_base": 0.25,
+          "uncertainty_per_missing_frame": 0.03,
+          "max_motion_normalized": 6.0,
+          "velocity_retention_missing": 0.98,
+          "observation_feature_weight": 0.8,
+          "motion_weight": 0.35,
+          "detector_id_change_cost": 0.04,
+          "pair_overlap_max": 0.55,
+          "stable_tracklet_min_observations": 8,
+          "tracklet_split_gap": 4,
+          "tracklet_jump_base_height": 0.4,
+          "tracklet_jump_per_frame_height": 0.3,
+          "bridge_max_frame_delta": 30,
+          "bridge_context_observations": 5,
+          "bridge_min_context": 3,
+          "bridge_two_sided_error_max_height": 0.75,
+          "scope": "offline_development_not_independent_evaluation"
+        },
+        "search": {
+          "best_path_cost": 1009.6282229553185,
+          "surviving_final_hypotheses": 48,
+          "caution": "Beam search is approximate; path score is not calibrated identity confidence."
+        },
+        "far_detection_assignments": 1351,
+        "frames_with_both_far": 515,
+        "frames": 900,
+        "warning": "New development candidate; no human identity accuracy measured. Near tracks reused from stage4."
+      }
+    }
+  ],
+  "method": "YOLO11m + ByteTrack/crop candidates + temporal initialization + offline joint far-pair search + smooth tracklet/short-gap consistency",
+  "limitations": [
+    "Same-match short intervals only",
+    "Video-level correspondence confirmation, not independent per-frame ID accuracy",
+    "Missing frames not filled",
+    "BBox bottom positions approximate; metric ground-plane position accuracy not established",
+    "Far-pair algorithm and reused near tracks are separate branches; some near-side gaps remain"
+  ],
+  "code": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\gap_pair_tracking.py",
+  "checks": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102_stage10\\regression_and_integrity_checks.json"
+}

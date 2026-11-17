@@ -1,0 +1,134 @@
+{
+  "status": "fixed_temporal_path_trial_complete",
+  "chosen_configuration": {
+    "name": "displacement_0.1",
+    "order": "displacement",
+    "strength": 0.1
+  },
+  "original_training": {
+    "counts": {
+      "frames": 123,
+      "truth_visible": 102,
+      "pred_visible": 70,
+      "presence_tp": 68,
+      "localized_tp_16px": 63,
+      "wrong_localization": 5,
+      "presence_tn": 19,
+      "presence_fn": 34,
+      "presence_fp": 2
+    },
+    "localization_recall_16px": 0.6176470588235294,
+    "localization_precision_16px": 0.9,
+    "mean_error_both_visible_px": 24.941580516771136
+  },
+  "validation": {
+    "original": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 83,
+        "presence_fn": 23,
+        "presence_tp": 82,
+        "localized_tp_16px": 80,
+        "wrong_localization": 2,
+        "presence_tn": 14,
+        "presence_fp": 1
+      },
+      "localization_recall_16px": 0.7619047619047619,
+      "localization_precision_16px": 0.963855421686747,
+      "mean_error_both_visible_px": 6.949994464709879
+    },
+    "selected": {
+      "counts": {
+        "frames": 120,
+        "truth_visible": 105,
+        "pred_visible": 83,
+        "presence_fn": 23,
+        "presence_tp": 82,
+        "localized_tp_16px": 81,
+        "wrong_localization": 1,
+        "presence_tn": 14,
+        "presence_fp": 1
+      },
+      "localization_recall_16px": 0.7714285714285715,
+      "localization_precision_16px": 0.9759036144578314,
+      "mean_error_both_visible_px": 4.367023144730804
+    },
+    "original_correct_lost": [],
+    "nonregression": true
+  },
+  "challenge": {
+    "original": {
+      "counts": {
+        "frames": 4,
+        "truth_visible": 4,
+        "pred_visible": 4,
+        "presence_tp": 4,
+        "localized_tp_16px": 2,
+        "wrong_localization": 2,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 0.5,
+      "localization_precision_16px": 0.5,
+      "mean_error_both_visible_px": 122.57947311815263
+    },
+    "selected": {
+      "counts": {
+        "frames": 4,
+        "truth_visible": 4,
+        "pred_visible": 4,
+        "presence_tp": 4,
+        "localized_tp_16px": 4,
+        "wrong_localization": 0,
+        "presence_fp": 0,
+        "presence_fn": 0
+      },
+      "localization_recall_16px": 1.0,
+      "localization_precision_16px": 1.0,
+      "mean_error_both_visible_px": 1.6035533905932737
+    },
+    "original_correct_lost": [],
+    "nonregression": true
+  },
+  "audit": {
+    "original": {
+      "counts": {
+        "frames": 60,
+        "truth_visible": 45,
+        "pred_visible": 39,
+        "presence_fn": 9,
+        "presence_tn": 12,
+        "presence_fp": 3,
+        "presence_tp": 36,
+        "localized_tp_16px": 34,
+        "wrong_localization": 2
+      },
+      "localization_recall_16px": 0.7555555555555555,
+      "localization_precision_16px": 0.8717948717948718,
+      "mean_error_both_visible_px": 15.244100226851202
+    },
+    "selected": {
+      "counts": {
+        "frames": 60,
+        "truth_visible": 45,
+        "pred_visible": 39,
+        "presence_fn": 9,
+        "presence_tn": 12,
+        "presence_fp": 3,
+        "presence_tp": 36,
+        "localized_tp_16px": 35,
+        "wrong_localization": 1
+      },
+      "localization_recall_16px": 0.7777777777777778,
+      "localization_precision_16px": 0.8974358974358975,
+      "mean_error_both_visible_px": 6.240874588918525
+    },
+    "original_correct_lost": [],
+    "nonregression": true
+  },
+  "operational_outputs_changed": false,
+  "automatic_adoption": false,
+  "protected_inputs_unchanged": true,
+  "next": "Keep original unless a reviewed broader tracking comparison supports replacement. Do not tune parameters on challenge/audit or infer continuous accuracy from sparse centers."
+}

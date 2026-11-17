@@ -1,0 +1,24 @@
+{
+  "scope": "Reviewed-input integration snapshots; no independent identity/position accuracy claim",
+  "rallies": {
+    "match1_rally_window_044": {
+      "ball_pilot_id": "match1_motion_pilot_016",
+      "local_frames": [
+        739,
+        1140
+      ],
+      "player_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\observed_player_paths.csv",
+      "player_input_sha256": "55f4ffdbfea897a1df679ff11ac12a383fae370f8d2853ea73d4ac4070ec8b42",
+      "ball_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+      "ball_input_sha256": "83d6bf859b499a016b5a160cecf4c118ba6b647d825c8443cfba8c4167773479",
+      "integrated_folder": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v2",
+      "integrated_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v2\\integrated_review_h264.mp4",
+      "integrated_video_sha256": "36c1fca796ea19796b94987e768376569d298ccfb404cf6fd300310a131b29bc",
+      "frame_status": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v2\\frame_observation_status.csv",
+      "observed_entities": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v2\\observed_entities_1920x1080.csv",
+      "protocol": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v2\\protocol.json",
+      "previous_snapshot": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044",
+      "independent_accuracy_established": false
+    }
+  }
+}

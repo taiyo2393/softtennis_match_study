@@ -1,0 +1,34 @@
+{
+  "pilot": "softtennis_frontcourt_study\\analysis\\person_tracker_comparison\\pilot_013",
+  "mode": "bytetrack",
+  "max_interpolate": 12,
+  "candidate_count": 1,
+  "accepted_count": 1,
+  "candidates": [
+    {
+      "slot": "far_rear",
+      "new_track_id": 22,
+      "old_track_id": 10,
+      "last_observed_frame": 154134,
+      "reappearance_frame": 154136,
+      "gap_frames": 1,
+      "forward_error_height": 0.448,
+      "backward_error_height": 0.293,
+      "score": 0.448
+    }
+  ],
+  "accepted": [
+    {
+      "slot": "far_rear",
+      "new_track_id": 22,
+      "old_track_id": 10,
+      "last_observed_frame": 154134,
+      "reappearance_frame": 154136,
+      "gap_frames": 1,
+      "forward_error_height": 0.448,
+      "backward_error_height": 0.293,
+      "score": 0.448
+    }
+  ],
+  "warning": "Accepted links are provisional until independently checked."
+}

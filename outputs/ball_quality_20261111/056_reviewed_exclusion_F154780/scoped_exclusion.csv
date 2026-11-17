@@ -1,0 +1,2 @@
+﻿source_frame,old_candidate_x,old_candidate_y,candidate_identity,current_usable_ball_position,replacement_x,replacement_y,observation_status,confirmation_source
+154780,1102.0,579.0,other_object_human_confirmed,0,,,unlocated_ball_not_physical_absence,human_candidate_rejection.json

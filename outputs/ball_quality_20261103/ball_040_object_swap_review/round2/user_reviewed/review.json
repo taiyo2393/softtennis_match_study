@@ -1,0 +1,29 @@
+{
+  "review_id": "20261103_040_neighbour463465_not_ball",
+  "recorded_date": "2026-11-03",
+  "reviewer": "human_user",
+  "user_answer": "463・465の橙はボールじゃない",
+  "ball_pilot_id": "match1_motion_pilot_015",
+  "rally_candidate_id": "match1_rally_window_040",
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\reviewed_040_h264.mp4",
+  "source_video_sha256": "6a103c7ef993e710c83754d438d7dca783c7f8ecae1052c6967444d781017cca",
+  "newly_rejected_local_frames": [
+    463,
+    465
+  ],
+  "cumulative_rejected_local_frames": [
+    463,
+    464,
+    465,
+    467,
+    470,
+    554
+  ],
+  "scope": "Only the2amber candidates463/465 now explicitly rejected by user. No neighbour propagation, true center or physical-absence label.",
+  "prior_review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\user_reviewed\\review.json",
+  "prior_registry_sha256": "37154a120d8b76c6a2828ccf66fa07c29f912f79654a36cca47003c2eb0d82d3",
+  "prior_baseline_sha256": "88fd4d6e3441dca6dc5b506a1970d9a7841eb9e45d757cd96c51585ef46fcf0e",
+  "prior_experimental_sha256": "3bacae30cf4e4853c6eb3ed70c520b265baa83661b1d8f3a630cd5c25e4e0dd8",
+  "algorithm_changed": false,
+  "training_labels_changed": false
+}

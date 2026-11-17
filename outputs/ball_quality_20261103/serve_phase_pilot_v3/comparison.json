@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "pilot": "016",
+      "comparisons": [
+        {
+          "reference": {
+            "attempt_number": "1",
+            "outcome": "fault",
+            "first": 105,
+            "last": 125,
+            "outcome_status": "human_confirmed",
+            "timing_status": "ai_visual_interval_provisional"
+          },
+          "repair_only_overlaps": [
+            [
+              97,
+              128
+            ]
+          ],
+          "phase_retained_overlaps": [],
+          "phase_deferred_overlaps": [
+            [
+              97,
+              128
+            ]
+          ]
+        },
+        {
+          "reference": {
+            "attempt_number": "2",
+            "outcome": "valid",
+            "first": 730,
+            "last": 738,
+            "outcome_status": "human_confirmed",
+            "timing_status": "ai_visual_interval_provisional"
+          },
+          "repair_only_overlaps": [
+            [
+              721,
+              752
+            ]
+          ],
+          "phase_retained_overlaps": [
+            [
+              721,
+              752
+            ]
+          ],
+          "phase_deferred_overlaps": []
+        }
+      ],
+      "phase_output_sha256": "5d3b507bf61bdf85ef37bbd83f32044f87d9544026ee012e3a45745f26aee016",
+      "role": "development_and_tuning_not_independent_test",
+      "suppressed_during_activity": 0,
+      "deferred": 1
+    },
+    {
+      "pilot": "002",
+      "comparisons": [
+        {
+          "reference": {
+            "attempt_number": "unknown",
+            "outcome": "unknown",
+            "first": 747,
+            "last": 758,
+            "outcome_status": "sequence_supported_not_human_confirmed",
+            "timing_status": "ai_visual_bracket_human_pending"
+          },
+          "repair_only_overlaps": [
+            [
+              745,
+              776
+            ]
+          ],
+          "phase_retained_overlaps": [
+            [
+              745,
+              776
+            ]
+          ],
+          "phase_deferred_overlaps": []
+        }
+      ],
+      "phase_output_sha256": "a29b47a26aa26292a740491ddbc8f9c62cc8ee4cc7af2e1535f740356ca30465",
+      "role": "development_and_tuning_not_independent_test",
+      "suppressed_during_activity": 6,
+      "deferred": 1
+    }
+  ],
+  "reference_file_sha256": "4b0d27997668bd8bcd38bc4c9ac797134fc907b01f95241055d8ccf5ea2b1df1",
+  "independent_accuracy_established": false,
+  "validity_classification": false,
+  "limitation": "References are prior AI contact intervals. Human-reviewed outcomes on044 are not automatic inference. No complete negative labels or exact contact GT."
+}

@@ -1,0 +1,53 @@
+{
+  "date_jst": "2026-11-11",
+  "purpose": "Add tentative bounce points to court diagram in same reviewed044 development rally; not validated landing measurements.",
+  "candidates": [
+    {
+      "id": "B01",
+      "old_direction_candidate": "C01",
+      "source_frame": 115415,
+      "interval_first": 115413,
+      "interval_last": 115419,
+      "after_stroke": "H01",
+      "before_stroke": "H02",
+      "hitter_slot": "far_rear",
+      "hitter_reference_frame": 115369
+    },
+    {
+      "id": "B02",
+      "old_direction_candidate": "C03",
+      "source_frame": 115571,
+      "interval_first": 115569,
+      "interval_last": 115575,
+      "after_stroke": "H03",
+      "before_stroke": "H04",
+      "hitter_slot": "far_rear",
+      "hitter_reference_frame": 115521
+    }
+  ],
+  "selection": "ExistingC01/C03 frames selected in previous image-turn proposal, not selected or adjusted after seeing court projection. No new frame search or threshold tuning.",
+  "geometry": "Native1920x1080 human-assisted ball center -> multiplyxy by2 -> retained3840x2160 image-to-court H. Conditional assumption: point is at ground level. No ball radius/height correction; exact contact time and pixel center error unvalidated.",
+  "coordinate_definition": "Normalized court:x0screen-left doubles sideline..1right; y0near baseline..1far. No clipping/clamping or in/out decision.",
+  "identity_and_review_scope": "User confirmed5stroke actor sequence only. AI bounce events/timing/positions are not human-confirmed. Accepted ball positions are human-assisted, not independent pixel-center truth.",
+  "map_display": "Only2fixed bounce-candidate points. They appear at their representative source frame and remain as historical hollow rings; never shown as current airborne ball position. Current image-ball tracking stays on original video.",
+  "no_new_positions_for": [
+    "airborne_ground_projection",
+    "hidden_far_bounces",
+    "last_out_landing",
+    "missing_ball_frames"
+  ],
+  "no_interpolation": true,
+  "independent_accuracy_established": false,
+  "protected_input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\project_044_bounce_candidates.py": "1cafa9816737ca7c131faf17c50d87bbcfe8c1ad6a7b29944f88da49d8e466a4",
+    "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\config\\match1_court_plane_calibration.json": "2fa78e9e1eb1f645df6831f5e5faec65d89fc505af4eb91d28721a35b227ce36",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot\\publication_hashes.json": "16ca1d96084d38e46af2f7408234fdf6fe4f58f6ee88e9be9930b3228c1e6ac5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_stroke_review\\publication_hashes.json": "92d4da4f9b7607808788ada7802e48dbb9ed3aa443a7b5417525f6e9de6de8de",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_stroke_review\\AI_event_proposals.json": "bd77cd282264a50d3c1ad5309158bfef4e720cf1f6afedaf4ef05850a1416e2c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_sequence_confirmed\\publication_hashes.json": "f120e24c62f45c05a8224369e11895caf00b1a459785a88c3f5667961154e965",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_sequence_confirmed\\human_sequence_confirmation.json": "f393d0183257965677c7148a15df1ee310b8e06d29d53ccd3b3f8eefe8eabddc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot\\ball_image_observations.csv": "6d116184915761ad6eac99de7e2c8471112d3c68697fb8942f08743888a281f5",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot\\player_court_proxies.csv": "10a679f30b0fa88ad0a5f1ae3b1dc2fcc050bcf18cb3163d51521e24da96027b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261111\\044_spatiotemporal_pilot\\protocol.json": "ea29404b0ec3fff18d6963cbbc9c5606cebb4e250174742f956b7bcd9db0369d"
+  }
+}

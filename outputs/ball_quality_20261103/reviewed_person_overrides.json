@@ -1,0 +1,43 @@
+{
+  "scope": "Per-clip human video correspondence; distinct from independent ID/position groundtruth",
+  "rallies": {
+    "match1_rally_window_044": {
+      "ball_pilot_id": "match1_motion_pilot_016",
+      "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\observed_player_paths.csv",
+      "reviewed_output_sha256": "55f4ffdbfea897a1df679ff11ac12a383fae370f8d2853ea73d4ac4070ec8b42",
+      "far_pair_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\far_pair_path.csv",
+      "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\review.json",
+      "review_id": "20261103_044_eleven_recovered_boxes_identity",
+      "reviewed_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "output_local_frames": [
+        725,
+        1140
+      ],
+      "coordinate_system": "3840x2160 source pixels; multiply0.5 for cached1920x1080",
+      "original_six_clip_baseline_unchanged": true,
+      "independent_accuracy_established": false,
+      "review_records": [
+        "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\user_reviewed\\review.json",
+        "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\review.json"
+      ],
+      "reviewed_recovery_local_frames": [
+        796,
+        797,
+        905,
+        906,
+        907,
+        912,
+        984,
+        985,
+        1112,
+        1113,
+        1114
+      ],
+      "previous_reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\user_reviewed\\observed_player_paths.csv",
+      "remaining_missing_player_times": 76
+    }
+  }
+}

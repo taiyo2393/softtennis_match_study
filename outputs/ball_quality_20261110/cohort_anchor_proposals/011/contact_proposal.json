@@ -1,0 +1,42 @@
+{
+  "date_jst": "2026-11-10",
+  "candidate_id": "match1_rally_window_011",
+  "source_clock": "legacy_edited_match1",
+  "source_video_sha256": "547e5cfd2ed6b0693a83201b1241ba6eb93ab7be8f3f2b135dee2cc48f94258d",
+  "contact_candidate_first_frame": 26897,
+  "contact_candidate_last_frame": 26903,
+  "review_status": "ai_visual_bracket_human_pending",
+  "effective_serve_status": "sequence_supported_not_human_confirmed",
+  "server_camera_side_candidate": "near",
+  "server_court_half_candidate": "right",
+  "serve_style_candidate": "overhead_service",
+  "serve_attempt_number": "",
+  "earlier_service_attempt_candidate_frames": [
+    26272,
+    26290
+  ],
+  "earlier_attempt_result": "stopped_then_retry_visible;fault_or_let_not_formally_confirmed",
+  "same_point_linkage_status": "AI chronological same-score and repeated-service support; not new human GT",
+  "evidence": "later_serve_detail/page_02.jpg;earlier_attempt_detail/page_01.jpg;coarse_page_01.jpg;coarse_page_02.jpg",
+  "basis": "Near-right server makes an earlier low swing, play stops and players reset before another overhead service from the same side/half with unchanged visible point score. Later sequence shows ball near the extended racket around F26897..26901 and departing by F26903, followed by exchanges. Use a conservative contact bracket, not first camera entry or tracker initialization. No winner-derived selection.",
+  "context_boundary_modified": false,
+  "winner_camera_side": "",
+  "winner_review_status": "unreviewed",
+  "fixed_before_new_person_tracking": true,
+  "evidence_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\search_protocol.json": "3fc1e0b8cd139f9eceef90172e0b78cd1855be73678052dc1a0d953405b3fd99",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_image_hashes.json": "6cce96f3fc7c8c3b4954e0f648bd79682798fc74e4bb23eefff96a4fcf2b2c69",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_page_01.jpg": "e599bd925650f05e7e7c72bf9f04b48dd97d46bb6b9be93dd313a252455ec41a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_page_02.jpg": "6c437db29934b95d402206434c6e5d3ff9f586c72b88e597c9c5404aad9dfcde",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_page_03.jpg": "8df2351c2564655b287bcf4c39c335bdfb541e2e1fe828e8f5a54f4568e8e3da",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_page_04.jpg": "56064744feb04e2bb40160afbff5204dda32597481000640300dbe36c192067b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_page_05.jpg": "31683fa58e59f963afa35bcf6a7653882615790cc55e154a733258341f26b4ba",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_page_06.jpg": "bc756abb2c2077d8534f8ec1c18895abe46ed3b927bde599891b46f8e6eaf89d",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\coarse_page_07.jpg": "695c7836c7cb60368f2b123095eb818145806b055c397bb450c102947c6a9f78",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\earlier_attempt_detail\\manifest.json": "503f6a99c0ca47e37dde6a0cfe3f41fd00976d13394611970a9702421305d994",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\later_serve_detail\\manifest.json": "6ec3c4639dd6ad009c3985fd213ae3f0161e50c2e35bbfe37ea432ed792f93e8",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\earlier_attempt_detail\\page_01.jpg": "caaef225af6b7bcc585cc0fc95636656b02b694f398e4f4ca70919d4efe9673b",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\later_serve_detail\\page_01.jpg": "8e70ca398881060466204de244ea3d1b21943dfb86dc308a01bef9b78b21ac8c",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_anchor_proposals\\011\\later_serve_detail\\page_02.jpg": "b73f8d77ffdfb65a92f7a800446638696a3618e5b0d168a26c3ebeb09c21d9e2"
+  }
+}

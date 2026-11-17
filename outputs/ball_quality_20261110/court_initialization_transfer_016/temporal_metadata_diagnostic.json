@@ -1,0 +1,26 @@
+{
+  "court_seed_only": {
+    "temporal_box_ID_rows_equal": true,
+    "metadata_differing_fields": {
+      "identity_source": 0,
+      "assignment_cost": 0,
+      "alternative_cost_margin": 0
+    }
+  },
+  "old_guard": {
+    "temporal_box_ID_rows_equal": true,
+    "metadata_differing_fields": {
+      "identity_source": 0,
+      "assignment_cost": 0,
+      "alternative_cost_margin": 1
+    }
+  },
+  "court_seed_plus_old_guard": {
+    "temporal_box_ID_rows_equal": true,
+    "metadata_differing_fields": {
+      "identity_source": 0,
+      "assignment_cost": 0,
+      "alternative_cost_margin": 1
+    }
+  }
+}

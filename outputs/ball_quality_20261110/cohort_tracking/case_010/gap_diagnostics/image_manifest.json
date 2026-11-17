@@ -1,0 +1,102 @@
+[
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 23548,
+    "after_source_frame": 23629,
+    "missing_frames": 80,
+    "before_raw_id": "1000006",
+    "after_raw_id": "18",
+    "image_file": "gap_01_far_rear.jpg",
+    "source_frames": [
+      23536,
+      23548,
+      23588,
+      23629,
+      23635,
+      23641
+    ],
+    "constant_crop_xyxy": [
+      1931,
+      941,
+      2360,
+      1355
+    ],
+    "aspect_preserved": true,
+    "sha256": "ea3c80f6fae8f26b6dc97fbd5f1f85795c042eaf0c3d02c03ea0d3ad0f96cd47"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 23677,
+    "after_source_frame": 23727,
+    "missing_frames": 49,
+    "before_raw_id": "18",
+    "after_raw_id": "37",
+    "image_file": "gap_02_far_rear.jpg",
+    "source_frames": [
+      23665,
+      23677,
+      23702,
+      23727,
+      23733,
+      23739
+    ],
+    "constant_crop_xyxy": [
+      1932,
+      933,
+      2358,
+      1353
+    ],
+    "aspect_preserved": true,
+    "sha256": "49cbb3344432ec43fd287b71a95dcf68a55185e8496a085d0e9da4be636db539"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 23874,
+    "after_source_frame": 23937,
+    "missing_frames": 62,
+    "before_raw_id": "4",
+    "after_raw_id": "4",
+    "image_file": "gap_03_far_front.jpg",
+    "source_frames": [
+      23862,
+      23874,
+      23905,
+      23937,
+      23943,
+      23949
+    ],
+    "constant_crop_xyxy": [
+      1595,
+      943,
+      2046,
+      1349
+    ],
+    "aspect_preserved": true,
+    "sha256": "ed29a27f59825f3ca8bf7b506f78ac2da65d1d14c762c86b7b990d032abf309b"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 24041,
+    "after_source_frame": 24088,
+    "missing_frames": 46,
+    "before_raw_id": "4",
+    "after_raw_id": "281",
+    "image_file": "gap_04_far_front.jpg",
+    "source_frames": [
+      24029,
+      24041,
+      24064,
+      24088,
+      24094,
+      24100
+    ],
+    "constant_crop_xyxy": [
+      1577,
+      922,
+      2051,
+      1345
+    ],
+    "aspect_preserved": true,
+    "sha256": "b4ebb3de7c051ab0da351ef545999de1b584ac228a84d3dc4fb4409cce0142bc"
+  }
+]

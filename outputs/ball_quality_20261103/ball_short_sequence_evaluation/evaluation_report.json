@@ -1,0 +1,101 @@
+{
+  "status": "human_labelled_short_sequences_evaluated",
+  "windows": [
+    {
+      "window_id": "A",
+      "candidate_id": "match1_motion_pilot_012",
+      "anchor_local_frame": 303,
+      "first_local_frame": 291,
+      "last_local_frame": 315,
+      "sampled_frames": 13,
+      "stride": 2,
+      "fps": 59.94005994005994,
+      "span_sec": 0.40040000000000003
+    },
+    {
+      "window_id": "B",
+      "candidate_id": "match1_motion_pilot_020",
+      "anchor_local_frame": 171,
+      "first_local_frame": 159,
+      "last_local_frame": 183,
+      "sampled_frames": 13,
+      "stride": 2,
+      "fps": 59.94005994005994,
+      "span_sec": 0.40040000000000003
+    }
+  ],
+  "summary": [
+    {
+      "window_id": "A",
+      "candidate_id": "match1_motion_pilot_012",
+      "method": "bbox_area",
+      "span_sec": 0.40040000000000003,
+      "stride": 2,
+      "correct16px": 13,
+      "wrong_position": 0,
+      "missing_visible_ball": 0,
+      "output_when_not_observable": 0,
+      "no_output_when_not_observable": 0,
+      "excluded_phase": 0,
+      "excluded_ball_uncertain": 0,
+      "longest_sampled_wrong_run": 0,
+      "run_span_sec": 0.0
+    },
+    {
+      "window_id": "A",
+      "candidate_id": "match1_motion_pilot_012",
+      "method": "displacement_0.1",
+      "span_sec": 0.40040000000000003,
+      "stride": 2,
+      "correct16px": 13,
+      "wrong_position": 0,
+      "missing_visible_ball": 0,
+      "output_when_not_observable": 0,
+      "no_output_when_not_observable": 0,
+      "excluded_phase": 0,
+      "excluded_ball_uncertain": 0,
+      "longest_sampled_wrong_run": 0,
+      "run_span_sec": 0.0
+    },
+    {
+      "window_id": "B",
+      "candidate_id": "match1_motion_pilot_020",
+      "method": "bbox_area",
+      "span_sec": 0.40040000000000003,
+      "stride": 2,
+      "correct16px": 13,
+      "wrong_position": 0,
+      "missing_visible_ball": 0,
+      "output_when_not_observable": 0,
+      "no_output_when_not_observable": 0,
+      "excluded_phase": 0,
+      "excluded_ball_uncertain": 0,
+      "longest_sampled_wrong_run": 0,
+      "run_span_sec": 0.0
+    },
+    {
+      "window_id": "B",
+      "candidate_id": "match1_motion_pilot_020",
+      "method": "displacement_0.1",
+      "span_sec": 0.40040000000000003,
+      "stride": 2,
+      "correct16px": 13,
+      "wrong_position": 0,
+      "missing_visible_ball": 0,
+      "output_when_not_observable": 0,
+      "no_output_when_not_observable": 0,
+      "excluded_phase": 0,
+      "excluded_ball_uncertain": 0,
+      "longest_sampled_wrong_run": 0,
+      "run_span_sec": 0.0
+    }
+  ],
+  "labels_sha256": "f5d79e1b2f656ddb6d5408ef1995811ffa353b2f37c29d9c4d4821c6b3d3182d",
+  "events_sha256": "ad762770b59a4ef98d5be997eebcb3f7dfb4c922326e636eb70130754c6275a6",
+  "original_frozen_predictions_sha256": "66efc4d90245f7914e965d940f7197a68488cce32961d469f196cc02cfb1b470",
+  "protected_inputs_unchanged": true,
+  "new_training": false,
+  "automatic_adoption": false,
+  "interpolation": 0,
+  "limitations": "Two deliberately small neighbourhoods in known same-match validation clips, including4reused centers; not independent external testing or full-rally accuracy. Adjacent pairs overlap; missing is unknown position, not physical absence."
+}

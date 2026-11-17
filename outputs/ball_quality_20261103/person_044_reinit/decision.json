@@ -1,0 +1,30 @@
+{
+  "status": "far_pair_displayed_identity_human_confirmed_registered_as_reviewed_clip",
+  "rally_candidate_id": "match1_rally_window_044",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "output_local_frames": [
+    725,
+    1140
+  ],
+  "main_play_local_frames": [
+    739,
+    1140
+  ],
+  "far_identity_meaning": {
+    "F1": "far server at initialization",
+    "F2": "far partner at initialization"
+  },
+  "review_question_scope": "F1/F2 retain the same players through initialization, gaps and reacquisition in the displayed clip",
+  "human_identity_review": "human_video_level_F1_F2_same_player_correspondence_confirmed",
+  "missing_positions_interpolated": false,
+  "candidate_availability_not_identity_accuracy": true,
+  "existing_person_baseline_replaced": false,
+  "reviewed_ball_changes_preserved": [
+    773,
+    784,
+    1103
+  ],
+  "next": "Diagnose visible-player misses in remaining gaps; keep missing positions empty and position accuracy unmeasured.",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\user_reviewed\\review.json",
+  "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_reinit\\user_reviewed\\observed_player_paths.csv"
+}

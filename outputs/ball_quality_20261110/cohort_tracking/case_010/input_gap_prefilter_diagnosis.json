@@ -1,0 +1,121 @@
+{
+  "findings": [
+    {
+      "source_frame": 23768,
+      "raw_id": 41,
+      "native_detection_exists": true,
+      "appearance_distances": [
+        0.6613835753738455,
+        0.7109037847642512
+      ],
+      "nearest_negative_distance": 0.6340703386288714,
+      "max_near_overlap": 0.0,
+      "prefilter_passes": {
+        "position_roi": true,
+        "near_overlap": true,
+        "appearance": true,
+        "negative_appearance": true
+      },
+      "all_prefilters_pass": true,
+      "final_path_selected": true
+    },
+    {
+      "source_frame": 23770,
+      "raw_id": 41,
+      "native_detection_exists": true,
+      "appearance_distances": [
+        0.6772419562558669,
+        0.7119864132361575
+      ],
+      "nearest_negative_distance": 0.6318935436984177,
+      "max_near_overlap": 0.0,
+      "prefilter_passes": {
+        "position_roi": true,
+        "near_overlap": true,
+        "appearance": true,
+        "negative_appearance": false
+      },
+      "all_prefilters_pass": false,
+      "final_path_selected": false
+    },
+    {
+      "source_frame": 23772,
+      "raw_id": 41,
+      "native_detection_exists": true,
+      "appearance_distances": [
+        0.6624320147391483,
+        0.695062113852654
+      ],
+      "nearest_negative_distance": 0.6042328632838982,
+      "max_near_overlap": 0.0,
+      "prefilter_passes": {
+        "position_roi": true,
+        "near_overlap": true,
+        "appearance": true,
+        "negative_appearance": false
+      },
+      "all_prefilters_pass": false,
+      "final_path_selected": false
+    },
+    {
+      "source_frame": 23774,
+      "raw_id": 41,
+      "native_detection_exists": true,
+      "appearance_distances": [
+        0.6791238394602204,
+        0.6900418618680983
+      ],
+      "nearest_negative_distance": 0.6210214587440832,
+      "max_near_overlap": 0.0,
+      "prefilter_passes": {
+        "position_roi": true,
+        "near_overlap": true,
+        "appearance": true,
+        "negative_appearance": false
+      },
+      "all_prefilters_pass": false,
+      "final_path_selected": false
+    },
+    {
+      "source_frame": 23776,
+      "raw_id": 41,
+      "native_detection_exists": true,
+      "appearance_distances": [
+        0.681375487834077,
+        0.6867384277233064
+      ],
+      "nearest_negative_distance": 0.6110410350336579,
+      "max_near_overlap": 0.0,
+      "prefilter_passes": {
+        "position_roi": true,
+        "near_overlap": true,
+        "appearance": true,
+        "negative_appearance": false
+      },
+      "all_prefilters_pass": false,
+      "final_path_selected": false
+    },
+    {
+      "source_frame": 23778,
+      "raw_id": 41,
+      "native_detection_exists": true,
+      "appearance_distances": [
+        0.6538709367724868,
+        0.6858435094355644
+      ],
+      "nearest_negative_distance": 0.6320280050331062,
+      "max_near_overlap": 0.0,
+      "prefilter_passes": {
+        "position_roi": true,
+        "near_overlap": true,
+        "appearance": true,
+        "negative_appearance": true
+      },
+      "all_prefilters_pass": true,
+      "final_path_selected": true
+    }
+  ],
+  "interpretation": "Candidates passing filters may still be omitted by the approximate joint beam search. This diagnosis does not establish a counterfactual optimal path, identity GT or parameter correction.",
+  "paths_changed": false,
+  "script_sha256": "40a84d098b1e541f0a340e472ae79732a73aac473e3400bf9820d490f268ad7e"
+}

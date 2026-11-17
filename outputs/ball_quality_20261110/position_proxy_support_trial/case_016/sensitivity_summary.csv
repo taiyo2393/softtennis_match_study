@@ -1,0 +1,4 @@
+﻿tag,policy,requested_times,position_proxies_masked,near_pair_proxy_available_times,far_pair_proxy_available_times,four_proxy_times,not_an_accuracy_estimate
+016,retain_native_proxies,31,0,31,31,31,1
+016,mask_native_box_overlap,31,0,31,31,31,1
+016,mask_pose_body_overlap,31,0,31,31,31,1

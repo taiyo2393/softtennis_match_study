@@ -1,0 +1,20 @@
+{
+  "review_id": "20261103_044_far_pair_video_identity",
+  "outputs": {
+    "observed_player_paths.csv": {
+      "rows": 1577,
+      "positions_and_missing_frames_unchanged": true,
+      "sha256": "b07fbf0693637b2332ccea4a972904990016bf74c4afc9d6ae13e3c7a65926ff"
+    },
+    "far_pair_path.csv": {
+      "rows": 745,
+      "positions_and_missing_frames_unchanged": true,
+      "sha256": "c8cb986433037b0f08fbbe66e0b92d67fea4702ff960e3ee41f32c2835cd6fa2"
+    }
+  },
+  "original_detection_and_path_files_unchanged": true,
+  "source_review_tables_unchanged": true,
+  "reviewed_ball_output_unchanged": true,
+  "interpolated_positions_added": 0,
+  "independent_accuracy_established": false
+}

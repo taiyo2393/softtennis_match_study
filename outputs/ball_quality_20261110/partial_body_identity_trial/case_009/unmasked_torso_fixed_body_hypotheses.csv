@@ -1,0 +1,63 @@
+﻿tag,policy,source_frame,player_slot,body_ID_candidate,pose_index,body_box_json,identity_status,analysis_x,analysis_y,position_status,association_cost,assignment_margin,baseline_native_present,baseline_native_id,baseline_same_slot_box_iou,uses_future_common_anchor,independent_identity_verified
+009,unmasked_torso,21915,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21915,far_front,1,2,"[2067.563720703125, 1064.7445068359375, 2135.047607421875, 1274.3084716796875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.28670468081395845,0.7632953191860417,1,6,0.9525014884304022,0,0
+009,unmasked_torso,21917,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21917,far_front,1,2,"[2067.330078125, 1065.720703125, 2135.046875, 1274.2060546875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.2896320964673702,0.7603679035326298,1,6,0.9587406853341637,0,0
+009,unmasked_torso,21919,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21919,far_front,1,2,"[2067.4990234375, 1066.5706787109375, 2135.1396484375, 1274.0218505859375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.34034200150326865,0.7096579984967315,1,6,0.957607678028155,0,0
+009,unmasked_torso,21921,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21921,far_front,1,2,"[2067.6904296875, 1067.0732421875, 2135.2236328125, 1273.7762451171875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.338253267023387,0.711746732976613,1,6,0.9539734268428325,0,0
+009,unmasked_torso,21923,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21923,far_front,1,2,"[2067.733154296875, 1067.080322265625, 2135.39599609375, 1273.44921875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.35128027092656866,0.6987197290734315,1,6,0.9557293056719319,0,0
+009,unmasked_torso,21925,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21925,far_front,1,2,"[2068.198486328125, 1066.7548828125, 2135.69580078125, 1272.865966796875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3862167402882817,0.6637832597117184,1,6,0.954507211463755,0,0
+009,unmasked_torso,21927,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21927,far_front,1,2,"[2068.400634765625, 1066.240234375, 2136.29296875, 1272.19873046875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.39503715586043914,0.654962844139561,1,6,0.9541072236870418,0,0
+009,unmasked_torso,21929,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21929,far_front,1,2,"[2068.78857421875, 1065.981689453125, 2136.71923828125, 1271.9898681640625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.40737839086152416,0.6426216091384758,1,6,0.9403727006493771,0,0
+009,unmasked_torso,21931,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21931,far_front,1,2,"[2069.308837890625, 1064.5845947265625, 2137.84521484375, 1271.816162109375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4361342521809893,0.6138657478190108,1,6,0.9563362602686746,0,0
+009,unmasked_torso,21933,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21933,far_front,1,1,"[2070.1025390625, 1063.8394775390625, 2139.61474609375, 1271.986328125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.41800400878642635,0.6319959912135737,1,6,0.9510508143613892,0,0
+009,unmasked_torso,21935,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21935,far_front,1,1,"[2070.320068359375, 1063.545654296875, 2139.63671875, 1271.921142578125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.42400300851906964,0.6259969914809305,1,6,0.9590085377201413,0,0
+009,unmasked_torso,21937,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21937,far_front,1,1,"[2071.783935546875, 1063.7611083984375, 2140.208984375, 1271.851318359375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.42959369984011186,0.6204063001598881,1,6,0.9451191332973029,0,0
+009,unmasked_torso,21939,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21939,far_front,1,1,"[2072.98095703125, 1063.758544921875, 2141.2607421875, 1271.82568359375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4326984080500053,0.6173015919499947,1,6,0.951461961446988,0,0
+009,unmasked_torso,21941,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21941,far_front,1,1,"[2073.80517578125, 1063.856201171875, 2142.203125, 1271.96240234375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4397384280553277,0.6102615719446725,1,6,0.908155664119945,0,0
+009,unmasked_torso,21943,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,0,,,0,0
+009,unmasked_torso,21943,far_front,1,1,"[2076.01025390625, 1064.430908203125, 2143.6533203125, 1272.032958984375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.44396062918593504,0.606039370814065,1,6,0.8536723532245137,0,0
+009,unmasked_torso,21945,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,621,,0,0
+009,unmasked_torso,21945,far_front,1,1,"[2077.141845703125, 1065.276611328125, 2144.5400390625, 1272.180419921875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4440082270039588,0.6059917729960413,1,6,0.8242461342869692,0,0
+009,unmasked_torso,21947,far_rear,1,4,"[1661.1612548828125, 1092.6392822265625, 1742.072265625, 1225.8079833984375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4915516274975551,0.558448372502445,1,621,0.8614047505292519,0,0
+009,unmasked_torso,21947,far_front,1,1,"[2077.99267578125, 1065.555908203125, 2145.751708984375, 1272.170654296875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4425514199483232,0.6074485800516769,1,6,0.8360233633004374,0,0
+009,unmasked_torso,21949,far_rear,0,,,unsupported,,,not_estimated_body_only_trial,,,1,621,,0,0
+009,unmasked_torso,21949,far_front,1,1,"[2078.702880859375, 1065.040283203125, 2146.771484375, 1271.943115234375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4449376757189429,0.6050623242810571,1,6,0.8321921486728386,0,0
+009,unmasked_torso,21951,far_rear,1,3,"[1662.261474609375, 1084.8775634765625, 1742.051025390625, 1225.4285888671875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4850362259266861,0.5649637740733138,1,621,0.8309577222648967,0,0
+009,unmasked_torso,21951,far_front,1,1,"[2078.757568359375, 1064.8636474609375, 2147.13818359375, 1271.956787109375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4430207981415636,0.6069792018584363,1,6,0.8738331182496221,0,0
+009,unmasked_torso,21953,far_rear,1,3,"[1660.474609375, 1084.1019287109375, 1741.791748046875, 1225.4879150390625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4635245866816467,0.5864754133183534,1,621,0.8480763809717512,0,0
+009,unmasked_torso,21953,far_front,1,1,"[2078.21826171875, 1064.8756103515625, 2147.03955078125, 1272.2548828125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4412227716046857,0.6087772283953143,1,6,0.902675325108981,0,0
+009,unmasked_torso,21955,far_rear,1,3,"[1650.405029296875, 1083.7744140625, 1738.805908203125, 1224.7950439453125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.39922137881977177,0.6507786211802284,1,621,0.9320226265471562,0,0
+009,unmasked_torso,21955,far_front,1,1,"[2076.173828125, 1065.072998046875, 2146.82763671875, 1273.08984375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.44246317622693054,0.6075368237730696,1,6,0.9361190221752426,0,0
+009,unmasked_torso,21957,far_rear,1,3,"[1648.7083740234375, 1083.34130859375, 1738.7708740234375, 1225.0205078125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.351476838681924,0.698523161318076,1,621,0.9531230726195454,0,0
+009,unmasked_torso,21957,far_front,1,1,"[2072.84814453125, 1065.3458251953125, 2146.82666015625, 1273.6015625]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.45709352178446927,0.5929064782155309,1,6,0.9791967404656602,0,0
+009,unmasked_torso,21959,far_rear,1,2,"[1647.7041015625, 1081.878173828125, 1739.25439453125, 1225.5799560546875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3875460739962511,0.6624539260037489,1,621,0.944314285857986,0,0
+009,unmasked_torso,21959,far_front,1,1,"[2070.150390625, 1066.572998046875, 2146.1923828125, 1274.486083984375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.45311785117062386,0.5968821488293762,1,6,0.9676884844546378,0,0
+009,unmasked_torso,21961,far_rear,1,2,"[1646.22607421875, 1082.4632568359375, 1739.456787109375, 1225.5155029296875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.47779616678069553,0.5722038332193045,1,621,0.9397973385759485,0,0
+009,unmasked_torso,21961,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0
+009,unmasked_torso,21963,far_rear,1,2,"[1643.489501953125, 1082.592041015625, 1739.58349609375, 1225.5521240234375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.4236883390615021,0.626311660938498,1,621,0.959968477429165,0,0
+009,unmasked_torso,21963,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0
+009,unmasked_torso,21965,far_rear,1,2,"[1640.953125, 1080.786376953125, 1739.5174560546875, 1225.62939453125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3404148325718551,0.7095851674281448,1,621,0.9706799581273173,0,0
+009,unmasked_torso,21965,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0
+009,unmasked_torso,21967,far_rear,1,2,"[1639.0546875, 1075.808837890625, 1740.079833984375, 1225.5987548828125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.32474155434350155,0.7252584456564986,1,621,0.9831256668047063,0,0
+009,unmasked_torso,21967,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0
+009,unmasked_torso,21969,far_rear,1,2,"[1636.822998046875, 1073.396728515625, 1744.304931640625, 1225.28662109375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3358502820283389,0.7141497179716612,1,621,0.9378235800850957,0,0
+009,unmasked_torso,21969,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0
+009,unmasked_torso,21971,far_rear,1,2,"[1635.056640625, 1073.499267578125, 1747.7216796875, 1224.824951171875]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.35927214624058684,0.6907278537594133,1,621,0.9009582528167506,0,0
+009,unmasked_torso,21971,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0
+009,unmasked_torso,21973,far_rear,1,2,"[1634.4931640625, 1077.26220703125, 1751.5284423828125, 1225.093505859375]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3573637163140614,0.6926362836859385,1,621,0.8866487697149006,0,0
+009,unmasked_torso,21973,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0
+009,unmasked_torso,21975,far_rear,1,2,"[1634.50244140625, 1079.5322265625, 1751.16943359375, 1224.835205078125]",offline_body_hypothesis_not_GT,,,not_estimated_body_only_trial,0.3523699133354424,0.6976300866645577,1,621,0.8807449865693578,0,0
+009,unmasked_torso,21975,far_front,0,,,unsupported,,,not_estimated_body_only_trial,,,1,6,,0,0

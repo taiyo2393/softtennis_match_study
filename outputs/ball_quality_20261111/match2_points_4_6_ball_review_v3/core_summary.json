@@ -1,0 +1,226 @@
+{
+  "points": [
+    {
+      "point": 4,
+      "core_frames": 565,
+      "all_four_boxes_frames": 370,
+      "all_four_positions_frames": 247,
+      "all_four_positions_and_ball_frames": 220,
+      "ball_candidate_frames": 460,
+      "terminal_context_review_end": 17299
+    },
+    {
+      "point": 5,
+      "core_frames": 322,
+      "all_four_boxes_frames": 322,
+      "all_four_positions_frames": 316,
+      "all_four_positions_and_ball_frames": 168,
+      "ball_candidate_frames": 168,
+      "terminal_context_review_end": 19055
+    },
+    {
+      "point": 6,
+      "core_frames": 562,
+      "all_four_boxes_frames": 552,
+      "all_four_positions_frames": 468,
+      "all_four_positions_and_ball_frames": 321,
+      "ball_candidate_frames": 390,
+      "terminal_context_review_end": 21396
+    }
+  ],
+  "unavailable_runs": [
+    {
+      "point": 4,
+      "player": "N1",
+      "first": 17163,
+      "last": 17275,
+      "count": 113
+    },
+    {
+      "point": 4,
+      "player": "N2",
+      "first": 16999,
+      "last": 16999,
+      "count": 1
+    },
+    {
+      "point": 4,
+      "player": "F1",
+      "first": 16865,
+      "last": 16866,
+      "count": 2
+    },
+    {
+      "point": 4,
+      "player": "F1",
+      "first": 16918,
+      "last": 17008,
+      "count": 91
+    },
+    {
+      "point": 4,
+      "player": "F2",
+      "first": 16713,
+      "last": 16722,
+      "count": 10
+    },
+    {
+      "point": 4,
+      "player": "F2",
+      "first": 16878,
+      "last": 16879,
+      "count": 2
+    },
+    {
+      "point": 4,
+      "player": "F2",
+      "first": 16975,
+      "last": 16998,
+      "count": 24
+    },
+    {
+      "point": 4,
+      "player": "F2",
+      "first": 17001,
+      "last": 17108,
+      "count": 108
+    },
+    {
+      "point": 4,
+      "player": "F2",
+      "first": 17270,
+      "last": 17275,
+      "count": 6
+    },
+    {
+      "point": 5,
+      "player": "F2",
+      "first": 18843,
+      "last": 18846,
+      "count": 4
+    },
+    {
+      "point": 5,
+      "player": "F2",
+      "first": 18884,
+      "last": 18885,
+      "count": 2
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 20865,
+      "last": 20880,
+      "count": 16
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 20911,
+      "last": 20912,
+      "count": 2
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 20915,
+      "last": 20916,
+      "count": 2
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 20918,
+      "last": 20919,
+      "count": 2
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 20924,
+      "last": 20926,
+      "count": 3
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 20930,
+      "last": 20931,
+      "count": 2
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 20942,
+      "last": 20944,
+      "count": 3
+    },
+    {
+      "point": 6,
+      "player": "F1",
+      "first": 21287,
+      "last": 21333,
+      "count": 47
+    },
+    {
+      "point": 6,
+      "player": "F2",
+      "first": 21207,
+      "last": 21212,
+      "count": 6
+    },
+    {
+      "point": 6,
+      "player": "F2",
+      "first": 21339,
+      "last": 21349,
+      "count": 11
+    }
+  ],
+  "limits": "Availability only. IDs are visually spot-checked. Ball candidates have not been fully matched to raw evidence. The occlusion rule is transferred from the previous three points.",
+  "position_rules": {
+    "display_slot_map": {
+      "4": {
+        "far_rear": "far_front",
+        "far_front": "far_rear"
+      },
+      "5": {},
+      "6": {
+        "near_front": "near_rear",
+        "near_rear": "near_front"
+      }
+    },
+    "id_mapping_evidence": "Match2 points 1–3 convention: N1 burgundy, N2 red-black, F1 red shoes, F2 dark teal shoes. Spot-checked on seven frames per point, plus selected crossings. Whole-sequence identity not independently verified.",
+    "offscreen_reviewed_intervals": [
+      {
+        "point": 4,
+        "player": "N1",
+        "first_frame": 17171,
+        "last_frame": 17299,
+        "evidence": "The right-edge raw frames show N1 running offscreen before this interval. Spot checks show no return through the last reviewed frame."
+      }
+    ],
+    "position_withheld": [
+      {
+        "point": 4,
+        "player": "N1",
+        "first_frame": 17164,
+        "last_frame": 17166,
+        "reason": "right_edge_foot_position_unavailable"
+      },
+      {
+        "point": 6,
+        "player": "F2",
+        "first_frame": 21368,
+        "last_frame": 21393,
+        "reason": "far_foot_not_visible_in_terminal_crop"
+      }
+    ],
+    "preview_frames": [
+      16947,
+      17201,
+      18999,
+      21384
+    ]
+  }
+}

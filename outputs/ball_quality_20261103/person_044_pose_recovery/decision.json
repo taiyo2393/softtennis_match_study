@@ -1,0 +1,32 @@
+{
+  "status": "eleven_observed_recovery_boxes_human_confirmed_and_applied",
+  "rally_candidate_id": "match1_rally_window_044",
+  "ball_pilot_id": "match1_motion_pilot_016",
+  "new_observed_box_local_frames": [
+    796,
+    797,
+    905,
+    906,
+    907,
+    912,
+    984,
+    985,
+    1112,
+    1113,
+    1114
+  ],
+  "previous_reviewed_rows_modified": false,
+  "new_rows_human_identity_review": "user_confirmed_corresponding_F1_F2",
+  "interpolation": false,
+  "existing_reviewed_output_replaced": true,
+  "candidate_availability_before": 315,
+  "candidate_availability_after": 326,
+  "availability_denominator_frames": 402,
+  "independent_identity_or_position_accuracy_established": false,
+  "remaining_missing_player_times": 76,
+  "human_occlusion_groundtruth_established": false,
+  "next": "Use reviewed player and ball outputs for clip-level integration; preserve unresolved gaps and unvalidated ground positions.",
+  "previous_reviewed_file_preserved": true,
+  "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\observed_player_paths.csv",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\person_044_pose_recovery\\user_reviewed\\review.json"
+}

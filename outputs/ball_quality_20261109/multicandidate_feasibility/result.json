@@ -1,0 +1,42 @@
+{
+  "status": "all_target_diagnosis_complete",
+  "summary": [
+    {
+      "dataset": "training123",
+      "visible_play_targets": 68,
+      "selected_correct": 59,
+      "global_center_coverage16": 52,
+      "native_center_coverage16": 60,
+      "union_center_coverage16": 60,
+      "already_selected_correct": 59,
+      "excluded_no_observable_center": 9,
+      "no_center_candidate_in_current_union": 8,
+      "near_center_candidate_exists_not_selected": 1,
+      "excluded_nonplay_or_phase_unknown": 46
+    },
+    {
+      "dataset": "known_ABCD52",
+      "visible_play_targets": 45,
+      "selected_correct": 40,
+      "global_center_coverage16": 33,
+      "native_center_coverage16": 40,
+      "union_center_coverage16": 40,
+      "already_selected_correct": 40,
+      "excluded_no_observable_center": 7,
+      "no_center_candidate_in_current_union": 5
+    },
+    {
+      "dataset": "known_EF26",
+      "visible_play_targets": 26,
+      "selected_correct": 25,
+      "global_center_coverage16": 24,
+      "native_center_coverage16": 25,
+      "union_center_coverage16": 25,
+      "already_selected_correct": 25,
+      "no_center_candidate_in_current_union": 1
+    }
+  ],
+  "limitations": "Oracle coverage,known same-match data,sparse centers. No new tracking method evaluated;candidate union may contain multiple unrelated objects.",
+  "no_accuracy_claim_for_candidate_coverage": true,
+  "models_labels_and_tracking_unchanged": true
+}

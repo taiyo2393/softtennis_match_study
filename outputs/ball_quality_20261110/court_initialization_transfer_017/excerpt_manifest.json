@@ -1,0 +1,13 @@
+{
+  "source_video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_017\\court_seed_plus_old_guard\\tracking_quality_20261102_stage7\\players_017_global\\global_review_h264.mp4",
+  "first_source_frame": 42018,
+  "last_source_frame": 42437,
+  "frames": 420,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "aspect_preserved": true,
+  "video_sha256": "202006038f714dd292fa30af8e5918088be8ecf1b569e470ba5476daac049dbf",
+  "scope": "Service vicinity through inherited context end; not independently certified exact rally bounds."
+}

@@ -1,0 +1,21 @@
+{
+  "recomputed_test_counts": {
+    "total": 150,
+    "evaluable": 150,
+    "truth_visible": 128,
+    "pred_visible": 100,
+    "presence_fn": 29,
+    "presence_tp": 99,
+    "localized_tp": 72,
+    "presence_tn": 21,
+    "wrong_localization": 27,
+    "presence_fp": 1
+  },
+  "localization_recall": 0.5625,
+  "image_size": "1920x1080 clips; 16px tolerance",
+  "mean_distance_when_both_visible": 15.391077129866716,
+  "annotation_rows": 300,
+  "reviewer_id_nonempty": 0,
+  "label_confidence_nonempty": 0,
+  "warning": "Label provenance not certified by nonempty visibility values; no direction accuracy measured"
+}

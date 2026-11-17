@@ -1,0 +1,1730 @@
+[
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_773_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 773,
+    "source_frame": 115408,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1026.5181343607728,
+      607.1428829973778
+    ],
+    "query_network_xy": [
+      273.73816916287274,
+      161.90476879930074
+    ],
+    "frames_local": [
+      770,
+      771,
+      772,
+      773
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000770.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000771.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000772.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000773.jpg"
+    ],
+    "frame_sha256": [
+      "dc4e48806c0202862c23b3617695255da4efd086005ec468efcd8df6f11e3c4a",
+      "ab4397c9ff25f7eecd6fc688e19043b833f65057a24a520a8f6fa0e4b14cc671",
+      "0d6816a253b0c0a1a754eff1c88a0fc3d3454221ad0847257f484881aedf66c6",
+      "7b787f3fc883f92028a46d16d0cbef37159b86f651adca6518d17dab16ce8df2"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json",
+    "review_sha256": "64482054c27eeeac31271a25656547bdaf8f6c32422c7fa714fba78e0b098526"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_784_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 784,
+    "source_frame": 115419,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1106.2069861040588,
+      672.6955703526279
+    ],
+    "query_network_xy": [
+      294.988529627749,
+      179.38548542736746
+    ],
+    "frames_local": [
+      781,
+      782,
+      783,
+      784
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000781.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000782.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000783.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000784.jpg"
+    ],
+    "frame_sha256": [
+      "5e916de1297709408ff7b4c2520c9a2d303030d00e9836ab20b761455c223067",
+      "da8420cf071a0e2a7a14bc9ba53bd092ff4a6afdda39fb6021b894792d767532",
+      "f1cb2b3103fe9da17f1f29151a537d7625f2acd6178af4361e68a64b017ca58c",
+      "adee5974d131de6c71ed39e534f27362089d1dc1aac1f87191a9d570bb2d706c"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json",
+    "review_sha256": "64482054c27eeeac31271a25656547bdaf8f6c32422c7fa714fba78e0b098526"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_891_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 891,
+    "source_frame": 115526,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      788.676346212702,
+      559.900048046704
+    ],
+    "query_network_xy": [
+      210.31369232338722,
+      149.30667947912107
+    ],
+    "frames_local": [
+      888,
+      889,
+      890,
+      891
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000888.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000889.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000890.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000891.jpg"
+    ],
+    "frame_sha256": [
+      "8c132b93abc47aeb9fe3cac4676eff002d8ce2dac46e9759e50908ad69370bd5",
+      "125f28849739c64f693a3d1b3347ee173c06d3c3869e76132bc722fe6de28e8f",
+      "4a17339e657eb380fffe406c3d5b9627cf5ca07a47da8700b04ac6ce82f1ab09",
+      "4edfd07adb323f71bf6dca06e1a9e5ab60f8b65badaadf0978ecd638b7fbfb4c"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+    "review_sha256": "7a3f8e899262ca2a251f53fb11e64b165101d1f5f6d3427a672a11aa27f6b904"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_892_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 892,
+    "source_frame": 115527,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      801.3989425777114,
+      558.607221136681
+    ],
+    "query_network_xy": [
+      213.70638468738971,
+      148.96192563644826
+    ],
+    "frames_local": [
+      889,
+      890,
+      891,
+      892
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000889.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000890.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000891.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000892.jpg"
+    ],
+    "frame_sha256": [
+      "125f28849739c64f693a3d1b3347ee173c06d3c3869e76132bc722fe6de28e8f",
+      "4a17339e657eb380fffe406c3d5b9627cf5ca07a47da8700b04ac6ce82f1ab09",
+      "4edfd07adb323f71bf6dca06e1a9e5ab60f8b65badaadf0978ecd638b7fbfb4c",
+      "6c1142fb5e840777ac8f46de4a47e8895cb17351f4a91d26d26db3acdca0b3da"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+    "review_sha256": "7a3f8e899262ca2a251f53fb11e64b165101d1f5f6d3427a672a11aa27f6b904"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_893_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 893,
+    "source_frame": 115528,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      802.1389844359223,
+      558.7276633587215
+    ],
+    "query_network_xy": [
+      213.90372918291263,
+      148.99404356232574
+    ],
+    "frames_local": [
+      890,
+      891,
+      892,
+      893
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000890.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000891.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000892.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000893.jpg"
+    ],
+    "frame_sha256": [
+      "4a17339e657eb380fffe406c3d5b9627cf5ca07a47da8700b04ac6ce82f1ab09",
+      "4edfd07adb323f71bf6dca06e1a9e5ab60f8b65badaadf0978ecd638b7fbfb4c",
+      "6c1142fb5e840777ac8f46de4a47e8895cb17351f4a91d26d26db3acdca0b3da",
+      "1729771c4234220a90ce93bd55dbfbc121e06381762f0b077e23d8353bc67ea5"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+    "review_sha256": "7a3f8e899262ca2a251f53fb11e64b165101d1f5f6d3427a672a11aa27f6b904"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_960_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 960,
+    "source_frame": 115595,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1617.6684394181996,
+      685.6248076142092
+    ],
+    "query_network_xy": [
+      431.37825051151987,
+      182.8332820304558
+    ],
+    "frames_local": [
+      957,
+      958,
+      959,
+      960
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000957.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000958.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000959.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000960.jpg"
+    ],
+    "frame_sha256": [
+      "486a012430f281f9ad820633416b7c560bcd48a26f6085b8275e2654b28c83a4",
+      "7cc77cbf0361c61de31eb9a562097623e3d7d7c05b9682f450f9105135b72cae",
+      "31bbfba031738e6e4a75f872a022d2d4a05dfa93b33c56ebddc603074a5e060e",
+      "2f2137178bff37b626590661b1254a1cd28f11fe45e5e69f5abac8a04cc90ee2"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+    "review_sha256": "7a3f8e899262ca2a251f53fb11e64b165101d1f5f6d3427a672a11aa27f6b904"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_raw_968_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 968,
+    "source_frame": 115603,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1186.0,
+      579.0
+    ],
+    "query_network_xy": [
+      316.26666666666665,
+      154.4
+    ],
+    "frames_local": [
+      965,
+      966,
+      967,
+      968
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000965.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000966.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000967.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000968.jpg"
+    ],
+    "frame_sha256": [
+      "f2b029c20429572005d34aeae0fb5902aefd88f654a1801e8c9174214082785e",
+      "0450e996e56dd3145e5706f37e5d55e06f36af8294e6769eb71ff000302cf5bc",
+      "f432e9ddbd8cc6e7a6a0b85228c15d65018bf359affe562d47db8eb5fce6f823",
+      "b0839950e3e1f3c051afca42359b5e7672c78ac7612c89002d954baf63f383a1"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+    "review_sha256": "7a3f8e899262ca2a251f53fb11e64b165101d1f5f6d3427a672a11aa27f6b904"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_970_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 970,
+    "source_frame": 115605,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1616.7140782353686,
+      626.475437938683
+    ],
+    "query_network_xy": [
+      431.1237541960983,
+      167.0601167836488
+    ],
+    "frames_local": [
+      967,
+      968,
+      969,
+      970
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000967.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000968.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000969.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\000970.jpg"
+    ],
+    "frame_sha256": [
+      "f432e9ddbd8cc6e7a6a0b85228c15d65018bf359affe562d47db8eb5fce6f823",
+      "b0839950e3e1f3c051afca42359b5e7672c78ac7612c89002d954baf63f383a1",
+      "3f1dbe8ef3ba40773e0f059f0d78e389f81c78eb95667533fc39b5c09bb6e13c",
+      "cce5c65e0d2bcd968e336ae4e99a07ad9bd9299244260717ac7632e1dffd41c2"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+    "review_sha256": "7a3f8e899262ca2a251f53fb11e64b165101d1f5f6d3427a672a11aa27f6b904"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_1081_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1081,
+    "source_frame": 115716,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      783.0790497877127,
+      560.4768752041223
+    ],
+    "query_network_xy": [
+      208.82107994339006,
+      149.4605000544326
+    ],
+    "frames_local": [
+      1078,
+      1079,
+      1080,
+      1081
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001078.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001079.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001080.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001081.jpg"
+    ],
+    "frame_sha256": [
+      "912661bb56b0919e000098dcaaecc4eb5ba748114a41bca16e03e6e504fead11",
+      "8cc9162de5933dea86bb855038714936ea0f4f413c11c40306d376949443f510",
+      "589bf6243a3112e22d125f2eb00c2ca06681e454f85e4cc0523d9090f5846779",
+      "8aa2e9feacf6255e5c51b952d6869cffcc92165105c7bbcf5f93e6ee3dfcfb9b"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+    "review_sha256": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_1082_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1082,
+    "source_frame": 115717,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      781.9075997878905,
+      558.6745564982646
+    ],
+    "query_network_xy": [
+      208.5086932767708,
+      148.97988173287055
+    ],
+    "frames_local": [
+      1079,
+      1080,
+      1081,
+      1082
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001079.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001080.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001081.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001082.jpg"
+    ],
+    "frame_sha256": [
+      "8cc9162de5933dea86bb855038714936ea0f4f413c11c40306d376949443f510",
+      "589bf6243a3112e22d125f2eb00c2ca06681e454f85e4cc0523d9090f5846779",
+      "8aa2e9feacf6255e5c51b952d6869cffcc92165105c7bbcf5f93e6ee3dfcfb9b",
+      "ea6d04d36c59eb7a3c1ed8e31881bbf933d18145402d09ef4d1a0b4ea2b8b49d"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+    "review_sha256": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_raw_1082_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1082,
+    "source_frame": 115717,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      714.0,
+      605.0
+    ],
+    "query_network_xy": [
+      190.4,
+      161.33333333333334
+    ],
+    "frames_local": [
+      1079,
+      1080,
+      1081,
+      1082
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001079.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001080.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001081.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001082.jpg"
+    ],
+    "frame_sha256": [
+      "8cc9162de5933dea86bb855038714936ea0f4f413c11c40306d376949443f510",
+      "589bf6243a3112e22d125f2eb00c2ca06681e454f85e4cc0523d9090f5846779",
+      "8aa2e9feacf6255e5c51b952d6869cffcc92165105c7bbcf5f93e6ee3dfcfb9b",
+      "ea6d04d36c59eb7a3c1ed8e31881bbf933d18145402d09ef4d1a0b4ea2b8b49d"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+    "review_sha256": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1083_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1083,
+    "source_frame": 115718,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      782.2730814504428,
+      564.3081140432053
+    ],
+    "query_network_xy": [
+      417.2123101069028,
+      156.96432748970946
+    ],
+    "frames_local": [
+      1080,
+      1081,
+      1082,
+      1083
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001080.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001081.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001082.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001083.jpg"
+    ],
+    "frame_sha256": [
+      "589bf6243a3112e22d125f2eb00c2ca06681e454f85e4cc0523d9090f5846779",
+      "8aa2e9feacf6255e5c51b952d6869cffcc92165105c7bbcf5f93e6ee3dfcfb9b",
+      "ea6d04d36c59eb7a3c1ed8e31881bbf933d18145402d09ef4d1a0b4ea2b8b49d",
+      "780ff5e08c8bb88d46ac5c14c04c9a0cb22f7b55a54b7bdeceedd97238634234"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1084_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1084,
+    "source_frame": 115719,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      779.9727809160897,
+      559.8181410373803
+    ],
+    "query_network_xy": [
+      415.98548315524783,
+      154.5696752199362
+    ],
+    "frames_local": [
+      1081,
+      1082,
+      1083,
+      1084
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001081.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001082.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001083.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001084.jpg"
+    ],
+    "frame_sha256": [
+      "8aa2e9feacf6255e5c51b952d6869cffcc92165105c7bbcf5f93e6ee3dfcfb9b",
+      "ea6d04d36c59eb7a3c1ed8e31881bbf933d18145402d09ef4d1a0b4ea2b8b49d",
+      "780ff5e08c8bb88d46ac5c14c04c9a0cb22f7b55a54b7bdeceedd97238634234",
+      "6896fc8bfc29850fe3a370d8de52d373cc85becc0754502a0ae9aa27ac3e8954"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_raw_1084_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1084,
+    "source_frame": 115719,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      701.0,
+      562.0
+    ],
+    "query_network_xy": [
+      186.93333333333334,
+      149.86666666666667
+    ],
+    "frames_local": [
+      1081,
+      1082,
+      1083,
+      1084
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001081.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001082.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001083.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001084.jpg"
+    ],
+    "frame_sha256": [
+      "8aa2e9feacf6255e5c51b952d6869cffcc92165105c7bbcf5f93e6ee3dfcfb9b",
+      "ea6d04d36c59eb7a3c1ed8e31881bbf933d18145402d09ef4d1a0b4ea2b8b49d",
+      "780ff5e08c8bb88d46ac5c14c04c9a0cb22f7b55a54b7bdeceedd97238634234",
+      "6896fc8bfc29850fe3a370d8de52d373cc85becc0754502a0ae9aa27ac3e8954"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+    "review_sha256": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1085_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1085,
+    "source_frame": 115720,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      780.2841288248329,
+      560.4164475521432
+    ],
+    "query_network_xy": [
+      416.1515353732442,
+      154.88877202780967
+    ],
+    "frames_local": [
+      1082,
+      1083,
+      1084,
+      1085
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001082.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001083.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001084.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001085.jpg"
+    ],
+    "frame_sha256": [
+      "ea6d04d36c59eb7a3c1ed8e31881bbf933d18145402d09ef4d1a0b4ea2b8b49d",
+      "780ff5e08c8bb88d46ac5c14c04c9a0cb22f7b55a54b7bdeceedd97238634234",
+      "6896fc8bfc29850fe3a370d8de52d373cc85becc0754502a0ae9aa27ac3e8954",
+      "acd20e5a2ff2707f2f9afaab6fc1581393e2c15cd9d42f998a2073387e93218d"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1086_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1086,
+    "source_frame": 115721,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      775.2967024985473,
+      555.9417525552242
+    ],
+    "query_network_xy": [
+      413.4915746658919,
+      152.50226802945292
+    ],
+    "frames_local": [
+      1083,
+      1084,
+      1085,
+      1086
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001083.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001084.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001085.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001086.jpg"
+    ],
+    "frame_sha256": [
+      "780ff5e08c8bb88d46ac5c14c04c9a0cb22f7b55a54b7bdeceedd97238634234",
+      "6896fc8bfc29850fe3a370d8de52d373cc85becc0754502a0ae9aa27ac3e8954",
+      "acd20e5a2ff2707f2f9afaab6fc1581393e2c15cd9d42f998a2073387e93218d",
+      "0e2bf5c7e70655379b3de08c188e1e466b4eacf173ebfd949884a665646a04c3"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_raw_1086_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1086,
+    "source_frame": 115721,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      716.0,
+      566.0
+    ],
+    "query_network_xy": [
+      190.93333333333334,
+      150.93333333333334
+    ],
+    "frames_local": [
+      1083,
+      1084,
+      1085,
+      1086
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001083.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001084.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001085.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001086.jpg"
+    ],
+    "frame_sha256": [
+      "780ff5e08c8bb88d46ac5c14c04c9a0cb22f7b55a54b7bdeceedd97238634234",
+      "6896fc8bfc29850fe3a370d8de52d373cc85becc0754502a0ae9aa27ac3e8954",
+      "acd20e5a2ff2707f2f9afaab6fc1581393e2c15cd9d42f998a2073387e93218d",
+      "0e2bf5c7e70655379b3de08c188e1e466b4eacf173ebfd949884a665646a04c3"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+    "review_sha256": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1087_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1087,
+    "source_frame": 115722,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      774.5464094249459,
+      555.203942311002
+    ],
+    "query_network_xy": [
+      413.0914183599711,
+      152.1087692325344
+    ],
+    "frames_local": [
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001084.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001085.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001086.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001087.jpg"
+    ],
+    "frame_sha256": [
+      "6896fc8bfc29850fe3a370d8de52d373cc85becc0754502a0ae9aa27ac3e8954",
+      "acd20e5a2ff2707f2f9afaab6fc1581393e2c15cd9d42f998a2073387e93218d",
+      "0e2bf5c7e70655379b3de08c188e1e466b4eacf173ebfd949884a665646a04c3",
+      "b710b08a7fcbb65a144437a4c6a110a94bcadf6cb9c1934bfb8c9603e8672fd9"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_raw_1087_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1087,
+    "source_frame": 115722,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      714.0,
+      583.0
+    ],
+    "query_network_xy": [
+      190.4,
+      155.46666666666667
+    ],
+    "frames_local": [
+      1084,
+      1085,
+      1086,
+      1087
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001084.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001085.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001086.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001087.jpg"
+    ],
+    "frame_sha256": [
+      "6896fc8bfc29850fe3a370d8de52d373cc85becc0754502a0ae9aa27ac3e8954",
+      "acd20e5a2ff2707f2f9afaab6fc1581393e2c15cd9d42f998a2073387e93218d",
+      "0e2bf5c7e70655379b3de08c188e1e466b4eacf173ebfd949884a665646a04c3",
+      "b710b08a7fcbb65a144437a4c6a110a94bcadf6cb9c1934bfb8c9603e8672fd9"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+    "review_sha256": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1088_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1088,
+    "source_frame": 115723,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      771.7921332391362,
+      553.5011951155518
+    ],
+    "query_network_xy": [
+      411.62247106087267,
+      151.20063739496098
+    ],
+    "frames_local": [
+      1085,
+      1086,
+      1087,
+      1088
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001085.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001086.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001087.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001088.jpg"
+    ],
+    "frame_sha256": [
+      "acd20e5a2ff2707f2f9afaab6fc1581393e2c15cd9d42f998a2073387e93218d",
+      "0e2bf5c7e70655379b3de08c188e1e466b4eacf173ebfd949884a665646a04c3",
+      "b710b08a7fcbb65a144437a4c6a110a94bcadf6cb9c1934bfb8c9603e8672fd9",
+      "fea8ef2b762d5d15f2630d31a9422e41ae459c7ef00c2dba29b44b46514cfd7d"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_raw_1088_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1088,
+    "source_frame": 115723,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      706.0,
+      560.0
+    ],
+    "query_network_xy": [
+      188.26666666666668,
+      149.33333333333334
+    ],
+    "frames_local": [
+      1085,
+      1086,
+      1087,
+      1088
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001085.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001086.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001087.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001088.jpg"
+    ],
+    "frame_sha256": [
+      "acd20e5a2ff2707f2f9afaab6fc1581393e2c15cd9d42f998a2073387e93218d",
+      "0e2bf5c7e70655379b3de08c188e1e466b4eacf173ebfd949884a665646a04c3",
+      "b710b08a7fcbb65a144437a4c6a110a94bcadf6cb9c1934bfb8c9603e8672fd9",
+      "fea8ef2b762d5d15f2630d31a9422e41ae459c7ef00c2dba29b44b46514cfd7d"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+    "review_sha256": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1089_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1089,
+    "source_frame": 115724,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      771.0508010578773,
+      553.0231082794195
+    ],
+    "query_network_xy": [
+      411.22709389753453,
+      150.94565774902372
+    ],
+    "frames_local": [
+      1086,
+      1087,
+      1088,
+      1089
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001086.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001087.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001088.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001089.jpg"
+    ],
+    "frame_sha256": [
+      "0e2bf5c7e70655379b3de08c188e1e466b4eacf173ebfd949884a665646a04c3",
+      "b710b08a7fcbb65a144437a4c6a110a94bcadf6cb9c1934bfb8c9603e8672fd9",
+      "fea8ef2b762d5d15f2630d31a9422e41ae459c7ef00c2dba29b44b46514cfd7d",
+      "502d46653658f2ef502e04f38da37de33cbcbd38295e819ad324a28f96ff1c24"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1090_A_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1090,
+    "source_frame": 115725,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      740.0834541319002,
+      557.4419823143041
+    ],
+    "query_network_xy": [
+      394.71117553701345,
+      153.3023905676289
+    ],
+    "frames_local": [
+      1087,
+      1088,
+      1089,
+      1090
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001087.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001088.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001089.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001090.jpg"
+    ],
+    "frame_sha256": [
+      "b710b08a7fcbb65a144437a4c6a110a94bcadf6cb9c1934bfb8c9603e8672fd9",
+      "fea8ef2b762d5d15f2630d31a9422e41ae459c7ef00c2dba29b44b46514cfd7d",
+      "502d46653658f2ef502e04f38da37de33cbcbd38295e819ad324a28f96ff1c24",
+      "86d65e3950e1e1d0af9d94d556dbf796b0a69b9d0fe2ae49a999225f9068afc0"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1091_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1091,
+    "source_frame": 115726,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      768.1040529597349,
+      548.8447122180926
+    ],
+    "query_network_xy": [
+      409.6554949118586,
+      148.71717984964937
+    ],
+    "frames_local": [
+      1088,
+      1089,
+      1090,
+      1091
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001088.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001089.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001090.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001091.jpg"
+    ],
+    "frame_sha256": [
+      "fea8ef2b762d5d15f2630d31a9422e41ae459c7ef00c2dba29b44b46514cfd7d",
+      "502d46653658f2ef502e04f38da37de33cbcbd38295e819ad324a28f96ff1c24",
+      "86d65e3950e1e1d0af9d94d556dbf796b0a69b9d0fe2ae49a999225f9068afc0",
+      "9d93d96c5374c744a2cd0cdb0d9ad24ab5a749833206de1f6b48e58ee3ea92b1"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1091_A_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1091,
+    "source_frame": 115726,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      729.2613975287602,
+      557.7986081522511
+    ],
+    "query_network_xy": [
+      388.93941201533875,
+      153.4925910145339
+    ],
+    "frames_local": [
+      1088,
+      1089,
+      1090,
+      1091
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001088.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001089.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001090.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001091.jpg"
+    ],
+    "frame_sha256": [
+      "fea8ef2b762d5d15f2630d31a9422e41ae459c7ef00c2dba29b44b46514cfd7d",
+      "502d46653658f2ef502e04f38da37de33cbcbd38295e819ad324a28f96ff1c24",
+      "86d65e3950e1e1d0af9d94d556dbf796b0a69b9d0fe2ae49a999225f9068afc0",
+      "9d93d96c5374c744a2cd0cdb0d9ad24ab5a749833206de1f6b48e58ee3ea92b1"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1092_A_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1092,
+    "source_frame": 115727,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      764.3403362122799,
+      550.4279985499422
+    ],
+    "query_network_xy": [
+      407.64817931321596,
+      149.56159922663588
+    ],
+    "frames_local": [
+      1089,
+      1090,
+      1091,
+      1092
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001089.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001090.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001091.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001092.jpg"
+    ],
+    "frame_sha256": [
+      "502d46653658f2ef502e04f38da37de33cbcbd38295e819ad324a28f96ff1c24",
+      "86d65e3950e1e1d0af9d94d556dbf796b0a69b9d0fe2ae49a999225f9068afc0",
+      "9d93d96c5374c744a2cd0cdb0d9ad24ab5a749833206de1f6b48e58ee3ea92b1",
+      "c368abb11be851afd56dbb0063fd04b5667786810d0880e71bf7fac878a11691"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:tiled2x_1093_A_false",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1093,
+    "source_frame": 115728,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "tiled2x",
+    "view_xywh": [
+      0,
+      270,
+      960,
+      540
+    ],
+    "candidate_source_xy": [
+      752.8560222863372,
+      551.7024282852105
+    ],
+    "query_network_xy": [
+      401.5232118860465,
+      150.24129508544564
+    ],
+    "frames_local": [
+      1090,
+      1091,
+      1092,
+      1093
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001090.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001091.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001092.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001093.jpg"
+    ],
+    "frame_sha256": [
+      "86d65e3950e1e1d0af9d94d556dbf796b0a69b9d0fe2ae49a999225f9068afc0",
+      "9d93d96c5374c744a2cd0cdb0d9ad24ab5a749833206de1f6b48e58ee3ea92b1",
+      "c368abb11be851afd56dbb0063fd04b5667786810d0880e71bf7fac878a11691",
+      "9ac51bdecd7c0458ee27631a44ea68878412825a1eb490c24504c7b399d9f162"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+    "review_sha256": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  {
+    "case_id": "match1_motion_pilot_016:full_frame_component_1103_real",
+    "ball_pilot_id": "match1_motion_pilot_016",
+    "local_frame": 1103,
+    "source_frame": 115738,
+    "split_group": "legacy_match1:match1_motion_pilot_016",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      823.8513873711323,
+      533.1147994751086
+    ],
+    "query_network_xy": [
+      219.69370329896861,
+      142.1639465266956
+    ],
+    "frames_local": [
+      1100,
+      1101,
+      1102,
+      1103
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001100.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001101.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001102.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\frames\\001103.jpg"
+    ],
+    "frame_sha256": [
+      "34366e358225dcd59696ef7769d5512c51d7d7aff1ce4e82092978f4c542801c",
+      "8fe0fb4fc7e99d2fd572c14691a9bfe3d50dd739d391bef297f845136cc16e1b",
+      "c8f2e48417af6268bae487f4bd8f0d74c65724dd27a6281f9bae6489cec70292",
+      "8a592810337bac5aadd9e1614a7f397450e837aee1c2a0041f69b08722d9b858"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_016\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "00faefc6070ec0b5bf82720cd52030d57207e4152bba58b06712a3c5d7afeec7",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json",
+    "review_sha256": "64482054c27eeeac31271a25656547bdaf8f6c32422c7fa714fba78e0b098526"
+  },
+  {
+    "case_id": "match1_motion_pilot_002:002_318",
+    "ball_pilot_id": "match1_motion_pilot_002",
+    "local_frame": 318,
+    "source_frame": 15123,
+    "split_group": "legacy_match1:match1_motion_pilot_002",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      558.0,
+      680.0
+    ],
+    "query_network_xy": [
+      148.8,
+      181.33333333333334
+    ],
+    "frames_local": [
+      315,
+      316,
+      317,
+      318
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\frames\\000315.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\frames\\000316.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\frames\\000317.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\frames\\000318.jpg"
+    ],
+    "frame_sha256": [
+      "c8572f94e59de4793caad1481e36e04b8893c3dcb109dd455d7f43032a1afae9",
+      "2a7d397bacb01be51c390483ca1734767208da4a8a22cebbad73b38be2eeafa7",
+      "6ea17510aa0909ba029350d4f3089cfecb29421f37971d8329a84e539948393f",
+      "8bfc714c0f7d743893a594efdf91f274ad9d31628add946f86b835f5e1025532"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_002\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "db4befbcd0cfc1bd757205dc8834666c457ff8aa222e25689c1285409f3d1fa3",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\suppression_audit_20261103\\user_reviewed\\review.json",
+    "review_sha256": "d5d8d31c85940d3b70c4c551af532d6ce4d3db11722779cb15cdbe24812b84d7"
+  },
+  {
+    "case_id": "match1_motion_pilot_018:018_208",
+    "ball_pilot_id": "match1_motion_pilot_018",
+    "local_frame": 208,
+    "source_frame": 152396,
+    "split_group": "legacy_match1:match1_motion_pilot_018",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1119.0,
+      555.0
+    ],
+    "query_network_xy": [
+      298.4,
+      148.0
+    ],
+    "frames_local": [
+      205,
+      206,
+      207,
+      208
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000205.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000206.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000207.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000208.jpg"
+    ],
+    "frame_sha256": [
+      "5a80f4f7ccc856dcd3c3cef924289e8ff4debfe010b46e88a67cc5b285f84483",
+      "fa9bf9cf5af6179142e4b7484daee837a751a804bc9c9734f1e05ace51340468",
+      "2d3dc5a53d1739a9ddc1a85cfc03f2bc0e3e7e1b9a0e6fc31c59c293f9b48fe9",
+      "ca24618da9ab08cd677fd2c92fabc81c67a70ce282f59b0ec0a0f630886ad530"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "1264255f8c4eb35eda7330767e8c5afac3349540ccb415db174bd4de220196af",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\user_reported_cases.json",
+    "review_sha256": "379a21538c54319f968a14cea2c70b827434a4e7c2e08da9b018b2e9e5615b0d"
+  },
+  {
+    "case_id": "match1_motion_pilot_018:018_229",
+    "ball_pilot_id": "match1_motion_pilot_018",
+    "local_frame": 229,
+    "source_frame": 152417,
+    "split_group": "legacy_match1:match1_motion_pilot_018",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1115.0,
+      558.0
+    ],
+    "query_network_xy": [
+      297.3333333333333,
+      148.8
+    ],
+    "frames_local": [
+      226,
+      227,
+      228,
+      229
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000226.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000227.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000228.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000229.jpg"
+    ],
+    "frame_sha256": [
+      "45dc26aadea440dee8b6f9d3d3c4412e548fe5b78433b5895dc4bf45d4e53f87",
+      "2ee888a60774c9bf1b8773e69b9b34edf58d222c62f724fc3b6b81a4ff93b92c",
+      "346b6113899a93deb7f14d78efff6627273bef1a19fdc92ee5026410c710bf47",
+      "7c945560db82bd7f630f0b7a6b73a3476934afb01895cf84b69fec4393f87272"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "1264255f8c4eb35eda7330767e8c5afac3349540ccb415db174bd4de220196af",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\user_reported_cases.json",
+    "review_sha256": "379a21538c54319f968a14cea2c70b827434a4e7c2e08da9b018b2e9e5615b0d"
+  },
+  {
+    "case_id": "match1_motion_pilot_018:018_230",
+    "ball_pilot_id": "match1_motion_pilot_018",
+    "local_frame": 230,
+    "source_frame": 152418,
+    "split_group": "legacy_match1:match1_motion_pilot_018",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1117.0,
+      556.0
+    ],
+    "query_network_xy": [
+      297.8666666666667,
+      148.26666666666668
+    ],
+    "frames_local": [
+      227,
+      228,
+      229,
+      230
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000227.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000228.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000229.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\frames\\000230.jpg"
+    ],
+    "frame_sha256": [
+      "2ee888a60774c9bf1b8773e69b9b34edf58d222c62f724fc3b6b81a4ff93b92c",
+      "346b6113899a93deb7f14d78efff6627273bef1a19fdc92ee5026410c710bf47",
+      "7c945560db82bd7f630f0b7a6b73a3476934afb01895cf84b69fec4393f87272",
+      "6441fcf1268ddda8cf1435840c803a70068070e65f485acdc84aa844f9005d4e"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_018\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "1264255f8c4eb35eda7330767e8c5afac3349540ccb415db174bd4de220196af",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261102\\temporal_guard\\user_reported_cases.json",
+    "review_sha256": "379a21538c54319f968a14cea2c70b827434a4e7c2e08da9b018b2e9e5615b0d"
+  },
+  {
+    "case_id": "match1_motion_pilot_008:008_391",
+    "ball_pilot_id": "match1_motion_pilot_008",
+    "local_frame": 391,
+    "source_frame": 62849,
+    "split_group": "legacy_match1:match1_motion_pilot_008",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1008.0,
+      382.0
+    ],
+    "query_network_xy": [
+      268.8,
+      101.86666666666666
+    ],
+    "frames_local": [
+      388,
+      389,
+      390,
+      391
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000388.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000389.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000390.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000391.jpg"
+    ],
+    "frame_sha256": [
+      "7c86076d551268dea9b5bca6f8d285e8c8e1653d5f0aa16ca0bb36aeaf317788",
+      "7f54583d788270ecccbc16a345558134c6b0ba81edcb3ae44d971563905ec90e",
+      "4f2c7042e840fbd7aa0f78526f45e033ecc09b68475706b2effd5633b5c917d4",
+      "d91052c5e851f81638877ea4445385f514b8dcdeb1f1ac0107f2f1769cb1d35d"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "4782b8a2de10b0702b452ebf92cc1c0cc28d87590c7c25677bc9c58bf3f308e6",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\review.json",
+    "review_sha256": "35106c194ae0db6688d4c99b9b7233ec5d6568710f853d8616d5b5accd728ecd"
+  },
+  {
+    "case_id": "match1_motion_pilot_008:008_503",
+    "ball_pilot_id": "match1_motion_pilot_008",
+    "local_frame": 503,
+    "source_frame": 62961,
+    "split_group": "legacy_match1:match1_motion_pilot_008",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1113.0,
+      555.0
+    ],
+    "query_network_xy": [
+      296.8,
+      148.0
+    ],
+    "frames_local": [
+      500,
+      501,
+      502,
+      503
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000500.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000501.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000502.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000503.jpg"
+    ],
+    "frame_sha256": [
+      "c8aa30772e6a7ada1bf3d5b62d1fda14e57b710bb45e1d6c17556a954853f158",
+      "f5adc422f2aa76e4b49ae9ae11bb059c27758a1620b6d19752fce351c0297bbc",
+      "f30d59cf3e2937fa73d35ca61b9a55a6bace82bf8aa09b11bcd9ac11bf5eafc4",
+      "72389efd34c98ca728215f0e62140d5e546a70bc67e98389f50b6990213ac170"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "4782b8a2de10b0702b452ebf92cc1c0cc28d87590c7c25677bc9c58bf3f308e6",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\review.json",
+    "review_sha256": "35106c194ae0db6688d4c99b9b7233ec5d6568710f853d8616d5b5accd728ecd"
+  },
+  {
+    "case_id": "match1_motion_pilot_008:008_615",
+    "ball_pilot_id": "match1_motion_pilot_008",
+    "local_frame": 615,
+    "source_frame": 63073,
+    "split_group": "legacy_match1:match1_motion_pilot_008",
+    "candidate_is_ball": 1,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      279.0,
+      601.0
+    ],
+    "query_network_xy": [
+      74.4,
+      160.26666666666668
+    ],
+    "frames_local": [
+      612,
+      613,
+      614,
+      615
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000612.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000613.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000614.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\000615.jpg"
+    ],
+    "frame_sha256": [
+      "8266cee40bb478ba08e3e4526f0380f4e2b5ac8d5c5c9f78e626490a3904ed64",
+      "9c31d0cbfe0873f1fab5c1defb5b6986a9951a313c452975760bd448075fb98a",
+      "d28c2519bda3515f528b81d7971d9b677dd46bde10d225e3572768e05f5184b5",
+      "dbffa66c356c94747858a1772334b39874dba8159e1a22e0355fbdb9d174d735"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "4782b8a2de10b0702b452ebf92cc1c0cc28d87590c7c25677bc9c58bf3f308e6",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\review.json",
+    "review_sha256": "35106c194ae0db6688d4c99b9b7233ec5d6568710f853d8616d5b5accd728ecd"
+  },
+  {
+    "case_id": "match1_motion_pilot_008:008_1623",
+    "ball_pilot_id": "match1_motion_pilot_008",
+    "local_frame": 1623,
+    "source_frame": 64081,
+    "split_group": "legacy_match1:match1_motion_pilot_008",
+    "candidate_is_ball": 0,
+    "annotation_kind": "candidate_encloses_ball_binary_only",
+    "precise_center_gt": false,
+    "full_frame_visibility_gt": false,
+    "view_name": "full_frame",
+    "view_xywh": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "candidate_source_xy": [
+      1074.0,
+      596.0
+    ],
+    "query_network_xy": [
+      286.4,
+      158.93333333333334
+    ],
+    "frames_local": [
+      1620,
+      1621,
+      1622,
+      1623
+    ],
+    "frame_paths": [
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\001620.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\001621.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\001622.jpg",
+      "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\frames\\001623.jpg"
+    ],
+    "frame_sha256": [
+      "1e0d4c7b85d3b1d4549e08e561d806b4c11560a3decafd911d11aba864aa5af9",
+      "a2a6b752d0076d375eec67ea2f3dc1699a695142ac56716d846875b266535ee7",
+      "1b4187dd4fd82eab9d9580931e54dc6f746e141a9b7715384244c1504728caa2",
+      "51a0968ab93111bdda7fbb3330bad6b866cb62bf27b519d60000c70a9e1bd7a1"
+    ],
+    "median_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\balltrack\\racketvision\\match1\\match1_motion_pilot_008\\runs\\threshold030_median120\\median.npz",
+    "median_sha256": "4782b8a2de10b0702b452ebf92cc1c0cc28d87590c7c25677bc9c58bf3f308e6",
+    "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\review.json",
+    "review_sha256": "35106c194ae0db6688d4c99b9b7233ec5d6568710f853d8616d5b5accd728ecd"
+  }
+]

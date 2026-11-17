@@ -1,0 +1,22 @@
+[
+  {
+    "clip_id": "match2_unseen_001",
+    "post_initialization_missing_by_slot": {},
+    "initialization_first_output": 72140
+  },
+  {
+    "clip_id": "match2_unseen_002",
+    "post_initialization_missing_by_slot": {
+      "far_rear": 9,
+      "far_front": 18
+    },
+    "initialization_first_output": 108157
+  },
+  {
+    "clip_id": "match2_unseen_003",
+    "post_initialization_missing_by_slot": {
+      "near_rear": 68
+    },
+    "initialization_first_output": 143863
+  }
+]

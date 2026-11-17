@@ -1,0 +1,10 @@
+﻿source_frame,line,best_normal_offset_px,score_at_calibration,score_at_best,interpretation
+492,right_sideline,3,131.78,223.9,exploratory_line_appearance_not_independent_landmark_error
+492,near_baseline,-1,230.0,235.2,exploratory_line_appearance_not_independent_landmark_error
+492,left_sideline,0,221.6,221.6,exploratory_line_appearance_not_independent_landmark_error
+114790,right_sideline,3,133.38,223.94,exploratory_line_appearance_not_independent_landmark_error
+114790,near_baseline,-1,223.24,234.1,exploratory_line_appearance_not_independent_landmark_error
+114790,left_sideline,0,221.04,221.04,exploratory_line_appearance_not_independent_landmark_error
+154116,right_sideline,3,133.98,224.06,exploratory_line_appearance_not_independent_landmark_error
+154116,near_baseline,-1,224.14,235.14,exploratory_line_appearance_not_independent_landmark_error
+154116,left_sideline,0,222.0,222.0,exploratory_line_appearance_not_independent_landmark_error

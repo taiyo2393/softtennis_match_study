@@ -1,0 +1,24 @@
+{
+  "status": "revised_query_sampling_before_new_labels",
+  "initial_protocol_sha256": "72380816b9840082651ea7b9ef87f3e9e4f16c5d3cdb854ea72b11351f3aeba8",
+  "revision_reason": "Competition is brief; original sustained-run criterion gives zero queries. No new labels have been collected.",
+  "role": "validation_challenge_only_never_training",
+  "clips": [
+    12,
+    15,
+    19,
+    20
+  ],
+  "search_scope": "Start1second after stored service timestamp, at least local3; stop1second before clip end",
+  "candidate_frame_pool": "Reuse unchanged scanned frame inventory, no extra model or threshold search",
+  "selection": "One per clip: prefer area-vs-peak disagreement, largest center distance, ties earliest. Else spatial competition with largest separation.",
+  "existing_label_exclusion": "At least4 sourceframes from old centers AND no exact4-input image hash overlaps with any old labelled input",
+  "caveat": "Same-clip neighbouring frames remain temporally correlated; not independent test samples",
+  "camera_exclusion": "Cached transition mask retained unchanged",
+  "main_play": "Human target-phase review, not exact event-frame annotation; service/end guards do not auto-confirm phase",
+  "comparison": "All4 candidate rules fixed and frozen before labels; no fitting or score calibration; non-play excluded from primary point counts",
+  "labels_needed": "Play phase plus ball center/visibility only; nonplay or phase-uncertain can skip ball center",
+  "sampling": "Purposefully enriched challenge with disagreement-preferred examples, not population accuracy or random evaluation",
+  "source_inventory_sha256": "46aadf84f5aece56e94ba6c243b21254968a7949e1ec82edfc5038bcbfa69101",
+  "automatic_adoption": false
+}

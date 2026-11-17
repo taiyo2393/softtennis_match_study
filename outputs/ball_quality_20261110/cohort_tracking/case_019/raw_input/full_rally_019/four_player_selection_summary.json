@@ -1,0 +1,7 @@
+[
+  {
+    "seed_frame": 45824,
+    "analysis_ready_end_frame": 46753,
+    "warning": "Legacy helper field names; context bounds only, no manually selected seed."
+  }
+]

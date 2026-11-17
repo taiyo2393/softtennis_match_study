@@ -1,0 +1,11 @@
+{
+  "025": {
+    "status": "human_video_level_identity_confirmation",
+    "evidence": "experiment/tracking_quality_20261102_stage7/players_025_global/human_video_review.json"
+  },
+  "002_003_005_007_048": {
+    "status": "output_paths_preserved_from_previously_confirmed_versions",
+    "evidence": "regression_and_integrity_checks.json",
+    "limitations": "No new human review of these stage10 renderings; paths and coordinates match the earlier reviewed outputs."
+  }
+}

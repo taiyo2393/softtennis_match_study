@@ -1,0 +1,29 @@
+{
+  "cases": 28,
+  "confirmed_ball_enclosed": 18,
+  "confirmed_not_ball_enclosed": 10,
+  "source_rallies": 1,
+  "match_count": 1,
+  "independent_test_split_possible": false,
+  "no_new_human_labels_requested": true,
+  "unreviewed_candidates_not_used_as_negatives": true,
+  "missing_frames_not_used_as_negatives": true,
+  "source_images_unchanged": true,
+  "reviewed_inputs_unchanged": true,
+  "patches": "Native96x96 and224x224 RGB image content exported as lossless PNG; no learned enhancement or interpolation to create ball positions",
+  "center_meaning": "Reviewed marker centers, not independently labelled precise ball centers",
+  "limitation": "Adjacent frames and shared rally are correlated; do not randomly split these rows for reported evaluation. Same frame may have both a real and a false candidate.",
+  "labels_table_sha256": "7e082c157b69cf26f0d875bc333cfcfc1175e4cc831afb7f3a969e6bb2e38938",
+  "input_hashes": {
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_ball_overrides.json": "23177d11f8a39400419ea11e1b43cbc79b00214b64487bbf92e00f9a85f6665a",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_tracking_bundles.json": "ac4eac65d2edbe25bac9e547118f4fa21a1462b9de0c6f89844f3e2e7ef2bdf0",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\reviewed_person_overrides.json": "8e374e7b448c8e902a54a70a7316dd442a2c86aef106b095587949ab3025ba41",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv": "95934c96fa9a11425a493c2e73d9345df4664810e7ff879689ff67fe27d33ecc",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json": "64482054c27eeeac31271a25656547bdaf8f6c32422c7fa714fba78e0b098526",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json": "7a3f8e899262ca2a251f53fb11e64b165101d1f5f6d3427a672a11aa27f6b904",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json": "18fab98cfeccbe1c1e6b0f32679b1d724813ccaca9e00df5b290375bccc07c05",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json": "a4af01ed20a88afdefaa6c06c51a5cd74b3b60f73502e636d2bd3171f26c15bb"
+  },
+  "automatic_classifier_trained": false,
+  "independent_accuracy_established": false
+}

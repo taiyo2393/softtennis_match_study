@@ -1,0 +1,103 @@
+{
+  "status": "completed_human_annotations_sealed_training_export_ready",
+  "completed_at_utc": "2026-11-09T12:49:27.625975+00:00",
+  "reviewed_targets": 124,
+  "new_targets": 120,
+  "reused_targets": 4,
+  "journal_events": 126,
+  "unique_journal_targets": 120,
+  "journal_resaves": 6,
+  "all_targets_play": true,
+  "dense_visible_centers": 117,
+  "dense_unobservable_centers": 7,
+  "per_window": [
+    {
+      "window_id": "A",
+      "candidate_id": "match1_motion_pilot_003",
+      "targets": 31,
+      "play_visible": 31,
+      "play_not_visible": 0,
+      "play_uncertain": 0,
+      "nonplay": 0,
+      "phase_uncertain": 0
+    },
+    {
+      "window_id": "B",
+      "candidate_id": "match1_motion_pilot_005",
+      "targets": 31,
+      "play_visible": 31,
+      "play_not_visible": 0,
+      "play_uncertain": 0,
+      "nonplay": 0,
+      "phase_uncertain": 0
+    },
+    {
+      "window_id": "C",
+      "candidate_id": "match1_motion_pilot_007",
+      "targets": 31,
+      "play_visible": 24,
+      "play_not_visible": 7,
+      "play_uncertain": 0,
+      "nonplay": 0,
+      "phase_uncertain": 0
+    },
+    {
+      "window_id": "D",
+      "candidate_id": "match1_motion_pilot_010",
+      "targets": 31,
+      "play_visible": 31,
+      "play_not_visible": 0,
+      "play_uncertain": 0,
+      "nonplay": 0,
+      "phase_uncertain": 0
+    }
+  ],
+  "adjacent_sampled_pairs": 120,
+  "pairs_with_two_observable_centers": 113,
+  "previous_play_visible_centers": 68,
+  "additional_unique_play_visible_centers": 113,
+  "merged_play_visible_centers": 181,
+  "merged_observation_states": 243,
+  "merged_play_unobservable_states": 16,
+  "merged_nonplay_states": 46,
+  "unique_training_clips": 8,
+  "raw_unobservable_labels_preserved": true,
+  "unobservable_converted_to_absence_target": false,
+  "confirmation_clips_excluded": true,
+  "model_inference": false,
+  "model_training": false,
+  "accuracy_computed": false,
+  "operational_adoption": false,
+  "independent_validation": false,
+  "limitations": "Four ~1-second sampled training windows in the same known match. Adjacent frames are dependent; no full-rally or unseen-match accuracy established.",
+  "integrity": {
+    "history_replay_exact": true,
+    "input_images_checked": 732,
+    "dense_source_images_checked": 724,
+    "frozen_inputs_unchanged": true,
+    "human_labels_unchanged": true
+  },
+  "source_snapshot_hashes": {
+    "manual_sequence_labels.csv": "f4ea51d25bebf6b913b761e97cfadf97997626114c66a269a270c8e798b63977",
+    "initial_labels_snapshot.csv": "543629e83142c85ceac7e6f8c34711c5151aa53ca4a59337ea1f08c9b653ea20",
+    "annotation_events.jsonl": "397455db5e0a0b42924ce29ed6cc2b5474c31909ed0b640c72f12099a83de33a",
+    "manifest.json": "75383e0a970c01e897b5a1f8c22fce4e8f2ce727c1b4962c1c7cdf2803c24daa",
+    "protocol.json": "1547f585cb38e28a6c9c8ed661d11ded6309e6339f8ad26a83f13b17735aa41d",
+    "annotation_cases.json": "fd4e9a92f1c69ff4bba0e7dd6223e0a526810d2f55a6bf4ff13693d1938e6898",
+    "query_model_inputs.csv": "121b82011af8c3e7132ef9b85b1fdb1b633bca37fbd7f12cd3d7aefe270160ac",
+    "windows.json": "7ec8631fba2eb73a6373efee24222f8167f1c57c0c517029b4c255a00a5d25f5",
+    "source_image_hashes.json": "891cbeb18273062a08018517696374f936627fa46593154d637d9daa75fa99ac",
+    "http_verification.json": "563c56b6b7e771bac93bdcf7002d1ff05ed3192abf94023140feba581663ad8c",
+    "app_verification.json": "f3ce083ab05887ad8d5debc12b21fe26b34e405a61f82521368c338c567bbc10",
+    "serve_review.py": "a9287cda8d3a1fdc836ca502751469cb10a53e5d5097e0ae55bc43ab0b9aa8f2",
+    "annotation.html": "5181f3ebe37b41da9f9ec450ccfb85dc749dd6187c61bd2e9c18f748061a4248",
+    "preparation_verification.json": "7b082d1dccdd83b72271331a48dec1e594f3110957c62dadae4753193031039a"
+  },
+  "export_hashes": {
+    "per_window_summary.csv": "ac08060ee6c0464e072e0e06e9dd8d5d3b4f5c0ac8b2032f52feacf81d1715b4",
+    "adjacent_human_pairs.csv": "c1e507d530984fc7b5aad1672722c7a088a8e349dbbb669edc23ea943139ebc0",
+    "merged_training_observation_states.csv": "5b9f8cb79a996afb4c9d9648395b9f3a790247bf537f1faf4cbd41ecc569350c",
+    "training_visible_centers.csv": "b6481531ad8bbfd212dc29040d9b43fbcb56b81859acf5abc75feb2d7cbd10b4"
+  },
+  "script_sha256": "d7bbad812cc912d56c2c77e3b46aaac583f84bc3a9c247fd145bd5bd1dae9ef4"
+}

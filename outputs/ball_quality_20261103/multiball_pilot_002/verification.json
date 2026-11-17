@@ -1,0 +1,11 @@
+{
+  "seed_association_survives_competing_object": true,
+  "ambiguous_alternatives_not_forced": true,
+  "gaps_not_interpolated": true,
+  "long_gap_not_relinked": true,
+  "all_positions_are_observed_components": true,
+  "original_model_reproduced_on_81_frames": true,
+  "original_predictions_and_labels_unchanged": true,
+  "selected_components": 16,
+  "warning": "These are consistency checks, not ball identity or localization accuracy measurements."
+}

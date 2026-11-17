@@ -1,0 +1,22 @@
+{
+  "status": "continuous_outputs_frozen_before_human_review",
+  "frames": 724,
+  "global_contexts": 788,
+  "tile_maps": 3204,
+  "numerical_anchor_components_compared": 84,
+  "numeric_component_mismatches": 2,
+  "artifact_hashes": {
+    "continuous_predictions.csv": "fc4d7d2904da70f6c66a3533b576ba7d6441f4c06d4402a3f3cf4feea23f8a4b",
+    "candidate_features.csv": "3bf335b5c0975041619cde52840cc11ddeffd064a0b52eac44b5ffad2f96dab0",
+    "map_records.csv": "8269eebe11cc629d4f4b72440efdaed57dda7f0b0619b5c08e68f4f10a4982d6",
+    "sparse_context_numeric_comparison.csv": "6dab90b4b11a2edbfba1ca602192a3ac53f4add6c8f40ee8f71a5b526d54c946",
+    "global_contexts.json": "30a05257dd15b2195b11102cad0cfe29f70b40472da77750ae9fe4d8b0da630b",
+    "camera_features.json": "3a12b1caf18638634052b30674d49a7a8a5a4ffdbb6556ea37824fdd7bc6c17b",
+    "input_image_hashes.json": "10ff3508157b61c376c0d71d8dbf11519daf003d93ae68cfbfbb753aaf4f22d6",
+    "candidate_pools.json": "93971f4a7872c7c3f41d940633826b495d10e3a4d5494dbd8c1257382e4b9314",
+    "component_rectangles.npz": "ed1e165c7f689cc57646430a42874102135745a7aca919b272b2103b64df5f9b",
+    "protocol.json": "8a2a363f5ff7d3c9de20145bbef483e141f81dcdf91f8ce7ac6bb9b5f4dc31f3"
+  },
+  "new_human_labels": 0,
+  "adopted": false
+}

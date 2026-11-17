@@ -1,0 +1,7 @@
+﻿player_slot,before_source_frame,after_source_frame,missing_frames,before_raw_id,after_raw_id
+far_rear,40574,40583,8,1000006,1000006
+far_rear,40600,40603,2,23,23
+far_rear,40604,40607,2,23,23
+far_rear,40608,40625,16,23,1000006
+far_rear,40647,40649,1,23,23
+far_front,40812,40837,24,4,85

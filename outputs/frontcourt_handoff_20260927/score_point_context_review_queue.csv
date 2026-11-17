@@ -1,0 +1,4 @@
+﻿candidate_id,clip_file,approximate_first_source_frame,approximate_last_source_frame,suggested_score_row,score_before_end,score_after_1s,linked_to_this_rally,winner_camera_side,start_confirmed,point_end_confirmed,review_status
+match1_rally_window_002,002_score_point_context_h264.mp4,1678,2817,bottom,0-1,0-2,,near,,,human_winner_side_confirmed_team_derived_boundaries_pending
+match1_rally_window_010,010_score_point_context_h264.mp4,23467,24575,top,2-3,3-3,,,,,requires_video_review_no_outcome_label
+match1_rally_window_027,027_score_point_context_h264.mp4,66054,67493,bottom,1-1,1-2,,,,,requires_video_review_no_outcome_label

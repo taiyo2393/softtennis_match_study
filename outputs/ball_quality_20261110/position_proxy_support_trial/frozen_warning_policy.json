@@ -1,0 +1,23 @@
+{
+  "status": "diagnostic_sidecar_only_not_input_filter",
+  "native_IDs_unchanged": true,
+  "preferred_variant": "head_independent_body_support",
+  "parameters": {
+    "required_keypoints": [
+      5,
+      6,
+      11,
+      12
+    ],
+    "confidence": 0.5,
+    "torso_scale": 1.12,
+    "head_radius_height": 0.09,
+    "arm_radius_height": 0.045,
+    "leg_radius_height": 0.065
+  },
+  "protocol_sha256": "7efb9b8d71c744f660d44086fcbce64154891b8cd22f52d84803c8b8f55e8d38",
+  "point_inside_body_is_warning_not_GT": true,
+  "no_warning_is_not_certified_position": true,
+  "contact_frame_annotation_required": false,
+  "independent_position_accuracy_established": false
+}

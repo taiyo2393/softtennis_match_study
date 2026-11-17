@@ -1,0 +1,10 @@
+{
+  "status": "reference_evaluation_generated",
+  "reference_labels_sha256": "5e17dde1161118428299db95313da624ebdc668dc2572b6a01cbd6d118ca40b1",
+  "reference_revision": 55,
+  "score_scope": "Same-match development image-position and arrangement error, unordered within-side correspondence; no identity continuity or ground-contact claim.",
+  "sampling_groups_never_pooled": true,
+  "missing_predictions_and_unplaceable_references_retained": true,
+  "no_error_pass_threshold": true,
+  "no_outcome_model": true
+}

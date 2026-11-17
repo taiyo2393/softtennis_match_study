@@ -1,0 +1,42 @@
+{
+  "points": [
+    {
+      "point": 1,
+      "core_frames": 243,
+      "missing_frames": 44,
+      "missing_runs": 6,
+      "eligible_first_frames": 4,
+      "baseline_reproduced_frames": 16,
+      "both": 1,
+      "full_only": 0,
+      "crop_only": 2,
+      "neither": 1
+    },
+    {
+      "point": 2,
+      "core_frames": 399,
+      "missing_frames": 95,
+      "missing_runs": 21,
+      "eligible_first_frames": 14,
+      "baseline_reproduced_frames": 55,
+      "both": 7,
+      "full_only": 2,
+      "crop_only": 3,
+      "neither": 2
+    },
+    {
+      "point": 3,
+      "core_frames": 283,
+      "missing_frames": 39,
+      "missing_runs": 19,
+      "eligible_first_frames": 15,
+      "baseline_reproduced_frames": 59,
+      "both": 5,
+      "full_only": 2,
+      "crop_only": 2,
+      "neither": 6
+    }
+  ],
+  "candidate_identity_status": "pending except prior F12389/F15505 where output matches prior reviewed position",
+  "coordinates_or_references_modified": false
+}

@@ -1,0 +1,30 @@
+{
+  "status": "experimental_comparator_not_adopted",
+  "candidate": "torso_team_soft_cost",
+  "parameters": {
+    "torso_negative_margin": 0.04,
+    "torso_cost_weight": 0.8,
+    "pose_match_iou_min": 0.5,
+    "pose_stride_source_frames": 2,
+    "near_and_far_anchor_source_frames": 8,
+    "hard_color_veto": false,
+    "far_team_pooled": true,
+    "coordinate_replacement": false
+  },
+  "protocol_sha256": "987e484a4c2334da1ca16f555ce537f953e4de6f10eb5da13357199ca7b39917",
+  "solver_sha256": "ad81ed0d619fb760fcd11f5f33c19731f30838cb5077368597b72c930e9c9a65",
+  "known_removed_examples": [
+    46501,
+    46502,
+    46503,
+    46505,
+    46665,
+    46666
+  ],
+  "retained_mixed_or_ambiguous_examples": [
+    46511,
+    46634
+  ],
+  "same_match_development": true,
+  "independent_GT": false
+}

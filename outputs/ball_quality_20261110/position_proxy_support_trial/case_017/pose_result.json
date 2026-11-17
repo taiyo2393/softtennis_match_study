@@ -1,0 +1,11 @@
+{
+  "tag": "017",
+  "requested_frame_pairs": 32,
+  "new_inference_calls": 56,
+  "reused_predictions": 8,
+  "pose_proposals": 459,
+  "hashes": {
+    "pose_geometry.npz": "ee3ff72c70b972ceac79c0a4d8f4de26a15451c38b1f1b4ecc1c235538d3101a",
+    "pose_metadata.csv": "adec8a374dd12869bc7d15a748c1a0872b0ac0f4b39b9c4e8a77fa67f897bde3"
+  }
+}

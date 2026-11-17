@@ -1,0 +1,28 @@
+{
+  "status": "partial_temporal_candidate_retained_not_adopted",
+  "primary_candidate": "torso_team_soft_cost",
+  "secondary_pose_exclusivity_added_effect_not_demonstrated": true,
+  "comparison": "Both modes remove only the same six019 native observations. All nine entire control paths remain exact. Unlike prior short-tracklet hard veto,016F40625/F40626 and019F46352 remain present.",
+  "known_failures_removed_source_frames": [
+    46501,
+    46502,
+    46503,
+    46505,
+    46665,
+    46666
+  ],
+  "known_or_ambiguous_mixed_boxes_remaining": [
+    46511,
+    46634
+  ],
+  "new_positions_recovered": false,
+  "known_true_player_loss_not_seen_in_changed_rows": true,
+  "not_independent_accuracy_estimate": true,
+  "canonical_pipeline_replaced": false,
+  "current22_unchanged": true,
+  "confirmed_human_outcomes": 11,
+  "fixed30_constructed_inputs": 19,
+  "fixed30_pending_inputs": 11,
+  "next_unresolved_candidate": "match1_rally_window_019",
+  "next_action": "Keep this partial candidate as the tracking comparator. Separate native-box lower-edge validity from identity presence in remaining mixed/occluded frames; do not try to force hidden ground positions or enlarge the color penalty to eliminate a particular frame."
+}

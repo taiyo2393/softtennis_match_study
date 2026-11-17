@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "registry_candidate_rows": 63,
+  "provisional_groups": 62,
+  "chronological_fixed_groups": 30,
+  "existing_score_validation_sample_unchanged": 16,
+  "basic_rows_source_values_checked": 11,
+  "no_label_column_in_basic_inputs": true,
+  "old_sources_unchanged": true,
+  "independent_accuracy_not_established": true
+}

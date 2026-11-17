@@ -1,0 +1,11 @@
+{
+  "frames": 402,
+  "frames_with_four_player_observations": 326,
+  "ball_output_frames": 272,
+  "entity_rows": 1804,
+  "video_decoded_frames": 804,
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\integrated_044_v2\\integrated_review_h264.mp4",
+  "inputs_unchanged": true,
+  "independent_tracking_accuracy_measured": false,
+  "warning": "Observed output counts only; bbox bottom is not validated ground contact. Boundary intervals remain provisional."
+}

@@ -1,0 +1,15 @@
+{
+  "review_folder": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2",
+  "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\user_reviewed\\review.json",
+  "rejected_local_frames": [
+    463,
+    464,
+    465,
+    467,
+    470,
+    554
+  ],
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\round2\\reviewed_040_h264.mp4",
+  "video_sha256": "d24d50f399ad9eb6cb07263283a8d2ea5910fe5e056fddd501324a1e86692690",
+  "registry_sha256": "7deb8db004e0c0997b833b40c73dbd23e739921d26b8cd3a470d63d98c67c9cb"
+}

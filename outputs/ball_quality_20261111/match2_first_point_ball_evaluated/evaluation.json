@@ -1,0 +1,27 @@
+{
+  "match": "match2",
+  "rally_count": 1,
+  "point": 1,
+  "termination": "out",
+  "reference_times": 12,
+  "visible_reference_times": 10,
+  "not_visible_reference_times": 2,
+  "counts": {
+    "correct16px": 10,
+    "output_when_not_observable": 1,
+    "no_output_when_not_observable": 1
+  },
+  "inherited_position_tolerance_px": 16,
+  "median_distance_px": 2.23606797749979,
+  "maximum_distance_px": 4.123105625617661,
+  "core_frames": 243,
+  "core_candidate_output_frames": 199,
+  "core_no_candidate_frames": 44,
+  "output_at_not_visible_frames": [
+    12393
+  ],
+  "labels_collected_before_prediction_display": true,
+  "candidate_identity_for_not_visible_frames": "unresolved",
+  "automated_repair_evaluated": false,
+  "limitation": "The 12 reference frames are 22 source frames apart. They do not establish continuous tracking accuracy or evaluate repair on visible missed balls."
+}

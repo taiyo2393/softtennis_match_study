@@ -1,0 +1,9 @@
+{
+  "all_reviewed_rows_preserved_exactly": true,
+  "all_added_coordinates_from_same_frame_raw_detections": true,
+  "no_detection_assigned_to_two_identities": true,
+  "no_interpolation": true,
+  "no_human_confirmation_propagated_to_new_rows": true,
+  "reviewed_input_unchanged": true,
+  "accuracy_established": false
+}

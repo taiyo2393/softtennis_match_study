@@ -1,0 +1,13 @@
+{
+  "first_source_frame": 43748,
+  "last_source_frame": 44265,
+  "frames": 518,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "aspect_preserved": true,
+  "video_sha256": "78885eca8456e4fecce1bd1f1e0cba2d6e2f0387a5324d54ec4dc5a295b38fd2",
+  "source": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_018\\near_pair_development\\tracking_quality_20261102_stage7\\players_018_global\\global_review_h264.mp4",
+  "scope": "Known-case development variant, includes inherited context end/broadcast dissolve; not independently certified exact rally bounds."
+}

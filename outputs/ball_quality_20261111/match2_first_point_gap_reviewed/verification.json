@@ -1,0 +1,12 @@
+{
+  "source_frames": 243,
+  "baseline_candidate_frames": 199,
+  "after_review_candidate_frames": 200,
+  "new_confirmed_candidate_frames": [
+    12389
+  ],
+  "remaining_no_output_frames": 43,
+  "original_reference_times": 12,
+  "original_reference_evaluation_unchanged": true,
+  "other_baseline_rows_unchanged": true
+}

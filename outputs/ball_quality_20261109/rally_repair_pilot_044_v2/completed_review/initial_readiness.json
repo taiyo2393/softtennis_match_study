@@ -1,0 +1,11 @@
+{
+  "candidate_interior_frames": 402,
+  "frames_with_4_candidate_players": 326,
+  "ball_output_frames": 277,
+  "review_sample_times": 201,
+  "review_sample_output_times": 146,
+  "reused_precise_centers": 6,
+  "new_review_targets": 195,
+  "output_counts_are_not_accuracy": true,
+  "prior_repair_time_available": false
+}

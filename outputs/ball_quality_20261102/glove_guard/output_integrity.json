@@ -1,0 +1,89 @@
+{
+  "continuous_frames_verified": 690,
+  "withheld_candidates": 13,
+  "all_raw_coordinates_preserved": true,
+  "all_nonwithheld_rows_unchanged": true,
+  "baseline_source_files_unchanged": true,
+  "original_annotation_unchanged": true,
+  "inspected_targets": [
+    {
+      "candidate_id": "match1_motion_pilot_013",
+      "local_frame": 434,
+      "x_px": 635.0,
+      "y_px": 541.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_013",
+      "local_frame": 436,
+      "x_px": 637.0,
+      "y_px": 538.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_013",
+      "local_frame": 437,
+      "x_px": 635.0,
+      "y_px": 538.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_013",
+      "local_frame": 438,
+      "x_px": 635.0,
+      "y_px": 534.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_013",
+      "local_frame": 439,
+      "x_px": 633.0,
+      "y_px": 532.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_013",
+      "local_frame": 440,
+      "x_px": 637.0,
+      "y_px": 528.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "local_frame": 211,
+      "x_px": 646.0,
+      "y_px": 545.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "local_frame": 212,
+      "x_px": 648.0,
+      "y_px": 545.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "local_frame": 213,
+      "x_px": 648.0,
+      "y_px": 540.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "local_frame": 214,
+      "x_px": 648.0,
+      "y_px": 540.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "local_frame": 215,
+      "x_px": 648.0,
+      "y_px": 536.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "local_frame": 216,
+      "x_px": 648.0,
+      "y_px": 534.0
+    },
+    {
+      "candidate_id": "match1_motion_pilot_018",
+      "local_frame": 217,
+      "x_px": 650.0,
+      "y_px": 532.0
+    }
+  ],
+  "scope": "Integrity checks and diagnostic media only, not independent localization accuracy."
+}

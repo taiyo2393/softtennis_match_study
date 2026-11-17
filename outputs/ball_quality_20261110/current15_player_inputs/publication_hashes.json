@@ -1,0 +1,23 @@
+{
+  "added_case_covariate_provenance.json": "f0bfa8ef464d9bc896cae81825ae97b5d8b88932edf020df0edd99e805460611",
+  "additional_verification.json": "936e1c45bf40ae2c2228e8f9d74624aae413987a1edae83f858ead1574a078e3",
+  "B1_server_side.csv": "8030b46cf5326334b8b82c449655223070be36a3c2f3fc61f1e5905deb94bf93",
+  "B2_snapshot.csv": "abbfb5d336633ffe18589c3b1112bb5f99ff9974d76beb359fb3e1bc148f5c8a",
+  "B2_window_means.csv": "418c1b28e7e8838aeb0a00e8823eb325842a4398ce53fafe7e5c05adf9d2909e",
+  "confirmed_human_outcomes.csv": "4da4de432aea71deca16e5aff1d093fdbdcb002ba3d9e20d17988b099bd7fdd1",
+  "diagnostic_snapshot_masks_only.csv": "d6df49a540850e81690433db2cda98c56f62cbf71fbe753c72da17ce2322e76e",
+  "diagnostic_window_masks_only.csv": "d331ff0d71b873353374e1fa79bd951a7da3fe15e72f1b566bca8d469b079357",
+  "executed_source.py": "73be7c1fb554b899ef43d923eab10a7f43e35e539e9e1ca49044cb5bc4d8f926",
+  "feature_schema.json": "c8d11cdf8b7c5e2301da76a544ed9a63842820f3cd1ec47aeab22e604e35dbfe",
+  "fixed30_processing_progress.csv": "e71d6cdb3338a7154abf33533e147ed81ffe5eac3c75c7df840c9be4ba6dca20",
+  "human_outcomes.csv": "c5e8a9245ee5defff651d700de0b9865ce008f213781c0ec97a66b6d1e497f5a",
+  "outcome_label_status.csv": "34f3d1af6aa761815c21addacb0070b184e55fcf97f50a8261243a010180feba",
+  "processing_interventions.csv": "d3d02a3620068f39679204445c16e9d39ff755ae3c297e8bcf8c3658e77a79c0",
+  "protocol.json": "32ee1d96d95603b2c6c05d39acf8e7f3671a190f2ecbacb411f630e6939c076a",
+  "rally_metadata.csv": "0c3d03cdf34dfefef826c45b5c509c3ff68cce6d82925046eb3378b8ef069a57",
+  "README.md": "c3b501e23f7e40422a80ea328fa7d8334497136a100de489f579aba5adc187fa",
+  "result.json": "f4ae01ccdad8d5e350b6e99de27121f80a3653be86592fc9f922af09177a8cfa",
+  "source_snapshot_features.csv": "aaa460bfb7e14fc5de328bd18c4963326e92380fe93a9b1d70550ffd7f0d3e98",
+  "source_window_summary_features.csv": "ca2e9c01a4f8acb0926ce0266a68f9c4baa11d0c99399848c75f60c610a433fc",
+  "verification.json": "00a0b93cc4fad404ba9f657cf2800b29cb8a8e9f72e18f6947b61fda86729928"
+}

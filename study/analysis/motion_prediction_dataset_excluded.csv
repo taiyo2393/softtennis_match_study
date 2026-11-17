@@ -1,0 +1,6 @@
+event_id,video_id,label_status,label_note
+match1_motion_pilot_001_event_001,match1,excluded,"missing direct track samples: hitter@-0.50, hitter@-0.25"
+match1_motion_pilot_003_event_001,match1,excluded,track review is not usable
+match1_motion_pilot_009_event_001,match1,excluded,"missing direct track samples: front@-0.50, hitter@-0.50, hitter@-0.25"
+match1_motion_pilot_012_event_001,match1,excluded,track review is not usable
+match1_motion_pilot_017_event_001,match1,excluded,"missing direct track samples: front@+0.10, front@+0.20, front@+0.30"

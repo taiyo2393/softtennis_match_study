@@ -1,0 +1,146 @@
+{
+  "selection": "Every frame with a rectangle-vs-torso feature-policy disagreement on frozen selected frames. Selection after diagnostic scores; not independent accuracy.",
+  "items": [
+    {
+      "tag": "002",
+      "source_frame": 2319,
+      "reasons": [
+        "prefix_last"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1426,
+        943,
+        2522,
+        1443
+      ],
+      "aspect_preserved": true,
+      "image": "01_002_F2319.jpg",
+      "image_sha256": "fe8767cfd4cb61b5fef9e6c2cbe7727f9d4ce51f5dca96fd3017ea8808a24927"
+    },
+    {
+      "tag": "002",
+      "source_frame": 2559,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.502687"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1487,
+        967,
+        2004,
+        1493
+      ],
+      "aspect_preserved": true,
+      "image": "02_002_F2559.jpg",
+      "image_sha256": "13dedcf3a34b3652e780c36ed8676ceb501a779b8dba36bdbca876c4e6542b5e"
+    },
+    {
+      "tag": "006",
+      "source_frame": 12421,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1092,
+        950,
+        1549,
+        1391
+      ],
+      "aspect_preserved": true,
+      "image": "03_006_F12421.jpg",
+      "image_sha256": "4a0c074e28d443d0c4740e55394cc6d288406d029608b0b005819f796d2e6fb4"
+    },
+    {
+      "tag": "006",
+      "source_frame": 12422,
+      "reasons": [
+        "retained_known_development_example"
+      ],
+      "focus_slots": [
+        "far_rear"
+      ],
+      "crop_native_xyxy": [
+        1095,
+        950,
+        1550,
+        1386
+      ],
+      "aspect_preserved": true,
+      "image": "04_006_F12422.jpg",
+      "image_sha256": "5cdff1b63d57049edaf64b8c69926a7cece3c4cb6c66d7a48ef55280d3897acb"
+    },
+    {
+      "tag": "009",
+      "source_frame": 21945,
+      "reasons": [
+        "prefix_middle"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1473,
+        944,
+        2321,
+        1470
+      ],
+      "aspect_preserved": true,
+      "image": "05_009_F21945.jpg",
+      "image_sha256": "7e7a75cec498a963f491db915e1e315f03b987f72847541f15fa0a77e90fe58e"
+    },
+    {
+      "tag": "009",
+      "source_frame": 21975,
+      "reasons": [
+        "prefix_last"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1459,
+        948,
+        2320,
+        1478
+      ],
+      "aspect_preserved": true,
+      "image": "06_009_F21975.jpg",
+      "image_sha256": "a54c75ebe08c1b5102fc29ae19a30f06abf5d6220ab4078877745e67b40829f0"
+    },
+    {
+      "tag": "009",
+      "source_frame": 22075,
+      "reasons": [
+        "maximum_native_far_pair_overlap:0.481348"
+      ],
+      "focus_slots": [
+        "far_rear",
+        "far_front"
+      ],
+      "crop_native_xyxy": [
+        1568,
+        957,
+        2132,
+        1504
+      ],
+      "aspect_preserved": true,
+      "image": "07_009_F22075.jpg",
+      "image_sha256": "7c0e26b532f3396347dac4810def1c68de1c2eddd0eb1854025b49dbccf80120"
+    }
+  ],
+  "pages": 4,
+  "script_sha256": "bfd394de666ae63405b7bbd28842d1401c5130f647a2a561bd232d4d6c9dba7c",
+  "independent_GT": false
+}

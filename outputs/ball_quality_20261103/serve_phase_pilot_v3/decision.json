@@ -1,0 +1,16 @@
+{
+  "status": "development_phase_proposals_not_accepted_as_automatic_tracking_gate",
+  "development_clips": ["ball_pilot016_rally044", "ball_pilot002_rally007"],
+  "crop_edge_failure_repaired": true,
+  "002_repaired_contact_candidate": [745, 776],
+  "002_retained_candidates": 2,
+  "002_activity_suppressed_candidates": 6,
+  "002_deferred_candidates": 1,
+  "044_retained_candidates": 1,
+  "044_first_attempt_deferred_not_deleted": true,
+  "automatic_validity_or_point_end_classification": false,
+  "independent_accuracy_established": false,
+  "original_tracking_and_review_labels_changed": false,
+  "tracking_uses": "Previously reviewed start evidence, not automatic phase boundaries",
+  "next": "Freeze development conditions and apply to a different clip; inspect short contact/flight windows. Prefer reviewed-start tracking if phase generalization fails."
+}

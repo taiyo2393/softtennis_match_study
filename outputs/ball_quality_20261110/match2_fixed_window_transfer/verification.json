@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "processed_clips": 2,
+  "tracked_source_frames": 1798,
+  "preserved_preplay_case": true,
+  "fixed_times_per_mode": 93,
+  "preplay_unknown_times_per_mode": 31,
+  "all_selected_rows_match_original_frame_detection": true,
+  "no_unsupported_camera_emissions_in_reset_arm": true,
+  "no_pre_confirmation_backfill": true,
+  "segment_local_ID_namespaces": true,
+  "raw_ID_handover_records": 12,
+  "cases": [
+    {
+      "clip_id": "match2_fixed_clip_002",
+      "reset_segments": [
+        {
+          "segment_id": "match2_fixed_clip_002:S001",
+          "first_frame": 18578,
+          "last_frame": 18880
+        }
+      ],
+      "reset_post_initialization_missing": [],
+      "all_exported_rows_match_native_detections": true,
+      "no_reset_arm_unsupported_rows_preserved": true,
+      "reset_has_no_unsupported_frame_emissions": true,
+      "independent_ID_or_position_verified": false
+    },
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "reset_segments": [
+        {
+          "segment_id": "match2_fixed_clip_003:S001",
+          "first_frame": 53946,
+          "last_frame": 54581
+        }
+      ],
+      "reset_post_initialization_missing": [
+        {
+          "source_frame": 54328,
+          "missing_slots": [
+            "far_rear"
+          ]
+        },
+        {
+          "source_frame": 54330,
+          "missing_slots": [
+            "far_rear"
+          ]
+        },
+        {
+          "source_frame": 54538,
+          "missing_slots": [
+            "far_rear"
+          ]
+        },
+        {
+          "source_frame": 54544,
+          "missing_slots": [
+            "far_rear"
+          ]
+        }
+      ],
+      "all_exported_rows_match_native_detections": true,
+      "no_reset_arm_unsupported_rows_preserved": true,
+      "reset_has_no_unsupported_frame_emissions": true,
+      "independent_ID_or_position_verified": false
+    }
+  ],
+  "unchanged_first_supported_segment_controls": [
+    {
+      "clip_id": "match2_fixed_clip_003",
+      "first_source_frame": 53946,
+      "last_source_frame": 54581,
+      "continuous_supported_frames": 636,
+      "matching_native_assignments": 2512,
+      "same_IDs_boxes_sources_costs_and_margins_before_cut": true
+    }
+  ],
+  "protected_previous_work_unchanged": true,
+  "independent_accuracy_established": false
+}

@@ -1,0 +1,774 @@
+{
+  "parameters": {
+    "component_peak_min": 0.15,
+    "max_source_frame_gap": 12,
+    "distance_gate_base_px": 32.0,
+    "distance_gate_per_source_frame_px": 32.0,
+    "closest_candidate_margin_px": 12.0,
+    "two_direction_agreement_px": 1.0,
+    "anchor_match_px": 16.0,
+    "preserve_raw_if_agreement_px": 16.0,
+    "windows": [
+      [
+        890,
+        896
+      ],
+      [
+        959,
+        974
+      ]
+    ],
+    "scope": "Only the two diagnosed044 in-play windows; offline development, not a global ball filter",
+    "automatic_adoption": false
+  },
+  "script_sha256": "3d12501afe0a5b3892dfad5aab84f99df795f19432dbc437689971e754c2b20a",
+  "reviewed_input": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+  "reviewed_input_sha256": "76505e49061d64cf358ebd840ff91cf6bfeb46f197a2281ffe8e8b331d5ac9f3",
+  "candidate_sha256": "9502cff40ffde42a89fb3e8deb975ef07d9105ff8dabc5d74f04766c4f63c4b2",
+  "changes": {
+    "891": {
+      "action": "add_observed_component",
+      "component": {
+        "local_frame": "891",
+        "rank": "1",
+        "x_px": "788.676346212702",
+        "y_px": "559.900048046704",
+        "peak": "0.277099609375",
+        "area": "271",
+        "mean": "0.17549273371696472"
+      }
+    },
+    "892": {
+      "action": "replace_with_observed_component",
+      "component": {
+        "local_frame": "892",
+        "rank": "2",
+        "x_px": "801.3989425777114",
+        "y_px": "558.607221136681",
+        "peak": "0.333984375",
+        "area": "342",
+        "mean": "0.19420494139194489"
+      }
+    },
+    "893": {
+      "action": "replace_with_observed_component",
+      "component": {
+        "local_frame": "893",
+        "rank": "2",
+        "x_px": "802.1389844359223",
+        "y_px": "558.7276633587215",
+        "peak": "0.424560546875",
+        "area": "381",
+        "mean": "0.22707289457321167"
+      }
+    },
+    "960": {
+      "action": "replace_with_observed_component",
+      "component": {
+        "local_frame": "960",
+        "rank": "2",
+        "x_px": "1617.6684394181996",
+        "y_px": "685.6248076142092",
+        "peak": "0.1959228515625",
+        "area": "165",
+        "mean": "0.1430046260356903"
+      }
+    },
+    "968": {
+      "action": "withhold_raw_outside_both_connected_branch_gates",
+      "component": null
+    },
+    "970": {
+      "action": "replace_with_observed_component",
+      "component": {
+        "local_frame": "970",
+        "rank": "2",
+        "x_px": "1616.7140782353686",
+        "y_px": "626.475437938683",
+        "peak": "0.232177734375",
+        "area": "256",
+        "mean": "0.15161824226379395"
+      }
+    }
+  },
+  "windows": [
+    {
+      "window": [
+        890,
+        896
+      ],
+      "forward_connected": true,
+      "backward_connected": true,
+      "forward_selected": {
+        "890": {
+          "local_frame": "890",
+          "rank": "1",
+          "x_px": "787.3080443001483",
+          "y_px": "561.3856759758378",
+          "peak": "0.5439453125",
+          "area": "403",
+          "mean": "0.25900155305862427"
+        },
+        "891": {
+          "local_frame": "891",
+          "rank": "1",
+          "x_px": "788.676346212702",
+          "y_px": "559.900048046704",
+          "peak": "0.277099609375",
+          "area": "271",
+          "mean": "0.17549273371696472"
+        },
+        "892": {
+          "local_frame": "892",
+          "rank": "2",
+          "x_px": "801.3989425777114",
+          "y_px": "558.607221136681",
+          "peak": "0.333984375",
+          "area": "342",
+          "mean": "0.19420494139194489"
+        },
+        "893": {
+          "local_frame": "893",
+          "rank": "2",
+          "x_px": "802.1389844359223",
+          "y_px": "558.7276633587215",
+          "peak": "0.424560546875",
+          "area": "381",
+          "mean": "0.22707289457321167"
+        },
+        "894": {
+          "local_frame": "894",
+          "rank": "1",
+          "x_px": "814.6822077403807",
+          "y_px": "557.7810479230998",
+          "peak": "0.490234375",
+          "area": "402",
+          "mean": "0.2477998435497284"
+        },
+        "895": {
+          "local_frame": "895",
+          "rank": "1",
+          "x_px": "815.9899481155702",
+          "y_px": "556.4984560618212",
+          "peak": "0.3115234375",
+          "area": "306",
+          "mean": "0.18626633286476135"
+        },
+        "896": {
+          "local_frame": "896",
+          "rank": "1",
+          "x_px": "831.0383196863697",
+          "y_px": "555.0897307665583",
+          "peak": "0.6015625",
+          "area": "416",
+          "mean": "0.27306821942329407"
+        }
+      },
+      "backward_selected": {
+        "896": {
+          "local_frame": "896",
+          "rank": "1",
+          "x_px": "831.0383196863697",
+          "y_px": "555.0897307665583",
+          "peak": "0.6015625",
+          "area": "416",
+          "mean": "0.27306821942329407"
+        },
+        "895": {
+          "local_frame": "895",
+          "rank": "1",
+          "x_px": "815.9899481155702",
+          "y_px": "556.4984560618212",
+          "peak": "0.3115234375",
+          "area": "306",
+          "mean": "0.18626633286476135"
+        },
+        "894": {
+          "local_frame": "894",
+          "rank": "1",
+          "x_px": "814.6822077403807",
+          "y_px": "557.7810479230998",
+          "peak": "0.490234375",
+          "area": "402",
+          "mean": "0.2477998435497284"
+        },
+        "893": {
+          "local_frame": "893",
+          "rank": "2",
+          "x_px": "802.1389844359223",
+          "y_px": "558.7276633587215",
+          "peak": "0.424560546875",
+          "area": "381",
+          "mean": "0.22707289457321167"
+        },
+        "892": {
+          "local_frame": "892",
+          "rank": "2",
+          "x_px": "801.3989425777114",
+          "y_px": "558.607221136681",
+          "peak": "0.333984375",
+          "area": "342",
+          "mean": "0.19420494139194489"
+        },
+        "891": {
+          "local_frame": "891",
+          "rank": "1",
+          "x_px": "788.676346212702",
+          "y_px": "559.900048046704",
+          "peak": "0.277099609375",
+          "area": "271",
+          "mean": "0.17549273371696472"
+        },
+        "890": {
+          "local_frame": "890",
+          "rank": "1",
+          "x_px": "787.3080443001483",
+          "y_px": "561.3856759758378",
+          "peak": "0.5439453125",
+          "area": "403",
+          "mean": "0.25900155305862427"
+        }
+      },
+      "forward_context": {
+        "891": {
+          "last_observed_frame": 890,
+          "last_observed_xy": [
+            787.3080443001483,
+            561.3856759758378
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "observed_component_assigned"
+        },
+        "892": {
+          "last_observed_frame": 891,
+          "last_observed_xy": [
+            788.676346212702,
+            559.900048046704
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 117.7168626733253,
+          "decision": "observed_component_assigned"
+        },
+        "893": {
+          "last_observed_frame": 892,
+          "last_observed_xy": [
+            801.3989425777114,
+            558.607221136681
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 132.3708521516819,
+          "decision": "observed_component_assigned"
+        },
+        "894": {
+          "last_observed_frame": 893,
+          "last_observed_xy": [
+            802.1389844359223,
+            558.7276633587215
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 12.923798275591723,
+          "decision": "observed_component_assigned"
+        },
+        "895": {
+          "last_observed_frame": 894,
+          "last_observed_xy": [
+            814.6822077403807,
+            557.7810479230998
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 4.3233401449813345,
+          "decision": "observed_component_assigned"
+        },
+        "896": {
+          "last_observed_frame": 895,
+          "last_observed_xy": [
+            815.9899481155702,
+            556.4984560618212
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 16.017809456592385,
+          "decision": "observed_component_assigned"
+        }
+      },
+      "backward_context": {
+        "895": {
+          "last_observed_frame": 896,
+          "last_observed_xy": [
+            831.0383196863697,
+            555.0897307665583
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 12.385104274181717,
+          "decision": "observed_component_assigned"
+        },
+        "894": {
+          "last_observed_frame": 895,
+          "last_observed_xy": [
+            815.9899481155702,
+            556.4984560618212
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 3.6387920004470553,
+          "decision": "observed_component_assigned"
+        },
+        "893": {
+          "last_observed_frame": 894,
+          "last_observed_xy": [
+            814.6822077403807,
+            557.7810479230998
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 145.26056781649834,
+          "decision": "observed_component_assigned"
+        },
+        "892": {
+          "last_observed_frame": 893,
+          "last_observed_xy": [
+            802.1389844359223,
+            558.7276633587215
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 130.8200796078843,
+          "decision": "observed_component_assigned"
+        },
+        "891": {
+          "last_observed_frame": 892,
+          "last_observed_xy": [
+            801.3989425777114,
+            558.607221136681
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "observed_component_assigned"
+        },
+        "890": {
+          "last_observed_frame": 891,
+          "last_observed_xy": [
+            788.676346212702,
+            559.900048046704
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 4.112706869370586,
+          "decision": "observed_component_assigned"
+        }
+      }
+    },
+    {
+      "window": [
+        959,
+        974
+      ],
+      "forward_connected": true,
+      "backward_connected": true,
+      "forward_selected": {
+        "959": {
+          "local_frame": "959",
+          "rank": "1",
+          "x_px": "1590.4888205338593",
+          "y_px": "678.4355475219054",
+          "peak": "0.51513671875",
+          "area": "407",
+          "mean": "0.25436708331108093"
+        },
+        "960": {
+          "local_frame": "960",
+          "rank": "2",
+          "x_px": "1617.6684394181996",
+          "y_px": "685.6248076142092",
+          "peak": "0.1959228515625",
+          "area": "165",
+          "mean": "0.1430046260356903"
+        },
+        "970": {
+          "local_frame": "970",
+          "rank": "2",
+          "x_px": "1616.7140782353686",
+          "y_px": "626.475437938683",
+          "peak": "0.232177734375",
+          "area": "256",
+          "mean": "0.15161824226379395"
+        },
+        "972": {
+          "local_frame": "972",
+          "rank": "1",
+          "x_px": "1563.7743016046625",
+          "y_px": "583.0946643636352",
+          "peak": "0.5888671875",
+          "area": "478",
+          "mean": "0.27283352613449097"
+        },
+        "974": {
+          "local_frame": "974",
+          "rank": "1",
+          "x_px": "1511.771341138388",
+          "y_px": "549.4660354134967",
+          "peak": "0.6298828125",
+          "area": "467",
+          "mean": "0.2833578586578369"
+        }
+      },
+      "backward_selected": {
+        "974": {
+          "local_frame": "974",
+          "rank": "1",
+          "x_px": "1511.771341138388",
+          "y_px": "549.4660354134967",
+          "peak": "0.6298828125",
+          "area": "467",
+          "mean": "0.2833578586578369"
+        },
+        "972": {
+          "local_frame": "972",
+          "rank": "1",
+          "x_px": "1563.7743016046625",
+          "y_px": "583.0946643636352",
+          "peak": "0.5888671875",
+          "area": "478",
+          "mean": "0.27283352613449097"
+        },
+        "970": {
+          "local_frame": "970",
+          "rank": "2",
+          "x_px": "1616.7140782353686",
+          "y_px": "626.475437938683",
+          "peak": "0.232177734375",
+          "area": "256",
+          "mean": "0.15161824226379395"
+        },
+        "960": {
+          "local_frame": "960",
+          "rank": "2",
+          "x_px": "1617.6684394181996",
+          "y_px": "685.6248076142092",
+          "peak": "0.1959228515625",
+          "area": "165",
+          "mean": "0.1430046260356903"
+        },
+        "959": {
+          "local_frame": "959",
+          "rank": "1",
+          "x_px": "1590.4888205338593",
+          "y_px": "678.4355475219054",
+          "peak": "0.51513671875",
+          "area": "407",
+          "mean": "0.25436708331108093"
+        }
+      },
+      "forward_context": {
+        "960": {
+          "last_observed_frame": 959,
+          "last_observed_xy": [
+            1590.4888205338593,
+            678.4355475219054
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 442.89335467759577,
+          "decision": "observed_component_assigned"
+        },
+        "961": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "962": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 96.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "963": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 128.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "964": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 160.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "965": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 192.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "966": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 224.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "967": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 256.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "968": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 288.0,
+          "raw_distance_px": 444.6419809110595,
+          "decision": "missing_or_outside_gate"
+        },
+        "969": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 320.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "970": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 352.0,
+          "raw_distance_px": 443.1865483758448,
+          "decision": "observed_component_assigned"
+        },
+        "971": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "972": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 96.0,
+          "raw_distance_px": 66.29146128981742,
+          "decision": "observed_component_assigned"
+        },
+        "973": {
+          "last_observed_frame": 972,
+          "last_observed_xy": [
+            1563.7743016046625,
+            583.0946643636352
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "974": {
+          "last_observed_frame": 972,
+          "last_observed_xy": [
+            1563.7743016046625,
+            583.0946643636352
+          ],
+          "distance_gate_px": 96.0,
+          "raw_distance_px": 58.38664211647192,
+          "decision": "observed_component_assigned"
+        }
+      },
+      "backward_context": {
+        "973": {
+          "last_observed_frame": 974,
+          "last_observed_xy": [
+            1511.771341138388,
+            549.4660354134967
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "972": {
+          "last_observed_frame": 974,
+          "last_observed_xy": [
+            1511.771341138388,
+            549.4660354134967
+          ],
+          "distance_gate_px": 96.0,
+          "raw_distance_px": 63.999630963316854,
+          "decision": "observed_component_assigned"
+        },
+        "971": {
+          "last_observed_frame": 972,
+          "last_observed_xy": [
+            1563.7743016046625,
+            583.0946643636352
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "970": {
+          "last_observed_frame": 972,
+          "last_observed_xy": [
+            1563.7743016046625,
+            583.0946643636352
+          ],
+          "distance_gate_px": 96.0,
+          "raw_distance_px": 375.8237228810566,
+          "decision": "observed_component_assigned"
+        },
+        "969": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "968": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 96.0,
+          "raw_distance_px": 433.3226677634265,
+          "decision": "missing_or_outside_gate"
+        },
+        "967": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 128.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "966": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 160.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "965": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 192.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "964": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 224.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "963": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 256.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "962": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 288.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "961": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 320.0,
+          "raw_distance_px": null,
+          "decision": "missing_or_outside_gate"
+        },
+        "960": {
+          "last_observed_frame": 970,
+          "last_observed_xy": [
+            1616.7140782353686,
+            626.475437938683
+          ],
+          "distance_gate_px": 352.0,
+          "raw_distance_px": 460.7697030787551,
+          "decision": "observed_component_assigned"
+        },
+        "959": {
+          "last_observed_frame": 960,
+          "last_observed_xy": [
+            1617.6684394181996,
+            685.6248076142092
+          ],
+          "distance_gate_px": 64.0,
+          "raw_distance_px": 27.25516688077779,
+          "decision": "observed_component_assigned"
+        }
+      }
+    }
+  ],
+  "change_counts": {
+    "add_observed_component": 1,
+    "replace_with_observed_component": 4,
+    "withhold_raw_outside_both_connected_branch_gates": 1
+  },
+  "old_ball_output_frames": 272,
+  "proposed_ball_output_frames": 272,
+  "independent_accuracy_measured": false,
+  "human_review": "pending",
+  "limitation": "Model-chosen endpoint seeds and image-pixel gates are development assumptions, not verified ball labels or physical motion bounds. Withholding requires local review."
+}

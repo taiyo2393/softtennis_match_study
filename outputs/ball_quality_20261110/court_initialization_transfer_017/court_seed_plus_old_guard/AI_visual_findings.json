@@ -1,0 +1,59 @@
+{
+  "candidate_id": "match1_rally_window_017",
+  "reviewer": "Codex AI saved chronological image inspection",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "known_wrong_person_assignment": false,
+  "AI_identity_binding_added": false,
+  "contact_candidate_frames": [
+    42078,
+    42078
+  ],
+  "contact_status": "Inherited impact_confirmed record rounded toF42078; temporal precision unknown. Enlarged images support service motion near this time, not a newly certified exact contact frame or legal-service GT.",
+  "inspected_raw_context": [
+    "cohort_anchor_proposals/017/coarse_page_01.jpg",
+    "cohort_anchor_proposals/017/coarse_page_02.jpg",
+    "cohort_anchor_proposals/017/inherited_contact_detail/page_01.jpg",
+    "cohort_anchor_proposals/017/inherited_contact_detail/page_02.jpg",
+    "phase_evidence/context_grid.jpg",
+    "phase_evidence/input_grid.jpg"
+  ],
+  "inspected_all_requested_identity_images": [
+    "fixed_input_identity/near_all31.jpg",
+    "fixed_input_identity/far_all31.jpg"
+  ],
+  "inspected_annotated_context": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg",
+    "gap_diagnostics/gap_01_far_rear.jpg",
+    "gap_diagnostics/gap_02_far_front.jpg",
+    "gap_diagnostics/gap_03_far_front.jpg"
+  ],
+  "inspected_initialization_images": [
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_017\\initialization_evidence\\initialization_01_F41846.jpg",
+    "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\court_initialization_transfer_017\\initialization_evidence\\initialization_02_F41845.jpg"
+  ],
+  "observation": "N1 raw2 corresponds to white-capped white/red near-left teammate; N2 raw3 to dark-capped near-right receiver; F1 corresponds to dark far-right player; F2 corresponds to orange far-left server. Assigned requested boxes and shown gap endpoints are visually consistent with those players. No obvious person swap in inspected assigned boxes.",
+  "fixed_window_requested_times": 31,
+  "four_observation_requested_times": 28,
+  "missing_requested_frames": [
+    42140,
+    42142,
+    42144
+  ],
+  "missing_slot": "far_front",
+  "missing_requested_reason": "F2 overlaps near N1; actual final-path gap42139..42145 is7sourceframes, not3. Other gaps: F2 frame42133 and F1 frames42225..42226. Keep absent coordinates; do not assign another fragment or interpolate.",
+  "input_boundary_problem_visible": false,
+  "partial_box_ground_position_accuracy_established": false,
+  "calibration_line_overlay_visually_consistent": true,
+  "calibration_transfer_accuracy_established": false,
+  "formal_point_end_frame_confirmed": false,
+  "late_camera_transition_present": true,
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "AI_score_suggestion_not_promoted_to_human_label": true,
+  "independent_identity_or_position_accuracy_established": false,
+  "offline_future_context_used_for_far_association": true,
+  "evidence_for_new_error_prevention": false,
+  "transfer_observation": "Court-filter modes initialize1sourceframe earlier and add four observed boxes atF41845 only. No baseline output removal; all31timefeatures identical. This does not establish an additional in-play identity-error prevention success.",
+  "mode": "court_seed_plus_old_guard"
+}

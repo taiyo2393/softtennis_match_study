@@ -1,0 +1,68 @@
+{
+  "input": "analysis\\match1_full_match_near_front_final_01_preimpact_motion_features.csv",
+  "model": {
+    "type": "two_feature_ridge_logistic_regression",
+    "features": [
+      "lateral_velocity_screen_fraction_per_sec"
+    ],
+    "excluded_features": [
+      "impact_median_x_px",
+      "relative_to_impact_x_px",
+      "post_impact_frames"
+    ],
+    "ridge": 1.0,
+    "standardisation": "training-fold only",
+    "positive_class": "front_right"
+  },
+  "evaluation_scope": "leave-one-event-out within one match only; no match-level generalisation or causal claim",
+  "timepoints": {
+    "-0.500": {
+      "events": 51,
+      "front_left": 26,
+      "front_right": 25,
+      "accuracy": 0.2549019607843137,
+      "balanced_accuracy": 0.25,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.15147727272727274,
+        0.34782608695652173
+      ],
+      "permutation_p_unadjusted": 0.7742257742257742
+    },
+    "-0.300": {
+      "events": 51,
+      "front_left": 26,
+      "front_right": 25,
+      "accuracy": 0.47058823529411764,
+      "balanced_accuracy": 0.46692307692307694,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.3376739130434783,
+        0.5885301261706806
+      ],
+      "permutation_p_unadjusted": 0.2937062937062937
+    },
+    "-0.200": {
+      "events": 51,
+      "front_left": 26,
+      "front_right": 25,
+      "accuracy": 0.39215686274509803,
+      "balanced_accuracy": 0.3892307692307692,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.2615176414768806,
+        0.5185185185185185
+      ],
+      "permutation_p_unadjusted": 0.5284715284715285
+    },
+    "-0.100": {
+      "events": 51,
+      "front_left": 26,
+      "front_right": 25,
+      "accuracy": 0.17647058823529413,
+      "balanced_accuracy": 0.17307692307692307,
+      "balanced_accuracy_bootstrap_95ci": [
+        0.08333333333333333,
+        0.26785714285714285
+      ],
+      "permutation_p_unadjusted": 0.9070929070929071
+    }
+  }
+}

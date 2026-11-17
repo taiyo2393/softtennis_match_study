@@ -1,0 +1,9 @@
+{
+  "source_run": "players_048_global",
+  "target_runs": ["002", "005"],
+  "method": "Same global_pair_tracking.py and identical parameter dictionary P",
+  "parameter_changes_allowed": false,
+  "initialization": "Existing stage4 initialization for each interval; initial labels are local to each clip",
+  "scope": "Additional same-match development transfer; earlier tracking versions and snapshots already inspected",
+  "review_status": "002/005 results remain unreviewed until separately confirmed"
+}

@@ -1,0 +1,44 @@
+{
+  "prior_synchronized_publication_files_unchanged": 23,
+  "all_source_hashes_unchanged": true,
+  "AI_stroke_rows": 5,
+  "reference_player_rows": 20,
+  "observed_position_proxies": 19,
+  "missing_position_proxies_retained": 1,
+  "all_reference_positions_exact_prior_proxies": true,
+  "new_interpolated_positions": 0,
+  "new_human_event_GT": 0,
+  "no_ball_court_positions_or_landing_points_created": true,
+  "raw_evidence_videos": [
+    {
+      "name": "B01_raw_quarter_speed.mp4",
+      "frames": 17
+    },
+    {
+      "name": "H02_raw_quarter_speed.mp4",
+      "frames": 19
+    },
+    {
+      "name": "C02_raw_quarter_speed.mp4",
+      "frames": 19
+    },
+    {
+      "name": "H03_raw_quarter_speed.mp4",
+      "frames": 17
+    },
+    {
+      "name": "B02_raw_quarter_speed.mp4",
+      "frames": 19
+    },
+    {
+      "name": "H04_raw_quarter_speed.mp4",
+      "frames": 19
+    },
+    {
+      "name": "H05_raw_quarter_speed.mp4",
+      "frames": 19
+    }
+  ],
+  "overview_video_decoded_frames": 213,
+  "independent_precision_recall_not_computed": true
+}

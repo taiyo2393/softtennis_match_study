@@ -1,0 +1,374 @@
+{
+  "exclusions_sha256": "8632cb4aca2ada879095807a214ac97541391baa2839e93982a9acd66fee70f1",
+  "weight_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "targets": [
+    {
+      "point": 4,
+      "source_frame": 16788,
+      "before": 16787,
+      "after": 16796,
+      "status": "eligible",
+      "guide_xy": [
+        584.5555555555555,
+        491.88888888888886
+      ],
+      "crop_xyxy": [
+        105,
+        222,
+        1065,
+        762
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16789,
+      "before": 16787,
+      "after": 16796,
+      "status": "eligible",
+      "guide_xy": [
+        609.1111111111111,
+        490.77777777777777
+      ],
+      "crop_xyxy": [
+        129,
+        221,
+        1089,
+        761
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16790,
+      "before": 16787,
+      "after": 16796,
+      "status": "eligible",
+      "guide_xy": [
+        633.6666666666667,
+        489.6666666666667
+      ],
+      "crop_xyxy": [
+        154,
+        220,
+        1114,
+        760
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16791,
+      "before": 16787,
+      "after": 16796,
+      "status": "eligible",
+      "guide_xy": [
+        658.2222222222222,
+        488.55555555555554
+      ],
+      "crop_xyxy": [
+        178,
+        219,
+        1138,
+        759
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16794,
+      "before": 16787,
+      "after": 16796,
+      "status": "eligible",
+      "guide_xy": [
+        731.8888888888889,
+        485.22222222222223
+      ],
+      "crop_xyxy": [
+        252,
+        215,
+        1212,
+        755
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16795,
+      "before": 16787,
+      "after": 16796,
+      "status": "eligible",
+      "guide_xy": [
+        756.4444444444445,
+        484.1111111111111
+      ],
+      "crop_xyxy": [
+        276,
+        214,
+        1236,
+        754
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16824,
+      "before": 16823,
+      "after": 16825,
+      "status": "eligible",
+      "guide_xy": [
+        1043.0,
+        508.5
+      ],
+      "crop_xyxy": [
+        563,
+        238,
+        1523,
+        778
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16826,
+      "before": 16825,
+      "after": 16833,
+      "status": "eligible",
+      "guide_xy": [
+        1052.375,
+        515.5
+      ],
+      "crop_xyxy": [
+        572,
+        246,
+        1532,
+        786
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16828,
+      "before": 16825,
+      "after": 16833,
+      "status": "eligible",
+      "guide_xy": [
+        1061.125,
+        524.5
+      ],
+      "crop_xyxy": [
+        581,
+        254,
+        1541,
+        794
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16829,
+      "before": 16825,
+      "after": 16833,
+      "status": "eligible",
+      "guide_xy": [
+        1065.5,
+        529.0
+      ],
+      "crop_xyxy": [
+        586,
+        259,
+        1546,
+        799
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16830,
+      "before": 16825,
+      "after": 16833,
+      "status": "eligible",
+      "guide_xy": [
+        1069.875,
+        533.5
+      ],
+      "crop_xyxy": [
+        590,
+        264,
+        1550,
+        804
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16831,
+      "before": 16825,
+      "after": 16833,
+      "status": "eligible",
+      "guide_xy": [
+        1074.25,
+        538.0
+      ],
+      "crop_xyxy": [
+        594,
+        268,
+        1554,
+        808
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 16832,
+      "before": 16825,
+      "after": 16833,
+      "status": "eligible",
+      "guide_xy": [
+        1078.625,
+        542.5
+      ],
+      "crop_xyxy": [
+        599,
+        272,
+        1559,
+        812
+      ]
+    },
+    {
+      "point": 4,
+      "source_frame": 17136,
+      "before": 17135,
+      "after": 17137,
+      "status": "eligible",
+      "guide_xy": [
+        1038.5,
+        149.5
+      ],
+      "crop_xyxy": [
+        558,
+        0,
+        1518,
+        540
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18723,
+      "before": 18722,
+      "after": 18724,
+      "status": "eligible",
+      "guide_xy": [
+        939.0,
+        468.0
+      ],
+      "crop_xyxy": [
+        459,
+        198,
+        1419,
+        738
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18895,
+      "before": 18893,
+      "after": 18896,
+      "status": "eligible",
+      "guide_xy": [
+        972.3333333333333,
+        515.0
+      ],
+      "crop_xyxy": [
+        492,
+        245,
+        1452,
+        785
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18947,
+      "before": 18946,
+      "after": 18948,
+      "status": "eligible",
+      "guide_xy": [
+        608.5,
+        531.0
+      ],
+      "crop_xyxy": [
+        128,
+        261,
+        1088,
+        801
+      ]
+    },
+    {
+      "point": 5,
+      "source_frame": 18989,
+      "before": 18988,
+      "after": 18990,
+      "status": "eligible",
+      "guide_xy": [
+        463.5,
+        573.0
+      ],
+      "crop_xyxy": [
+        0,
+        303,
+        960,
+        843
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20883,
+      "before": 20882,
+      "after": 20884,
+      "status": "eligible",
+      "guide_xy": [
+        710.0,
+        413.0
+      ],
+      "crop_xyxy": [
+        230,
+        143,
+        1190,
+        683
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 20930,
+      "before": 20929,
+      "after": 20931,
+      "status": "eligible",
+      "guide_xy": [
+        721.5,
+        414.0
+      ],
+      "crop_xyxy": [
+        242,
+        144,
+        1202,
+        684
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 21211,
+      "before": 21210,
+      "after": 21212,
+      "status": "eligible",
+      "guide_xy": [
+        1127.0,
+        485.0
+      ],
+      "crop_xyxy": [
+        647,
+        215,
+        1607,
+        755
+      ]
+    },
+    {
+      "point": 6,
+      "source_frame": 21396,
+      "before": 21395,
+      "after": null,
+      "status": "no_short_two_sided_guide"
+    }
+  ],
+  "candidate_threshold": 0.1,
+  "radius_native_px": 32.0,
+  "guide": "Linear image-space guide between nearest remaining original candidates in the reviewed view with endpoint span <=12 frames. Used only as a search guide. Verified visual exclusions remain fixed. No recursion or filling.",
+  "extraction": "Use the existing full and 960x540 crop candidate extractor. A unique nearby component is a recovery candidate, with identity subject to visual review."
+}

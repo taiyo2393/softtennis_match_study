@@ -1,0 +1,20 @@
+{
+  "video": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_040_object_swap_review\\reviewed_040_h264.mp4",
+  "video_sha256": "6a103c7ef993e710c83754d438d7dca783c7f8ecae1052c6967444d781017cca",
+  "decoded_frames": 1140,
+  "duration_seconds": 19.019000000000002,
+  "rejected_frames": [
+    464,
+    467,
+    470,
+    554
+  ],
+  "unreviewed_neighbour_frames": [
+    463,
+    465
+  ],
+  "ball_output_frames": 428,
+  "recovered_ball_positions": 0,
+  "interpolated_positions": 0,
+  "curated_changes_are_human_corrections_not_automatic_model_improvement": true
+}

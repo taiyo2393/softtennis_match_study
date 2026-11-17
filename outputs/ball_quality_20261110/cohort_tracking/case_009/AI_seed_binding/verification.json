@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "matched_native_boxes": 1025,
+  "recalculated_values": 379,
+  "unaffected_observations_exactly_retained": 725,
+  "replacement_native_observations": 300,
+  "duplicate_raw_or_slot_assignments": false,
+  "fixed_input_frames_unchanged": true,
+  "original_baseline_and_sources_unchanged": true,
+  "assisted_video_frames_decoded": 300,
+  "AI_seed_binding_added": true,
+  "independent_tracking_accuracy_established": false
+}

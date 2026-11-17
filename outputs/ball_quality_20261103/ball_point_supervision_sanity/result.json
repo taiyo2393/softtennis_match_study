@@ -1,0 +1,18 @@
+{
+  "status": "training_only_sanity_complete",
+  "images": 9,
+  "steps": 100,
+  "initial_positive_above03": 8,
+  "initial_negative_above03": 8,
+  "final_positive_above03": 8,
+  "final_negative_above03": 2,
+  "final_correct_point_pairs": 6,
+  "mean_final_positive": 0.6123922922545009,
+  "mean_final_negative": 0.2069088394443194,
+  "protected_inputs_unchanged": true,
+  "validation_or_audit_used": false,
+  "no_model_selection": true,
+  "automatic_adoption": false,
+  "operational_outputs_changed": false,
+  "interpretation": "Training-point fit only. Removing preservation and changing exposure simultaneously does not identify a single cause of the full-data failure."
+}

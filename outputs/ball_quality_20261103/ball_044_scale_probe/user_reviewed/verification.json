@@ -1,0 +1,25 @@
+{
+  "changed_local_frames": [
+    1083,
+    1084,
+    1085,
+    1086,
+    1087,
+    1088,
+    1089,
+    1091
+  ],
+  "added_observations": 8,
+  "reviewed_false_tiled_candidates": 4,
+  "unchanged_rows": 1161,
+  "earlier_positive_observations_unchanged": true,
+  "earlier_false_raw_labels_retained": true,
+  "original_raw_history_preserved": true,
+  "person_inputs_and_source_annotations_unchanged": true,
+  "full_clip_rows": 1169,
+  "main_play_ball_output_frames": 277,
+  "input_main_play_ball_output_frames": 269,
+  "reviewed_output_sha256": "95934c96fa9a11425a493c2e73d9345df4664810e7ff879689ff67fe27d33ecc",
+  "interpolated_positions": 0,
+  "independent_accuracy_measured": false
+}

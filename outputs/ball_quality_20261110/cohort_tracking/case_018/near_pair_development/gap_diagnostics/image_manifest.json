@@ -1,0 +1,77 @@
+[
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 44224,
+    "after_source_frame": 44242,
+    "missing_frames": 17,
+    "before_raw_id": "1000005",
+    "after_raw_id": "105",
+    "image_file": "gap_01_far_rear.jpg",
+    "source_frames": [
+      44212,
+      44224,
+      44233,
+      44242,
+      44248,
+      44254
+    ],
+    "constant_crop_xyxy": [
+      2157,
+      921,
+      2621,
+      1339
+    ],
+    "aspect_preserved": true,
+    "sha256": "bafe98bcbc69ed06901034e94301ebdc098c62d9673b3a7f971db338d64e17db"
+  },
+  {
+    "player_slot": "far_rear",
+    "before_source_frame": 44166,
+    "after_source_frame": 44178,
+    "missing_frames": 11,
+    "before_raw_id": "1000005",
+    "after_raw_id": "1000137",
+    "image_file": "gap_02_far_rear.jpg",
+    "source_frames": [
+      44154,
+      44166,
+      44172,
+      44178,
+      44184,
+      44190
+    ],
+    "constant_crop_xyxy": [
+      1938,
+      924,
+      2443,
+      1338
+    ],
+    "aspect_preserved": true,
+    "sha256": "2011ad4cbb9bec206def6377aca9d36ef0fca2d965d8c2a8e38277cd425beb03"
+  },
+  {
+    "player_slot": "far_front",
+    "before_source_frame": 44193,
+    "after_source_frame": 44208,
+    "missing_frames": 14,
+    "before_raw_id": "5",
+    "after_raw_id": "5",
+    "image_file": "gap_03_far_front.jpg",
+    "source_frames": [
+      44181,
+      44193,
+      44200,
+      44208,
+      44214,
+      44220
+    ],
+    "constant_crop_xyxy": [
+      1892,
+      941,
+      2374,
+      1419
+    ],
+    "aspect_preserved": true,
+    "sha256": "3196119db87f65df26b5a2329d41eb9cf6008142ab2b6d90605bd51b48e09fb1"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "clip_id": "match2_fixed_clip_002",
+  "reset_segments": [
+    {
+      "segment_id": "match2_fixed_clip_002:S001",
+      "first_frame": 18578,
+      "last_frame": 18880
+    }
+  ],
+  "reset_post_initialization_missing": [],
+  "all_exported_rows_match_native_detections": true,
+  "no_reset_arm_unsupported_rows_preserved": true,
+  "reset_has_no_unsupported_frame_emissions": true,
+  "independent_ID_or_position_verified": false
+}

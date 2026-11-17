@@ -1,0 +1,12 @@
+﻿candidate_id,source_frame,winner_side,winner_team,position_count,status,server_side_candidate,server_review,near_lateral_gap,near_longitudinal_gap,far_lateral_gap,far_longitudinal_gap,winner_minus_loser_lateral_gap,winner_minus_loser_longitudinal_gap
+001,117,near,上岡俊介・丸山海斗,4,four_position_candidates,near,AI_sequence_inferred_not_independent_human_label,0.39534425735473633,0.3867429085075855,0.4674943536520004,0.12125873565673828,-0.0721500962972641,0.26548417285084724
+002,2259,near,上岡俊介・丸山海斗,4,four_position_candidates,near,AI_sequence_inferred_not_independent_human_label,0.6001579537987709,0.40047028940171003,0.6436725556850433,0.10692566633224487,-0.04351460188627243,0.29354462306946516
+003,4253,near,上岡俊介・丸山海斗,4,four_position_candidates,near,AI_sequence_inferred_not_independent_human_label,0.3987411856651306,0.10582075640559196,0.36064866185188293,0.3397185802459717,0.03809252381324768,-0.23389782384037971
+004,6803,near,上岡俊介・丸山海斗,4,four_position_candidates,near,AI_sequence_inferred_not_independent_human_label,0.2747175395488739,0.09167435020208359,0.6628935635089874,0.06480228900909424,-0.3881760239601135,0.02687206119298935
+005,8648,far,上岡俊介・丸山海斗,3,partial_occlusion,near,AI_sequence_inferred_not_independent_human_label,0.5263713002204895,0.4481673175469041,,,,
+006,10536,far,上岡俊介・丸山海斗,3,partial_occlusion,near,AI_sequence_inferred_not_independent_human_label,0.3709898889064789,0.42590188048779964,,,,
+007,15593,far,上岡俊介・丸山海斗,4,four_position_candidates,near,AI_sequence_inferred_not_independent_human_label,0.34799665212631226,0.05050697922706604,0.3236536383628845,0.24461424350738525,-0.024343013763427734,0.1941072642803192
+025,60006,near,上岡俊介・丸山海斗,4,four_position_candidates,near,AI_sequence_inferred_not_independent_human_label,0.3958572745323181,0.3943482507020235,0.4681394696235657,0.13193106651306152,-0.07228219509124756,0.262417184188962
+044,115403,near,上岡俊介・丸山海斗,4,four_position_candidates,far,AI_sequence_inferred_not_independent_human_label,0.33126999999999995,0.22219,0.5143,0.4051699999999999,-0.18303000000000003,-0.18297999999999992
+048,125911,far,橋場柊一郎・菊山太陽,4,four_position_candidates,far,AI_sequence_inferred_not_independent_human_label,0.4786633849143982,0.24710067734122276,0.5752971991896629,0.40503984689712524,0.09663381427526474,0.15793916955590248
+056,154116,near,橋場柊一郎・菊山太陽,4,four_position_candidates,near,AI_sequence_inferred_not_independent_human_label,0.37166999999999994,0.41173,0.34188,0.04557,0.029789999999999928,0.36616

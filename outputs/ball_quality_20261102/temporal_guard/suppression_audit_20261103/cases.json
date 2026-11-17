@@ -1,0 +1,722 @@
+[
+  {
+    "case_id": "01_001_f390",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_001",
+    "local_frame": 390,
+    "source_timestamp_sec": "8.506500",
+    "withheld_x_px": 1770.0,
+    "withheld_y_px": 650.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_001",
+      "local_frame": 390,
+      "reason": "unsupported_excursion",
+      "error_px": 459.6976478487157,
+      "model_points": 16,
+      "support_before": 3,
+      "support_after": 13
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "02_002_f318",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_002",
+    "local_frame": 318,
+    "source_timestamp_sec": "252.305300",
+    "withheld_x_px": 558.0,
+    "withheld_y_px": 680.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_002",
+      "local_frame": 318,
+      "reason": "unsupported_excursion",
+      "error_px": 739.9647054462276,
+      "model_points": 20,
+      "support_before": 8,
+      "support_after": 12
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "03_004_f313",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_004",
+    "local_frame": 313,
+    "source_timestamp_sec": "568.721883",
+    "withheld_x_px": 1563.0,
+    "withheld_y_px": 750.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_004",
+      "local_frame": 313,
+      "reason": "unsupported_excursion",
+      "error_px": 791.7204557165363,
+      "model_points": 28,
+      "support_before": 10,
+      "support_after": 18
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "04_005_f279",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_005",
+    "local_frame": 279,
+    "source_timestamp_sec": "732.654650",
+    "withheld_x_px": 418.0,
+    "withheld_y_px": 671.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_005",
+      "local_frame": 279,
+      "reason": "unsupported_excursion",
+      "error_px": 392.36839651006756,
+      "model_points": 37,
+      "support_before": 8,
+      "support_after": 29
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "05_006_f884",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_006",
+    "local_frame": 884,
+    "source_timestamp_sec": "779.248067",
+    "withheld_x_px": 433.0,
+    "withheld_y_px": 495.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_006",
+      "local_frame": 884,
+      "reason": "unsupported_excursion",
+      "error_px": 1050.2423767626076,
+      "model_points": 30,
+      "support_before": 12,
+      "support_after": 18
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "06_007_f603",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_007",
+    "local_frame": 603,
+    "source_timestamp_sec": "870.560050",
+    "withheld_x_px": 288.0,
+    "withheld_y_px": 547.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": 603,
+      "reason": "unsupported_excursion",
+      "error_px": 1075.2893889166608,
+      "model_points": 9,
+      "support_before": 2,
+      "support_after": 7
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "07_007_f633",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_007",
+    "local_frame": 633,
+    "source_timestamp_sec": "871.060550",
+    "withheld_x_px": 1636.0,
+    "withheld_y_px": 581.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": 633,
+      "reason": "unsupported_excursion",
+      "error_px": 681.1904399743623,
+      "model_points": 28,
+      "support_before": 2,
+      "support_after": 26
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "08_007_f635",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_007",
+    "local_frame": 635,
+    "source_timestamp_sec": "871.093917",
+    "withheld_x_px": 1606.0,
+    "withheld_y_px": 575.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_007",
+      "local_frame": 635,
+      "reason": "unsupported_excursion",
+      "error_px": 661.4285262149333,
+      "model_points": 28,
+      "support_before": 3,
+      "support_after": 25
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "09_008_f503",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_008",
+    "local_frame": 503,
+    "source_timestamp_sec": "1050.391717",
+    "withheld_x_px": 1113.0,
+    "withheld_y_px": 555.0,
+    "existing_annotation": {
+      "sample_id": "match1_motion_pilot_008_frame_000503",
+      "evaluation_split": "validation",
+      "candidate_id": "match1_motion_pilot_008",
+      "play_window_id": "match1_play_024",
+      "sample_order": "5",
+      "local_frame": "503",
+      "source_frame": "62961",
+      "source_timestamp_sec": "1050.391717",
+      "sampling_method": "time_stratified_15_per_clip",
+      "prediction_visible": "1",
+      "prediction_x_px": "999",
+      "prediction_y_px": "260",
+      "prediction_confidence": "0.5337",
+      "truth_visibility": "visible",
+      "truth_x_px": "994",
+      "truth_y_px": "252",
+      "reviewer_id": "",
+      "label_confidence": "",
+      "notes": ""
+    },
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_008",
+      "local_frame": 503,
+      "reason": "unsupported_excursion",
+      "error_px": 314.84145454214956,
+      "model_points": 39,
+      "support_before": 24,
+      "support_after": 15
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "10_008_f1345",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_008",
+    "local_frame": 1345,
+    "source_timestamp_sec": "1064.439083",
+    "withheld_x_px": 909.0,
+    "withheld_y_px": 579.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_008",
+      "local_frame": 1345,
+      "reason": "unsupported_excursion",
+      "error_px": 412.786679169762,
+      "model_points": 30,
+      "support_before": 2,
+      "support_after": 28
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "11_009_f123",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_009",
+    "local_frame": 123,
+    "source_timestamp_sec": "1105.052050",
+    "withheld_x_px": 1245.0,
+    "withheld_y_px": 639.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_009",
+      "local_frame": 123,
+      "reason": "unsupported_excursion",
+      "error_px": 587.939740865413,
+      "model_points": 22,
+      "support_before": 6,
+      "support_after": 16
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "12_009_f125",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_009",
+    "local_frame": 125,
+    "source_timestamp_sec": "1105.085417",
+    "withheld_x_px": 1246.0,
+    "withheld_y_px": 646.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_009",
+      "local_frame": 125,
+      "reason": "unsupported_excursion",
+      "error_px": 592.6180881032129,
+      "model_points": 23,
+      "support_before": 2,
+      "support_after": 21
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "13_009_f379",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_009",
+    "local_frame": 379,
+    "source_timestamp_sec": "1109.322983",
+    "withheld_x_px": 1096.0,
+    "withheld_y_px": 577.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_009",
+      "local_frame": 379,
+      "reason": "unsupported_excursion",
+      "error_px": 213.33600096439227,
+      "model_points": 7,
+      "support_before": 5,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "14_010_f262",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 262,
+    "source_timestamp_sec": "1190.371033",
+    "withheld_x_px": 1531.0,
+    "withheld_y_px": 571.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 262,
+      "reason": "unsupported_excursion",
+      "error_px": 542.8836276183825,
+      "model_points": 19,
+      "support_before": 7,
+      "support_after": 12
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "15_010_f362",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 362,
+    "source_timestamp_sec": "1192.039367",
+    "withheld_x_px": 740.0,
+    "withheld_y_px": 571.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 362,
+      "reason": "unsupported_excursion",
+      "error_px": 310.17716960345405,
+      "model_points": 38,
+      "support_before": 29,
+      "support_after": 9
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "16_010_f1024",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 1024,
+    "source_timestamp_sec": "1203.083733",
+    "withheld_x_px": 868.0,
+    "withheld_y_px": 630.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 1024,
+      "reason": "unsupported_excursion",
+      "error_px": 609.3819127243239,
+      "model_points": 9,
+      "support_before": 7,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "17_010_f1026",
+    "evaluation_split": "validation",
+    "candidate_id": "match1_motion_pilot_010",
+    "local_frame": 1026,
+    "source_timestamp_sec": "1203.117100",
+    "withheld_x_px": 868.0,
+    "withheld_y_px": 635.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_010",
+      "local_frame": 1026,
+      "reason": "unsupported_excursion",
+      "error_px": 628.0677741206667,
+      "model_points": 9,
+      "support_before": 7,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "18_011_f1022",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_011",
+    "local_frame": 1022,
+    "source_timestamp_sec": "1343.550367",
+    "withheld_x_px": 1393.0,
+    "withheld_y_px": 643.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_011",
+      "local_frame": 1022,
+      "reason": "unsupported_excursion",
+      "error_px": 550.3785014859857,
+      "model_points": 23,
+      "support_before": 21,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "19_011_f1224",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_011",
+    "local_frame": 1224,
+    "source_timestamp_sec": "1346.920400",
+    "withheld_x_px": 791.0,
+    "withheld_y_px": 590.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_011",
+      "local_frame": 1224,
+      "reason": "unsupported_excursion",
+      "error_px": 685.9159390918617,
+      "model_points": 7,
+      "support_before": 2,
+      "support_after": 5
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "20_012_f319",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_012",
+    "local_frame": 319,
+    "source_timestamp_sec": "1395.321983",
+    "withheld_x_px": 1539.0,
+    "withheld_y_px": 541.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_012",
+      "local_frame": 319,
+      "reason": "unsupported_excursion",
+      "error_px": 705.7448988283388,
+      "model_points": 21,
+      "support_before": 19,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "21_012_f383",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_012",
+    "local_frame": 383,
+    "source_timestamp_sec": "1396.389717",
+    "withheld_x_px": 1539.0,
+    "withheld_y_px": 541.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_012",
+      "local_frame": 383,
+      "reason": "unsupported_excursion",
+      "error_px": 759.398592454728,
+      "model_points": 14,
+      "support_before": 7,
+      "support_after": 7
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "22_014_f626",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 626,
+    "source_timestamp_sec": "1569.943767",
+    "withheld_x_px": 478.0,
+    "withheld_y_px": 646.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 626,
+      "reason": "unsupported_excursion",
+      "error_px": 789.5398967640779,
+      "model_points": 6,
+      "support_before": 4,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "23_014_f630",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 630,
+    "source_timestamp_sec": "1570.010500",
+    "withheld_x_px": 485.0,
+    "withheld_y_px": 658.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 630,
+      "reason": "unsupported_excursion",
+      "error_px": 783.9952988025015,
+      "model_points": 6,
+      "support_before": 4,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "24_014_f751",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 751,
+    "source_timestamp_sec": "1572.029183",
+    "withheld_x_px": 1051.0,
+    "withheld_y_px": 609.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 751,
+      "reason": "unsupported_excursion",
+      "error_px": 298.5884284796183,
+      "model_points": 27,
+      "support_before": 4,
+      "support_after": 23
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "25_014_f876",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 876,
+    "source_timestamp_sec": "1574.114600",
+    "withheld_x_px": 1100.0,
+    "withheld_y_px": 579.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 876,
+      "reason": "unsupported_excursion",
+      "error_px": 438.62627134858184,
+      "model_points": 15,
+      "support_before": 6,
+      "support_after": 9
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "26_014_f1293",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 1293,
+    "source_timestamp_sec": "1581.071550",
+    "withheld_x_px": 1603.0,
+    "withheld_y_px": 541.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 1293,
+      "reason": "unsupported_excursion",
+      "error_px": 509.52490125606226,
+      "model_points": 16,
+      "support_before": 6,
+      "support_after": 10
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "27_014_f1930",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_014",
+    "local_frame": 1930,
+    "source_timestamp_sec": "1591.698833",
+    "withheld_x_px": 1413.0,
+    "withheld_y_px": 502.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_014",
+      "local_frame": 1930,
+      "reason": "unsupported_excursion",
+      "error_px": 801.7452622630361,
+      "model_points": 8,
+      "support_before": 6,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "28_015_f24",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_015",
+    "local_frame": 24,
+    "source_timestamp_sec": "1744.400400",
+    "withheld_x_px": 363.0,
+    "withheld_y_px": 693.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": 24,
+      "reason": "unsupported_excursion",
+      "error_px": 496.4911278159963,
+      "model_points": 23,
+      "support_before": 19,
+      "support_after": 4
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "29_015_f28",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_015",
+    "local_frame": 28,
+    "source_timestamp_sec": "1744.467133",
+    "withheld_x_px": 371.0,
+    "withheld_y_px": 663.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_015",
+      "local_frame": 28,
+      "reason": "unsupported_excursion",
+      "error_px": 432.7701468447194,
+      "model_points": 23,
+      "support_before": 19,
+      "support_after": 4
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "30_016_f186",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_016",
+    "local_frame": 186,
+    "source_timestamp_sec": "1915.603100",
+    "withheld_x_px": 1738.0,
+    "withheld_y_px": 600.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_016",
+      "local_frame": 186,
+      "reason": "unsupported_excursion",
+      "error_px": 642.3992900060194,
+      "model_points": 13,
+      "support_before": 2,
+      "support_after": 11
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "31_016_f773",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_016",
+    "local_frame": 773,
+    "source_timestamp_sec": "1925.396217",
+    "withheld_x_px": 1310.0,
+    "withheld_y_px": 658.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_016",
+      "local_frame": 773,
+      "reason": "unsupported_excursion",
+      "error_px": 292.2276509846391,
+      "model_points": 28,
+      "support_before": 26,
+      "support_after": 2
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "32_016_f960",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_016",
+    "local_frame": 960,
+    "source_timestamp_sec": "1928.516000",
+    "withheld_x_px": 1158.0,
+    "withheld_y_px": 583.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_016",
+      "local_frame": 960,
+      "reason": "unsupported_excursion",
+      "error_px": 424.88604114419167,
+      "model_points": 8,
+      "support_before": 2,
+      "support_after": 6
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "33_017_f384",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_017",
+    "local_frame": 384,
+    "source_timestamp_sec": "2103.906400",
+    "withheld_x_px": 736.0,
+    "withheld_y_px": 626.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_017",
+      "local_frame": 384,
+      "reason": "unsupported_excursion",
+      "error_px": 351.6600947253218,
+      "model_points": 16,
+      "support_before": 8,
+      "support_after": 8
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "34_017_f399",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_017",
+    "local_frame": 399,
+    "source_timestamp_sec": "2104.156650",
+    "withheld_x_px": 759.0,
+    "withheld_y_px": 605.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_017",
+      "local_frame": 399,
+      "reason": "unsupported_excursion",
+      "error_px": 553.674597575146,
+      "model_points": 19,
+      "support_before": 2,
+      "support_after": 17
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  },
+  {
+    "case_id": "35_017_f452",
+    "evaluation_split": "test",
+    "candidate_id": "match1_motion_pilot_017",
+    "local_frame": 452,
+    "source_timestamp_sec": "2105.040867",
+    "withheld_x_px": 976.0,
+    "withheld_y_px": 581.0,
+    "existing_annotation": null,
+    "diagnostic": {
+      "candidate_id": "match1_motion_pilot_017",
+      "local_frame": 452,
+      "reason": "unsupported_excursion",
+      "error_px": 515.3759184111211,
+      "model_points": 18,
+      "support_before": 2,
+      "support_after": 16
+    },
+    "review_scope": "AI visual diagnostic; independent review pending"
+  }
+]

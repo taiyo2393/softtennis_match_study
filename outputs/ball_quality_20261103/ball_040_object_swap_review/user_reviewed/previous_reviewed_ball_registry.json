@@ -1,0 +1,143 @@
+{
+  "scope": "Explicitly reviewed per-clip overrides; unchanged detector baseline remains available",
+  "clips": {
+    "match1_motion_pilot_016": {
+      "rally_candidate_id": "match1_rally_window_044",
+      "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+      "reviewed_output_sha256": "95934c96fa9a11425a493c2e73d9345df4664810e7ff879689ff67fe27d33ecc",
+      "original_baseline": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_016\\balltrack_predictions.csv",
+      "reviewed_changed_local_frames": [
+        773,
+        784,
+        891,
+        892,
+        893,
+        960,
+        968,
+        970,
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1087,
+        1088,
+        1089,
+        1091,
+        1103
+      ],
+      "review_id": "20261103_044_tiled_eight_real_four_false",
+      "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json",
+      "automatic_filter_adopted": false,
+      "precise_center_or_full_track_accuracy_established": false,
+      "previous_reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\predictions\\match1_motion_pilot_016\\balltrack_predictions.csv",
+      "confirmed_ball_candidate_local_frames": [
+        773,
+        784,
+        891,
+        892,
+        893,
+        960,
+        970,
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1087,
+        1088,
+        1089,
+        1091,
+        1103
+      ],
+      "confirmed_false_raw_local_frames": [
+        968,
+        1082,
+        1084,
+        1086,
+        1087,
+        1088
+      ],
+      "review_records": [
+        "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\inplay_ball_044\\user_reviewed\\review.json",
+        "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_branch_recovery\\user_reviewed\\review.json",
+        "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_jump1080_audit\\user_reviewed\\review.json",
+        "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_044_scale_probe\\user_reviewed\\review.json"
+      ],
+      "physical_ball_visibility_at_rejected_frames": "Candidate-specific; see individual review records. Some rejected raw/tiled locations coexist with confirmed alternative ball components.",
+      "candidate_label_note": "Raw and tiled candidate rejections are separate. A frame can contain a false candidate and a different confirmed ball component.",
+      "confirmed_false_tiled_candidates": [
+        {
+          "local_frame": "1090",
+          "display_label": "A",
+          "inference_view": "fixed_2x_tiles",
+          "tile_index": "3",
+          "component_rank": "1",
+          "x_px": "740.0834541319002",
+          "y_px": "557.4419823143041",
+          "review_id": "20261103_044_tiled_eight_real_four_false"
+        },
+        {
+          "local_frame": "1091",
+          "display_label": "A",
+          "inference_view": "fixed_2x_tiles",
+          "tile_index": "3",
+          "component_rank": "2",
+          "x_px": "729.2613975287602",
+          "y_px": "557.7986081522511",
+          "review_id": "20261103_044_tiled_eight_real_four_false"
+        },
+        {
+          "local_frame": "1092",
+          "display_label": "A",
+          "inference_view": "fixed_2x_tiles",
+          "tile_index": "3",
+          "component_rank": "1",
+          "x_px": "764.3403362122799",
+          "y_px": "550.4279985499422",
+          "review_id": "20261103_044_tiled_eight_real_four_false"
+        },
+        {
+          "local_frame": "1093",
+          "display_label": "A",
+          "inference_view": "fixed_2x_tiles",
+          "tile_index": "3",
+          "component_rank": "1",
+          "x_px": "752.8560222863372",
+          "y_px": "551.7024282852105",
+          "review_id": "20261103_044_tiled_eight_real_four_false"
+        }
+      ]
+    },
+    "match1_motion_pilot_008": {
+      "rally_candidate_id": "match1_rally_window_026",
+      "reviewed_output": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\predictions\\match1_motion_pilot_008\\balltrack_predictions.csv",
+      "reviewed_output_sha256": "c9452ece04271f970ae041d3134580a5d4a83a332a0293c38344b2a42303d763",
+      "original_baseline": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\tracking_quality_20261102\\ball_aligned\\match1_motion_pilot_008\\balltrack_predictions.csv",
+      "reviewed_changed_local_frames": [
+        391,
+        503,
+        615,
+        1623
+      ],
+      "confirmed_ball_candidate_local_frames": [
+        391,
+        615
+      ],
+      "confirmed_false_raw_local_frames": [
+        503,
+        1623
+      ],
+      "review_id": "20261103_008_four_candidates_AC_real_BD_false",
+      "review_record": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\review.json",
+      "review_records": [
+        "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_candidate_cross_rally\\user_reviewed\\review.json"
+      ],
+      "automatic_filter_adopted": false,
+      "precise_center_or_full_track_accuracy_established": false,
+      "physical_ball_visibility_at_rejected_frames": "not_established"
+    }
+  }
+}

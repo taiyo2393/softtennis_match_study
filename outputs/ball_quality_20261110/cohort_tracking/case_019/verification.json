@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "candidate_id": "match1_rally_window_019",
+  "selected_boxes_matched_to_augmented_detection_source": 3268,
+  "recalculated_feature_values": 379,
+  "requested_times": 31,
+  "four_observation_times": 21,
+  "missing_requested_times": [
+    {
+      "source_frame": 46376,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46378,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46380,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46382,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46384,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46386,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46388,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46390,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46392,
+      "missing_slots": [
+        "far_rear"
+      ]
+    },
+    {
+      "source_frame": 46394,
+      "missing_slots": [
+        "far_rear"
+      ]
+    }
+  ],
+  "source_JPEG_recreations": 4,
+  "video_frames_decoded": 1860,
+  "videos": [
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_019\\tracking_quality_20261102_stage4\\players_019_temporal\\tracking_review_h264.mp4",
+      "frames": 930,
+      "sha256": "f2203798b16337ed557810ca0d128398c610d40fd499e8372796f96388812efb"
+    },
+    {
+      "path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261110\\cohort_tracking\\case_019\\tracking_quality_20261102_stage7\\players_019_global\\global_review_h264.mp4",
+      "frames": 930,
+      "sha256": "efce21d7862558f7e3ca4b1aa947fee63d540268c418475aa0220b70745f3c4d"
+    }
+  ],
+  "numerical_parameters_equal_retained001": true,
+  "QA_grid_source_frames": [
+    46316,
+    46340,
+    46346,
+    46376,
+    46406,
+    46436,
+    46451,
+    46466,
+    46753
+  ],
+  "interpolation_found": false,
+  "duplicate_slot_or_raw_detection_assignments_found": false,
+  "protected_sources_unchanged": true,
+  "independent_identity_or_position_accuracy_established": false
+}

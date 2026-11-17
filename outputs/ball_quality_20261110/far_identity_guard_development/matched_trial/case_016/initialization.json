@@ -1,0 +1,12 @@
+{
+  "event": "initialized",
+  "frame": 40556,
+  "window_start": 40549,
+  "seed_ids": {
+    "near_front": 2,
+    "near_rear": 1,
+    "far_rear": 8,
+    "far_front": 4
+  },
+  "identity_status": "candidate_not_ground_truth"
+}

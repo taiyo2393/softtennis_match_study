@@ -1,0 +1,32 @@
+{
+  "status": "fixed_before_training",
+  "seed": 20261103,
+  "epochs": 3,
+  "batch_size": 2,
+  "validation_batch_size": 4,
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "gradient_clip_norm": 1.0,
+  "trainable": [
+    "up_block_3",
+    "predictor"
+  ],
+  "frozen": "All other parameters and ALL BatchNorm running statistics",
+  "loss": "Unchanged source WBCELoss on final heatmap, FP32 reduction; sigma3.5 Gaussian centered at int(manual_x*512/1920), int(manual_y*288/1080); stored not_visible ->zero heatmap",
+  "input": "median+BGRt-3..t, /255,512x288; same source JPEGs as manual click interface; no off-by-one shift",
+  "transforms": "No mixup,flips,crops,rotations,augmentation or threshold tuning",
+  "model_inference_threshold": 0.3,
+  "decoder": "unchanged infer._predict_location largest component bounding-box center",
+  "localization_radius_source_px": 16.0,
+  "partition_manifest_sha256": "09ae942e3251cd641b1c7d39d95e52757d88bfd25225d601d545ebeb4a573df3",
+  "manual_provenance_sha256": "7836d34f8b8dbaa028ba60c56c4fdec04262f77c84c887e503c8e927eec0f929",
+  "checkpoint_selection": "Include epoch0 original. Max validation localizedTP16px, then fewer(wrong_localization+presenceFP), ties earliest. Audit labels never used for selection.",
+  "audit": "Only after epoch selection, evaluate60labels on002/008/016/018. Those clips do not enter training or validation.",
+  "phase_scope": "Stored manual labels include preparation and transitions; aggregate is not in-play-only accuracy",
+  "data_reuse_warning": "These clips have been seen in previous experiments; clip separation prevents frame leakage but is not untouched external testing",
+  "automatic_adoption": false,
+  "source_weights_sha256": "00d707b9db7a49561c411e4765956e79bcd7c7e20c7a0a535073440b3e972342",
+  "script_sha256": "72bb391975f10ee9dd0d939a03003d1959a7edd929e92484039619b81641b43a",
+  "checkpoint_format": "New local full state_dict snapshots; never modify pretrained checkpoint or reviewed output registries"
+}

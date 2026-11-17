@@ -1,0 +1,204 @@
+{
+  "config": {
+    "name": "gap4_peak0.15",
+    "max_gap": 4,
+    "min_peak": 0.15,
+    "radius_px": 16.0,
+    "all_missing_frames_supported": true
+  },
+  "baseline_metrics": {
+    "counts": {
+      "frames": 150,
+      "truth_visible": 121,
+      "pred_visible": 89,
+      "presence_tp": 84,
+      "localized_tp_16px": 80,
+      "wrong_localization": 4,
+      "presence_tn": 24,
+      "presence_fn": 37,
+      "presence_fp": 5
+    },
+    "localization_recall_16px": 0.6611570247933884,
+    "localization_precision_16px": 0.898876404494382,
+    "mean_error_both_visible_px": 11.541442251595349,
+    "median_error_both_visible_px": 3.1622776601683795
+  },
+  "validation_candidates": [
+    {
+      "config": {
+        "name": "gap4_peak0.10",
+        "max_gap": 4,
+        "min_peak": 0.1,
+        "radius_px": 16.0,
+        "all_missing_frames_supported": true
+      },
+      "added_frames_all_clips": 123,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 91,
+          "presence_tp": 86,
+          "localized_tp_16px": 82,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 35,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6776859504132231,
+        "localization_precision_16px": 0.9010989010989011,
+        "mean_error_both_visible_px": 11.390131104956136,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "nonlocalized_outputs_on_labeled_frames": 9,
+      "eligible": true
+    },
+    {
+      "config": {
+        "name": "gap4_peak0.15",
+        "max_gap": 4,
+        "min_peak": 0.15,
+        "radius_px": 16.0,
+        "all_missing_frames_supported": true
+      },
+      "added_frames_all_clips": 92,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 91,
+          "presence_tp": 86,
+          "localized_tp_16px": 82,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 35,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6776859504132231,
+        "localization_precision_16px": 0.9010989010989011,
+        "mean_error_both_visible_px": 11.390131104956136,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "nonlocalized_outputs_on_labeled_frames": 9,
+      "eligible": true
+    },
+    {
+      "config": {
+        "name": "gap8_peak0.10",
+        "max_gap": 8,
+        "min_peak": 0.1,
+        "radius_px": 16.0,
+        "all_missing_frames_supported": true
+      },
+      "added_frames_all_clips": 134,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 91,
+          "presence_tp": 86,
+          "localized_tp_16px": 82,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 35,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6776859504132231,
+        "localization_precision_16px": 0.9010989010989011,
+        "mean_error_both_visible_px": 11.390131104956136,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "nonlocalized_outputs_on_labeled_frames": 9,
+      "eligible": true
+    },
+    {
+      "config": {
+        "name": "gap8_peak0.15",
+        "max_gap": 8,
+        "min_peak": 0.15,
+        "radius_px": 16.0,
+        "all_missing_frames_supported": true
+      },
+      "added_frames_all_clips": 97,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 91,
+          "presence_tp": 86,
+          "localized_tp_16px": 82,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 35,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6776859504132231,
+        "localization_precision_16px": 0.9010989010989011,
+        "mean_error_both_visible_px": 11.390131104956136,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "nonlocalized_outputs_on_labeled_frames": 9,
+      "eligible": true
+    },
+    {
+      "config": {
+        "name": "gap12_peak0.10",
+        "max_gap": 12,
+        "min_peak": 0.1,
+        "radius_px": 16.0,
+        "all_missing_frames_supported": true
+      },
+      "added_frames_all_clips": 134,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 91,
+          "presence_tp": 86,
+          "localized_tp_16px": 82,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 35,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6776859504132231,
+        "localization_precision_16px": 0.9010989010989011,
+        "mean_error_both_visible_px": 11.390131104956136,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "nonlocalized_outputs_on_labeled_frames": 9,
+      "eligible": true
+    },
+    {
+      "config": {
+        "name": "gap12_peak0.15",
+        "max_gap": 12,
+        "min_peak": 0.15,
+        "radius_px": 16.0,
+        "all_missing_frames_supported": true
+      },
+      "added_frames_all_clips": 97,
+      "metrics": {
+        "counts": {
+          "frames": 150,
+          "truth_visible": 121,
+          "pred_visible": 91,
+          "presence_tp": 86,
+          "localized_tp_16px": 82,
+          "wrong_localization": 4,
+          "presence_tn": 24,
+          "presence_fn": 35,
+          "presence_fp": 5
+        },
+        "localization_recall_16px": 0.6776859504132231,
+        "localization_precision_16px": 0.9010989010989011,
+        "mean_error_both_visible_px": 11.390131104956136,
+        "median_error_both_visible_px": 3.1622776601683795
+      },
+      "nonlocalized_outputs_on_labeled_frames": 9,
+      "eligible": true
+    }
+  ],
+  "label_sha256": "35782fe9c86abe0baf9e97871201a14f692405a44dc6541ec5b5af2b649988b1",
+  "warning": "Existing labels have unverified independent annotation provenance. No test labels used for selection."
+}

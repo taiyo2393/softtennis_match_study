@@ -1,0 +1,10 @@
+{
+  "status": "review_complete_two_candidates_accepted_one_rejected",
+  "automatic_tracking_replacement": false,
+  "automatic_weak_crop_fill": false,
+  "reason": "B was a wrong object although exactly1component passed the fixed temporal search gate. Cropping and temporal proximity do not establish ball identity.",
+  "operational_scope": "Use the two reviewed points as explicit local repairs. Leave unreviewed crop outputs unadopted; retain old successful positions.",
+  "threshold_tuning_from_this_reply": false,
+  "other_match_effectiveness_established": false,
+  "candidate_enclosure_is_not_exact_center_truth": true
+}

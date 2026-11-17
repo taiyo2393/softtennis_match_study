@@ -1,0 +1,12 @@
+{
+  "status": "running",
+  "url": "http://127.0.0.1:52746/THDWkxhcKqTeu2HpSnEE8Ez0/",
+  "pid": 40192,
+  "bind": "127.0.0.1",
+  "cases": 4,
+  "labels_path": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\ball_quality_20261103\\ball_inplay_challenge\\manual_center_labels.csv",
+  "original300_path": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\annotations\\balltrack_groundtruth_match1_pilot.csv",
+  "original300_written": false,
+  "case_manifest_sha256": "0f3261ee7baad74b732492128f0d88d33923aaa7387c352da3882962a022b203",
+  "server_script_sha256": "b683298ab6a4ae8d0af0fd53c0b82fdd8731c339d8f2171b1877e60c36ce1392"
+}

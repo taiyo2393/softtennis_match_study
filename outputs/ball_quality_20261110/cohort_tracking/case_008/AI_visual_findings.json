@@ -1,0 +1,68 @@
+{
+  "reviewer": "Codex AI image inspection",
+  "candidate_id": "match1_rally_window_008",
+  "input_phase_status": "ai_visual_sequence_supported",
+  "anchor_source": "cohort_anchor_proposals/008/contact_proposal.json",
+  "contact_candidate_frames": [
+    17940,
+    17946
+  ],
+  "anchor_basis": "Receiver closeup is followed by a wide shot with near-left player holding/releasing the ball and striking from a low position. Native-resolution detail supports a service action; first wide-shot entry alone is not the anchor.",
+  "inspected_raw_context": "cohort_anchor_proposals/008/coarse_page_01..04.jpg;lookback_292_299_5.jpg;fine_sequence.jpg;near_left_swing_detail.jpg",
+  "inspected_all_requested_times": "phase_evidence/input_grid.jpg",
+  "inspected_annotated_images": [
+    "candidate_sequence_grid.jpg",
+    "far_pair_detail_grid.jpg"
+  ],
+  "annotated_QA_frames": [
+    17916,
+    17940,
+    17946,
+    17976,
+    18006,
+    18036,
+    18051,
+    18066,
+    19180
+  ],
+  "observation": "The fixed input covers service recovery, far receiving motion and near teammate readiness; sustained play follows. Available annotated frames show near pair on white/red players, F1 on dark far player and F2 on orange far player.",
+  "input_boundary_problem_visible": false,
+  "formal_point_end_frame_confirmed": false,
+  "service_validity_newly_human_confirmed": false,
+  "four_observation_times": 31,
+  "requested_times": 31,
+  "independent_human_identity_GT_added": false,
+  "exact_contact_time_newly_confirmed": false,
+  "no_obvious_far_pair_swap_in_inspected_frames": true,
+  "gap_diagnostic_selection": "Largest two post-initialization gaps per slot, four sheets. Diagnostic selection, not representative accuracy sampling.",
+  "gap_images_inspected": [
+    "gap_01_far_rear.jpg",
+    "gap_02_far_rear.jpg",
+    "gap_03_far_front.jpg",
+    "gap_04_far_front.jpg"
+  ],
+  "gap_observations": [
+    {
+      "image": "gap_01_far_rear.jpg",
+      "note": "Dark far player is hidden by near N2; reappearance is visually consistent but accepted boxes can be partial."
+    },
+    {
+      "image": "gap_02_far_rear.jpg",
+      "note": "Dark far player again passes behind near N2; correspondence consistent in shown endpoints, not independent GT."
+    },
+    {
+      "image": "gap_03_far_front.jpg",
+      "note": "Orange far player crosses behind near N2 and reappears; no obvious change of person in shown endpoints."
+    },
+    {
+      "image": "gap_04_far_front.jpg",
+      "note": "Brief overlapping orange/dark far players; shown labels remain on their respective clothing."
+    }
+  ],
+  "position_quality_caution": "Occluded fragments can bias bbox-bottom proxies despite plausible identity. No whole-rally identity/position accuracy claim.",
+  "winner_camera_side": "",
+  "winner_label_status": "unreviewed",
+  "AI_score_suggestion_not_promoted_to_human_label": true,
+  "late_context_transition_frame": 19180,
+  "late_transition_not_model_input": true
+}

@@ -1,0 +1,5 @@
+﻿cohort,group,timepoint_sec,total_events,directional_events,matches,disagreements,unclassified,agreement_percent,classification_percent
+secondary18,全体,-0.5,18,1,0,1,17,0.0,5.555555555555555
+secondary18,全体,-0.3,18,5,2,3,13,40.0,27.77777777777778
+secondary18,全体,-0.2,18,4,2,2,14,50.0,22.22222222222222
+secondary18,全体,-0.1,18,4,2,2,14,50.0,22.22222222222222

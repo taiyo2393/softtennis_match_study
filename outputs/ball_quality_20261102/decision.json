@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "candidate_method": "weak_heatmap_temporal_recovery_gap4_peak0.15",
+  "adopted": false,
+  "reason": "Fixed-setting test retained 96/128 localized positives and increased wrong localizations from 3 to 4.",
+  "active_ball_predictions": "../tracking_quality_20261102/ball_aligned",
+  "experimental_predictions_not_active": "selected_predictions",
+  "evidence": ["selected_method.json", "test_results.json"],
+  "evaluation_status": "provisional_same_match_previously_used_test_with_unverified_annotation_provenance",
+  "next_model": "TOTNet",
+  "next_model_status": "strict_checkpoint_load_and_actual_frame_cuda_forward_verified_accuracy_not_evaluated",
+  "next_model_evidence": "totnet_setup_report.json"
+}

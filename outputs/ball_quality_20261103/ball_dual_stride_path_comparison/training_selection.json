@@ -1,0 +1,62 @@
+{
+  "chosen": null,
+  "baseline": {
+    "counts": {
+      "frames": 123,
+      "truth_visible": 102,
+      "pred_visible": 70,
+      "presence_tp": 68,
+      "localized_tp_16px": 66,
+      "wrong_localization": 2,
+      "presence_tn": 19,
+      "presence_fn": 34,
+      "presence_fp": 2
+    },
+    "localization_recall_16px": 0.6470588235294118,
+    "localization_precision_16px": 0.9428571428571428,
+    "mean_error_both_visible_px": 5.760533423739907
+  },
+  "grid": [
+    {
+      "policy": "union_path",
+      "correct": 70,
+      "errors": 6,
+      "correct_lost": 0,
+      "lost_ids": "",
+      "changed_outputs": 26,
+      "eligible": 0
+    },
+    {
+      "policy": "missing_only_union_path",
+      "correct": 70,
+      "errors": 6,
+      "correct_lost": 0,
+      "lost_ids": "",
+      "changed_outputs": 6,
+      "eligible": 0
+    },
+    {
+      "policy": "missing_only_stride2_path",
+      "correct": 70,
+      "errors": 6,
+      "correct_lost": 0,
+      "lost_ids": "",
+      "changed_outputs": 6,
+      "eligible": 0
+    },
+    {
+      "policy": "missing_only_stride2_area",
+      "correct": 71,
+      "errors": 7,
+      "correct_lost": 0,
+      "lost_ids": "",
+      "changed_outputs": 8,
+      "eligible": 0
+    }
+  ],
+  "validation_used": false,
+  "challenge_used": false,
+  "short_used": false,
+  "six_false_used": false,
+  "selection_frozen": true
+}

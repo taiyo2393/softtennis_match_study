@@ -1,0 +1,38 @@
+{
+  "status": "frozen_supplement_not_selected_for_operational_use",
+  "date_jst": "2026-11-09",
+  "reason": "Continuous inspection confirmed new wrong-target outputs at D515/516. Sparse-anchor safety passed but is insufficient for operational use.",
+  "operational_adoption": false,
+  "candidate_head_sha256": "91a05599577e9462092b05ae27109a1e30089adaf6f3dee186436b7493e504b8",
+  "observed_added_failures": [
+    {
+      "window_id": "D",
+      "local_frames": [
+        515,
+        516
+      ],
+      "source_frames": [
+        154441,
+        154442
+      ]
+    }
+  ],
+  "separate_existing_failure": {
+    "window_id": "B",
+    "local_frame": 275,
+    "source_frame": 57488,
+    "inherited_by_supplement": true,
+    "limitation": "Missing-only supplement cannot correct an already-present wrong output."
+  },
+  "previous_52target_results_retained": {
+    "original_correct": 33,
+    "candidate_correct": 40,
+    "visible_targets": 45,
+    "result_scope": "Known sparse same-match target positions only; these3newfailure frames are outside those52targets."
+  },
+  "training_or_threshold_changed": false,
+  "per_frame_exception_added": false,
+  "protected_tracking_changed": false,
+  "next": "Diagnose single-frame component evidence versus temporal support using training-only development. Freeze a new rule before checking known failure cases; never call those checks independent validation. Reserve separate sequences/matches for evaluation.",
+  "evidence_sha256": "07c22c2b34c94eafce9763f67ecd353f13d8270ca4d2ee290d7fae0a91d4e04c"
+}

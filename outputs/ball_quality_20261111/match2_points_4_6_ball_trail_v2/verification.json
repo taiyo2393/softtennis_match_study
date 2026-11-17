@@ -1,0 +1,55 @@
+{
+  "decoded_frames": 769,
+  "source_core_frames": 1535,
+  "output_fps": "15000/1001",
+  "source_frame_stride": 2,
+  "playback_speed": 0.5,
+  "court_view_limits": {
+    "x": [
+      -0.25,
+      1.25
+    ],
+    "y": [
+      -0.3,
+      1.3595014146811586
+    ]
+  },
+  "all_shown_player_proxies_fit_viewport": true,
+  "ball_geometry": "image pixels only",
+  "route_count": 0,
+  "occluded_foot_positions_hidden": 290,
+  "metrics": "Candidate availability. Player identity and physical accuracy have no independent ground truth here.",
+  "video_sha256": "4cda39ab462664a198a38dc39a8d183bacd658442e4d9d89f483684b9dbabc94",
+  "rallies": [
+    {
+      "point": 4,
+      "first_frame": 16711,
+      "last_frame": 17299,
+      "core_frames": 589,
+      "line_supported_frames": 589,
+      "four_player_candidate_frames": 370,
+      "ball_candidate_frames": 470,
+      "both_candidate_frames": 327
+    },
+    {
+      "point": 5,
+      "first_frame": 18719,
+      "last_frame": 19055,
+      "core_frames": 337,
+      "line_supported_frames": 337,
+      "four_player_candidate_frames": 337,
+      "ball_candidate_frames": 172,
+      "both_candidate_frames": 172
+    },
+    {
+      "point": 6,
+      "first_frame": 20788,
+      "last_frame": 21396,
+      "core_frames": 609,
+      "line_supported_frames": 609,
+      "four_player_candidate_frames": 571,
+      "ball_candidate_frames": 409,
+      "both_candidate_frames": 403
+    }
+  ]
+}

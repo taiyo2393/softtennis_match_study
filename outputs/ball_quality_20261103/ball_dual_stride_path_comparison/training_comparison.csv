@@ -1,0 +1,5 @@
+﻿policy,correct,errors,correct_lost,lost_ids,changed_outputs,eligible
+union_path,70,6,0,,26,0
+missing_only_union_path,70,6,0,,6,0
+missing_only_stride2_path,70,6,0,,6,0
+missing_only_stride2_area,71,7,0,,8,0

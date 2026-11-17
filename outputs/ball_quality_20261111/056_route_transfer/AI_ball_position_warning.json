@@ -1,0 +1,12 @@
+{
+  "source_frame": 154780,
+  "original_image_x_px": "1102.0",
+  "original_image_y_px": "579.0",
+  "adjacent_linear_reference_only_not_replacement": [
+    935.0,
+    528.5
+  ],
+  "residual_px": 174.46847852835768,
+  "scope": "One AI-discovered suspicious assisted-center jump. Not a validated automatic filter, no human center edit.",
+  "display": "Original point red warning circle; do not draw path segments to it. Never replace it with diagnostic reference."
+}

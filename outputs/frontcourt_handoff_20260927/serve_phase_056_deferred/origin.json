@@ -1,0 +1,7 @@
+{
+  "source_tracker_file": "C:\\Users\\ta239\\AndroidStudioProjects\\tennis_ai_app2\\outputs\\frontcourt_handoff_20260927\\serve_phase_056\\bytetrack.csv",
+  "tracker_original_first_frame": 154051,
+  "deferred_seed_first_frame": 154086,
+  "dropped_initial_frames": 35,
+  "warning": "Candidate selection only; no independent identity or position ground truth"
+}

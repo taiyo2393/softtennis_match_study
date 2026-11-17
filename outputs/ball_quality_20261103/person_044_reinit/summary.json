@@ -1,0 +1,139 @@
+{
+  "search": {
+    "best_path_cost": 420.2240085783939,
+    "surviving_final_hypotheses": 48,
+    "caution": "Beam search is approximate; path score is not calibrated identity confidence."
+  },
+  "total_output_frames": 416,
+  "main_play_frames": 402,
+  "far_assignments_in_main": 717,
+  "frames_with_two_far_candidate_boxes": 315,
+  "frames_with_four_candidate_boxes": 315,
+  "slots": {
+    "near_front": {
+      "rows": 402,
+      "raw_ids": {
+        "2": 402
+      }
+    },
+    "near_rear": {
+      "rows": 402,
+      "raw_ids": {
+        "1": 402
+      }
+    },
+    "far_rear": {
+      "rows": 355,
+      "raw_ids": {
+        "422": 159,
+        "775": 69,
+        "868": 4,
+        "870": 123
+      }
+    },
+    "far_front": {
+      "rows": 362,
+      "raw_ids": {
+        "20": 362
+      }
+    }
+  },
+  "missing_local_frames": {
+    "near_front": [],
+    "near_rear": [],
+    "far_rear": [
+      898,
+      899,
+      900,
+      901,
+      902,
+      903,
+      904,
+      905,
+      906,
+      907,
+      908,
+      909,
+      910,
+      911,
+      912,
+      982,
+      983,
+      984,
+      985,
+      986,
+      987,
+      988,
+      989,
+      990,
+      991,
+      992,
+      993,
+      994,
+      995,
+      996,
+      997,
+      998,
+      999,
+      1102,
+      1103,
+      1104,
+      1105,
+      1106,
+      1107,
+      1108,
+      1109,
+      1110,
+      1111,
+      1112,
+      1113,
+      1114,
+      1115
+    ],
+    "far_front": [
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      818,
+      819,
+      820,
+      821,
+      822,
+      823,
+      824,
+      825,
+      826,
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      833,
+      834,
+      835
+    ]
+  },
+  "accuracy_not_measured": true,
+  "identity_review": "pending",
+  "warning": "Counts describe candidate availability, not correct identity or position. Future frames select the full offline path."
+}

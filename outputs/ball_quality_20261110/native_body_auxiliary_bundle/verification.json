@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "merged_slot_rows": 2480,
+  "all_missing_positions_preserved": true,
+  "geometry_never_created_from_body": true,
+  "merge_invariant_tests": 4,
+  "test_output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n",
+  "summaries": [
+    {
+      "policy": "unmasked_torso",
+      "states": {
+        "native_box_candidate": 1161,
+        "body_only_identity_hypothesis": 34,
+        "unsupported": 45
+      },
+      "four_native_position_times": 251,
+      "four_identity_candidate_times": 265,
+      "independent_accuracy_established": false
+    },
+    {
+      "policy": "exclude_near_rectangles",
+      "states": {
+        "native_box_candidate": 1161,
+        "unsupported": 47,
+        "body_only_identity_hypothesis": 32
+      },
+      "four_native_position_times": 251,
+      "four_identity_candidate_times": 263,
+      "independent_accuracy_established": false
+    }
+  ],
+  "protected_inputs_unchanged": true
+}
