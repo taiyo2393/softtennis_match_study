@@ -1,0 +1,518 @@
+{
+  "analysis_id": "match1_direction_agreement_reanalysis_20261117",
+  "created_at_utc": "2026-11-17T08:26:13.585309+00:00",
+  "script": "study\\scripts\\101_reanalyze_direction_agreement.py",
+  "script_sha256": "77a2938f78e30802713a4580ff5ff94a71f7fe4ba08a562744a705a98de8ee27",
+  "python": {
+    "executable": "C:\\Users\\ta239\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "version": "3.12.10",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "library_versions": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.0",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": {
+    "main80": {
+      "path": "study\\analysis\\rear_hitter_main80\\main80_event_timepoints.csv",
+      "sha256": "5055b7aff3edc0f331947117bf401f4943acdb898e68d7f8dc24264b5ea1ea72",
+      "rows": 320,
+      "events": 80,
+      "encoding": "utf-8-sig"
+    },
+    "all98": {
+      "path": "study\\analysis\\match1_court_plane_directional_motion_t0p015_event_timepoints.csv",
+      "sha256": "84fedfe1293cadb6a8fac1b5550f6696149553e9799a9a33d402276a70ed6658",
+      "rows": 392,
+      "events": 98,
+      "encoding": "utf-8-sig"
+    }
+  },
+  "input_hashes_unchanged_after_analysis": true,
+  "definitions": {
+    "d": "signed_displacement_toward_actual_court_width; positive means toward the actual shot direction; unit=court width fraction",
+    "decision": "abs(d) >= threshold; at threshold=0 only, d != 0",
+    "agreement": "decision and d > 0",
+    "disagreement": "decision and d < 0",
+    "stay": "abs(d) < threshold; at threshold=0 only, d == 0",
+    "v": "d for actual front_right; -d for actual front_left",
+    "auc": "P(v_right > v_left) + 0.5*P(v_right == v_left); all events, no movement threshold",
+    "majority_baseline": "max(actual front_left, actual front_right)/events; separately within decided and all events; descriptive, selected in-sample",
+    "chance_agreement_independence": "Expected agreement under independence of movement and actual direction, using decided-event marginals: p_move_right*p_actual_right + (1-p_move_right)*(1-p_actual_right); movement right iff v > 0; undefined if no decided events",
+    "agreement_ci": "two-sided 95% Clopper-Pearson exact; assumes independent Bernoulli events",
+    "binomial_test": "two-sided exact binomial, null p=0.5; assumes independent Bernoulli events",
+    "fisher_exact": "scipy.stats.fisher_exact, alternative=two-sided, on decided-event 2x2 counts; rows=movement right(v>0)/left(v<0), columns=actual front_right/front_left; tests independence conditional on marginals and assumes independent events; undefined if any row or column sum is zero",
+    "holm": "applied separately to binomial and Fisher tests; four timepoints per cohort; pair rows separately within each pair; undefined p retains its family slot",
+    "mannwhitney": "two-sided asymptotic; ties corrected; continuity correction; unadjusted; event independence assumed",
+    "interpretation": "Single-match exploratory observation; does not establish anticipation, prediction ability, causality, or generalization"
+  },
+  "timepoints_sec": [
+    -0.5,
+    -0.3,
+    -0.2,
+    -0.1
+  ],
+  "thresholds_court_width": [
+    0.0,
+    0.005,
+    0.01,
+    0.015,
+    0.02,
+    0.025,
+    0.03
+  ],
+  "primary_threshold_court_width": 0.015,
+  "reproduction_assertions": {
+    "main80": [
+      {
+        "timepoint_sec": -0.5,
+        "n": 13,
+        "k": 6,
+        "passed": true
+      },
+      {
+        "timepoint_sec": -0.3,
+        "n": 20,
+        "k": 14,
+        "passed": true
+      },
+      {
+        "timepoint_sec": -0.2,
+        "n": 11,
+        "k": 9,
+        "passed": true
+      },
+      {
+        "timepoint_sec": -0.1,
+        "n": 18,
+        "k": 13,
+        "passed": true
+      }
+    ],
+    "all98": [
+      {
+        "timepoint_sec": -0.5,
+        "n": 14,
+        "k": 6,
+        "passed": true
+      },
+      {
+        "timepoint_sec": -0.3,
+        "n": 25,
+        "k": 16,
+        "passed": true
+      },
+      {
+        "timepoint_sec": -0.2,
+        "n": 15,
+        "k": 11,
+        "passed": true
+      },
+      {
+        "timepoint_sec": -0.1,
+        "n": 22,
+        "k": 15,
+        "passed": true
+      }
+    ]
+  },
+  "main80_association_reproduction_assertions": [
+    {
+      "timepoint_sec": -0.5,
+      "threshold_court_width": 0.015,
+      "table": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "chance_rounded_3dp": 0.497,
+      "fisher_p_rounded_4dp": 1.0,
+      "passed": true
+    },
+    {
+      "timepoint_sec": -0.3,
+      "threshold_court_width": 0.015,
+      "table": [
+        [
+          9,
+          1
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "chance_rounded_3dp": 0.5,
+      "fisher_p_rounded_4dp": 0.1409,
+      "passed": true
+    },
+    {
+      "timepoint_sec": -0.2,
+      "threshold_court_width": 0.015,
+      "table": [
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "chance_rounded_3dp": 0.521,
+      "fisher_p_rounded_4dp": 0.0606,
+      "passed": true
+    },
+    {
+      "timepoint_sec": -0.1,
+      "threshold_court_width": 0.015,
+      "table": [
+        [
+          8,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "chance_rounded_3dp": 0.512,
+      "fisher_p_rounded_4dp": 0.1448,
+      "passed": true
+    }
+  ],
+  "bootstrap": {
+    "seed": 20261117,
+    "replicates": 10000,
+    "rng": "numpy.default_rng / PCG64",
+    "streams": "SeedSequence(seed).spawn; cohort insertion order, then lexicographically sorted pairs; times chronological",
+    "jobs": [
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.5,
+        "pair": null,
+        "spawn_key": [
+          0
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.3,
+        "pair": null,
+        "spawn_key": [
+          1
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.2,
+        "pair": null,
+        "spawn_key": [
+          2
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.1,
+        "pair": null,
+        "spawn_key": [
+          3
+        ]
+      },
+      {
+        "cohort": "all98",
+        "timepoint_sec": -0.5,
+        "pair": null,
+        "spawn_key": [
+          4
+        ]
+      },
+      {
+        "cohort": "all98",
+        "timepoint_sec": -0.3,
+        "pair": null,
+        "spawn_key": [
+          5
+        ]
+      },
+      {
+        "cohort": "all98",
+        "timepoint_sec": -0.2,
+        "pair": null,
+        "spawn_key": [
+          6
+        ]
+      },
+      {
+        "cohort": "all98",
+        "timepoint_sec": -0.1,
+        "pair": null,
+        "spawn_key": [
+          7
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.5,
+        "pair": [
+          "P1",
+          "H2"
+        ],
+        "spawn_key": [
+          8
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.3,
+        "pair": [
+          "P1",
+          "H2"
+        ],
+        "spawn_key": [
+          9
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.2,
+        "pair": [
+          "P1",
+          "H2"
+        ],
+        "spawn_key": [
+          10
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.1,
+        "pair": [
+          "P1",
+          "H2"
+        ],
+        "spawn_key": [
+          11
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.5,
+        "pair": [
+          "P2",
+          "H1"
+        ],
+        "spawn_key": [
+          12
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.3,
+        "pair": [
+          "P2",
+          "H1"
+        ],
+        "spawn_key": [
+          13
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.2,
+        "pair": [
+          "P2",
+          "H1"
+        ],
+        "spawn_key": [
+          14
+        ]
+      },
+      {
+        "cohort": "main80",
+        "timepoint_sec": -0.1,
+        "pair": [
+          "P2",
+          "H1"
+        ],
+        "spawn_key": [
+          15
+        ]
+      }
+    ],
+    "confidence_level": 0.95,
+    "interval": "percentile, numpy.quantile(method='linear')",
+    "unit": "estimated rally cluster; G draws from G clusters, equal probability, replacement; keep all events and duplicates",
+    "estimand": "pooled event-weighted AUC and d mean; not equal-weighted cluster statistics",
+    "undefined_auc": "omit one-direction replicates without redrawing; valid/invalid counts in CSV; mean uses all replicates",
+    "pair_policy": "retain cohort-level cluster labels; resample clusters represented within the pair"
+  },
+  "clusters": {
+    "estimated_not_manual_rally_ids": true,
+    "gap_frames": 600,
+    "reference_gaps_frames": [
+      300,
+      600,
+      1200
+    ],
+    "approximate_fps_for_time_interpretation": 60,
+    "definition": "within each cohort independently; unique events ordered by impact frame then event_id; new cluster iff gap > cutoff",
+    "summaries": {
+      "main80": {
+        "300": {
+          "cluster_count": 40,
+          "event_count": 80,
+          "size_distribution": {
+            "1": 19,
+            "2": 9,
+            "3": 9,
+            "4": 2,
+            "8": 1
+          },
+          "size_min": 1,
+          "size_median": 2.0,
+          "size_mean": 2.0,
+          "size_max": 8
+        },
+        "600": {
+          "cluster_count": 34,
+          "event_count": 80,
+          "size_distribution": {
+            "1": 16,
+            "2": 5,
+            "3": 6,
+            "4": 3,
+            "5": 2,
+            "6": 1,
+            "8": 1
+          },
+          "size_min": 1,
+          "size_median": 2.0,
+          "size_mean": 2.3529411764705883,
+          "size_max": 8
+        },
+        "1200": {
+          "cluster_count": 34,
+          "event_count": 80,
+          "size_distribution": {
+            "1": 16,
+            "2": 5,
+            "3": 6,
+            "4": 3,
+            "5": 2,
+            "6": 1,
+            "8": 1
+          },
+          "size_min": 1,
+          "size_median": 2.0,
+          "size_mean": 2.3529411764705883,
+          "size_max": 8
+        }
+      },
+      "all98": {
+        "300": {
+          "cluster_count": 52,
+          "event_count": 98,
+          "size_distribution": {
+            "1": 29,
+            "2": 9,
+            "3": 9,
+            "4": 4,
+            "8": 1
+          },
+          "size_min": 1,
+          "size_median": 1.0,
+          "size_mean": 1.8846153846153846,
+          "size_max": 8
+        },
+        "600": {
+          "cluster_count": 43,
+          "event_count": 98,
+          "size_distribution": {
+            "1": 22,
+            "2": 7,
+            "3": 4,
+            "4": 6,
+            "6": 3,
+            "8": 1
+          },
+          "size_min": 1,
+          "size_median": 1.0,
+          "size_mean": 2.2790697674418605,
+          "size_max": 8
+        },
+        "1200": {
+          "cluster_count": 41,
+          "event_count": 98,
+          "size_distribution": {
+            "1": 19,
+            "2": 8,
+            "3": 4,
+            "4": 5,
+            "5": 1,
+            "6": 3,
+            "8": 1
+          },
+          "size_min": 1,
+          "size_median": 2.0,
+          "size_mean": 2.3902439024390243,
+          "size_max": 8
+        }
+      }
+    }
+  },
+  "figure": {
+    "font_family": "Yu Gothic",
+    "font_file": "C:\\Windows\\Fonts\\YuGothR.ttc",
+    "dpi": 140
+  },
+  "csv_encoding": "utf-8-sig",
+  "csv_missing_numeric": "empty field; statistic undefined, not zero",
+  "method_documentation": {
+    "binomtest": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binomtest.html",
+    "clopper_pearson": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats._result_classes.BinomTestResult.proportion_ci.html",
+    "fisher_exact": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html",
+    "mannwhitneyu": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mannwhitneyu.html"
+  },
+  "outputs": {
+    "figure_agreement_ci.png": {
+      "sha256": "6d39b52729743f73f86509ff5b3596bf9900f9bb1c1aa2b95883410bf6bf85f7",
+      "bytes": 87119
+    },
+    "pair_stratified.csv": {
+      "sha256": "a9f39984bde3d8af08da06ae381ca30bbcd968b280970bf04421482807dfd21a",
+      "bytes": 4445
+    },
+    "primary_thr015.csv": {
+      "sha256": "76a21cde9c65e8cf35ca5546360e12f4de82ae655270ba89426ae194aaf9ba91",
+      "bytes": 2536
+    },
+    "rally_clusters.csv": {
+      "sha256": "3ffdb7f424397456dd99254000bcf50677ecb64204f4274aec57a0d63826b6a9",
+      "bytes": 18445
+    },
+    "three_way_thr015.csv": {
+      "sha256": "3de5ec3066a7ec4a5b51277ffa716e09f969e48ad05fdb5c5c8d596d357152ff",
+      "bytes": 764
+    },
+    "threshold_free.csv": {
+      "sha256": "3af51848d3fe57dc364766fa531e854c79055c6d14ed4854c2cac5f498759ea5",
+      "bytes": 2100
+    },
+    "threshold_sensitivity.csv": {
+      "sha256": "e02d491022b651e110f4d94fc9eb4612206a24caee6d2c6ac8cf8c7ed0e0fe3c",
+      "bytes": 12093
+    },
+    "再解析_結果.md": {
+      "sha256": "64de8220f41997852f82471a87762c7ca6b3d3f051b24a862fe6d8198d3eb1f3",
+      "bytes": 14712
+    }
+  }
+}
