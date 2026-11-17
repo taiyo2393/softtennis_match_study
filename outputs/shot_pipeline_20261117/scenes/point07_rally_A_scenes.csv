@@ -1,0 +1,2 @@
+﻿point,scene_id,start_frame,end_frame,n_frames,is_main_camera,corr_min,corr_p10,corr_median,corr_max,blue_p10,blue_median,main_frame_fraction,other_frame_fraction,start_reason,auto_label,effective_label,label_source,overlap_start,overlap_end,overlap_frames
+7,p07_s012,22721,23986,1266,True,0.981922,0.989914,0.994417,0.998790,0.600625,0.611875,1.000000,0.000000,abrupt_and_gradual,True,True,auto,22776,23032,257

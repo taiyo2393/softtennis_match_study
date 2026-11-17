@@ -973,3 +973,6 @@ node_modules/
 /outputs/shot_pipeline_20261117/audiovisual/audio_plot_timeseries.csv
 /outputs/shot_pipeline_20261117/audiovisual/motion_timeseries.csv
 /outputs/shot_pipeline_20261117/audiovisual/selected_candidates.csv
+# Per-frame scene features and cut candidates (>256KB, regenerable with detect_scenes.py)
+/outputs/shot_pipeline_20261117/scenes/frame_features.csv
+/outputs/shot_pipeline_20261117/scenes/scene_cuts.csv

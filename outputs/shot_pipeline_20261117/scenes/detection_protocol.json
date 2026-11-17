@@ -1,0 +1,37 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_fps": 59.94005994005994,
+  "frame_index": "zero_based_inclusive",
+  "reference_rule": "points4-6 contact_frame_ref + points9-10 rallyB clear",
+  "settings": {
+    "POINTS": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "SMALL": [
+      160,
+      90
+    ],
+    "LAG": 12,
+    "ABRUPT_HIST": 0.28,
+    "ABRUPT_GRAY": 0.16,
+    "ABRUPT_JOINT_HIST": 0.12,
+    "ABRUPT_JOINT_GRAY": 0.085,
+    "SLOW_HIST": 0.18,
+    "SLOW_GRAY": 0.045,
+    "SLOW_GRAY_ONLY": 0.095,
+    "GROUP_GAP": 6,
+    "MIN_SCENE": 10,
+    "CORR_MAIN": 0.92,
+    "CORR_OTHER": 0.65,
+    "BLUE_MAIN": 0.45,
+    "BLUE_OTHER": 0.1,
+    "SCENE_MAIN_FRACTION": 0.98,
+    "SCENE_OTHER_FRACTION": 0.7,
+    "ROWS_PER_SHEET": 10
+  },
+  "reused_features": true
+}
