@@ -1,0 +1,19 @@
+{
+  "command": "& study\\.venv\\Scripts\\python.exe -B -X utf8 outputs\\shot_pipeline_20261117\\pose\\extract_pose.py --device cpu --limit-frames 30",
+  "exit_code": 0,
+  "processed_frames": 180,
+  "rows": 720,
+  "n_detections": 564,
+  "keypoint_fields": 51,
+  "elapsed_sec": 28.325439300038852,
+  "partial_cache": true,
+  "checks": [
+    "4 rows per frame",
+    "unique interval/frame/player",
+    "51 keypoint fields",
+    "detected keypoints finite",
+    "confidence in [0,1]",
+    "input hashes unchanged",
+    "manual pose overlay checked"
+  ]
+}

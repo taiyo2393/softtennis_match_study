@@ -1,0 +1,108 @@
+{
+  "feature_version": "relative_wrist_torso_adjacent_v1",
+  "feature_config": {
+    "kp_conf": 0.3,
+    "smooth_window": 3,
+    "peak_radius": 8,
+    "baseline": "per-player interval median",
+    "min_gap_frames": 12,
+    "shoulder_fallback_scale": "interval median torso",
+    "unknown_side": "both-side evidence required"
+  },
+  "train_points": [
+    7,
+    8
+  ],
+  "test_points": [
+    9,
+    10,
+    11
+  ],
+  "train_includes_point8": true,
+  "scales": {
+    "audio": 1.4990259925847482,
+    "wrist": 0.08899594803377067
+  },
+  "grid": {
+    "audio_weight": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "threshold": [
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0
+    ]
+  },
+  "selected": {
+    "audio_v1_wrist": {
+      "config_id": 16,
+      "audio_weight": 0.5,
+      "threshold": 0.25,
+      "feasible": true,
+      "recall_floor_deficit": 0.0
+    },
+    "audio_v1_wrist_alternating": {
+      "config_id": 32,
+      "audio_weight": 1.0,
+      "threshold": 0.25,
+      "feasible": false,
+      "recall_floor_deficit": 0.050310559006211175
+    }
+  },
+  "recall_floor_fraction": 0.9,
+  "recall_floors": {
+    "n_matched_clear_f10": 35,
+    "n_matched_all_f10": 46
+  },
+  "training_provenance": {
+    "full_run": false,
+    "feature_version": "relative_wrist_torso_adjacent_v1",
+    "train_pose_cache_sha256": {
+      "07_A": "debac340df6b1fce01dd197908b39f789ec985c7b5b8677825d95bbf40a5b3ad",
+      "07_B": "623245d9595e9919be26626ab145d48aeb06d2c51a76f4da81656e0c77b08a42",
+      "08_B": "b1db4dd462f8564c25152dcbddcdecca3f8481f207cd38eb8e78ba3e4ee41b5a"
+    },
+    "train_label_sha256": {
+      "7": "40d4b1f398d34c176a493c537c57a1b2687486c852c68ec8bf60e5312d6ac2af",
+      "8": "322ed9304ff2da63cd5f45588249f8c1fd03a0c2a5b19b075d47f50578e7b428"
+    },
+    "audio_candidates_sha256": "dbb26deef5da404dbe519cb5b316cebec40249e0dac8b5b3f17af224a7579ca7",
+    "intervals_sha256": "bedf14a0014c25c92421d96651f77fb715935b95d0593968331b814c809f8752",
+    "inference_config": {
+      "device": "cpu",
+      "limit_frames": 30,
+      "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m-pose.pt",
+      "batch_size": 32,
+      "crop_size": 384,
+      "pad_x": 0.6,
+      "pad_y": 0.25,
+      "det_conf": 0.25,
+      "cpu_threads": 4
+    }
+  },
+  "selection_order": [
+    "min normalized recall-floor deficit",
+    "min summed window fraction",
+    "max clear +/-6F matches",
+    "max all +/-10F matches",
+    "config ID"
+  ],
+  "test_labels_loaded_before_freeze": false,
+  "test_results_used_for_tuning": false,
+  "partial_cache_check": true
+}

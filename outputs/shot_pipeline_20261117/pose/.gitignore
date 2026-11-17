@@ -1,0 +1,5 @@
+pose_cache/
+__pycache__/
+# Regenerable wide per-frame/candidate outputs.
+wrist_timeseries.csv
+selected_candidates.csv

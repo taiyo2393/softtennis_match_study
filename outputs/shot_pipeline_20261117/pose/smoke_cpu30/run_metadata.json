@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-17T16:14:15.127080+00:00",
+  "elapsed_sec": 25.94873559998814,
+  "phase": "all",
+  "full_inference": false,
+  "partial_cache_check": true,
+  "cache_sha256": {
+    "07_A": "debac340df6b1fce01dd197908b39f789ec985c7b5b8677825d95bbf40a5b3ad",
+    "07_B": "623245d9595e9919be26626ab145d48aeb06d2c51a76f4da81656e0c77b08a42",
+    "08_B": "b1db4dd462f8564c25152dcbddcdecca3f8481f207cd38eb8e78ba3e4ee41b5a",
+    "09_B": "a69eda0448fe5c3ed38c3b704e73918fb939022de6f11ee1ac0b969e5d77831b",
+    "10_B": "07faad2a49749b7fba3bdb770bbe2b1f4d88e092bf5c8088b5284268b9de454e",
+    "11_B": "d3aef5c62af7aed3d2feb1e9bcb6c26dd10d9d312f71ed770a5115ebb1231afd"
+  },
+  "extraction_manifest_sha256": "d3d7a88df8ae07dc42a4288a6ff29f72ca9ff8c38b961be7c840c569908f6585",
+  "selected_config_sha256": "3e461bbf5cd53245941b59373373e2735d7a5c1a5c447b032f6fd56c02755c40",
+  "script_sha256": "defac242dd43c4ea010e716c3099a11998e1410d63d6b6b2e7ef32c2145f8f64",
+  "previous_module_sha256": "affb0e63df6591d8001d98125651e91cf3fb3b1fdad940f180daf5720103dc2e",
+  "fps": 59.94005994005994,
+  "test_labels_loaded_after_config_freeze": true
+}

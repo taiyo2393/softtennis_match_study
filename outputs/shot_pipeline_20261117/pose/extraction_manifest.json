@@ -1,0 +1,116 @@
+{
+  "status": "complete",
+  "full_run": true,
+  "generated_utc": "2026-11-17T16:15:41.228474+00:00",
+  "config": {
+    "device": "0",
+    "limit_frames": 0,
+    "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m-pose.pt",
+    "batch_size": 32,
+    "crop_size": 384,
+    "pad_x": 0.6,
+    "pad_y": 0.25,
+    "det_conf": 0.25,
+    "cpu_threads": 4
+  },
+  "intervals": [
+    {
+      "point": 7,
+      "rally": "A",
+      "start_frame": 22776,
+      "end_frame": 23032,
+      "processed_end_frame": 23032,
+      "processed_frames": 256,
+      "expected_frames": 256,
+      "complete": true,
+      "cache_file": "pose_cache/point_07_rally_A.csv",
+      "cache_sha256": "92af745e4dc8ec803c2ccbb91ab7ba7476a666306186359552bc8e13fa803971"
+    },
+    {
+      "point": 7,
+      "rally": "B",
+      "start_frame": 23424,
+      "end_frame": 24074,
+      "processed_end_frame": 24074,
+      "processed_frames": 650,
+      "expected_frames": 650,
+      "complete": true,
+      "cache_file": "pose_cache/point_07_rally_B.csv",
+      "cache_sha256": "077aa76d57f0fccbb78652f403cc7187e7a1010330c661ce54ca08e8e76a6af1"
+    },
+    {
+      "point": 8,
+      "rally": "B",
+      "start_frame": 25162,
+      "end_frame": 25914,
+      "processed_end_frame": 25914,
+      "processed_frames": 752,
+      "expected_frames": 752,
+      "complete": true,
+      "cache_file": "pose_cache/point_08_rally_B.csv",
+      "cache_sha256": "93aee36282bd41d10b71a5af56698e6633e54a28e184e9734867bf4b850dd049"
+    },
+    {
+      "point": 9,
+      "rally": "B",
+      "start_frame": 27890,
+      "end_frame": 28252,
+      "processed_end_frame": 28252,
+      "processed_frames": 362,
+      "expected_frames": 362,
+      "complete": true,
+      "cache_file": "pose_cache/point_09_rally_B.csv",
+      "cache_sha256": "769b31c06e13320608a48e3b67785cd8acca25175e61d28ef12087ca9ede788e"
+    },
+    {
+      "point": 10,
+      "rally": "B",
+      "start_frame": 30397,
+      "end_frame": 30715,
+      "processed_end_frame": 30715,
+      "processed_frames": 318,
+      "expected_frames": 318,
+      "complete": true,
+      "cache_file": "pose_cache/point_10_rally_B.csv",
+      "cache_sha256": "f6ff599994523fd61aa96be91bfcd8858e2e912314f5ec3293dae76b3e70bf1e"
+    },
+    {
+      "point": 11,
+      "rally": "B",
+      "start_frame": 32718,
+      "end_frame": 33152,
+      "processed_end_frame": 33152,
+      "processed_frames": 434,
+      "expected_frames": 434,
+      "complete": true,
+      "cache_file": "pose_cache/point_11_rally_B.csv",
+      "cache_sha256": "44e68f39fb60b628b776728c44080005e551af1878deacec13a9d8de5fa7e93b"
+    }
+  ],
+  "input_sha256": {
+    "audio/intervals.csv": "bedf14a0014c25c92421d96651f77fb715935b95d0593968331b814c809f8752",
+    "tracking/point_07/protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+    "tracking/point_07/player_court_proxies.csv": "2160ccb6f5ac660f0f0106d875d459c7a114a421ee124e42f11520685c3e6a3d",
+    "tracking/point_08/player_court_proxies.csv": "73fac804d7ccb502968d89007d176e4277a6d9f734cf9bdcc419bdc69df0f000",
+    "tracking/point_09/player_court_proxies.csv": "a16f6adb3c44c45ceb88ee07c87b9b80a06283e8869f2c17d81ec0dcf6a82845",
+    "tracking/point_10/player_court_proxies.csv": "b9e88d7846404f8b8448b3a8a67dc1e7fbf7ce2011c86856b79ccedd7ecffd58",
+    "tracking/point_11/player_court_proxies.csv": "3c38b9ba3be7b5ab4d45ceb12aab3b38e074b6e138e5d25b805bb97be9cdbc7b"
+  },
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_fps": 59.94005994005994,
+  "video_bytes": 1439072083,
+  "video_mtime_ns": 1794310950796319400,
+  "model_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+  "model_load_sec": 0.039620600058697164,
+  "elapsed_sec": 58.44011120009236,
+  "script_sha256": "1a909baa73238e3b52cf7ce2d78316241f3f66aab5213b98432f5b48a50eb993",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.146",
+    "opencv": "5.0.0",
+    "pandas": "3.1.1",
+    "numpy": "2.5.3"
+  },
+  "crop_padding": "Each horizontal side +0.6*width; each vertical side +0.25*height (CLI configurable)",
+  "selection": "max IoU with tracked box; tie: normalized box-center distance then confidence"
+}

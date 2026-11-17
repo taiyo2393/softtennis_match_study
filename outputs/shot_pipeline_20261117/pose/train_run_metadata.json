@@ -1,0 +1,31 @@
+{
+  "full_inference": true,
+  "partial_cache_check": false,
+  "elapsed_sec": 20.91470819991082,
+  "input_sha256": {
+    "audiovisual/combine_audio_video.py": "affb0e63df6591d8001d98125651e91cf3fb3b1fdad940f180daf5720103dc2e",
+    "audiovisual/candidate_features.csv": "dbb26deef5da404dbe519cb5b316cebec40249e0dac8b5b3f17af224a7579ca7",
+    "audiovisual/selected_candidates.csv": "6f173ca3a8326a812d9cfd15fc3dc37ac9da7f43aab8a98930dd59cef57454fe",
+    "audiovisual/evaluation.csv": "6a757aff49d0324d622d3ed0acd29ee01565e2a11a071837baf2876fb5ba15df",
+    "audiovisual/audio_plot_timeseries.csv": "e1735a8c55a0f5c2eeb66c438be42efa0235072c61b9c3de4bab90623d9afab2",
+    "audio/intervals.csv": "bedf14a0014c25c92421d96651f77fb715935b95d0593968331b814c809f8752",
+    "audio/candidates.csv": "b6783e36eff4ce895f97b07009b7bd8deb7b40235de33b24c2632fb66ff3c510",
+    "audio/candidates_v2.csv": "b515f57ffd4a6af8c74a1c8396568d624fe0fc2a7dc14b113326e61ba05fa86a",
+    "audio/candidate_features_v2.csv": "88a02074a28f0eb79ed48deef2efae3cbb78a56d17ae13914e24f902f75186ed",
+    "labels/point_07.csv": "40d4b1f398d34c176a493c537c57a1b2687486c852c68ec8bf60e5312d6ac2af",
+    "labels/point_08.csv": "322ed9304ff2da63cd5f45588249f8c1fd03a0c2a5b19b075d47f50578e7b428",
+    "tracking/point_07/protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+    "tracking/point_07/player_court_proxies.csv": "2160ccb6f5ac660f0f0106d875d459c7a114a421ee124e42f11520685c3e6a3d",
+    "tracking/point_08/protocol.json": "6804e61428202e591b682a21e3562e915fb0bc4878a3c0a3431b3abbf0dede70",
+    "tracking/point_08/player_court_proxies.csv": "73fac804d7ccb502968d89007d176e4277a6d9f734cf9bdcc419bdc69df0f000",
+    "tracking/point_09/protocol.json": "5b8aae748be1ffaf42632561602b3234c496a73422c4aef43e1e2a7ce89bdbb5",
+    "tracking/point_09/player_court_proxies.csv": "a16f6adb3c44c45ceb88ee07c87b9b80a06283e8869f2c17d81ec0dcf6a82845",
+    "tracking/point_10/protocol.json": "77504c9e33132b93c8e0c365047070804683d0e5c9b465d6b836dca08a78113b",
+    "tracking/point_10/player_court_proxies.csv": "b9e88d7846404f8b8448b3a8a67dc1e7fbf7ce2011c86856b79ccedd7ecffd58",
+    "tracking/point_11/protocol.json": "b5bd48d8f04ee6f3ad552c69113dd0b26ae6b3add0eaa09ddd85f7dc8a4d31e8",
+    "tracking/point_11/player_court_proxies.csv": "3c38b9ba3be7b5ab4d45ceb12aab3b38e074b6e138e5d25b805bb97be9cdbc7b"
+  },
+  "inputs_unchanged": true,
+  "test_labels_loaded": false,
+  "selected_config_sha256": "2cb48d8fd00263e185a8f4a47addbe7181c87d5343d4db2f2e13e9f5041b42a7"
+}
