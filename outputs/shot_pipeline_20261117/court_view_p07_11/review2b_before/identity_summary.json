@@ -1,0 +1,377 @@
+{
+  "7": {
+    "corrected_switches": [],
+    "track_transitions": [
+      {
+        "point": 7,
+        "rally_no": 1,
+        "frame": 22873,
+        "player": "F1",
+        "previous_track": 1831,
+        "new_track": 1908,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.595386810989652
+      },
+      {
+        "point": 7,
+        "rally_no": 1,
+        "frame": 22945,
+        "player": "F1",
+        "previous_track": 1908,
+        "new_track": 1919,
+        "gap_sec": 0.08341666666666667,
+        "distance_m": 6.708446172625159
+      },
+      {
+        "point": 7,
+        "rally_no": 2,
+        "frame": 23865,
+        "player": "N2",
+        "previous_track": 1813,
+        "new_track": 2265,
+        "gap_sec": 1.7350666666666668,
+        "distance_m": 0.3223610243215073
+      },
+      {
+        "point": 7,
+        "rally_no": 2,
+        "frame": 23468,
+        "player": "F1",
+        "previous_track": 2149,
+        "new_track": 2163,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 1.089474521899617
+      },
+      {
+        "point": 7,
+        "rally_no": 2,
+        "frame": 23470,
+        "player": "F1",
+        "previous_track": 2163,
+        "new_track": 2149,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.4678384091000069
+      },
+      {
+        "point": 7,
+        "rally_no": 2,
+        "frame": 23577,
+        "player": "F2",
+        "previous_track": 1822,
+        "new_track": 2212,
+        "gap_sec": 0.06673333333333334,
+        "distance_m": 0.16760131684219343
+      },
+      {
+        "point": 7,
+        "rally_no": 2,
+        "frame": 23880,
+        "player": "F1",
+        "previous_track": 2149,
+        "new_track": 2266,
+        "gap_sec": 0.16683333333333333,
+        "distance_m": 6.319028585704401
+      }
+    ],
+    "unlinked_observation_count": 0,
+    "unlinked_observations": []
+  },
+  "8": {
+    "corrected_switches": [],
+    "track_transitions": [
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25822,
+        "player": "N1",
+        "previous_track": 3,
+        "new_track": 342,
+        "gap_sec": 0.03336666666666667,
+        "distance_m": 0.12891627300460878
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25404,
+        "player": "F2",
+        "previous_track": 4,
+        "new_track": 233,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.23027570939436992
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25430,
+        "player": "F1",
+        "previous_track": 5,
+        "new_track": 248,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.6448618739066907
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25465,
+        "player": "F1",
+        "previous_track": 248,
+        "new_track": 279,
+        "gap_sec": 0.03336666666666667,
+        "distance_m": 6.37416874387773
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25473,
+        "player": "F1",
+        "previous_track": 279,
+        "new_track": 248,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 6.119658462173873
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25480,
+        "player": "F1",
+        "previous_track": 248,
+        "new_track": 279,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.31026607420136765
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25488,
+        "player": "F1",
+        "previous_track": 279,
+        "new_track": 248,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.06827137963764976
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25515,
+        "player": "F1",
+        "previous_track": 248,
+        "new_track": 295,
+        "gap_sec": 0.16683333333333333,
+        "distance_m": 1.6941522115954049
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25827,
+        "player": "F1",
+        "previous_track": 295,
+        "new_track": 345,
+        "gap_sec": 0.3003,
+        "distance_m": 1.1356945069200792
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25832,
+        "player": "F1",
+        "previous_track": 345,
+        "new_track": 348,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.046363125039650115
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25868,
+        "player": "F1",
+        "previous_track": 348,
+        "new_track": 359,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.060869061137886836
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25869,
+        "player": "F1",
+        "previous_track": 359,
+        "new_track": 348,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.17682600188584818
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25902,
+        "player": "F1",
+        "previous_track": 348,
+        "new_track": 403,
+        "gap_sec": 0.03336666666666667,
+        "distance_m": 6.179354639576918
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "frame": 25928,
+        "player": "F1",
+        "previous_track": 403,
+        "new_track": 348,
+        "gap_sec": 0.23356666666666667,
+        "distance_m": 2.4810742481934622
+      }
+    ],
+    "unlinked_observation_count": 2,
+    "unlinked_observations": [
+      {
+        "point": 8,
+        "rally_no": 1,
+        "source_frame": 25464,
+        "source_slot": "far_rear",
+        "track_id": 279,
+        "player_slot": "",
+        "identity_status": "unlinked_missing"
+      },
+      {
+        "point": 8,
+        "rally_no": 1,
+        "source_frame": 25901,
+        "source_slot": "far_rear",
+        "track_id": 403,
+        "player_slot": "",
+        "identity_status": "unlinked_missing"
+      }
+    ]
+  },
+  "9": {
+    "corrected_switches": [],
+    "track_transitions": [
+      {
+        "point": 9,
+        "rally_no": 1,
+        "frame": 28567,
+        "player": "N1",
+        "previous_track": 503,
+        "new_track": 958,
+        "gap_sec": 1.4681333333333333,
+        "distance_m": 2.0075759346380506
+      }
+    ],
+    "unlinked_observation_count": 0,
+    "unlinked_observations": []
+  },
+  "10": {
+    "corrected_switches": [],
+    "track_transitions": [
+      {
+        "point": 10,
+        "rally_no": 1,
+        "frame": 30432,
+        "player": "F1",
+        "previous_track": 2701,
+        "new_track": 2734,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.23112695862375626
+      },
+      {
+        "point": 10,
+        "rally_no": 1,
+        "frame": 30434,
+        "player": "F1",
+        "previous_track": 2734,
+        "new_track": 2701,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.13764287902351768
+      },
+      {
+        "point": 10,
+        "rally_no": 1,
+        "frame": 30444,
+        "player": "F1",
+        "previous_track": 2701,
+        "new_track": 2734,
+        "gap_sec": 0.016683333333333335,
+        "distance_m": 0.022238188851368995
+      },
+      {
+        "point": 10,
+        "rally_no": 1,
+        "frame": 30625,
+        "player": "F2",
+        "previous_track": 2673,
+        "new_track": 2780,
+        "gap_sec": 0.06673333333333334,
+        "distance_m": 14.036037547553976
+      }
+    ],
+    "unlinked_observation_count": 0,
+    "unlinked_observations": []
+  },
+  "11": {
+    "corrected_switches": [
+      {
+        "point": 11,
+        "rally_no": 1,
+        "frame": 32930,
+        "original_slot": "far_rear",
+        "original_name": "F1",
+        "fixed_name": "F2",
+        "previous_track": 30,
+        "new_track": 4
+      },
+      {
+        "point": 11,
+        "rally_no": 1,
+        "frame": 32932,
+        "original_slot": "far_front",
+        "original_name": "F2",
+        "fixed_name": "F1",
+        "previous_track": 4,
+        "new_track": 30
+      },
+      {
+        "point": 11,
+        "rally_no": 1,
+        "frame": 33090,
+        "original_slot": "far_rear",
+        "original_name": "F1",
+        "fixed_name": "F2",
+        "previous_track": 30,
+        "new_track": 83
+      }
+    ],
+    "track_transitions": [
+      {
+        "point": 11,
+        "rally_no": 1,
+        "frame": 32772,
+        "player": "F1",
+        "previous_track": 7,
+        "new_track": 30,
+        "gap_sec": 0.03336666666666667,
+        "distance_m": 6.754720148332382
+      },
+      {
+        "point": 11,
+        "rally_no": 1,
+        "frame": 33090,
+        "player": "F2",
+        "previous_track": 4,
+        "new_track": 83,
+        "gap_sec": 0.16683333333333333,
+        "distance_m": 18.329450081899875
+      }
+    ],
+    "unlinked_observation_count": 1,
+    "unlinked_observations": [
+      {
+        "point": 11,
+        "rally_no": 1,
+        "source_frame": 32771,
+        "source_slot": "far_rear",
+        "track_id": 30,
+        "player_slot": "",
+        "identity_status": "unlinked_missing"
+      }
+    ]
+  }
+}

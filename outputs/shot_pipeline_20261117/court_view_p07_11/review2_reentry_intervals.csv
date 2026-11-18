@@ -1,0 +1,4 @@
+﻿point,rally_no,player,player_slot,track_id,start_frame,end_frame,newly_assigned_frames,assignment_start_frame
+7,2,N2,near_rear,2265,23865,23998,134,23865
+9,1,N1,near_front,958,28567,28687,121,28567
+10,1,F2,far_front,2780,30681,30703,23,30681

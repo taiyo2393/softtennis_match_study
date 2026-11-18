@@ -1,0 +1,2 @@
+﻿point,player,player_slot,rally_no,start_frame,end_frame,return_frame,duration_source_frames,corrected_frames,threshold_px,baseline_y2_px,anchor_before_frame,anchor_after_frame,actually_lift_held_frames,max_depth_correction_m,max_y2_correction_px
+7,F2,far_front,2,23905,23907,23908,3,3,6.435567626953125,551.4429244995117,23904,23908,3,2.289886018032257,9.426918029785156

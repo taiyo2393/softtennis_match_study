@@ -1,0 +1,3 @@
+﻿point,player,player_slot,start_frame,end_frame,duration_source_frames,midpoint_frame,min_depth_m,max_depth_m,occluded_frames,offscreen_held_frames,cause_estimate
+7,F1,far_rear,23599,23746,148,23672,25.32907590905858,25.74739993069958,94,10,下隠れの深さアンカー補間が主体。F23672はF23643/23742を参照。アンカー枠の足元偏り・実後退の可能性
+7,F1,far_rear,23870,23905,36,23887,25.300676968435212,25.300676968435212,0,35,画面外の最終位置保持が超過を継続（保持開始時の足元推定に偏りの可能性）

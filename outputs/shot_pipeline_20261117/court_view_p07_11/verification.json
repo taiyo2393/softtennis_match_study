@@ -1,37 +1,189 @@
 {
-  "preservation": {
-    "B_C_sha256_unchanged": 16,
-    "protected_sha256_unchanged": 215,
-    "ball_quality_metadata_unchanged": 14256,
-    "near_all_previous_columns_unchanged": true
+  "version": "review2_20261119",
+  "depth_version": "review2c_20261119",
+  "envelope_snapshot_sha256_verified": 23,
+  "review2b_snapshot_sha256_verified": 30,
+  "rule_boundary_checks": {
+    "synthetic_ball_and_context_cases": 6,
+    "lift_duration_boundary_cases": 3,
+    "envelope_boundary_cases": 6,
+    "speed_reset_side_cases": 2,
+    "speed_streak_boundary_cases": 4,
+    "relink_boundary_cases": 4
+  },
+  "protected_sha256_verified": 223,
+  "baseline_sha256_verified": 19,
+  "human_reference_rows": 32,
+  "agreement": {
+    "before": 25,
+    "after": 32,
+    "undecided_before": 7,
+    "undecided_after": 0,
+    "excluding_reinterpreted": {
+      "total": 31,
+      "before": 25,
+      "after": 31
+    }
   },
   "points": {
     "7": {
-      "frames": 409,
-      "full_video_decode_verified": true,
-      "source_frame_map_verified": true
+      "frames": 411,
+      "full_decode_verified": true,
+      "original_frame_map_verified": true,
+      "envelope": {
+        "raw_envelope_and_speed_rows": 1465,
+        "existing_far_x_rows_unchanged": 1598
+      },
+      "near_and_reentry": {
+        "near_raw_rows_reconstructed": 1443,
+        "short_gap_links_verified": 5,
+        "long_gap_reentries_verified": 1
+      },
+      "offscreen_held_rows_verified": 288,
+      "depth_corrected_rows": 107,
+      "horizontal_max_shift_normalized": 0.0,
+      "reentry_newly_assigned_frames": 134
     },
     "8": {
-      "frames": 384,
-      "full_video_decode_verified": true,
-      "source_frame_map_verified": true
+      "frames": 385,
+      "full_decode_verified": true,
+      "original_frame_map_verified": true,
+      "envelope": {
+        "raw_envelope_and_speed_rows": 1438,
+        "existing_far_x_rows_unchanged": 1536
+      },
+      "near_and_reentry": {
+        "near_raw_rows_reconstructed": 1407,
+        "short_gap_links_verified": 9,
+        "long_gap_reentries_verified": 0
+      },
+      "offscreen_held_rows_verified": 227,
+      "depth_corrected_rows": 1,
+      "horizontal_max_shift_normalized": 0.0,
+      "reentry_newly_assigned_frames": 0
     },
     "9": {
       "frames": 642,
-      "full_video_decode_verified": true,
-      "source_frame_map_verified": true
+      "full_decode_verified": true,
+      "original_frame_map_verified": true,
+      "envelope": {
+        "raw_envelope_and_speed_rows": 2540,
+        "existing_far_x_rows_unchanged": 2563
+      },
+      "near_and_reentry": {
+        "near_raw_rows_reconstructed": 2481,
+        "short_gap_links_verified": 0,
+        "long_gap_reentries_verified": 1
+      },
+      "offscreen_held_rows_verified": 115,
+      "depth_corrected_rows": 151,
+      "horizontal_max_shift_normalized": 0.0,
+      "reentry_newly_assigned_frames": 121
     },
     "10": {
       "frames": 157,
-      "full_video_decode_verified": true,
-      "source_frame_map_verified": true
+      "full_decode_verified": true,
+      "original_frame_map_verified": true,
+      "envelope": {
+        "raw_envelope_and_speed_rows": 537,
+        "existing_far_x_rows_unchanged": 596
+      },
+      "near_and_reentry": {
+        "near_raw_rows_reconstructed": 596,
+        "short_gap_links_verified": 1,
+        "long_gap_reentries_verified": 1
+      },
+      "offscreen_held_rows_verified": 59,
+      "depth_corrected_rows": 1,
+      "horizontal_max_shift_normalized": 0.0,
+      "reentry_newly_assigned_frames": 23
     },
     "11": {
-      "frames": 219,
-      "full_video_decode_verified": true,
-      "source_frame_map_verified": true
+      "frames": 220,
+      "full_decode_verified": true,
+      "original_frame_map_verified": true,
+      "envelope": {
+        "raw_envelope_and_speed_rows": 783,
+        "existing_far_x_rows_unchanged": 874
+      },
+      "near_and_reentry": {
+        "near_raw_rows_reconstructed": 840,
+        "short_gap_links_verified": 1,
+        "long_gap_reentries_verified": 0
+      },
+      "offscreen_held_rows_verified": 125,
+      "depth_corrected_rows": 0,
+      "horizontal_max_shift_normalized": 0.0,
+      "reentry_newly_assigned_frames": 0
     }
   },
-  "far_geometry_and_speed_verified": true,
-  "far_smoothing_and_short_interpolation_verified": true
+  "baseline_rows": [
+    {
+      "point": 7,
+      "frame": 22848,
+      "image_x_px": 960.0,
+      "projected_row_px": 533.3599786265773,
+      "detected_white_line_row_px": 533.8073740132609,
+      "difference_px": 0.4473953866835245,
+      "difference_m": -0.13204149915556054,
+      "exceeds_3px": false,
+      "white_line_pixel_columns": 234,
+      "line_slope": 0.006405367463439009,
+      "detection_candidates_json": "[{\"row\": 518, \"median_ridge_contrast\": 8.0}, {\"row\": 519, \"median_ridge_contrast\": -8.5}, {\"row\": 520, \"median_ridge_contrast\": -12.5}, {\"row\": 521, \"median_ridge_contrast\": -15.5}, {\"row\": 522, \"median_ridge_contrast\": -1.0}, {\"row\": 523, \"median_ridge_contrast\": 2.5}, {\"row\": 524, \"median_ridge_contrast\": 0.5}, {\"row\": 525, \"median_ridge_contrast\": 1.5}, {\"row\": 526, \"median_ridge_contrast\": 0.0}, {\"row\": 527, \"median_ridge_contrast\": -1.0}, {\"row\": 528, \"median_ridge_contrast\": 1.5}, {\"row\": 529, \"median_ridge_contrast\": 0.5}, {\"row\": 530, \"median_ridge_contrast\": -1.5}, {\"row\": 531, \"median_ridge_contrast\": -11.0}, {\"row\": 532, \"median_ridge_contrast\": 2.0}, {\"row\": 533, \"median_ridge_contrast\": 15.0}, {\"row\": 534, \"median_ridge_contrast\": 33.75}, {\"row\": 535, \"median_ridge_contrast\": 3.5}, {\"row\": 536, \"median_ridge_contrast\": -13.5}, {\"row\": 537, \"median_ridge_contrast\": -23.5}, {\"row\": 538, \"median_ridge_contrast\": -7.0}, {\"row\": 539, \"median_ridge_contrast\": 0.5}, {\"row\": 540, \"median_ridge_contrast\": -1.0}, {\"row\": 541, \"median_ridge_contrast\": 0.0}, {\"row\": 542, \"median_ridge_contrast\": 0.0}, {\"row\": 543, \"median_ridge_contrast\": 0.0}, {\"row\": 544, \"median_ridge_contrast\": -0.5}, {\"row\": 545, \"median_ridge_contrast\": -2.0}, {\"row\": 546, \"median_ridge_contrast\": -0.5}, {\"row\": 547, \"median_ridge_contrast\": 1.0}, {\"row\": 548, \"median_ridge_contrast\": -2.0}]"
+    },
+    {
+      "point": 8,
+      "frame": 25246,
+      "image_x_px": 960.0,
+      "projected_row_px": 533.3599786265773,
+      "detected_white_line_row_px": 533.7766922801346,
+      "difference_px": 0.41671365355728085,
+      "difference_m": -0.12301917222700527,
+      "exceeds_3px": false,
+      "white_line_pixel_columns": 260,
+      "line_slope": 0.006447090124242543,
+      "detection_candidates_json": "[{\"row\": 518, \"median_ridge_contrast\": 5.5}, {\"row\": 519, \"median_ridge_contrast\": -9.5}, {\"row\": 520, \"median_ridge_contrast\": -12.5}, {\"row\": 521, \"median_ridge_contrast\": -14.0}, {\"row\": 522, \"median_ridge_contrast\": -1.5}, {\"row\": 523, \"median_ridge_contrast\": 2.25}, {\"row\": 524, \"median_ridge_contrast\": 0.0}, {\"row\": 525, \"median_ridge_contrast\": 1.25}, {\"row\": 526, \"median_ridge_contrast\": 1.0}, {\"row\": 527, \"median_ridge_contrast\": -0.5}, {\"row\": 528, \"median_ridge_contrast\": 2.5}, {\"row\": 529, \"median_ridge_contrast\": 0.5}, {\"row\": 530, \"median_ridge_contrast\": -0.5}, {\"row\": 531, \"median_ridge_contrast\": -10.0}, {\"row\": 532, \"median_ridge_contrast\": 0.0}, {\"row\": 533, \"median_ridge_contrast\": 14.5}, {\"row\": 534, \"median_ridge_contrast\": 33.75}, {\"row\": 535, \"median_ridge_contrast\": 9.0}, {\"row\": 536, \"median_ridge_contrast\": -14.5}, {\"row\": 537, \"median_ridge_contrast\": -22.75}, {\"row\": 538, \"median_ridge_contrast\": -9.5}, {\"row\": 539, \"median_ridge_contrast\": 1.0}, {\"row\": 540, \"median_ridge_contrast\": -0.5}, {\"row\": 541, \"median_ridge_contrast\": -0.5}, {\"row\": 542, \"median_ridge_contrast\": 0.0}, {\"row\": 543, \"median_ridge_contrast\": -2.5}, {\"row\": 544, \"median_ridge_contrast\": 1.5}, {\"row\": 545, \"median_ridge_contrast\": -1.5}, {\"row\": 546, \"median_ridge_contrast\": 0.5}, {\"row\": 547, \"median_ridge_contrast\": 0.5}, {\"row\": 548, \"median_ridge_contrast\": -1.5}]"
+    },
+    {
+      "point": 9,
+      "frame": 27464,
+      "image_x_px": 960.0,
+      "projected_row_px": 533.3599786265773,
+      "detected_white_line_row_px": 533.6952420536799,
+      "difference_px": 0.3352634271025181,
+      "difference_m": -0.0990443431769552,
+      "exceeds_3px": false,
+      "white_line_pixel_columns": 246,
+      "line_slope": 0.006471840868784684,
+      "detection_candidates_json": "[{\"row\": 518, \"median_ridge_contrast\": 5.75}, {\"row\": 519, \"median_ridge_contrast\": -10.0}, {\"row\": 520, \"median_ridge_contrast\": -15.25}, {\"row\": 521, \"median_ridge_contrast\": -16.0}, {\"row\": 522, \"median_ridge_contrast\": -1.0}, {\"row\": 523, \"median_ridge_contrast\": 2.5}, {\"row\": 524, \"median_ridge_contrast\": 0.5}, {\"row\": 525, \"median_ridge_contrast\": 2.0}, {\"row\": 526, \"median_ridge_contrast\": 0.0}, {\"row\": 527, \"median_ridge_contrast\": -0.5}, {\"row\": 528, \"median_ridge_contrast\": 2.0}, {\"row\": 529, \"median_ridge_contrast\": 1.0}, {\"row\": 530, \"median_ridge_contrast\": -1.0}, {\"row\": 531, \"median_ridge_contrast\": -10.5}, {\"row\": 532, \"median_ridge_contrast\": 1.75}, {\"row\": 533, \"median_ridge_contrast\": 17.0}, {\"row\": 534, \"median_ridge_contrast\": 35.75}, {\"row\": 535, \"median_ridge_contrast\": 0.75}, {\"row\": 536, \"median_ridge_contrast\": -14.5}, {\"row\": 537, \"median_ridge_contrast\": -22.5}, {\"row\": 538, \"median_ridge_contrast\": -5.75}, {\"row\": 539, \"median_ridge_contrast\": 1.0}, {\"row\": 540, \"median_ridge_contrast\": -1.0}, {\"row\": 541, \"median_ridge_contrast\": 0.5}, {\"row\": 542, \"median_ridge_contrast\": -0.5}, {\"row\": 543, \"median_ridge_contrast\": -0.5}, {\"row\": 544, \"median_ridge_contrast\": 0.5}, {\"row\": 545, \"median_ridge_contrast\": -1.5}, {\"row\": 546, \"median_ridge_contrast\": 0.5}, {\"row\": 547, \"median_ridge_contrast\": 0.5}, {\"row\": 548, \"median_ridge_contrast\": -1.5}]"
+    },
+    {
+      "point": 10,
+      "frame": 30452,
+      "image_x_px": 960.0,
+      "projected_row_px": 533.3599786265773,
+      "detected_white_line_row_px": 533.8910820087561,
+      "difference_px": 0.5311033821787987,
+      "difference_m": -0.15663230869922282,
+      "exceeds_3px": false,
+      "white_line_pixel_columns": 255,
+      "line_slope": 0.005546626454787536,
+      "detection_candidates_json": "[{\"row\": 518, \"median_ridge_contrast\": 7.5}, {\"row\": 519, \"median_ridge_contrast\": -6.5}, {\"row\": 520, \"median_ridge_contrast\": -12.0}, {\"row\": 521, \"median_ridge_contrast\": -15.5}, {\"row\": 522, \"median_ridge_contrast\": -4.5}, {\"row\": 523, \"median_ridge_contrast\": 3.0}, {\"row\": 524, \"median_ridge_contrast\": 0.5}, {\"row\": 525, \"median_ridge_contrast\": 1.5}, {\"row\": 526, \"median_ridge_contrast\": 1.0}, {\"row\": 527, \"median_ridge_contrast\": -1.0}, {\"row\": 528, \"median_ridge_contrast\": 2.5}, {\"row\": 529, \"median_ridge_contrast\": 1.5}, {\"row\": 530, \"median_ridge_contrast\": 1.0}, {\"row\": 531, \"median_ridge_contrast\": -10.0}, {\"row\": 532, \"median_ridge_contrast\": -1.25}, {\"row\": 533, \"median_ridge_contrast\": 13.5}, {\"row\": 534, \"median_ridge_contrast\": 34.5}, {\"row\": 535, \"median_ridge_contrast\": 11.75}, {\"row\": 536, \"median_ridge_contrast\": -15.0}, {\"row\": 537, \"median_ridge_contrast\": -25.0}, {\"row\": 538, \"median_ridge_contrast\": -12.0}, {\"row\": 539, \"median_ridge_contrast\": 2.0}, {\"row\": 540, \"median_ridge_contrast\": 0.5}, {\"row\": 541, \"median_ridge_contrast\": 1.0}, {\"row\": 542, \"median_ridge_contrast\": 0.5}, {\"row\": 543, \"median_ridge_contrast\": -1.0}, {\"row\": 544, \"median_ridge_contrast\": -1.0}, {\"row\": 545, \"median_ridge_contrast\": -1.5}, {\"row\": 546, \"median_ridge_contrast\": -1.0}, {\"row\": 547, \"median_ridge_contrast\": 1.5}, {\"row\": 548, \"median_ridge_contrast\": -1.0}]"
+    },
+    {
+      "point": 11,
+      "frame": 32755,
+      "image_x_px": 960.0,
+      "projected_row_px": 533.3599786265773,
+      "detected_white_line_row_px": 533.8195200018652,
+      "difference_px": 0.459541375287813,
+      "difference_m": -0.13561183815721084,
+      "exceeds_3px": false,
+      "white_line_pixel_columns": 235,
+      "line_slope": 0.006248477614161276,
+      "detection_candidates_json": "[{\"row\": 518, \"median_ridge_contrast\": 8.0}, {\"row\": 519, \"median_ridge_contrast\": -10.0}, {\"row\": 520, \"median_ridge_contrast\": -12.5}, {\"row\": 521, \"median_ridge_contrast\": -15.5}, {\"row\": 522, \"median_ridge_contrast\": -2.0}, {\"row\": 523, \"median_ridge_contrast\": 2.0}, {\"row\": 524, \"median_ridge_contrast\": 0.5}, {\"row\": 525, \"median_ridge_contrast\": 1.5}, {\"row\": 526, \"median_ridge_contrast\": 0.5}, {\"row\": 527, \"median_ridge_contrast\": -0.75}, {\"row\": 528, \"median_ridge_contrast\": 1.0}, {\"row\": 529, \"median_ridge_contrast\": 0.5}, {\"row\": 530, \"median_ridge_contrast\": -1.0}, {\"row\": 531, \"median_ridge_contrast\": -7.5}, {\"row\": 532, \"median_ridge_contrast\": 0.75}, {\"row\": 533, \"median_ridge_contrast\": 15.5}, {\"row\": 534, \"median_ridge_contrast\": 29.5}, {\"row\": 535, \"median_ridge_contrast\": 3.75}, {\"row\": 536, \"median_ridge_contrast\": -14.0}, {\"row\": 537, \"median_ridge_contrast\": -20.25}, {\"row\": 538, \"median_ridge_contrast\": -5.75}, {\"row\": 539, \"median_ridge_contrast\": 1.5}, {\"row\": 540, \"median_ridge_contrast\": -0.5}, {\"row\": 541, \"median_ridge_contrast\": 0.0}, {\"row\": 542, \"median_ridge_contrast\": -0.5}, {\"row\": 543, \"median_ridge_contrast\": -1.0}, {\"row\": 544, \"median_ridge_contrast\": 0.0}, {\"row\": 545, \"median_ridge_contrast\": -1.75}, {\"row\": 546, \"median_ridge_contrast\": -0.5}, {\"row\": 547, \"median_ridge_contrast\": 1.0}, {\"row\": 548, \"median_ridge_contrast\": -1.25}]"
+    }
+  ],
+  "speed_resets": [],
+  "checks": "box provenance, track identity and official exclusion, independent evidence arithmetic, wrist windows, human display, rally-only holds, near reconstruction and existing far x, independent 75th quantiles and depth anchors and reset speed gate, relink gap/distance audit, four-version counts, exact video checks, exact serve anchors, lift time interpolation, source frame maps, all-frame MP4 decode, ignore rules"
 }

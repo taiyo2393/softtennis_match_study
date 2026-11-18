@@ -42,6 +42,10 @@ def audit_decision(h):
 def main():
     out=b.OUT
     summary=json.loads((out/'cleaning_summary.json').read_text(encoding='utf-8'))
+    if summary.get('review2'):
+        from verify_review2 import main as verify_review
+        verify_review()
+        return
     if 'far_depth' in summary['rules']:
         from far_depth_revision import verify_and_report
         verify_and_report()

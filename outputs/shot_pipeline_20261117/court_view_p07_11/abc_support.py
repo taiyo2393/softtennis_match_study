@@ -69,7 +69,7 @@ def mark_occlusion(tracks):
     return pd.DataFrame(rows)
 
 
-def relink(tracks, segments, clean_player, project, H):
+def relink(tracks, segments, clean_player, project, H, *, vacant_reentry=False):
     """Two people per side/rally; known tracks stay bound, new tracks may stay missing."""
     # A precedes B: head-corrected, pre-smoothing projections drive association.
     prepared = []
@@ -78,6 +78,13 @@ def relink(tracks, segments, clean_player, project, H):
         rows, _ = clean_player(slot, tracks[tracks.player_slot==slot].to_dict('records'), all_frames)
         prepared.extend(r for r in rows if r['filter_status']!='missing')
     source = pd.DataFrame(prepared)
+    if vacant_reentry:
+        # Never reconnect across the unshown gap or a later camera scene merely
+        # because the point export extends beyond the labelled rally windows.
+        inside=np.zeros(len(source),dtype=bool)
+        for segment in segments:
+            inside |= source.source_frame.between(segment['start_frame'],segment['end_frame']).to_numpy()
+        source=source[inside].copy()
     # Every source observation remains available for linking, even if speed-filtered.
     source['link_x'] = source.head_court_x.where(source.lower_occluded, source.court_proxy_x)
     source['link_y'] = source.head_court_y.where(source.lower_occluded, source.court_proxy_y)
@@ -117,7 +124,8 @@ def relink(tracks, segments, clean_player, project, H):
                         prev = last[slot]
                         dt = (frame-prev['source_frame'])/FPS
                         dist = math.hypot((r['link_x']-prev['link_x'])*10.97,(r['link_y']-prev['link_y'])*23.77)
-                        if 0 < dt <= 1 and dist <= 8*dt+1.5:
+                        vacant = vacant_reentry and frame-prev['source_frame'] > FPS
+                        if vacant or (0 < dt <= 1 and dist <= 8*dt+1.5):
                             eligible.append((slot,dist))
                     choices.append([(None,0.),*eligible])
                 feasible = []
@@ -135,9 +143,11 @@ def relink(tracks, segments, clean_player, project, H):
                     tid = int(r['track_id'])
                     original = r['player_slot']
                     slot = assigned.get(i)
+                    reentry = (vacant_reentry and i not in known and slot in last
+                               and frame-last[slot]['source_frame'] > FPS)
                     record = dict(point=int(r['point']),rally_no=int(rally),source_frame=frame,
                                   source_slot=original,track_id=tid,player_slot=slot or '',
-                                  identity_status='known_track' if i in known else ('linked' if slot else 'unlinked_missing'))
+                                  identity_status='reentry_vacant_slot' if reentry else ('known_track' if i in known else ('linked' if slot else 'unlinked_missing')))
                     mapping.append(record)
                     if slot is None:
                         rejected.append(record)
@@ -208,7 +218,19 @@ def combine_ball(hitters, tracks, candidates):
         minima=[min(v) if v else None for v in distances]
         ball_hitter=''
         ball_reason='no_candidates' if window.empty else 'insufficient_boxes_or_ambiguous'
-        if all(v is not None for v in minima):
+        both_close = all(v is not None and v[0] < .25*v[2] for v in minima)
+        single_visible = [slot for slot in slots if (f,slot) in people.index]
+        single_vote = ''
+        if len(single_visible)==1:
+            i=slots.index(single_visible[0])
+            if minima[i] is not None and minima[i][0]==0:
+                single_vote=single_visible[0]
+        if both_close:
+            ball_reason='both_within_quarter_box_width'
+        elif single_vote:
+            ball_hitter=single_vote
+            ball_reason='single_visible_inside_expanded_box'
+        elif all(v is not None for v in minima):
             d=[v[0] for v in minima]
             near=int(d[1]<d[0]);far=1-near
             # Both minima are calculated over exactly the requested +/-3F.
@@ -217,17 +239,37 @@ def combine_ball(hitters, tracks, candidates):
             if d[near]<d[far] and (zero_rule or ratio_rule):
                 ball_hitter=slots[near]
                 ball_reason='inside_vs_box_width' if zero_rule else 'distance_ratio_lt_0.5'
+        # Absence is evidence only when the other person has boxes and no nearby
+        # ball throughout the wider context. Never manufacture ball candidates.
+        offscreen=''; context=[]
+        context_window=candidates[(candidates.point==p)&candidates.source_frame.between(f-10,f+5)&(candidates.candidate_present==1)]
+        for i,slot in enumerate(slots):
+            absent=all((n,slot) not in people.index for n in range(f-8,f+5))
+            other=slots[1-i]
+            visible=any((n,other) in people.index for n in range(f-8,f+5))
+            nearby=False
+            for ball in context_window.itertuples():
+                key=(int(ball.source_frame),other)
+                if key not in people.index: continue
+                box=people.loc[key]; w=box.x2-box.x1
+                dist=math.hypot(max(box.x1-ball.x_px,0.,ball.x_px-box.x2),max(box.y1-ball.y_px,0.,ball.y_px-box.y2))
+                nearby |= dist<=1.5*w
+            context.append(dict(slot=slot,absent_whole_window=absent,other_visible=visible,nearby_ball=bool(nearby)))
+            if absent and visible and not nearby: offscreen=slot
         wrist=shot['hitter_slot']
         status='undecided';hitter='';reason='no_decisive_evidence'
-        if ball_hitter and wrist:
+        if offscreen:
+            status,hitter,reason='auto_context_offscreen',offscreen,'absent_and_no_ball_near_visible_partner'
+        elif single_vote and ball_hitter==single_vote:
+            status,hitter,reason='auto_ball_single_visible',single_vote,'only_visible_player_contains_ball'
+        elif ball_hitter and wrist:
             if ball_hitter==wrist:
                 status,hitter,reason='auto_ball_wrist',wrist,'ball_wrist_agree'
             else:reason='ball_wrist_conflict'
         elif ball_hitter:
             status,hitter,reason='auto_ball',ball_hitter,'ball_only'
-        elif wrist and window.empty:
-            status,hitter,reason='auto_wrist',wrist,'no_ball_candidates'
-        elif wrist:reason='ball_candidates_ambiguous'
+        elif wrist:
+            status,hitter,reason='auto_wrist',wrist,'no_ball_candidates' if window.empty else 'ball_ambiguous_wrist_decisive'
         shot.update(wrist_hitter_slot=wrist,wrist_hitter=NAMES.get(wrist,shot['side']+'?'),wrist_reason=shot['reason'],
                     ball_hitter_slot=ball_hitter,ball_hitter=NAMES.get(ball_hitter,shot['side']+'?'),
                     ball_candidate_frames=len(window),ball_reason=ball_reason,
@@ -237,6 +279,7 @@ def combine_ball(hitters, tracks, candidates):
                     ball_player_2_best_frame=minima[1][1] if minima[1] else None,
                     ball_distance_ratio=min(v[0] for v in minima)/max(v[0] for v in minima) if all(v is not None for v in minima) and max(v[0] for v in minima)>0 else None,
                     ball_evidence_json=json.dumps(paired,ensure_ascii=False),
+                    context_evidence_json=json.dumps(context),rule_version='review2_20261119',
                     status=status,hitter_slot=hitter,hitter=NAMES.get(hitter,shot['side']+'?'),reason=reason)
     return hitters
 

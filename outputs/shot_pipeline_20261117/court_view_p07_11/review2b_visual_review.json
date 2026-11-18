@@ -1,0 +1,10 @@
+{
+  "method": "Assistant visual inspection of the five original-video start/mid/end enlarged image panels; qualitative, no independent foot labels",
+  "assessments": {
+    "check_review2b_p08_F25254.jpg": "サーブの跳躍・着地に伴う足元上昇が見える。明確な後退は判別できず、包絡は着地側の深さを用いる。",
+    "check_review2b_p09_F28504.jpg": "横移動を伴う前進・踏み替えが見える。包絡は後の接地位置を先取りし、短い前後変動を抑える可能性あり。",
+    "check_review2b_p09_F28487.jpg": "前進を伴う走行・足の上げ下げが見える。明確な後退は見えないが、包絡は後の接地位置を先取りする。",
+    "check_review2b_p10_F30586.jpg": "打球に伴う片足支持・跳躍状の姿勢と着地が見える。後退抑制の有無は3静止画では確定できない。",
+    "check_review2b_p11_F32835.jpg": "横移動と踏み替え、足元の小さな下方向変化が見える。包絡線が見える靴より下に出るため過補正の可能性を残す。"
+  }
+}

@@ -14,3 +14,10 @@ ball_candidates/
 ball_quality_readonly_snapshot.json
 a_height_revision_before.json
 far_depth_revision_before.json
+
+# Review2 snapshots of regenerable dense CSVs (new files over 256KiB).
+/review2_before/cleaned_player_positions_p*.csv
+/review2_before/identity_positions_p*.csv
+/review2_before/identity_map_p*.csv
+/review2_before/wrist_identity.csv
+

@@ -39,14 +39,15 @@ DECODE_FPS = 60000 / 1001
 SLOTS = ['near_front', 'near_rear', 'far_rear', 'far_front']
 NAMES = dict(zip(SLOTS, ['N1', 'N2', 'F1', 'F2']))
 RGB = dict(zip(SLOTS, [(65,220,120), (70,170,255), (220,90,230), (250,210,65)]))
-OBS = ('observed', 'observed_after_height_reset', 'observed_head_anchored', 'observed_x_depth_interpolated')
-STATUSES = (*OBS, 'rejected_box_height', 'rejected_speed', 'interpolated', 'missing')
-VALID = (*OBS, 'interpolated')
+OBS = ('observed', 'observed_after_height_reset', 'observed_after_speed_reset', 'observed_head_anchored', 'observed_x_depth_interpolated', 'observed_x_depth_serve_anchor', 'observed_x_depth_lift_held', 'observed_x_depth_envelope')
+STATUSES = (*OBS, 'rejected_box_height', 'rejected_speed', 'interpolated', 'missing', 'offscreen_hold')
+VALID = (*OBS, 'interpolated', 'offscreen_hold')
+REVIEW2_CHECKS = {7:[22848,23482,23803],8:[25246,25260,25863]}
 XLIM, YLIM = (-.25, 1.25), (-.3, 1.55)
 
 
 def dump(path, value):
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False)+'\n', encoding='utf-8',newline='\n')
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=1 if path.name=='cleaning_summary.json' else 2, allow_nan=False)+'\n', encoding='utf-8',newline='\n')
 
 
 def sha(path):
@@ -109,7 +110,7 @@ def distance(a, z):
     return math.hypot((a[0]-z[0])*10.97, (a[1]-z[1])*23.77)
 
 
-def clean_player(slot, source, frames, *, far_revision=True):
+def clean_player(slot, source, frames, *, far_revision=True, speed_reset=False):
     """Final far geometry is separate from the frozen legacy B geometry."""
     if far_revision and slot.startswith('far_'):
         from far_depth_revision import clean_far
@@ -125,6 +126,8 @@ def clean_player(slot, source, frames, *, far_revision=True):
     project,H = abc.geometry(load_module)
     history = deque()  # (source_frame, height), NOT a fixed number of samples.
     accepted, pending, resets, diagnostics = [], [], [], {}
+    from speed_reset import SpeedReset, STATUS as SPEED_RESET
+    speed_streak = SpeedReset(speed_reset)
     previous_raw = None
     warm = True
     warm_first = None
@@ -156,7 +159,14 @@ def clean_player(slot, source, frames, *, far_revision=True):
         raw_jump = distance((x,y),(previous_raw['effective_court_x'], previous_raw['effective_court_y'])) if previous_raw else ''
         raw_limit = 8*(f-previous_raw['source_frame'])/FPS+1 if previous_raw else ''
         status = ('rejected_speed' if speed_bad else 'observed_head_anchored') if occluded else ('rejected_box_height' if not .75*reference <= height <= 1.35*reference else ('rejected_speed' if speed_bad else 'observed'))
+        reset_start = speed_streak.update(f,status,raw.get('rally_no'))
+        reset_base = 'observed_head_anchored' if occluded else 'observed'
+        if reset_start is not None:
+            status = SPEED_RESET
         r = dict(raw, source_frame=f, status=status, filter_status=status,
+                 speed_reset_frame=f if reset_start is not None else '',
+                 speed_reject_start_frame=reset_start if reset_start is not None else '',
+                 speed_reset_base_status=reset_base if reset_start is not None else '',
                  court_x=x if status in OBS else '', court_y=y if status in OBS else '',
                  box_height_px=height, reference_height_px=reference, jump_m=jump,
                  raw_previous_frame=previous_raw['source_frame'] if previous_raw else '',
@@ -197,6 +207,11 @@ def clean_player(slot, source, frames, *, far_revision=True):
             jump, speed_bad = jump_test(c['source_frame'],c['court_proxy_x'],c['court_proxy_y'])
             raw_bad = c['raw_jump_m'] != '' and c['raw_jump_m'] > c['raw_speed_limit_m']
             status = 'rejected_speed' if speed_bad or raw_bad else 'observed_after_height_reset'
+            reset_start = speed_streak.update(c['source_frame'],status,c.get('rally_no'))
+            if reset_start is not None:
+                status = SPEED_RESET
+                c.update(speed_reset_frame=c['source_frame'],speed_reject_start_frame=reset_start,
+                         speed_reset_base_status='observed_after_height_reset')
             c.update(status=status, filter_status=status, reference_height_px=reference,
                      jump_m=jump, height_reset_start_frame=start, height_reset_trigger_frame=f,
                      court_x=c['court_proxy_x'] if status in OBS else '',
@@ -407,7 +422,7 @@ def render_point(p,segments,rows,shots,using_v2=False,balls=None):
         for s in selected:
             sampled=min(times,key=lambda f:(abs(f-s['frame']),f))
             checks.append(dict(label_frame=s['frame'],sampled_frame=sampled,rally_no=s['rally_no'],output_frame=len(rendered)+times.index(sampled)))
-        requested={7:[23422,23548],8:[25470],10:[30633],11:[32999]}.get(p,[])
+        requested=sorted(set({7:[23422,23548],8:[25470],10:[30633],11:[32999]}.get(p,[])+REVIEW2_CHECKS.get(p,[])))
         # Exact odd-parity requested frames are inserted in the source map, not relabelled.
         exact_checks=[f for f in requested if segment['start_frame']<=f<=segment['end_frame']]
         if exact_checks:
@@ -425,11 +440,11 @@ def render_point(p,segments,rows,shots,using_v2=False,balls=None):
                 assert d.textbbox((x,y),text,font=fonts[size])[2]<1920, text
                 d.text((x,y),text,font=fonts[size],fill=color)
             txt(24,10,f'match2 第{p}点：選手配置と打球',30)
-            txt(24,54,'打球の時刻・側は本人の確認 ｜ 打者は球・手首の自動判定（未確認） ｜ 約半分の速度',22)
+            txt(24,54,'打球の時刻・側は本人の確認 ｜ 打者は人が確認済み ｜ 約半分の速度',22)
             image.paste(Image.fromarray(raw),(16,104));d=ImageDraw.Draw(image)
             for slot in SLOTS:
                 r=lookup[f,slot];render_rows.append(r)
-                if r['filter_status']=='missing' and r.get('x1','')=='':continue
+                if r['filter_status']=='offscreen_hold' or r.get('x1','')=='':continue
                 color=RGB[slot]
                 x1,y1,x2,y2=[float(r[k])*2/3 for k in ('x1','y1','x2','y2')]
                 corners=[(16+x1,104+y1),(16+x2,104+y1),(16+x2,104+y2),(16+x1,104+y2)]
@@ -472,16 +487,21 @@ def render_point(p,segments,rows,shots,using_v2=False,balls=None):
                     outside.append(dict(source_frame=f,player_slot=slot,status=r['status'],court_x=u,court_y=v))
                     continue
                 color=RGB[slot]
-                head=r['status']=='observed_x_depth_interpolated'
-                d.ellipse((x-6,y-6,x+6,y+6),fill=color if r['status'] in OBS else None,outline='white' if head else ((12,22,32) if r['status'] in OBS else color),width=2 if head or r['status'] not in OBS else 1)
-                txt(x+8,y-12,NAMES[slot],18,color)
-            txt(1335,840,'白縁＝横は観測・前後は補間',16)
+                head=r['status'].startswith('observed_x_depth_')
+                held=r['status']=='offscreen_hold'
+                if held:
+                    for angle in range(0,360,60):d.arc((x-7,y-7,x+7,y+7),angle,angle+35,fill='white',width=2)
+                else:
+                    d.ellipse((x-6,y-6,x+6,y+6),fill=color if r['status'] in OBS else None,outline='white' if head else ((12,22,32) if r['status'] in OBS else color),width=2 if head or r['status'] not in OBS else 1)
+                txt(min(x+8,1730) if held else x+8,y-12,NAMES[slot]+(' 画面外・推定' if held else ''),16 if held else 18,color)
+            txt(1335,818,'破線の白抜き円＝画面外・推定（最終位置保持）',16)
+            txt(1335,840,'白縁＝横は観測・前後は補正／補間／仮定',16)
             txt(1335,862,'破線＝打球者間の模式線（球軌道ではない）',16)
             txt(1335,884,'塗り＝採用　白抜き＝全座標補間。精度未検証。',16)
             txt(24,837,f'元フレーム F{f} ｜ ラリー {segment["rally_no"]} ｜ 打球 {shots.index(segment_shots[current])+1}/{len(shots)}',22)
             note='N1/N2/F1/F2はラリー内で固定した人物名（自動対応）。前衛・後衛の役割ではありません。'
             if p==8:
-                note=('第8点：静止したコート外の人物候補を除外して再追跡。打球者・位置精度は未検証。' if using_v2 else
+                note=('第8点：審判候補を除外して再追跡。打者は確認済み、位置精度は未検証。' if using_v2 else
                       '第8点：手前の誤追跡に注意（線審を含む疑い）。枠・配置・打球者は自動修正していません。')
             txt(24,874,note,20,(250,210,65) if p==8 else (225,235,245))
             # The 056 five-cell sliding strip, limited to the active rally.
@@ -490,15 +510,18 @@ def render_point(p,segments,rows,shots,using_v2=False,balls=None):
                 j=start+k;x=24+k*376;color=RGB[s['hitter_slot']] if s['hitter_slot'] else (190,200,215)
                 d.rounded_rectangle((x,921,x+358,1006),radius=7,fill=(29,49,66) if j==current else (18,31,43),outline=color if j==current else (50,70,85),width=2)
                 status={'auto_wrist':'手首自動','auto_ball':'球自動','auto_ball_wrist':'球＋手首'}.get(s['status'],'未決定')
-                txt(x+12,927,f'{shots.index(s)+1}：{s["hitter"]}（{status}）',22,color)
+                txt(x+12,927,f'{shots.index(s)+1}：{s["hitter"]}（確認済）',22,color)
                 suffix=(' '+s['outcome']) if s['outcome'] in ('winner','out','net') else ''
                 txt(x+12,969,f'F{s["frame"]}'+suffix,18)
-                if s['jump_or_step_flag']:
+                if s.get('auto_hitter',s['hitter'])!=s['hitter']:
+                    txt(x+220,971,f'自動: {s["auto_hitter"]}',16,(250,210,65))
+                elif s['jump_or_step_flag']:
                     txt(x+240,971,'前後位置△',16,(250,210,65))
-            txt(24,1030,'打者・人物対応・球候補は人による検証前です。球候補を地面に投影せず、バウンドは推定していません。',20)
+            txt(24,1030,'打者は確認済み（第7点6は名前の解釈を要再確認）。人物対応・位置精度・球候補は未検証です。',20)
             encoder.stdin.write(np.asarray(image).tobytes())
             if f in exact_checks:
                 image.save(OUT/f'check_abc_p{p:02d}_F{f}.jpg',quality=95)
+                if f in REVIEW2_CHECKS.get(p,[]):image.save(OUT/f'check_review2_p{p:02d}_F{f:05d}.jpg',quality=95)
             for check in checks:
                 if check['sampled_frame']==f and check['rally_no']==segment['rally_no']:
                     name=f'check_p{p:02d}_F{check["label_frame"]}_shown_F{f}.jpg'
@@ -547,11 +570,16 @@ def write_readme(summary,hitters):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--review2',action='store_true',help='Rebuild human-reviewed hitters, reentry, offscreen holds and far depth')
     parser.add_argument('--far-depth-only',action='store_true',help='Reuse frozen B/C and near outputs; rebuild only final far A and videos')
     parser.add_argument('--skip-pose',action='store_true')
     parser.add_argument('--tracking-dir',type=Path,default=PIPE/'tracking_v2')
     parser.add_argument('--prepare-only',action='store_true',help='Run A/B and export diagnostics before ball inference/rendering')
     args=parser.parse_args()
+    if args.review2:
+        from review2 import main as review_main
+        review_main()
+        return
     if args.far_depth_only:
         from far_depth_revision import rebuild
         rebuild()

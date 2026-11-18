@@ -12,9 +12,11 @@ import pandas as pd
 
 import build_court_view as b
 import a_height_revision as previous
+from speed_reset import SpeedReset, STATUS as SPEED_RESET
 
 DEPTH = 'observed_x_depth_interpolated'
-ACCEPTED = ('observed', DEPTH)
+ENVELOPE = 'observed_x_depth_envelope'
+ACCEPTED = ('observed', DEPTH, 'observed_x_depth_serve_anchor', 'observed_x_depth_lift_held', ENVELOPE, SPEED_RESET)
 STATUSES = ('observed', DEPTH, 'rejected_box_height', 'rejected_speed', 'interpolated', 'missing')
 CHECKS = [(7,23422),(10,30633),(11,32999)]
 RULE = dict(horizon_y_px=415., k=.73, height_reject_multiplier=1.35,
@@ -47,19 +49,28 @@ def mark_occlusion(table):
     return pd.DataFrame(rows)
 
 
-def clean_far(slot, source, frames):
+def clean_far(slot, source, frames, *, depth_overrides=None, x_reference=None, envelopes=None, speed_reset=False):
     project,H=b.abc.geometry(b.load_module)
+    depth_overrides=depth_overrides or {}
+    envelopes=envelopes or {}
     diagnostics={}; iterations={}
     for rally in sorted({int(r['rally_no']) for r in source}):
         raw=sorted((r for r in source if int(r['rally_no'])==rally),key=lambda r:r['source_frame'])
         candidates={int(r['source_frame']):r for r in raw if not r['lower_occluded'] and
                     r['y2']-r['y1'] <= 1.35*.73*(r['y2']-415)}
+        candidates={f:dict(r,anchor_depth_y_px=envelopes.get(f,{}).get('envelope_y2_px',r['y2']))
+                    for f,r in candidates.items()}
+        for r in raw:
+            override=depth_overrides.get(int(r['source_frame']))
+            if override and override['status']=='observed_x_depth_serve_anchor':
+                candidates[int(r['source_frame'])]=dict(r,anchor_depth_y_px=override['depth_y_px'])
         anchors=candidates.copy(); seen=set()
         for iteration in range(len(raw)+2):
             key=tuple(anchors)
             assert key not in seen, 'Depth-anchor/speed filtering did not converge'
             seen.add(key)
             af=sorted(anchors); accepted=[]; current=[]
+            speed_streak=SpeedReset(speed_reset)
             for original in raw:
                 r=dict(original); f=int(r['source_frame']); occ=bool(r['lower_occluded'])
                 # Legacy head fields in B are not final A observations.
@@ -67,27 +78,42 @@ def clean_far(slot, source, frames):
                              'height_reference_window_observations','height_reference_scope'):
                     r[name]=''
                 height=r['y2']-r['y1']; reference=.73*(r['y2']-415)
-                depth=r['y2']; a=z=''
+                envelope=envelopes.get(f,{})
+                depth=envelope.get('envelope_y2_px',r['y2']); a=z=''
                 if occ:
                     i=bisect_left(af,f)
                     a=af[i-1] if i else ''
                     z=af[i] if i<len(af) else ''
                     if a!='' and z!='':
-                        t=(f-a)/(z-a); depth=(1-t)*anchors[a]['y2']+t*anchors[z]['y2']
+                        t=(f-a)/(z-a); depth=(1-t)*anchors[a].get('anchor_depth_y_px',anchors[a]['y2'])+t*anchors[z].get('anchor_depth_y_px',anchors[z]['y2'])
                     elif a!='' or z!='':
-                        depth=anchors[a if a!='' else z]['y2']
+                        anchor=anchors[a if a!='' else z]
+                        depth=anchor.get('anchor_depth_y_px',anchor['y2'])
                     else: depth=None
+                override=depth_overrides.get(f)
+                if override:
+                    depth=override['depth_y_px']
                 x=y=jump=''; speed_bad=False
                 if depth is not None:
                     x,y=project(H,(r['x1']+r['x2'])/2,depth)
+                    if x_reference is not None and f in x_reference:
+                        x=x_reference[f]
                     if accepted:
                         prev=accepted[-1]
                         jump=b.distance((x,y),(prev['effective_court_x'],prev['effective_court_y']))
                         speed_bad=jump > 8*(f-prev['source_frame'])/b.FPS+1
-                status=('missing' if depth is None else
+                status=(override['status'] if override else 'missing' if depth is None else
                         'rejected_box_height' if not occ and height>1.35*reference else
-                        'rejected_speed' if speed_bad else DEPTH if occ else 'observed')
+                        'rejected_speed' if speed_bad else DEPTH if occ else
+                        ENVELOPE if envelope.get('envelope_shift_m',0)>=.5 else 'observed')
+                reset_start=speed_streak.update(f,status,rally)
+                reset_base=DEPTH if occ else ENVELOPE if envelope.get('envelope_shift_m',0)>=.5 else 'observed'
+                if reset_start is not None:status=SPEED_RESET
+                r.update(envelope)
                 r.update(source_frame=f,status=status,filter_status=status,
+                         speed_reset_frame=f if reset_start is not None else '',
+                         speed_reject_start_frame=reset_start if reset_start is not None else '',
+                         speed_reset_base_status=reset_base if reset_start is not None else '',
                          court_x=x if status in ACCEPTED else '',court_y=y if status in ACCEPTED else '',
                          effective_court_x=x,effective_court_y=y,depth_y_px=depth if depth is not None else '',
                          depth_anchor_before_frame=a,depth_anchor_after_frame=z,
@@ -102,7 +128,9 @@ def clean_far(slot, source, frames):
                     r['raw_speed_limit_m']=8*(f-current[-1]['source_frame'])/b.FPS+1
                 current.append(r)
                 if status in ACCEPTED: accepted.append(r)
-            updated={r['source_frame']:r for r in current if r['filter_status']=='observed'}
+            updated={r['source_frame']:dict(r,anchor_depth_y_px=r['depth_y_px']) for r in current
+                     if r['filter_status'] in ('observed',ENVELOPE,'observed_x_depth_serve_anchor') or
+                     (r['filter_status']==SPEED_RESET and not r['lower_occluded'])}
             if tuple(updated)==tuple(anchors): break
             anchors=updated
         else: raise AssertionError('Depth anchors failed to converge')
@@ -202,6 +230,11 @@ def finalize(summary=None,before=None):
 
 
 def verify_and_report(before=None):
+    current=json.loads((b.OUT/'cleaning_summary.json').read_text(encoding='utf-8'))
+    if current.get('review2'):
+        from verify_review2 import main as verify_review
+        verify_review()
+        return
     if before is None: before=json.loads((b.OUT/'far_depth_revision_before.json').read_text(encoding='utf-8'))
     for section in ('frozen_sha256','protected_sha256'):
         for name,digest in before[section].items(): assert b.sha(b.ROOT/name)==digest,name

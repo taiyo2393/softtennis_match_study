@@ -1,0 +1,10 @@
+﻿point,rally_no,player,player_slot,track_id,start_frame,end_frame,newly_assigned_frames,assignment_start_frame
+7,1,F1,far_rear,1919,22945,22948,4,22945
+7,2,N2,near_rear,2265,23865,23998,134,23865
+7,2,F1,far_rear,2266,23880,23905,26,23880
+8,1,F1,far_rear,279,25465,25472,8,25465
+8,1,F1,far_rear,403,25902,25903,2,25902
+9,1,N1,near_front,958,28567,28687,121,28567
+10,1,F2,far_front,2780,30625,30703,79,30625
+11,1,F1,far_rear,30,32772,32779,8,32772
+11,1,F2,far_front,83,33090,33114,25,33090

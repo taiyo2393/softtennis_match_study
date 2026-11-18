@@ -1,0 +1,11 @@
+﻿point,player,player_slot,scope,before_above_25_3m,after_above_25_3m,after_offscreen_held_above_25_3m
+7,F1,far_rear,displayed_all_source_frames,557,411,37
+7,F2,far_front,displayed_all_source_frames,0,0,0
+8,F1,far_rear,displayed_all_source_frames,120,140,47
+8,F2,far_front,displayed_all_source_frames,0,0,0
+9,F1,far_rear,displayed_all_source_frames,0,0,0
+9,F2,far_front,displayed_all_source_frames,73,73,0
+10,F1,far_rear,displayed_all_source_frames,0,0,0
+10,F2,far_front,displayed_all_source_frames,0,0,0
+11,F1,far_rear,displayed_all_source_frames,0,0,0
+11,F2,far_front,displayed_all_source_frames,86,139,27
