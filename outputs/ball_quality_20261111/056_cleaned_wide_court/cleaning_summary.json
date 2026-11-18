@@ -1,0 +1,265 @@
+{
+  "display_frames": 401,
+  "output_rows": 1604,
+  "original_player_rows": 1474,
+  "rules": {
+    "source_fps": 59.94,
+    "court_width_m": 10.97,
+    "court_length_m": 23.77,
+    "height_history_max_accepted_points": 15,
+    "warmup_accepted_points_using_global_median": 5,
+    "height_low_ratio": 0.75,
+    "height_high_ratio": 1.35,
+    "height_thresholds": "strictly below low or above high; equality accepted",
+    "height_reset_after_source_frames": 30,
+    "height_reset": "Consecutive raw height rejections spanning strictly more than 30 source frames are reconsidered from the start; clear stale history and rebuild from restored run heights (last 15). Missing samples do not break a run.",
+    "height_reset_speed": "Keep rejected_speed if either the original previous-accepted rule or the adjacent-raw-point rule fails, including the raw transition into the run. Raw rule also checks the return from an outlier.",
+    "maximum_speed_m_s": 8.0,
+    "jump_allowance_m": 1.0,
+    "speed_rule": "distance > 8 * (source_frame - previous_accepted_frame) / 59.94 + 1",
+    "rejection_priority": [
+      "rejected_box_height",
+      "rejected_speed"
+    ],
+    "interpolation_max_endpoint_gap_source_frames": 30,
+    "interpolation_max_endpoint_gap_seconds": 0.5005005005005005,
+    "interpolation": "linear in normalized court coordinates on display source_frames; no extrapolation",
+    "status_policy": "status is final display state; filter_status and backward-compatible input_status retain the post-reset, pre-interpolation decision. Rejected speed points may be interpolated under the unchanged short-gap rule."
+  },
+  "global_median_box_height_px": {
+    "near_front": 128.13262939453125,
+    "near_rear": 254.53582763671875,
+    "far_rear": 84.3336181640625,
+    "far_front": 70.147216796875
+  },
+  "height_resets_by_player": {
+    "near_front": [
+      {
+        "start_frame": 154670,
+        "trigger_frame": 154702,
+        "span_source_frames": 32,
+        "candidate_points": 17,
+        "reset_reference_height_px": 143.8338623046875,
+        "restored_frames": [
+          154670,
+          154672,
+          154674,
+          154676,
+          154678,
+          154680,
+          154682,
+          154684,
+          154686,
+          154688,
+          154690,
+          154692,
+          154694,
+          154696,
+          154698,
+          154700,
+          154702
+        ],
+        "rejected_speed_frames": []
+      }
+    ],
+    "near_rear": [
+      {
+        "start_frame": 154476,
+        "trigger_frame": 154508,
+        "span_source_frames": 32,
+        "candidate_points": 17,
+        "reset_reference_height_px": 369.5540771484375,
+        "restored_frames": [
+          154476,
+          154478,
+          154480,
+          154482,
+          154484,
+          154486,
+          154488,
+          154490,
+          154492,
+          154494,
+          154496,
+          154498,
+          154500,
+          154502,
+          154504,
+          154506,
+          154508
+        ],
+        "rejected_speed_frames": []
+      }
+    ],
+    "far_rear": [],
+    "far_front": []
+  },
+  "height_reset_restored_points_by_player": {
+    "near_front": 17,
+    "near_rear": 17,
+    "far_rear": 0,
+    "far_front": 0
+  },
+  "height_reset_restored_points_total": 34,
+  "status_counts_by_player": {
+    "near_front": {
+      "observed": 366,
+      "observed_after_height_reset": 17,
+      "rejected_box_height": 0,
+      "rejected_speed": 0,
+      "interpolated": 2,
+      "missing": 16
+    },
+    "near_rear": {
+      "observed": 342,
+      "observed_after_height_reset": 17,
+      "rejected_box_height": 1,
+      "rejected_speed": 0,
+      "interpolated": 2,
+      "missing": 39
+    },
+    "far_rear": {
+      "observed": 358,
+      "observed_after_height_reset": 0,
+      "rejected_box_height": 0,
+      "rejected_speed": 1,
+      "interpolated": 26,
+      "missing": 16
+    },
+    "far_front": {
+      "observed": 339,
+      "observed_after_height_reset": 0,
+      "rejected_box_height": 0,
+      "rejected_speed": 0,
+      "interpolated": 46,
+      "missing": 16
+    }
+  },
+  "filter_status_counts_by_player": {
+    "near_front": {
+      "observed": 366,
+      "observed_after_height_reset": 17,
+      "rejected_box_height": 0,
+      "rejected_speed": 2,
+      "interpolated": 0,
+      "missing": 16
+    },
+    "near_rear": {
+      "observed": 342,
+      "observed_after_height_reset": 17,
+      "rejected_box_height": 3,
+      "rejected_speed": 0,
+      "interpolated": 0,
+      "missing": 39
+    },
+    "far_rear": {
+      "observed": 358,
+      "observed_after_height_reset": 0,
+      "rejected_box_height": 10,
+      "rejected_speed": 9,
+      "interpolated": 0,
+      "missing": 24
+    },
+    "far_front": {
+      "observed": 339,
+      "observed_after_height_reset": 0,
+      "rejected_box_height": 5,
+      "rejected_speed": 6,
+      "interpolated": 0,
+      "missing": 51
+    }
+  },
+  "input_status_counts_by_player": {
+    "near_front": {
+      "observed": 366,
+      "observed_after_height_reset": 17,
+      "rejected_box_height": 0,
+      "rejected_speed": 2,
+      "interpolated": 0,
+      "missing": 16
+    },
+    "near_rear": {
+      "observed": 342,
+      "observed_after_height_reset": 17,
+      "rejected_box_height": 3,
+      "rejected_speed": 0,
+      "interpolated": 0,
+      "missing": 39
+    },
+    "far_rear": {
+      "observed": 358,
+      "observed_after_height_reset": 0,
+      "rejected_box_height": 10,
+      "rejected_speed": 9,
+      "interpolated": 0,
+      "missing": 24
+    },
+    "far_front": {
+      "observed": 339,
+      "observed_after_height_reset": 0,
+      "rejected_box_height": 5,
+      "rejected_speed": 6,
+      "interpolated": 0,
+      "missing": 51
+    }
+  },
+  "status_counts_total": {
+    "missing": 87,
+    "observed": 1405,
+    "interpolated": 76,
+    "observed_after_height_reset": 34,
+    "rejected_box_height": 1,
+    "rejected_speed": 1
+  },
+  "input_sha256": {
+    "player_court_proxies.csv": "a61a226f6cdfadb4a8c442a1c53abc652389d9eb62dc3be9d28640cae9c9ea95",
+    "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697"
+  },
+  "independent_position_accuracy_validated": false,
+  "rendering": {
+    "encoded_frames_decoded": 401,
+    "display_fps": 14.985014985014985,
+    "x_normalized_limits": [
+      -0.25,
+      1.25
+    ],
+    "y_normalized_limits": [
+      -0.3,
+      1.55
+    ],
+    "outside_view_skipped_total": 0,
+    "outside_view_skipped_by_player": {
+      "near_front": 0,
+      "near_rear": 0,
+      "far_rear": 0,
+      "far_front": 0
+    },
+    "outside_view_skipped_points": [],
+    "drawn_counts_by_player": {
+      "near_front": {
+        "observed": 366,
+        "observed_after_height_reset": 17,
+        "interpolated": 2
+      },
+      "near_rear": {
+        "observed": 342,
+        "observed_after_height_reset": 17,
+        "interpolated": 2
+      },
+      "far_rear": {
+        "observed": 358,
+        "observed_after_height_reset": 0,
+        "interpolated": 26
+      },
+      "far_front": {
+        "observed": 339,
+        "observed_after_height_reset": 0,
+        "interpolated": 46
+      }
+    },
+    "outside_policy": "Skip points beyond original view including original 7px circle margin; never clamp",
+    "existing_files_verified_unchanged": 273,
+    "left_panel_and_stroke_strip_unchanged_before_video_encoding": true,
+    "existing_routes_and_bounces_reused": true
+  }
+}

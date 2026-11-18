@@ -1,0 +1,46 @@
+{
+  "encoded_frames_decoded": 401,
+  "display_fps": 14.985014985014985,
+  "x_normalized_limits": [
+    -0.25,
+    1.25
+  ],
+  "y_normalized_limits": [
+    -0.3,
+    1.55
+  ],
+  "outside_view_skipped_total": 0,
+  "outside_view_skipped_by_player": {
+    "near_front": 0,
+    "near_rear": 0,
+    "far_rear": 0,
+    "far_front": 0
+  },
+  "outside_view_skipped_points": [],
+  "drawn_counts_by_player": {
+    "near_front": {
+      "observed": 366,
+      "observed_after_height_reset": 17,
+      "interpolated": 2
+    },
+    "near_rear": {
+      "observed": 342,
+      "observed_after_height_reset": 17,
+      "interpolated": 2
+    },
+    "far_rear": {
+      "observed": 358,
+      "observed_after_height_reset": 0,
+      "interpolated": 26
+    },
+    "far_front": {
+      "observed": 339,
+      "observed_after_height_reset": 0,
+      "interpolated": 46
+    }
+  },
+  "outside_policy": "Skip points beyond original view including original 7px circle margin; never clamp",
+  "existing_files_verified_unchanged": 273,
+  "left_panel_and_stroke_strip_unchanged_before_video_encoding": true,
+  "existing_routes_and_bounces_reused": true
+}
