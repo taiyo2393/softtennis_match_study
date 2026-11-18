@@ -56,6 +56,35 @@ def compare_endpoint(source_cap, clip_cap, local_frame, source_frame):
             "passed": int(best) == 0 and errors["0"] < 8.0}
 
 
+def clip_intervals(pipeline):
+    """Old contacts locate camera scenes only; they never become annotation data."""
+    scenes = read_csv(pipeline / "scenes/scenes.csv")
+    inventory = {int(r["point"]): r for r in read_csv(
+        pipeline.parent / "match2_point_inventory_20261117/point_inventory.csv")}
+    for point in range(7, 12):
+        point_scenes = [s for s in scenes if int(s["point"]) == point]
+        frames = [int(r["contact_frame"]) for r in read_csv(
+            pipeline / f"labels/point_{point:02d}.csv")]
+        selected = [s for s in point_scenes if s["is_main_camera"].lower() == "true"
+                    and any(int(s["start_frame"]) <= f <= int(s["end_frame"])
+                            for f in frames)]
+        assert selected, f"No main-camera scene containing old labels: point {point}"
+        assert all(any(int(s["start_frame"]) <= f <= int(s["end_frame"])
+                       for s in selected) for f in frames), (point, "Label outside selected scenes")
+        if point == 10:
+            assert {s["scene_id"] for s in selected} == {"p10_s009"}
+            preceding = next(s for s in point_scenes if s["scene_id"] == "p10_s008")
+            assert preceding["is_main_camera"] == "uncertain"
+            selected.append(preceding)
+        selected.sort(key=lambda s: int(s["start_frame"]))
+        start = min(int(s["start_frame"]) for s in selected)
+        end = max(int(s["end_frame"]) for s in selected) + 1  # scenes.csv is inclusive
+        point_start = int(inventory[point]["display_from_frame"])
+        point_stop = int(inventory[point]["next_display_from_frame"])
+        assert point_start <= start < end <= point_stop
+        yield point, selected, start, end, point_start, point_stop
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--ffmpeg", type=Path, default=Path(r"C:\ffmpeg\bin\ffmpeg.exe"))
@@ -78,14 +107,11 @@ def main():
     v2_path = pipeline / "audio/candidates_v2.csv"
     candidates_v2 = read_csv(v2_path) if v2_path.exists() else []
     records, checks = [], []
-    for row in read_csv(pipeline / "audio/intervals.csv"):
-        point, rally = int(row["point"]), row["rally"]
-        if not 7 <= point <= 11:
-            continue
-        start, end = int(row["start_frame"]), int(row["end_frame"])
-        first, stop = max(0, start - 60), min(source_frames, end + 60)
+    for point, selected, start, end, point_start, point_stop in clip_intervals(pipeline):
+        first, stop = max(point_start, start - 30), min(point_stop, end + 30)
+        assert 0 <= first < stop <= source_frames
         count = stop - first
-        clip = HERE / "clips" / f"point_{point:02d}_rally_{rally}.mp4"
+        clip = HERE / "clips" / f"point_{point:02d}.mp4"
         seek = f"{float(Fraction(first, 1) / FPS):.12f}"
         duration = f"{float(Fraction(count, 1) / FPS):.12f}"
         attempts = []
@@ -122,38 +148,41 @@ def main():
             print(f"{clip.name}: " + json.dumps(endpoints), flush=True)
             if all(e["passed"] for e in endpoints):
                 break
-        check = {"file": clip.name, "frame_count": count, "attempts": attempts,
+        check = {"file": clip.name, "source_first_frame": first,
+                 "source_end_frame_exclusive": stop, "frame_count": count, "attempts": attempts,
                  "passed": all(e["passed"] for e in endpoints)}
         checks.append(check)
-        (HERE / "verification.json").write_text(json.dumps(checks, indent=2), encoding="utf-8")
+        (HERE / "verification.json").write_text(json.dumps(checks, indent=2) + "\n", encoding="utf-8", newline="\n")
         assert check["passed"], f"Frame mismatch: {clip}; see verification.json"
 
         def candidates(rows, kept_only=False):
             return [{"id": r["candidate_id"], "frame": int(r["candidate_frame"]),
                      "strength": float(r["strength"])} for r in rows
-                    if int(r["point"]) == point and r["rally"] == rally
+                    if int(r["point"]) == point
                     and (not kept_only or r["kept"].lower() == "true")
                     and first <= int(r["candidate_frame"]) < stop]
 
-        labels = [{"frame": int(r["contact_frame"]), "side": r["hitter_side"],
-                   "is_serve": r["is_serve"].lower() == "true", "outcome": r["shot_outcome"],
-                   "confidence": r["confidence"]}
-                  for r in read_csv(pipeline / f"labels/point_{point:02d}.csv") if r["rally"] == rally]
-        records.append({"id": f"{point:02d}_{rally}", "point": point, "rally": rally,
+        records.append({"id": f"{point:02d}", "point": point, "rally": "all",
                         "file": "clips/" + clip.name, "source_first_frame": first,
                         "frame_count": count, "fps": float(FPS), "fps_num": FPS.numerator,
                         "fps_den": FPS.denominator, "interval_start_frame": start,
                         "interval_end_frame_exclusive": end,
+                        "point_start_frame": point_start, "point_end_frame_exclusive": point_stop,
+                        "scenes": [{"id": s["scene_id"], "start_frame": int(s["start_frame"]),
+                                    "end_frame_exclusive": int(s["end_frame"]) + 1,
+                                    "is_main_camera": s["is_main_camera"]} for s in selected],
                         "candidates": {"v1": candidates(candidates_v1),
-                                       "v2": candidates(candidates_v2, True)},
-                        "claude_labels": labels})
+                                       "v2": candidates(candidates_v2, True)}})
     source_cap.release()
-    assert len(records) == 6
-    payload = {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
+    assert [r["id"] for r in records] == ["07", "08", "09", "10", "11"]
+    payload = {"schema_version": 2, "generated_at": datetime.now(timezone.utc).isoformat(),
                "source_video": str(source), "interval_convention": "[start, end)",
                "v2_available": v2_path.exists(), "clips": records}
-    (HERE / "data.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"PASS: {len(records)} clips, 12 endpoints; data.json written", flush=True)
+    (HERE / "data.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    # Remove only the six known obsolete clips, after all new clips have passed.
+    for name in ["point_07_rally_A.mp4", *[f"point_{p:02d}_rally_B.mp4" for p in range(7, 12)]]:
+        (HERE / "clips" / name).unlink(missing_ok=True)
+    print(f"PASS: {len(records)} clips, {2 * len(records)} endpoints; data.json written", flush=True)
 
 
 if __name__ == "__main__":

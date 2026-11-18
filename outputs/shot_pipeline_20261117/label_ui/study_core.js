@@ -11,7 +11,7 @@ globalThis.LabelStudyCore = (() => {
     return { id, clip_id:clip.id, point:clip.point, rally:clip.rally, participant,
       condition, candidate_version:condition === "with_candidates" ? version : "none",
       created_at:now, start:null, end:null, last_seen:null, actions:[], away:[],
-      playback_ms:0, labels:[], compared_at:null, reference_exposed_before_start:false };
+      playback_ms:0, labels:[], rally_breaks:[], compared_at:null, reference_exposed_before_start:false };
   }
   function timing(s, now) {
     if (s.start == null) return { elapsed:0, active:0, idle:0, away:0 };
@@ -55,14 +55,22 @@ globalThis.LabelStudyCore = (() => {
     return labels.filter(l => Math.abs(l.frame-frame) <= 10)
       .sort((a,b) => Math.abs(a.frame-frame)-Math.abs(b.frame-frame) || a.frame-b.frame)[0];
   }
-  function normalize(labels) {
-    labels.sort((a,b) => a.frame-b.frame);
-    labels.forEach((l,i) => { if (i !== labels.length-1) l.outcome = "continue"; });
-    if (labels.length && labels[labels.length-1].outcome === "continue") labels[labels.length-1].outcome = "unknown";
+  function rallyNo(s, frame) {
+    return 1 + s.rally_breaks.filter(f => f <= frame).length;
+  }
+  function normalize(s) {
+    s.rally_breaks.sort((a,b) => a-b);
+    s.labels.sort((a,b) => a.frame-b.frame);
+    s.labels.forEach(l => { l.rally_no = rallyNo(s,l.frame); });
+    s.labels.forEach((l,i) => {
+      if (s.labels[i+1]?.rally_no === l.rally_no) l.outcome = "continue";
+      else if (l.outcome === "continue") l.outcome = "unknown";
+    });
   }
   function edit(s, kind, frame) {
     if (s.end != null) return false;
-    let l = nearest(s.labels,frame);
+    const rally = rallyNo(s,frame);
+    let l = nearest(s.labels.filter(l => rallyNo(s,l.frame) === rally),frame);
     if (kind === "near" || kind === "far") {
       if (!l) { l = {frame,side:"N",is_serve:false,outcome:"unknown"}; s.labels.push(l); }
       l.frame = frame; l.side = kind === "near" ? "N" : "F";
@@ -73,12 +81,16 @@ globalThis.LabelStudyCore = (() => {
       if (!l) return false;
       s.labels.splice(s.labels.indexOf(l),1);
     } else if (kind === "outcome") {
-      l = s.labels[s.labels.length-1];
+      l = s.labels.filter(l => rallyNo(s,l.frame) === rally).at(-1);
       if (!l) return false;
       const values = ["unknown","winner","out","net"];
       l.outcome = values[(values.indexOf(l.outcome)+1)%values.length];
+    } else if (kind === "rally_break") {
+      const index = s.rally_breaks.indexOf(frame);
+      if (index < 0) s.rally_breaks.push(frame);
+      else s.rally_breaks.splice(index,1);
     } else return false;
-    normalize(s.labels);
+    normalize(s);
     return true;
   }
   function counts(s) {
@@ -96,7 +108,7 @@ globalThis.LabelStudyCore = (() => {
     for (const s of sessions.filter(s => s.start != null)) {
       const common = {trial_id:s.id, participant:s.participant, point:s.point, rally:s.rally,
         condition:s.condition, candidate_version:s.candidate_version, status:s.end == null ? "in_progress" : "completed"};
-      s.labels.forEach(l => labels.push({...common,...l,is_serve:l.is_serve ? "true" : "false"}));
+      s.labels.forEach(l => labels.push({...common,...l,rally_no:rallyNo(s,l.frame),is_serve:l.is_serve ? "true" : "false"}));
       const t=timing(s,now);
       work.push({...common,start:iso(s.start),end:iso(s.end),elapsed_seconds:(t.elapsed/1000).toFixed(3),
         active_seconds:(t.active/1000).toFixed(3),idle_seconds:(t.idle/1000).toFixed(3),
@@ -106,5 +118,5 @@ globalThis.LabelStudyCore = (() => {
     }
     return {labels,work};
   }
-  return {IDLE_MS,iso,frameFromTime,makeSession,timing,record,suspend,resume,nearest,edit,counts,csv,exportRows};
+  return {IDLE_MS,iso,frameFromTime,makeSession,timing,record,suspend,resume,nearest,rallyNo,edit,counts,csv,exportRows};
 })();

@@ -4,22 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>match2 打球ラベル・作業時間記録</title>
+  <title>match2 打球ラベルの付け直し</title>
   <link rel="stylesheet" href="style.css">
   <script defer src="study_core.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
 <main>
-  <header><h1>match2 打球ラベル</h1><p>映像を確認し、手前・奥の打球とサーブ、最後の結果を記録します。</p></header>
+  <header><h1>match2 打球ラベルの付け直し</h1><p>第7〜11点を一から確認し、本人のラベルを今後の正解として記録します。</p></header>
   <p id="error" role="alert" hidden></p>
   <section class="panel selectors" aria-label="作業の設定">
     <label>作業者名 <input id="participant" type="text" maxlength="80" autocomplete="off" placeholder="未入力"></label>
-    <label>点・ラリー <select id="rallySelect" disabled></select></label>
-    <label>条件 <select id="condition" disabled><option value="with_candidates">候補あり</option><option value="without_candidates">候補なし</option></select></label>
+    <label>点 <select id="rallySelect" disabled></select></label>
+    <label>条件 <select id="condition" disabled><option value="without_candidates" selected>候補なし</option><option value="with_candidates">候補あり（参考。約13フレームおきに出る）</option></select></label>
     <label>候補の版 <select id="candidateVersion" disabled><option value="v1">v1</option><option value="v2">v2 kept</option></select></label>
   </section>
   <section class="panel" aria-label="映像とタイムライン">
+    <p class="instructions">ラケットにボールが当たったフレームで、手前なら N、奥なら F。サーブは付けたあと S。最後の打球の結果は E。</p>
     <div class="video-wrap"><video id="video" preload="auto" playsinline aria-label="ラリー映像（音声あり）"></video></div>
     <div class="readout"><strong id="frame">元動画 F —</strong><span id="time">元動画 — 秒 ／ クリップ — 秒</span><span id="seekState" role="status"></span></div>
     <div class="transport">
@@ -32,29 +33,33 @@
     <div id="timeline" role="slider" tabindex="0" aria-label="元動画フレームのタイムライン" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0">
       <div id="rallyBand"></div><div id="markers"></div><div id="cursor"></div>
     </div>
-    <div class="legend"><span class="near">● 手前 N</span><span class="far">◆ 奥 F</span><span>★ サーブ</span><span id="candidateLegend">│ 音の候補</span><span>背景色：ラリー区間（両端は余白）</span></div>
+    <div class="legend"><span class="near">● 手前 N</span><span class="far">◆ 奥 F</span><span>★ サーブ</span><span>R ラリー区切り</span><span id="candidateLegend" hidden>│ 音の候補（参考）</span><span>背景色：対象場面（外側は余白）</span></div>
     <div class="transport actions">
       <button type="button" data-action="near" disabled>手前 (N)</button><button type="button" data-action="far" disabled>奥 (F)</button>
       <button type="button" data-action="serve" disabled>サーブ切替 (S)</button><button type="button" data-action="delete" disabled>近くを削除 (Delete)</button>
-      <button type="button" data-action="outcome" disabled>最後の結果 (E)</button><button id="complete" type="button" disabled>このラリーを完了 (Enter)</button>
+      <button type="button" data-action="rally_break" disabled>ここから新しいラリー (R)</button>
+      <button type="button" data-action="outcome" disabled>現在のラリーの最後の結果 (E)</button><button id="complete" type="button" disabled>この点を完了 (Enter)</button>
     </div>
     <p id="message" role="status" aria-live="polite">読み込み中…</p>
   </section>
   <section class="panel" aria-label="作業記録">
     <div class="metrics"><div><span>状態</span><strong id="status">未開始</strong></div><div><span>経過時間</span><strong id="elapsed">0.0 秒</strong></div><div><span>作業時間（無操作を除く）</span><strong id="active">0.0 秒</strong></div><div><span>無操作時間</span><strong id="idle">0.0 秒</strong></div><div><span>再生時間合計</span><strong id="playback">0.0 秒</strong></div><div><span>操作回数</span><strong id="actionCount">0</strong></div></div>
     <p class="small">最初の操作から完了まで自動計時。操作間隔が60秒以上になると、その間隔全体を無操作とします。画面を離れた時間も除外します。完了後は編集・計時を固定します。</p>
-    <div class="transport"><button id="export" type="button" disabled>CSV を書き出す（2ファイル）</button><button id="backup" type="button" disabled>全記録の JSON を保存</button><button id="compare" type="button" disabled>Claude のラベルと比べる</button><button id="newTrial" type="button" disabled>同条件で新しい試行</button></div>
+    <div class="transport"><button id="export" type="button" disabled>CSV を書き出す（2ファイル）</button><button id="backup" type="button" disabled>全記録の JSON を保存</button><button id="newTrial" type="button" disabled>同条件で新しい試行</button></div>
     <p id="saveStatus" class="small" role="status"></p><p id="trialInfo" class="small"></p>
-    <div class="table-wrap"><table><caption>付けたラベル</caption><thead><tr><th>元動画F</th><th>側</th><th>サーブ</th><th>結果</th><th>移動</th></tr></thead><tbody id="labelRows"></tbody></table></div>
+    <div class="table-wrap"><table><caption>付けたラベル</caption><thead><tr><th>ラリー番号</th><th>元動画F</th><th>側</th><th>サーブ</th><th>結果</th><th>移動</th></tr></thead><tbody id="labelRows"></tbody></table></div>
+    <p class="small">ラリー区切り：そのフレームから番号が1増えます。同じフレームでもう一度 R を押すと削除できます。</p>
+    <div id="rallyBreakRows" aria-label="ラリー区切りの一覧"></div>
   </section>
   <details class="panel" open><summary>キー操作</summary><ul class="keys">
     <li><kbd>Space</kbd> 再生・一時停止</li><li><kbd>←</kbd> / <kbd>→</kbd> 1フレーム移動（<kbd>Shift</kbd> で6フレーム）</li>
     <li><kbd>J</kbd> / <kbd>K</kbd> 前・次の候補で停止（候補ありのみ）</li><li><kbd>N</kbd> 手前 ／ <kbd>F</kbd> 奥の打球。±10F以内の最も近いラベルは現在位置に移動・側を更新</li>
     <li><kbd>S</kbd> 現在位置±10Fのラベルのサーブを切替。先に N / F で打球を付ける</li><li><kbd>Backspace</kbd> / <kbd>Delete</kbd> ±10Fの最も近いラベルを削除</li>
-    <li><kbd>E</kbd> 最後の打球の結果を unknown → winner → out → net → unknown と切替</li><li><kbd>Enter</kbd> ラリー完了。入力欄・選択欄・ボタンにフォーカス中はショートカット無効</li>
+    <li><kbd>R</kbd> 現在フレームに「ここから新しいラリー」の印。同じフレームで再度押すと削除</li>
+    <li><kbd>E</kbd> 現在フレームが属するラリーの最後の打球の結果を unknown → winner → out → net → unknown と切替</li><li><kbd>Enter</kbd> この点を完了。入力欄・選択欄・ボタンにフォーカス中はショートカット無効</li>
   </ul></details>
   <details class="panel"><summary>保存済みの試行</summary><div id="savedTrials"></div></details>
-  <footer>候補は打球の保証ではありません。Claude のラベルは比較用で、独立した正解ではありません。<a href="README.md">説明と評価手順</a></footer>
+  <footer>音の候補は約13フレームおきに出るため参考扱いです。本人が映像で確認して打球を付けてください。<a href="README.md">説明と手順</a></footer>
 </main>
 </body>
 </html>

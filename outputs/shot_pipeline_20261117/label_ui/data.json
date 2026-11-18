@@ -1,22 +1,32 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-11-17T18:12:21.575308+00:00",
+  "schema_version": 2,
+  "generated_at": "2026-11-18T05:50:07.894301+00:00",
   "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
   "interval_convention": "[start, end)",
   "v2_available": true,
   "clips": [
     {
-      "id": "07_A",
+      "id": "07",
       "point": 7,
-      "rally": "A",
-      "file": "clips/point_07_rally_A.mp4",
-      "source_first_frame": 22716,
-      "frame_count": 376,
+      "rally": "all",
+      "file": "clips/point_07.mp4",
+      "source_first_frame": 22691,
+      "frame_count": 1326,
       "fps": 59.94005994005994,
       "fps_num": 60000,
       "fps_den": 1001,
-      "interval_start_frame": 22776,
-      "interval_end_frame_exclusive": 23032,
+      "interval_start_frame": 22721,
+      "interval_end_frame_exclusive": 23987,
+      "point_start_frame": 21600,
+      "point_end_frame_exclusive": 25140,
+      "scenes": [
+        {
+          "id": "p07_s012",
+          "start_frame": 22721,
+          "end_frame_exclusive": 23987,
+          "is_main_camera": "True"
+        }
+      ],
       "candidates": {
         "v1": [
           {
@@ -108,128 +118,7 @@
             "id": "c0018",
             "frame": 23022,
             "strength": 6.491596283664571
-          }
-        ],
-        "v2": [
-          {
-            "id": "c0002",
-            "frame": 22812,
-            "strength": 5.89619459309123
           },
-          {
-            "id": "c0005",
-            "frame": 22853,
-            "strength": 4.212867365642545
-          },
-          {
-            "id": "c0006",
-            "frame": 22863,
-            "strength": 1.0894341855190994
-          },
-          {
-            "id": "c0007",
-            "frame": 22877,
-            "strength": 2.9561711279950487
-          },
-          {
-            "id": "c0008",
-            "frame": 22890,
-            "strength": 4.723868636512961
-          },
-          {
-            "id": "c0010",
-            "frame": 22916,
-            "strength": 6.651422616161818
-          },
-          {
-            "id": "c0011",
-            "frame": 22928,
-            "strength": 4.3955982946213625
-          },
-          {
-            "id": "c0012",
-            "frame": 22943,
-            "strength": 7.212098412037863
-          },
-          {
-            "id": "c0013",
-            "frame": 22952,
-            "strength": 3.2601604033714127
-          },
-          {
-            "id": "c0015",
-            "frame": 22977,
-            "strength": 1.2952832750243104
-          },
-          {
-            "id": "c0016",
-            "frame": 22993,
-            "strength": 1.0086109154467415
-          },
-          {
-            "id": "c0017",
-            "frame": 23005,
-            "strength": 3.1097068379878383
-          },
-          {
-            "id": "c0018",
-            "frame": 23022,
-            "strength": 6.491596283664571
-          }
-        ]
-      },
-      "claude_labels": [
-        {
-          "frame": 22866,
-          "side": "F",
-          "is_serve": true,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 22893,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 22916,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 22928,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 22942,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "unknown",
-          "confidence": "inferred"
-        }
-      ]
-    },
-    {
-      "id": "07_B",
-      "point": 7,
-      "rally": "B",
-      "file": "clips/point_07_rally_B.mp4",
-      "source_first_frame": 23364,
-      "frame_count": 770,
-      "fps": 59.94005994005994,
-      "fps_num": 60000,
-      "fps_den": 1001,
-      "interval_start_frame": 23424,
-      "interval_end_frame_exclusive": 24074,
-      "candidates": {
-        "v1": [
           {
             "id": "c0019",
             "frame": 23429,
@@ -434,29 +323,74 @@
             "id": "c0059",
             "frame": 24012,
             "strength": 1.6329153335088602
-          },
-          {
-            "id": "c0060",
-            "frame": 24025,
-            "strength": 1.6871756306716694
-          },
-          {
-            "id": "c0061",
-            "frame": 24039,
-            "strength": 4.007599454298684
-          },
-          {
-            "id": "c0062",
-            "frame": 24058,
-            "strength": 3.6784081325337272
-          },
-          {
-            "id": "c0063",
-            "frame": 24069,
-            "strength": 3.5193333952650363
           }
         ],
         "v2": [
+          {
+            "id": "c0002",
+            "frame": 22812,
+            "strength": 5.89619459309123
+          },
+          {
+            "id": "c0005",
+            "frame": 22853,
+            "strength": 4.212867365642545
+          },
+          {
+            "id": "c0006",
+            "frame": 22863,
+            "strength": 1.0894341855190994
+          },
+          {
+            "id": "c0007",
+            "frame": 22877,
+            "strength": 2.9561711279950487
+          },
+          {
+            "id": "c0008",
+            "frame": 22890,
+            "strength": 4.723868636512961
+          },
+          {
+            "id": "c0010",
+            "frame": 22916,
+            "strength": 6.651422616161818
+          },
+          {
+            "id": "c0011",
+            "frame": 22928,
+            "strength": 4.3955982946213625
+          },
+          {
+            "id": "c0012",
+            "frame": 22943,
+            "strength": 7.212098412037863
+          },
+          {
+            "id": "c0013",
+            "frame": 22952,
+            "strength": 3.2601604033714127
+          },
+          {
+            "id": "c0015",
+            "frame": 22977,
+            "strength": 1.2952832750243104
+          },
+          {
+            "id": "c0016",
+            "frame": 22993,
+            "strength": 1.0086109154467415
+          },
+          {
+            "id": "c0017",
+            "frame": 23005,
+            "strength": 3.1097068379878383
+          },
+          {
+            "id": "c0018",
+            "frame": 23022,
+            "strength": 6.491596283664571
+          },
           {
             "id": "c0019",
             "frame": 23429,
@@ -621,209 +555,32 @@
             "id": "c0059",
             "frame": 24012,
             "strength": 1.6329153335088602
-          },
-          {
-            "id": "c0062",
-            "frame": 24058,
-            "strength": 3.6784081325337272
-          },
-          {
-            "id": "c0063",
-            "frame": 24069,
-            "strength": 3.5193333952650363
           }
         ]
-      },
-      "claude_labels": [
-        {
-          "frame": 23514,
-          "side": "F",
-          "is_serve": true,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23534,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23568,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23578,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23590,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23602,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23614,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23632,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23650,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23664,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23678,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23692,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23706,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23730,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23822,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23834,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23846,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23858,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23870,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23880,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23904,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23926,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23960,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 23972,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 23984,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "winner",
-          "confidence": "clear"
-        }
-      ]
+      }
     },
     {
-      "id": "08_B",
+      "id": "08",
       "point": 8,
-      "rally": "B",
-      "file": "clips/point_08_rally_B.mp4",
-      "source_first_frame": 25102,
-      "frame_count": 872,
+      "rally": "all",
+      "file": "clips/point_08.mp4",
+      "source_first_frame": 25140,
+      "frame_count": 847,
       "fps": 59.94005994005994,
       "fps_num": 60000,
       "fps_den": 1001,
-      "interval_start_frame": 25162,
-      "interval_end_frame_exclusive": 25914,
+      "interval_start_frame": 25140,
+      "interval_end_frame_exclusive": 25957,
+      "point_start_frame": 25140,
+      "point_end_frame_exclusive": 26685,
+      "scenes": [
+        {
+          "id": "p08_s001",
+          "start_frame": 25140,
+          "end_frame_exclusive": 25957,
+          "is_main_camera": "True"
+        }
+      ],
       "candidates": {
         "v1": [
           {
@@ -1294,225 +1051,30 @@
             "strength": 4.7163813480757675
           }
         ]
-      },
-      "claude_labels": [
-        {
-          "frame": 25252,
-          "side": "F",
-          "is_serve": true,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25288,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25306,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25324,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25348,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25356,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25372,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25392,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25404,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25414,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25422,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25438,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25450,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25458,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25464,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25478,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25510,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25542,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25612,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25641,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25683,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25770,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25778,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25784,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25792,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25800,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25808,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 25818,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 25824,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "winner",
-          "confidence": "inferred"
-        }
-      ]
+      }
     },
     {
-      "id": "09_B",
+      "id": "09",
       "point": 9,
-      "rally": "B",
-      "file": "clips/point_09_rally_B.mp4",
-      "source_first_frame": 27830,
-      "frame_count": 482,
+      "rally": "all",
+      "file": "clips/point_09.mp4",
+      "source_first_frame": 27279,
+      "frame_count": 1438,
       "fps": 59.94005994005994,
       "fps_num": 60000,
       "fps_den": 1001,
-      "interval_start_frame": 27890,
-      "interval_end_frame_exclusive": 28252,
+      "interval_start_frame": 27309,
+      "interval_end_frame_exclusive": 28687,
+      "point_start_frame": 26685,
+      "point_end_frame_exclusive": 29010,
+      "scenes": [
+        {
+          "id": "p09_s003",
+          "start_frame": 27309,
+          "end_frame_exclusive": 28687,
+          "is_main_camera": "True"
+        }
+      ],
       "candidates": {
         "v1": [
           {
@@ -1743,99 +1305,36 @@
             "strength": 3.455254641941764
           }
         ]
-      },
-      "claude_labels": [
-        {
-          "frame": 27980,
-          "side": "F",
-          "is_serve": true,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 28004,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 28020,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 28046,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 28066,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 28074,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 28086,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 28100,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 28116,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 28138,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 28162,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "unknown",
-          "confidence": "clear"
-        }
-      ]
+      }
     },
     {
-      "id": "10_B",
+      "id": "10",
       "point": 10,
-      "rally": "B",
-      "file": "clips/point_10_rally_B.mp4",
+      "rally": "all",
+      "file": "clips/point_10.mp4",
       "source_first_frame": 30337,
-      "frame_count": 438,
+      "frame_count": 466,
       "fps": 59.94005994005994,
       "fps_num": 60000,
       "fps_den": 1001,
-      "interval_start_frame": 30397,
-      "interval_end_frame_exclusive": 30715,
+      "interval_start_frame": 30367,
+      "interval_end_frame_exclusive": 30773,
+      "point_start_frame": 29010,
+      "point_end_frame_exclusive": 32550,
+      "scenes": [
+        {
+          "id": "p10_s008",
+          "start_frame": 30367,
+          "end_frame_exclusive": 30402,
+          "is_main_camera": "uncertain"
+        },
+        {
+          "id": "p10_s009",
+          "start_frame": 30402,
+          "end_frame_exclusive": 30773,
+          "is_main_camera": "True"
+        }
+      ],
       "candidates": {
         "v1": [
           {
@@ -2016,71 +1515,30 @@
             "strength": 1.90713226686408
           }
         ]
-      },
-      "claude_labels": [
-        {
-          "frame": 30487,
-          "side": "F",
-          "is_serve": true,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 30549,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 30577,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 30597,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 30605,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 30617,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 30625,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "unknown",
-          "confidence": "inferred"
-        }
-      ]
+      }
     },
     {
-      "id": "11_B",
+      "id": "11",
       "point": 11,
-      "rally": "B",
-      "file": "clips/point_11_rally_B.mp4",
-      "source_first_frame": 32658,
-      "frame_count": 554,
+      "rally": "all",
+      "file": "clips/point_11.mp4",
+      "source_first_frame": 32550,
+      "frame_count": 588,
       "fps": 59.94005994005994,
       "fps_num": 60000,
       "fps_den": 1001,
-      "interval_start_frame": 32718,
-      "interval_end_frame_exclusive": 33152,
+      "interval_start_frame": 32550,
+      "interval_end_frame_exclusive": 33108,
+      "point_start_frame": 32550,
+      "point_end_frame_exclusive": 33585,
+      "scenes": [
+        {
+          "id": "p11_s001",
+          "start_frame": 32550,
+          "end_frame_exclusive": 33108,
+          "is_main_camera": "True"
+        }
+      ],
       "candidates": {
         "v1": [
           {
@@ -2227,11 +1685,6 @@
             "id": "c0189",
             "frame": 33130,
             "strength": 2.5594701508895534
-          },
-          {
-            "id": "c0190",
-            "frame": 33143,
-            "strength": 3.399428003875566
           }
         ],
         "v2": [
@@ -2356,107 +1809,7 @@
             "strength": 1.6566421306344132
           }
         ]
-      },
-      "claude_labels": [
-        {
-          "frame": 32808,
-          "side": "F",
-          "is_serve": true,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 32852,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 32870,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 32884,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 32910,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 32926,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 32944,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 32964,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 32984,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 33000,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 33016,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 33034,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "clear"
-        },
-        {
-          "frame": 33046,
-          "side": "F",
-          "is_serve": false,
-          "outcome": "continue",
-          "confidence": "inferred"
-        },
-        {
-          "frame": 33062,
-          "side": "N",
-          "is_serve": false,
-          "outcome": "winner",
-          "confidence": "inferred"
-        }
-      ]
+      }
     }
   ]
 }

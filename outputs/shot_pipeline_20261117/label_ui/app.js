@@ -3,9 +3,9 @@
   const C = globalThis.LabelStudyCore;
   const $ = id => document.getElementById(id);
   const video = $("video");
-  const STORAGE = "match2-human-label-study-v1";
-  let db = {version:1, participant:"", sessions:[]}, data, clip, session;
-  let shownLocal = 0, pendingSeek = null, referenceVisible = false;
+  const STORAGE = "match2-human-relabel-scenes-v2";
+  let db = {version:2, participant:"", sessions:[]}, data, clip, session;
+  let shownLocal = 0, pendingSeek = null;
   let playbackStarted = null, lastCheckpoint = performance.now(), seekTimer = null;
   let storageBlocked = false, foreignTab = false, ready = false;
   let channel = null;
@@ -56,7 +56,7 @@
     try {
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (parsed.version !== 1 || !Array.isArray(parsed.sessions)) throw new Error("保存形式が不明です");
+        if (parsed.version !== 2 || !Array.isArray(parsed.sessions)) throw new Error("保存形式が不明です");
         db = parsed;
       }
     } catch (e) {
@@ -83,7 +83,6 @@
   function pause() { stopPlayback(); video.pause(); }
   function act(type, detail={}) {
     if (!session || foreignTab || document.hidden) return false;
-    if (session.start == null) session.reference_exposed_before_start = db.sessions.some(s => s.clip_id === clip.id && s.compared_at != null);
     const ok = C.record(session,type,Date.now(),detail);
     if (ok) { persist(); renderMetrics(); lockControls(); }
     return ok;
@@ -108,7 +107,6 @@
     if (!session) {
       session = C.makeSession(clip,participant,condition,version,Date.now(),
         globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(16).slice(2)}`);
-      session.reference_exposed_before_start = db.sessions.some(s => s.clip_id === clip.id && s.compared_at != null);
       db.sessions.push(session);
     }
     $("participant").value = session.participant;
@@ -117,13 +115,12 @@
     if (session.candidate_version !== "none") $("candidateVersion").value = session.candidate_version;
     db.participant = session.participant;
     if (!document.hidden) C.resume(session,Date.now());
-    referenceVisible = false; shownLocal = 0;
-    $("compare").textContent = "Claude のラベルと比べる";
+    shownLocal = 0;
     setVideoSource(clip.file);
     $("timeline").setAttribute("aria-valuemin",clip.source_first_frame);
     $("timeline").setAttribute("aria-valuemax",clip.source_first_frame+clip.frame_count-1);
-    $("intervalText").textContent = `ラリー F${clip.interval_start_frame}–${clip.interval_end_frame_exclusive-1} ／ クリップ F${clip.source_first_frame}–${clip.source_first_frame+clip.frame_count-1} ／ 60000/1001 fps`;
-    message(session.end != null ? "完了済み：記録を固定しています。映像の確認・比較は計時に含みません。" : "最初の再生・移動・ラベル操作から計時します。まず映像をクリックするとキーを使えます。");
+    $("intervalText").textContent = `対象場面 F${clip.interval_start_frame}–${clip.interval_end_frame_exclusive-1} ／ クリップ F${clip.source_first_frame}–${clip.source_first_frame+clip.frame_count-1} ／ 60000/1001 fps`;
+    message(session.end != null ? "完了済み：記録を固定しています。映像の確認は計時に含みません。" : "最初の再生・移動・ラベル操作から計時します。まず映像をクリックするとキーを使えます。");
     persist(); renderAll();
   }
   function lockControls() {
@@ -134,7 +131,6 @@
     document.querySelectorAll("[data-action]").forEach(b => { b.disabled = !available || session?.end != null; });
     $("play").disabled = !available;
     $("complete").disabled = !available || session?.end != null;
-    $("compare").disabled = !available || session?.end == null;
     $("newTrial").disabled = !available || session?.end == null;
     $("participant").disabled = foreignTab || (session?.start != null && session?.end == null);
     $("candidateVersion").disabled = foreignTab || session?.condition !== "with_candidates" || session?.start != null;
@@ -146,12 +142,12 @@
     for (const [id,key] of [["elapsed","elapsed"],["active","active"],["idle","idle"]]) $(id).textContent = `${(t[key]/1000).toFixed(1)} 秒`;
     $("playback").textContent = `${(session.playback_ms/1000).toFixed(1)} 秒`;
     $("actionCount").textContent = session.actions.length;
-    $("trialInfo").textContent = `試行 ${session.id} ／ ${session.participant || "（名前未入力）"} ／ ${session.condition === "with_candidates" ? "候補あり・"+session.candidate_version : "候補なし"}` + (session.reference_exposed_before_start ? " ／ このラリーは参照ラベル閲覧後の試行です" : "");
+    $("trialInfo").textContent = `試行 ${session.id} ／ ${session.participant || "（名前未入力）"} ／ ${session.condition === "with_candidates" ? "候補あり・"+session.candidate_version : "候補なし"}`;
   }
   function renderPosition() {
     if (!clip) return;
     const f = currentFrame(), sec=f*clip.fps_den/clip.fps_num;
-    $("frame").textContent = `元動画 F ${f}`;
+    $("frame").textContent = `元動画 F ${f} ／ ラリー ${C.rallyNo(session,f)}`;
     $("time").textContent = `元動画 ${sec.toFixed(3)} 秒 ／ クリップ ${(shownLocal*clip.fps_den/clip.fps_num).toFixed(3)} 秒`;
     $("cursor").style.left = `${shownLocal/Math.max(1,clip.frame_count-1)*100}%`;
     $("timeline").setAttribute("aria-valuenow",f);
@@ -168,27 +164,35 @@
       el.style.left=`${pct(frame)}%`; el.textContent=symbol; el.title=title; root.append(el);
     }
     candidates().forEach(c => marker(c.frame,"candidate","",`音の候補 F${c.frame}`));
-    session.labels.forEach(l => marker(l.frame,`label ${l.side === "N" ? "near" : "far"}`, l.is_serve ? "★" : l.side === "N" ? "●" : "◆",`F${l.frame} ${l.side} ${l.outcome}`));
-    if (referenceVisible) clip.claude_labels.forEach(l => marker(l.frame,`label reference ${l.side === "N" ? "near" : "far"}`,l.is_serve ? "☆" : "◇",`Claude F${l.frame} ${l.confidence}`));
+    session.rally_breaks.forEach(f => marker(f,"rally-break","R",`F${f} からラリー ${C.rallyNo(session,f)}`));
+    session.labels.forEach(l => marker(l.frame,`label ${l.side === "N" ? "near" : "far"}`, l.is_serve ? "★" : l.side === "N" ? "●" : "◆",`ラリー${l.rally_no} F${l.frame} ${l.side} ${l.outcome}`));
     $("candidateLegend").hidden = session.condition !== "with_candidates";
   }
   function renderLabels() {
     const root=$("labelRows"); root.replaceChildren();
     session.labels.forEach(l => {
       const tr=document.createElement("tr");
-      [l.frame,l.side === "N" ? "手前 N" : "奥 F",l.is_serve ? "★" : "",l.outcome].forEach(t => {
+      [l.rally_no,l.frame,l.side === "N" ? "手前 N" : "奥 F",l.is_serve ? "★" : "",l.outcome].forEach(t => {
         const td=document.createElement("td"); td.textContent=t; tr.append(td);
       });
       const td=document.createElement("td"), b=document.createElement("button");
       b.type="button"; b.textContent="このFへ"; b.addEventListener("click",()=>seek(l.frame,"label_seek"));
       td.append(b); tr.append(td); root.append(tr);
     });
+    const breaks=$("rallyBreakRows"); breaks.replaceChildren();
+    session.rally_breaks.forEach(f => {
+      const row=document.createElement("div"); row.className="saved";
+      row.textContent=`F${f} からラリー ${C.rallyNo(session,f)} `;
+      const b=document.createElement("button"); b.type="button"; b.textContent="このFへ";
+      b.addEventListener("click",()=>{ seek(f,"rally_break_seek"); $("timeline").focus(); });
+      row.append(b); breaks.append(row);
+    });
   }
   function renderSaved() {
     const root=$("savedTrials"); root.replaceChildren();
     db.sessions.filter(s => s.start != null).slice().reverse().forEach(s => {
       const row=document.createElement("div"); row.className="saved";
-      row.textContent=`第${s.point}点 ${s.rally} ／ ${s.participant || "未入力"} ／ ${s.condition === "with_candidates" ? "候補あり・"+s.candidate_version : "候補なし"} ／ ${s.end == null ? "未完了" : "完了"} ／ ${C.iso(s.start)}`;
+      row.textContent=`第${s.point}点 ／ ${s.participant || "未入力"} ／ ${s.condition === "with_candidates" ? "候補あり・"+s.candidate_version : "候補なし"} ／ ${s.end == null ? "未完了" : "完了"} ／ ${C.iso(s.start)}`;
       const b=document.createElement("button"); b.type="button"; b.textContent="開く";
       b.addEventListener("click",()=>choose(false,s)); row.append(b); root.append(row);
     });
@@ -238,7 +242,8 @@
     const f=currentFrame(), changed=C.edit(session,kind,f);
     act(kind,{frame:f,changed});
     persist(); renderAll();
-    message(changed ? (kind === "outcome" ? `最後の結果：${session.labels.at(-1).outcome}` : `F${f} の操作を記録しました。`) : "近くにラベルがありません。先に N / F で打球を付けてください。");
+    const last=session.labels.filter(l=>l.rally_no === C.rallyNo(session,f)).at(-1);
+    message(changed ? (kind === "outcome" ? `ラリー${last.rally_no} の最後の結果：${last.outcome}` : kind === "rally_break" ? `F${f} のラリー区切りを${session.rally_breaks.includes(f) ? "追加" : "削除"}しました。` : `F${f} の操作を記録しました。`) : "対象の打球がありません。先に N / F で打球を付けてください。");
   }
   function complete() {
     if (!editable()) return;
@@ -247,7 +252,7 @@
     act("complete",{frame:currentFrame()});
     session.end=session.actions.at(-1).at;
     persist(); renderAll();
-    message("ラリー完了。記録を固定しました。CSV を書き出してください。比較・再生は計時に含みません。");
+    message("この点を完了しました。記録を固定しました。CSV を書き出してください。以後の再生は計時に含みません。");
   }
   function download(name,text,mime) {
     const url=URL.createObjectURL(new Blob([text],{type:mime}));
@@ -258,7 +263,7 @@
     tallyPlayback(); persist();
     const rows=C.exportRows(db.sessions,Date.now()), stamp=new Date().toISOString().replace(/[:.]/g,"-");
     const common=["trial_id","participant","point","rally","condition","candidate_version","status"];
-    download(`match2_labels_${stamp}.csv`,C.csv(rows.labels,["point","rally","frame","side","is_serve","outcome",...common.filter(k => !["point","rally"].includes(k))]),"text/csv;charset=utf-8");
+    download(`match2_labels_${stamp}.csv`,C.csv(rows.labels,["point","rally","frame","side","is_serve","outcome",...common.filter(k => !["point","rally"].includes(k)),"rally_no"]),"text/csv;charset=utf-8");
     download(`match2_work_${stamp}.csv`,C.csv(rows.work,["point","rally","condition","start","end","active_seconds","idle_seconds","n_actions_by_type","participant","trial_id","candidate_version","status","elapsed_seconds","away_seconds","playback_seconds","compared_at","reference_exposed_before_start"]),"text/csv;charset=utf-8");
     message("ラベルと作業記録の2ファイルを書き出しました。複数ダウンロードの許可が出たら、このローカル画面を許可してください。");
   }
@@ -269,7 +274,7 @@
     data=await response.json();
     data.clips.forEach(c => {
       for (const list of Object.values(c.candidates)) list.sort((a,b)=>a.frame-b.frame);
-      const o=document.createElement("option"); o.value=c.id; o.textContent=`第${c.point}点 ・ ラリー ${c.rally}`; $("rallySelect").append(o);
+      const o=document.createElement("option"); o.value=c.id; o.textContent=`第${c.point}点`; $("rallySelect").append(o);
     });
     if (!data.v2_available) $("candidateVersion").querySelector('[value="v2"]').disabled=true;
     $("rallySelect").disabled=foreignTab; $("condition").disabled=foreignTab;
@@ -314,21 +319,14 @@
     document.addEventListener("keydown",e=>{
       if (e.ctrlKey || e.altKey || e.metaKey || e.isComposing || /^(INPUT|SELECT|TEXTAREA|BUTTON)$/.test(e.target.tagName) || e.target.isContentEditable) return;
       const k=e.key.toLowerCase();
-      if (![" ","arrowleft","arrowright","j","k","n","f","s","backspace","delete","e","enter"].includes(k)) return;
+      if (![" ","arrowleft","arrowright","j","k","n","f","s","r","backspace","delete","e","enter"].includes(k)) return;
       e.preventDefault(); if (!ready || foreignTab) return;
       if (e.repeat && !["arrowleft","arrowright"].includes(k)) return;
       if (k === " ") togglePlay();
       else if (k === "arrowleft" || k === "arrowright") step((k === "arrowleft" ? -1 : 1)*(e.shiftKey ? 6 : 1));
       else if (k === "j" || k === "k") jump(k === "j" ? -1 : 1);
       else if (k === "enter") complete();
-      else labelAction(({n:"near",f:"far",s:"serve",backspace:"delete",delete:"delete",e:"outcome"})[k]);
-    });
-    $("compare").addEventListener("click",()=>{
-      if (session.end == null) return;
-      referenceVisible=!referenceVisible;
-      if (referenceVisible && session.compared_at == null) session.compared_at=Date.now();
-      $("compare").textContent=referenceVisible ? "Claude のラベルを隠す" : "Claude のラベルと比べる";
-      persist(); renderMarkers(); message("薄い印は Claude の比較用ラベルです。独立した正解として扱わないでください。");
+      else labelAction(({n:"near",f:"far",s:"serve",r:"rally_break",backspace:"delete",delete:"delete",e:"outcome"})[k]);
     });
     $("newTrial").addEventListener("click",()=>{ if (session.end != null) choose(true); });
     $("export").addEventListener("click",exportCSV);

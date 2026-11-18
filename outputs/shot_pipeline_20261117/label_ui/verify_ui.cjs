@@ -11,7 +11,20 @@ const clip=data.clips[0];
 const make=()=>C.makeSession(clip,"研究者","with_candidates","v1",0,"test");
 let checks=0;
 function test(name, fn) { fn(); checks++; console.log("PASS",name); }
-test("frame calculation for all frames in six clips",()=>{
+test("five scene clips contain no old labels and keep point boundaries",()=>{
+  assert.equal(data.schema_version,2);
+  assert.deepEqual(data.clips.map(c=>c.id),["07","08","09","10","11"]);
+  assert.ok(!JSON.stringify(data).includes("claude_labels"));
+  const expected=[[22691,24017],[25140,25987],[27279,28717],[30337,30803],[32550,33138]];
+  data.clips.forEach((c,i)=>{
+    assert.deepEqual([c.source_first_frame,c.source_first_frame+c.frame_count],expected[i]);
+    assert.ok(c.source_first_frame >= c.point_start_frame);
+    assert.ok(c.source_first_frame+c.frame_count <= c.point_end_frame_exclusive);
+    assert.ok(c.candidates.v1.every(v=>v.frame >= expected[i][0] && v.frame < expected[i][1]));
+  });
+  assert.deepEqual(data.clips[3].scenes.map(s=>s.id),["p10_s008","p10_s009"]);
+});
+test("frame calculation for all frames in five clips",()=>{
   for (const c of data.clips) for (let i=0;i<c.frame_count;i++) {
     assert.equal(C.frameFromTime(i*c.fps_den/c.fps_num,c),i);
     assert.equal(C.frameFromTime((i+.99)*c.fps_den/c.fps_num,c),i);
@@ -57,8 +70,38 @@ test("condition records are independent and CSV carries trial identity",()=>{
   assert.equal(rows.labels.length,1); assert.equal(rows.work.length,1);
   assert.equal(rows.work[0].active_seconds,"3.000"); assert.equal(rows.work[0].playback_seconds,"2.400");
   assert.equal(rows.labels[0].trial_id,"test");
+  assert.equal(rows.labels[0].rally_no,1);
   const csv=C.csv([{name:'=SUM(1,2)',value:'日本語,"改行\n'}],["name","value"]);
   assert.ok(csv.startsWith("\ufeff")); assert.ok(csv.includes("'=SUM(1,2)")); assert.ok(csv.includes('""改行\n'));
+});
+test("R applies at its frame, renumbers out-of-order boundaries and toggles off",()=>{
+  const s=make();
+  C.edit(s,"near",100); C.edit(s,"far",200); C.edit(s,"near",300);
+  C.edit(s,"rally_break",250); C.edit(s,"rally_break",200);
+  assert.deepEqual(s.labels.map(l=>l.rally_no),[1,2,3]);
+  assert.equal(C.rallyNo(s,199),1); assert.equal(C.rallyNo(s,200),2);
+  C.edit(s,"outcome",100); C.edit(s,"outcome",220); C.edit(s,"outcome",300);
+  assert.deepEqual(s.labels.map(l=>l.outcome),["winner","winner","winner"]);
+  C.edit(s,"rally_break",200);
+  assert.deepEqual(s.labels.map(l=>l.rally_no),[1,1,2]);
+  assert.deepEqual(s.labels.map(l=>l.outcome),["continue","winner","winner"]);
+  C.record(s,"rally_break",0);
+  assert.deepEqual(C.exportRows([s],1).labels.map(l=>l.rally_no),[1,1,2]);
+  const restored=JSON.parse(JSON.stringify(s));
+  assert.equal(C.rallyNo(restored,300),2);
+  assert.equal(C.edit(restored,"outcome",1000),true); // current rally's final shot
+  s.end=1; assert.equal(C.edit(s,"rally_break",250),false);
+});
+test("nearby shots across R stay distinct; empty rally E cannot change another rally",()=>{
+  const s=make(); C.edit(s,"near",100); C.edit(s,"rally_break",105);
+  assert.equal(C.edit(s,"serve",105),false);
+  assert.equal(C.edit(s,"outcome",105),false);
+  C.edit(s,"far",105);
+  assert.deepEqual(s.labels.map(l=>l.rally_no),[1,2]);
+  C.edit(s,"outcome",100); assert.equal(s.labels[0].outcome,"winner");
+  assert.equal(s.labels[1].outcome,"unknown");
+  C.edit(s,"delete",105); assert.equal(s.labels.length,1);
+  assert.equal(s.labels[0].outcome,"winner");
 });
 
 // A deliberately small stub exercises the actual app event handlers without
@@ -77,7 +120,10 @@ class Element {
 async function appCheck({blockedStorage=false,rvfc=false}={}) {
   const ids=[...fs.readFileSync(path.join(__dirname,"index.html"),"utf8").matchAll(/id="([^"]+)"/g)].map(m=>m[1]);
   const elements=Object.fromEntries(ids.map(id=>[id,new Element()]));
-  elements.condition.value="with_candidates"; elements.candidateVersion.value="v1"; elements.rallySelect.value=clip.id;
+  const html=fs.readFileSync(path.join(__dirname,"index.html"),"utf8");
+  assert.match(html,/<option value="without_candidates" selected>/);
+  assert.ok(!html.includes('id="compare"'));
+  elements.condition.value="without_candidates"; elements.candidateVersion.value="v1"; elements.rallySelect.value=clip.id;
   const video=elements.video; video.paused=true; video.currentTime=0; video.seeking=false;
   video.load=()=>{}; video.pause=()=>{video.paused=true; video.fire("pause");};
   video.play=()=>{video.paused=false;video.fire("playing");return Promise.resolve();};
@@ -85,7 +131,9 @@ async function appCheck({blockedStorage=false,rvfc=false}={}) {
   const doc=new Element(); doc.hidden=false; doc.body=new Element();
   doc.getElementById=id=>{assert.ok(elements[id],`missing id ${id}`);return elements[id];};
   doc.createElement=tag=>new Element(tag); doc.querySelectorAll=()=>[];
-  const saved=new Map(), blobs=[], win=new Element(); let now=1000000;
+  const oldKey="match2-human-label-study-v1", storageKey="match2-human-relabel-scenes-v2";
+  const oldState=JSON.stringify({version:1,participant:"OLD",sessions:[{clip_id:"07_A"}]});
+  const saved=new Map([[oldKey,oldState]]), blobs=[], win=new Element(); let now=1000000;
   const context={document:doc,window:win,navigator:{},console,Blob,
     performance:{now:()=>now},Date:class extends Date { static now(){return now;} },
     localStorage:{getItem:k=>{if(blockedStorage)throw Error("blocked");return saved.get(k)??null;},setItem:(k,v)=>{if(blockedStorage)throw Error("blocked");saved.set(k,v);}},
@@ -99,25 +147,41 @@ async function appCheck({blockedStorage=false,rvfc=false}={}) {
   assert.equal(elements.error.hidden,false); // stub default; content must remain empty
   assert.equal(elements.error.textContent,undefined);
   video.fire("loadeddata");
+  assert.equal(elements.candidateLegend.hidden,true);
   const key=k=>doc.fire("keydown",{key:k,target:new Element("video"),preventDefault(){}});
+  key("k"); assert.equal(elements.status.textContent,"未開始");
   key("ArrowRight"); video.fire("seeked");
   if(rvfc) video.callback(0,{mediaTime:video.currentTime});
-  key("n"); now+=5000; key("s"); key("e"); key("Enter");
+  key("n"); now+=5000; key("s"); key("e");
+  key("ArrowRight"); video.fire("seeked");
+  if(rvfc) video.callback(0,{mediaTime:video.currentTime});
+  key("r"); assert.equal(elements.rallyBreakRows.children.length,1);
+  key("r"); assert.equal(elements.rallyBreakRows.children.length,0);
+  key("r"); key("f"); key("e"); key("Enter");
   assert.equal(elements.status.textContent,"完了");
-  assert.equal(elements.frame.textContent,`元動画 F ${clip.source_first_frame+1}`);
+  assert.equal(elements.frame.textContent,`元動画 F ${clip.source_first_frame+2} ／ ラリー 2`);
   const before=elements.active.textContent; now+=999000;
-  elements.compare.click(); key("n"); assert.equal(elements.active.textContent,before);
+  key("r"); key("n"); assert.equal(elements.active.textContent,before);
   elements.export.click(); assert.equal(blobs.length,2);
-  assert.ok((await blobs[0].text()).includes('"winner"'));
+  const labelCSV=await blobs[0].text();
+  assert.ok(labelCSV.includes('"winner"'));
+  assert.deepEqual([...new Uint8Array(await blobs[0].arrayBuffer()).slice(0,3)],[239,187,191]);
+  assert.equal(labelCSV.split("\r\n")[0],'"point","rally","frame","side","is_serve","outcome","trial_id","participant","condition","candidate_version","status","rally_no"');
+  assert.ok(labelCSV.split("\r\n")[1].endsWith(',"1"'));
+  assert.ok(labelCSV.split("\r\n")[2].endsWith(',"2"'));
   assert.ok((await blobs[1].text()).includes('"5.000"'));
-  elements.condition.value="without_candidates"; elements.condition.fire("change"); video.fire("loadeddata");
-  assert.equal(elements.labelRows.children.length,0); assert.equal(elements.candidateLegend.hidden,true);
+  elements.condition.value="with_candidates"; elements.condition.fire("change"); video.fire("loadeddata");
+  assert.equal(elements.labelRows.children.length,0); assert.equal(elements.rallyBreakRows.children.length,0);
+  assert.equal(elements.candidateLegend.hidden,false);
   assert.equal(elements.status.textContent,"未開始");
-  key("k"); assert.equal(elements.status.textContent,"未開始");
   if(blockedStorage) assert.ok(elements.saveStatus.textContent.includes("失敗"));
   else {
-    const state=JSON.parse([...saved.values()][0]);
-    assert.equal(state.sessions[0].end,1005000); assert.equal(state.sessions[0].labels.length,1);
+    assert.equal(saved.get(oldKey),oldState);
+    const state=JSON.parse(saved.get(storageKey));
+    assert.equal(state.version,2); assert.equal(state.participant,"");
+    assert.equal(state.sessions[0].end,1005000); assert.equal(state.sessions[0].labels.length,2);
+    assert.equal(state.sessions[0].rally_breaks.length,1);
+    assert.deepEqual(state.sessions[0].labels.map(l=>l.rally_no),[1,2]);
     assert.equal(state.sessions[1].labels.length,0);
   }
   checks++; console.log("PASS app handlers",{blockedStorage,rvfc});
