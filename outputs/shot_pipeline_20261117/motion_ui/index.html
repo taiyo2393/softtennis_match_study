@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>前衛モーションの目視記録</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>前衛モーションの目視記録</h1>
+  <div class="toolbar"><label>名前 <input id="annotator" autocomplete="off" placeholder="未入力" maxlength="100"></label>
+  <button id="export" type="button">CSV を書き出す</button><span id="progress"></span></div>
+  <p id="storage" role="status">準備中…</p><p id="error" class="error" role="alert" hidden></p>
+</header>
+<main>
+<section class="viewer" aria-label="動画の確認">
+  <div class="heading"><h2 id="itemTitle">読み込み中</h2><strong id="side" class="side"></strong></div>
+  <p id="target"></p>
+  <div class="video-wrap"><video id="video" playsinline muted preload="auto" aria-label="対象打球の動画"></video><canvas id="overlay" aria-hidden="true"></canvas></div>
+  <p id="videoStatus" role="status"></p>
+  <div class="transport toolbar">
+    <button id="play" type="button">再生</button>
+    <button type="button" data-step="-6">−6コマ</button><button type="button" data-step="-1">−1コマ</button>
+    <button type="button" data-step="1">＋1コマ</button><button type="button" data-step="6">＋6コマ</button>
+    <label>速度 <select id="speed"><option value="1">1×</option><option value="0.5">0.5×</option><option value="0.25">0.25×</option></select></label>
+    <label><input id="loop" type="checkbox" checked>ループ</label>
+    <label><input id="showBox" type="checkbox" checked>前衛の枠</label>
+  </div>
+  <div class="timeline-wrap"><div class="markers" aria-hidden="true"><span id="contactMarker" class="marker contact">打球</span><span id="endMarker" class="marker endpoint">＋0.4秒</span></div>
+    <input id="timeline" type="range" min="0" max="1" step="1" value="0" aria-label="元動画のフレーム位置">
+  </div>
+  <p id="frameInfo" class="mono"></p>
+  <p class="legend"><span class="contact-text">● 打球時点</span>　<span class="endpoint-text">● 打球の0.4秒後（固定目安）</span></p>
+  <details open><summary>定義・判断の手がかり（井箟ほか，1986）</summary>
+    <ul><li><b>ポジショニング</b>：相手が打とうとするときに、前衛が一時的に静止すること。</li>
+    <li><b>モーション</b>：相手の打球に対し、前衛がそこから意図的に行う移動。終点は、打球のネット通過、または前衛自身の接触まで。</li>
+    <li><b>単</b>：一度、まっすぐ動く。<b>複</b>：予備の動きのあとに決め手の動き（2段・3段）。</li>
+    <li><b>誘い（フェイント）</b>：予備で斜め前に出て、逆の斜め前へ決める型。</li></ul>
+    <p>＋0.4秒の印は論文の終点を測定したものではありません。ネット通過／本人の接触までを見て判断してください。3段の複は最初の予備と最後の決定の向きを入力し、中間の動きはメモへ。</p>
+    <p>枠は追跡slotの位置です。前衛として正しいかも確認し、対象が違うときは「判定できない → 前衛が違う」を選んでください。必要な区間が見えなければ無理に分類しないでください。</p>
+  </details>
+  <p class="keys">キー：Space＝再生／停止 · ←／→＝1コマ · Shift＋←／→＝6コマ · 1／2／3＝なし／単／複 · Enter＝次へ<br>名前・メモなどの入力中はショートカットを使いません。</p>
+</section>
+<section class="annotation" aria-label="判定の入力">
+  <form id="labelForm" novalidate>
+  <fieldset><legend>モーション <span class="required">必須</span></legend>
+    <div id="motionButtons" class="choices"><button type="button" data-motion="none">1 なし</button><button type="button" data-motion="single">2 単</button><button type="button" data-motion="compound">3 複</button><button type="button" data-motion="unknown">判定できない</button></div>
+    <label id="reasonWrap" hidden>理由 <select id="unknownReason"><option value="">選んでください</option><option value="not_visible">見えない</option><option value="wrong_player">前衛が違う</option><option value="other">その他</option></select></label>
+  </fieldset>
+  <fieldset id="prelimWrap" hidden><legend>予備の向き（画面で見た向き）</legend><div id="prelimDirections" class="directions" role="group" aria-label="予備の8方向"></div><p id="prelimPlayer" class="converted"></p></fieldset>
+  <fieldset id="finalWrap" hidden><legend id="finalLegend">向き（画面で見た向き）</legend><div id="finalDirections" class="directions" role="group" aria-label="決定の8方向"></div><p id="finalPlayer" class="converted"></p><p id="orientation"></p></fieldset>
+  <fieldset><legend>誘い（フェイント）か <span class="required">必須</span></legend><div id="feintButtons" class="choices"><button type="button" data-feint="yes">はい</button><button type="button" data-feint="no">いいえ</button><button type="button" data-feint="unknown">分からない</button></div><p>「はい」は複モーションの場合に選べます。</p></fieldset>
+  <fieldset><legend>自信 <span class="required">必須</span></legend><div id="confidenceButtons" class="choices"><button type="button" data-confidence="high">高</button><button type="button" data-confidence="medium">中</button><button type="button" data-confidence="low">低</button></div></fieldset>
+  <label class="note-label">メモ<textarea id="note" rows="4" placeholder="判断の根拠、見えにくさ、中間の動きなど"></textarea></label>
+  <p id="validation" role="status"></p><p id="timing"></p>
+  <div class="navigation"><button id="prev" type="button">前へ</button><button id="next" type="button" class="primary">次へ</button></div>
+  </form>
+</section>
+</main>
+</body></html>
