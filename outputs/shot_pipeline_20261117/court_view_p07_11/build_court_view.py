@@ -24,6 +24,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
 import retracking_support as retrack
+import abc_support as abc
 
 sys.dont_write_bytecode = True
 OUT = Path(__file__).resolve().parent
@@ -38,14 +39,14 @@ DECODE_FPS = 60000 / 1001
 SLOTS = ['near_front', 'near_rear', 'far_rear', 'far_front']
 NAMES = dict(zip(SLOTS, ['N1', 'N2', 'F1', 'F2']))
 RGB = dict(zip(SLOTS, [(65,220,120), (70,170,255), (220,90,230), (250,210,65)]))
-OBS = ('observed', 'observed_after_height_reset')
+OBS = ('observed', 'observed_after_height_reset', 'observed_head_anchored', 'observed_x_depth_interpolated')
 STATUSES = (*OBS, 'rejected_box_height', 'rejected_speed', 'interpolated', 'missing')
 VALID = (*OBS, 'interpolated')
 XLIM, YLIM = (-.25, 1.25), (-.3, 1.55)
 
 
 def dump(path, value):
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False)+'\n', encoding='utf-8')
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False)+'\n', encoding='utf-8',newline='\n')
 
 
 def sha(path):
@@ -108,12 +109,20 @@ def distance(a, z):
     return math.hypot((a[0]-z[0])*10.97, (a[1]-z[1])*23.77)
 
 
-def clean_player(slot, source, frames):
-    """056 reset/speed logic; count-based evidence converted to elapsed frames."""
+def clean_player(slot, source, frames, *, far_revision=True):
+    """Final far geometry is separate from the frozen legacy B geometry."""
+    if far_revision and slot.startswith('far_'):
+        from far_depth_revision import clean_far
+        return clean_far(slot, source, frames)
     source = sorted(source, key=lambda r: r['source_frame'])
+    if not source:
+        return [dict(source_frame=f,player_slot=slot,status='missing',filter_status='missing',court_x='',court_y='') for f in frames],dict(global_median_box_height_px=None,height_resets=[])
     heights = [r['y2']-r['y1'] for r in source]
     assert heights and all(math.isfinite(h) and h>0 for h in heights)
     global_height = median(heights)
+    # B retains the previous pre-link geometry. Only final A uses fixed people.
+    head_history = deque()
+    project,H = abc.geometry(load_module)
     history = deque()  # (source_frame, height), NOT a fixed number of samples.
     accepted, pending, resets, diagnostics = [], [], [], {}
     previous_raw = None
@@ -131,14 +140,22 @@ def clean_player(slot, source, frames):
         f = int(raw['source_frame'])
         assert f not in diagnostics
         x,y = raw['court_proxy_x'], raw['court_proxy_y']
+        occluded = raw.get('lower_occluded',False)
+        while head_history and head_history[0][0] < f-3*DECODE_FPS:
+            head_history.popleft()
+        head_height = median(h for _,h in head_history) if head_history else global_height
+        head_x,head_y = project(H,(raw['x1']+raw['x2'])/2,raw['y1']+head_height)
+        head_used = occluded
+        if head_used:
+            x,y = head_x,head_y
         assert math.isfinite(x) and math.isfinite(y)
         while history and history[0][0] < f-30:
             history.popleft()
         reference = global_height if warm or not history else median(h for _,h in history)
         jump, speed_bad = jump_test(f,x,y)
-        raw_jump = distance((x,y),(previous_raw['court_proxy_x'], previous_raw['court_proxy_y'])) if previous_raw else ''
+        raw_jump = distance((x,y),(previous_raw['effective_court_x'], previous_raw['effective_court_y'])) if previous_raw else ''
         raw_limit = 8*(f-previous_raw['source_frame'])/FPS+1 if previous_raw else ''
-        status = 'rejected_box_height' if not .75*reference <= height <= 1.35*reference else ('rejected_speed' if speed_bad else 'observed')
+        status = ('rejected_speed' if speed_bad else 'observed_head_anchored') if occluded else ('rejected_box_height' if not .75*reference <= height <= 1.35*reference else ('rejected_speed' if speed_bad else 'observed'))
         r = dict(raw, source_frame=f, status=status, filter_status=status,
                  court_x=x if status in OBS else '', court_y=y if status in OBS else '',
                  box_height_px=height, reference_height_px=reference, jump_m=jump,
@@ -147,15 +164,25 @@ def clean_player(slot, source, frames):
                  height_reset_start_frame='', height_reset_trigger_frame='',
                  interpolation_start_frame='', interpolation_end_frame='',
                  raw_court_x='', raw_court_y='', smoothing_shift_m='')
+        r.update(lower_occluded=bool(occluded),head_reference_height_px=head_height,
+                 head_foot_y_px=raw['y1']+head_height,head_court_x=head_x,head_court_y=head_y,
+                 effective_court_x=x,effective_court_y=y)
         diagnostics[f] = r
         previous_raw = r
         if status in OBS:
             accepted.append(r)
-            history.append((f,height))
-            if warm_first is None:
-                warm_first = f
-            if f-warm_first >= 8:  # Original five observations at 2F cadence span 8F.
-                warm = False
+            if not occluded:
+                history.append((f,height))
+                head_history.append((f,height))
+            if not occluded:
+                if warm_first is None:
+                    warm_first = f
+                if f-warm_first >= 8:  # Original five observations at 2F cadence span 8F.
+                    warm = False
+        if occluded:
+            # Occluded points neither count toward height rejection nor bridge a reset.
+            pending.clear()
+            continue
         if status != 'rejected_box_height':
             pending.clear()
             continue
@@ -177,6 +204,7 @@ def clean_player(slot, source, frames):
             if status in OBS:
                 accepted.append(c)
                 history.append((c['source_frame'],c['box_height_px']))
+                head_history.append((c['source_frame'],c['box_height_px']))
                 restored.append(c['source_frame'])
             else:
                 speed_kept.append(c['source_frame'])
@@ -276,10 +304,10 @@ def supplement_pose(tracks):
             manifest['intervals'].append(dict(center_frame=center,start_frame=first,end_frame_inclusive=last,source_frames=26))
             print(f'Pose supplement F{center}: 26 frames complete',flush=True)
         pose=pd.DataFrame(rows,columns=ext.FIELDS)
-        pose.to_csv(out/'pose_additional.csv',index=False,encoding='utf-8-sig')
+        pose.to_csv(out/'pose_additional.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
         combine=load_module('combine_audio_pose_readonly',PIPE/'pose/combine_audio_pose.py')
         wrist,diagnostics=combine.wrist_timeseries(pose,.3,3)
-        wrist.to_csv(cached,index=False,encoding='utf-8-sig')
+        wrist.to_csv(cached,index=False,encoding='utf-8-sig',lineterminator='\n')
         manifest.update(status='complete',pose_rows=len(pose),valid_wrist_speed=int(wrist.wrist_speed.notna().sum()),
                         fallback_torso_scope='each 26-frame supplement interval/player, using the existing function')
         dump(out/'manifest.json',manifest)
@@ -355,9 +383,10 @@ def dashed(d,a,z,color,width=2,dash=6,gap=4):
         d.line([(a[0]+(z[0]-a[0])*v/length,a[1]+(z[1]-a[1])*v/length) for v in (start,end)],fill=color,width=width)
 
 
-def render_point(p,segments,rows,shots,using_v2=False):
+def render_point(p,segments,rows,shots,using_v2=False,balls=None):
     fonts={s:ImageFont.truetype('C:/Windows/Fonts/meiryo.ttc',s) for s in (16,18,20,22,26,30)}
     lookup={(r['source_frame'],r['player_slot']):r for r in rows}
+    ball_lookup={} if balls is None else {int(r.source_frame):r for r in balls[balls.point==p].itertuples() if r.candidate_present}
     # Same 056 wide-court mapping and margins.
     height=630/(YLIM[1]-YLIM[0]);width=height*250/540
     left=1620-width/2;top=200+(YLIM[1]-1)*height
@@ -378,26 +407,44 @@ def render_point(p,segments,rows,shots,using_v2=False):
         for s in selected:
             sampled=min(times,key=lambda f:(abs(f-s['frame']),f))
             checks.append(dict(label_frame=s['frame'],sampled_frame=sampled,rally_no=s['rally_no'],output_frame=len(rendered)+times.index(sampled)))
-        for f,raw in source_frames(times[0],times[-1],2,1280,720):
+        requested={7:[23422,23548],8:[25470],10:[30633],11:[32999]}.get(p,[])
+        # Exact odd-parity requested frames are inserted in the source map, not relabelled.
+        exact_checks=[f for f in requested if segment['start_frame']<=f<=segment['end_frame']]
+        if exact_checks:
+            times=sorted(set(times+exact_checks))
+            for check in checks:
+                if check['rally_no']==segment['rally_no']:
+                    check['output_frame']=len(rendered)+times.index(check['sampled_frame'])
+            segment['rendered_frames']=len(times)
+        decoded=source_frames(times[0],times[-1],1,1280,720)
+        selected_times=set(times)
+        for f,raw in decoded:
+            if f not in selected_times:continue
             image=Image.new('RGB',(1920,1080),(12,22,32));d=ImageDraw.Draw(image)
             def txt(x,y,text,size=20,color=(225,235,245)):
                 assert d.textbbox((x,y),text,font=fonts[size])[2]<1920, text
                 d.text((x,y),text,font=fonts[size],fill=color)
             txt(24,10,f'match2 第{p}点：選手配置と打球',30)
-            txt(24,54,'打球の時刻・側は本人の確認 ｜ 打った選手は手首による自動判定（未検証） ｜ 約半分の速度',22)
+            txt(24,54,'打球の時刻・側は本人の確認 ｜ 打者は球・手首の自動判定（未確認） ｜ 約半分の速度',22)
             image.paste(Image.fromarray(raw),(16,104));d=ImageDraw.Draw(image)
             for slot in SLOTS:
                 r=lookup[f,slot];render_rows.append(r)
-                if r['filter_status']=='missing':continue
+                if r['filter_status']=='missing' and r.get('x1','')=='':continue
                 color=RGB[slot]
                 x1,y1,x2,y2=[float(r[k])*2/3 for k in ('x1','y1','x2','y2')]
                 corners=[(16+x1,104+y1),(16+x2,104+y1),(16+x2,104+y2),(16+x1,104+y2)]
-                rejected=r['filter_status'] not in OBS
+                rejected=r['filter_status'] not in OBS and not (slot.startswith('far_') and r.get('lower_occluded',False))
                 if rejected:
                     for a,z in zip(corners,corners[1:]+corners[:1]):dashed(d,a,z,color,width=1)
                 else:d.rectangle((corners[0],corners[2]),outline=color,width=2)
-                txt(max(17,int(16+x1)),max(105,int(78+y1)),NAMES[slot]+(' 除外' if rejected else ''),20,color)
-            txt(32,780,'球の位置：未取得（この点は球を追跡していない）',20,(250,210,65))
+                txt(max(17,int(16+x1)),max(105,int(78+y1)),NAMES[slot]+(' 下隠れ' if slot.startswith('far_') and r.get('lower_occluded',False) else '')+(' 除外' if rejected else ''),20,color)
+            ball=ball_lookup.get(f)
+            if ball is not None:
+                bx,by=16+ball.x_px*2/3,104+ball.y_px*2/3
+                d.ellipse((bx-4,by-4,bx+4,by+4),outline=(255,125,35),width=2)
+                d.line((bx-6,by,bx+6,by),fill=(255,125,35),width=1)
+                d.line((bx,by-6,bx,by+6),fill=(255,125,35),width=1)
+            txt(32,780,'球：自動検出（未確認）　橙の小印＝候補（誤検出を含む）',20,(255,155,75))
             txt(1335,109,'コート外まで含む選手配置',30)
             txt(1335,153,'白線＝コート　周囲の余白＝コート外',18)
             d.rectangle((vl,vt,vr,vb),fill=(16,31,43),outline=(45,70,85))
@@ -425,13 +472,14 @@ def render_point(p,segments,rows,shots,using_v2=False):
                     outside.append(dict(source_frame=f,player_slot=slot,status=r['status'],court_x=u,court_y=v))
                     continue
                 color=RGB[slot]
-                d.ellipse((x-6,y-6,x+6,y+6),fill=color if r['status'] in OBS else None,outline=(12,22,32) if r['status'] in OBS else color,width=1 if r['status'] in OBS else 2)
+                head=r['status']=='observed_x_depth_interpolated'
+                d.ellipse((x-6,y-6,x+6,y+6),fill=color if r['status'] in OBS else None,outline='white' if head else ((12,22,32) if r['status'] in OBS else color),width=2 if head or r['status'] not in OBS else 1)
                 txt(x+8,y-12,NAMES[slot],18,color)
-            txt(1335,840,'塗り＝採用　白抜き＝30F以内の補間',16)
+            txt(1335,840,'白縁＝横は観測・前後は補間',16)
             txt(1335,862,'破線＝打球者間の模式線（球軌道ではない）',16)
-            txt(1335,884,'人物点は枠下端の代理位置。位置精度は未検証。',16)
+            txt(1335,884,'塗り＝採用　白抜き＝全座標補間。精度未検証。',16)
             txt(24,837,f'元フレーム F{f} ｜ ラリー {segment["rally_no"]} ｜ 打球 {shots.index(segment_shots[current])+1}/{len(shots)}',22)
-            note='N1/N2/F1/F2は追跡スロット名。前衛・後衛の役割を意味しません。'
+            note='N1/N2/F1/F2はラリー内で固定した人物名（自動対応）。前衛・後衛の役割ではありません。'
             if p==8:
                 note=('第8点：静止したコート外の人物候補を除外して再追跡。打球者・位置精度は未検証。' if using_v2 else
                       '第8点：手前の誤追跡に注意（線審を含む疑い）。枠・配置・打球者は自動修正していません。')
@@ -441,14 +489,16 @@ def render_point(p,segments,rows,shots,using_v2=False):
             for k,s in enumerate(segment_shots[start:start+5]):
                 j=start+k;x=24+k*376;color=RGB[s['hitter_slot']] if s['hitter_slot'] else (190,200,215)
                 d.rounded_rectangle((x,921,x+358,1006),radius=7,fill=(29,49,66) if j==current else (18,31,43),outline=color if j==current else (50,70,85),width=2)
-                status='手首自動' if s['status']=='auto_wrist' else '未決定'
+                status={'auto_wrist':'手首自動','auto_ball':'球自動','auto_ball_wrist':'球＋手首'}.get(s['status'],'未決定')
                 txt(x+12,927,f'{shots.index(s)+1}：{s["hitter"]}（{status}）',22,color)
                 suffix=(' '+s['outcome']) if s['outcome'] in ('winner','out','net') else ''
                 txt(x+12,969,f'F{s["frame"]}'+suffix,18)
                 if s['jump_or_step_flag']:
                     txt(x+240,971,'前後位置△',16,(250,210,65))
-            txt(24,1030,'打球者の正しさは人による検証前です。球・バウンドは測定していません。',20)
+            txt(24,1030,'打者・人物対応・球候補は人による検証前です。球候補を地面に投影せず、バウンドは推定していません。',20)
             encoder.stdin.write(np.asarray(image).tobytes())
+            if f in exact_checks:
+                image.save(OUT/f'check_abc_p{p:02d}_F{f}.jpg',quality=95)
             for check in checks:
                 if check['sampled_frame']==f and check['rally_no']==segment['rally_no']:
                     name=f'check_p{p:02d}_F{check["label_frame"]}_shown_F{f}.jpg'
@@ -456,7 +506,7 @@ def render_point(p,segments,rows,shots,using_v2=False):
             rendered.append(dict(output_frame=len(rendered),point=p,rally_no=segment['rally_no'],source_frame=f))
             if len(rendered)%100==0:print(f'Point {p}: rendered {len(rendered)}',flush=True)
     encoder.stdin.close();err=encoder.stderr.read();assert encoder.wait()==0,err
-    pd.DataFrame(rendered).to_csv(OUT/f'video_source_frame_map_p{p:02d}.csv',index=False,encoding='utf-8-sig')
+    pd.DataFrame(rendered).to_csv(OUT/f'video_source_frame_map_p{p:02d}.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
     # Decode every frame through EOF; ffprobe also checks encoded frame count.
     verify=subprocess.run([FFMPEG,'-v','error','-xerror','-i',str(video),'-map','0:v:0','-f','null','-'],capture_output=True)
     assert verify.returncode==0,verify.stderr.decode(errors='replace')
@@ -492,68 +542,20 @@ RULES=dict(source_fps_for_cleaning=FPS,source_fps_exact='60000/1001',court_width
 
 
 def write_readme(summary,hitters):
-    lines=['# match2 第7〜11点：選手配置と打球','',
-           '056と同じ1920×1080の配置で、左に元映像と選手枠、右にコート外まで含む選手配置、下に打球帯を作成した。各動画は2元フレームごと・15fps（約半分の速度）、無音。球位置・球軌道・バウンドは推定していない。','',
-           '本人ラベルは `condition=without_candidates` かつ `status=completed` の32行だけ。時刻・側・ラリー番号・結果は本人のラベル、打球者は未検証の手首自動判定。N1/N2/F1/F2は追跡スロットであり前衛・後衛の役割ではない。','',
-           '## 再実行','',
-           '```powershell','& study\\.venv\\Scripts\\python.exe -B -X utf8 outputs\\shot_pipeline_20261117\\court_view_p07_11\\build_court_view.py','```','',
-           '既存入力・056・poseキャッシュは読み取り専用。追加推定と出力はこのフォルダだけに保存。`--skip-pose` は追加推定を試さず欠測のままにするオプション。','',
-           '## 規則','',
-           '- 枠高さ：直前30元フレーム内の採用高さの中央値に対して0.75〜1.35倍を採用（境界を含む）。初期は採用点の時間幅が8Fに達するまで点・選手ごとの入力全体の中央値。履歴が空になった場合も同中央値を使う。056の5点×2F間隔の時間幅8Fに対応。',
-           '- 連続した高さ棄却の先頭から30元フレーム超で高さリセット。056と同じく生データ欠測は連続を切らない。区間の先頭から復帰を再判定し、古い高さ履歴を捨てる。復帰時も直前採用点および隣接生点に対する速度規則を保つ。',
-           '- 速度：枠下端のコート代理点の距離が8m/s×経過秒＋1.0mを超えたら棄却。高さ棄却を優先。換算はx×10.97m、y×23.77m、59.94fps。',
-           '- 棄却・リセットの後、採用点間隔30F以下の区間内で±8Fのx/y別中央値。平滑化前の値から一括計算し、端では片側窓を許す。窓の時間幅4F未満なら元の値を保つ（056の最低3点×2F間隔の時間幅4Fに対応）。',
-           '- 平滑化後の採用端点間が30F以内の欠けのみ毎フレーム線形補間。外挿なし。CSVのstatusは最終表示状態、filter_statusは補間前の判定を保持する。左枠はfilter_statusで採用＝実線、棄却＝細い破線＋除外、生枠欠測＝描かない。',
-           '- 手首：同じ側の2人の打球−8F〜+4F内の最大wrist_speedを比較。両者に有効値があり、大きい方が一意で小さい方の1.3倍以上ならauto_wrist。それ以外はundecided（N?/F?）。有効値の少なさを推測で補わない。',
-           '- 追加姿勢推定：第9点の指定5打球−15F〜+10F、各26Fのみ。既存extract_poseの切り出し・検出対応付け関数とcombine_audio_poseの速度関数を再利用。関節信頼度0.3、3F中央値、胴長/フレーム。追加区間の胴長の代替尺度は各26F・選手内の中央値であり、既存長区間とは尺度が少し異なりうる。',
-           '- 各rally_noの最初−60F〜最後＋90Fを連結。第9点は本人ラベルのrally_noが1つなのでサーブ間も含む。2Fサンプリングで末尾が奇数差の場合は最後の1Fを含まない。',
-           '- 右図はx=(-0.25,1.25)、y=(-0.3,1.55)。056と同じ円の7px余白判定で範囲外を省略し、丸めず集計。採用＝塗り、補間＝白抜き。模式線は同一ラリーの隣接打球の両打球者が決まり、両時刻の位置が採用/補間で得られる場合のみ。バウンド点なし。',
-           '- 清掃は各点の全追跡入力を使い、CSVは追跡入力と動画区間を包含する毎フレームの4人。表示だけの件数もsummaryに別記。横外診断はこの全CSV範囲で、欠測をまたがない連続フレームの(end−start)/59.94が1秒以上の区間。清掃後と生代理点を別記し、自動修正しない。','',
-           '## 動画と件数','',
-           '|点|コマ数|秒|打球|auto_wrist|undecided|右図省略点数|','|---|---:|---:|---:|---:|---:|---:|']
-    for p in range(7,12):
-        v=summary['points'][str(p)]['rendering'];h=[s for s in hitters if s['point']==p]
-        lines.append(f'|{p}|{v["frames"]}|{v["duration_sec"]:.3f}|{len(h)}|{sum(s["status"]=="auto_wrist" for s in h)}|{sum(s["status"]=="undecided" for s in h)}|{v["outside_plot_omitted_count"]}|')
-    outcome=('第8点の既知の線審ID2は手前スロットから除外された。区間集計と確認画像は末尾参照。' if summary.get('point8_line_official_removed') else
-             '【目的未達】指定されたID全体の静止規則では、第8点の線審ID2は除外されず、N1の誤追跡が残る。全13.747秒のうち中央値から0.7m以内は62.5%で、90%条件を満たさない。F25563〜25965の403Fは静止条件を満たすが、連続静止区間を追加する規則はユーザー確認待ちで未適用。tracking_v2と動画は元の指定規則による結果。')
-    lines[4:4]=[outcome,'']
-    lines[6:6]=['動画: '+ ' / '.join(f'[第{p}点](point_{p:02d}.mp4)' for p in range(7,12)),'']
-    lines+=['','5本すべてffmpegの-xerrorによる最後までの復号と、ffprobeの読取フレーム数一致を確認。元動画の切り出しはffmpegの元PTSから元フレーム番号を復元して全出力フレームを照合した。確認画像は動画と同じ描画フレームで各点2枚。打球がサンプリングの間にある場合は最も近いコマ（同距離なら前）を使い、画像名とsummaryにラベル時刻・表示時刻を併記。','',
-            '## 選手別status件数（全CSV、毎元フレーム）','',
-            '|点|選手|observed|observed_after_height_reset|rejected_box_height|rejected_speed|interpolated|missing|','|---|---|---:|---:|---:|---:|---:|---:|']
-    for p in range(7,12):
-        for slot,c in summary['points'][str(p)]['status_counts_by_player'].items():
-            lines.append('|'+ '|'.join([str(p),NAMES[slot],*(str(c[v]) for v in STATUSES)])+'|')
-    lines+=['','補間後には棄却点がinterpolatedになる場合がある。補間前の選手別filter_status件数、動画コマだけのstatus/filter_status件数、高さリセットの区間はcleaning_summary.jsonを参照。','',
-            '## 32打球の判定一覧','',
-            '|点|元F|側|選手1|最大速度|選手2|最大速度|判定|status|','|---|---:|---|---|---:|---|---:|---|---|']
-    for s in hitters:
-        a='欠測' if s['player_1_max'] is None else f'{s["player_1_max"]:.6f}'
-        z='欠測' if s['player_2_max'] is None else f'{s["player_2_max"]:.6f}'
-        lines.append(f'|{s["point"]}|{s["frame"]}|{s["side"]}|{NAMES[s["player_1"]]}|{a}|{NAMES[s["player_2"]]}|{z}|{s["hitter"]}|{s["status"]}|')
-    for field,title in [('side_outside_intervals','清掃後'),('raw_side_outside_intervals','生の代理点')]:
-        lines+=['',f'## コート横外が1秒以上の区間（{title}）','',
-                '|点|選手|開始F|終了F|秒|x最小|x最大|','|---|---|---:|---:|---:|---:|---:|']
-        for r in summary[field]:
-            lines.append(f'|{r["point"]}|{r["player"]}|{r["start_frame"]}|{r["end_frame"]}|{r["duration_sec"]:.3f}|{r["min_court_x"]:.3f}|{r["max_court_x"]:.3f}|')
-        if not summary[field]:lines.append('|該当なし|||||||')
-    lines+=['','## 限界','',
-            'これは清掃済み代理座標とヒューリスティックな打球者の可視化であり、選手位置・同一人物対応・打球者精度の検証ではない。滑らかさやauto_wrist件数は正解率を表さない。枠下端の射影、中央値、高さリセットは誤追跡や長い隠れを修復できず、真の動きを弱めたり誤位置を復帰させたりする可能性がある。第8点の既知の誤追跡への対応と確認結果は下記に記す。横外の長時間滞在だけで線審とは断定できず、映像による確認が必要。模式線は球の実軌道・着地点・配球精度を示さない。','',
-            '## ファイルと追跡除外','',
-            'hitter_auto.csvに両者の最大値・有効フレーム数・未決定理由を保存。cleaning_summary.jsonに数値規則・全件集計・描画省略・診断・入力ハッシュを保存。追加推定のキャッシュはpose_supplement/。既存ファイルのSHA-256は処理前後で一致。git commitは行っていない。','',
-            '既存の.gitignoreでMP4/JPG/PNGが除外されることをgit check-ignoreで確認。新フォルダの.gitignoreだけに、大きな清掃CSV・追加姿勢CSV・一時的な復号ログの除外を追加。256KiB=262144バイトを超えるファイル（最終一覧はfile_inventory.csv）：','',
-            '|ファイル|バイト|git除外|','|---|---:|---|']
-    for r in summary['large_files']:
-        lines.append(f'|{r["file"]}|{r["bytes"]}|{r["ignored"]}|')
-    (OUT/'README.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
-    retrack.append_readme(summary,hitters)
+    abc.write_readme(summary,hitters)
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--far-depth-only',action='store_true',help='Reuse frozen B/C and near outputs; rebuild only final far A and videos')
     parser.add_argument('--skip-pose',action='store_true')
     parser.add_argument('--tracking-dir',type=Path,default=PIPE/'tracking_v2')
+    parser.add_argument('--prepare-only',action='store_true',help='Run A/B and export diagnostics before ball inference/rendering')
     args=parser.parse_args()
+    if args.far_depth_only:
+        from far_depth_revision import rebuild
+        rebuild()
+        return
     tracking_dir=args.tracking_dir.resolve()
     using_v2=tracking_dir==(PIPE/'tracking_v2').resolve()
     if using_v2 and args.skip_pose:
@@ -562,12 +564,21 @@ def main():
     inputs=[PIPE/'labels_human/human_labels_20261118.csv', PIPE/'labels_human/README.md',
             PIPE/'pose/wrist_timeseries.csv',PIPE/'pose/extract_pose.py',PIPE/'pose/combine_audio_pose.py',
             REF/'clean_056_player_positions.py',REF/'render_056_cleaned_wide_court.py',REF/'056_cleaned_wide_court/README.md']
-    inputs+=list((PIPE/'pose/pose_cache').rglob('*'))
+    inputs+=list((PIPE/'pose').rglob('*'))
     inputs=[p for p in inputs if p.is_file()]
     inputs+=[tracking_dir/f'point_{p:02d}/player_court_proxies.csv' for p in range(7,12)]
     inputs+=list((PIPE/'tracking').rglob('*'))
+    inputs+=list((PIPE/'tracking_v2').rglob('*'))
     inputs=[p for p in inputs if p.is_file()]
     protected={str(p):sha(p) for p in inputs}
+    before_path=OUT/'hitter_auto_before_abc.csv'
+    if not before_path.exists():
+        before_path.write_bytes((OUT/'hitter_auto.csv').read_bytes())
+    previous_hitters=pd.read_csv(before_path)
+    old_positions=OUT/'p07_F1_before_abc.csv'
+    if not old_positions.exists():
+        old=pd.read_csv(OUT/'cleaned_player_positions_p07.csv')
+        old[(old.player_slot=='far_rear')&old.source_frame.between(23368,23870)].to_csv(old_positions,index=False,encoding='utf-8-sig',lineterminator='\n')
     dump(OUT/'input_sha256_before.json',protected)
     labels=pd.read_csv(inputs[0],keep_default_na=False)
     labels=labels[(labels.condition=='without_candidates')&(labels.status=='completed')].sort_values(['point','frame'])
@@ -575,12 +586,31 @@ def main():
     tracks={p:pd.read_csv(tracking_dir/f'point_{p:02d}/player_court_proxies.csv') for p in range(7,12)}
     for p,d in tracks.items():
         assert not d.duplicated(['source_frame','player_slot']).any()
+    original_tracks=tracks.copy()
+    segments_by_point={}
+    maps={};identity={};project,H=abc.geometry(load_module)
+    for p in range(7,12):
+        segments_by_point[p]=[dict(rally_no=int(rally),start_frame=int(g.frame.min())-60,end_frame=int(g.frame.max())+90)
+                              for rally,g in labels[labels.point==p].groupby('rally_no',sort=True)]
+        marked=abc.mark_occlusion(original_tracks[p])
+        tracks[p],maps[p],identity[p]=abc.relink(marked,segments_by_point[p],
+            lambda slot, source, frames: clean_player(slot,source,frames,far_revision=False),project,H)
+        tracks[p].to_csv(OUT/f'identity_positions_p{p:02d}.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
+        maps[p].to_csv(OUT/f'identity_map_p{p:02d}.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
+    dump(OUT/'identity_summary.json',identity)
+    if args.prepare_only:
+        print(json.dumps({p:dict(switches=v['corrected_switches'],unlinked=v['unlinked_observation_count']) for p,v in identity.items()},ensure_ascii=False,indent=2),flush=True)
+        return
+    balls_path=OUT/'ball_candidates.csv'
+    ball_python=ROOT/'study/third_party/racketvision-env/Scripts/python.exe'
+    subprocess.run([str(ball_python),'-B','-X','utf8',str(OUT/'run_ball_candidates.py')],check=True)
+    balls=pd.read_csv(balls_path)
     # ID2 is the line official verified in the point-8 source images. A v2
     # directory name alone does not establish that the known failure was fixed.
     point8_repaired=using_v2 and not ((tracks[8].track_id==2)&tracks[8].player_slot.str.startswith('near')).any()
     wrist=pd.read_csv(PIPE/'pose/wrist_timeseries.csv')
     if not args.skip_pose:
-        extra,pose_manifest=supplement_pose(tracks)
+        extra,pose_manifest=supplement_pose(original_tracks)
         if len(extra):
             old=set(zip(wrist.point,wrist.source_frame,wrist.player_slot))
             extra=extra[[key not in old for key in zip(extra.point,extra.source_frame,extra.player_slot)]]
@@ -589,13 +619,16 @@ def main():
     # Freeze a reproducible original-tracking reference before replacing wrists.
     baseline_hitters=decide_hitters(labels,wrist)
     baseline=pd.DataFrame(baseline_hitters)
-    baseline.to_csv(OUT/'hitter_auto_tracking_v1.csv',index=False,encoding='utf-8-sig')
+    baseline.to_csv(OUT/'hitter_auto_tracking_v1.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
     pose_retrack=dict(status='not_using_v2',windows=[])
     if using_v2:
         assert not args.skip_pose, 'v2 must recompute affected wrists; remove --skip-pose'
-        extra,pose_retrack=retrack.recompute_pose(tracks,labels,source_frames,load_module,sha,dump)
+        extra,pose_retrack=retrack.recompute_pose(original_tracks,labels,source_frames,load_module,sha,dump)
         wrist=retrack.replace_wrist(wrist,extra)
+    wrist=abc.remap_wrist(wrist,maps)
+    wrist.to_csv(OUT/'wrist_identity.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
     hitters=decide_hitters(labels,wrist)
+    hitters=abc.combine_ball(hitters,tracks,balls)
     recomputed={(w['point'],w['center_frame']) for w in pose_retrack.get('windows',[])}
     for s in hitters:
         s['legacy_tracking_issue']=s['known_tracking_issue']
@@ -603,7 +636,7 @@ def main():
         s['tracking_version']='v2' if using_v2 else str(tracking_dir)
         s['pose_recomputed']=(s['point'],s['frame']) in recomputed
     hitters=retrack.add_lift(hitters,tracks)
-    pd.DataFrame(hitters).to_csv(OUT/'hitter_auto.csv',index=False,encoding='utf-8-sig')
+    pd.DataFrame(hitters).to_csv(OUT/'hitter_auto.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
     summary=dict(rules=RULES,points={},pose_supplement=pose_manifest,
                  tracking_directory=str(tracking_dir.relative_to(ROOT)),pose_retrack=pose_retrack,
                  point8_line_official_removed=bool(point8_repaired),
@@ -612,15 +645,27 @@ def main():
                  hitter_status_counts=dict(Counter(s['status'] for s in hitters)),hitter_decisions=hitters,
                  side_outside_intervals=[],raw_side_outside_intervals=[],independent_position_accuracy_validated=False,
                  independent_hitter_accuracy_validated=False)
-    summary['official_candidates']=json.loads((PIPE/'tracking_v2/verification.json').read_text(encoding='utf-8'))['excluded_candidates'] if using_v2 else []
+    compact_identity={p:{k:v for k,v in d.items() if k!='unlinked_observations'} for p,d in identity.items()}
+    summary.update(identity=compact_identity,ball_manifest=json.loads((OUT/'ball_manifest.json').read_text(encoding='utf-8')),
+                   ball_candidate_shots=sum(s['ball_candidate_frames']>0 for s in hitters),
+                   changes_from_previous=retrack.changes(hitters,previous_hitters),
+                   requested_checks=[f'check_abc_p{p:02d}_F{f}.jpg' for p,f in [(7,23422),(10,30633),(11,32999)]])
+    summary['rules']['legacy_height_rules_apply_to']='near_* and frozen pre-link B geometry only'
+    from far_depth_revision import RULE as far_rule
+    summary['rules'].update(far_depth=far_rule,
+                            identity=dict(max_gap_sec=1,max_speed_m_s=8,allowance_m=1.5,fixed_per_rally=True),
+                            ball=dict(window=[-3,3],box_pad_x_fraction=.3,box_pad_top_fraction=.3,ratio_strictly_less_than=.5))
+    excluded=json.loads((PIPE/'tracking_v2/verification.json').read_text(encoding='utf-8'))['excluded_candidates'] if using_v2 else []
+    summary['official_candidates']=[{k:r[k] for k in ('point','track_id','exclusion_mode','exclusion_ranges')} for r in excluded]
+    summary['official_candidates_detail']='../tracking_v2/verification.json'
     summary['tracking_comparison']=pd.read_csv(PIPE/'tracking_v2/comparison.csv').to_dict('records') if using_v2 else []
     summary['rules']['lift']=dict(impact_window_inclusive=[-20,20],baseline_abs_frame_inclusive=[20,40],
                                 threshold_fraction_of_baseline_median_height=.06,flag_min_frames=5,
                                 correct_position=False)
     for p in range(7,12):
-        segments=[]
-        for rally,g in labels[labels.point==p].groupby('rally_no',sort=True):
-            segments.append(dict(rally_no=int(rally),start_frame=int(g.frame.min())-60,end_frame=int(g.frame.max())+90))
+        from far_depth_revision import mark_occlusion as mark_final_occlusion
+        tracks[p]=mark_final_occlusion(tracks[p])
+        segments=segments_by_point[p]
         first=min(int(tracks[p].source_frame.min()),segments[0]['start_frame'])
         last=max(int(tracks[p].source_frame.max()),segments[-1]['end_frame'])
         all_frames=list(range(first,last+1))
@@ -630,7 +675,17 @@ def main():
             rows,details=clean_player(slot,source,all_frames)
             cleaned.extend(rows);diagnostics[slot]=details
         cleaned.sort(key=lambda r:(r['source_frame'],SLOTS.index(r['player_slot'])))
-        pd.DataFrame(cleaned).to_csv(OUT/f'cleaned_player_positions_p{p:02d}.csv',index=False,encoding='utf-8-sig')
+        pd.DataFrame(cleaned).to_csv(OUT/f'cleaned_player_positions_p{p:02d}.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
+        if p==7:
+            old=pd.read_csv(old_positions)
+            new=[r['court_y']*23.77 for r in cleaned if r['player_slot']=='far_rear' and 23368<=r['source_frame']<=23870 and r['status'] in VALID]
+            raw=original_tracks[p]
+            raw=raw[(raw.player_slot=='far_rear')&raw.source_frame.between(23368,23870)]
+            old_y=old.court_y.dropna()*23.77
+            summary['p07_F1_y_comparison_m']=dict(first=23368,last=23870,
+                    before_cleaned_range=[float(old_y.min()),float(old_y.max())],
+                    before_raw_range=[float(raw.court_proxy_y.min()*23.77),float(raw.court_proxy_y.max()*23.77)],
+                    after_cleaned_range=[min(new),max(new)],after_valid_frames=len(new))
         intervals=side_intervals(cleaned,p,'cleaned')
         raw_intervals=side_intervals(tracks[p].sort_values(['source_frame','player_slot']).to_dict('records'),p,'raw_proxy')
         summary['side_outside_intervals']+=intervals
@@ -638,25 +693,20 @@ def main():
         info=dict(first_source_frame=first,last_source_frame=last,exported_frames=len(all_frames),
                   exported_rows=len(cleaned),input_rows=len(tracks[p]),cleaning_diagnostics=diagnostics,
                   status_counts_by_player=count_status(cleaned,'status'),filter_status_counts_by_player=count_status(cleaned,'filter_status'))
-        info['rendering']=render_point(p,segments,cleaned,[s for s in hitters if s['point']==p],point8_repaired)
+        info['rendering']=render_point(p,segments,cleaned,[s for s in hitters if s['point']==p],point8_repaired,balls)
         summary['points'][str(p)]=info
         dump(OUT/'cleaning_summary.json',summary)
         print(f'Point {p} complete: {info["rendering"]["frames"]} frames, decoded through EOF',flush=True)
     assert all(sha(Path(p))==h for p,h in protected.items()), 'Read-only input changed'
     summary['input_hashes_verified_unchanged']=len(protected)
+    summary['remaining_issues']=dict(independent_position_accuracy_validated=False,
+        far_depth='Occluded depth is interpolation, not observation; motion during occlusion is invisible; no independent ground truth.',
+        p08_F25470='B unchanged: track279 cannot link to track248; missing observation, interpolated court point')
     summary['large_files']=[]
     write_readme(summary,hitters)
-    inventory=[]
-    for path in sorted(OUT.rglob('*')):
-        if not path.is_file():continue
-        relative=str(path.relative_to(ROOT)).replace('\\','/')
-        ignored=subprocess.run(['git','check-ignore','-q','--',relative],cwd=ROOT).returncode==0
-        r=dict(file=str(path.relative_to(OUT)).replace('\\','/'),bytes=path.stat().st_size,ignored=ignored)
-        inventory.append(r)
-        if path.suffix in ('.mp4','.jpg','.png') or r['bytes']>256*1024:
-            assert ignored, f'Large/binary file not ignored: {path}'
+    inventory=abc.inventory()
     summary['large_files']=[r for r in inventory if r['bytes']>256*1024]
-    pd.DataFrame(inventory).to_csv(OUT/'file_inventory.csv',index=False,encoding='utf-8-sig')
+    pd.DataFrame(inventory).to_csv(OUT/'file_inventory.csv',index=False,encoding='utf-8-sig',lineterminator='\n')
     dump(OUT/'cleaning_summary.json',summary)
     write_readme(summary,hitters)
     print(json.dumps(dict(hitter_status_counts=summary['hitter_status_counts'],

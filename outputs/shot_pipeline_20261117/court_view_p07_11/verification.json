@@ -1,68 +1,37 @@
 {
-  "input_hashes_verified_unchanged": 49,
-  "hitter_decisions_verified": 32,
-  "visual_checks": "Saved impact snapshots in verification_contact_sheet.jpg; interval coverage audited separately in retrack_interval_check.json.",
+  "preservation": {
+    "B_C_sha256_unchanged": 16,
+    "protected_sha256_unchanged": 215,
+    "ball_quality_metadata_unchanged": 14256,
+    "near_all_previous_columns_unchanged": true
+  },
   "points": {
     "7": {
-      "source_frame_map_verified": true,
-      "position_rows_verified": 9408,
-      "interpolation_endpoints_verified": true,
-      "encoded_frames": 409,
-      "full_video_decode_verified": true
+      "frames": 409,
+      "full_video_decode_verified": true,
+      "source_frame_map_verified": true
     },
     "8": {
-      "source_frame_map_verified": true,
-      "position_rows_verified": 3276,
-      "interpolation_endpoints_verified": true,
-      "encoded_frames": 384,
-      "full_video_decode_verified": true
+      "frames": 384,
+      "full_video_decode_verified": true,
+      "source_frame_map_verified": true
     },
     "9": {
-      "source_frame_map_verified": true,
-      "position_rows_verified": 5592,
-      "interpolation_endpoints_verified": true,
-      "encoded_frames": 642,
-      "full_video_decode_verified": true
+      "frames": 642,
+      "full_video_decode_verified": true,
+      "source_frame_map_verified": true
     },
     "10": {
-      "source_frame_map_verified": true,
-      "position_rows_verified": 8632,
-      "interpolation_endpoints_verified": true,
-      "encoded_frames": 156,
-      "full_video_decode_verified": true
+      "frames": 157,
+      "full_video_decode_verified": true,
+      "source_frame_map_verified": true
     },
     "11": {
-      "source_frame_map_verified": true,
-      "position_rows_verified": 2300,
-      "interpolation_endpoints_verified": true,
-      "encoded_frames": 219,
-      "full_video_decode_verified": true
+      "frames": 219,
+      "full_video_decode_verified": true,
+      "source_frame_map_verified": true
     }
   },
-  "large_csv_files": [
-    {
-      "file": "cleaned_player_positions_p07.csv",
-      "bytes": 2614845
-    },
-    {
-      "file": "cleaned_player_positions_p08.csv",
-      "bytes": 1531215
-    },
-    {
-      "file": "cleaned_player_positions_p09.csv",
-      "bytes": 2737795
-    },
-    {
-      "file": "cleaned_player_positions_p10.csv",
-      "bytes": 1246221
-    },
-    {
-      "file": "cleaned_player_positions_p11.csv",
-      "bytes": 1095579
-    },
-    {
-      "file": "pose_supplement/pose_additional.csv",
-      "bytes": 625335
-    }
-  ]
+  "far_geometry_and_speed_verified": true,
+  "far_smoothing_and_short_interpolation_verified": true
 }

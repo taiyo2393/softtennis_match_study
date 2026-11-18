@@ -6,3 +6,11 @@ pose_retrack_supplement/*.csv
 pose_retrack_supplement/ultralytics_config/
 decode_logs/
 __pycache__/
+identity_positions_p*.csv
+identity_map_p*.csv
+wrist_identity.csv
+ball_candidates.csv
+ball_candidates/
+ball_quality_readonly_snapshot.json
+a_height_revision_before.json
+far_depth_revision_before.json

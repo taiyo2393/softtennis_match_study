@@ -1,0 +1,1507 @@
+{
+  "scope": "All source frames within the rendered rally intervals, including frames omitted by the 2F video sampling; no spatial clipping. Only valid final statuses contribute to y quantiles. Steps use Euclidean court distance over consecutive source frames within one rally; missing frames are not bridged.",
+  "frozen_B_C_files_sha256_unchanged": 16,
+  "protected_files_sha256_unchanged": 215,
+  "ball_quality_files_metadata_unchanged": 14256,
+  "near_player_outputs_unchanged": true,
+  "before_metrics": [
+    {
+      "point": 7,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 773,
+      "total_source_frames": 817,
+      "court_y_p05_m": 4.672174446763194,
+      "court_y_p50_m": 5.901401935725307,
+      "court_y_p95_m": 8.159667054572033,
+      "max_step_m_per_source_frame": 0.2417189147244029,
+      "max_step_from_frame": 23682,
+      "max_step_to_frame": 23683,
+      "max_step_ties": [
+        {
+          "from_frame": 23682,
+          "to_frame": 23683
+        }
+      ],
+      "status_counts": {
+        "observed": 773,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 44
+      },
+      "filter_status_counts": {
+        "observed": 773,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 44
+      }
+    },
+    {
+      "point": 7,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 536,
+      "total_source_frames": 817,
+      "court_y_p05_m": -3.2673004755877213,
+      "court_y_p50_m": 0.10230717029116944,
+      "court_y_p95_m": 2.0121256528622764,
+      "max_step_m_per_source_frame": 0.17386259979158158,
+      "max_step_from_frame": 23563,
+      "max_step_to_frame": 23564,
+      "max_step_ties": [
+        {
+          "from_frame": 23563,
+          "to_frame": 23564
+        }
+      ],
+      "status_counts": {
+        "observed": 536,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 281
+      },
+      "filter_status_counts": {
+        "observed": 536,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 281
+      }
+    },
+    {
+      "point": 7,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 663,
+      "total_source_frames": 817,
+      "court_y_p05_m": 21.965385903346245,
+      "court_y_p50_m": 24.947530632734317,
+      "court_y_p95_m": 30.58124310865111,
+      "max_step_m_per_source_frame": 0.6431757489860507,
+      "max_step_from_frame": 22867,
+      "max_step_to_frame": 22868,
+      "max_step_ties": [
+        {
+          "from_frame": 22867,
+          "to_frame": 22868
+        }
+      ],
+      "status_counts": {
+        "observed": 234,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 276,
+        "rejected_box_height": 0,
+        "rejected_speed": 75,
+        "interpolated": 153,
+        "missing": 79
+      },
+      "filter_status_counts": {
+        "observed": 234,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 276,
+        "rejected_box_height": 7,
+        "rejected_speed": 180,
+        "interpolated": 0,
+        "missing": 120
+      }
+    },
+    {
+      "point": 7,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 773,
+      "total_source_frames": 817,
+      "court_y_p05_m": 11.990991728831919,
+      "court_y_p50_m": 13.593256249020563,
+      "court_y_p95_m": 21.010068150939333,
+      "max_step_m_per_source_frame": 0.8945323410021381,
+      "max_step_from_frame": 23547,
+      "max_step_to_frame": 23548,
+      "max_step_ties": [
+        {
+          "from_frame": 23547,
+          "to_frame": 23548
+        }
+      ],
+      "status_counts": {
+        "observed": 719,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 49,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 5,
+        "missing": 44
+      },
+      "filter_status_counts": {
+        "observed": 719,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 49,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 49
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 639,
+      "total_source_frames": 768,
+      "court_y_p05_m": -2.1659671207169193,
+      "court_y_p50_m": -1.3600579091007508,
+      "court_y_p95_m": -0.20245062075172007,
+      "max_step_m_per_source_frame": 0.14498618024070292,
+      "max_step_from_frame": 25406,
+      "max_step_to_frame": 25407,
+      "max_step_ties": [
+        {
+          "from_frame": 25406,
+          "to_frame": 25407
+        }
+      ],
+      "status_counts": {
+        "observed": 638,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 1,
+        "rejected_speed": 0,
+        "interpolated": 1,
+        "missing": 128
+      },
+      "filter_status_counts": {
+        "observed": 638,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 1,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 129
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 768,
+      "total_source_frames": 768,
+      "court_y_p05_m": -0.09367351830985172,
+      "court_y_p50_m": 7.248015989293869,
+      "court_y_p95_m": 10.606973525413549,
+      "max_step_m_per_source_frame": 0.6233104291292327,
+      "max_step_from_frame": 25432,
+      "max_step_to_frame": 25433,
+      "max_step_ties": [
+        {
+          "from_frame": 25432,
+          "to_frame": 25433
+        }
+      ],
+      "status_counts": {
+        "observed": 768,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 768,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 768,
+      "total_source_frames": 768,
+      "court_y_p05_m": 23.460213170571482,
+      "court_y_p50_m": 24.869163401999895,
+      "court_y_p95_m": 26.22117336199247,
+      "max_step_m_per_source_frame": 0.8842234844747388,
+      "max_step_from_frame": 25257,
+      "max_step_to_frame": 25258,
+      "max_step_ties": [
+        {
+          "from_frame": 25257,
+          "to_frame": 25258
+        }
+      ],
+      "status_counts": {
+        "observed": 447,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 122,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 199,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 447,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 122,
+        "rejected_box_height": 4,
+        "rejected_speed": 105,
+        "interpolated": 0,
+        "missing": 90
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 768,
+      "total_source_frames": 768,
+      "court_y_p05_m": 12.204009237005156,
+      "court_y_p50_m": 13.180078377528067,
+      "court_y_p95_m": 16.260013858764957,
+      "max_step_m_per_source_frame": 0.5388511323403128,
+      "max_step_from_frame": 25512,
+      "max_step_to_frame": 25513,
+      "max_step_ties": [
+        {
+          "from_frame": 25512,
+          "to_frame": 25513
+        }
+      ],
+      "status_counts": {
+        "observed": 683,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 55,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 30,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 683,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 55,
+        "rejected_box_height": 7,
+        "rejected_speed": 15,
+        "interpolated": 0,
+        "missing": 8
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 1076,
+      "total_source_frames": 1284,
+      "court_y_p05_m": -1.8791155933476025,
+      "court_y_p50_m": 1.5009201610101566,
+      "court_y_p95_m": 4.804743113821257,
+      "max_step_m_per_source_frame": 0.16030478403716478,
+      "max_step_from_frame": 28084,
+      "max_step_to_frame": 28085,
+      "max_step_ties": [
+        {
+          "from_frame": 28084,
+          "to_frame": 28085
+        }
+      ],
+      "status_counts": {
+        "observed": 1076,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 208
+      },
+      "filter_status_counts": {
+        "observed": 1076,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 208
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 1284,
+      "total_source_frames": 1284,
+      "court_y_p05_m": 0.14688670489181102,
+      "court_y_p50_m": 7.332316976868226,
+      "court_y_p95_m": 9.167539676516304,
+      "max_step_m_per_source_frame": 0.2862773917907708,
+      "max_step_from_frame": 28165,
+      "max_step_to_frame": 28166,
+      "max_step_ties": [
+        {
+          "from_frame": 28165,
+          "to_frame": 28166
+        }
+      ],
+      "status_counts": {
+        "observed": 1284,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 1284,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 1243,
+      "total_source_frames": 1284,
+      "court_y_p05_m": 13.939796846386677,
+      "court_y_p50_m": 23.23507581047727,
+      "court_y_p95_m": 24.542625862913827,
+      "max_step_m_per_source_frame": 0.4457072403969589,
+      "max_step_from_frame": 27948,
+      "max_step_to_frame": 27949,
+      "max_step_ties": [
+        {
+          "from_frame": 27948,
+          "to_frame": 27949
+        },
+        {
+          "from_frame": 27951,
+          "to_frame": 27952
+        },
+        {
+          "from_frame": 27954,
+          "to_frame": 27955
+        }
+      ],
+      "status_counts": {
+        "observed": 1070,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 108,
+        "rejected_box_height": 0,
+        "rejected_speed": 41,
+        "interpolated": 65,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 1070,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 108,
+        "rejected_box_height": 18,
+        "rejected_speed": 80,
+        "interpolated": 0,
+        "missing": 8
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 1259,
+      "total_source_frames": 1284,
+      "court_y_p05_m": 15.716280964258402,
+      "court_y_p50_m": 23.58350044999774,
+      "court_y_p95_m": 25.0904738706306,
+      "max_step_m_per_source_frame": 0.2960965956572973,
+      "max_step_from_frame": 27845,
+      "max_step_to_frame": 27846,
+      "max_step_ties": [
+        {
+          "from_frame": 27845,
+          "to_frame": 27846
+        }
+      ],
+      "status_counts": {
+        "observed": 1211,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 20,
+        "rejected_box_height": 0,
+        "rejected_speed": 5,
+        "interpolated": 28,
+        "missing": 20
+      },
+      "filter_status_counts": {
+        "observed": 1211,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 20,
+        "rejected_box_height": 0,
+        "rejected_speed": 33,
+        "interpolated": 0,
+        "missing": 20
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 298,
+      "total_source_frames": 312,
+      "court_y_p05_m": 3.094051943973874,
+      "court_y_p50_m": 4.560796093114328,
+      "court_y_p95_m": 4.771421123430228,
+      "max_step_m_per_source_frame": 0.10277677426932881,
+      "max_step_from_frame": 30570,
+      "max_step_to_frame": 30571,
+      "max_step_ties": [
+        {
+          "from_frame": 30570,
+          "to_frame": 30571
+        }
+      ],
+      "status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      },
+      "filter_status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 298,
+      "total_source_frames": 312,
+      "court_y_p05_m": -0.2920140114584463,
+      "court_y_p50_m": 0.8862089713993834,
+      "court_y_p95_m": 1.4147242767298622,
+      "max_step_m_per_source_frame": 0.07518986187920473,
+      "max_step_from_frame": 30594,
+      "max_step_to_frame": 30595,
+      "max_step_ties": [
+        {
+          "from_frame": 30594,
+          "to_frame": 30595
+        }
+      ],
+      "status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      },
+      "filter_status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 298,
+      "total_source_frames": 312,
+      "court_y_p05_m": 12.242107637696149,
+      "court_y_p50_m": 16.798944057513733,
+      "court_y_p95_m": 23.225309420840798,
+      "max_step_m_per_source_frame": 0.5119122738299506,
+      "max_step_from_frame": 30593,
+      "max_step_to_frame": 30594,
+      "max_step_ties": [
+        {
+          "from_frame": 30593,
+          "to_frame": 30594
+        }
+      ],
+      "status_counts": {
+        "observed": 266,
+        "observed_after_height_reset": 32,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      },
+      "filter_status_counts": {
+        "observed": 266,
+        "observed_after_height_reset": 32,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 214,
+      "total_source_frames": 312,
+      "court_y_p05_m": 16.002500317768952,
+      "court_y_p50_m": 16.44858352385773,
+      "court_y_p95_m": 18.075152909645382,
+      "max_step_m_per_source_frame": 0.2508996372907653,
+      "max_step_from_frame": 30615,
+      "max_step_to_frame": 30616,
+      "max_step_ties": [
+        {
+          "from_frame": 30615,
+          "to_frame": 30616
+        },
+        {
+          "from_frame": 30616,
+          "to_frame": 30617
+        }
+      ],
+      "status_counts": {
+        "observed": 214,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 2,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 96
+      },
+      "filter_status_counts": {
+        "observed": 214,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 2,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 96
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 420,
+      "total_source_frames": 437,
+      "court_y_p05_m": -2.2166118752709223,
+      "court_y_p50_m": 3.0712483722368322,
+      "court_y_p95_m": 4.941084460215592,
+      "max_step_m_per_source_frame": 0.28774751193410275,
+      "max_step_from_frame": 32898,
+      "max_step_to_frame": 32899,
+      "max_step_ties": [
+        {
+          "from_frame": 32898,
+          "to_frame": 32899
+        }
+      ],
+      "status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      },
+      "filter_status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 420,
+      "total_source_frames": 437,
+      "court_y_p05_m": 0.7056277409609103,
+      "court_y_p50_m": 2.388720742508405,
+      "court_y_p95_m": 10.960020038094674,
+      "max_step_m_per_source_frame": 0.6028397970822237,
+      "max_step_from_frame": 33037,
+      "max_step_to_frame": 33038,
+      "max_step_ties": [
+        {
+          "from_frame": 33037,
+          "to_frame": 33038
+        }
+      ],
+      "status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      },
+      "filter_status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 420,
+      "total_source_frames": 437,
+      "court_y_p05_m": 14.274136012522218,
+      "court_y_p50_m": 20.215421981711494,
+      "court_y_p95_m": 23.36158675183787,
+      "max_step_m_per_source_frame": 0.5058676289634737,
+      "max_step_from_frame": 32841,
+      "max_step_to_frame": 32842,
+      "max_step_ties": [
+        {
+          "from_frame": 32841,
+          "to_frame": 32842
+        }
+      ],
+      "status_counts": {
+        "observed": 373,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 47,
+        "missing": 17
+      },
+      "filter_status_counts": {
+        "observed": 373,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 6,
+        "rejected_speed": 20,
+        "interpolated": 0,
+        "missing": 38
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 384,
+      "total_source_frames": 437,
+      "court_y_p05_m": 14.023983813953668,
+      "court_y_p50_m": 15.597994148866736,
+      "court_y_p95_m": 30.5778972053233,
+      "max_step_m_per_source_frame": 0.9001574402292288,
+      "max_step_from_frame": 32891,
+      "max_step_to_frame": 32892,
+      "max_step_ties": [
+        {
+          "from_frame": 32891,
+          "to_frame": 32892
+        }
+      ],
+      "status_counts": {
+        "observed": 257,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 82,
+        "rejected_box_height": 0,
+        "rejected_speed": 2,
+        "interpolated": 45,
+        "missing": 51
+      },
+      "filter_status_counts": {
+        "observed": 257,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 82,
+        "rejected_box_height": 4,
+        "rejected_speed": 41,
+        "interpolated": 0,
+        "missing": 53
+      }
+    }
+  ],
+  "after_metrics": [
+    {
+      "point": 7,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 773,
+      "total_source_frames": 817,
+      "court_y_p05_m": 4.672174446763194,
+      "court_y_p50_m": 5.901401935725307,
+      "court_y_p95_m": 8.159667054572033,
+      "max_step_m_per_source_frame": 0.2417189147244029,
+      "max_step_from_frame": 23682,
+      "max_step_to_frame": 23683,
+      "max_step_ties": [
+        {
+          "from_frame": 23682,
+          "to_frame": 23683
+        }
+      ],
+      "status_counts": {
+        "observed": 773,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 44
+      },
+      "filter_status_counts": {
+        "observed": 773,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 44
+      }
+    },
+    {
+      "point": 7,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 536,
+      "total_source_frames": 817,
+      "court_y_p05_m": -3.2673004755877213,
+      "court_y_p50_m": 0.10230717029116944,
+      "court_y_p95_m": 2.0121256528622764,
+      "max_step_m_per_source_frame": 0.17386259979158158,
+      "max_step_from_frame": 23563,
+      "max_step_to_frame": 23564,
+      "max_step_ties": [
+        {
+          "from_frame": 23563,
+          "to_frame": 23564
+        }
+      ],
+      "status_counts": {
+        "observed": 536,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 281
+      },
+      "filter_status_counts": {
+        "observed": 536,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 281
+      }
+    },
+    {
+      "point": 7,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 706,
+      "total_source_frames": 817,
+      "court_y_p05_m": 21.67236256213061,
+      "court_y_p50_m": 24.803416087396,
+      "court_y_p95_m": 29.292186684468376,
+      "max_step_m_per_source_frame": 0.41100172786112155,
+      "max_step_from_frame": 23465,
+      "max_step_to_frame": 23466,
+      "max_step_ties": [
+        {
+          "from_frame": 23465,
+          "to_frame": 23466
+        }
+      ],
+      "status_counts": {
+        "observed": 355,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 188,
+        "rejected_box_height": 0,
+        "rejected_speed": 32,
+        "interpolated": 163,
+        "missing": 79
+      },
+      "filter_status_counts": {
+        "observed": 355,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 188,
+        "rejected_box_height": 0,
+        "rejected_speed": 154,
+        "interpolated": 0,
+        "missing": 120
+      }
+    },
+    {
+      "point": 7,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 773,
+      "total_source_frames": 817,
+      "court_y_p05_m": 10.899128573848936,
+      "court_y_p50_m": 13.491725278665312,
+      "court_y_p95_m": 18.6712577607173,
+      "max_step_m_per_source_frame": 0.4722047616898303,
+      "max_step_from_frame": 23894,
+      "max_step_to_frame": 23895,
+      "max_step_ties": [
+        {
+          "from_frame": 23894,
+          "to_frame": 23895
+        }
+      ],
+      "status_counts": {
+        "observed": 507,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 159,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 107,
+        "missing": 44
+      },
+      "filter_status_counts": {
+        "observed": 507,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 159,
+        "rejected_box_height": 0,
+        "rejected_speed": 102,
+        "interpolated": 0,
+        "missing": 49
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 639,
+      "total_source_frames": 768,
+      "court_y_p05_m": -2.1659671207169193,
+      "court_y_p50_m": -1.3600579091007508,
+      "court_y_p95_m": -0.20245062075172007,
+      "max_step_m_per_source_frame": 0.14498618024070292,
+      "max_step_from_frame": 25406,
+      "max_step_to_frame": 25407,
+      "max_step_ties": [
+        {
+          "from_frame": 25406,
+          "to_frame": 25407
+        }
+      ],
+      "status_counts": {
+        "observed": 638,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 1,
+        "rejected_speed": 0,
+        "interpolated": 1,
+        "missing": 128
+      },
+      "filter_status_counts": {
+        "observed": 638,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 1,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 129
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 768,
+      "total_source_frames": 768,
+      "court_y_p05_m": -0.09367351830985172,
+      "court_y_p50_m": 7.248015989293869,
+      "court_y_p95_m": 10.606973525413549,
+      "max_step_m_per_source_frame": 0.6233104291292327,
+      "max_step_from_frame": 25432,
+      "max_step_to_frame": 25433,
+      "max_step_ties": [
+        {
+          "from_frame": 25432,
+          "to_frame": 25433
+        }
+      ],
+      "status_counts": {
+        "observed": 768,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 768,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 768,
+      "total_source_frames": 768,
+      "court_y_p05_m": 19.55989733519827,
+      "court_y_p50_m": 24.124921476823964,
+      "court_y_p95_m": 25.452217864487498,
+      "max_step_m_per_source_frame": 0.8158222931611583,
+      "max_step_from_frame": 25757,
+      "max_step_to_frame": 25758,
+      "max_step_ties": [
+        {
+          "from_frame": 25757,
+          "to_frame": 25758
+        }
+      ],
+      "status_counts": {
+        "observed": 306,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 206,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 256,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 306,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 206,
+        "rejected_box_height": 0,
+        "rejected_speed": 166,
+        "interpolated": 0,
+        "missing": 90
+      }
+    },
+    {
+      "point": 8,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 768,
+      "total_source_frames": 768,
+      "court_y_p05_m": 9.85705919804954,
+      "court_y_p50_m": 12.703979997684584,
+      "court_y_p95_m": 16.260013858764957,
+      "max_step_m_per_source_frame": 0.39667935027976037,
+      "max_step_from_frame": 25367,
+      "max_step_to_frame": 25368,
+      "max_step_ties": [
+        {
+          "from_frame": 25367,
+          "to_frame": 25368
+        }
+      ],
+      "status_counts": {
+        "observed": 436,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 226,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 106,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 436,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 226,
+        "rejected_box_height": 0,
+        "rejected_speed": 98,
+        "interpolated": 0,
+        "missing": 8
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 1076,
+      "total_source_frames": 1284,
+      "court_y_p05_m": -1.8791155933476025,
+      "court_y_p50_m": 1.5009201610101566,
+      "court_y_p95_m": 4.804743113821257,
+      "max_step_m_per_source_frame": 0.16030478403716478,
+      "max_step_from_frame": 28084,
+      "max_step_to_frame": 28085,
+      "max_step_ties": [
+        {
+          "from_frame": 28084,
+          "to_frame": 28085
+        }
+      ],
+      "status_counts": {
+        "observed": 1076,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 208
+      },
+      "filter_status_counts": {
+        "observed": 1076,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 208
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 1284,
+      "total_source_frames": 1284,
+      "court_y_p05_m": 0.14688670489181102,
+      "court_y_p50_m": 7.332316976868226,
+      "court_y_p95_m": 9.167539676516304,
+      "max_step_m_per_source_frame": 0.2862773917907708,
+      "max_step_from_frame": 28165,
+      "max_step_to_frame": 28166,
+      "max_step_ties": [
+        {
+          "from_frame": 28165,
+          "to_frame": 28166
+        }
+      ],
+      "status_counts": {
+        "observed": 1284,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 1284,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 0
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 1186,
+      "total_source_frames": 1284,
+      "court_y_p05_m": 13.64769372313635,
+      "court_y_p50_m": 20.760510215530406,
+      "court_y_p95_m": 23.975956352694666,
+      "max_step_m_per_source_frame": 0.7232997646544332,
+      "max_step_from_frame": 27473,
+      "max_step_to_frame": 27474,
+      "max_step_ties": [
+        {
+          "from_frame": 27473,
+          "to_frame": 27474
+        }
+      ],
+      "status_counts": {
+        "observed": 769,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 247,
+        "rejected_box_height": 0,
+        "rejected_speed": 98,
+        "interpolated": 170,
+        "missing": 0
+      },
+      "filter_status_counts": {
+        "observed": 769,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 247,
+        "rejected_box_height": 0,
+        "rejected_speed": 260,
+        "interpolated": 0,
+        "missing": 8
+      }
+    },
+    {
+      "point": 9,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 1271,
+      "total_source_frames": 1284,
+      "court_y_p05_m": 15.742140797560266,
+      "court_y_p50_m": 22.689151064695565,
+      "court_y_p95_m": 25.031454203844234,
+      "max_step_m_per_source_frame": 0.31498870768201,
+      "max_step_from_frame": 28538,
+      "max_step_to_frame": 28539,
+      "max_step_ties": [
+        {
+          "from_frame": 28538,
+          "to_frame": 28539
+        },
+        {
+          "from_frame": 28541,
+          "to_frame": 28542
+        }
+      ],
+      "status_counts": {
+        "observed": 975,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 156,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 140,
+        "missing": 13
+      },
+      "filter_status_counts": {
+        "observed": 975,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 156,
+        "rejected_box_height": 0,
+        "rejected_speed": 133,
+        "interpolated": 0,
+        "missing": 20
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 298,
+      "total_source_frames": 312,
+      "court_y_p05_m": 3.094051943973874,
+      "court_y_p50_m": 4.560796093114328,
+      "court_y_p95_m": 4.771421123430228,
+      "max_step_m_per_source_frame": 0.10277677426932881,
+      "max_step_from_frame": 30570,
+      "max_step_to_frame": 30571,
+      "max_step_ties": [
+        {
+          "from_frame": 30570,
+          "to_frame": 30571
+        }
+      ],
+      "status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      },
+      "filter_status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 298,
+      "total_source_frames": 312,
+      "court_y_p05_m": -0.2920140114584463,
+      "court_y_p50_m": 0.8862089713993834,
+      "court_y_p95_m": 1.4147242767298622,
+      "max_step_m_per_source_frame": 0.07518986187920473,
+      "max_step_from_frame": 30594,
+      "max_step_to_frame": 30595,
+      "max_step_ties": [
+        {
+          "from_frame": 30594,
+          "to_frame": 30595
+        }
+      ],
+      "status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      },
+      "filter_status_counts": {
+        "observed": 298,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 14
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 298,
+      "total_source_frames": 312,
+      "court_y_p05_m": 8.8692363993584,
+      "court_y_p50_m": 12.791209477763154,
+      "court_y_p95_m": 16.523631462258045,
+      "max_step_m_per_source_frame": 0.4224172434631425,
+      "max_step_from_frame": 30617,
+      "max_step_to_frame": 30618,
+      "max_step_ties": [
+        {
+          "from_frame": 30617,
+          "to_frame": 30618
+        }
+      ],
+      "status_counts": {
+        "observed": 43,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 246,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 9,
+        "missing": 14
+      },
+      "filter_status_counts": {
+        "observed": 43,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 246,
+        "rejected_box_height": 0,
+        "rejected_speed": 9,
+        "interpolated": 0,
+        "missing": 14
+      }
+    },
+    {
+      "point": 10,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 216,
+      "total_source_frames": 312,
+      "court_y_p05_m": 16.004027913556527,
+      "court_y_p50_m": 16.44912416085158,
+      "court_y_p95_m": 18.174175978390103,
+      "max_step_m_per_source_frame": 0.23560855166068023,
+      "max_step_from_frame": 30612,
+      "max_step_to_frame": 30613,
+      "max_step_ties": [
+        {
+          "from_frame": 30612,
+          "to_frame": 30613
+        }
+      ],
+      "status_counts": {
+        "observed": 214,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 2,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 96
+      },
+      "filter_status_counts": {
+        "observed": 214,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 2,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 96
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "near_front",
+      "name": "N1",
+      "valid_source_frames": 420,
+      "total_source_frames": 437,
+      "court_y_p05_m": -2.2166118752709223,
+      "court_y_p50_m": 3.0712483722368322,
+      "court_y_p95_m": 4.941084460215592,
+      "max_step_m_per_source_frame": 0.28774751193410275,
+      "max_step_from_frame": 32898,
+      "max_step_to_frame": 32899,
+      "max_step_ties": [
+        {
+          "from_frame": 32898,
+          "to_frame": 32899
+        }
+      ],
+      "status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      },
+      "filter_status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "near_rear",
+      "name": "N2",
+      "valid_source_frames": 420,
+      "total_source_frames": 437,
+      "court_y_p05_m": 0.7056277409609103,
+      "court_y_p50_m": 2.388720742508405,
+      "court_y_p95_m": 10.960020038094674,
+      "max_step_m_per_source_frame": 0.6028397970822237,
+      "max_step_from_frame": 33037,
+      "max_step_to_frame": 33038,
+      "max_step_ties": [
+        {
+          "from_frame": 33037,
+          "to_frame": 33038
+        }
+      ],
+      "status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      },
+      "filter_status_counts": {
+        "observed": 420,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 0,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 0,
+        "missing": 17
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "far_rear",
+      "name": "F1",
+      "valid_source_frames": 384,
+      "total_source_frames": 437,
+      "court_y_p05_m": 14.273530475807702,
+      "court_y_p50_m": 16.920434213990177,
+      "court_y_p95_m": 20.752984944298557,
+      "max_step_m_per_source_frame": 0.4378311690472811,
+      "max_step_from_frame": 32735,
+      "max_step_to_frame": 32736,
+      "max_step_ties": [
+        {
+          "from_frame": 32735,
+          "to_frame": 32736
+        }
+      ],
+      "status_counts": {
+        "observed": 187,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 105,
+        "rejected_box_height": 0,
+        "rejected_speed": 36,
+        "interpolated": 92,
+        "missing": 17
+      },
+      "filter_status_counts": {
+        "observed": 187,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 105,
+        "rejected_box_height": 0,
+        "rejected_speed": 107,
+        "interpolated": 0,
+        "missing": 38
+      }
+    },
+    {
+      "point": 11,
+      "player_slot": "far_front",
+      "name": "F2",
+      "valid_source_frames": 386,
+      "total_source_frames": 437,
+      "court_y_p05_m": 14.023983813953668,
+      "court_y_p50_m": 15.250797290750029,
+      "court_y_p95_m": 19.422126202978443,
+      "max_step_m_per_source_frame": 0.4300870662905417,
+      "max_step_from_frame": 33069,
+      "max_step_to_frame": 33070,
+      "max_step_ties": [
+        {
+          "from_frame": 33069,
+          "to_frame": 33070
+        }
+      ],
+      "status_counts": {
+        "observed": 204,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 162,
+        "rejected_box_height": 0,
+        "rejected_speed": 0,
+        "interpolated": 20,
+        "missing": 51
+      },
+      "filter_status_counts": {
+        "observed": 204,
+        "observed_after_height_reset": 0,
+        "observed_head_anchored": 162,
+        "rejected_box_height": 0,
+        "rejected_speed": 18,
+        "interpolated": 0,
+        "missing": 53
+      }
+    }
+  ]
+}
