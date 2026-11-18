@@ -10,15 +10,15 @@ C.DIRS.forEach((d,i)=>{assert.equal(C.convert(d,'N'),n[i]);assert.equal(C.conver
 assert.equal(C.dir3('right_front'),'front');assert.equal(C.dir3('left_back'),'back');assert.equal(C.dir3('left_lateral'),'lateral');
 let t={ms:0,last:null};C.touch(t,1000);assert.equal(C.elapsed(t,3000),2000);C.touch(t,4000);assert.equal(t.ms,3000);C.touch(t,64000);assert.equal(t.ms,3000);C.touch(t,65000);assert.equal(t.ms,4000);C.suspend(t,66000);assert.equal(t.ms,5000);C.touch(t,900000);assert.equal(t.ms,5000);
 const p={motion:'motion',complexity:'single',direction3:'front',direction8:'straight_front',feint:'no',front_side:'N',front_slot:'near_front'};
-const item={id:'dummy',point:1,contact_frame:100,front_side:'N',start_frame:40,stop_frame:160,predictions:{v1:{...p},v2:{...p}}};
+const item={id:'dummy',point:1,contact_frame:100,front_side:'N',start_frame:40,stop_frame:160,predictions:{bbox:{...p},ankle:{...p}}};
 function accepted(i) { const l={player_judgment:'正しい',contact_judgment:'正しい',confidence:'high'};for(const s of C.sources(i))for(const a of C.ASPECTS)l[`${s}_${a}_judgment`]='正しい';return l; }
 let l=accepted(item);
 assert.equal(C.valid(item,l),'');assert.equal(C.resolve(item,l).manual,false);
 assert.equal(C.row(item,l,12500,'本人').motion,'motion');assert.equal(C.row(item,l,0,'').single_compound,'single');assert.equal(C.row(item,l,0,'').player_direction8,'straight_front');
-const conflict=structuredClone(item);conflict.predictions.v2.direction3='back';conflict.predictions.v2.direction8='straight_back';
+const conflict=structuredClone(item);conflict.predictions.ankle.direction3='back';conflict.predictions.ankle.direction8='straight_back';
 assert.equal(C.resolve(conflict,l).conflict,true);assert.match(C.valid(conflict,l),/正しい答え/);
-const eight=structuredClone(item);eight.predictions.v2.direction8='right_front';assert.equal(C.resolve(eight,l).conflict,true);
-l={...accepted(item),v1_motion_judgment:'違う'};assert.equal(C.resolve(item,l).manual,true);assert.match(C.valid(item,l),/正しい答え/);
+const eight=structuredClone(item);eight.predictions.ankle.direction8='right_front';assert.equal(C.resolve(eight,l).conflict,true);
+l={...accepted(item),bbox_motion_judgment:'違う'};assert.equal(C.resolve(item,l).manual,true);assert.match(C.valid(item,l),/正しい答え/);
 l={...l,answer_class:'compound',screen_direction:'up_left',feint:'yes',contact_judgment:'違う'};assert.match(C.valid(item,l),/フレーム/);l.corrected_contact_frame=97;assert.equal(C.valid(item,l),'');
 assert.equal(C.row(item,l,0,'').corrected_contact_frame,97);assert.equal(C.row(item,l,0,'').player_direction8,'left_front');
 l.corrected_contact_frame=39;assert.match(C.valid(item,l),/フレーム/);
@@ -27,6 +27,10 @@ const absent=structuredClone(item);for(const s of C.sources(absent))absent.predi
 assert.equal(C.resolve(absent,accepted(absent)).motion,'none');assert.equal(C.resolve(absent,accepted(absent)).direction8,'');
 const unknown=Object.fromEntries(Object.entries(accepted(item)).map(([k,v])=>[k,k.endsWith('_judgment')&&!['player_judgment','contact_judgment'].includes(k)?'分からない':v]));
 assert.equal(C.valid(item,unknown),'');assert.equal(C.resolve(item,unknown).motion,'unknown');assert.equal(C.row(item,{},0,'').motion,'');
+const rejected=structuredClone(item);
+for(const s of C.sources(rejected))rejected.predictions[s]={...p,motion:'unclassifiable',complexity:'',direction8:'',direction3:'',feint:'unknown'};
+assert.equal(C.valid(rejected,accepted(rejected)),'');
+assert.equal(C.resolve(rejected,accepted(rejected)).motion,'unknown');
 const rows=data.items.map((i,k)=>{
   const x=accepted(i);x.note='引用符"、カンマ, 改行\n次の行';x.saved_at='2026-11-18T00:00:00Z';
   // ダミーは全項目を確認し、手動回答を明示して比較側の分母と入出力を確認する。
@@ -34,20 +38,26 @@ const rows=data.items.map((i,k)=>{
   if(k%3===0)Object.assign(x,{contact_judgment:'違う',corrected_contact_frame:i.contact_frame-3});
   assert.equal(C.valid(i,x),'',i.id);return C.row(i,x,12500,'ダミー');
 });
-assert.equal(rows.length,30);assert.equal(Object.keys(rows[0]).length,C.FIELDS.length);
-assert.equal(data.items[0].id,'p08_B_06');assert.equal(data.items[0].contact_confidence,'inferred');
+assert.equal(rows.length,32);assert.equal(Object.keys(rows[0]).length,C.FIELDS.length);
+assert.equal(data.schema_version,3);assert.equal(data.order_seed,20261118);assert.equal(data.label_condition,'without_candidates');
+assert.deepEqual(C.SOURCES,['bbox','ankle']);assert.ok(C.FIELDS.every(k=>!k.startsWith('claude_')));
 for(const i of data.items){
   const fps=i.fps_num/i.fps_den;
-  assert.ok(i.source_first_frame<=i.start_frame&&i.stop_frame<i.source_first_frame+i.frame_count);
+  assert.ok(i.source_first_frame<=i.start_frame&&i.start_frame<=i.contact_frame&&i.contact_frame<=i.stop_frame&&i.stop_frame<i.source_first_frame+i.frame_count);
+  assert.equal(i.clip,`../label_ui/clips/point_${String(i.point).padStart(2,'0')}.mp4`);
+  assert.deepEqual(Object.keys(i.predictions),['bbox','ankle']);
+  assert.ok(i.role_note.length>0);
+  assert.ok((i.stop_frame-i.source_first_frame+.5)/fps<i.frame_count/fps);
   assert.equal(i.start_frame,Math.max(i.source_first_frame,Math.min(i.contact_frame-Math.round(fps),i.previous_contact_frame===null?i.contact_frame-Math.round(fps):i.previous_contact_frame-Math.round(.2*fps))));
   assert.equal(i.stop_frame,Math.min(i.source_first_frame+i.frame_count-1,Math.max(i.contact_frame+Math.round(fps),i.next_contact_frame===null?i.contact_frame+Math.round(fps):i.next_contact_frame+Math.round(.2*fps))));
   for(const points of Object.values(i.trajectories))assert.ok(points.every(p=>p[0]>=i.contact_frame&&p[0]<=i.end_frame));
 }
-assert.ok(fs.statSync(path.join(__dirname,'data.json')).size<256*1024);
+assert.ok(fs.statSync(path.join(__dirname,'data.json')).size<256000);
 const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8');const js=fs.readFileSync(path.join(__dirname,'app.js'),'utf8');
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
 for(const m of js.matchAll(/\$\("([^"]+)"\)/g))assert.ok(ids.includes(m[1]),'HTML id missing: '+m[1]);
-assert.ok(js.includes('softtennis-motion-confirm-1986-v2'));assert.ok(!js.includes('softtennis-motion-reference-1986-v1'));
+assert.ok(js.includes('softtennis-motion-human-20261118-v3'));assert.ok(!js.includes('softtennis-motion-confirm-1986-v2'));
+assert.ok(!/claude|推定/.test(js+html));assert.ok(!js.includes('softtennis-motion-reference-1986-v1'));
 assert.ok(js.includes('response.blob()'));assert.ok(js.includes('a.download = "motion_review.csv"'));
 const csv=C.csv(rows);assert.ok(csv.startsWith('\ufeff'));assert.ok(csv.includes('引用符""、カンマ, 改行\n次の行'));
 assert.equal(C.zoomRegion({boxes:[]}),null);
@@ -64,6 +74,7 @@ for(const i of data.items) {
 async function checkUI(frameCallbacks, firstAction) {
   const vm=require('node:vm');
   let now=1000, interval, animation;
+  const docListeners={};
   class Element {
     constructor(tag='div') { this.tagName=tag;this.listeners={};this.children=[];this.dataset={};this.style={};this.value='';this.checked=true;this.width=this.height=640; }
     append(...els) { this.children.push(...els); }
@@ -97,7 +108,7 @@ async function checkUI(frameCallbacks, firstAction) {
   els.speed.value='1';
   const storage=new Map();
   const context=vm.createContext({
-    document:{getElementById:id=>els[id],createElement:tag=>new Element(tag),querySelectorAll:selector=>selector==='[data-step]'?[stepButton]:choices[selector.match(/^\[data-(\w+)\]$/)?.[1]]||[],addEventListener(){}},
+    document:{getElementById:id=>els[id],createElement:tag=>new Element(tag),querySelectorAll:selector=>selector==='[data-step]'?[stepButton]:choices[selector.match(/^\[data-(\w+)\]$/)?.[1]]||[],addEventListener(k,fn){docListeners[k]=fn;}},
     window:{addEventListener(){}},
     localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},
     fetch:async file=>({ok:true,json:async()=>structuredClone(data),blob:async()=>({})}),
@@ -112,10 +123,13 @@ async function checkUI(frameCallbacks, firstAction) {
   const waiting='作業時間 —（最初の操作から計時）';
   assert.equal(els.timing.textContent,waiting);
   now+=35000;interval();
-  const saved=()=>JSON.parse(storage.get('softtennis-motion-confirm-1986-v2'));
+  const saved=()=>JSON.parse(storage.get('softtennis-motion-human-20261118-v3'));
   const first=data.items[0], zoom=els.zoom.getContext(), overlay=els.overlay.getContext();
   assert.equal(saved().labels[first.id].seconds,0,'開いて35秒待っても0秒');
   assert.equal(els.timing.textContent,waiting);
+  assert.equal(els.roleReason.textContent,first.role_note);
+  assert.match(els.progress.textContent,/32件/);
+  assert.equal(els.predictions.children.length,2);assert.equal(els.judgments.children.length,2);
   assert.equal(els.zoomOrientation.textContent,`画面の上＝前衛から見て ${first.front_side==='F'?'後ろ':'前'}`);
   const crop=zoom.calls.find(c=>c.name==='drawImage').args.slice(1);
   const region=C.zoomRegion(first);
@@ -130,11 +144,11 @@ async function checkUI(frameCallbacks, firstAction) {
   const rect=zoom.calls.filter(c=>c.name==='strokeRect').at(-1).args;
   const expected=[(box[1]-region.sx)*scale,(box[2]-region.sy)*scale,(box[3]-box[1])*scale,(box[4]-box[2])*scale];
   rect.forEach((v,k)=>assert.ok(Math.abs(v-expected[k])<1e-9,'枠と動画の座標変換が一致'));
-  const raw=first.trajectories.v1[0];
+  const raw=first.trajectories.bbox[0];
   assert.ok(zoom.calls.some(c=>c.name==='moveTo'&&c.color==='#ffac39'&&Math.abs(c.args[0]-(raw[1]-region.sx)*scale)<1e-9&&Math.abs(c.args[1]-(raw[2]-region.sy)*scale)<1e-9),'軌跡も同じ倍率');
   now+=5000;interval();assert.equal(saved().labels[first.id].seconds,5);
   // 操作と自動のフレーム更新を区別。コマを変えても切り抜きは同じ。
-  for(const [id,color] of [['showv1','#ffac39'],['showv2','#4ee5ff'],['showBox','#67e6ff']]) {
+  for(const [id,color] of [['showbbox','#ffac39'],['showankle','#4ee5ff'],['showBox','#67e6ff']]) {
     zoom.calls=[];overlay.calls=[];els[id].checked=false;await els[id].fire('change');
     for(const ctx of [zoom,overlay])assert.ok(!ctx.calls.some(c=>id==='showBox'?c.name==='strokeRect':c.name==='stroke'&&c.color===color),id+' は両画面に反映');
   }
@@ -162,10 +176,42 @@ async function checkUI(frameCallbacks, firstAction) {
   now+=35000;interval();
   assert.equal(saved().index,0);
   assert.equal(saved().labels[first.id].seconds,5,'再訪しても操作まで既存秒数は増えない');
+  // 実際の T キー配線で本人ラベルの修正を保存。元フレームは保持する。
+  els.contactChoices.children[0].children[1].onclick();
+  els.timeline.value=String(first.contact_frame-2);
+  await els.timeline.fire('input');await video.fire('seeked');
+  docListeners.keydown({key:'t',target:{closest:()=>null},preventDefault(){}});
+  assert.equal(saved().labels[first.id].corrected_contact_frame,first.contact_frame-2);
+  assert.equal(data.items[0].contact_frame,first.contact_frame);
+  els.contactChoices.children[0].children[0].onclick();
+  // 32件すべてを移動。枠なし・軌跡なし・判定不能も完了可能であること。
+  for(let k=0;k<data.items.length;k++) {
+    const i=data.items[k];
+    assert.equal(saved().index,k);
+    assert.equal(els.roleReason.textContent,i.role_note);
+    assert.equal(els.predictions.children.length,2);
+    assert.equal(els.judgments.children.length,2);
+    if(!i.boxes.length)assert.match(els.zoomStatus.textContent,/拡大できません/);
+    if(i.predictions.bbox.motion==='unclassifiable')
+      assert.ok(els.predictions.children[0].children.some(e=>e.textContent?.includes('判定できない')));
+    els.playerChoices.children[0].children[i.front_slot?0:1].onclick();
+    els.contactChoices.children[0].children[0].onclick();
+    for(const fieldset of els.judgments.children)for(const line of fieldset.children.slice(1))line.children[1].children[0].onclick();
+    els.manual.onchange({target:{checked:true}});
+    choices.answer_class.find(b=>b.dataset.answer_class==='unknown').onclick();
+    choices.feint.find(b=>b.dataset.feint==='unknown').onclick();
+    choices.confidence.find(b=>b.dataset.confidence==='high').onclick();
+    await els.next.fire('click');await new Promise(resolve=>setImmediate(resolve));
+    await video.fire('seeked');
+    assert.equal(saved().labels[i.id].completed,true,els.validation.textContent);
+  }
+  assert.equal(saved().index,31);
+  assert.match(els.progress.textContent,/完了 32 \/ 32件/);
+  assert.match(els.validation.textContent,/全件が完了/);
 }
 
 (async()=>{
   await checkUI(true,'play');await checkUI(true,'step');await checkUI(false,'seek');
   if(process.argv.includes('--csv'))process.stdout.write(csv);
-  else console.log('成功：既存の判定・CSV・30件検証、拡大座標・固定切抜き・表示連動・両フレームAPI・初操作まで計時なし・60秒境界');
+  else console.log('成功：本人打球の判定・CSV・全32件検証、拡大座標・固定切抜き・表示連動・両フレームAPI・初操作まで計時なし・60秒境界');
 })().catch(e=>{console.error(e);process.exitCode=1;});

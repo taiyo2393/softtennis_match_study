@@ -4,7 +4,7 @@
   const ARROWS = ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"];
   const PLAYER = ["straight_front", "right_front", "right_lateral", "right_back", "straight_back", "left_back", "left_lateral", "left_front"];
   const JA = {straight_front:"まっすぐ前",right_front:"右斜め前",right_lateral:"右横",right_back:"右斜め後ろ",straight_back:"まっすぐ後ろ",left_back:"左斜め後ろ",left_lateral:"左横",left_front:"左斜め前"};
-  const SOURCES = ["v1","v2","claude"], ASPECTS = ["motion","direction3","complexity"];
+  const SOURCES = ["bbox","ankle"], ASPECTS = ["motion","direction3","complexity"];
   const JUDGES = ["正しい","違う","分からない"];
   const FIELDS = ["id","point","contact_frame","corrected_contact_frame","contact_judgment","player_judgment",
     ...SOURCES.flatMap(s => ASPECTS.map(a => `${s}_${a}_judgment`)),
@@ -103,7 +103,7 @@
   const $ = id => document.getElementById(id);
   const video = $("video"), canvas = $("overlay"), ctx = canvas.getContext("2d");
   const zoomCanvas = $("zoom"), zoomCtx = zoomCanvas.getContext("2d");
-  const STORAGE = "softtennis-motion-confirm-1986-v2";
+  const STORAGE = "softtennis-motion-human-20261118-v3";
   let data, index = 0, ready = false, blocked = false, storageWarning = "", db, selected = false;
   let shownFrame = 0, seekTarget = null, token = 0, blobUrl = null, blobFile = null;
   let timer = {ms:0,last:null}, frameCallbacks = "requestVideoFrameCallback" in video;
@@ -147,11 +147,11 @@
     }
     return wrap;
   }
-  const names={v1:"自動 v1（箱の下端）",v2:"自動 v2（足首）",v2_bbox:"v2（箱・参考）",claude:"Claude の目視"};
+  const names={bbox:"自動（箱の下端）",ankle:"自動（足首）"};
   const words={none:"なし",motion:"あり",single:"単",compound:"複",unknown:"判定できない",unclassifiable:"判定できない",front:"前",lateral:"横",back:"後ろ",yes:"はい",no:"いいえ"};
   function renderPredictions() {
     $("predictions").replaceChildren();
-    for (const s of ["v1","v2","v2_bbox","claude"]) {
+    for (const s of SOURCES) {
       const p=current().predictions[s]; if (!p) continue;
       const card=document.createElement("article"); card.className="prediction "+s;
       const h=document.createElement("h3"); h.textContent=names[s]; card.append(h);
@@ -162,11 +162,14 @@
       const threeArrow=p.direction3==="lateral"?"↔":p.direction3==="front"?(p.front_side==="N"?"↑":"↓"):p.direction3==="back"?(p.front_side==="N"?"↓":"↑"):"";
       info.textContent=`動き：${words[p.motion]||p.motion||"未記入"} ／ 単・複：${words[p.complexity]||"—"} ／ 向き：${screen?ARROWS[DIRS.indexOf(screen)]+" ":""}${JA[p.direction8]||"—"}（3方向：${threeArrow} ${words[p.direction3]||"—"}） ／ フェイント：${words[p.feint]||"分からない"}`;
       card.append(info);
-      if (s==="claude") {
-        for (const k of ["claude_motion","claude_direction3","claude_single_compound","claude_issue","claude_note"]) {
-          const line=document.createElement("p"); line.textContent=`${k}：${p[k]||"未記入"}`; card.append(line);
-        }
-      } else if (p.issue) { const line=document.createElement("p"); line.textContent="判定不能の理由："+p.issue; card.append(line); }
+      if (p.issue) { const line=document.createElement("p"); line.textContent="判定できない理由："+p.issue; card.append(line); }
+      if (s==="ankle") {
+        const feet=current().trajectory_foot_sources.ankle;
+        const fallback=Object.entries(feet).filter(([k])=>k.startsWith("bbox")).reduce((n,[,v])=>n+v,0);
+        const line=document.createElement("p");
+        line.textContent=`軌跡区間の足元：両足の中点 ${feet.ankle_midpoint||0}コマ ／ 片足 ${(feet.left_ankle_only||0)+(feet.right_ankle_only||0)}コマ ／ 箱で代替 ${fallback}コマ ／ 欠測 ${(feet.ankles_missing||0)+(feet.missing||0)}コマ`;
+        card.append(line);
+      }
       $("predictions").append(card);
     }
   }
@@ -204,8 +207,8 @@
     $("courtSide").textContent=far?"奥の前衛":"手前の前衛";
     if ($("note").value!==(l.note||"")) $("note").value=l.note||"";
     const n=data.items.filter(i=>db.labels[i.id]?.completed && !valid(i,db.labels[i.id])).length;
-    $("progress").textContent=`完了 ${n} / 30件 · 表示 ${index+1} / 30件`;
-    $("prev").disabled=index===0; $("next").textContent=index===29?"完了する":"次へ";
+    $("progress").textContent=`完了 ${n} / ${data.items.length}件 · 表示 ${index+1} / ${data.items.length}件`;
+    $("prev").disabled=index===0; $("next").textContent=index===data.items.length-1?"完了する":"次へ";
   }
   function effectiveContact() { return label().contact_judgment==="違う" && Number.isInteger(label().corrected_contact_frame)?label().corrected_contact_frame:current().contact_frame; }
   function setContact() {
@@ -222,7 +225,7 @@
     band.style.left=`${100*(left-i.start_frame)/(i.stop_frame-i.start_frame)}%`;
     band.style.width=`${100*(right-left)/(i.stop_frame-i.start_frame)}%`;
     wrap.append(band);
-    const specs=[[i.previous_contact_frame,"前の打球（前衛側）","previous"],[i.contact_frame,`相手（ラベル${i.contact_confidence==="inferred"?"・推定":""}）`,"contact"],[i.next_contact_frame,"次の打球","following"],[c,"分類区間の始点","window-start"],[c+Math.round(.4*fps()),"＋0.4秒","endpoint"]];
+    const specs=[[i.previous_contact_frame,"前の打球（前衛側）","previous"],[i.contact_frame,"相手（本人ラベル）","contact"],[i.next_contact_frame,"次の打球","following"],[c,"分類区間の始点","window-start"],[c+Math.round(.4*fps()),"＋0.4秒","endpoint"]];
     if (c!==i.contact_frame) specs.push([c,"修正した打球","corrected"]);
     for (const [frame,text,cls] of specs) {
       if (frame===null) continue;
@@ -239,30 +242,22 @@
     ctx.moveTo(x2-14*Math.cos(angle-.5),y2-14*Math.sin(angle-.5));ctx.lineTo(x2,y2);ctx.lineTo(x2-14*Math.cos(angle+.5),y2-14*Math.sin(angle+.5));ctx.stroke();
   }
   function trajectories(ctx, project=(x,y)=>[x,y], includeDirections=true) {
-    for (const [s,color] of [["v1","#ffac39"],["v2","#4ee5ff"]]) {
+    for (const [s,color] of [["bbox","#ffac39"],["ankle","#4ee5ff"]]) {
       if (!$("show"+s).checked) continue;
       const points=current().trajectories[s];
       ctx.strokeStyle=color;ctx.lineWidth=3;ctx.beginPath();
       points.forEach((p,n)=>{const prev=points[n-1], xy=project(p[1],p[2]); if (prev && p[0]===prev[0]+1) ctx.lineTo(...xy); else ctx.moveTo(...xy);});ctx.stroke();
-      if (points.length) {const a=project(points[0][1],points[0][2]),last=points[points.length-1],b=project(last[1],last[2]);ctx.fillStyle=color;ctx.beginPath();ctx.arc(a[0],a[1],6,0,Math.PI*2);ctx.fill(); if(points.length>1)arrow(ctx,a[0],a[1],b[0],b[1],color);ctx.font="22px sans-serif";ctx.fillText(s+" 生座標",a[0]+12,a[1]-10);
+      if (points.length) {const a=project(points[0][1],points[0][2]),last=points[points.length-1],b=project(last[1],last[2]);ctx.fillStyle=color;ctx.beginPath();ctx.arc(a[0],a[1],6,0,Math.PI*2);ctx.fill(); if(points.length>1)arrow(ctx,a[0],a[1],b[0],b[1],color);ctx.font="22px sans-serif";ctx.fillText((s==="bbox"?"箱":"足首")+" 軌跡",a[0]+12,a[1]-10);
         const p=current().predictions[s], d=DIRS.findIndex(d=>convert(d,p.front_side)===p.direction8);
         if(includeDirections && d>=0 && p.motion==="motion") {
           const theta=(d*45-90)*Math.PI/180;
           ctx.setLineDash([7,5]);arrow(ctx,a[0],a[1],a[0]+85*Math.cos(theta),a[1]+85*Math.sin(theta),color);ctx.setLineDash([]);
-          ctx.fillText(s+" 最終方向",a[0]+12,a[1]+26);
+          ctx.fillText((s==="bbox"?"箱":"足首")+" 最終方向",a[0]+12,a[1]+26);
         }
       }
     }
-    if (includeDirections && $("showReference").checked) for (const [s,color,base] of [["v2_bbox","#c8c8c8","v2"],["claude","#d5a1ff","v1"]]) {
-      const p=current().predictions[s], a=current().trajectories[base][0];
-      if (!p || !a || p.motion!=="motion") continue;
-      const exact=DIRS.findIndex(d=>convert(d,p.front_side)===p.direction8);
-      const dirs=exact>=0?[exact]:p.direction3==="front"?[p.front_side==="N"?0:4]:p.direction3==="back"?[p.front_side==="N"?4:0]:p.direction3==="lateral"?[2,6]:[];
-      ctx.setLineDash([4,7]);
-      for(const d of dirs) {const theta=(d*45-90)*Math.PI/180;arrow(ctx,a[1],a[2],a[1]+110*Math.cos(theta),a[2]+110*Math.sin(theta),color);}
-      ctx.setLineDash([]);if(dirs.length){ctx.fillStyle=color;ctx.font="20px sans-serif";ctx.fillText(s==="claude"?"Claude 3方向":"v2箱 最終方向",a[1]+12,a[2]+(s==="claude"?52:76));}
-    }
   }
+
   function drawBox(ctx,box,project=(x,y)=>[x,y]) {
     if (!$("showBox").checked || !box) return;
     const [x1,y1]=project(box[0],box[1]), [x2,y2]=project(box[2],box[3]);
@@ -383,6 +378,7 @@
     $("itemTitle").textContent = `${index + 1}. 第${item.point}点 / ラリー${item.rally} / ${item.id}`;
     $("side").textContent = item.front_side === "N" ? "手前の前衛 N" : "奥の前衛 F";
     $("target").textContent = `追跡slot：${item.front_slot || "未確定"} · 表示範囲：F${item.start_frame}〜F${item.stop_frame}`;
+    $("roleReason").textContent = item.role_note;
     canvas.width = item.box_width; canvas.height = item.box_height;
     $("timeline").min = item.start_frame; $("timeline").max = item.stop_frame;
     renderPredictions();
@@ -426,7 +422,7 @@
   document.querySelectorAll("[data-step]").forEach(b => b.addEventListener("click", () => step(Number(b.dataset.step))));
   $("timeline").addEventListener("input", e => { act(); pause(); seek(Number(e.target.value)); persist(); });
   $("speed").addEventListener("change", e => { act(); video.playbackRate = Number(e.target.value); persist(); });
-  for (const id of ["loop","showBox","showv1","showv2","showReference"]) $(id).addEventListener("change", () => { act(); draw(shownFrame); persist(); });
+  for (const id of ["loop","showBox","showbbox","showankle"]) $(id).addEventListener("change", () => { act(); draw(shownFrame); persist(); });
   $("next").addEventListener("click",next);
   $("prev").addEventListener("click", () => { if (index > 0) { act(); choose(index-1); } });
   $("export").addEventListener("click",() => { act(); exportCsv(); });
@@ -457,13 +453,13 @@
       const response = await fetch("data.json", {cache:"no-store"});
       if (!response.ok) throw new Error(`data.json: HTTP ${response.status}`);
       data = await response.json();
-      if (data.items?.length !== 30 || new Set(data.items.map(i => i.id)).size !== 30) throw new Error("data.json は30件の一意な打球である必要があります");
-      db = {version:2,dataset_id:data.dataset_id,annotator:"",index:0,labels:{}};
+      if (data.schema_version !== 3 || data.label_condition !== "without_candidates" || !data.items?.length || new Set(data.items.map(i => i.id)).size !== data.items.length) throw new Error("data.json の形式・本人ラベル条件・一意な打球を確認してください");
+      db = {version:3,dataset_id:data.dataset_id,annotator:"",index:0,labels:{}};
       let raw;
       try { raw = localStorage.getItem(STORAGE); } catch (e) { storageWarning = `保存領域を読めません（${e.name}）。CSVで保存してください。`; }
       if (raw) {
         const saved = JSON.parse(raw);
-        if (saved.version !== 2 || saved.dataset_id !== data.dataset_id || !saved.labels || typeof saved.labels !== "object" || typeof saved.annotator !== "string") throw new Error("保存形式・対象データが一致しません。既存の保存を上書きせず停止しました");
+        if (saved.version !== 3 || saved.dataset_id !== data.dataset_id || !saved.labels || typeof saved.labels !== "object" || typeof saved.annotator !== "string") throw new Error("保存形式・対象データが一致しません。既存の保存を上書きせず停止しました");
         db = saved;
       }
       $("annotator").value = db.annotator;
