@@ -1,0 +1,117 @@
+{
+  "protected_inputs_unchanged": 73,
+  "hitter_count": 32,
+  "hitter_status_counts": {
+    "auto_wrist": 26,
+    "undecided": 6
+  },
+  "hitter_changes": [
+    {
+      "point": 8,
+      "frame": 25863,
+      "side": "N",
+      "old_hitter": "N2",
+      "old_status": "auto_wrist",
+      "new_hitter": "N?",
+      "new_status": "undecided"
+    }
+  ],
+  "jump_or_step_count": 13,
+  "jump_or_step_list": [
+    {
+      "point": 7,
+      "frame": 22848,
+      "hitter": "F1",
+      "lift_frames": 24,
+      "max_lift_px": 18.2841796875
+    },
+    {
+      "point": 7,
+      "frame": 22911,
+      "hitter": "N2",
+      "lift_frames": 9,
+      "max_lift_px": 25.55364990234375
+    },
+    {
+      "point": 7,
+      "frame": 23565,
+      "hitter": "N2",
+      "lift_frames": 12,
+      "max_lift_px": 20.863739013671875
+    },
+    {
+      "point": 7,
+      "frame": 23906,
+      "hitter": "F2",
+      "lift_frames": 10,
+      "max_lift_px": 11.835693359375
+    },
+    {
+      "point": 8,
+      "frame": 25246,
+      "hitter": "F1",
+      "lift_frames": 19,
+      "max_lift_px": 21.547393798828125
+    },
+    {
+      "point": 8,
+      "frame": 25321,
+      "hitter": "N2",
+      "lift_frames": 15,
+      "max_lift_px": 21.240081787109375
+    },
+    {
+      "point": 8,
+      "frame": 25443,
+      "hitter": "N2",
+      "lift_frames": 19,
+      "max_lift_px": 28.996734619140625
+    },
+    {
+      "point": 8,
+      "frame": 25652,
+      "hitter": "N1",
+      "lift_frames": 20,
+      "max_lift_px": 40.604766845703125
+    },
+    {
+      "point": 8,
+      "frame": 25787,
+      "hitter": "F1",
+      "lift_frames": 9,
+      "max_lift_px": 13.94696044921875
+    },
+    {
+      "point": 9,
+      "frame": 28292,
+      "hitter": "N1",
+      "lift_frames": 7,
+      "max_lift_px": 20.85009765625
+    },
+    {
+      "point": 11,
+      "frame": 32755,
+      "hitter": "F1",
+      "lift_frames": 5,
+      "max_lift_px": 18.897125244140625
+    },
+    {
+      "point": 11,
+      "frame": 33001,
+      "hitter": "F1",
+      "lift_frames": 20,
+      "max_lift_px": 28.404998779296875
+    },
+    {
+      "point": 11,
+      "frame": 33041,
+      "hitter": "N2",
+      "lift_frames": 19,
+      "max_lift_px": 14.19415283203125
+    }
+  ],
+  "large_files_ignored": 118,
+  "all_five_videos_full_decode_verified": true,
+  "baseline_reconstruction_matches_previous_decisions": true,
+  "lift_values_independently_checked": true
+}

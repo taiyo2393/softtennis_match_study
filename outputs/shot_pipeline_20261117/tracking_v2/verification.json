@@ -1,0 +1,6121 @@
+{
+  "protected_inputs_unchanged": 73,
+  "excluded_candidates": [
+    {
+      "point": 7,
+      "track_id": 5,
+      "first_frame": 21600,
+      "last_frame": 22269,
+      "observed_frames": 670,
+      "observed_seconds": 11.177833333333334,
+      "span_seconds": 11.161150000000001,
+      "median_u": -0.1781180753646227,
+      "median_v": 1.4876840993804277,
+      "within_0_7m_fraction": 0.9671641791044776,
+      "radius_p90_m": 0.24058190169719293,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 669/670 frames = 99.851%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9985074626865672,
+      "stationary_seconds": 11.161150000000001,
+      "existence_seconds": 11.177833333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 21600,
+          "last_frame": 22268,
+          "duration_frames": 669,
+          "duration_seconds": 11.161150000000001,
+          "median_u": -0.17811751350855268,
+          "median_v": 1.4876836181406536,
+          "observed_frames": 669,
+          "inlier_frames": 648,
+          "excursion_frames": 21,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.968609865470852
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22269
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 6,
+      "first_frame": 21600,
+      "last_frame": 22260,
+      "observed_frames": 661,
+      "observed_seconds": 11.027683333333334,
+      "span_seconds": 11.011000000000001,
+      "median_u": 1.864565500680182,
+      "median_v": 1.4797364921400662,
+      "within_0_7m_fraction": 0.9561270801815431,
+      "radius_p90_m": 0.2607326054557677,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 638/661 frames = 96.520%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9652042360060514,
+      "stationary_seconds": 10.643966666666667,
+      "existence_seconds": 11.027683333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 21600,
+          "last_frame": 21936,
+          "duration_frames": 337,
+          "duration_seconds": 5.622283333333334,
+          "median_u": 1.8644434517602058,
+          "median_v": 1.4791957477137652,
+          "observed_frames": 337,
+          "inlier_frames": 337,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 21960,
+          "last_frame": 22260,
+          "duration_frames": 301,
+          "duration_seconds": 5.021683333333334,
+          "median_u": 1.864574546092982,
+          "median_v": 1.4809194542647328,
+          "observed_frames": 301,
+          "inlier_frames": 294,
+          "excursion_frames": 7,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9767441860465116
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22260
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 7,
+      "first_frame": 21600,
+      "last_frame": 22259,
+      "observed_frames": 660,
+      "observed_seconds": 11.011000000000001,
+      "span_seconds": 10.994316666666666,
+      "median_u": 2.149726485919626,
+      "median_v": 0.9951922625980649,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.16892368937740831,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 660/660 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 11.011000000000001,
+      "existence_seconds": 11.011000000000001,
+      "stationary_runs": [
+        {
+          "first_frame": 21600,
+          "last_frame": 22259,
+          "duration_frames": 660,
+          "duration_seconds": 11.011000000000001,
+          "median_u": 2.149726485919626,
+          "median_v": 0.9951922625980649,
+          "observed_frames": 660,
+          "inlier_frames": 660,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22259
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 8,
+      "first_frame": 21600,
+      "last_frame": 22259,
+      "observed_frames": 660,
+      "observed_seconds": 11.011000000000001,
+      "span_seconds": 10.994316666666666,
+      "median_u": 3.7108109934268825,
+      "median_v": 2.553375457019847,
+      "within_0_7m_fraction": 0.5166666666666667,
+      "radius_p90_m": 1.631642587938741,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 274/660 frames = 41.515%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.41515151515151516,
+      "stationary_seconds": 4.571233333333334,
+      "existence_seconds": 11.011000000000001,
+      "stationary_runs": [
+        {
+          "first_frame": 21879,
+          "last_frame": 21998,
+          "duration_frames": 120,
+          "duration_seconds": 2.0020000000000002,
+          "median_u": 3.68076481216536,
+          "median_v": 2.524694925337278,
+          "observed_frames": 120,
+          "inlier_frames": 97,
+          "excursion_frames": 23,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.8083333333333333
+        },
+        {
+          "first_frame": 22029,
+          "last_frame": 22182,
+          "duration_frames": 154,
+          "duration_seconds": 2.5692333333333335,
+          "median_u": 3.7270958080674546,
+          "median_v": 2.567227602029373,
+          "observed_frames": 154,
+          "inlier_frames": 145,
+          "excursion_frames": 9,
+          "max_excursion_frames": 5,
+          "within_0_7m_fraction": 0.9415584415584416
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22259
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 9,
+      "first_frame": 21600,
+      "last_frame": 22253,
+      "observed_frames": 584,
+      "observed_seconds": 9.743066666666667,
+      "span_seconds": 10.894216666666667,
+      "median_u": 4.506278494334614,
+      "median_v": -10.316101295565787,
+      "within_0_7m_fraction": 0.3030821917808219,
+      "radius_p90_m": 1.5515506492123325,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 260/654 frames = 39.755%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.39755351681957185,
+      "stationary_seconds": 4.337666666666666,
+      "existence_seconds": 10.9109,
+      "stationary_runs": [
+        {
+          "first_frame": 21902,
+          "last_frame": 22024,
+          "duration_frames": 123,
+          "duration_seconds": 2.05205,
+          "median_u": 4.508323168595559,
+          "median_v": -10.326213936586253,
+          "observed_frames": 123,
+          "inlier_frames": 83,
+          "excursion_frames": 40,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.6747967479674797
+        },
+        {
+          "first_frame": 22025,
+          "last_frame": 22161,
+          "duration_frames": 137,
+          "duration_seconds": 2.285616666666667,
+          "median_u": 4.527953154276979,
+          "median_v": -10.373398705953722,
+          "observed_frames": 131,
+          "inlier_frames": 118,
+          "excursion_frames": 19,
+          "max_excursion_frames": 4,
+          "within_0_7m_fraction": 0.8613138686131386
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22253
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 12,
+      "first_frame": 21600,
+      "last_frame": 22253,
+      "observed_frames": 639,
+      "observed_seconds": 10.66065,
+      "span_seconds": 10.894216666666667,
+      "median_u": -1.9127953117819052,
+      "median_v": -3.775658009182176,
+      "within_0_7m_fraction": 0.40688575899843504,
+      "radius_p90_m": 2.2389326838568175,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 268/654 frames = 40.979%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.40978593272171254,
+      "stationary_seconds": 4.471133333333333,
+      "existence_seconds": 10.9109,
+      "stationary_runs": [
+        {
+          "first_frame": 21691,
+          "last_frame": 21831,
+          "duration_frames": 141,
+          "duration_seconds": 2.35235,
+          "median_u": -1.9513004543599906,
+          "median_v": -3.8279722281554025,
+          "observed_frames": 141,
+          "inlier_frames": 132,
+          "excursion_frames": 9,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.9361702127659575
+        },
+        {
+          "first_frame": 21903,
+          "last_frame": 22029,
+          "duration_frames": 127,
+          "duration_seconds": 2.1187833333333335,
+          "median_u": -1.9266474806843559,
+          "median_v": -3.7943788216796692,
+          "observed_frames": 127,
+          "inlier_frames": 102,
+          "excursion_frames": 25,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.8031496062992126
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22253
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 143,
+      "first_frame": 21797,
+      "last_frame": 22259,
+      "observed_frames": 463,
+      "observed_seconds": 7.724383333333334,
+      "span_seconds": 7.7077,
+      "median_u": 1.5012246120367545,
+      "median_v": 0.40468345455068094,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.05228291925429735,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 463/463 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 7.724383333333334,
+      "existence_seconds": 7.724383333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 21797,
+          "last_frame": 22259,
+          "duration_frames": 463,
+          "duration_seconds": 7.724383333333334,
+          "median_u": 1.5012246120367545,
+          "median_v": 0.40468345455068094,
+          "observed_frames": 463,
+          "inlier_frames": 463,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21797,
+          22259
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 1821,
+      "first_frame": 22697,
+      "last_frame": 24011,
+      "observed_frames": 1315,
+      "observed_seconds": 21.938583333333334,
+      "span_seconds": 21.9219,
+      "median_u": -0.1980135068019226,
+      "median_v": 1.3082959433575114,
+      "within_0_7m_fraction": 0.9619771863117871,
+      "radius_p90_m": 0.13744004738632692,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1232/1315 frames = 93.688%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9368821292775665,
+      "stationary_seconds": 20.553866666666668,
+      "existence_seconds": 21.938583333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 22697,
+          "last_frame": 23928,
+          "duration_frames": 1232,
+          "duration_seconds": 20.553866666666668,
+          "median_u": -0.19798480912174293,
+          "median_v": 1.308247867192066,
+          "observed_frames": 1232,
+          "inlier_frames": 1232,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22697,
+          24011
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 1835,
+      "first_frame": 22701,
+      "last_frame": 24009,
+      "observed_frames": 1309,
+      "observed_seconds": 21.838483333333333,
+      "span_seconds": 21.8218,
+      "median_u": 1.2376720106298076,
+      "median_v": 0.21544460438608318,
+      "within_0_7m_fraction": 0.6898395721925134,
+      "radius_p90_m": 6.151329433532952,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1215/1309 frames = 92.819%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9281894576012223,
+      "stationary_seconds": 20.27025,
+      "existence_seconds": 21.838483333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 22701,
+          "last_frame": 23603,
+          "duration_frames": 903,
+          "duration_seconds": 15.06505,
+          "median_u": 1.238218974729091,
+          "median_v": 0.21536216651442502,
+          "observed_frames": 903,
+          "inlier_frames": 903,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 23698,
+          "last_frame": 24009,
+          "duration_frames": 312,
+          "duration_seconds": 5.2052000000000005,
+          "median_u": 1.2109789981708068,
+          "median_v": 0.4737896665681276,
+          "observed_frames": 312,
+          "inlier_frames": 312,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22701,
+          24009
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 1836,
+      "first_frame": 22701,
+      "last_frame": 24012,
+      "observed_frames": 1309,
+      "observed_seconds": 21.838483333333333,
+      "span_seconds": 21.871850000000002,
+      "median_u": 2.10672983212231,
+      "median_v": 1.8810777205590976,
+      "within_0_7m_fraction": 0.9778456837280367,
+      "radius_p90_m": 0.48173880637477606,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1283/1312 frames = 97.790%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9778963414634146,
+      "stationary_seconds": 21.404716666666666,
+      "existence_seconds": 21.888533333333335,
+      "stationary_runs": [
+        {
+          "first_frame": 22715,
+          "last_frame": 23997,
+          "duration_frames": 1283,
+          "duration_seconds": 21.404716666666666,
+          "median_u": 2.106524914666354,
+          "median_v": 1.8805153936326355,
+          "observed_frames": 1283,
+          "inlier_frames": 1278,
+          "excursion_frames": 5,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9961028838659393
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22701,
+          24012
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 1843,
+      "first_frame": 22708,
+      "last_frame": 24012,
+      "observed_frames": 1305,
+      "observed_seconds": 21.77175,
+      "span_seconds": 21.755066666666668,
+      "median_u": 1.5570757521417136,
+      "median_v": 0.9634013957372787,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.1412111363589133,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1305/1305 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 21.77175,
+      "existence_seconds": 21.77175,
+      "stationary_runs": [
+        {
+          "first_frame": 22708,
+          "last_frame": 24012,
+          "duration_frames": 1305,
+          "duration_seconds": 21.77175,
+          "median_u": 1.5570757521417136,
+          "median_v": 0.9634013957372787,
+          "observed_frames": 1305,
+          "inlier_frames": 1305,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22708,
+          24012
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 1845,
+      "first_frame": 22711,
+      "last_frame": 24011,
+      "observed_frames": 1301,
+      "observed_seconds": 21.705016666666666,
+      "span_seconds": 21.688333333333333,
+      "median_u": 1.2245175821172198,
+      "median_v": 1.3050524441297768,
+      "within_0_7m_fraction": 0.9830899308224442,
+      "radius_p90_m": 0.13136149742296285,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1288/1301 frames = 99.001%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9900076863950807,
+      "stationary_seconds": 21.488133333333334,
+      "existence_seconds": 21.705016666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 22711,
+          "last_frame": 23226,
+          "duration_frames": 516,
+          "duration_seconds": 8.608600000000001,
+          "median_u": 1.2249177180479416,
+          "median_v": 1.3050177025989558,
+          "observed_frames": 516,
+          "inlier_frames": 516,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 23240,
+          "last_frame": 24011,
+          "duration_frames": 772,
+          "duration_seconds": 12.879533333333333,
+          "median_u": 1.2242313649639232,
+          "median_v": 1.3050427565957154,
+          "observed_frames": 772,
+          "inlier_frames": 763,
+          "excursion_frames": 9,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.9883419689119171
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22711,
+          24011
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 2123,
+      "first_frame": 23208,
+      "last_frame": 23999,
+      "observed_frames": 707,
+      "observed_seconds": 11.795116666666667,
+      "span_seconds": 13.196516666666668,
+      "median_u": -1.1011408519503347,
+      "median_v": 10.299702794395118,
+      "within_0_7m_fraction": 0.32814710042432815,
+      "radius_p90_m": 2.754869149291195,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 285/792 frames = 35.985%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.35984848484848486,
+      "stationary_seconds": 4.7547500000000005,
+      "existence_seconds": 13.2132,
+      "stationary_runs": [
+        {
+          "first_frame": 23361,
+          "last_frame": 23489,
+          "duration_frames": 129,
+          "duration_seconds": 2.1521500000000002,
+          "median_u": -1.1006003580169348,
+          "median_v": 10.309116195912399,
+          "observed_frames": 129,
+          "inlier_frames": 82,
+          "excursion_frames": 47,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.6356589147286822
+        },
+        {
+          "first_frame": 23500,
+          "last_frame": 23655,
+          "duration_frames": 156,
+          "duration_seconds": 2.6026000000000002,
+          "median_u": -1.0988104603112676,
+          "median_v": 10.272633789107626,
+          "observed_frames": 148,
+          "inlier_frames": 114,
+          "excursion_frames": 42,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.7307692307692307
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          23208,
+          23999
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 4250,
+      "first_frame": 24611,
+      "last_frame": 25123,
+      "observed_frames": 513,
+      "observed_seconds": 8.55855,
+      "span_seconds": 8.541866666666667,
+      "median_u": -0.6768937891926403,
+      "median_v": -1.6195985075830017,
+      "within_0_7m_fraction": 0.9980506822612085,
+      "radius_p90_m": 0.22225199825544784,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 512/513 frames = 99.805%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9980506822612085,
+      "stationary_seconds": 8.541866666666667,
+      "existence_seconds": 8.55855,
+      "stationary_runs": [
+        {
+          "first_frame": 24612,
+          "last_frame": 25123,
+          "duration_frames": 512,
+          "duration_seconds": 8.541866666666667,
+          "median_u": -0.6769147572118466,
+          "median_v": -1.6196121440880094,
+          "observed_frames": 512,
+          "inlier_frames": 512,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24611,
+          25123
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 4254,
+      "first_frame": 24612,
+      "last_frame": 25124,
+      "observed_frames": 513,
+      "observed_seconds": 8.55855,
+      "span_seconds": 8.541866666666667,
+      "median_u": 1.8016747679984386,
+      "median_v": -2.293083707585422,
+      "within_0_7m_fraction": 0.7797270955165692,
+      "radius_p90_m": 3.9174981611871584,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "3 outside-u stationary interval(s) >=2s; 380/513 frames = 74.074%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.7407407407407407,
+      "stationary_seconds": 6.339666666666667,
+      "existence_seconds": 8.55855,
+      "stationary_runs": [
+        {
+          "first_frame": 24617,
+          "last_frame": 24747,
+          "duration_frames": 131,
+          "duration_seconds": 2.1855166666666666,
+          "median_u": 1.8027790716283814,
+          "median_v": -2.294572466818263,
+          "observed_frames": 131,
+          "inlier_frames": 121,
+          "excursion_frames": 10,
+          "max_excursion_frames": 5,
+          "within_0_7m_fraction": 0.9236641221374046
+        },
+        {
+          "first_frame": 24806,
+          "last_frame": 24929,
+          "duration_frames": 124,
+          "duration_seconds": 2.0687333333333333,
+          "median_u": 1.79455179162351,
+          "median_v": -2.2824782928980687,
+          "observed_frames": 124,
+          "inlier_frames": 98,
+          "excursion_frames": 26,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.7903225806451613
+        },
+        {
+          "first_frame": 24941,
+          "last_frame": 25065,
+          "duration_frames": 125,
+          "duration_seconds": 2.0854166666666667,
+          "median_u": 1.8019570356842056,
+          "median_v": -2.2931260354974397,
+          "observed_frames": 125,
+          "inlier_frames": 111,
+          "excursion_frames": 14,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.888
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24612,
+          25124
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 4259,
+      "first_frame": 24613,
+      "last_frame": 25125,
+      "observed_frames": 513,
+      "observed_seconds": 8.55855,
+      "span_seconds": 8.541866666666667,
+      "median_u": -0.38435185132247435,
+      "median_v": -2.0060714393017323,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.08404806954177063,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 513/513 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 8.55855,
+      "existence_seconds": 8.55855,
+      "stationary_runs": [
+        {
+          "first_frame": 24613,
+          "last_frame": 25125,
+          "duration_frames": 513,
+          "duration_seconds": 8.55855,
+          "median_u": -0.38435185132247435,
+          "median_v": -2.0060714393017323,
+          "observed_frames": 513,
+          "inlier_frames": 513,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24613,
+          25125
+        ]
+      ]
+    },
+    {
+      "point": 7,
+      "track_id": 4260,
+      "first_frame": 24613,
+      "last_frame": 25119,
+      "observed_frames": 507,
+      "observed_seconds": 8.458450000000001,
+      "span_seconds": 8.441766666666666,
+      "median_u": -1.5825356787745462,
+      "median_v": -2.5203655151830078,
+      "within_0_7m_fraction": 0.9921104536489151,
+      "radius_p90_m": 0.3655869179030684,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 504/507 frames = 99.408%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9940828402366864,
+      "stationary_seconds": 8.4084,
+      "existence_seconds": 8.458450000000001,
+      "stationary_runs": [
+        {
+          "first_frame": 24616,
+          "last_frame": 24782,
+          "duration_frames": 167,
+          "duration_seconds": 2.7861166666666666,
+          "median_u": -1.5780068979318103,
+          "median_v": -2.5147220319939994,
+          "observed_frames": 167,
+          "inlier_frames": 167,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 24783,
+          "last_frame": 25119,
+          "duration_frames": 337,
+          "duration_seconds": 5.622283333333334,
+          "median_u": -1.5862698584039612,
+          "median_v": -2.524096040932922,
+          "observed_frames": 337,
+          "inlier_frames": 337,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24613,
+          25119
+        ]
+      ]
+    },
+    {
+      "point": 8,
+      "track_id": 2,
+      "first_frame": 25140,
+      "last_frame": 25980,
+      "observed_frames": 824,
+      "observed_seconds": 13.747066666666667,
+      "span_seconds": 14.014000000000001,
+      "median_u": 1.2132258987972533,
+      "median_v": 0.47808341420857425,
+      "within_0_7m_fraction": 0.625,
+      "radius_p90_m": 6.384746917642593,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "3 outside-u stationary interval(s) >=2s; 741/841 frames = 88.109%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.8810939357907254,
+      "stationary_seconds": 12.362350000000001,
+      "existence_seconds": 14.030683333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25346,
+          "duration_frames": 207,
+          "duration_seconds": 3.45345,
+          "median_u": 1.0771784642541191,
+          "median_v": 0.21698639549445994,
+          "observed_frames": 207,
+          "inlier_frames": 207,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 25447,
+          "last_frame": 25762,
+          "duration_frames": 316,
+          "duration_seconds": 5.271933333333333,
+          "median_u": 1.2254174254981478,
+          "median_v": 0.4791122156739026,
+          "observed_frames": 301,
+          "inlier_frames": 301,
+          "excursion_frames": 15,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.9525316455696202
+        },
+        {
+          "first_frame": 25763,
+          "last_frame": 25980,
+          "duration_frames": 218,
+          "duration_seconds": 3.636966666666667,
+          "median_u": 1.2125811325310005,
+          "median_v": 0.4783164698160641,
+          "observed_frames": 216,
+          "inlier_frames": 216,
+          "excursion_frames": 2,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9908256880733946
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25980
+        ]
+      ]
+    },
+    {
+      "point": 8,
+      "track_id": 6,
+      "first_frame": 25140,
+      "last_frame": 25975,
+      "observed_frames": 833,
+      "observed_seconds": 13.897216666666667,
+      "span_seconds": 13.930583333333333,
+      "median_u": 1.224520741471744,
+      "median_v": 1.3044902551340518,
+      "within_0_7m_fraction": 0.9771908763505402,
+      "radius_p90_m": 0.15685543198308147,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 836/836 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 13.947266666666668,
+      "existence_seconds": 13.947266666666668,
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25975,
+          "duration_frames": 836,
+          "duration_seconds": 13.947266666666668,
+          "median_u": 1.224520741471744,
+          "median_v": 1.3044902551340518,
+          "observed_frames": 833,
+          "inlier_frames": 814,
+          "excursion_frames": 22,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.9736842105263158
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25975
+        ]
+      ]
+    },
+    {
+      "point": 8,
+      "track_id": 7,
+      "first_frame": 25140,
+      "last_frame": 25976,
+      "observed_frames": 820,
+      "observed_seconds": 13.680333333333333,
+      "span_seconds": 13.947266666666668,
+      "median_u": -0.19788059187278476,
+      "median_v": 1.3083351436031063,
+      "within_0_7m_fraction": 0.9768292682926829,
+      "radius_p90_m": 0.10175959478046617,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 797/837 frames = 95.221%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9522102747909199,
+      "stationary_seconds": 13.296616666666667,
+      "existence_seconds": 13.96395,
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25936,
+          "duration_frames": 797,
+          "duration_seconds": 13.296616666666667,
+          "median_u": -0.19785863910348997,
+          "median_v": 1.3082991517337583,
+          "observed_frames": 796,
+          "inlier_frames": 783,
+          "excursion_frames": 14,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9824341279799247
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25976
+        ]
+      ]
+    },
+    {
+      "point": 8,
+      "track_id": 8,
+      "first_frame": 25140,
+      "last_frame": 25466,
+      "observed_frames": 326,
+      "observed_seconds": 5.438766666666667,
+      "span_seconds": 5.438766666666667,
+      "median_u": 1.5587268737718363,
+      "median_v": 0.9647044737776076,
+      "within_0_7m_fraction": 0.99079754601227,
+      "radius_p90_m": 0.061412513376812645,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 323/327 frames = 98.777%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9877675840978594,
+      "stationary_seconds": 5.388716666666666,
+      "existence_seconds": 5.45545,
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25462,
+          "duration_frames": 323,
+          "duration_seconds": 5.388716666666666,
+          "median_u": 1.5587103541534493,
+          "median_v": 0.9646712177476886,
+          "observed_frames": 323,
+          "inlier_frames": 323,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25466
+        ]
+      ]
+    },
+    {
+      "point": 8,
+      "track_id": 9,
+      "first_frame": 25140,
+      "last_frame": 25975,
+      "observed_frames": 833,
+      "observed_seconds": 13.897216666666667,
+      "span_seconds": 13.930583333333333,
+      "median_u": 2.1019862759892534,
+      "median_v": 1.8738056263208602,
+      "within_0_7m_fraction": 0.963985594237695,
+      "radius_p90_m": 0.4015416421663455,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 819/836 frames = 97.967%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9796650717703349,
+      "stationary_seconds": 13.66365,
+      "existence_seconds": 13.947266666666668,
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25958,
+          "duration_frames": 819,
+          "duration_seconds": 13.66365,
+          "median_u": 2.101803028683176,
+          "median_v": 1.8736222673580136,
+          "observed_frames": 819,
+          "inlier_frames": 803,
+          "excursion_frames": 16,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9804639804639804
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25975
+        ]
+      ]
+    },
+    {
+      "point": 8,
+      "track_id": 288,
+      "first_frame": 25474,
+      "last_frame": 25976,
+      "observed_frames": 491,
+      "observed_seconds": 8.191516666666667,
+      "span_seconds": 8.375033333333333,
+      "median_u": 1.557451089138678,
+      "median_v": 0.9654685776870108,
+      "within_0_7m_fraction": 0.9877800407331976,
+      "radius_p90_m": 0.24793256409769598,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 402/503 frames = 79.920%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.7992047713717694,
+      "stationary_seconds": 6.7067000000000005,
+      "existence_seconds": 8.391716666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 25575,
+          "last_frame": 25976,
+          "duration_frames": 402,
+          "duration_seconds": 6.7067000000000005,
+          "median_u": 1.5574552761142335,
+          "median_v": 0.965654065649533,
+          "observed_frames": 400,
+          "inlier_frames": 400,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9950248756218906
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25474,
+          25976
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 3,
+      "first_frame": 26685,
+      "last_frame": 26908,
+      "observed_frames": 220,
+      "observed_seconds": 3.6703333333333332,
+      "span_seconds": 3.7203833333333334,
+      "median_u": -2.843906013264573,
+      "median_v": 3.1914322768720753,
+      "within_0_7m_fraction": 0.8636363636363636,
+      "radius_p90_m": 0.7844240847488247,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 224/224 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 3.7370666666666668,
+      "existence_seconds": 3.7370666666666668,
+      "stationary_runs": [
+        {
+          "first_frame": 26685,
+          "last_frame": 26908,
+          "duration_frames": 224,
+          "duration_seconds": 3.7370666666666668,
+          "median_u": -2.843906013264573,
+          "median_v": 3.1914322768720753,
+          "observed_frames": 220,
+          "inlier_frames": 190,
+          "excursion_frames": 34,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.8482142857142857
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26685,
+          26908
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 12,
+      "first_frame": 26685,
+      "last_frame": 27285,
+      "observed_frames": 547,
+      "observed_seconds": 9.125783333333333,
+      "span_seconds": 10.01,
+      "median_u": 1.4137985571608984,
+      "median_v": -1.7987325152413096,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.24479997231388428,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 585/601 frames = 97.338%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9733777038269551,
+      "stationary_seconds": 9.75975,
+      "existence_seconds": 10.026683333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 26685,
+          "last_frame": 26896,
+          "duration_frames": 212,
+          "duration_seconds": 3.5368666666666666,
+          "median_u": 1.4126474923743395,
+          "median_v": -1.7972503681128749,
+          "observed_frames": 212,
+          "inlier_frames": 212,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 26913,
+          "last_frame": 27285,
+          "duration_frames": 373,
+          "duration_seconds": 6.222883333333334,
+          "median_u": 1.4156167235208825,
+          "median_v": -1.8011994591358165,
+          "observed_frames": 335,
+          "inlier_frames": 335,
+          "excursion_frames": 38,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.8981233243967829
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26685,
+          27285
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 14,
+      "first_frame": 26685,
+      "last_frame": 27091,
+      "observed_frames": 328,
+      "observed_seconds": 5.472133333333334,
+      "span_seconds": 6.773433333333333,
+      "median_u": -0.29686213839902953,
+      "median_v": -1.1881548047734345,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.021783627170590278,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 374/407 frames = 91.892%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.918918918918919,
+      "stationary_seconds": 6.239566666666667,
+      "existence_seconds": 6.790116666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 26685,
+          "last_frame": 27058,
+          "duration_frames": 374,
+          "duration_seconds": 6.239566666666667,
+          "median_u": -0.2968596046223771,
+          "median_v": -1.1881528076118195,
+          "observed_frames": 326,
+          "inlier_frames": 326,
+          "excursion_frames": 48,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.8716577540106952
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26685,
+          27091
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 262,
+      "first_frame": 26950,
+      "last_frame": 27166,
+      "observed_frames": 191,
+      "observed_seconds": 3.186516666666667,
+      "span_seconds": 3.6036,
+      "median_u": -2.866487154177203,
+      "median_v": 3.208107369534027,
+      "within_0_7m_fraction": 0.5497382198952879,
+      "radius_p90_m": 1.5196047206520742,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 120/217 frames = 55.300%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.5529953917050692,
+      "stationary_seconds": 2.0020000000000002,
+      "existence_seconds": 3.6202833333333335,
+      "stationary_runs": [
+        {
+          "first_frame": 26957,
+          "last_frame": 27076,
+          "duration_frames": 120,
+          "duration_seconds": 2.0020000000000002,
+          "median_u": -2.875452384520231,
+          "median_v": 3.2142278992955093,
+          "observed_frames": 119,
+          "inlier_frames": 77,
+          "excursion_frames": 43,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.6416666666666667
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26950,
+          27166
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 382,
+      "first_frame": 27102,
+      "last_frame": 27278,
+      "observed_frames": 163,
+      "observed_seconds": 2.7193833333333335,
+      "span_seconds": 2.9362666666666666,
+      "median_u": -0.2987893242702159,
+      "median_v": -1.1887995038347934,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.027627634679425587,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 177/177 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 2.95295,
+      "existence_seconds": 2.95295,
+      "stationary_runs": [
+        {
+          "first_frame": 27102,
+          "last_frame": 27278,
+          "duration_frames": 177,
+          "duration_seconds": 2.95295,
+          "median_u": -0.2987893242702159,
+          "median_v": -1.1887995038347934,
+          "observed_frames": 163,
+          "inlier_frames": 163,
+          "excursion_frames": 14,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.9209039548022598
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27102,
+          27278
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 396,
+      "first_frame": 27122,
+      "last_frame": 27285,
+      "observed_frames": 138,
+      "observed_seconds": 2.3023000000000002,
+      "span_seconds": 2.7193833333333335,
+      "median_u": 1.9158843098988179,
+      "median_v": -1.8599387088211135,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.2544537995993339,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 152/164 frames = 92.683%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.926829268292683,
+      "stationary_seconds": 2.5358666666666667,
+      "existence_seconds": 2.736066666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 27134,
+          "last_frame": 27285,
+          "duration_frames": 152,
+          "duration_seconds": 2.5358666666666667,
+          "median_u": 1.9158119208519082,
+          "median_v": -1.859879150401428,
+          "observed_frames": 130,
+          "inlier_frames": 130,
+          "excursion_frames": 22,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.8552631578947368
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27122,
+          27285
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 509,
+      "first_frame": 27283,
+      "last_frame": 28710,
+      "observed_frames": 1428,
+      "observed_seconds": 23.823800000000002,
+      "span_seconds": 23.807116666666666,
+      "median_u": -0.19984206782384367,
+      "median_v": 1.3107288067831493,
+      "within_0_7m_fraction": 0.9852941176470589,
+      "radius_p90_m": 0.1338297092439571,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1413/1428 frames = 98.950%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9894957983193278,
+      "stationary_seconds": 23.57355,
+      "existence_seconds": 23.823800000000002,
+      "stationary_runs": [
+        {
+          "first_frame": 27286,
+          "last_frame": 27577,
+          "duration_frames": 292,
+          "duration_seconds": 4.871533333333334,
+          "median_u": -0.20045313233872833,
+          "median_v": 1.3119439664563752,
+          "observed_frames": 292,
+          "inlier_frames": 291,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9965753424657534
+        },
+        {
+          "first_frame": 27590,
+          "last_frame": 28710,
+          "duration_frames": 1121,
+          "duration_seconds": 18.702016666666665,
+          "median_u": -0.1995650785166916,
+          "median_v": 1.3102940268745393,
+          "observed_frames": 1121,
+          "inlier_frames": 1115,
+          "excursion_frames": 6,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9946476360392507
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27283,
+          28710
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 514,
+      "first_frame": 27285,
+      "last_frame": 28710,
+      "observed_frames": 1426,
+      "observed_seconds": 23.790433333333333,
+      "span_seconds": 23.77375,
+      "median_u": 1.224271692131028,
+      "median_v": 1.3048052192161144,
+      "within_0_7m_fraction": 0.9831697054698457,
+      "radius_p90_m": 0.06912710765744293,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1402/1426 frames = 98.317%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9831697054698457,
+      "stationary_seconds": 23.390033333333335,
+      "existence_seconds": 23.790433333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 27285,
+          "last_frame": 27816,
+          "duration_frames": 532,
+          "duration_seconds": 8.875533333333333,
+          "median_u": 1.2244592698184629,
+          "median_v": 1.3052758761010612,
+          "observed_frames": 532,
+          "inlier_frames": 532,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 27841,
+          "last_frame": 28710,
+          "duration_frames": 870,
+          "duration_seconds": 14.5145,
+          "median_u": 1.224057883325412,
+          "median_v": 1.3042101317933992,
+          "observed_frames": 870,
+          "inlier_frames": 870,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27285,
+          28710
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 517,
+      "first_frame": 27285,
+      "last_frame": 28710,
+      "observed_frames": 1417,
+      "observed_seconds": 23.640283333333333,
+      "span_seconds": 23.77375,
+      "median_u": 1.555456876715018,
+      "median_v": 0.9640051356314369,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.21655671229425227,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1426/1426 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 23.790433333333333,
+      "existence_seconds": 23.790433333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 27285,
+          "last_frame": 28710,
+          "duration_frames": 1426,
+          "duration_seconds": 23.790433333333333,
+          "median_u": 1.555456876715018,
+          "median_v": 0.9640051356314369,
+          "observed_frames": 1417,
+          "inlier_frames": 1417,
+          "excursion_frames": 9,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9936886395511921
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27285,
+          28710
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 522,
+      "first_frame": 27290,
+      "last_frame": 28711,
+      "observed_frames": 1420,
+      "observed_seconds": 23.690333333333335,
+      "span_seconds": 23.707016666666668,
+      "median_u": 2.1058884587702247,
+      "median_v": 1.8785497112704292,
+      "within_0_7m_fraction": 0.902112676056338,
+      "radius_p90_m": 0.6972633478128127,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "5 outside-u stationary interval(s) >=2s; 1389/1422 frames = 97.679%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9767932489451476,
+      "stationary_seconds": 23.17315,
+      "existence_seconds": 23.7237,
+      "stationary_runs": [
+        {
+          "first_frame": 27290,
+          "last_frame": 27422,
+          "duration_frames": 133,
+          "duration_seconds": 2.2188833333333333,
+          "median_u": 2.124545972628627,
+          "median_v": 1.9096689962549063,
+          "observed_frames": 133,
+          "inlier_frames": 115,
+          "excursion_frames": 18,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.8646616541353384
+        },
+        {
+          "first_frame": 27423,
+          "last_frame": 27808,
+          "duration_frames": 386,
+          "duration_seconds": 6.439766666666666,
+          "median_u": 2.1091190282415058,
+          "median_v": 1.8856062666610298,
+          "observed_frames": 386,
+          "inlier_frames": 386,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 27809,
+          "last_frame": 27971,
+          "duration_frames": 163,
+          "duration_seconds": 2.7193833333333335,
+          "median_u": 2.0964784595137607,
+          "median_v": 1.863100969120466,
+          "observed_frames": 163,
+          "inlier_frames": 163,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 27984,
+          "last_frame": 28352,
+          "duration_frames": 369,
+          "duration_seconds": 6.15615,
+          "median_u": 2.092335649126044,
+          "median_v": 1.8576614221682854,
+          "observed_frames": 369,
+          "inlier_frames": 366,
+          "excursion_frames": 3,
+          "max_excursion_frames": 3,
+          "within_0_7m_fraction": 0.991869918699187
+        },
+        {
+          "first_frame": 28353,
+          "last_frame": 28690,
+          "duration_frames": 338,
+          "duration_seconds": 5.638966666666667,
+          "median_u": 2.110446750410196,
+          "median_v": 1.8843614021549677,
+          "observed_frames": 338,
+          "inlier_frames": 337,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9970414201183432
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27290,
+          28711
+        ]
+      ]
+    },
+    {
+      "point": 9,
+      "track_id": 539,
+      "first_frame": 27301,
+      "last_frame": 28715,
+      "observed_frames": 1413,
+      "observed_seconds": 23.57355,
+      "span_seconds": 23.590233333333334,
+      "median_u": 1.2175577431740223,
+      "median_v": 0.21405821981856818,
+      "within_0_7m_fraction": 0.5562632696390658,
+      "radius_p90_m": 6.191597616603502,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1312/1415 frames = 92.721%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.927208480565371,
+      "stationary_seconds": 21.888533333333335,
+      "existence_seconds": 23.606916666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 27301,
+          "last_frame": 28086,
+          "duration_frames": 786,
+          "duration_seconds": 13.113100000000001,
+          "median_u": 1.218969632014697,
+          "median_v": 0.21385173810248198,
+          "observed_frames": 786,
+          "inlier_frames": 786,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 28190,
+          "last_frame": 28715,
+          "duration_frames": 526,
+          "duration_seconds": 8.775433333333334,
+          "median_u": 1.2116569731950833,
+          "median_v": 0.47417772065445907,
+          "observed_frames": 524,
+          "inlier_frames": 509,
+          "excursion_frames": 17,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.967680608365019
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27301,
+          28715
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 3,
+      "first_frame": 29010,
+      "last_frame": 29260,
+      "observed_frames": 251,
+      "observed_seconds": 4.187516666666666,
+      "span_seconds": 4.170833333333333,
+      "median_u": -0.15927305356162413,
+      "median_v": 2.1212823162847267,
+      "within_0_7m_fraction": 0.9203187250996016,
+      "radius_p90_m": 0.43529257139355076,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 244/251 frames = 97.211%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9721115537848606,
+      "stationary_seconds": 4.070733333333333,
+      "existence_seconds": 4.187516666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 29017,
+          "last_frame": 29260,
+          "duration_frames": 244,
+          "duration_seconds": 4.070733333333333,
+          "median_u": -0.15923211683547073,
+          "median_v": 2.1211404675309966,
+          "observed_frames": 244,
+          "inlier_frames": 224,
+          "excursion_frames": 20,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.9180327868852459
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29260
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 7,
+      "first_frame": 29010,
+      "last_frame": 29256,
+      "observed_frames": 247,
+      "observed_seconds": 4.120783333333334,
+      "span_seconds": 4.1041,
+      "median_u": 1.0991536595313551,
+      "median_v": -2.20226262617543,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.3017159996867362,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 247/247 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 4.120783333333334,
+      "existence_seconds": 4.120783333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29256,
+          "duration_frames": 247,
+          "duration_seconds": 4.120783333333334,
+          "median_u": 1.0991536595313551,
+          "median_v": -2.20226262617543,
+          "observed_frames": 247,
+          "inlier_frames": 247,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29256
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 10,
+      "first_frame": 29010,
+      "last_frame": 29254,
+      "observed_frames": 241,
+      "observed_seconds": 4.020683333333333,
+      "span_seconds": 4.070733333333333,
+      "median_u": -0.6876009116663551,
+      "median_v": -2.1366651449732417,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.39298514104839727,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 245/245 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 4.087416666666667,
+      "existence_seconds": 4.087416666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29254,
+          "duration_frames": 245,
+          "duration_seconds": 4.087416666666667,
+          "median_u": -0.6876009116663551,
+          "median_v": -2.1366651449732417,
+          "observed_frames": 241,
+          "inlier_frames": 241,
+          "excursion_frames": 4,
+          "max_excursion_frames": 4,
+          "within_0_7m_fraction": 0.9836734693877551
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29254
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 11,
+      "first_frame": 29010,
+      "last_frame": 29239,
+      "observed_frames": 225,
+      "observed_seconds": 3.75375,
+      "span_seconds": 3.8204833333333332,
+      "median_u": -1.8865974532438463,
+      "median_v": 2.2440145205181237,
+      "within_0_7m_fraction": 0.6088888888888889,
+      "radius_p90_m": 2.2082895155074427,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 121/230 frames = 52.609%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.5260869565217391,
+      "stationary_seconds": 2.018683333333333,
+      "existence_seconds": 3.8371666666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 29087,
+          "last_frame": 29207,
+          "duration_frames": 121,
+          "duration_seconds": 2.018683333333333,
+          "median_u": -1.8747127521826497,
+          "median_v": 2.2379657035786957,
+          "observed_frames": 116,
+          "inlier_frames": 112,
+          "excursion_frames": 9,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.9256198347107438
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29239
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 12,
+      "first_frame": 29010,
+      "last_frame": 29197,
+      "observed_frames": 165,
+      "observed_seconds": 2.7527500000000003,
+      "span_seconds": 3.1197833333333334,
+      "median_u": -1.5642172387067954,
+      "median_v": 2.1078803961882517,
+      "within_0_7m_fraction": 0.8606060606060606,
+      "radius_p90_m": 0.7549930152859902,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 157/188 frames = 83.511%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.8351063829787234,
+      "stationary_seconds": 2.619283333333333,
+      "existence_seconds": 3.1364666666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29166,
+          "duration_frames": 157,
+          "duration_seconds": 2.619283333333333,
+          "median_u": -1.5623445672299987,
+          "median_v": 2.1050791822590864,
+          "observed_frames": 146,
+          "inlier_frames": 131,
+          "excursion_frames": 26,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.8343949044585988
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29197
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 13,
+      "first_frame": 29010,
+      "last_frame": 29242,
+      "observed_frames": 193,
+      "observed_seconds": 3.219883333333333,
+      "span_seconds": 3.8705333333333334,
+      "median_u": -0.0813434076435528,
+      "median_v": -2.1255203245750702,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.1205312703632845,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 129/233 frames = 55.365%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.5536480686695279,
+      "stationary_seconds": 2.1521500000000002,
+      "existence_seconds": 3.8872166666666668,
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29138,
+          "duration_frames": 129,
+          "duration_seconds": 2.1521500000000002,
+          "median_u": -0.0814701781785275,
+          "median_v": -2.1257105050210106,
+          "observed_frames": 102,
+          "inlier_frames": 102,
+          "excursion_frames": 27,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.7906976744186046
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29242
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 400,
+      "first_frame": 29252,
+      "last_frame": 29565,
+      "observed_frames": 312,
+      "observed_seconds": 5.2052000000000005,
+      "span_seconds": 5.221883333333333,
+      "median_u": 1.4740989718167654,
+      "median_v": -1.3557295465510455,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.09850459421525933,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 314/314 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 5.238566666666666,
+      "existence_seconds": 5.238566666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 29252,
+          "last_frame": 29565,
+          "duration_frames": 314,
+          "duration_seconds": 5.238566666666666,
+          "median_u": 1.4740989718167654,
+          "median_v": -1.3557295465510455,
+          "observed_frames": 312,
+          "inlier_frames": 312,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9936305732484076
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29252,
+          29565
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 408,
+      "first_frame": 29260,
+      "last_frame": 29555,
+      "observed_frames": 296,
+      "observed_seconds": 4.938266666666666,
+      "span_seconds": 4.921583333333333,
+      "median_u": 1.4144812521218948,
+      "median_v": -1.3445744727287914,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.07056790511576264,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 296/296 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 4.938266666666666,
+      "existence_seconds": 4.938266666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 29260,
+          "last_frame": 29555,
+          "duration_frames": 296,
+          "duration_seconds": 4.938266666666666,
+          "median_u": 1.4144812521218948,
+          "median_v": -1.3445744727287914,
+          "observed_frames": 296,
+          "inlier_frames": 296,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29260,
+          29555
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 870,
+      "first_frame": 29609,
+      "last_frame": 30069,
+      "observed_frames": 459,
+      "observed_seconds": 7.65765,
+      "span_seconds": 7.674333333333333,
+      "median_u": 1.0959520302770944,
+      "median_v": 0.547287150511496,
+      "within_0_7m_fraction": 0.485838779956427,
+      "radius_p90_m": 2.6959767527119864,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 163/461 frames = 35.358%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.35357917570498915,
+      "stationary_seconds": 2.7193833333333335,
+      "existence_seconds": 7.691016666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 29861,
+          "last_frame": 30023,
+          "duration_frames": 163,
+          "duration_seconds": 2.7193833333333335,
+          "median_u": 1.0964039080932004,
+          "median_v": 0.5489222901956563,
+          "observed_frames": 163,
+          "inlier_frames": 163,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29609,
+          30069
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 933,
+      "first_frame": 29621,
+      "last_frame": 30056,
+      "observed_frames": 433,
+      "observed_seconds": 7.223883333333333,
+      "span_seconds": 7.25725,
+      "median_u": 1.6263766624740583,
+      "median_v": 0.9428920745722441,
+      "within_0_7m_fraction": 0.44110854503464203,
+      "radius_p90_m": 2.6863317949416974,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 279/436 frames = 63.991%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.6399082568807339,
+      "stationary_seconds": 4.65465,
+      "existence_seconds": 7.273933333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 29716,
+          "last_frame": 29839,
+          "duration_frames": 124,
+          "duration_seconds": 2.0687333333333333,
+          "median_u": 1.502254540607173,
+          "median_v": 0.9334989766405026,
+          "observed_frames": 124,
+          "inlier_frames": 124,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 29862,
+          "last_frame": 30016,
+          "duration_frames": 155,
+          "duration_seconds": 2.585916666666667,
+          "median_u": 1.6285342311073205,
+          "median_v": 0.9433404571595473,
+          "observed_frames": 155,
+          "inlier_frames": 155,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29621,
+          30056
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 964,
+      "first_frame": 29629,
+      "last_frame": 30060,
+      "observed_frames": 429,
+      "observed_seconds": 7.157150000000001,
+      "span_seconds": 7.1905166666666664,
+      "median_u": 1.2060081998472392,
+      "median_v": 0.5617460870110982,
+      "within_0_7m_fraction": 0.5244755244755245,
+      "radius_p90_m": 1.5597819084216256,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 288/432 frames = 66.667%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.6666666666666666,
+      "stationary_seconds": 4.8048,
+      "existence_seconds": 7.2072,
+      "stationary_runs": [
+        {
+          "first_frame": 29698,
+          "last_frame": 29820,
+          "duration_frames": 123,
+          "duration_seconds": 2.05205,
+          "median_u": 1.1254753190015623,
+          "median_v": 0.550831915380299,
+          "observed_frames": 123,
+          "inlier_frames": 123,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 29859,
+          "last_frame": 30023,
+          "duration_frames": 165,
+          "duration_seconds": 2.7527500000000003,
+          "median_u": 1.2067272589941462,
+          "median_v": 0.5631850572171503,
+          "observed_frames": 165,
+          "inlier_frames": 165,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29629,
+          30060
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 972,
+      "first_frame": 29631,
+      "last_frame": 30054,
+      "observed_frames": 392,
+      "observed_seconds": 6.539866666666667,
+      "span_seconds": 7.05705,
+      "median_u": 1.4289367446419088,
+      "median_v": 0.5759066442627547,
+      "within_0_7m_fraction": 0.5025510204081632,
+      "radius_p90_m": 10.72868467387815,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 289/424 frames = 68.160%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.6816037735849056,
+      "stationary_seconds": 4.821483333333333,
+      "existence_seconds": 7.073733333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 29701,
+          "last_frame": 29826,
+          "duration_frames": 126,
+          "duration_seconds": 2.1021,
+          "median_u": 1.3427043260871625,
+          "median_v": 0.5665530659984838,
+          "observed_frames": 117,
+          "inlier_frames": 117,
+          "excursion_frames": 9,
+          "max_excursion_frames": 3,
+          "within_0_7m_fraction": 0.9285714285714286
+        },
+        {
+          "first_frame": 29860,
+          "last_frame": 30022,
+          "duration_frames": 163,
+          "duration_seconds": 2.7193833333333335,
+          "median_u": 1.429983931047789,
+          "median_v": 0.5767117812959369,
+          "observed_frames": 162,
+          "inlier_frames": 162,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9938650306748467
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29631,
+          30054
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 1017,
+      "first_frame": 29643,
+      "last_frame": 30039,
+      "observed_frames": 395,
+      "observed_seconds": 6.589916666666666,
+      "span_seconds": 6.6066,
+      "median_u": 1.5348416991174616,
+      "median_v": 0.5839123965425445,
+      "within_0_7m_fraction": 0.529113924050633,
+      "radius_p90_m": 1.3624461451672913,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 284/397 frames = 71.537%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.7153652392947103,
+      "stationary_seconds": 4.738066666666667,
+      "existence_seconds": 6.623283333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 29699,
+          "last_frame": 29820,
+          "duration_frames": 122,
+          "duration_seconds": 2.0353666666666665,
+          "median_u": 1.4484301877765176,
+          "median_v": 0.5740064291933349,
+          "observed_frames": 122,
+          "inlier_frames": 122,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 29861,
+          "last_frame": 30022,
+          "duration_frames": 162,
+          "duration_seconds": 2.7027,
+          "median_u": 1.5393840164956591,
+          "median_v": 0.5871798611234165,
+          "observed_frames": 162,
+          "inlier_frames": 162,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29643,
+          30039
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 1023,
+      "first_frame": 29644,
+      "last_frame": 30040,
+      "observed_frames": 371,
+      "observed_seconds": 6.189516666666667,
+      "span_seconds": 6.6066,
+      "median_u": 1.3189134336352792,
+      "median_v": 0.565136996442472,
+      "within_0_7m_fraction": 0.5256064690026954,
+      "radius_p90_m": 1.3792770877242992,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 286/397 frames = 72.040%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.7204030226700252,
+      "stationary_seconds": 4.771433333333333,
+      "existence_seconds": 6.623283333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 29698,
+          "last_frame": 29822,
+          "duration_frames": 125,
+          "duration_seconds": 2.0854166666666667,
+          "median_u": 1.2312026145984425,
+          "median_v": 0.5549577776184572,
+          "observed_frames": 123,
+          "inlier_frames": 123,
+          "excursion_frames": 2,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.984
+        },
+        {
+          "first_frame": 29862,
+          "last_frame": 30022,
+          "duration_frames": 161,
+          "duration_seconds": 2.6860166666666667,
+          "median_u": 1.3217712175768948,
+          "median_v": 0.5730937891098707,
+          "observed_frames": 159,
+          "inlier_frames": 159,
+          "excursion_frames": 2,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9875776397515528
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29644,
+          30040
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 1078,
+      "first_frame": 29667,
+      "last_frame": 30014,
+      "observed_frames": 264,
+      "observed_seconds": 4.4044,
+      "span_seconds": 5.789116666666667,
+      "median_u": 1.6436718501326397,
+      "median_v": 0.5875271915428031,
+      "within_0_7m_fraction": 0.7083333333333334,
+      "radius_p90_m": 1.0640598491440363,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 124/348 frames = 35.632%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.3563218390804598,
+      "stationary_seconds": 2.0687333333333333,
+      "existence_seconds": 5.8058000000000005,
+      "stationary_runs": [
+        {
+          "first_frame": 29700,
+          "last_frame": 29823,
+          "duration_frames": 124,
+          "duration_seconds": 2.0687333333333333,
+          "median_u": 1.5802257182000745,
+          "median_v": 0.5848307662743899,
+          "observed_frames": 112,
+          "inlier_frames": 112,
+          "excursion_frames": 12,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.9032258064516129
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29667,
+          30014
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 1079,
+      "first_frame": 29667,
+      "last_frame": 29961,
+      "observed_frames": 249,
+      "observed_seconds": 4.1541500000000005,
+      "span_seconds": 4.9049000000000005,
+      "median_u": -0.23469594457744522,
+      "median_v": 0.43061516490826096,
+      "within_0_7m_fraction": 0.963855421686747,
+      "radius_p90_m": 0.59225930995305,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 267/295 frames = 90.508%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9050847457627119,
+      "stationary_seconds": 4.4544500000000005,
+      "existence_seconds": 4.921583333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 29695,
+          "last_frame": 29961,
+          "duration_frames": 267,
+          "duration_seconds": 4.4544500000000005,
+          "median_u": -0.2390594956544215,
+          "median_v": 0.4304082441842562,
+          "observed_frames": 233,
+          "inlier_frames": 233,
+          "excursion_frames": 34,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.8726591760299626
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29667,
+          29961
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2029,
+      "first_frame": 30058,
+      "last_frame": 30390,
+      "observed_frames": 322,
+      "observed_seconds": 5.372033333333333,
+      "span_seconds": 5.538866666666666,
+      "median_u": 1.121954058081534,
+      "median_v": 0.5749458610929004,
+      "within_0_7m_fraction": 0.4813664596273292,
+      "radius_p90_m": 10.0061987997551,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 148/333 frames = 44.444%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.4444444444444444,
+      "stationary_seconds": 2.469133333333333,
+      "existence_seconds": 5.55555,
+      "stationary_runs": [
+        {
+          "first_frame": 30228,
+          "last_frame": 30375,
+          "duration_frames": 148,
+          "duration_seconds": 2.469133333333333,
+          "median_u": 1.1701250246674122,
+          "median_v": 0.5765930127851941,
+          "observed_frames": 148,
+          "inlier_frames": 148,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30058,
+          30390
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2326,
+      "first_frame": 30105,
+      "last_frame": 30396,
+      "observed_frames": 289,
+      "observed_seconds": 4.821483333333333,
+      "span_seconds": 4.85485,
+      "median_u": 1.4004471709730986,
+      "median_v": 0.6116811422695303,
+      "within_0_7m_fraction": 0.5155709342560554,
+      "radius_p90_m": 4.776874316010763,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 150/292 frames = 51.370%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.5136986301369864,
+      "stationary_seconds": 2.5025,
+      "existence_seconds": 4.871533333333334,
+      "stationary_runs": [
+        {
+          "first_frame": 30227,
+          "last_frame": 30376,
+          "duration_frames": 150,
+          "duration_seconds": 2.5025,
+          "median_u": 1.4117001411378656,
+          "median_v": 0.6119978631139251,
+          "observed_frames": 150,
+          "inlier_frames": 148,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9866666666666667
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30105,
+          30396
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2515,
+      "first_frame": 30197,
+      "last_frame": 30390,
+      "observed_frames": 194,
+      "observed_seconds": 3.2365666666666666,
+      "span_seconds": 3.219883333333333,
+      "median_u": 2.1825713270333837,
+      "median_v": 1.1277161936362927,
+      "within_0_7m_fraction": 0.711340206185567,
+      "radius_p90_m": 2.9945326228687015,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 147/194 frames = 75.773%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.7577319587628866,
+      "stationary_seconds": 2.4524500000000002,
+      "existence_seconds": 3.2365666666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 30229,
+          "last_frame": 30375,
+          "duration_frames": 147,
+          "duration_seconds": 2.4524500000000002,
+          "median_u": 2.1836052525549574,
+          "median_v": 1.1281438292857318,
+          "observed_frames": 147,
+          "inlier_frames": 138,
+          "excursion_frames": 9,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9387755102040817
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30197,
+          30390
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2552,
+      "first_frame": 30205,
+      "last_frame": 30375,
+      "observed_frames": 171,
+      "observed_seconds": 2.85285,
+      "span_seconds": 2.8361666666666667,
+      "median_u": -0.35147358511688154,
+      "median_v": -1.126393121702684,
+      "within_0_7m_fraction": 0.8947368421052632,
+      "radius_p90_m": 0.7056777468186702,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 158/171 frames = 92.398%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9239766081871345,
+      "stationary_seconds": 2.6359666666666666,
+      "existence_seconds": 2.85285,
+      "stationary_runs": [
+        {
+          "first_frame": 30208,
+          "last_frame": 30365,
+          "duration_frames": 158,
+          "duration_seconds": 2.6359666666666666,
+          "median_u": -0.34959066690149254,
+          "median_v": -1.1249572032198527,
+          "observed_frames": 158,
+          "inlier_frames": 153,
+          "excursion_frames": 5,
+          "max_excursion_frames": 5,
+          "within_0_7m_fraction": 0.9683544303797469
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30205,
+          30375
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2676,
+      "first_frame": 30377,
+      "last_frame": 30797,
+      "observed_frames": 421,
+      "observed_seconds": 7.0236833333333335,
+      "span_seconds": 7.007000000000001,
+      "median_u": -0.19549520020628333,
+      "median_v": 1.300320547036983,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.08549993373799142,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 421/421 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 7.0236833333333335,
+      "existence_seconds": 7.0236833333333335,
+      "stationary_runs": [
+        {
+          "first_frame": 30377,
+          "last_frame": 30797,
+          "duration_frames": 421,
+          "duration_seconds": 7.0236833333333335,
+          "median_u": -0.19549520020628333,
+          "median_v": 1.300320547036983,
+          "observed_frames": 421,
+          "inlier_frames": 421,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30377,
+          30797
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2683,
+      "first_frame": 30380,
+      "last_frame": 30787,
+      "observed_frames": 407,
+      "observed_seconds": 6.790116666666667,
+      "span_seconds": 6.790116666666667,
+      "median_u": 1.1119951462710806,
+      "median_v": 0.2400453554215399,
+      "within_0_7m_fraction": 0.13022113022113022,
+      "radius_p90_m": 5.8756784279093335,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 203/408 frames = 49.755%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.49754901960784315,
+      "stationary_seconds": 3.3867166666666666,
+      "existence_seconds": 6.8068,
+      "stationary_runs": [
+        {
+          "first_frame": 30380,
+          "last_frame": 30582,
+          "duration_frames": 203,
+          "duration_seconds": 3.3867166666666666,
+          "median_u": 1.07296276235099,
+          "median_v": 0.21594975431259386,
+          "observed_frames": 203,
+          "inlier_frames": 203,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30380,
+          30787
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2692,
+      "first_frame": 30384,
+      "last_frame": 30786,
+      "observed_frames": 403,
+      "observed_seconds": 6.7233833333333335,
+      "span_seconds": 6.7067000000000005,
+      "median_u": 2.1121568153008723,
+      "median_v": 1.8875319811556672,
+      "within_0_7m_fraction": 0.9280397022332506,
+      "radius_p90_m": 0.5948018949270858,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 395/403 frames = 98.015%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9801488833746899,
+      "stationary_seconds": 6.589916666666666,
+      "existence_seconds": 6.7233833333333335,
+      "stationary_runs": [
+        {
+          "first_frame": 30384,
+          "last_frame": 30778,
+          "duration_frames": 395,
+          "duration_seconds": 6.589916666666666,
+          "median_u": 2.1120446641329385,
+          "median_v": 1.8872969844257017,
+          "observed_frames": 395,
+          "inlier_frames": 374,
+          "excursion_frames": 21,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.9468354430379747
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30384,
+          30786
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2695,
+      "first_frame": 30389,
+      "last_frame": 30786,
+      "observed_frames": 398,
+      "observed_seconds": 6.639966666666667,
+      "span_seconds": 6.623283333333333,
+      "median_u": 1.2236505318344255,
+      "median_v": 1.3023173294493184,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.05189889317256923,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 398/398 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 6.639966666666667,
+      "existence_seconds": 6.639966666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 30389,
+          "last_frame": 30786,
+          "duration_frames": 398,
+          "duration_seconds": 6.639966666666667,
+          "median_u": 1.2236505318344255,
+          "median_v": 1.3023173294493184,
+          "observed_frames": 398,
+          "inlier_frames": 398,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30389,
+          30786
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 2699,
+      "first_frame": 30393,
+      "last_frame": 30777,
+      "observed_frames": 385,
+      "observed_seconds": 6.4230833333333335,
+      "span_seconds": 6.4064000000000005,
+      "median_u": 1.558997640466896,
+      "median_v": 0.9642914356223276,
+      "within_0_7m_fraction": 0.935064935064935,
+      "radius_p90_m": 0.11530623995061143,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 360/385 frames = 93.506%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.935064935064935,
+      "stationary_seconds": 6.006,
+      "existence_seconds": 6.4230833333333335,
+      "stationary_runs": [
+        {
+          "first_frame": 30400,
+          "last_frame": 30759,
+          "duration_frames": 360,
+          "duration_seconds": 6.006,
+          "median_u": 1.558877420204344,
+          "median_v": 0.9641970346261654,
+          "observed_frames": 360,
+          "inlier_frames": 360,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30393,
+          30777
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 3971,
+      "first_frame": 31106,
+      "last_frame": 31316,
+      "observed_frames": 181,
+      "observed_seconds": 3.0196833333333335,
+      "span_seconds": 3.5035000000000003,
+      "median_u": 2.082114754937828,
+      "median_v": 1.1019704077557237,
+      "within_0_7m_fraction": 0.7569060773480663,
+      "radius_p90_m": 1.1178120988638234,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 146/211 frames = 69.194%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.6919431279620853,
+      "stationary_seconds": 2.435766666666667,
+      "existence_seconds": 3.520183333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 31107,
+          "last_frame": 31252,
+          "duration_frames": 146,
+          "duration_seconds": 2.435766666666667,
+          "median_u": 2.091146735307918,
+          "median_v": 1.1035661523192375,
+          "observed_frames": 146,
+          "inlier_frames": 124,
+          "excursion_frames": 22,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.8493150684931506
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31106,
+          31316
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 4000,
+      "first_frame": 31116,
+      "last_frame": 31292,
+      "observed_frames": 177,
+      "observed_seconds": 2.95295,
+      "span_seconds": 2.9362666666666666,
+      "median_u": 1.3641547283438091,
+      "median_v": 0.6094158289831141,
+      "within_0_7m_fraction": 0.8983050847457628,
+      "radius_p90_m": 0.7261280523127023,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 159/177 frames = 89.831%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.8983050847457628,
+      "stationary_seconds": 2.65265,
+      "existence_seconds": 2.95295,
+      "stationary_runs": [
+        {
+          "first_frame": 31116,
+          "last_frame": 31274,
+          "duration_frames": 159,
+          "duration_seconds": 2.65265,
+          "median_u": 1.3669444650103493,
+          "median_v": 0.6099734128297956,
+          "observed_frames": 159,
+          "inlier_frames": 157,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9874213836477987
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31116,
+          31292
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 4009,
+      "first_frame": 31119,
+      "last_frame": 31286,
+      "observed_frames": 168,
+      "observed_seconds": 2.8028,
+      "span_seconds": 2.7861166666666666,
+      "median_u": 1.1205337749742768,
+      "median_v": 0.5718304717216147,
+      "within_0_7m_fraction": 0.9404761904761905,
+      "radius_p90_m": 0.3439190846158694,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 158/168 frames = 94.048%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9404761904761905,
+      "stationary_seconds": 2.6359666666666666,
+      "existence_seconds": 2.8028,
+      "stationary_runs": [
+        {
+          "first_frame": 31119,
+          "last_frame": 31276,
+          "duration_frames": 158,
+          "duration_seconds": 2.6359666666666666,
+          "median_u": 1.1233706611055472,
+          "median_v": 0.5720333106858866,
+          "observed_frames": 158,
+          "inlier_frames": 158,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31119,
+          31286
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 4014,
+      "first_frame": 31120,
+      "last_frame": 31294,
+      "observed_frames": 173,
+      "observed_seconds": 2.886216666666667,
+      "span_seconds": 2.9029000000000003,
+      "median_u": -0.36101495884212725,
+      "median_v": -1.1418729075695455,
+      "within_0_7m_fraction": 0.9132947976878613,
+      "radius_p90_m": 0.6077740501444084,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 158/175 frames = 90.286%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9028571428571428,
+      "stationary_seconds": 2.6359666666666666,
+      "existence_seconds": 2.919583333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 31120,
+          "last_frame": 31277,
+          "duration_frames": 158,
+          "duration_seconds": 2.6359666666666666,
+          "median_u": -0.3621693036090651,
+          "median_v": -1.1415839076927363,
+          "observed_frames": 158,
+          "inlier_frames": 158,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31120,
+          31294
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 5248,
+      "first_frame": 31575,
+      "last_frame": 31972,
+      "observed_frames": 392,
+      "observed_seconds": 6.539866666666667,
+      "span_seconds": 6.623283333333333,
+      "median_u": 0.05016662970727932,
+      "median_v": 0.679033945219474,
+      "within_0_7m_fraction": 0.06377551020408163,
+      "radius_p90_m": 8.278293385245522,
+      "duration_pass": true,
+      "outside_pass": false,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 135/398 frames = 33.920%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.3391959798994975,
+      "stationary_seconds": 2.25225,
+      "existence_seconds": 6.639966666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 31741,
+          "last_frame": 31875,
+          "duration_frames": 135,
+          "duration_seconds": 2.25225,
+          "median_u": -0.053041243724368296,
+          "median_v": 0.6706431740693405,
+          "observed_frames": 135,
+          "inlier_frames": 133,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9851851851851852
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31575,
+          31972
+        ]
+      ]
+    },
+    {
+      "point": 10,
+      "track_id": 5318,
+      "first_frame": 31584,
+      "last_frame": 31907,
+      "observed_frames": 323,
+      "observed_seconds": 5.388716666666666,
+      "span_seconds": 5.388716666666666,
+      "median_u": -0.4596107965603642,
+      "median_v": 0.6020938209419813,
+      "within_0_7m_fraction": 0.38390092879256965,
+      "radius_p90_m": 6.922908053017978,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 164/324 frames = 50.617%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.5061728395061729,
+      "stationary_seconds": 2.736066666666667,
+      "existence_seconds": 5.4054,
+      "stationary_runs": [
+        {
+          "first_frame": 31739,
+          "last_frame": 31902,
+          "duration_frames": 164,
+          "duration_seconds": 2.736066666666667,
+          "median_u": -0.47834927999729865,
+          "median_v": 0.5831560624332744,
+          "observed_frames": 164,
+          "inlier_frames": 164,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31584,
+          31907
+        ]
+      ]
+    },
+    {
+      "point": 11,
+      "track_id": 2,
+      "first_frame": 32550,
+      "last_frame": 33132,
+      "observed_frames": 583,
+      "observed_seconds": 9.726383333333333,
+      "span_seconds": 9.7097,
+      "median_u": 1.2178259387832686,
+      "median_v": 0.2156227950912464,
+      "within_0_7m_fraction": 0.6072041166380789,
+      "radius_p90_m": 6.256148880613601,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 475/583 frames = 81.475%; >=30%: exclude whole track",
+      "full_track_excluded": false,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.8147512864493996,
+      "stationary_seconds": 7.9245833333333335,
+      "existence_seconds": 9.726383333333333,
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 32901,
+          "duration_frames": 352,
+          "duration_seconds": 5.872533333333333,
+          "median_u": 1.2175568866569622,
+          "median_v": 0.21364320578426216,
+          "observed_frames": 352,
+          "inlier_frames": 352,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 33010,
+          "last_frame": 33132,
+          "duration_frames": 123,
+          "duration_seconds": 2.05205,
+          "median_u": 1.2002493580933378,
+          "median_v": 0.4786172104862968,
+          "observed_frames": 123,
+          "inlier_frames": 123,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33132
+        ]
+      ]
+    },
+    {
+      "point": 11,
+      "track_id": 5,
+      "first_frame": 32550,
+      "last_frame": 33127,
+      "observed_frames": 575,
+      "observed_seconds": 9.592916666666667,
+      "span_seconds": 9.626283333333333,
+      "median_u": 1.222346781134901,
+      "median_v": 1.2965287058573112,
+      "within_0_7m_fraction": 0.9930434782608696,
+      "radius_p90_m": 0.052533619526889584,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 578/578 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 9.642966666666666,
+      "existence_seconds": 9.642966666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 33127,
+          "duration_frames": 578,
+          "duration_seconds": 9.642966666666666,
+          "median_u": 1.222346781134901,
+          "median_v": 1.2965287058573112,
+          "observed_frames": 575,
+          "inlier_frames": 571,
+          "excursion_frames": 7,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9878892733564014
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33127
+        ]
+      ]
+    },
+    {
+      "point": 11,
+      "track_id": 6,
+      "first_frame": 32550,
+      "last_frame": 33127,
+      "observed_frames": 578,
+      "observed_seconds": 9.642966666666666,
+      "span_seconds": 9.626283333333333,
+      "median_u": -0.19825136383500952,
+      "median_v": 1.30754336650124,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.0805288229051934,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 578/578 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 9.642966666666666,
+      "existence_seconds": 9.642966666666666,
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 33127,
+          "duration_frames": 578,
+          "duration_seconds": 9.642966666666666,
+          "median_u": -0.19825136383500952,
+          "median_v": 1.30754336650124,
+          "observed_frames": 578,
+          "inlier_frames": 578,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33127
+        ]
+      ]
+    },
+    {
+      "point": 11,
+      "track_id": 8,
+      "first_frame": 32550,
+      "last_frame": 33079,
+      "observed_frames": 529,
+      "observed_seconds": 8.825483333333333,
+      "span_seconds": 8.825483333333333,
+      "median_u": 1.5544459976784941,
+      "median_v": 0.9602340930222105,
+      "within_0_7m_fraction": 1.0,
+      "radius_p90_m": 0.11781684791998703,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "1 outside-u stationary interval(s) >=2s; 530/530 frames = 100.000%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 1.0,
+      "stationary_seconds": 8.842166666666667,
+      "existence_seconds": 8.842166666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 33079,
+          "duration_frames": 530,
+          "duration_seconds": 8.842166666666667,
+          "median_u": 1.5544459976784941,
+          "median_v": 0.9602340930222105,
+          "observed_frames": 529,
+          "inlier_frames": 529,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9981132075471698
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33079
+        ]
+      ]
+    },
+    {
+      "point": 11,
+      "track_id": 9,
+      "first_frame": 32550,
+      "last_frame": 33130,
+      "observed_frames": 581,
+      "observed_seconds": 9.693016666666667,
+      "span_seconds": 9.676333333333334,
+      "median_u": 2.120993935838735,
+      "median_v": 1.9102075417767708,
+      "within_0_7m_fraction": 0.9139414802065404,
+      "radius_p90_m": 0.6603995165020421,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": true,
+      "excluded": true,
+      "reason": "2 outside-u stationary interval(s) >=2s; 552/581 frames = 95.009%; >=30%: exclude whole track",
+      "full_track_excluded": true,
+      "exclusion_basis": "stationary_interval_rule",
+      "exclusion_mode": "whole_track",
+      "stationary_fraction": 0.9500860585197934,
+      "stationary_seconds": 9.209200000000001,
+      "existence_seconds": 9.693016666666667,
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 32960,
+          "duration_frames": 411,
+          "duration_seconds": 6.8568500000000006,
+          "median_u": 2.1224170426565125,
+          "median_v": 1.911966359791165,
+          "observed_frames": 411,
+          "inlier_frames": 394,
+          "excursion_frames": 17,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9586374695863747
+        },
+        {
+          "first_frame": 32961,
+          "last_frame": 33101,
+          "duration_frames": 141,
+          "duration_seconds": 2.35235,
+          "median_u": 2.114951718767939,
+          "median_v": 1.9034334921615588,
+          "observed_frames": 141,
+          "inlier_frames": 130,
+          "excursion_frames": 11,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.9219858156028369
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33130
+        ]
+      ]
+    }
+  ],
+  "rules": {
+    "min_stationary_seconds": 2.0,
+    "median_u_outside": [
+      -0.05,
+      1.05
+    ],
+    "stationary_radius_m": 0.7,
+    "max_excursion_seconds": 0.2,
+    "full_track_stationary_fraction": 0.3,
+    "interval_padding_seconds": 0.5,
+    "court_dimensions_m": [
+      10.97,
+      23.77
+    ],
+    "duration": "inclusive source-frame span / exact FPS; track existence includes gaps",
+    "search": "earliest qualifying 2s seed, extend right while valid; disjoint intervals",
+    "median": "componentwise median of finite observed positions in the interval",
+    "missing": "missing/nonfinite positions count toward consecutive excursion limit",
+    "camera_support": "all ByteTrack observations; no camera-line gate",
+    "padding": "ceil(.5 * FPS) source frames each side, only for interval exclusion"
+  },
+  "stationarity_mode": "stationary-run",
+  "segment_candidates": [
+    {
+      "point": 7,
+      "track_id": 5,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 21600,
+          "last_frame": 22268,
+          "duration_frames": 669,
+          "duration_seconds": 11.161150000000001,
+          "median_u": -0.17811751350855268,
+          "median_v": 1.4876836181406536,
+          "observed_frames": 669,
+          "inlier_frames": 648,
+          "excursion_frames": 21,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.968609865470852
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22269
+        ]
+      ],
+      "existence_frames": 670,
+      "existence_seconds": 11.177833333333334,
+      "stationary_frames": 669,
+      "stationary_seconds": 11.161150000000001,
+      "stationary_fraction": 0.9985074626865672,
+      "reason": "1 outside-u stationary interval(s) >=2s; 669/670 frames = 99.851%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 6,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 21600,
+          "last_frame": 21936,
+          "duration_frames": 337,
+          "duration_seconds": 5.622283333333334,
+          "median_u": 1.8644434517602058,
+          "median_v": 1.4791957477137652,
+          "observed_frames": 337,
+          "inlier_frames": 337,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 21960,
+          "last_frame": 22260,
+          "duration_frames": 301,
+          "duration_seconds": 5.021683333333334,
+          "median_u": 1.864574546092982,
+          "median_v": 1.4809194542647328,
+          "observed_frames": 301,
+          "inlier_frames": 294,
+          "excursion_frames": 7,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9767441860465116
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22260
+        ]
+      ],
+      "existence_frames": 661,
+      "existence_seconds": 11.027683333333334,
+      "stationary_frames": 638,
+      "stationary_seconds": 10.643966666666667,
+      "stationary_fraction": 0.9652042360060514,
+      "reason": "2 outside-u stationary interval(s) >=2s; 638/661 frames = 96.520%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 7,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 21600,
+          "last_frame": 22259,
+          "duration_frames": 660,
+          "duration_seconds": 11.011000000000001,
+          "median_u": 2.149726485919626,
+          "median_v": 0.9951922625980649,
+          "observed_frames": 660,
+          "inlier_frames": 660,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22259
+        ]
+      ],
+      "existence_frames": 660,
+      "existence_seconds": 11.011000000000001,
+      "stationary_frames": 660,
+      "stationary_seconds": 11.011000000000001,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 660/660 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 8,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 21879,
+          "last_frame": 21998,
+          "duration_frames": 120,
+          "duration_seconds": 2.0020000000000002,
+          "median_u": 3.68076481216536,
+          "median_v": 2.524694925337278,
+          "observed_frames": 120,
+          "inlier_frames": 97,
+          "excursion_frames": 23,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.8083333333333333
+        },
+        {
+          "first_frame": 22029,
+          "last_frame": 22182,
+          "duration_frames": 154,
+          "duration_seconds": 2.5692333333333335,
+          "median_u": 3.7270958080674546,
+          "median_v": 2.567227602029373,
+          "observed_frames": 154,
+          "inlier_frames": 145,
+          "excursion_frames": 9,
+          "max_excursion_frames": 5,
+          "within_0_7m_fraction": 0.9415584415584416
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22259
+        ]
+      ],
+      "existence_frames": 660,
+      "existence_seconds": 11.011000000000001,
+      "stationary_frames": 274,
+      "stationary_seconds": 4.571233333333334,
+      "stationary_fraction": 0.41515151515151516,
+      "reason": "2 outside-u stationary interval(s) >=2s; 274/660 frames = 41.515%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 9,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 21902,
+          "last_frame": 22024,
+          "duration_frames": 123,
+          "duration_seconds": 2.05205,
+          "median_u": 4.508323168595559,
+          "median_v": -10.326213936586253,
+          "observed_frames": 123,
+          "inlier_frames": 83,
+          "excursion_frames": 40,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.6747967479674797
+        },
+        {
+          "first_frame": 22025,
+          "last_frame": 22161,
+          "duration_frames": 137,
+          "duration_seconds": 2.285616666666667,
+          "median_u": 4.527953154276979,
+          "median_v": -10.373398705953722,
+          "observed_frames": 131,
+          "inlier_frames": 118,
+          "excursion_frames": 19,
+          "max_excursion_frames": 4,
+          "within_0_7m_fraction": 0.8613138686131386
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22253
+        ]
+      ],
+      "existence_frames": 654,
+      "existence_seconds": 10.9109,
+      "stationary_frames": 260,
+      "stationary_seconds": 4.337666666666666,
+      "stationary_fraction": 0.39755351681957185,
+      "reason": "2 outside-u stationary interval(s) >=2s; 260/654 frames = 39.755%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 12,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 21691,
+          "last_frame": 21831,
+          "duration_frames": 141,
+          "duration_seconds": 2.35235,
+          "median_u": -1.9513004543599906,
+          "median_v": -3.8279722281554025,
+          "observed_frames": 141,
+          "inlier_frames": 132,
+          "excursion_frames": 9,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.9361702127659575
+        },
+        {
+          "first_frame": 21903,
+          "last_frame": 22029,
+          "duration_frames": 127,
+          "duration_seconds": 2.1187833333333335,
+          "median_u": -1.9266474806843559,
+          "median_v": -3.7943788216796692,
+          "observed_frames": 127,
+          "inlier_frames": 102,
+          "excursion_frames": 25,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.8031496062992126
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21600,
+          22253
+        ]
+      ],
+      "existence_frames": 654,
+      "existence_seconds": 10.9109,
+      "stationary_frames": 268,
+      "stationary_seconds": 4.471133333333333,
+      "stationary_fraction": 0.40978593272171254,
+      "reason": "2 outside-u stationary interval(s) >=2s; 268/654 frames = 40.979%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 143,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 21797,
+          "last_frame": 22259,
+          "duration_frames": 463,
+          "duration_seconds": 7.724383333333334,
+          "median_u": 1.5012246120367545,
+          "median_v": 0.40468345455068094,
+          "observed_frames": 463,
+          "inlier_frames": 463,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          21797,
+          22259
+        ]
+      ],
+      "existence_frames": 463,
+      "existence_seconds": 7.724383333333334,
+      "stationary_frames": 463,
+      "stationary_seconds": 7.724383333333334,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 463/463 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 1821,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 22697,
+          "last_frame": 23928,
+          "duration_frames": 1232,
+          "duration_seconds": 20.553866666666668,
+          "median_u": -0.19798480912174293,
+          "median_v": 1.308247867192066,
+          "observed_frames": 1232,
+          "inlier_frames": 1232,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22697,
+          24011
+        ]
+      ],
+      "existence_frames": 1315,
+      "existence_seconds": 21.938583333333334,
+      "stationary_frames": 1232,
+      "stationary_seconds": 20.553866666666668,
+      "stationary_fraction": 0.9368821292775665,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1232/1315 frames = 93.688%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 1835,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 22701,
+          "last_frame": 23603,
+          "duration_frames": 903,
+          "duration_seconds": 15.06505,
+          "median_u": 1.238218974729091,
+          "median_v": 0.21536216651442502,
+          "observed_frames": 903,
+          "inlier_frames": 903,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 23698,
+          "last_frame": 24009,
+          "duration_frames": 312,
+          "duration_seconds": 5.2052000000000005,
+          "median_u": 1.2109789981708068,
+          "median_v": 0.4737896665681276,
+          "observed_frames": 312,
+          "inlier_frames": 312,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22701,
+          24009
+        ]
+      ],
+      "existence_frames": 1309,
+      "existence_seconds": 21.838483333333333,
+      "stationary_frames": 1215,
+      "stationary_seconds": 20.27025,
+      "stationary_fraction": 0.9281894576012223,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1215/1309 frames = 92.819%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 1836,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 22715,
+          "last_frame": 23997,
+          "duration_frames": 1283,
+          "duration_seconds": 21.404716666666666,
+          "median_u": 2.106524914666354,
+          "median_v": 1.8805153936326355,
+          "observed_frames": 1283,
+          "inlier_frames": 1278,
+          "excursion_frames": 5,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9961028838659393
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22701,
+          24012
+        ]
+      ],
+      "existence_frames": 1312,
+      "existence_seconds": 21.888533333333335,
+      "stationary_frames": 1283,
+      "stationary_seconds": 21.404716666666666,
+      "stationary_fraction": 0.9778963414634146,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1283/1312 frames = 97.790%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 1843,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 22708,
+          "last_frame": 24012,
+          "duration_frames": 1305,
+          "duration_seconds": 21.77175,
+          "median_u": 1.5570757521417136,
+          "median_v": 0.9634013957372787,
+          "observed_frames": 1305,
+          "inlier_frames": 1305,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22708,
+          24012
+        ]
+      ],
+      "existence_frames": 1305,
+      "existence_seconds": 21.77175,
+      "stationary_frames": 1305,
+      "stationary_seconds": 21.77175,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1305/1305 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 1845,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 22711,
+          "last_frame": 23226,
+          "duration_frames": 516,
+          "duration_seconds": 8.608600000000001,
+          "median_u": 1.2249177180479416,
+          "median_v": 1.3050177025989558,
+          "observed_frames": 516,
+          "inlier_frames": 516,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 23240,
+          "last_frame": 24011,
+          "duration_frames": 772,
+          "duration_seconds": 12.879533333333333,
+          "median_u": 1.2242313649639232,
+          "median_v": 1.3050427565957154,
+          "observed_frames": 772,
+          "inlier_frames": 763,
+          "excursion_frames": 9,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.9883419689119171
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          22711,
+          24011
+        ]
+      ],
+      "existence_frames": 1301,
+      "existence_seconds": 21.705016666666666,
+      "stationary_frames": 1288,
+      "stationary_seconds": 21.488133333333334,
+      "stationary_fraction": 0.9900076863950807,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1288/1301 frames = 99.001%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 2123,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 23361,
+          "last_frame": 23489,
+          "duration_frames": 129,
+          "duration_seconds": 2.1521500000000002,
+          "median_u": -1.1006003580169348,
+          "median_v": 10.309116195912399,
+          "observed_frames": 129,
+          "inlier_frames": 82,
+          "excursion_frames": 47,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.6356589147286822
+        },
+        {
+          "first_frame": 23500,
+          "last_frame": 23655,
+          "duration_frames": 156,
+          "duration_seconds": 2.6026000000000002,
+          "median_u": -1.0988104603112676,
+          "median_v": 10.272633789107626,
+          "observed_frames": 148,
+          "inlier_frames": 114,
+          "excursion_frames": 42,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.7307692307692307
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          23208,
+          23999
+        ]
+      ],
+      "existence_frames": 792,
+      "existence_seconds": 13.2132,
+      "stationary_frames": 285,
+      "stationary_seconds": 4.7547500000000005,
+      "stationary_fraction": 0.35984848484848486,
+      "reason": "2 outside-u stationary interval(s) >=2s; 285/792 frames = 35.985%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 4250,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 24612,
+          "last_frame": 25123,
+          "duration_frames": 512,
+          "duration_seconds": 8.541866666666667,
+          "median_u": -0.6769147572118466,
+          "median_v": -1.6196121440880094,
+          "observed_frames": 512,
+          "inlier_frames": 512,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24611,
+          25123
+        ]
+      ],
+      "existence_frames": 513,
+      "existence_seconds": 8.55855,
+      "stationary_frames": 512,
+      "stationary_seconds": 8.541866666666667,
+      "stationary_fraction": 0.9980506822612085,
+      "reason": "1 outside-u stationary interval(s) >=2s; 512/513 frames = 99.805%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 4254,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 24617,
+          "last_frame": 24747,
+          "duration_frames": 131,
+          "duration_seconds": 2.1855166666666666,
+          "median_u": 1.8027790716283814,
+          "median_v": -2.294572466818263,
+          "observed_frames": 131,
+          "inlier_frames": 121,
+          "excursion_frames": 10,
+          "max_excursion_frames": 5,
+          "within_0_7m_fraction": 0.9236641221374046
+        },
+        {
+          "first_frame": 24806,
+          "last_frame": 24929,
+          "duration_frames": 124,
+          "duration_seconds": 2.0687333333333333,
+          "median_u": 1.79455179162351,
+          "median_v": -2.2824782928980687,
+          "observed_frames": 124,
+          "inlier_frames": 98,
+          "excursion_frames": 26,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.7903225806451613
+        },
+        {
+          "first_frame": 24941,
+          "last_frame": 25065,
+          "duration_frames": 125,
+          "duration_seconds": 2.0854166666666667,
+          "median_u": 1.8019570356842056,
+          "median_v": -2.2931260354974397,
+          "observed_frames": 125,
+          "inlier_frames": 111,
+          "excursion_frames": 14,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.888
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24612,
+          25124
+        ]
+      ],
+      "existence_frames": 513,
+      "existence_seconds": 8.55855,
+      "stationary_frames": 380,
+      "stationary_seconds": 6.339666666666667,
+      "stationary_fraction": 0.7407407407407407,
+      "reason": "3 outside-u stationary interval(s) >=2s; 380/513 frames = 74.074%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 4259,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 24613,
+          "last_frame": 25125,
+          "duration_frames": 513,
+          "duration_seconds": 8.55855,
+          "median_u": -0.38435185132247435,
+          "median_v": -2.0060714393017323,
+          "observed_frames": 513,
+          "inlier_frames": 513,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24613,
+          25125
+        ]
+      ],
+      "existence_frames": 513,
+      "existence_seconds": 8.55855,
+      "stationary_frames": 513,
+      "stationary_seconds": 8.55855,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 513/513 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 7,
+      "track_id": 4260,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 24616,
+          "last_frame": 24782,
+          "duration_frames": 167,
+          "duration_seconds": 2.7861166666666666,
+          "median_u": -1.5780068979318103,
+          "median_v": -2.5147220319939994,
+          "observed_frames": 167,
+          "inlier_frames": 167,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 24783,
+          "last_frame": 25119,
+          "duration_frames": 337,
+          "duration_seconds": 5.622283333333334,
+          "median_u": -1.5862698584039612,
+          "median_v": -2.524096040932922,
+          "observed_frames": 337,
+          "inlier_frames": 337,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          24613,
+          25119
+        ]
+      ],
+      "existence_frames": 507,
+      "existence_seconds": 8.458450000000001,
+      "stationary_frames": 504,
+      "stationary_seconds": 8.4084,
+      "stationary_fraction": 0.9940828402366864,
+      "reason": "2 outside-u stationary interval(s) >=2s; 504/507 frames = 99.408%; >=30%: exclude whole track"
+    },
+    {
+      "point": 8,
+      "track_id": 2,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25346,
+          "duration_frames": 207,
+          "duration_seconds": 3.45345,
+          "median_u": 1.0771784642541191,
+          "median_v": 0.21698639549445994,
+          "observed_frames": 207,
+          "inlier_frames": 207,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 25447,
+          "last_frame": 25762,
+          "duration_frames": 316,
+          "duration_seconds": 5.271933333333333,
+          "median_u": 1.2254174254981478,
+          "median_v": 0.4791122156739026,
+          "observed_frames": 301,
+          "inlier_frames": 301,
+          "excursion_frames": 15,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.9525316455696202
+        },
+        {
+          "first_frame": 25763,
+          "last_frame": 25980,
+          "duration_frames": 218,
+          "duration_seconds": 3.636966666666667,
+          "median_u": 1.2125811325310005,
+          "median_v": 0.4783164698160641,
+          "observed_frames": 216,
+          "inlier_frames": 216,
+          "excursion_frames": 2,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9908256880733946
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25980
+        ]
+      ],
+      "existence_frames": 841,
+      "existence_seconds": 14.030683333333334,
+      "stationary_frames": 741,
+      "stationary_seconds": 12.362350000000001,
+      "stationary_fraction": 0.8810939357907254,
+      "reason": "3 outside-u stationary interval(s) >=2s; 741/841 frames = 88.109%; >=30%: exclude whole track"
+    },
+    {
+      "point": 8,
+      "track_id": 6,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25975,
+          "duration_frames": 836,
+          "duration_seconds": 13.947266666666668,
+          "median_u": 1.224520741471744,
+          "median_v": 1.3044902551340518,
+          "observed_frames": 833,
+          "inlier_frames": 814,
+          "excursion_frames": 22,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.9736842105263158
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25975
+        ]
+      ],
+      "existence_frames": 836,
+      "existence_seconds": 13.947266666666668,
+      "stationary_frames": 836,
+      "stationary_seconds": 13.947266666666668,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 836/836 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 8,
+      "track_id": 7,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25936,
+          "duration_frames": 797,
+          "duration_seconds": 13.296616666666667,
+          "median_u": -0.19785863910348997,
+          "median_v": 1.3082991517337583,
+          "observed_frames": 796,
+          "inlier_frames": 783,
+          "excursion_frames": 14,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9824341279799247
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25976
+        ]
+      ],
+      "existence_frames": 837,
+      "existence_seconds": 13.96395,
+      "stationary_frames": 797,
+      "stationary_seconds": 13.296616666666667,
+      "stationary_fraction": 0.9522102747909199,
+      "reason": "1 outside-u stationary interval(s) >=2s; 797/837 frames = 95.221%; >=30%: exclude whole track"
+    },
+    {
+      "point": 8,
+      "track_id": 8,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25462,
+          "duration_frames": 323,
+          "duration_seconds": 5.388716666666666,
+          "median_u": 1.5587103541534493,
+          "median_v": 0.9646712177476886,
+          "observed_frames": 323,
+          "inlier_frames": 323,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25466
+        ]
+      ],
+      "existence_frames": 327,
+      "existence_seconds": 5.45545,
+      "stationary_frames": 323,
+      "stationary_seconds": 5.388716666666666,
+      "stationary_fraction": 0.9877675840978594,
+      "reason": "1 outside-u stationary interval(s) >=2s; 323/327 frames = 98.777%; >=30%: exclude whole track"
+    },
+    {
+      "point": 8,
+      "track_id": 9,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 25140,
+          "last_frame": 25958,
+          "duration_frames": 819,
+          "duration_seconds": 13.66365,
+          "median_u": 2.101803028683176,
+          "median_v": 1.8736222673580136,
+          "observed_frames": 819,
+          "inlier_frames": 803,
+          "excursion_frames": 16,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9804639804639804
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25140,
+          25975
+        ]
+      ],
+      "existence_frames": 836,
+      "existence_seconds": 13.947266666666668,
+      "stationary_frames": 819,
+      "stationary_seconds": 13.66365,
+      "stationary_fraction": 0.9796650717703349,
+      "reason": "1 outside-u stationary interval(s) >=2s; 819/836 frames = 97.967%; >=30%: exclude whole track"
+    },
+    {
+      "point": 8,
+      "track_id": 288,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 25575,
+          "last_frame": 25976,
+          "duration_frames": 402,
+          "duration_seconds": 6.7067000000000005,
+          "median_u": 1.5574552761142335,
+          "median_v": 0.965654065649533,
+          "observed_frames": 400,
+          "inlier_frames": 400,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9950248756218906
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          25474,
+          25976
+        ]
+      ],
+      "existence_frames": 503,
+      "existence_seconds": 8.391716666666667,
+      "stationary_frames": 402,
+      "stationary_seconds": 6.7067000000000005,
+      "stationary_fraction": 0.7992047713717694,
+      "reason": "1 outside-u stationary interval(s) >=2s; 402/503 frames = 79.920%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 3,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 26685,
+          "last_frame": 26908,
+          "duration_frames": 224,
+          "duration_seconds": 3.7370666666666668,
+          "median_u": -2.843906013264573,
+          "median_v": 3.1914322768720753,
+          "observed_frames": 220,
+          "inlier_frames": 190,
+          "excursion_frames": 34,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.8482142857142857
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26685,
+          26908
+        ]
+      ],
+      "existence_frames": 224,
+      "existence_seconds": 3.7370666666666668,
+      "stationary_frames": 224,
+      "stationary_seconds": 3.7370666666666668,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 224/224 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 12,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 26685,
+          "last_frame": 26896,
+          "duration_frames": 212,
+          "duration_seconds": 3.5368666666666666,
+          "median_u": 1.4126474923743395,
+          "median_v": -1.7972503681128749,
+          "observed_frames": 212,
+          "inlier_frames": 212,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 26913,
+          "last_frame": 27285,
+          "duration_frames": 373,
+          "duration_seconds": 6.222883333333334,
+          "median_u": 1.4156167235208825,
+          "median_v": -1.8011994591358165,
+          "observed_frames": 335,
+          "inlier_frames": 335,
+          "excursion_frames": 38,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.8981233243967829
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26685,
+          27285
+        ]
+      ],
+      "existence_frames": 601,
+      "existence_seconds": 10.026683333333333,
+      "stationary_frames": 585,
+      "stationary_seconds": 9.75975,
+      "stationary_fraction": 0.9733777038269551,
+      "reason": "2 outside-u stationary interval(s) >=2s; 585/601 frames = 97.338%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 14,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 26685,
+          "last_frame": 27058,
+          "duration_frames": 374,
+          "duration_seconds": 6.239566666666667,
+          "median_u": -0.2968596046223771,
+          "median_v": -1.1881528076118195,
+          "observed_frames": 326,
+          "inlier_frames": 326,
+          "excursion_frames": 48,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.8716577540106952
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26685,
+          27091
+        ]
+      ],
+      "existence_frames": 407,
+      "existence_seconds": 6.790116666666667,
+      "stationary_frames": 374,
+      "stationary_seconds": 6.239566666666667,
+      "stationary_fraction": 0.918918918918919,
+      "reason": "1 outside-u stationary interval(s) >=2s; 374/407 frames = 91.892%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 262,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 26957,
+          "last_frame": 27076,
+          "duration_frames": 120,
+          "duration_seconds": 2.0020000000000002,
+          "median_u": -2.875452384520231,
+          "median_v": 3.2142278992955093,
+          "observed_frames": 119,
+          "inlier_frames": 77,
+          "excursion_frames": 43,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.6416666666666667
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          26950,
+          27166
+        ]
+      ],
+      "existence_frames": 217,
+      "existence_seconds": 3.6202833333333335,
+      "stationary_frames": 120,
+      "stationary_seconds": 2.0020000000000002,
+      "stationary_fraction": 0.5529953917050692,
+      "reason": "1 outside-u stationary interval(s) >=2s; 120/217 frames = 55.300%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 382,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 27102,
+          "last_frame": 27278,
+          "duration_frames": 177,
+          "duration_seconds": 2.95295,
+          "median_u": -0.2987893242702159,
+          "median_v": -1.1887995038347934,
+          "observed_frames": 163,
+          "inlier_frames": 163,
+          "excursion_frames": 14,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.9209039548022598
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27102,
+          27278
+        ]
+      ],
+      "existence_frames": 177,
+      "existence_seconds": 2.95295,
+      "stationary_frames": 177,
+      "stationary_seconds": 2.95295,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 177/177 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 396,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 27134,
+          "last_frame": 27285,
+          "duration_frames": 152,
+          "duration_seconds": 2.5358666666666667,
+          "median_u": 1.9158119208519082,
+          "median_v": -1.859879150401428,
+          "observed_frames": 130,
+          "inlier_frames": 130,
+          "excursion_frames": 22,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.8552631578947368
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27122,
+          27285
+        ]
+      ],
+      "existence_frames": 164,
+      "existence_seconds": 2.736066666666667,
+      "stationary_frames": 152,
+      "stationary_seconds": 2.5358666666666667,
+      "stationary_fraction": 0.926829268292683,
+      "reason": "1 outside-u stationary interval(s) >=2s; 152/164 frames = 92.683%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 509,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 27286,
+          "last_frame": 27577,
+          "duration_frames": 292,
+          "duration_seconds": 4.871533333333334,
+          "median_u": -0.20045313233872833,
+          "median_v": 1.3119439664563752,
+          "observed_frames": 292,
+          "inlier_frames": 291,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9965753424657534
+        },
+        {
+          "first_frame": 27590,
+          "last_frame": 28710,
+          "duration_frames": 1121,
+          "duration_seconds": 18.702016666666665,
+          "median_u": -0.1995650785166916,
+          "median_v": 1.3102940268745393,
+          "observed_frames": 1121,
+          "inlier_frames": 1115,
+          "excursion_frames": 6,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9946476360392507
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27283,
+          28710
+        ]
+      ],
+      "existence_frames": 1428,
+      "existence_seconds": 23.823800000000002,
+      "stationary_frames": 1413,
+      "stationary_seconds": 23.57355,
+      "stationary_fraction": 0.9894957983193278,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1413/1428 frames = 98.950%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 514,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 27285,
+          "last_frame": 27816,
+          "duration_frames": 532,
+          "duration_seconds": 8.875533333333333,
+          "median_u": 1.2244592698184629,
+          "median_v": 1.3052758761010612,
+          "observed_frames": 532,
+          "inlier_frames": 532,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 27841,
+          "last_frame": 28710,
+          "duration_frames": 870,
+          "duration_seconds": 14.5145,
+          "median_u": 1.224057883325412,
+          "median_v": 1.3042101317933992,
+          "observed_frames": 870,
+          "inlier_frames": 870,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27285,
+          28710
+        ]
+      ],
+      "existence_frames": 1426,
+      "existence_seconds": 23.790433333333333,
+      "stationary_frames": 1402,
+      "stationary_seconds": 23.390033333333335,
+      "stationary_fraction": 0.9831697054698457,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1402/1426 frames = 98.317%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 517,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 27285,
+          "last_frame": 28710,
+          "duration_frames": 1426,
+          "duration_seconds": 23.790433333333333,
+          "median_u": 1.555456876715018,
+          "median_v": 0.9640051356314369,
+          "observed_frames": 1417,
+          "inlier_frames": 1417,
+          "excursion_frames": 9,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9936886395511921
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27285,
+          28710
+        ]
+      ],
+      "existence_frames": 1426,
+      "existence_seconds": 23.790433333333333,
+      "stationary_frames": 1426,
+      "stationary_seconds": 23.790433333333333,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 1426/1426 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 522,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 27290,
+          "last_frame": 27422,
+          "duration_frames": 133,
+          "duration_seconds": 2.2188833333333333,
+          "median_u": 2.124545972628627,
+          "median_v": 1.9096689962549063,
+          "observed_frames": 133,
+          "inlier_frames": 115,
+          "excursion_frames": 18,
+          "max_excursion_frames": 10,
+          "within_0_7m_fraction": 0.8646616541353384
+        },
+        {
+          "first_frame": 27423,
+          "last_frame": 27808,
+          "duration_frames": 386,
+          "duration_seconds": 6.439766666666666,
+          "median_u": 2.1091190282415058,
+          "median_v": 1.8856062666610298,
+          "observed_frames": 386,
+          "inlier_frames": 386,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 27809,
+          "last_frame": 27971,
+          "duration_frames": 163,
+          "duration_seconds": 2.7193833333333335,
+          "median_u": 2.0964784595137607,
+          "median_v": 1.863100969120466,
+          "observed_frames": 163,
+          "inlier_frames": 163,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 27984,
+          "last_frame": 28352,
+          "duration_frames": 369,
+          "duration_seconds": 6.15615,
+          "median_u": 2.092335649126044,
+          "median_v": 1.8576614221682854,
+          "observed_frames": 369,
+          "inlier_frames": 366,
+          "excursion_frames": 3,
+          "max_excursion_frames": 3,
+          "within_0_7m_fraction": 0.991869918699187
+        },
+        {
+          "first_frame": 28353,
+          "last_frame": 28690,
+          "duration_frames": 338,
+          "duration_seconds": 5.638966666666667,
+          "median_u": 2.110446750410196,
+          "median_v": 1.8843614021549677,
+          "observed_frames": 338,
+          "inlier_frames": 337,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9970414201183432
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27290,
+          28711
+        ]
+      ],
+      "existence_frames": 1422,
+      "existence_seconds": 23.7237,
+      "stationary_frames": 1389,
+      "stationary_seconds": 23.17315,
+      "stationary_fraction": 0.9767932489451476,
+      "reason": "5 outside-u stationary interval(s) >=2s; 1389/1422 frames = 97.679%; >=30%: exclude whole track"
+    },
+    {
+      "point": 9,
+      "track_id": 539,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 27301,
+          "last_frame": 28086,
+          "duration_frames": 786,
+          "duration_seconds": 13.113100000000001,
+          "median_u": 1.218969632014697,
+          "median_v": 0.21385173810248198,
+          "observed_frames": 786,
+          "inlier_frames": 786,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 28190,
+          "last_frame": 28715,
+          "duration_frames": 526,
+          "duration_seconds": 8.775433333333334,
+          "median_u": 1.2116569731950833,
+          "median_v": 0.47417772065445907,
+          "observed_frames": 524,
+          "inlier_frames": 509,
+          "excursion_frames": 17,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.967680608365019
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          27301,
+          28715
+        ]
+      ],
+      "existence_frames": 1415,
+      "existence_seconds": 23.606916666666667,
+      "stationary_frames": 1312,
+      "stationary_seconds": 21.888533333333335,
+      "stationary_fraction": 0.927208480565371,
+      "reason": "2 outside-u stationary interval(s) >=2s; 1312/1415 frames = 92.721%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 3,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29017,
+          "last_frame": 29260,
+          "duration_frames": 244,
+          "duration_seconds": 4.070733333333333,
+          "median_u": -0.15923211683547073,
+          "median_v": 2.1211404675309966,
+          "observed_frames": 244,
+          "inlier_frames": 224,
+          "excursion_frames": 20,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.9180327868852459
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29260
+        ]
+      ],
+      "existence_frames": 251,
+      "existence_seconds": 4.187516666666666,
+      "stationary_frames": 244,
+      "stationary_seconds": 4.070733333333333,
+      "stationary_fraction": 0.9721115537848606,
+      "reason": "1 outside-u stationary interval(s) >=2s; 244/251 frames = 97.211%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 7,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29256,
+          "duration_frames": 247,
+          "duration_seconds": 4.120783333333334,
+          "median_u": 1.0991536595313551,
+          "median_v": -2.20226262617543,
+          "observed_frames": 247,
+          "inlier_frames": 247,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29256
+        ]
+      ],
+      "existence_frames": 247,
+      "existence_seconds": 4.120783333333334,
+      "stationary_frames": 247,
+      "stationary_seconds": 4.120783333333334,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 247/247 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 10,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29254,
+          "duration_frames": 245,
+          "duration_seconds": 4.087416666666667,
+          "median_u": -0.6876009116663551,
+          "median_v": -2.1366651449732417,
+          "observed_frames": 241,
+          "inlier_frames": 241,
+          "excursion_frames": 4,
+          "max_excursion_frames": 4,
+          "within_0_7m_fraction": 0.9836734693877551
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29254
+        ]
+      ],
+      "existence_frames": 245,
+      "existence_seconds": 4.087416666666667,
+      "stationary_frames": 245,
+      "stationary_seconds": 4.087416666666667,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 245/245 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 11,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29087,
+          "last_frame": 29207,
+          "duration_frames": 121,
+          "duration_seconds": 2.018683333333333,
+          "median_u": -1.8747127521826497,
+          "median_v": 2.2379657035786957,
+          "observed_frames": 116,
+          "inlier_frames": 112,
+          "excursion_frames": 9,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.9256198347107438
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29239
+        ]
+      ],
+      "existence_frames": 230,
+      "existence_seconds": 3.8371666666666666,
+      "stationary_frames": 121,
+      "stationary_seconds": 2.018683333333333,
+      "stationary_fraction": 0.5260869565217391,
+      "reason": "1 outside-u stationary interval(s) >=2s; 121/230 frames = 52.609%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 12,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29166,
+          "duration_frames": 157,
+          "duration_seconds": 2.619283333333333,
+          "median_u": -1.5623445672299987,
+          "median_v": 2.1050791822590864,
+          "observed_frames": 146,
+          "inlier_frames": 131,
+          "excursion_frames": 26,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.8343949044585988
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29197
+        ]
+      ],
+      "existence_frames": 188,
+      "existence_seconds": 3.1364666666666667,
+      "stationary_frames": 157,
+      "stationary_seconds": 2.619283333333333,
+      "stationary_fraction": 0.8351063829787234,
+      "reason": "1 outside-u stationary interval(s) >=2s; 157/188 frames = 83.511%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 13,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29010,
+          "last_frame": 29138,
+          "duration_frames": 129,
+          "duration_seconds": 2.1521500000000002,
+          "median_u": -0.0814701781785275,
+          "median_v": -2.1257105050210106,
+          "observed_frames": 102,
+          "inlier_frames": 102,
+          "excursion_frames": 27,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.7906976744186046
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29010,
+          29242
+        ]
+      ],
+      "existence_frames": 233,
+      "existence_seconds": 3.8872166666666668,
+      "stationary_frames": 129,
+      "stationary_seconds": 2.1521500000000002,
+      "stationary_fraction": 0.5536480686695279,
+      "reason": "1 outside-u stationary interval(s) >=2s; 129/233 frames = 55.365%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 400,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29252,
+          "last_frame": 29565,
+          "duration_frames": 314,
+          "duration_seconds": 5.238566666666666,
+          "median_u": 1.4740989718167654,
+          "median_v": -1.3557295465510455,
+          "observed_frames": 312,
+          "inlier_frames": 312,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9936305732484076
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29252,
+          29565
+        ]
+      ],
+      "existence_frames": 314,
+      "existence_seconds": 5.238566666666666,
+      "stationary_frames": 314,
+      "stationary_seconds": 5.238566666666666,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 314/314 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 408,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29260,
+          "last_frame": 29555,
+          "duration_frames": 296,
+          "duration_seconds": 4.938266666666666,
+          "median_u": 1.4144812521218948,
+          "median_v": -1.3445744727287914,
+          "observed_frames": 296,
+          "inlier_frames": 296,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29260,
+          29555
+        ]
+      ],
+      "existence_frames": 296,
+      "existence_seconds": 4.938266666666666,
+      "stationary_frames": 296,
+      "stationary_seconds": 4.938266666666666,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 296/296 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 870,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29861,
+          "last_frame": 30023,
+          "duration_frames": 163,
+          "duration_seconds": 2.7193833333333335,
+          "median_u": 1.0964039080932004,
+          "median_v": 0.5489222901956563,
+          "observed_frames": 163,
+          "inlier_frames": 163,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29609,
+          30069
+        ]
+      ],
+      "existence_frames": 461,
+      "existence_seconds": 7.691016666666667,
+      "stationary_frames": 163,
+      "stationary_seconds": 2.7193833333333335,
+      "stationary_fraction": 0.35357917570498915,
+      "reason": "1 outside-u stationary interval(s) >=2s; 163/461 frames = 35.358%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 933,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29716,
+          "last_frame": 29839,
+          "duration_frames": 124,
+          "duration_seconds": 2.0687333333333333,
+          "median_u": 1.502254540607173,
+          "median_v": 0.9334989766405026,
+          "observed_frames": 124,
+          "inlier_frames": 124,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 29862,
+          "last_frame": 30016,
+          "duration_frames": 155,
+          "duration_seconds": 2.585916666666667,
+          "median_u": 1.6285342311073205,
+          "median_v": 0.9433404571595473,
+          "observed_frames": 155,
+          "inlier_frames": 155,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29621,
+          30056
+        ]
+      ],
+      "existence_frames": 436,
+      "existence_seconds": 7.273933333333334,
+      "stationary_frames": 279,
+      "stationary_seconds": 4.65465,
+      "stationary_fraction": 0.6399082568807339,
+      "reason": "2 outside-u stationary interval(s) >=2s; 279/436 frames = 63.991%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 964,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29698,
+          "last_frame": 29820,
+          "duration_frames": 123,
+          "duration_seconds": 2.05205,
+          "median_u": 1.1254753190015623,
+          "median_v": 0.550831915380299,
+          "observed_frames": 123,
+          "inlier_frames": 123,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 29859,
+          "last_frame": 30023,
+          "duration_frames": 165,
+          "duration_seconds": 2.7527500000000003,
+          "median_u": 1.2067272589941462,
+          "median_v": 0.5631850572171503,
+          "observed_frames": 165,
+          "inlier_frames": 165,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29629,
+          30060
+        ]
+      ],
+      "existence_frames": 432,
+      "existence_seconds": 7.2072,
+      "stationary_frames": 288,
+      "stationary_seconds": 4.8048,
+      "stationary_fraction": 0.6666666666666666,
+      "reason": "2 outside-u stationary interval(s) >=2s; 288/432 frames = 66.667%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 972,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29701,
+          "last_frame": 29826,
+          "duration_frames": 126,
+          "duration_seconds": 2.1021,
+          "median_u": 1.3427043260871625,
+          "median_v": 0.5665530659984838,
+          "observed_frames": 117,
+          "inlier_frames": 117,
+          "excursion_frames": 9,
+          "max_excursion_frames": 3,
+          "within_0_7m_fraction": 0.9285714285714286
+        },
+        {
+          "first_frame": 29860,
+          "last_frame": 30022,
+          "duration_frames": 163,
+          "duration_seconds": 2.7193833333333335,
+          "median_u": 1.429983931047789,
+          "median_v": 0.5767117812959369,
+          "observed_frames": 162,
+          "inlier_frames": 162,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9938650306748467
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29631,
+          30054
+        ]
+      ],
+      "existence_frames": 424,
+      "existence_seconds": 7.073733333333333,
+      "stationary_frames": 289,
+      "stationary_seconds": 4.821483333333333,
+      "stationary_fraction": 0.6816037735849056,
+      "reason": "2 outside-u stationary interval(s) >=2s; 289/424 frames = 68.160%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 1017,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29699,
+          "last_frame": 29820,
+          "duration_frames": 122,
+          "duration_seconds": 2.0353666666666665,
+          "median_u": 1.4484301877765176,
+          "median_v": 0.5740064291933349,
+          "observed_frames": 122,
+          "inlier_frames": 122,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 29861,
+          "last_frame": 30022,
+          "duration_frames": 162,
+          "duration_seconds": 2.7027,
+          "median_u": 1.5393840164956591,
+          "median_v": 0.5871798611234165,
+          "observed_frames": 162,
+          "inlier_frames": 162,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29643,
+          30039
+        ]
+      ],
+      "existence_frames": 397,
+      "existence_seconds": 6.623283333333333,
+      "stationary_frames": 284,
+      "stationary_seconds": 4.738066666666667,
+      "stationary_fraction": 0.7153652392947103,
+      "reason": "2 outside-u stationary interval(s) >=2s; 284/397 frames = 71.537%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 1023,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29698,
+          "last_frame": 29822,
+          "duration_frames": 125,
+          "duration_seconds": 2.0854166666666667,
+          "median_u": 1.2312026145984425,
+          "median_v": 0.5549577776184572,
+          "observed_frames": 123,
+          "inlier_frames": 123,
+          "excursion_frames": 2,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.984
+        },
+        {
+          "first_frame": 29862,
+          "last_frame": 30022,
+          "duration_frames": 161,
+          "duration_seconds": 2.6860166666666667,
+          "median_u": 1.3217712175768948,
+          "median_v": 0.5730937891098707,
+          "observed_frames": 159,
+          "inlier_frames": 159,
+          "excursion_frames": 2,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9875776397515528
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29644,
+          30040
+        ]
+      ],
+      "existence_frames": 397,
+      "existence_seconds": 6.623283333333333,
+      "stationary_frames": 286,
+      "stationary_seconds": 4.771433333333333,
+      "stationary_fraction": 0.7204030226700252,
+      "reason": "2 outside-u stationary interval(s) >=2s; 286/397 frames = 72.040%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 1078,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29700,
+          "last_frame": 29823,
+          "duration_frames": 124,
+          "duration_seconds": 2.0687333333333333,
+          "median_u": 1.5802257182000745,
+          "median_v": 0.5848307662743899,
+          "observed_frames": 112,
+          "inlier_frames": 112,
+          "excursion_frames": 12,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.9032258064516129
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29667,
+          30014
+        ]
+      ],
+      "existence_frames": 348,
+      "existence_seconds": 5.8058000000000005,
+      "stationary_frames": 124,
+      "stationary_seconds": 2.0687333333333333,
+      "stationary_fraction": 0.3563218390804598,
+      "reason": "1 outside-u stationary interval(s) >=2s; 124/348 frames = 35.632%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 1079,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 29695,
+          "last_frame": 29961,
+          "duration_frames": 267,
+          "duration_seconds": 4.4544500000000005,
+          "median_u": -0.2390594956544215,
+          "median_v": 0.4304082441842562,
+          "observed_frames": 233,
+          "inlier_frames": 233,
+          "excursion_frames": 34,
+          "max_excursion_frames": 8,
+          "within_0_7m_fraction": 0.8726591760299626
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          29667,
+          29961
+        ]
+      ],
+      "existence_frames": 295,
+      "existence_seconds": 4.921583333333333,
+      "stationary_frames": 267,
+      "stationary_seconds": 4.4544500000000005,
+      "stationary_fraction": 0.9050847457627119,
+      "reason": "1 outside-u stationary interval(s) >=2s; 267/295 frames = 90.508%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2029,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30228,
+          "last_frame": 30375,
+          "duration_frames": 148,
+          "duration_seconds": 2.469133333333333,
+          "median_u": 1.1701250246674122,
+          "median_v": 0.5765930127851941,
+          "observed_frames": 148,
+          "inlier_frames": 148,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30058,
+          30390
+        ]
+      ],
+      "existence_frames": 333,
+      "existence_seconds": 5.55555,
+      "stationary_frames": 148,
+      "stationary_seconds": 2.469133333333333,
+      "stationary_fraction": 0.4444444444444444,
+      "reason": "1 outside-u stationary interval(s) >=2s; 148/333 frames = 44.444%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2326,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30227,
+          "last_frame": 30376,
+          "duration_frames": 150,
+          "duration_seconds": 2.5025,
+          "median_u": 1.4117001411378656,
+          "median_v": 0.6119978631139251,
+          "observed_frames": 150,
+          "inlier_frames": 148,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9866666666666667
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30105,
+          30396
+        ]
+      ],
+      "existence_frames": 292,
+      "existence_seconds": 4.871533333333334,
+      "stationary_frames": 150,
+      "stationary_seconds": 2.5025,
+      "stationary_fraction": 0.5136986301369864,
+      "reason": "1 outside-u stationary interval(s) >=2s; 150/292 frames = 51.370%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2515,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30229,
+          "last_frame": 30375,
+          "duration_frames": 147,
+          "duration_seconds": 2.4524500000000002,
+          "median_u": 2.1836052525549574,
+          "median_v": 1.1281438292857318,
+          "observed_frames": 147,
+          "inlier_frames": 138,
+          "excursion_frames": 9,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.9387755102040817
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30197,
+          30390
+        ]
+      ],
+      "existence_frames": 194,
+      "existence_seconds": 3.2365666666666666,
+      "stationary_frames": 147,
+      "stationary_seconds": 2.4524500000000002,
+      "stationary_fraction": 0.7577319587628866,
+      "reason": "1 outside-u stationary interval(s) >=2s; 147/194 frames = 75.773%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2552,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30208,
+          "last_frame": 30365,
+          "duration_frames": 158,
+          "duration_seconds": 2.6359666666666666,
+          "median_u": -0.34959066690149254,
+          "median_v": -1.1249572032198527,
+          "observed_frames": 158,
+          "inlier_frames": 153,
+          "excursion_frames": 5,
+          "max_excursion_frames": 5,
+          "within_0_7m_fraction": 0.9683544303797469
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30205,
+          30375
+        ]
+      ],
+      "existence_frames": 171,
+      "existence_seconds": 2.85285,
+      "stationary_frames": 158,
+      "stationary_seconds": 2.6359666666666666,
+      "stationary_fraction": 0.9239766081871345,
+      "reason": "1 outside-u stationary interval(s) >=2s; 158/171 frames = 92.398%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2676,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30377,
+          "last_frame": 30797,
+          "duration_frames": 421,
+          "duration_seconds": 7.0236833333333335,
+          "median_u": -0.19549520020628333,
+          "median_v": 1.300320547036983,
+          "observed_frames": 421,
+          "inlier_frames": 421,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30377,
+          30797
+        ]
+      ],
+      "existence_frames": 421,
+      "existence_seconds": 7.0236833333333335,
+      "stationary_frames": 421,
+      "stationary_seconds": 7.0236833333333335,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 421/421 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2683,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30380,
+          "last_frame": 30582,
+          "duration_frames": 203,
+          "duration_seconds": 3.3867166666666666,
+          "median_u": 1.07296276235099,
+          "median_v": 0.21594975431259386,
+          "observed_frames": 203,
+          "inlier_frames": 203,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30380,
+          30787
+        ]
+      ],
+      "existence_frames": 408,
+      "existence_seconds": 6.8068,
+      "stationary_frames": 203,
+      "stationary_seconds": 3.3867166666666666,
+      "stationary_fraction": 0.49754901960784315,
+      "reason": "1 outside-u stationary interval(s) >=2s; 203/408 frames = 49.755%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2692,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30384,
+          "last_frame": 30778,
+          "duration_frames": 395,
+          "duration_seconds": 6.589916666666666,
+          "median_u": 2.1120446641329385,
+          "median_v": 1.8872969844257017,
+          "observed_frames": 395,
+          "inlier_frames": 374,
+          "excursion_frames": 21,
+          "max_excursion_frames": 9,
+          "within_0_7m_fraction": 0.9468354430379747
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30384,
+          30786
+        ]
+      ],
+      "existence_frames": 403,
+      "existence_seconds": 6.7233833333333335,
+      "stationary_frames": 395,
+      "stationary_seconds": 6.589916666666666,
+      "stationary_fraction": 0.9801488833746899,
+      "reason": "1 outside-u stationary interval(s) >=2s; 395/403 frames = 98.015%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2695,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30389,
+          "last_frame": 30786,
+          "duration_frames": 398,
+          "duration_seconds": 6.639966666666667,
+          "median_u": 1.2236505318344255,
+          "median_v": 1.3023173294493184,
+          "observed_frames": 398,
+          "inlier_frames": 398,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30389,
+          30786
+        ]
+      ],
+      "existence_frames": 398,
+      "existence_seconds": 6.639966666666667,
+      "stationary_frames": 398,
+      "stationary_seconds": 6.639966666666667,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 398/398 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 2699,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 30400,
+          "last_frame": 30759,
+          "duration_frames": 360,
+          "duration_seconds": 6.006,
+          "median_u": 1.558877420204344,
+          "median_v": 0.9641970346261654,
+          "observed_frames": 360,
+          "inlier_frames": 360,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          30393,
+          30777
+        ]
+      ],
+      "existence_frames": 385,
+      "existence_seconds": 6.4230833333333335,
+      "stationary_frames": 360,
+      "stationary_seconds": 6.006,
+      "stationary_fraction": 0.935064935064935,
+      "reason": "1 outside-u stationary interval(s) >=2s; 360/385 frames = 93.506%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 3971,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 31107,
+          "last_frame": 31252,
+          "duration_frames": 146,
+          "duration_seconds": 2.435766666666667,
+          "median_u": 2.091146735307918,
+          "median_v": 1.1035661523192375,
+          "observed_frames": 146,
+          "inlier_frames": 124,
+          "excursion_frames": 22,
+          "max_excursion_frames": 6,
+          "within_0_7m_fraction": 0.8493150684931506
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31106,
+          31316
+        ]
+      ],
+      "existence_frames": 211,
+      "existence_seconds": 3.520183333333333,
+      "stationary_frames": 146,
+      "stationary_seconds": 2.435766666666667,
+      "stationary_fraction": 0.6919431279620853,
+      "reason": "1 outside-u stationary interval(s) >=2s; 146/211 frames = 69.194%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 4000,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 31116,
+          "last_frame": 31274,
+          "duration_frames": 159,
+          "duration_seconds": 2.65265,
+          "median_u": 1.3669444650103493,
+          "median_v": 0.6099734128297956,
+          "observed_frames": 159,
+          "inlier_frames": 157,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9874213836477987
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31116,
+          31292
+        ]
+      ],
+      "existence_frames": 177,
+      "existence_seconds": 2.95295,
+      "stationary_frames": 159,
+      "stationary_seconds": 2.65265,
+      "stationary_fraction": 0.8983050847457628,
+      "reason": "1 outside-u stationary interval(s) >=2s; 159/177 frames = 89.831%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 4009,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 31119,
+          "last_frame": 31276,
+          "duration_frames": 158,
+          "duration_seconds": 2.6359666666666666,
+          "median_u": 1.1233706611055472,
+          "median_v": 0.5720333106858866,
+          "observed_frames": 158,
+          "inlier_frames": 158,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31119,
+          31286
+        ]
+      ],
+      "existence_frames": 168,
+      "existence_seconds": 2.8028,
+      "stationary_frames": 158,
+      "stationary_seconds": 2.6359666666666666,
+      "stationary_fraction": 0.9404761904761905,
+      "reason": "1 outside-u stationary interval(s) >=2s; 158/168 frames = 94.048%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 4014,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 31120,
+          "last_frame": 31277,
+          "duration_frames": 158,
+          "duration_seconds": 2.6359666666666666,
+          "median_u": -0.3621693036090651,
+          "median_v": -1.1415839076927363,
+          "observed_frames": 158,
+          "inlier_frames": 158,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31120,
+          31294
+        ]
+      ],
+      "existence_frames": 175,
+      "existence_seconds": 2.919583333333333,
+      "stationary_frames": 158,
+      "stationary_seconds": 2.6359666666666666,
+      "stationary_fraction": 0.9028571428571428,
+      "reason": "1 outside-u stationary interval(s) >=2s; 158/175 frames = 90.286%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 5248,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 31741,
+          "last_frame": 31875,
+          "duration_frames": 135,
+          "duration_seconds": 2.25225,
+          "median_u": -0.053041243724368296,
+          "median_v": 0.6706431740693405,
+          "observed_frames": 135,
+          "inlier_frames": 133,
+          "excursion_frames": 2,
+          "max_excursion_frames": 2,
+          "within_0_7m_fraction": 0.9851851851851852
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31575,
+          31972
+        ]
+      ],
+      "existence_frames": 398,
+      "existence_seconds": 6.639966666666667,
+      "stationary_frames": 135,
+      "stationary_seconds": 2.25225,
+      "stationary_fraction": 0.3391959798994975,
+      "reason": "1 outside-u stationary interval(s) >=2s; 135/398 frames = 33.920%; >=30%: exclude whole track"
+    },
+    {
+      "point": 10,
+      "track_id": 5318,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 31739,
+          "last_frame": 31902,
+          "duration_frames": 164,
+          "duration_seconds": 2.736066666666667,
+          "median_u": -0.47834927999729865,
+          "median_v": 0.5831560624332744,
+          "observed_frames": 164,
+          "inlier_frames": 164,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          31584,
+          31907
+        ]
+      ],
+      "existence_frames": 324,
+      "existence_seconds": 5.4054,
+      "stationary_frames": 164,
+      "stationary_seconds": 2.736066666666667,
+      "stationary_fraction": 0.5061728395061729,
+      "reason": "1 outside-u stationary interval(s) >=2s; 164/324 frames = 50.617%; >=30%: exclude whole track"
+    },
+    {
+      "point": 11,
+      "track_id": 2,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 32901,
+          "duration_frames": 352,
+          "duration_seconds": 5.872533333333333,
+          "median_u": 1.2175568866569622,
+          "median_v": 0.21364320578426216,
+          "observed_frames": 352,
+          "inlier_frames": 352,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        },
+        {
+          "first_frame": 33010,
+          "last_frame": 33132,
+          "duration_frames": 123,
+          "duration_seconds": 2.05205,
+          "median_u": 1.2002493580933378,
+          "median_v": 0.4786172104862968,
+          "observed_frames": 123,
+          "inlier_frames": 123,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33132
+        ]
+      ],
+      "existence_frames": 583,
+      "existence_seconds": 9.726383333333333,
+      "stationary_frames": 475,
+      "stationary_seconds": 7.9245833333333335,
+      "stationary_fraction": 0.8147512864493996,
+      "reason": "2 outside-u stationary interval(s) >=2s; 475/583 frames = 81.475%; >=30%: exclude whole track"
+    },
+    {
+      "point": 11,
+      "track_id": 5,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 33127,
+          "duration_frames": 578,
+          "duration_seconds": 9.642966666666666,
+          "median_u": 1.222346781134901,
+          "median_v": 1.2965287058573112,
+          "observed_frames": 575,
+          "inlier_frames": 571,
+          "excursion_frames": 7,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9878892733564014
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33127
+        ]
+      ],
+      "existence_frames": 578,
+      "existence_seconds": 9.642966666666666,
+      "stationary_frames": 578,
+      "stationary_seconds": 9.642966666666666,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 578/578 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 11,
+      "track_id": 6,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 33127,
+          "duration_frames": 578,
+          "duration_seconds": 9.642966666666666,
+          "median_u": -0.19825136383500952,
+          "median_v": 1.30754336650124,
+          "observed_frames": 578,
+          "inlier_frames": 578,
+          "excursion_frames": 0,
+          "max_excursion_frames": 0,
+          "within_0_7m_fraction": 1.0
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33127
+        ]
+      ],
+      "existence_frames": 578,
+      "existence_seconds": 9.642966666666666,
+      "stationary_frames": 578,
+      "stationary_seconds": 9.642966666666666,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 578/578 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 11,
+      "track_id": 8,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 33079,
+          "duration_frames": 530,
+          "duration_seconds": 8.842166666666667,
+          "median_u": 1.5544459976784941,
+          "median_v": 0.9602340930222105,
+          "observed_frames": 529,
+          "inlier_frames": 529,
+          "excursion_frames": 1,
+          "max_excursion_frames": 1,
+          "within_0_7m_fraction": 0.9981132075471698
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33079
+        ]
+      ],
+      "existence_frames": 530,
+      "existence_seconds": 8.842166666666667,
+      "stationary_frames": 530,
+      "stationary_seconds": 8.842166666666667,
+      "stationary_fraction": 1.0,
+      "reason": "1 outside-u stationary interval(s) >=2s; 530/530 frames = 100.000%; >=30%: exclude whole track"
+    },
+    {
+      "point": 11,
+      "track_id": 9,
+      "exclusion_mode": "whole_track",
+      "stationary_runs": [
+        {
+          "first_frame": 32550,
+          "last_frame": 32960,
+          "duration_frames": 411,
+          "duration_seconds": 6.8568500000000006,
+          "median_u": 2.1224170426565125,
+          "median_v": 1.911966359791165,
+          "observed_frames": 411,
+          "inlier_frames": 394,
+          "excursion_frames": 17,
+          "max_excursion_frames": 7,
+          "within_0_7m_fraction": 0.9586374695863747
+        },
+        {
+          "first_frame": 32961,
+          "last_frame": 33101,
+          "duration_frames": 141,
+          "duration_seconds": 2.35235,
+          "median_u": 2.114951718767939,
+          "median_v": 1.9034334921615588,
+          "observed_frames": 141,
+          "inlier_frames": 130,
+          "excursion_frames": 11,
+          "max_excursion_frames": 11,
+          "within_0_7m_fraction": 0.9219858156028369
+        }
+      ],
+      "exclusion_ranges": [
+        [
+          32550,
+          33130
+        ]
+      ],
+      "existence_frames": 581,
+      "existence_seconds": 9.693016666666667,
+      "stationary_frames": 552,
+      "stationary_seconds": 9.209200000000001,
+      "stationary_fraction": 0.9500860585197934,
+      "reason": "2 outside-u stationary interval(s) >=2s; 552/581 frames = 95.009%; >=30%: exclude whole track"
+    }
+  ]
+}

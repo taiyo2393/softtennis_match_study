@@ -1,0 +1,10 @@
+*/candidate_cache.pkl
+*/ultralytics_config/
+*/player_court_proxies.csv
+*/baseline_replay.csv
+*/official_candidates.json
+track_statistics.csv
+*/strict_reference_player_court_proxies.csv
+*/strict_reference_official_candidates.json
+strict_reference_track_statistics.csv
+protected_all_before_stationary_run.json

@@ -1,0 +1,63 @@
+{
+  "first_frame": 25353,
+  "last_frame": 25965,
+  "expected_frames": 613,
+  "check_frame": 25652,
+  "coordinate_limits_for_inside": [
+    0,
+    1
+  ],
+  "versions": {
+    "original": {
+      "present_frames": 597,
+      "missing_frames": 16,
+      "inside_court_u_frames": 0,
+      "outside_court_u_frames": 597,
+      "min_u": 1.1209731046772955,
+      "max_u": 1.2579131715165286,
+      "track_ids": [
+        2
+      ],
+      "inside_court_uv_frames": 0,
+      "min_v": 0.2477817939331168,
+      "max_v": 0.5033153776578516,
+      "missing_intervals": [
+        [
+          25475,
+          25480
+        ],
+        [
+          25552,
+          25561
+        ]
+      ]
+    },
+    "v2": {
+      "present_frames": 472,
+      "missing_frames": 141,
+      "inside_court_u_frames": 472,
+      "outside_court_u_frames": 0,
+      "min_u": 0.0885577490748918,
+      "max_u": 0.6860342471095838,
+      "track_ids": [
+        3,
+        342
+      ],
+      "inside_court_uv_frames": 0,
+      "min_v": -0.10635911832923078,
+      "max_v": -0.005148995890445989,
+      "missing_intervals": [
+        [
+          25821,
+          25821
+        ],
+        [
+          25826,
+          25965
+        ]
+      ]
+    }
+  },
+  "check_image": "retrack_p08_F25652.jpg",
+  "interval_check_image": "retrack_p08_interval_contact_sheet.jpg"
+}

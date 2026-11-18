@@ -1,0 +1,229 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_fps": "60000/1001",
+  "scope": [
+    21600,
+    21600,
+    25139
+  ],
+  "detector": {
+    "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt",
+    "confidence": 0.25,
+    "imgsz": 1280,
+    "device": 0,
+    "tracker": "bytetrack.yaml"
+  },
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.146"
+  },
+  "official_exclusion_rules": {
+    "min_stationary_seconds": 2.0,
+    "median_u_outside": [
+      -0.05,
+      1.05
+    ],
+    "stationary_radius_m": 0.7,
+    "max_excursion_seconds": 0.2,
+    "full_track_stationary_fraction": 0.3,
+    "interval_padding_seconds": 0.5,
+    "court_dimensions_m": [
+      10.97,
+      23.77
+    ],
+    "duration": "inclusive source-frame span / exact FPS; track existence includes gaps",
+    "search": "earliest qualifying 2s seed, extend right while valid; disjoint intervals",
+    "median": "componentwise median of finite observed positions in the interval",
+    "missing": "missing/nonfinite positions count toward consecutive excursion limit",
+    "camera_support": "all ByteTrack observations; no camera-line gate",
+    "padding": "ceil(.5 * FPS) source frames each side, only for interval exclusion"
+  },
+  "excluded_track_ids": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    143,
+    1821,
+    1835,
+    1836,
+    1843,
+    1845,
+    2123,
+    4250,
+    4254,
+    4259,
+    4260
+  ],
+  "exclusion_ranges": {
+    "5": [
+      [
+        21600,
+        22269
+      ]
+    ],
+    "6": [
+      [
+        21600,
+        22260
+      ]
+    ],
+    "7": [
+      [
+        21600,
+        22259
+      ]
+    ],
+    "8": [
+      [
+        21600,
+        22259
+      ]
+    ],
+    "9": [
+      [
+        21600,
+        22253
+      ]
+    ],
+    "12": [
+      [
+        21600,
+        22253
+      ]
+    ],
+    "143": [
+      [
+        21797,
+        22259
+      ]
+    ],
+    "1821": [
+      [
+        22697,
+        24011
+      ]
+    ],
+    "1835": [
+      [
+        22701,
+        24009
+      ]
+    ],
+    "1836": [
+      [
+        22701,
+        24012
+      ]
+    ],
+    "1843": [
+      [
+        22708,
+        24012
+      ]
+    ],
+    "1845": [
+      [
+        22711,
+        24011
+      ]
+    ],
+    "2123": [
+      [
+        23208,
+        23999
+      ]
+    ],
+    "4250": [
+      [
+        24611,
+        25123
+      ]
+    ],
+    "4254": [
+      [
+        24612,
+        25124
+      ]
+    ],
+    "4259": [
+      [
+        24613,
+        25125
+      ]
+    ],
+    "4260": [
+      [
+        24613,
+        25119
+      ]
+    ]
+  },
+  "stationarity_mode": "stationary-run",
+  "cache_signature": {
+    "point": 7,
+    "scope": [
+      21600,
+      21600,
+      25139
+    ],
+    "detector": {
+      "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt",
+      "confidence": 0.25,
+      "imgsz": 1280,
+      "device": 0,
+      "tracker": "bytetrack.yaml"
+    },
+    "video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+    "protocol_sha256": "dc5fb93f07992b1efb62b4a764d6556e3db3d30fcf5e225c2714dcdb9c444f25",
+    "implementation_sha256": "d5b99b3fa667eea87bcd130dbc1e46f35424a2caa3846af1379e6e3f7bbf30f4"
+  },
+  "baseline_replay_comparison": [
+    {
+      "point": 7,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "near_front",
+      "common_frames": 1201,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    },
+    {
+      "point": 7,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "near_rear",
+      "common_frames": 1098,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    },
+    {
+      "point": 7,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "far_rear",
+      "common_frames": 1113,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    },
+    {
+      "point": 7,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "far_front",
+      "common_frames": 1196,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    }
+  ]
+}

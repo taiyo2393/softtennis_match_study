@@ -1,0 +1,8 @@
+# Regenerable dense tables and pose supplements. Existing ignore files unchanged.
+cleaned_player_positions_p*.csv
+pose_supplement/*.csv
+pose_supplement/ultralytics_config/
+pose_retrack_supplement/*.csv
+pose_retrack_supplement/ultralytics_config/
+decode_logs/
+__pycache__/

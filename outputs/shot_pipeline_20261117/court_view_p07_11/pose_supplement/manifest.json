@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "target_frames": [
+    27464,
+    28292,
+    28375,
+    28526,
+    28597
+  ],
+  "intervals": [
+    {
+      "center_frame": 27464,
+      "start_frame": 27449,
+      "end_frame_inclusive": 27474,
+      "source_frames": 26
+    },
+    {
+      "center_frame": 28292,
+      "start_frame": 28277,
+      "end_frame_inclusive": 28302,
+      "source_frames": 26
+    },
+    {
+      "center_frame": 28375,
+      "start_frame": 28360,
+      "end_frame_inclusive": 28385,
+      "source_frames": 26
+    },
+    {
+      "center_frame": 28526,
+      "start_frame": 28511,
+      "end_frame_inclusive": 28536,
+      "source_frames": 26
+    },
+    {
+      "center_frame": 28597,
+      "start_frame": 28582,
+      "end_frame_inclusive": 28607,
+      "source_frames": 26
+    }
+  ],
+  "kp_conf": 0.3,
+  "smooth_window": 3,
+  "device": "0",
+  "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m-pose.pt",
+  "model_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+  "pose_rows": 520,
+  "valid_wrist_speed": 466,
+  "fallback_torso_scope": "each 26-frame supplement interval/player, using the existing function"
+}

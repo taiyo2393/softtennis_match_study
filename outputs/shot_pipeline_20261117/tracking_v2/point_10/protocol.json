@@ -1,0 +1,327 @@
+{
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_fps": "60000/1001",
+  "scope": [
+    29010,
+    29010,
+    32549
+  ],
+  "detector": {
+    "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt",
+    "confidence": 0.25,
+    "imgsz": 1280,
+    "device": 0,
+    "tracker": "bytetrack.yaml"
+  },
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.146"
+  },
+  "official_exclusion_rules": {
+    "min_stationary_seconds": 2.0,
+    "median_u_outside": [
+      -0.05,
+      1.05
+    ],
+    "stationary_radius_m": 0.7,
+    "max_excursion_seconds": 0.2,
+    "full_track_stationary_fraction": 0.3,
+    "interval_padding_seconds": 0.5,
+    "court_dimensions_m": [
+      10.97,
+      23.77
+    ],
+    "duration": "inclusive source-frame span / exact FPS; track existence includes gaps",
+    "search": "earliest qualifying 2s seed, extend right while valid; disjoint intervals",
+    "median": "componentwise median of finite observed positions in the interval",
+    "missing": "missing/nonfinite positions count toward consecutive excursion limit",
+    "camera_support": "all ByteTrack observations; no camera-line gate",
+    "padding": "ceil(.5 * FPS) source frames each side, only for interval exclusion"
+  },
+  "excluded_track_ids": [
+    3,
+    7,
+    10,
+    11,
+    12,
+    13,
+    400,
+    408,
+    870,
+    933,
+    964,
+    972,
+    1017,
+    1023,
+    1078,
+    1079,
+    2029,
+    2326,
+    2515,
+    2552,
+    2676,
+    2683,
+    2692,
+    2695,
+    2699,
+    3971,
+    4000,
+    4009,
+    4014,
+    5248,
+    5318
+  ],
+  "exclusion_ranges": {
+    "3": [
+      [
+        29010,
+        29260
+      ]
+    ],
+    "7": [
+      [
+        29010,
+        29256
+      ]
+    ],
+    "10": [
+      [
+        29010,
+        29254
+      ]
+    ],
+    "11": [
+      [
+        29010,
+        29239
+      ]
+    ],
+    "12": [
+      [
+        29010,
+        29197
+      ]
+    ],
+    "13": [
+      [
+        29010,
+        29242
+      ]
+    ],
+    "400": [
+      [
+        29252,
+        29565
+      ]
+    ],
+    "408": [
+      [
+        29260,
+        29555
+      ]
+    ],
+    "870": [
+      [
+        29609,
+        30069
+      ]
+    ],
+    "933": [
+      [
+        29621,
+        30056
+      ]
+    ],
+    "964": [
+      [
+        29629,
+        30060
+      ]
+    ],
+    "972": [
+      [
+        29631,
+        30054
+      ]
+    ],
+    "1017": [
+      [
+        29643,
+        30039
+      ]
+    ],
+    "1023": [
+      [
+        29644,
+        30040
+      ]
+    ],
+    "1078": [
+      [
+        29667,
+        30014
+      ]
+    ],
+    "1079": [
+      [
+        29667,
+        29961
+      ]
+    ],
+    "2029": [
+      [
+        30058,
+        30390
+      ]
+    ],
+    "2326": [
+      [
+        30105,
+        30396
+      ]
+    ],
+    "2515": [
+      [
+        30197,
+        30390
+      ]
+    ],
+    "2552": [
+      [
+        30205,
+        30375
+      ]
+    ],
+    "2676": [
+      [
+        30377,
+        30797
+      ]
+    ],
+    "2683": [
+      [
+        30380,
+        30787
+      ]
+    ],
+    "2692": [
+      [
+        30384,
+        30786
+      ]
+    ],
+    "2695": [
+      [
+        30389,
+        30786
+      ]
+    ],
+    "2699": [
+      [
+        30393,
+        30777
+      ]
+    ],
+    "3971": [
+      [
+        31106,
+        31316
+      ]
+    ],
+    "4000": [
+      [
+        31116,
+        31292
+      ]
+    ],
+    "4009": [
+      [
+        31119,
+        31286
+      ]
+    ],
+    "4014": [
+      [
+        31120,
+        31294
+      ]
+    ],
+    "5248": [
+      [
+        31575,
+        31972
+      ]
+    ],
+    "5318": [
+      [
+        31584,
+        31907
+      ]
+    ]
+  },
+  "stationarity_mode": "stationary-run",
+  "cache_signature": {
+    "point": 10,
+    "scope": [
+      29010,
+      29010,
+      32549
+    ],
+    "detector": {
+      "model": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\models\\yolo11m.pt",
+      "confidence": 0.25,
+      "imgsz": 1280,
+      "device": 0,
+      "tracker": "bytetrack.yaml"
+    },
+    "video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+    "protocol_sha256": "dc5fb93f07992b1efb62b4a764d6556e3db3d30fcf5e225c2714dcdb9c444f25",
+    "implementation_sha256": "d5b99b3fa667eea87bcd130dbc1e46f35424a2caa3846af1379e6e3f7bbf30f4"
+  },
+  "baseline_replay_comparison": [
+    {
+      "point": 10,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "near_front",
+      "common_frames": 384,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    },
+    {
+      "point": 10,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "near_rear",
+      "common_frames": 384,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    },
+    {
+      "point": 10,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "far_rear",
+      "common_frames": 400,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    },
+    {
+      "point": 10,
+      "comparison": "original_vs_unfiltered_replay",
+      "player_slot": "far_front",
+      "common_frames": 397,
+      "position_difference_ge_0_5m": 0,
+      "max_difference_m": 0.0,
+      "box_changed_frames": 0,
+      "removed_frames": 0,
+      "added_frames": 0
+    }
+  ]
+}

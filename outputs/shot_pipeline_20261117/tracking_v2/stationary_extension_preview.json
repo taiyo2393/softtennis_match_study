@@ -1,0 +1,138 @@
+[
+  {
+    "point": 7,
+    "track_id": 1835,
+    "full_track_stat": {
+      "point": 7,
+      "track_id": 1835,
+      "first_frame": 22701,
+      "last_frame": 24009,
+      "observed_frames": 1309,
+      "observed_seconds": 21.838483333333333,
+      "span_seconds": 21.8218,
+      "median_u": 1.2376720106298076,
+      "median_v": 0.21544460438608318,
+      "within_0_7m_fraction": 0.6898395721925134,
+      "radius_p90_m": 6.151329433532952,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": false,
+      "reason": "observed=21.838s >=2: True; median_u=1.237672 outside [-.05,1.05]: True; within .7m=68.984% >=90%: False"
+    },
+    "stationary_runs": [
+      {
+        "first_frame": 22710,
+        "last_frame": 23603,
+        "observed_frames": 894,
+        "observed_seconds": 14.9149,
+        "median_u": 1.2382379715929717,
+        "median_v": 0.21536339795072543,
+        "within_0_7m_fraction": 1.0
+      }
+    ],
+    "reason": "Full-track duration and outside-u gates pass; camera-supported consecutive stationary run >=2s passes .7m/90% rule"
+  },
+  {
+    "point": 8,
+    "track_id": 2,
+    "full_track_stat": {
+      "point": 8,
+      "track_id": 2,
+      "first_frame": 25140,
+      "last_frame": 25980,
+      "observed_frames": 824,
+      "observed_seconds": 13.747066666666667,
+      "span_seconds": 14.014000000000001,
+      "median_u": 1.2132258987972533,
+      "median_v": 0.47808341420857425,
+      "within_0_7m_fraction": 0.625,
+      "radius_p90_m": 6.384746917642593,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": false,
+      "reason": "observed=13.747s >=2: True; median_u=1.213226 outside [-.05,1.05]: True; within .7m=62.500% >=90%: False"
+    },
+    "stationary_runs": [
+      {
+        "first_frame": 25563,
+        "last_frame": 25965,
+        "observed_frames": 403,
+        "observed_seconds": 6.7233833333333335,
+        "median_u": 1.2144712373701239,
+        "median_v": 0.4785013959004588,
+        "within_0_7m_fraction": 1.0
+      }
+    ],
+    "reason": "Full-track duration and outside-u gates pass; camera-supported consecutive stationary run >=2s passes .7m/90% rule"
+  },
+  {
+    "point": 9,
+    "track_id": 539,
+    "full_track_stat": {
+      "point": 9,
+      "track_id": 539,
+      "first_frame": 27301,
+      "last_frame": 28715,
+      "observed_frames": 1413,
+      "observed_seconds": 23.57355,
+      "span_seconds": 23.590233333333334,
+      "median_u": 1.2175577431740223,
+      "median_v": 0.21405821981856818,
+      "within_0_7m_fraction": 0.5562632696390658,
+      "radius_p90_m": 6.191597616603502,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": false,
+      "reason": "observed=23.574s >=2: True; median_u=1.217558 outside [-.05,1.05]: True; within .7m=55.626% >=90%: False"
+    },
+    "stationary_runs": [
+      {
+        "first_frame": 27301,
+        "last_frame": 28086,
+        "observed_frames": 786,
+        "observed_seconds": 13.113100000000001,
+        "median_u": 1.218969632014697,
+        "median_v": 0.21385173810248198,
+        "within_0_7m_fraction": 1.0
+      }
+    ],
+    "reason": "Full-track duration and outside-u gates pass; camera-supported consecutive stationary run >=2s passes .7m/90% rule"
+  },
+  {
+    "point": 11,
+    "track_id": 2,
+    "full_track_stat": {
+      "point": 11,
+      "track_id": 2,
+      "first_frame": 32550,
+      "last_frame": 33132,
+      "observed_frames": 583,
+      "observed_seconds": 9.726383333333333,
+      "span_seconds": 9.7097,
+      "median_u": 1.2178259387832686,
+      "median_v": 0.2156227950912464,
+      "within_0_7m_fraction": 0.6072041166380789,
+      "radius_p90_m": 6.256148880613601,
+      "duration_pass": true,
+      "outside_pass": true,
+      "stationary_pass": false,
+      "excluded": false,
+      "reason": "observed=9.726s >=2: True; median_u=1.217826 outside [-.05,1.05]: True; within .7m=60.720% >=90%: False"
+    },
+    "stationary_runs": [
+      {
+        "first_frame": 32550,
+        "last_frame": 32903,
+        "observed_frames": 354,
+        "observed_seconds": 5.9059,
+        "median_u": 1.217566169557213,
+        "median_v": 0.21364591223092955,
+        "within_0_7m_fraction": 0.9943502824858758
+      }
+    ],
+    "reason": "Full-track duration and outside-u gates pass; camera-supported consecutive stationary run >=2s passes .7m/90% rule"
+  }
+]

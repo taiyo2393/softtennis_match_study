@@ -1,0 +1,30 @@
+{
+  "excluded_tracks": 70,
+  "review_images": 70,
+  "all_included": true,
+  "central_frame_exact_count": 70,
+  "originally_assigned": [
+    {
+      "point": 8,
+      "track_id": 2,
+      "exclusion_mode": "whole_track",
+      "stationary_seconds": 12.362350000000001,
+      "existence_seconds": 14.030683333333334,
+      "stationary_fraction": 0.8810939357907254,
+      "reason": "3 outside-u stationary interval(s) >=2s; 741/841 frames = 88.109%; >=30%: exclude whole track",
+      "stationary_runs": "[{\"first_frame\": 25140, \"last_frame\": 25346, \"duration_frames\": 207, \"duration_seconds\": 3.45345, \"median_u\": 1.0771784642541191, \"median_v\": 0.21698639549445994, \"observed_frames\": 207, \"inlier_frames\": 207, \"excursion_frames\": 0, \"max_excursion_frames\": 0, \"within_0_7m_fraction\": 1.0}, {\"first_frame\": 25447, \"last_frame\": 25762, \"duration_frames\": 316, \"duration_seconds\": 5.271933333333333, \"median_u\": 1.2254174254981478, \"median_v\": 0.4791122156739026, \"observed_frames\": 301, \"inlier_frames\": 301, \"excursion_frames\": 15, \"max_excursion_frames\": 10, \"within_0_7m_fraction\": 0.9525316455696202}, {\"first_frame\": 25763, \"last_frame\": 25980, \"duration_frames\": 218, \"duration_seconds\": 3.636966666666667, \"median_u\": 1.2125811325310005, \"median_v\": 0.4783164698160641, \"observed_frames\": 216, \"inlier_frames\": 216, \"excursion_frames\": 2, \"max_excursion_frames\": 1, \"within_0_7m_fraction\": 0.9908256880733946}]",
+      "exclusion_ranges": "[[25140, 25980]]",
+      "review_image": "p08_id2_F25604.jpg",
+      "interval_center_frame": 25604,
+      "shown_frame": 25604,
+      "original_assigned_frames": 803,
+      "original_slots": "near_front"
+    }
+  ],
+  "note": "Rule-based exclusions include spectators/outside people; review does not establish an official role.",
+  "representative_image_review": {
+    "reviewed_tracks": 70,
+    "playing_athlete_boxes_seen": 0,
+    "scope": "All four contact-sheet pages inspected; one interval midpoint per track. Does not validate all frames or track identity switches."
+  }
+}
