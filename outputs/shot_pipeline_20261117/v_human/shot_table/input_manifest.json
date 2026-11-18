@@ -1,0 +1,16 @@
+{
+  "outputs/match2_point_inventory_20261117/point_inventory.csv": "294d18c51d7717f9e2c582165199c94bd3fbb27b2baec9f03c88ee6676e6804f",
+  "outputs/shot_pipeline_20261117/tracking/summary.csv": "7152ed01d67600a189b8fbd88801e3f6ace77d56dbc8641ea69169e6f1ab7235",
+  "outputs/shot_pipeline_20261117/tracking/point_07/player_frame_availability.csv": "b8ce28a94efe720ccfe8bda51285c7afcf246e2dbe9fc8b0d57664699e1cf558",
+  "outputs/shot_pipeline_20261117/tracking/point_07/player_court_proxies.csv": "2160ccb6f5ac660f0f0106d875d459c7a114a421ee124e42f11520685c3e6a3d",
+  "outputs/shot_pipeline_20261117/tracking/point_08/player_frame_availability.csv": "62d0ec06218e225cf9858267d605e37a304ff58f538a0a30d6932fce7390d9a6",
+  "outputs/shot_pipeline_20261117/tracking/point_08/player_court_proxies.csv": "73fac804d7ccb502968d89007d176e4277a6d9f734cf9bdcc419bdc69df0f000",
+  "outputs/shot_pipeline_20261117/tracking/point_09/player_frame_availability.csv": "77aef356764a2897bf0e6de98f43fabdf26da138a21b75d74aab2047372b9cbe",
+  "outputs/shot_pipeline_20261117/tracking/point_09/player_court_proxies.csv": "a16f6adb3c44c45ceb88ee07c87b9b80a06283e8869f2c17d81ec0dcf6a82845",
+  "outputs/shot_pipeline_20261117/tracking/point_10/player_frame_availability.csv": "cb13172d6246543df92fb51ee43781a4f29535c8a5e07ad1e7efbd12939e7279",
+  "outputs/shot_pipeline_20261117/tracking/point_10/player_court_proxies.csv": "b9e88d7846404f8b8448b3a8a67dc1e7fbf7ce2011c86856b79ccedd7ecffd58",
+  "outputs/shot_pipeline_20261117/tracking/point_11/player_frame_availability.csv": "a1c9273ae64a0ada04e924409fef223ab4a20dc1c8f411ef86284b17a6715ad5",
+  "outputs/shot_pipeline_20261117/tracking/point_11/player_court_proxies.csv": "3c38b9ba3be7b5ab4d45ceb12aab3b38e074b6e138e5d25b805bb97be9cdbc7b",
+  "human_labels_sha256": "c85eabc01308f56c373a1c16091a2e106067390824e6b59693873fceed689e17",
+  "original_script_sha256": "c7e324020f6ab271d727b58edeba9347e616530f7b63e83a4b66a53256c5f222"
+}

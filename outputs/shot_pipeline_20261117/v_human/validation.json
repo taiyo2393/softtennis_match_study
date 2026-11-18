@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "shot_rows": 32,
+  "coordinate_values_checked": 126,
+  "audio_evaluation_rows": 72,
+  "monte_carlo_rows": 72000,
+  "motion_rows": 576,
+  "summary_rows": 3024,
+  "old_files_unchanged": 504,
+  "large_files_ignored": [
+    "audio_eval/audio_values.csv",
+    "audio_eval/chance_distribution.csv",
+    "net_motion/motions.csv",
+    "net_motion/paper_comparison_all_conditions.csv",
+    "net_motion/summary.csv"
+  ],
+  "independent_checks": [
+    "coordinate conversion and nearest frame",
+    "ordered maximum one-to-one audio matching",
+    "empirical p values from all replicates",
+    "motion denominators and end caps",
+    "receiver and net role selection",
+    "pose fallback frame ranges"
+  ]
+}

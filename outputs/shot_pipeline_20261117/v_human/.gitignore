@@ -1,0 +1,6 @@
+# Generated files over 256 KiB
+/audio_eval/audio_values.csv
+/audio_eval/chance_distribution.csv
+/net_motion/motions.csv
+/net_motion/paper_comparison_all_conditions.csv
+/net_motion/summary.csv

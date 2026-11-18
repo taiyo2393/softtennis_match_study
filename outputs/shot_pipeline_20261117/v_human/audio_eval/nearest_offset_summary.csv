@@ -1,0 +1,5 @@
+scope,variant,n,signed_median,signed_mean,abs_median,abs_mean,abs_p90,abs_max
+rally,v1,32,5.0,3.59375,5.0,4.84375,6.0,10
+rally,v2,32,5.0,3.75,5.0,5.625,7.800000000000004,17
+scene,v1,32,5.0,3.59375,5.0,4.84375,6.0,10
+scene,v2,32,5.0,3.75,5.0,5.625,7.800000000000004,17

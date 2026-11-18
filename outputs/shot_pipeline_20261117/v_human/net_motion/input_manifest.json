@@ -1,0 +1,32 @@
+{
+  "input_sha256": {
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\ball_quality_20261110\\match2_camera_transfer_pilot\\protocol.json": "dc5fb93f07992b1efb62b4a764d6556e3db3d30fcf5e225c2714dcdb9c444f25",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\labels_human\\human_labels_20261118.csv": "c85eabc01308f56c373a1c16091a2e106067390824e6b59693873fceed689e17",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\net_motion\\classify_net_motion.py": "9016108754d719aeb0ab2b4fb1bc0ba9a1743e403937267d0250372d3a6e603a",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\net_motion\\v2\\classify_net_motion_v2.py": "e97aa878f239cc2e0f00ff77a02c4fe700d182b1a9a72cb3ea9cf93cf8c0d39b",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\pose\\pose_cache\\point_07_rally_A.csv": "92af745e4dc8ec803c2ccbb91ab7ba7476a666306186359552bc8e13fa803971",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\pose\\pose_cache\\point_07_rally_B.csv": "077aa76d57f0fccbb78652f403cc7187e7a1010330c661ce54ca08e8e76a6af1",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\pose\\pose_cache\\point_08_rally_B.csv": "93aee36282bd41d10b71a5af56698e6633e54a28e184e9734867bf4b850dd049",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\pose\\pose_cache\\point_09_rally_B.csv": "769b31c06e13320608a48e3b67785cd8acca25175e61d28ef12087ca9ede788e",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\pose\\pose_cache\\point_10_rally_B.csv": "f6ff599994523fd61aa96be91bfcd8858e2e912314f5ec3293dae76b3e70bf1e",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\pose\\pose_cache\\point_11_rally_B.csv": "44e68f39fb60b628b776728c44080005e551af1878deacec13a9d8de5fa7e93b",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_07\\player_court_proxies.csv": "2160ccb6f5ac660f0f0106d875d459c7a114a421ee124e42f11520685c3e6a3d",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_07\\protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_08\\player_court_proxies.csv": "73fac804d7ccb502968d89007d176e4277a6d9f734cf9bdcc419bdc69df0f000",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_08\\protocol.json": "6804e61428202e591b682a21e3562e915fb0bc4878a3c0a3431b3abbf0dede70",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_09\\player_court_proxies.csv": "a16f6adb3c44c45ceb88ee07c87b9b80a06283e8869f2c17d81ec0dcf6a82845",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_09\\protocol.json": "5b8aae748be1ffaf42632561602b3234c496a73422c4aef43e1e2a7ce89bdbb5",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_10\\player_court_proxies.csv": "b9e88d7846404f8b8448b3a8a67dc1e7fbf7ce2011c86856b79ccedd7ecffd58",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_10\\protocol.json": "77504c9e33132b93c8e0c365047070804683d0e5c9b465d6b836dca08a78113b",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_11\\player_court_proxies.csv": "3c38b9ba3be7b5ab4d45ceb12aab3b38e074b6e138e5d25b805bb97be9cdbc7b",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\tracking\\point_11\\protocol.json": "b5bd48d8f04ee6f3ad552c69113dd0b26ae6b3add0eaa09ddd85f7dc8a4d31e8",
+    "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\v_human\\shot_table\\shot_table.csv": "ce7caefa4ae6dbb40c5949d0e5ad0fb4e7437ff728755ddf4f867fbbd3dc31db"
+  },
+  "imported_classifier": "C:\\Users\\ta239\\Research\\softtennis_match_study\\outputs\\shot_pipeline_20261117\\net_motion\\v2\\classify_net_motion_v2.py",
+  "events": 32,
+  "motion_rows": 576,
+  "primary_scope": "exclude_p8_near",
+  "main_W_sec": 0.4,
+  "main_D_m": 0.3,
+  "receiver_assumption": "farthest from net at next opposite-side contact"
+}

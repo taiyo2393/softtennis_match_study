@@ -1,0 +1,30 @@
+{
+  "seed": 20261118,
+  "repeats": 1000,
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "input_sha256": {
+    "labels_human/human_labels_20261118.csv": "c85eabc01308f56c373a1c16091a2e106067390824e6b59693873fceed689e17",
+    "labels_human/README.md": "f79c463161711956a7da74f70234cde9c7204df818ba7900242b9d43b665de74",
+    "scenes/scenes.csv": "028a287ef5369bb057737091fa36ef11057ced6a58442544b2ccbe7ab1020946",
+    "label_ui/data.json": "61d978edcb8df71a0fd5af2a46e72bfce27ae9fc3c0fe460fa374032a8c170d7",
+    "audio/detect_hit_sounds.py": "cc5304658b45c382ab5490c1def32e0f000177ff615f38c231a68ca942ff24e5",
+    "audio/detect_hit_sounds_v2.py": "e5d1dacbe20f5d694bb0bbd2bc7b67f382ea90347a5ef7a619aa288cedb9df90",
+    "audio/selected_config.json": "73567ef348777763221fedbf44a4f682503265ab7b15b5d477d79a79bdea4a4d",
+    "audio/selected_config_v2.json": "a2be498f9c9dc99972289653968715d4af20968d550b491258c30bf04b81ea6b"
+  },
+  "source_video": "C:\\Users\\ta239\\Documents\\Codex\\2026-09-07\\ai-2d-2d-1-2-0\\softtennis_frontcourt_study\\data\\raw\\match2.mp4",
+  "source_video_bytes": 1439072083,
+  "temporary_wav_removed": true,
+  "frozen_rule": {
+    "max_width_ms": 15.0,
+    "min_paired_rise_ln": 0.5,
+    "min_post50_drop_ln": 1.0,
+    "min_concentration": null
+  },
+  "retuned": false
+}
