@@ -21,6 +21,11 @@
       "rejected_box_height",
       "rejected_speed"
     ],
+    "smoothing_max_accepted_gap_source_frames": 30,
+    "smoothing_radius_source_frames": 8,
+    "smoothing_min_window_points": 3,
+    "smoothing_sample_step_source_frames": 2,
+    "smoothing": "After all rejections and height resets, before interpolation; only observed/observed_after_height_reset. Split each player only at accepted-frame gaps > 30, as for interpolation. For each accepted point use all accepted points in the same run with absolute source_frame difference <= 8; retain one-sided windows at run ends without symmetric shrinking. Fewer than 3 window points: keep raw coordinates. Separate nonrecursive medians of raw court_x/y; average the middle two values for even windows. Interpolate from smoothed endpoints.",
     "interpolation_max_endpoint_gap_source_frames": 30,
     "interpolation_max_endpoint_gap_seconds": 0.5005005005005005,
     "interpolation": "linear in normalized court coordinates on display source_frames; no extrapolation",
@@ -213,7 +218,947 @@
   },
   "input_sha256": {
     "player_court_proxies.csv": "a61a226f6cdfadb4a8c442a1c53abc652389d9eb62dc3be9d28640cae9c9ea95",
-    "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697"
+    "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697",
+    "stroke_order_confirmed.csv": "206448606002a5fb71acb6b34228031103c3b146946c2b19b37bb15e08d5a24b",
+    "schematic_court_routes.csv": "764d8d463cbf7acefceafe77012d6c09204ccb9efc26c47f5c3b8e2cb1b38097"
+  },
+  "smoothing": {
+    "statistics_population": "Only post-reset accepted observations; interpolated/missing/rejected rows excluded",
+    "percentile_method": "Linear interpolation at rank 0.95*(n-1) in sorted shifts, including zeros",
+    "shift_statistics_by_player": {
+      "near_front": {
+        "accepted_points": 383,
+        "changed_points": 289,
+        "median_m": 0.016049744534853087,
+        "percentile_95_m": 0.27448170163648017,
+        "maximum_m": 1.8588609729670138
+      },
+      "near_rear": {
+        "accepted_points": 359,
+        "changed_points": 232,
+        "median_m": 0.009132756716334959,
+        "percentile_95_m": 0.15264684684912141,
+        "maximum_m": 0.963556465093114
+      },
+      "far_rear": {
+        "accepted_points": 358,
+        "changed_points": 276,
+        "median_m": 0.04296844754522136,
+        "percentile_95_m": 0.3111183037507786,
+        "maximum_m": 1.6864889468463833
+      },
+      "far_front": {
+        "accepted_points": 339,
+        "changed_points": 276,
+        "median_m": 0.0384898874165218,
+        "percentile_95_m": 0.2769967336320274,
+        "maximum_m": 1.2923061503522426
+      }
+    },
+    "accepted_runs_by_player": {
+      "near_front": [
+        {
+          "start_frame": 154086,
+          "end_frame": 154854,
+          "points": 383
+        }
+      ],
+      "near_rear": [
+        {
+          "start_frame": 154086,
+          "end_frame": 154642,
+          "points": 277
+        },
+        {
+          "start_frame": 154692,
+          "end_frame": 154854,
+          "points": 82
+        }
+      ],
+      "far_rear": [
+        {
+          "start_frame": 154086,
+          "end_frame": 154852,
+          "points": 358
+        }
+      ],
+      "far_front": [
+        {
+          "start_frame": 154086,
+          "end_frame": 154854,
+          "points": 339
+        }
+      ]
+    },
+    "n1_review_intervals": [
+      {
+        "start_frame": 154292,
+        "end_frame": 154302,
+        "points": [
+          {
+            "source_frame": 154292,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 8.005608561223568,
+            "input_proxy_court_y_m": 8.005608561223568,
+            "smoothed_court_y_m": 8.005608561223568,
+            "delta_court_y_m": 0.0
+          },
+          {
+            "source_frame": 154294,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 8.66328403314154,
+            "input_proxy_court_y_m": 8.66328403314154,
+            "smoothed_court_y_m": 8.66328403314154,
+            "delta_court_y_m": 0.0
+          },
+          {
+            "source_frame": 154296,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.499815414761054,
+            "input_proxy_court_y_m": 9.499815414761054,
+            "smoothed_court_y_m": 8.709202508301297,
+            "delta_court_y_m": -0.7906129064597572
+          },
+          {
+            "source_frame": 154298,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.16249068972331,
+            "input_proxy_court_y_m": 9.16249068972331,
+            "smoothed_court_y_m": 8.733908971802776,
+            "delta_court_y_m": -0.42858171792053285
+          },
+          {
+            "source_frame": 154300,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 8.733908971802776,
+            "input_proxy_court_y_m": 8.733908971802776,
+            "smoothed_court_y_m": 8.765174799648404,
+            "delta_court_y_m": 0.03126582784562726
+          },
+          {
+            "source_frame": 154302,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 8.709202508301297,
+            "input_proxy_court_y_m": 8.709202508301297,
+            "smoothed_court_y_m": 8.793755602606018,
+            "delta_court_y_m": 0.08455309430472087
+          }
+        ]
+      },
+      {
+        "start_frame": 154310,
+        "end_frame": 154320,
+        "points": [
+          {
+            "source_frame": 154310,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 8.956216524946331,
+            "input_proxy_court_y_m": 8.956216524946331,
+            "smoothed_court_y_m": 8.804229446243932,
+            "delta_court_y_m": -0.15198707870240077
+          },
+          {
+            "source_frame": 154312,
+            "status": "interpolated",
+            "filter_status": "rejected_speed",
+            "pre_smoothing_court_y_m": 9.379274035173015,
+            "input_proxy_court_y_m": 10.24261478110648,
+            "smoothed_court_y_m": 8.953877531449288,
+            "delta_court_y_m": -0.425396503723726
+          },
+          {
+            "source_frame": 154314,
+            "status": "interpolated",
+            "filter_status": "rejected_speed",
+            "pre_smoothing_court_y_m": 9.8023315453997,
+            "input_proxy_court_y_m": 10.858096527172057,
+            "smoothed_court_y_m": 9.103525616654647,
+            "delta_court_y_m": -0.6988059287450513
+          },
+          {
+            "source_frame": 154316,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 10.225389055626382,
+            "input_proxy_court_y_m": 10.225389055626382,
+            "smoothed_court_y_m": 9.253173701860005,
+            "delta_court_y_m": -0.9722153537663766
+          },
+          {
+            "source_frame": 154318,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.459988350135857,
+            "input_proxy_court_y_m": 9.459988350135857,
+            "smoothed_court_y_m": 9.25642035187552,
+            "delta_court_y_m": -0.20356799826033828
+          },
+          {
+            "source_frame": 154320,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.264337255620305,
+            "input_proxy_court_y_m": 9.264337255620305,
+            "smoothed_court_y_m": 9.25642035187552,
+            "delta_court_y_m": -0.007916903744784664
+          }
+        ]
+      },
+      {
+        "start_frame": 154358,
+        "end_frame": 154368,
+        "points": [
+          {
+            "source_frame": 154358,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 10.214594625815659,
+            "input_proxy_court_y_m": 10.214594625815659,
+            "smoothed_court_y_m": 10.214594625815659,
+            "delta_court_y_m": 0.0
+          },
+          {
+            "source_frame": 154360,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 11.24963963465356,
+            "input_proxy_court_y_m": 11.24963963465356,
+            "smoothed_court_y_m": 10.214594625815659,
+            "delta_court_y_m": -1.0350450088379008
+          },
+          {
+            "source_frame": 154362,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 12.060328337826677,
+            "input_proxy_court_y_m": 12.060328337826677,
+            "smoothed_court_y_m": 10.214594625815659,
+            "delta_court_y_m": -1.8457337120110178
+          },
+          {
+            "source_frame": 154364,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 11.462583051583305,
+            "input_proxy_court_y_m": 11.462583051583305,
+            "smoothed_court_y_m": 10.214594625815659,
+            "delta_court_y_m": -1.2479884257676463
+          },
+          {
+            "source_frame": 154366,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 10.518084347897707,
+            "input_proxy_court_y_m": 10.518084347897707,
+            "smoothed_court_y_m": 10.214594625815659,
+            "delta_court_y_m": -0.3034897220820478
+          },
+          {
+            "source_frame": 154368,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.779016725927761,
+            "input_proxy_court_y_m": 9.779016725927761,
+            "smoothed_court_y_m": 9.779016725927761,
+            "delta_court_y_m": 0.0
+          }
+        ]
+      },
+      {
+        "start_frame": 154792,
+        "end_frame": 154806,
+        "points": [
+          {
+            "source_frame": 154792,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 7.898266381605448,
+            "input_proxy_court_y_m": 7.898266381605448,
+            "smoothed_court_y_m": 7.898266381605448,
+            "delta_court_y_m": 0.0
+          },
+          {
+            "source_frame": 154794,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 8.53146678738488,
+            "input_proxy_court_y_m": 8.53146678738488,
+            "smoothed_court_y_m": 8.53146678738488,
+            "delta_court_y_m": 0.0
+          },
+          {
+            "source_frame": 154796,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.467190289666508,
+            "input_proxy_court_y_m": 9.467190289666508,
+            "smoothed_court_y_m": 9.455912901948231,
+            "delta_court_y_m": -0.011277387718276287
+          },
+          {
+            "source_frame": 154798,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 10.254564420479188,
+            "input_proxy_court_y_m": 10.254564420479188,
+            "smoothed_court_y_m": 9.46441564438372,
+            "delta_court_y_m": -0.7901487760954664
+          },
+          {
+            "source_frame": 154800,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 10.044715496283324,
+            "input_proxy_court_y_m": 10.044715496283324,
+            "smoothed_court_y_m": 9.46441564438372,
+            "delta_court_y_m": -0.5802998518996021
+          },
+          {
+            "source_frame": 154802,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.552691964770325,
+            "input_proxy_court_y_m": 9.552691964770325,
+            "smoothed_court_y_m": 9.46441564438372,
+            "delta_court_y_m": -0.08827632038660466
+          },
+          {
+            "source_frame": 154804,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.455912901948231,
+            "input_proxy_court_y_m": 9.455912901948231,
+            "smoothed_court_y_m": 9.466232996078565,
+            "delta_court_y_m": 0.010320094130332578
+          },
+          {
+            "source_frame": 154806,
+            "status": "observed",
+            "filter_status": "observed",
+            "pre_smoothing_court_y_m": 9.46441564438372,
+            "input_proxy_court_y_m": 9.46441564438372,
+            "smoothed_court_y_m": 9.466232996078565,
+            "delta_court_y_m": 0.0018173516948433205
+          }
+        ]
+      }
+    ],
+    "stroke_hitter_impacts": [
+      {
+        "stroke_id": "H01",
+        "reference_source_frame": 154086,
+        "player_slot": "near_rear",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.2506303461436792,
+          "court_y": 0.02338526612722778,
+          "court_x_m": 2.7494148971961607,
+          "court_y_m": 0.5558677758442043
+        },
+        "smoothed": {
+          "court_x": 0.251078038719223,
+          "court_y": 0.023303722392567224,
+          "court_x_m": 2.7543260847498767,
+          "court_y_m": 0.5539294812713229
+        },
+        "position_difference_m": 0.005279843656684828,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H01",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.2506303461436792,
+              "court_y": 0.02338526612722778,
+              "court_x_m": 2.7494148971961607,
+              "court_y_m": 0.5558677758442043
+            },
+            "distance_to_smoothed_hitter_m": 0.005279843656684828,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H02",
+        "reference_source_frame": 154156,
+        "player_slot": "far_rear",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.6502554226536987,
+          "court_y": 0.9038685039179107,
+          "court_x_m": 7.133301986511076,
+          "court_y_m": 21.484954338128738
+        },
+        "smoothed": {
+          "court_x": 0.6502554226536987,
+          "court_y": 0.9076104318293473,
+          "court_x_m": 7.133301986511076,
+          "court_y_m": 21.573899964583585
+        },
+        "position_difference_m": 0.0889456264548473,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H01",
+            "anchor_order": 2,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.6502554226536987,
+              "court_y": 0.9038685039179107,
+              "court_x_m": 7.133301986511076,
+              "court_y_m": 21.484954338128738
+            },
+            "distance_to_smoothed_hitter_m": 0.0889456264548473,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H02",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.6502554226536987,
+              "court_y": 0.9038685039179107,
+              "court_x_m": 7.133301986511076,
+              "court_y_m": 21.484954338128738
+            },
+            "distance_to_smoothed_hitter_m": 0.0889456264548473,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H03",
+        "reference_source_frame": 154186,
+        "player_slot": "near_front",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.7215770432501538,
+          "court_y": 0.32077351277098404,
+          "court_x_m": 7.915700164454188,
+          "court_y_m": 7.6247863985662905
+        },
+        "smoothed": {
+          "court_x": 0.7215770432501538,
+          "court_y": 0.32077351277098404,
+          "court_x_m": 7.915700164454188,
+          "court_y_m": 7.6247863985662905
+        },
+        "position_difference_m": 0.0,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H02",
+            "anchor_order": 1,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.7215770432501538,
+              "court_y": 0.32077351277098404,
+              "court_x_m": 7.915700164454188,
+              "court_y_m": 7.6247863985662905
+            },
+            "distance_to_smoothed_hitter_m": 0.0,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H03",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.7215770432501538,
+              "court_y": 0.32077351277098404,
+              "court_x_m": 7.915700164454188,
+              "court_y_m": 7.6247863985662905
+            },
+            "distance_to_smoothed_hitter_m": 0.0,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H04",
+        "reference_source_frame": 154256,
+        "player_slot": "far_rear",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.6704399984068939,
+          "court_y": 0.7626410218791525,
+          "court_x_m": 7.354726782523627,
+          "court_y_m": 18.127977090067454
+        },
+        "smoothed": {
+          "court_x": 0.6727476333433704,
+          "court_y": 0.7626410218791525,
+          "court_x_m": 7.380041537776774,
+          "court_y_m": 18.127977090067454
+        },
+        "position_difference_m": 0.02531475525314671,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H03",
+            "anchor_order": 2,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.6704399984068939,
+              "court_y": 0.7626410218791525,
+              "court_x_m": 7.354726782523627,
+              "court_y_m": 18.127977090067454
+            },
+            "distance_to_smoothed_hitter_m": 0.02531475525314671,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H04",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.6704399984068939,
+              "court_y": 0.7626410218791525,
+              "court_x_m": 7.354726782523627,
+              "court_y_m": 18.127977090067454
+            },
+            "distance_to_smoothed_hitter_m": 0.02531475525314671,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H05",
+        "reference_source_frame": 154296,
+        "player_slot": "near_front",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.4641451902440512,
+          "court_y": 0.3996556758418618,
+          "court_x_m": 5.091672736977242,
+          "court_y_m": 9.499815414761054
+        },
+        "smoothed": {
+          "court_x": 0.4641451902440512,
+          "court_y": 0.3663947205848253,
+          "court_x_m": 5.091672736977242,
+          "court_y_m": 8.709202508301297
+        },
+        "position_difference_m": 0.7906129064597572,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H04",
+            "anchor_order": 1,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.4641451902440512,
+              "court_y": 0.3996556758418618,
+              "court_x_m": 5.091672736977242,
+              "court_y_m": 9.499815414761054
+            },
+            "distance_to_smoothed_hitter_m": 0.7906129064597572,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H05",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.4641451902440512,
+              "court_y": 0.3996556758418618,
+              "court_x_m": 5.091672736977242,
+              "court_y_m": 9.499815414761054
+            },
+            "distance_to_smoothed_hitter_m": 0.7906129064597572,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H06",
+        "reference_source_frame": 154348,
+        "player_slot": "far_front",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.46406196095476604,
+          "court_y": 0.9610870437681148,
+          "court_x_m": 5.090759711673784,
+          "court_y_m": 22.84503903036809
+        },
+        "smoothed": {
+          "court_x": 0.46406196095476604,
+          "court_y": 0.9610870437681148,
+          "court_x_m": 5.090759711673784,
+          "court_y_m": 22.84503903036809
+        },
+        "position_difference_m": 0.0,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H05",
+            "anchor_order": 2,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.46406196095476604,
+              "court_y": 0.9610870437681148,
+              "court_x_m": 5.090759711673784,
+              "court_y_m": 22.84503903036809
+            },
+            "distance_to_smoothed_hitter_m": 0.0,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H06",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.46406196095476604,
+              "court_y": 0.9610870437681148,
+              "court_x_m": 5.090759711673784,
+              "court_y_m": 22.84503903036809
+            },
+            "distance_to_smoothed_hitter_m": 0.0,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H07",
+        "reference_source_frame": 154470,
+        "player_slot": "near_rear",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.7412485333127468,
+          "court_y": -0.08695889874281584,
+          "court_x_m": 8.131496410440832,
+          "court_y_m": -2.0670130231167327
+        },
+        "smoothed": {
+          "court_x": 0.7407482305451738,
+          "court_y": -0.08601414751979247,
+          "court_x_m": 8.126008089080557,
+          "court_y_m": -2.044556286545467
+        },
+        "position_difference_m": 0.023117670487851266,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H06",
+            "anchor_order": 2,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.7412485333127468,
+              "court_y": -0.08695889874281584,
+              "court_x_m": 8.131496410440832,
+              "court_y_m": -2.0670130231167327
+            },
+            "distance_to_smoothed_hitter_m": 0.023117670487851266,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H07",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.7412485333127468,
+              "court_y": -0.08695889874281584,
+              "court_x_m": 8.131496410440832,
+              "court_y_m": -2.0670130231167327
+            },
+            "distance_to_smoothed_hitter_m": 0.023117670487851266,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H08",
+        "reference_source_frame": 154512,
+        "player_slot": "far_rear",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.5851229534717922,
+          "court_y": 0.6717303775618136,
+          "court_x_m": 6.418798799585561,
+          "court_y_m": 15.96703107464431
+        },
+        "smoothed": {
+          "court_x": 0.5851229534717922,
+          "court_y": 0.6725243252063766,
+          "court_x_m": 6.418798799585561,
+          "court_y_m": 15.985903210155572
+        },
+        "position_difference_m": 0.01887213551126193,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H07",
+            "anchor_order": 1,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.5851229534717922,
+              "court_y": 0.6717303775618136,
+              "court_x_m": 6.418798799585561,
+              "court_y_m": 15.96703107464431
+            },
+            "distance_to_smoothed_hitter_m": 0.01887213551126193,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H08",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.5851229534717922,
+              "court_y": 0.6717303775618136,
+              "court_x_m": 6.418798799585561,
+              "court_y_m": 15.96703107464431
+            },
+            "distance_to_smoothed_hitter_m": 0.01887213551126193,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H09",
+        "reference_source_frame": 154638,
+        "player_slot": "near_rear",
+        "status": "interpolated",
+        "filter_status": "rejected_box_height",
+        "pre_smoothing": {
+          "court_x": 0.1002230745840568,
+          "court_y": -0.11124894085676595,
+          "court_x_m": 1.0994471281871032,
+          "court_y_m": -2.6443873241653266
+        },
+        "smoothed": {
+          "court_x": 0.12414678875357288,
+          "court_y": -0.12495570373490703,
+          "court_x_m": 1.3618902726266946,
+          "court_y_m": -2.97019707777874
+        },
+        "position_difference_m": 0.4183639559199302,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H08",
+            "anchor_order": 2,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.08838488847698152,
+              "court_y": -0.10321532954118108,
+              "court_x_m": 0.9695822265924873,
+              "court_y_m": -2.453428383193874
+            },
+            "distance_to_smoothed_hitter_m": 0.6488108250377177,
+            "distance_to_pre_smoothing_hitter_m": 0.23093334493554177
+          },
+          {
+            "route_stroke_id": "H09",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.08838488847698152,
+              "court_y": -0.10321532954118108,
+              "court_x_m": 0.9695822265924873,
+              "court_y_m": -2.453428383193874
+            },
+            "distance_to_smoothed_hitter_m": 0.6488108250377177,
+            "distance_to_pre_smoothing_hitter_m": 0.23093334493554177
+          }
+        ]
+      },
+      {
+        "stroke_id": "H10",
+        "reference_source_frame": 154744,
+        "player_slot": "far_front",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.12407640700222754,
+          "court_y": 0.9533759854570248,
+          "court_x_m": 1.3611181848144362,
+          "court_y_m": 22.66174717431348
+        },
+        "smoothed": {
+          "court_x": 0.12407640700222754,
+          "court_y": 0.9631776722297566,
+          "court_x_m": 1.3611181848144362,
+          "court_y_m": 22.894733268901312
+        },
+        "position_difference_m": 0.23298609458783354,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H09",
+            "anchor_order": 2,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.12407640700222754,
+              "court_y": 0.9533759854570248,
+              "court_x_m": 1.3611181848144362,
+              "court_y_m": 22.66174717431348
+            },
+            "distance_to_smoothed_hitter_m": 0.23298609458783354,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H10",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.12407640700222754,
+              "court_y": 0.9533759854570248,
+              "court_x_m": 1.3611181848144362,
+              "court_y_m": 22.66174717431348
+            },
+            "distance_to_smoothed_hitter_m": 0.23298609458783354,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H11",
+        "reference_source_frame": 154796,
+        "player_slot": "near_front",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.6391584925290521,
+          "court_y": 0.3982831421820155,
+          "court_x_m": 7.011568663043702,
+          "court_y_m": 9.467190289666508
+        },
+        "smoothed": {
+          "court_x": 0.6391584925290521,
+          "court_y": 0.39780870433101523,
+          "court_x_m": 7.011568663043702,
+          "court_y_m": 9.455912901948231
+        },
+        "position_difference_m": 0.011277387718276287,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H10",
+            "anchor_order": 1,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.6391584925290521,
+              "court_y": 0.3982831421820155,
+              "court_x_m": 7.011568663043702,
+              "court_y_m": 9.467190289666508
+            },
+            "distance_to_smoothed_hitter_m": 0.011277387718276287,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H11",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.6391584925290521,
+              "court_y": 0.3982831421820155,
+              "court_x_m": 7.011568663043702,
+              "court_y_m": 9.467190289666508
+            },
+            "distance_to_smoothed_hitter_m": 0.011277387718276287,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H12",
+        "reference_source_frame": 154824,
+        "player_slot": "far_rear",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.634980625008136,
+          "court_y": 0.6797714342372191,
+          "court_x_m": 6.9657374563392525,
+          "court_y_m": 16.158166991818696
+        },
+        "smoothed": {
+          "court_x": 0.634980625008136,
+          "court_y": 0.6797714342372191,
+          "court_x_m": 6.9657374563392525,
+          "court_y_m": 16.158166991818696
+        },
+        "position_difference_m": 0.0,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H11",
+            "anchor_order": 1,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.634980625008136,
+              "court_y": 0.6797714342372191,
+              "court_x_m": 6.9657374563392525,
+              "court_y_m": 16.158166991818696
+            },
+            "distance_to_smoothed_hitter_m": 0.0,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          },
+          {
+            "route_stroke_id": "H12",
+            "anchor_order": 0,
+            "anchor_kind": "hitter_proxy",
+            "endpoint": {
+              "court_x": 0.634980625008136,
+              "court_y": 0.6797714342372191,
+              "court_x_m": 6.9657374563392525,
+              "court_y_m": 16.158166991818696
+            },
+            "distance_to_smoothed_hitter_m": 0.0,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      },
+      {
+        "stroke_id": "H13",
+        "reference_source_frame": 154846,
+        "player_slot": "near_front",
+        "status": "observed",
+        "filter_status": "observed",
+        "pre_smoothing": {
+          "court_x": 0.741768695748284,
+          "court_y": 0.44576541799323105,
+          "court_x_m": 8.137202592358676,
+          "court_y_m": 10.595843985699101
+        },
+        "smoothed": {
+          "court_x": 0.741768695748284,
+          "court_y": 0.4451109819425693,
+          "court_x_m": 8.137202592358676,
+          "court_y_m": 10.580288040774873
+        },
+        "position_difference_m": 0.015555944924229395,
+        "route_endpoints": [
+          {
+            "route_stroke_id": "H12",
+            "anchor_order": 1,
+            "anchor_kind": "next_hitter_proxy",
+            "endpoint": {
+              "court_x": 0.741768695748284,
+              "court_y": 0.44576541799323105,
+              "court_x_m": 8.137202592358676,
+              "court_y_m": 10.595843985699101
+            },
+            "distance_to_smoothed_hitter_m": 0.015555944924229395,
+            "distance_to_pre_smoothing_hitter_m": 0.0
+          }
+        ]
+      }
+    ],
+    "stroke_position_policy": "Exact reference_source_frame; interpolated H09 uses the same endpoints before/after smoothing, not a nearest observation or the stroke-table proxy",
+    "route_endpoint_policy": "Every hitter_proxy/next_hitter_proxy anchor is compared at its anchor_id stroke reference frame; bounce/predicted landing anchors are unchanged and are not hitter positions",
+    "coordinate_policy": "CSV court coordinates remain normalized; metric x=x*10.97, y=y*23.77 (y=0 at near baseline)",
+    "independent_position_accuracy_validated": false
+  },
+  "regression_checks": {
+    "previous_output_rows_compared": 1604,
+    "all_existing_non_position_csv_fields_unchanged": true,
+    "protected_files_verified_unchanged": 273
   },
   "independent_position_accuracy_validated": false,
   "rendering": {
@@ -263,8 +1208,8 @@
     "existing_files_verified_unchanged": 272,
     "authorized_modified_existing_script": "render_056_cleaned_wide_court.py",
     "other_existing_output_files_verified_unchanged": {
-      "cleaned_player_positions.csv": "4bff214848e373610ab50d0923802232ee4d70f91f60686eede2b2f2e5a778a5",
-      "existing_files_sha256_before.json": "ab266baa8ae6c09ee3bf953326c5df5df47c800a48ed284be4bb13054f3307d4",
+      "cleaned_player_positions.csv": "018b0cfbafaf49578679d9dcb6c0372546fde72881aa0099d46417f237f1390a",
+      "existing_files_sha256_before.json": "8c464234c4195099068f399fd008260a923fd1b7c98fd72953ceb972f53e588b",
       "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697"
     },
     "source_images_verified_against_manifest": 401,
@@ -419,7 +1364,7 @@
     "existing_routes_and_bounces_reused": true,
     "right_player_drawing_counts_unchanged": true,
     "existing_ball_and_stroke_drawing_reproduced": true,
-    "renderer_sha256": "998c2017d75c8b9dac601f348b84911181ec55325f582ae26c08538abb55db3a",
-    "output_video_sha256": "556526778fb33fdd7b06f25e2c1397532b6b7100905afab0ce54a7c6f15dee36"
+    "renderer_sha256": "2eb6cd7621f12d2322060526c9381066667c42b7aa6104ddfc9981a12b151b54",
+    "output_video_sha256": "fabf3cdd370b1b944a63aca8b247f24a4184654ad06004bb1be7bd6931909955"
   }
 }

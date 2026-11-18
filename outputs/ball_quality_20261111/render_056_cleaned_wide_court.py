@@ -278,9 +278,14 @@ def main():
                 txt(x + 8, y - 12, b.NAMES[p['player_slot']], 18, color)
                 drawn[p['player_slot']][p['status']] += 1
                 frame_drawn += 1
-            txt(1335, 840, '人物点は枠下端の代理位置。隠れ等による異常点を除外。', 16)
-            txt(1335, 862, '採用点間30元フレーム以内は補間（白抜き、約0.5秒）。', 16)
-            txt(1335, 884, '左の破線枠＝隠れなどで除いた枠', 16)
+            notes = (
+                '人物点は枠下端の代理位置。ジャンプ等の短い揺れは中央値で平滑化。',
+                '採用点間30元フレーム以内は補間（白抜き、約0.5秒）。',
+                '左の破線枠＝隠れなどで除いた枠')
+            for y, note in zip((840, 862, 884), notes):
+                bbox = d.textbbox((1335, y), note, font=fonts[16])
+                assert bbox[2] < 1920 and bbox[3] < y + 22, (note, bbox)
+                txt(1335, y, note, 16)
             if not frame_drawn:
                 txt(1335, 815, '人物：採用・補間点なし', 16, YELLOW)
             array = np.asarray(image)

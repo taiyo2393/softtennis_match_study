@@ -45,8 +45,8 @@
   "existing_files_verified_unchanged": 272,
   "authorized_modified_existing_script": "render_056_cleaned_wide_court.py",
   "other_existing_output_files_verified_unchanged": {
-    "cleaned_player_positions.csv": "4bff214848e373610ab50d0923802232ee4d70f91f60686eede2b2f2e5a778a5",
-    "existing_files_sha256_before.json": "ab266baa8ae6c09ee3bf953326c5df5df47c800a48ed284be4bb13054f3307d4",
+    "cleaned_player_positions.csv": "018b0cfbafaf49578679d9dcb6c0372546fde72881aa0099d46417f237f1390a",
+    "existing_files_sha256_before.json": "8c464234c4195099068f399fd008260a923fd1b7c98fd72953ceb972f53e588b",
     "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697"
   },
   "source_images_verified_against_manifest": 401,
@@ -201,6 +201,6 @@
   "existing_routes_and_bounces_reused": true,
   "right_player_drawing_counts_unchanged": true,
   "existing_ball_and_stroke_drawing_reproduced": true,
-  "renderer_sha256": "998c2017d75c8b9dac601f348b84911181ec55325f582ae26c08538abb55db3a",
-  "output_video_sha256": "556526778fb33fdd7b06f25e2c1397532b6b7100905afab0ce54a7c6f15dee36"
+  "renderer_sha256": "2eb6cd7621f12d2322060526c9381066667c42b7aa6104ddfc9981a12b151b54",
+  "output_video_sha256": "fabf3cdd370b1b944a63aca8b247f24a4184654ad06004bb1be7bd6931909955"
 }
