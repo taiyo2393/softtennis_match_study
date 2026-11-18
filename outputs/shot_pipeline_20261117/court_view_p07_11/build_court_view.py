@@ -517,7 +517,7 @@ def render_point(p,segments,rows,shots,using_v2=False,balls=None):
                     txt(x+220,971,f'自動: {s["auto_hitter"]}',16,(250,210,65))
                 elif s['jump_or_step_flag']:
                     txt(x+240,971,'前後位置△',16,(250,210,65))
-            txt(24,1030,'打者は確認済み（第7点6は名前の解釈を要再確認）。人物対応・位置精度・球候補は未検証です。',20)
+            txt(24,1030,'打者は確認済み。人物対応・位置精度・球候補は未検証です。',20)
             encoder.stdin.write(np.asarray(image).tobytes())
             if f in exact_checks:
                 image.save(OUT/f'check_abc_p{p:02d}_F{f}.jpg',quality=95)

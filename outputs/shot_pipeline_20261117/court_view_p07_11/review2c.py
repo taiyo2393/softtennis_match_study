@@ -173,7 +173,7 @@ def write_report(s):
     hits=pd.read_csv(OUT/'hitter_auto.csv');truth=pd.read_csv(OUT/'human_confirmed_hitters_p07_11.csv')
     matches=int(hits.hitter.eq(truth.confirmed_hitter).sum())
     previous=pd.read_csv(BACKUP/'hitter_auto.csv')
-    lines+=['','### 打者判定と確認画像','',f'打者判定は確認表と{matches}/32一致。review2bとの打者ラベル一致は{int(hits.hitter.eq(previous.hitter).sum())}/32。第7点6打目の名前解釈は従来どおり暫定で、独立評価・未知試合への精度ではない。','']
+    lines+=['','### 打者判定と確認画像','',f'打者判定は確認表と{matches}/32一致。review2bとの打者ラベル一致は{int(hits.hitter.eq(previous.hitter).sum())}/32。第7点6打目は2026-11-19の本人再確認でN2と確定し、全32行が確認済み。独立評価・未知試合への精度ではない。','']
     lines+=r2.md_table(s['review2c_checks'],[('point','点'),('source_frame','元F'),('file','左右合成の動画フレーム')])
     visual=OUT/'review2c_visual_review.json'
     if visual.exists():
@@ -181,7 +181,7 @@ def write_report(s):
         lines+=['','画像の目視確認：','']
         lines += [f'- {name}：{assessment}' for name,assessment in review['assessments'].items()]
     lines+=['','入力のハッシュ保全・全動画の全Fデコード・独立数式検証の結果はreview2_verification.json。commit・pushは行っていない。','']
-    original=(BACKUP/'review2_report.md').read_text(encoding='utf-8')
-    (OUT/'review2_report.md').write_text(original.rstrip()+'\n\n'+'\n'.join(lines),encoding='utf-8')
-    readme=(BACKUP/'README.md').read_text(encoding='utf-8')
+    original=r2.update_confirmation_text((BACKUP/'review2_report.md').read_text(encoding='utf-8'))
+    (OUT/'review2_report.md').write_text(original.rstrip()+'\n\n'+'\n'.join(lines),encoding='utf-8',newline='\n')
+    readme=r2.update_confirmation_text((BACKUP/'README.md').read_text(encoding='utf-8'))
     (OUT/'README.md').write_text(readme+'\n\n## review2c（2026-11-19）\n\n現行の5動画と配置CSVはreview2c。far包絡75%、far/near速度棄却30元F超の再初期化、再接続の空き名判定は最終観測から1秒超。詳細・残存誤差・比較表はreview2_report.mdのH節。過去節は当時の結果として保存。\n',encoding='utf-8')

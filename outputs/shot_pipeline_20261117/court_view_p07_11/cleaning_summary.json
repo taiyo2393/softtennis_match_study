@@ -3664,7 +3664,7 @@
    "auto_hitter": "N?",
    "current_auto_hitter": "N2",
    "confirmed_hitter": "N2",
-   "confirm_source": "user_answer_reinterpreted",
+   "confirm_source": "user_confirmed_after_recheck",
    "shot_no": 6
   },
   {
@@ -7512,7 +7512,6 @@
  "input_hashes_verified_unchanged": 220,
  "remaining_issues": {
   "positions": "Projection and identity accuracy not independently validated",
-  "truth": "p07 shot6: user N1 reinterpreted as N2; requires reconfirmation",
   "generalization": "Rules adjusted on these 32 shots; agreement is not held-out performance",
   "offscreen": "No box includes both out-of-view and detector failure; held point is an estimate"
  },
@@ -8280,7 +8279,7 @@
    "max_shift_m": 9.748574181045548
   }
  ],
- "hitter_reference": "human_confirmed_hitters_p07_11.csv; one reinterpreted answer remains provisional",
+ "hitter_reference": "human_confirmed_hitters_p07_11.csv; all 32 hitters confirmed by user",
  "review2_accuracy": [
   {
    "version": "before",

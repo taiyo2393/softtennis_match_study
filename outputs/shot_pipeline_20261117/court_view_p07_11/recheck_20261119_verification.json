@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-19",
+  "git_head_unchanged": "a4c4465b81afa039548b9a9839ec82d3ffba5f62",
+  "confirmed_recheck": {
+    "point": 7,
+    "shot_no": 6,
+    "frame": 23803,
+    "user_answer": "N1",
+    "confirmed_hitter": "N2",
+    "confirm_source": "user_confirmed_after_recheck",
+    "note": "最初の回答はN1。2026-11-19 の再確認でN2と確定（名前の取り違え）"
+  },
+  "agreement": {
+    "total": 32,
+    "confirmed_rows": 32,
+    "before": 25,
+    "after": 32,
+    "undecided_before": 7,
+    "undecided_after": 0
+  },
+  "protected_inputs_unchanged": 223,
+  "snapshot_files_unchanged": 78,
+  "unchanged_csv_sha256": {
+    "cleaned_player_positions_p07.csv": "18d8793cc8faf5738c865fb6863f26f79f3289c45e031e6272c0146e7f6a19ee",
+    "cleaned_player_positions_p08.csv": "8f868736708213620935d84909307be9e6442993cb482ccede3d67560d37aaf7",
+    "cleaned_player_positions_p09.csv": "fb4fe7d78573781dce20235db91ead0951df735b8313df83943696fa3d167f80",
+    "cleaned_player_positions_p10.csv": "df1200e46de41d74e3a503f8ada1c72b9d179ec2c79935ac75eee8e352711649",
+    "cleaned_player_positions_p11.csv": "ccac4b36d8933c8ad0d4e276932cbacb6b6a708ef544eed0307b4d93b09cffc6",
+    "identity_positions_p07.csv": "9df1c6721ab3b183f24e3239811a2bf8cf129e6c65843a6e5d116c64c8080056",
+    "identity_positions_p08.csv": "1d40d19fd7cfffebfa7879abcbbf7e86b9b88711d4e39eabef849b7bd405c921",
+    "identity_positions_p09.csv": "d72e0cdec65254368c1fcc2135db645388d4501e9ce5766a6b2e32eca5b5e55c",
+    "identity_positions_p10.csv": "f202cd825b19223409d80cc2e7c82d1a28e6e0cca6c58e57b996e76507779b23",
+    "identity_positions_p11.csv": "80e9a4e32ec256e5279d034e80612b3a9ed64ff8a3b17b46d9a780eef3df801c",
+    "identity_map_p07.csv": "d27c728f3928047cfd30c4e1433969b3a9fabc0a4d2ebbd84f1e6bcba46c8fb8",
+    "identity_map_p08.csv": "2a1e409dc50465ee2ee4c9ab37d44b35f5b3b48d89e943b8f6050d5142ba72eb",
+    "identity_map_p09.csv": "5966bb75188927ba198fd7f673c5174c49c3c880ee926a03412027146e64bce4",
+    "identity_map_p10.csv": "dd5f39245f567ba76ff3352402e8bcab1ab550f3420d0b53710b18587598b632",
+    "identity_map_p11.csv": "56b809158ecae8b7685e73f27de70babb6fd57dcee850178a5e0e0002ccda300",
+    "video_source_frame_map_p07.csv": "453ad14a66a7e35762e7f4d6c621488d7b5b0decc229b69e7d2eaf15a1839c0f",
+    "video_source_frame_map_p08.csv": "515a03650b9f34716774ecf064b9236f557153e50f077294e111a6ceaad27887",
+    "video_source_frame_map_p09.csv": "0fa429db4ec8db97fe11536e167dc6713655fedd7842bb46979ffe8f46dec459",
+    "video_source_frame_map_p10.csv": "3a6303bc49143ab3e69b139bf663d50d58979efd4c9ff6844c56daa379951593",
+    "video_source_frame_map_p11.csv": "57b884826d5ae5c7bf4b94dad3b2c38a0ece6e117833e03505b05d233d961e90",
+    "hitter_auto.csv": "128ba24a23d869b74a24e7d2f27ff243401c9b5136be8ca52c8e9db94203f934",
+    "wrist_identity.csv": "d7c6cbbc55ea4dc1acfe6f14004ced87b40f11ad83aa033545b9cf7699fbe0d8"
+  },
+  "render_checks": [
+    {
+      "file": "check_abc_p07_F22848.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p07_F23422.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p07_F23482.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p07_F23548.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p07_F23672.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p07_F23803.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p07_F23865.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p08_F25246.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p08_F25260.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p08_F25470.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p08_F25863.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p10_F30633.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p11_F32970.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    },
+    {
+      "file": "check_abc_p11_F32999.jpg",
+      "unchanged_above_y": 1024,
+      "changed_y_min": 1032,
+      "changed_y_max": 1055
+    }
+  ],
+  "videos": {
+    "7": {
+      "frames": 411,
+      "full_decode_verified": true,
+      "sha256": "6592648c27287ea0d35c1d2da4e461c1010e1f74bde433c5604dbdae099ae7d5"
+    },
+    "8": {
+      "frames": 385,
+      "full_decode_verified": true,
+      "sha256": "f6ffa037485b0ff88266395132145c9521184f10c09f6867cc122499e61c0f80"
+    },
+    "9": {
+      "frames": 642,
+      "full_decode_verified": true,
+      "sha256": "9c5e1ac8717210f405c2fcd16c68bab6f5ab1791dff7cfeb3e82fb53f5faf241"
+    },
+    "10": {
+      "frames": 157,
+      "full_decode_verified": true,
+      "sha256": "41fa0b55507f2544cb7cd6a63f0f5217985491c44c9bab02bc2678bd9294957d"
+    },
+    "11": {
+      "frames": 220,
+      "full_decode_verified": true,
+      "sha256": "81aad7071940fecfbb3d713b57878d2771721fd882f2dbc5ca63e57bfad717ef"
+    }
+  },
+  "verification_command": "study\\.venv\\Scripts\\python.exe -B -X utf8 outputs/shot_pipeline_20261117/court_view_p07_11/verify_review2.py",
+  "verification_exit_code": 0,
+  "commit_push_performed": false
+}

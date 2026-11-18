@@ -294,9 +294,9 @@ def main():
     for name,digest in envelope_before['sha256'].items():assert b.sha(r2.env.BACKUP/name)==digest,name
     current_before=json.loads((out/'review2c_before.json').read_text(encoding='utf-8'))
     for name,digest in current_before['sha256'].items():assert b.sha(c.BACKUP/name)==digest,name
-    assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=b.ROOT,text=True).strip()==current_before['git_head']
-    for name in ('human_confirmed_hitters_p07_11.csv',):
-        assert b.sha(out/name)==envelope_before['sha256'][name],('unexpected non-depth change',name)
+    git_head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=b.ROOT,text=True).strip()
+    # The historical snapshot predates the existing review2 commit.
+    subprocess.run(['git','merge-base','--is-ancestor',current_before['git_head'],git_head],cwd=b.ROOT,check=True)
     registered=json.loads(json.dumps(s));c.finalize(registered,write=False)
     assert registered['review2_depth_counts']==s['review2_depth_counts']
     assert registered['review2c_speed_resets']==s['review2c_speed_resets']
@@ -312,13 +312,20 @@ def main():
     assert truth.groupby('point',sort=False).shot_no.apply(list).to_dict()=={7:list(range(1,9)),8:list(range(1,9)),9:list(range(1,9)),10:list(range(1,5)),11:list(range(1,5))}
     old=pd.read_csv(out/'hitter_auto_before_review2.csv')
     assert old.hitter.tolist()==truth.auto_hitter.tolist() and old.status.tolist()==truth.auto_status.tolist()
-    assert truth.confirm_source.value_counts().to_dict()=={'auto_accepted_by_user':25,'user_answered':6,'user_answer_reinterpreted':1}
-    ambiguous=truth[(truth.point==7)&truth.shot_no.eq(6)].iloc[0]
-    assert ambiguous.user_answer=='N1' and ambiguous.confirmed_hitter=='N2' and '要再確認' in ambiguous.note
-    unamb=truth.confirm_source.ne('user_answer_reinterpreted')
-    agreement=dict(before=int(old.hitter.eq(truth.confirmed_hitter).sum()),after=int(hits.hitter.eq(truth.confirmed_hitter).sum()),
-                   undecided_before=int(old.status.eq('undecided').sum()),undecided_after=int(hits.status.eq('undecided').sum()),
-                   excluding_reinterpreted=dict(total=int(unamb.sum()),before=int((old.hitter.eq(truth.confirmed_hitter)&unamb).sum()),after=int((hits.hitter.eq(truth.confirmed_hitter)&unamb).sum())))
+    assert truth.confirm_source.value_counts().to_dict()=={'auto_accepted_by_user':25,'user_answered':6,'user_confirmed_after_recheck':1}
+    rechecked=truth.point.eq(7)&truth.shot_no.eq(6)
+    assert rechecked.sum()==1
+    row=truth[rechecked].iloc[0]
+    assert row.frame==23803 and row.user_answer=='N1' and row.confirmed_hitter=='N2'
+    assert row.confirm_source=='user_confirmed_after_recheck' and row.note==r2.RECHECK_NOTE
+    previous_truth=pd.read_csv(r2.env.BACKUP/'human_confirmed_hitters_p07_11.csv').fillna('')
+    assert truth.loc[~rechecked].equals(previous_truth.loc[~rechecked]),'other confirmation rows changed'
+    unchanged_columns=[k for k in truth if k not in ('confirm_source','note')]
+    assert truth[unchanged_columns].equals(previous_truth[unchanged_columns]),'confirmed hitter/history changed'
+    assert s['hitter_reference']=='human_confirmed_hitters_p07_11.csv; all 32 hitters confirmed by user'
+    assert 'truth' not in s['remaining_issues']
+    agreement=dict(total=32,confirmed_rows=32,before=int(old.hitter.eq(truth.confirmed_hitter).sum()),after=int(hits.hitter.eq(truth.confirmed_hitter).sum()),
+                   undecided_before=int(old.status.eq('undecided').sum()),undecided_after=int(hits.status.eq('undecided').sum()))
     balls=pd.read_csv(out/'ball_candidates.csv');wrist=pd.read_csv(out/'wrist_identity.csv')
     official=json.loads((b.PIPE/'tracking_v2/verification.json').read_text(encoding='utf-8'))['excluded_candidates']
     project,H=b.abc.geometry(b.load_module);audits={}
@@ -426,6 +433,7 @@ def main():
         assert z.status==r2.HOLD and np.isfinite([z.court_x,z.court_y]).all()
     for auto,display,t in zip(hits.itertuples(),s['hitter_decisions'],truth.itertuples()):
         assert display['hitter']==t.confirmed_hitter and display['auto_hitter']==t.auto_hitter
+        assert display['confirm_source']==t.confirm_source
         assert display['current_auto_hitter']==auto.hitter
     counts=pd.read_csv(out/'review2_far_depth_counts.csv')
     old_counts=pd.read_csv(c.BACKUP/'review2_far_depth_counts.csv')
@@ -460,6 +468,7 @@ def main():
     assert f2.loc[33001,'status']!='offscreen_hold','hitter must have accepted/interpolated observed position'
     r2.ignore_large()
     inventory=b.abc.inventory();r2.csv('file_inventory.csv',inventory)
+    assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=b.ROOT,text=True).strip()==git_head,'HEAD changed during verification'
     report=dict(version=r2.VERSION,depth_version=s['review2c_version'],envelope_snapshot_sha256_verified=len(envelope_before['sha256']),review2b_snapshot_sha256_verified=len(current_before['sha256']),rule_boundary_checks=boundaries,protected_sha256_verified=len(before['input_sha256']),
                 baseline_sha256_verified=len(before['baseline_sha256']),human_reference_rows=32,
                 agreement=agreement,points=audits,baseline_rows=s['review2_baselines'],

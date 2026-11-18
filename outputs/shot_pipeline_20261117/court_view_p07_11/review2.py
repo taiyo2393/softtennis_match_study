@@ -28,6 +28,39 @@ SERVE='observed_x_depth_serve_anchor'
 LIFT='observed_x_depth_lift_held'
 HOLD='offscreen_hold'
 VERSION='review2_20261119'
+RECHECK_NOTE='最初の回答はN1。2026-11-19 の再確認でN2と確定（名前の取り違え）'
+
+# Refresh copied historical report text without modifying the *_before/ snapshots.
+CONFIRMATION_TEXT_UPDATES={
+    '25行は自動結果を本人が了承、6行は本人の指定、1行は回答の名前を追跡と照合して解釈した。':
+        '25行は自動結果を本人が了承、6行は本人の指定、1行は2026-11-19の本人再確認で確定した。',
+    '**第7点6（F23803）は user_answer=N1、confirmed_hitter=N2。画面外にいたのは追跡上 N2。名前の取り違えと判断。要再確認。この1行は直接確認と同等の確定根拠ではない。**':
+        '**第7点6（F23803）は user_answer=N1 を履歴として残し、confirmed_hitter=N2。2026-11-19の本人再確認でN2と確定（最初の回答は名前の取り違え）。confirm_source=user_confirmed_after_recheck。**',
+    '再解釈1行を除く31行の結果は review2_verification.json にも記録する。':
+        '32行すべてを確認済みとして照合し、結果は review2_verification.json にも記録する。',
+    '第7点6の名前は要再確認。':'',
+    '第7点6は回答の名前を追跡情報から N2 と解釈しており、要再確認。':
+        '第7点6（F23803）は2026-11-19の本人再確認でN2と確定。最初の回答N1は名前の取り違えとして履歴に残す。',
+    '25打球は旧自動結果を本人了承、6打球は明示回答、1打球は回答を再解釈。元の回答と解釈を別列に保存。':
+        '25打球は旧自動結果を本人了承、6打球は明示回答、1打球は本人再確認で確定。元の回答と確定打者・確認根拠を別列に保存。',
+}
+
+
+def update_confirmation_text(text):
+    for old,new in CONFIRMATION_TEXT_UPDATES.items():
+        text=text.replace(old,new)
+    return text
+
+
+def update_confirmation(summary, truth):
+    """Update confirmation provenance only; keep automatic decisions and positions."""
+    by_key={(r['point'],r['frame']):r for r in truth}
+    for hit in summary['hitter_decisions']:
+        row=by_key[hit['point'],hit['frame']]
+        assert hit['hitter']==row['confirmed_hitter']
+        hit['confirm_source']=row['confirm_source']
+    summary['hitter_reference']='human_confirmed_hitters_p07_11.csv; all 32 hitters confirmed by user'
+    summary['remaining_issues'].pop('truth',None)
 
 
 def csv(name, rows):
@@ -67,12 +100,12 @@ def truth_table(before):
             source='user_answered' if answer else 'auto_accepted_by_user'
             note='2026-11-19 ユーザー確認'
             if (p,no)==(7,6):
-                confirmed='N2';source='user_answer_reinterpreted'
-                note='画面外にいたのは追跡上 N2。名前の取り違えと判断。要再確認'
+                confirmed='N2';source='user_confirmed_after_recheck'
+                note=RECHECK_NOTE
             rows.append(dict(point=int(p),shot_no=no,frame=int(r.frame),side=r.side,auto_hitter=r.hitter,
                              auto_status=r.status,user_answer=answer,confirmed_hitter=confirmed,
                              confirm_source=source,note=note))
-    assert len(rows)==32 and Counter(r['confirm_source'] for r in rows)=={'auto_accepted_by_user':25,'user_answered':6,'user_answer_reinterpreted':1}
+    assert len(rows)==32 and Counter(r['confirm_source'] for r in rows)=={'auto_accepted_by_user':25,'user_answered':6,'user_confirmed_after_recheck':1}
     csv('human_confirmed_hitters_p07_11.csv',rows)
     return rows
 
@@ -366,7 +399,7 @@ def prepare():
                    hitter_status_counts=dict(Counter(h['status'] for h in hits)),
                    identity={str(p):{k:v for k,v in x.items() if k!='unlinked_observations'} for p,x in identities.items()},
                    independent_hitter_accuracy_validated=False,
-                   hitter_reference='human_confirmed_hitters_p07_11.csv; one reinterpreted answer remains provisional',
+                   hitter_reference='human_confirmed_hitters_p07_11.csv; all 32 hitters confirmed by user',
                    review2_accuracy=comparisons,review2_reentries=reentries,review2_lifts=lifts,
                    review2_serves=serves,review2_baselines=baseline,review2_depth_counts=counts)
     summary['rules']['review2']=dict(version=VERSION,ball_ambiguity_fraction=.25,offscreen_absence_window=[-8,4],
@@ -379,7 +412,6 @@ def prepare():
     r2c.finalize(summary)
     csv('review2_far_depth_counts.csv',summary['review2_depth_counts'])
     summary['remaining_issues']=dict(positions='Projection and identity accuracy not independently validated',
-        truth='p07 shot6: user N1 reinterpreted as N2; requires reconfirmation',
         generalization='Rules adjusted on these 32 shots; agreement is not held-out performance',
         offscreen='No box includes both out-of-view and detector failure; held point is an estimate')
     for key in ('auto_hitter_decisions','displayed_position_metrics','hitter_changes','changes_from_previous',
@@ -415,10 +447,10 @@ def write_report(s):
     a=s['review2_accuracy'];lifts=s['review2_lifts'];reentry=s['review2_reentries']
     lines=['# 第7〜11点 review2 報告（2026-11-19）','',
         '## A・B：確認ラベルと自動判定','',
-        '打球番号は hitter_auto_before_review2.csv の点ごとの行順（1始まり）。human_confirmed_hitters_p07_11.csv は32行。25行は自動結果を本人が了承、6行は本人の指定、1行は回答の名前を追跡と照合して解釈した。auto_hitter / auto_status は変更前の値。動画は confirmed_hitter を使用する。','',
-        '**第7点6（F23803）は user_answer=N1、confirmed_hitter=N2。画面外にいたのは追跡上 N2。名前の取り違えと判断。要再確認。この1行は直接確認と同等の確定根拠ではない。**','']
+        '打球番号は hitter_auto_before_review2.csv の点ごとの行順（1始まり）。human_confirmed_hitters_p07_11.csv は32行。25行は自動結果を本人が了承、6行は本人の指定、1行は2026-11-19の本人再確認で確定した。auto_hitter / auto_status は変更前の値。動画は confirmed_hitter を使用する。','',
+        '**第7点6（F23803）は user_answer=N1 を履歴として残し、confirmed_hitter=N2。2026-11-19の本人再確認でN2と確定（最初の回答は名前の取り違え）。confirm_source=user_confirmed_after_recheck。**','']
     lines+=md_table(a,[('version','判定'),('total','対象'),('matches','一致'),('undecided','未決定'),('wrong_decided','決定したが不一致')])
-    lines+=['','一致率は全32打球を分母とし、未決定も不一致に数える。今回は指摘例で規則を調整して同じ32打球に照合した結果であり、独立テストでの精度・汎化性能ではない。再解釈1行を除く31行の結果は review2_verification.json にも記録する。','',
+    lines+=['','一致率は全32打球を分母とし、未決定も不一致に数える。今回は指摘例で規則を調整して同じ32打球に照合した結果であり、独立テストでの精度・汎化性能ではない。32行すべてを確認済みとして照合し、結果は review2_verification.json にも記録する。','',
         '球曖昧なら票を棄権し手首判定を許す。両最小距離がそれぞれの元枠幅の25%未満なら球曖昧。打球Fで同側1人だけ映り、その人の拡張枠に±3Fの球があれば auto_ball_single_visible。−8〜+4Fを通じ片方の枠がなく、相方が映り、−10〜+5Fに相方の元枠から幅1.5倍以内の球がなければ auto_context_offscreen（他の票より優先）。候補球ゼロもこの条件に含むため、誤検出・未検出に弱い。特定Fの判定分岐はない。','',
         '## C：枠がない人物の推定位置','',
         '同一表示ラリー内で最後に得た有効な観測枠の位置を保持し、status/filter_status=offscreen_hold。次の観測では解除。ラリーをまたがず、初観測以前は作らない。破線白抜き円と「画面外・推定」で表示し、打者間の模式線にも使う。枠欠測は画面外か検出漏れかをこの処理だけでは区別できない。','',
@@ -448,7 +480,7 @@ def write_report(s):
         '5本は1920×1080、15fps、無音。元映像のPTSから原Fを照合し、原則2Fごとと確認用の厳密なFを収録。全編復号・コマ数を検査。確認画像 check_review2_p*.jpg。verify_court_view.py / verify_abc.py は review2 の独立検証へ振り分ける。旧版専用の不変条件（B/C凍結など）は今回の変更条件と両立しないため、旧版の監査関数は保持し、review2用で新規則を検証する。','',
         '入力追跡・ラベル・姿勢・球候補・原動画をSHA-256で前後照合。review2_before/ は変更直前の派生CSV、hitter_auto_before_review2.csv は打者表の元バイトを保存。新規の256KiB超CSVはgit除外。commit/pushは実行しない。','',
         '## 残る問題','',
-        '第7点6の名前は要再確認。人物再接続は空き名の規則に基づき、外見で本人を確認したものではない。同じtrack内部の人物取り違えは修正しない。画面外保持は移動を表せず、模式線は球軌道ではない。下隠れの長い補間は見えない前後移動を消す。短い本当の前後移動とジャンプはy2だけでは完全に識別できない。サーブ時ベースライン位置は仮定で、投影・選手位置の精度は独立参照で未検証。指摘32例への一致を研究上の汎化性能とみなさない。','']
+        '人物再接続は空き名の規則に基づき、外見で本人を確認したものではない。同じtrack内部の人物取り違えは修正しない。画面外保持は移動を表せず、模式線は球軌道ではない。下隠れの長い補間は見えない前後移動を消す。短い本当の前後移動とジャンプはy2だけでは完全に識別できない。サーブ時ベースライン位置は仮定で、投影・選手位置の精度は独立参照で未検証。指摘32例への一致を研究上の汎化性能とみなさない。','']
     lines += ['## 表示上の自動値','',
         '動画帯の「自動: N?」等はAに保存した変更前auto_hitterを示す。改訂後の自動判定はhitter_auto.csvに保存し、正解と区別して照合する。人物再認識Dにより第7点F23934ではN2も映るようになったため、改訂後は単独可視規則ではなく通常のauto_ballでN1となる。','',
         'review2時点では25.3m超が第7点F1に411F、第8点F1に140F、第11点F2に139F残った。今回との差は上表。件数だけでは精度を評価できない。','']
@@ -463,10 +495,10 @@ def write_report(s):
         'review2b_before/ は今回直前のreview2派生出力を保存。手前選手の既存列は全行一致、両版で表示可能なfar横座標は全行固定して検証する。新しく有効化されたFの横座標は従来の観測x処理を使用する。深さが棄却され欠測化したFでは配置点を表示しない。第11点F2のF32946〜33000は速度棄却で、次の採用点までの間隔が従来の30F補間上限を超えたため欠測になる。速度・高さ・補間上限を今回の改善に合わせて緩めることはしていない。','']
     (OUT/'review2_report.md').write_text('\n'.join(lines),encoding='utf-8',newline='\n')
     readme=['# match2 第7〜11点：人の確認を反映したコート図（review2）','',
-        '5本の point_07〜11.mp4 は打者に human_confirmed_hitters_p07_11.csv の confirmed_hitter を使用し「確認済」と表示する。自動判定と異なる打球には自動名も表示。第7点6は回答の名前を追跡情報から N2 と解釈しており、要再確認。時刻・側・ラリーは既存の本人ラベル。位置・人物自動対応・球候補の精度は未検証。','',
+        '5本の point_07〜11.mp4 は打者に human_confirmed_hitters_p07_11.csv の confirmed_hitter を使用し「確認済」と表示する。自動判定と異なる打球には自動名も表示。第7点6（F23803）は2026-11-19の本人再確認でN2と確定。最初の回答N1は名前の取り違えとして履歴に残す。時刻・側・ラリーは既存の本人ラベル。位置・人物自動対応・球候補の精度は未検証。','',
         f'正解表32行との一致：変更前 {a[0]["matches"]}/32（未決定{a[0]["undecided"]}）、変更後 {a[1]["matches"]}/32（未決定{a[1]["undecided"]}）。同じ例で規則を調整した照合であり、独立評価ではない。','',
         '## A〜E の規則','',
-        '- A：25打球は旧自動結果を本人了承、6打球は明示回答、1打球は回答を再解釈。元の回答と解釈を別列に保存。番号は点内の行順。',
+        '- A：25打球は旧自動結果を本人了承、6打球は明示回答、1打球は本人再確認で確定。元の回答と確定打者・確認根拠を別列に保存。番号は点内の行順。',
         '- B：球曖昧は棄権し手首が決まれば採用。両距離が各枠幅25%未満なら球曖昧。単独可視枠内の球、片方欠測かつ相方の近くに球なし、の一般規則を追加。hitter_auto.csvは自動結果のまま保持。rule_version=review2_20261119。',
         '- C：枠欠測中はラリー内の最終観測位置を保持（offscreen_hold）。右図の破線白抜き円＋画面外・推定。模式線にも使用。次の観測で解除。',
         '- D：同側の人物名が欠測中に非審判の新trackが現れたら、既知の相方との重複を禁じて空き名へ対応。時間・距離ゲートを外し、競合候補は前位置への距離最小。初接続はreentry_vacant_slot。',
@@ -540,6 +572,9 @@ def main():
         from verify_review2 import main as verify
         verify();return
     s=json.loads((OUT/'cleaning_summary.json').read_text(encoding='utf-8')) if args.render_only else prepare()
+    if args.render_only:
+        truth=truth_table(pd.read_csv(OUT/'hitter_auto_before_review2.csv').fillna(''))
+        update_confirmation(s,truth)
     c.finalize(s)
     csv('review2_far_depth_counts.csv',s['review2_depth_counts'])
     b.dump(OUT/'cleaning_summary.json',s)

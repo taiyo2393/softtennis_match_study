@@ -4,7 +4,7 @@
 7,3,23482,F,F1,auto_ball_wrist,,F1,auto_accepted_by_user,2026-11-19 ユーザー確認
 7,4,23565,N,N2,auto_ball_wrist,,N2,auto_accepted_by_user,2026-11-19 ユーザー確認
 7,5,23650,F,F1,auto_ball,,F1,auto_accepted_by_user,2026-11-19 ユーザー確認
-7,6,23803,N,N?,undecided,N1,N2,user_answer_reinterpreted,画面外にいたのは追跡上 N2。名前の取り違えと判断。要再確認
+7,6,23803,N,N?,undecided,N1,N2,user_confirmed_after_recheck,最初の回答はN1。2026-11-19 の再確認でN2と確定（名前の取り違え）
 7,7,23906,F,F2,auto_ball_wrist,,F2,auto_accepted_by_user,2026-11-19 ユーザー確認
 7,8,23934,N,N?,undecided,N1,N1,user_answered,2026-11-19 ユーザー確認
 8,1,25246,F,F1,auto_ball_wrist,,F1,auto_accepted_by_user,2026-11-19 ユーザー確認

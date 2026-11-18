@@ -15,15 +15,12 @@
   "baseline_sha256_verified": 19,
   "human_reference_rows": 32,
   "agreement": {
+    "total": 32,
+    "confirmed_rows": 32,
     "before": 25,
     "after": 32,
     "undecided_before": 7,
-    "undecided_after": 0,
-    "excluding_reinterpreted": {
-      "total": 31,
-      "before": 25,
-      "after": 31
-    }
+    "undecided_after": 0
   },
   "points": {
     "7": {
