@@ -1,4 +1,4 @@
-"""本人の32打球すべてから確認画面を生成。書込みは motion_ui/data.json のみ。"""
+"""本人打球から第8点手前を除いた確認画面を生成。書込みは motion_ui/data.json のみ。"""
 from __future__ import annotations
 from collections import Counter
 import csv
@@ -62,6 +62,24 @@ def role_note(r):
     return note
 
 
+def box_suspect_check(tracks, slot, contact, end):
+    """対象区間の全フレームを分母にする。欠測・非有限値はコート外と数えない。"""
+    outside, observed = 0, 0
+    total = end - contact + 1
+    assert total > 0
+    for frame in range(contact, end + 1):
+        track = tracks.get((frame, slot))
+        if not track or not track['court_proxy_x'] or not track['court_proxy_y']:
+            continue
+        x, y = float(track['court_proxy_x']), float(track['court_proxy_y'])
+        if not (math.isfinite(x) and math.isfinite(y)):
+            continue
+        observed += 1
+        # 横方向の外れのみを判定。縦方向（y）のコート外だけでは警告しない。
+        outside += x <= -.15 or x >= 1.15
+    return dict(outside_frames=outside, observed_frames=observed, interval_frames=total)
+
+
 def build():
     human_path = BASE / 'labels_human/human_labels_20261118.csv'
     motion_path = BASE / 'v_human/net_motion/motions_main.csv'
@@ -73,7 +91,7 @@ def build():
     clip_path = BASE / 'label_ui/data.json'
     inputs = {human_path, motion_path, trajectory_path, role_path, paper_path, clip_path, CAL}
     human = [r for r in read_csv(human_path) if r['condition'] == 'without_candidates']
-    assert len(human) == 32 and all(r['status'] == 'completed' for r in human)
+    assert human and all(r['status'] == 'completed' for r in human)
     shots = {}
     for r in human:
         key = (int(r['point']), int(r['rally_no']))
@@ -100,6 +118,10 @@ def build():
     random.Random(ORDER_SEED).shuffle(selected)
     roles = {(int(r['point']), int(r['contact_frame'])): r for r in read_csv(role_path)}
     assert len(roles) == len(human) and set(roles) == set(human_by_key)
+    excluded = [ident for ident in selected if roles[int(motions['bbox'][ident]['point']),
+        int(motions['bbox'][ident]['contact_frame'])]['exclude_p8_near'] == 'True']
+    # 既存の固定順を保ち、対象外の項目だけを取り除く。
+    selected = [ident for ident in selected if ident not in excluded]
     clips = {int(c['point']): c for c in json.loads(clip_path.read_text(encoding='utf-8'))['clips']}
     # Inverse-project the stored raw court metres to native video pixels.
     cal = json.loads(CAL.read_text(encoding='utf-8-sig'))
@@ -149,6 +171,7 @@ def build():
         stop = min(first+count-1, max(contact+round(fps), end, nxt+round(.2*fps) if nxt is not None else contact+round(fps)))
         assert first <= start <= contact <= end <= stop < first+count, ident
         assert 0 <= (start-first)/fps and (stop-first+.5)/fps < count/fps, ident
+        check = box_suspect_check(tracks[point], r['front_slot'], contact, end)
         boxes = []
         for frame in range(start, stop+1):
             t = tracks[point].get((frame, r['front_slot']))
@@ -184,6 +207,7 @@ def build():
             previous_contact_frame=prev, next_contact_frame=nxt,
             front_slot=r['front_slot'], front_side=r['front_side'], end_frame=end,
             role_note=role_note(role), role_selection=role, exclude_p8_near=role['exclude_p8_near'] == 'True',
+            box_suspect=check['outside_frames'] * 2 >= check['interval_frames'], box_suspect_check=check,
             clip=f"../label_ui/{clip['file']}", source_first_frame=first, frame_count=count,
             fps_num=clip['fps_num'], fps_den=clip['fps_den'], box_width=1920, box_height=1080,
             start_frame=start, stop_frame=stop, boxes=boxes, trajectories=paths,
@@ -197,18 +221,23 @@ def build():
         paper[key] = value
     hashes = {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(inputs)}
     digest = hashlib.sha256(json.dumps(hashes, sort_keys=True).encode()).hexdigest()[:16]
-    payload = dict(schema_version=3, dataset_id=f'motion-review-human-20261118-{digest}',
+    payload = dict(schema_version=3, dataset_id=f'motion-review-human-20261118-v4-{digest}',
         label_condition='without_candidates', order_seed=ORDER_SEED, condition=dict(W_sec=.4, D_m=.3),
+        excluded_ids=excluded,
         trajectory_note='trajectories_main raw court metres inverse-projected to native pixels; missing frames not interpolated; ankle may use bbox fallback',
         paper_reference=dict(source='v_human/net_motion/paper_comparison.csv',
             provenance='inherited_v2_PAPER_not_rechecked_against_original', rows=list(paper.values())),
         input_sha256=hashes, items=items)
-    assert len(items) == len({i['id'] for i in items}) == 32
+    assert len(items) == len({i['id'] for i in items}) == len(human) - len(excluded)
+    assert not any(i['exclude_p8_near'] for i in items)
     raw = (json.dumps(payload, ensure_ascii=False, separators=(',', ':'))+'\n').encode('utf-8')
     assert len(raw) < 256_000, f'data.json は256KB未満にする: {len(raw)} bytes'
     (HERE/'data.json').write_bytes(raw)
     counts = {m: dict(Counter(i['predictions'][m]['classification'] for i in items)) for m in METHODS}
     print(f'生成成功: 全{len(items)}件、seed={ORDER_SEED}、全範囲clip内assert済み、{len(raw):,} bytes')
+    print(f'第8点手前の除外: {len(excluded)}件 ({", ".join(excluded)})')
+    suspects = [i['id'] for i in items if i['box_suspect']]
+    print(f'box_suspect: {len(suspects)}件 ({", ".join(suspects)})')
     print(json.dumps(counts, ensure_ascii=False))
 
 

@@ -5,6 +5,10 @@ const path=require('node:path');
 require('./app.js');
 const C=globalThis.MotionCore;
 const data=JSON.parse(fs.readFileSync(path.join(__dirname,'data.json'),'utf8'));
+const count=data.items.length, storageKey='softtennis-motion-human-20261118-v4';
+assert.equal(count,28);
+assert.deepEqual([...data.excluded_ids].sort(),['p08_1_01','p08_1_03','p08_1_05','p08_1_07']);
+assert.ok(data.items.every(i=>!i.exclude_p8_near&&!data.excluded_ids.includes(i.id)));
 const n=['straight_front','right_front','right_lateral','right_back','straight_back','left_back','left_lateral','left_front'];
 C.DIRS.forEach((d,i)=>{assert.equal(C.convert(d,'N'),n[i]);assert.equal(C.convert(d,'F'),n[(i+4)%8]);});
 assert.equal(C.dir3('right_front'),'front');assert.equal(C.dir3('left_back'),'back');assert.equal(C.dir3('left_lateral'),'lateral');
@@ -38,40 +42,73 @@ const rows=data.items.map((i,k)=>{
   if(k%3===0)Object.assign(x,{contact_judgment:'違う',corrected_contact_frame:i.contact_frame-3});
   assert.equal(C.valid(i,x),'',i.id);return C.row(i,x,12500,'ダミー');
 });
-assert.equal(rows.length,32);assert.equal(Object.keys(rows[0]).length,C.FIELDS.length);
+assert.equal(rows.length,count);assert.equal(Object.keys(rows[0]).length,C.FIELDS.length);
 assert.equal(data.schema_version,3);assert.equal(data.order_seed,20261118);assert.equal(data.label_condition,'without_candidates');
 assert.deepEqual(C.SOURCES,['bbox','ankle']);assert.ok(C.FIELDS.every(k=>!k.startsWith('claude_')));
 for(const i of data.items){
   const fps=i.fps_num/i.fps_den;
-  assert.ok(i.source_first_frame<=i.start_frame&&i.start_frame<=i.contact_frame&&i.contact_frame<=i.stop_frame&&i.stop_frame<i.source_first_frame+i.frame_count);
+  assert.ok(i.source_first_frame<=i.start_frame&&i.start_frame<=i.contact_frame&&i.contact_frame<=i.end_frame&&i.end_frame<=i.stop_frame&&i.stop_frame<i.source_first_frame+i.frame_count);
   assert.equal(i.clip,`../label_ui/clips/point_${String(i.point).padStart(2,'0')}.mp4`);
   assert.deepEqual(Object.keys(i.predictions),['bbox','ankle']);
   assert.ok(i.role_note.length>0);
   assert.ok((i.stop_frame-i.source_first_frame+.5)/fps<i.frame_count/fps);
   assert.equal(i.start_frame,Math.max(i.source_first_frame,Math.min(i.contact_frame-Math.round(fps),i.previous_contact_frame===null?i.contact_frame-Math.round(fps):i.previous_contact_frame-Math.round(.2*fps))));
-  assert.equal(i.stop_frame,Math.min(i.source_first_frame+i.frame_count-1,Math.max(i.contact_frame+Math.round(fps),i.next_contact_frame===null?i.contact_frame+Math.round(fps):i.next_contact_frame+Math.round(.2*fps))));
+  assert.equal(i.stop_frame,Math.min(i.source_first_frame+i.frame_count-1,Math.max(i.contact_frame+Math.round(fps),i.end_frame,i.next_contact_frame===null?i.contact_frame+Math.round(fps):i.next_contact_frame+Math.round(.2*fps))));
+  assert.equal(typeof i.box_suspect,'boolean');
+  assert.equal(i.box_suspect,i.box_suspect_check.outside_frames*2>=i.box_suspect_check.interval_frames);
   for(const points of Object.values(i.trajectories))assert.ok(points.every(p=>p[0]>=i.contact_frame&&p[0]<=i.end_frame));
 }
 assert.ok(fs.statSync(path.join(__dirname,'data.json')).size<256000);
 const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8');const js=fs.readFileSync(path.join(__dirname,'app.js'),'utf8');
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
 for(const m of js.matchAll(/\$\("([^"]+)"\)/g))assert.ok(ids.includes(m[1]),'HTML id missing: '+m[1]);
-assert.ok(js.includes('softtennis-motion-human-20261118-v3'));assert.ok(!js.includes('softtennis-motion-confirm-1986-v2'));
+assert.ok(js.includes(storageKey));assert.ok(!js.includes('softtennis-motion-human-20261118-v3'));assert.ok(!js.includes('softtennis-motion-confirm-1986-v2'));
 assert.ok(!/claude|推定/.test(js+html));assert.ok(!js.includes('softtennis-motion-reference-1986-v1'));
 assert.ok(js.includes('response.blob()'));assert.ok(js.includes('a.download = "motion_review.csv"'));
 const csv=C.csv(rows);assert.ok(csv.startsWith('\ufeff'));assert.ok(csv.includes('引用符""、カンマ, 改行\n次の行'));
 assert.equal(C.zoomRegion({boxes:[]}),null);
+function checkZoom(i,boxes) {
+  const region=C.zoomRegion(i), eps=1e-9;
+  assert.ok(Number.isFinite(region.sx)&&Number.isFinite(region.sy)&&Number.isFinite(region.size));
+  assert.ok(region.size+eps>=3*Math.max(...boxes.map(b=>b[4]-b[2])),'区間の最大高さの3倍以上: '+i.id);
+  for(const [,x1,y1,x2,y2] of boxes) {
+    assert.ok(region.sx<=x1+eps&&region.sy<=y1+eps&&region.sx+region.size+eps>=x2&&region.sy+region.size+eps>=y2,'区間のすべての箱を含む: '+i.id);
+    for(const [x,y] of [[x1,y1],[x2,y2]])
+      C.zoomPoint(region,x,y,640).forEach(v=>assert.ok(v>=-eps&&v<=640+eps));
+  }
+  return region;
+}
+// 打球前・分類後の遠い箱を無視し、両端を含む区間全体と最大高さを使う。
+const span={id:'synthetic-span',contact_frame:100,end_frame:110,boxes:[
+  [40,-2000,-2000,-1900,-1800],[100,100,200,140,300],
+  [105,400,300,450,500],[110,900,800,940,900],[111,4000,4000,4100,4300]]};
+const inSpan=span.boxes.slice(1,4), spanRegion=checkZoom(span,inSpan);
+assert.deepEqual(spanRegion,C.zoomRegion({...span,boxes:inSpan}),'表示範囲の最初の箱に影響されない');
+assert.ok(spanRegion.size>3*200,'広く移動する場合は高さ3倍より範囲を広げる');
+const growing={id:'synthetic-max-height',contact_frame:100,end_frame:101,
+  boxes:[[100,100,200,150,300],[101,100,200,180,360]]};
+checkZoom(growing,growing.boxes);
+// 区間内に箱がない場合、打球に最も近い箱で中心と高さ3倍を決める。
+for(const [boxes,nearestIndex] of [
+  [[[40,0,0,40,100],[99,200,300,250,500],[115,900,900,940,1000]],1],
+  [[[40,0,0,40,100],[85,900,900,940,1000],[111,200,300,250,500]],2]
+]) {
+  const fallback={id:'fallback',contact_frame:100,end_frame:110,boxes};
+  const nearest=boxes[nearestIndex];
+  const region=checkZoom(fallback,[nearest]), [,x1,y1,x2,y2]=nearest;
+  assert.equal(region.size,3*(y2-y1));
+  assert.deepEqual(C.zoomPoint(region,(x1+x2)/2,(y1+y2)/2,640),[320,320]);
+}
 for(const i of data.items) {
   assert.ok(i.boxes.every((b,k)=>k===0||i.boxes[k-1][0]<b[0]),'箱はフレーム順');
   if(!i.boxes.length)continue;
-  const [,x1,y1,x2,y2]=i.boxes[0], region=C.zoomRegion(i);
-  assert.equal(region.size,3*(y2-y1));
-  const center=C.zoomPoint(region,(x1+x2)/2,(y1+y2)/2,640);
-  center.forEach(v=>assert.ok(Math.abs(v-320)<1e-9));
+  const interval=i.boxes.filter(b=>b[0]>=i.contact_frame&&b[0]<=i.end_frame);
+  const use=interval.length?interval:[i.boxes.reduce((a,b)=>Math.abs(a[0]-i.contact_frame)<=Math.abs(b[0]-i.contact_frame)?a:b)];
+  checkZoom(i,use);
 }
 
 // ブラウザを起動せず、実際のイベント配線・フレーム更新とcanvas呼出しを検証する。
-async function checkUI(frameCallbacks, firstAction) {
+async function checkUI(frameCallbacks, firstAction, fixture=data) {
   const vm=require('node:vm');
   let now=1000, interval, animation;
   const docListeners={};
@@ -106,12 +143,13 @@ async function checkUI(frameCallbacks, firstAction) {
   });
   if(frameCallbacks)video.requestVideoFrameCallback=fn=>{animation=fn;};
   els.speed.value='1';
-  const storage=new Map();
+  const oldKey='softtennis-motion-human-20261118-v3', oldValue='{"unfinished":"previous session"}';
+  const storage=new Map([[oldKey,oldValue]]);
   const context=vm.createContext({
     document:{getElementById:id=>els[id],createElement:tag=>new Element(tag),querySelectorAll:selector=>selector==='[data-step]'?[stepButton]:choices[selector.match(/^\[data-(\w+)\]$/)?.[1]]||[],addEventListener(k,fn){docListeners[k]=fn;}},
     window:{addEventListener(){}},
     localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},
-    fetch:async file=>({ok:true,json:async()=>structuredClone(data),blob:async()=>({})}),
+    fetch:async file=>({ok:true,json:async()=>structuredClone(fixture),blob:async()=>({})}),
     URL:{createObjectURL:()=> 'blob:test',revokeObjectURL(){}},
     Date:class extends Date { static now() { return now; } },
     requestAnimationFrame:fn=>{animation=fn;},setInterval:fn=>{interval=fn;},setTimeout(){}
@@ -123,12 +161,13 @@ async function checkUI(frameCallbacks, firstAction) {
   const waiting='作業時間 —（最初の操作から計時）';
   assert.equal(els.timing.textContent,waiting);
   now+=35000;interval();
-  const saved=()=>JSON.parse(storage.get('softtennis-motion-human-20261118-v3'));
-  const first=data.items[0], zoom=els.zoom.getContext(), overlay=els.overlay.getContext();
+  const saved=()=>JSON.parse(storage.get(storageKey));
+  assert.equal(storage.get(oldKey),oldValue,'旧版の途中記録を読み込まず、上書きもしない');
+  const first=fixture.items[0], zoom=els.zoom.getContext(), overlay=els.overlay.getContext();
   assert.equal(saved().labels[first.id].seconds,0,'開いて35秒待っても0秒');
   assert.equal(els.timing.textContent,waiting);
   assert.equal(els.roleReason.textContent,first.role_note);
-  assert.match(els.progress.textContent,/32件/);
+  assert.ok(els.progress.textContent.endsWith(`${count}件`));
   assert.equal(els.predictions.children.length,2);assert.equal(els.judgments.children.length,2);
   assert.equal(els.zoomOrientation.textContent,`画面の上＝前衛から見て ${first.front_side==='F'?'後ろ':'前'}`);
   const crop=zoom.calls.find(c=>c.name==='drawImage').args.slice(1);
@@ -170,7 +209,7 @@ async function checkUI(frameCallbacks, firstAction) {
   await new Promise(resolve=>setImmediate(resolve));
   assert.equal(saved().index,1,els.validation.textContent);
   now+=35000;interval();assert.equal(els.timing.textContent,waiting);
-  assert.equal(saved().labels[data.items[1].id].seconds,0,'次の件も最初の操作まで未開始');
+  assert.equal(saved().labels[fixture.items[1].id].seconds,0,'次の件も最初の操作まで未開始');
   await els.prev.fire('click');
   await new Promise(resolve=>setImmediate(resolve));
   now+=35000;interval();
@@ -182,13 +221,15 @@ async function checkUI(frameCallbacks, firstAction) {
   await els.timeline.fire('input');await video.fire('seeked');
   docListeners.keydown({key:'t',target:{closest:()=>null},preventDefault(){}});
   assert.equal(saved().labels[first.id].corrected_contact_frame,first.contact_frame-2);
-  assert.equal(data.items[0].contact_frame,first.contact_frame);
+  assert.equal(fixture.items[0].contact_frame,first.contact_frame);
   els.contactChoices.children[0].children[0].onclick();
-  // 32件すべてを移動。枠なし・軌跡なし・判定不能も完了可能であること。
-  for(let k=0;k<data.items.length;k++) {
-    const i=data.items[k];
+  // 全件を移動。警告の表示・解除、枠なし・軌跡なし・判定不能も確認。
+  for(let k=0;k<fixture.items.length;k++) {
+    const i=fixture.items[k];
     assert.equal(saved().index,k);
     assert.equal(els.roleReason.textContent,i.role_note);
+    assert.equal(els.boxWarning.hidden,!i.box_suspect);
+    assert.equal(els.boxWarning.textContent,i.box_suspect?'枠が選手でない可能性（コートの外）':'');
     assert.equal(els.predictions.children.length,2);
     assert.equal(els.judgments.children.length,2);
     if(!i.boxes.length)assert.match(els.zoomStatus.textContent,/拡大できません/);
@@ -205,13 +246,15 @@ async function checkUI(frameCallbacks, firstAction) {
     await video.fire('seeked');
     assert.equal(saved().labels[i.id].completed,true,els.validation.textContent);
   }
-  assert.equal(saved().index,31);
-  assert.match(els.progress.textContent,/完了 32 \/ 32件/);
+  assert.equal(saved().index,count-1);
+  assert.equal(els.progress.textContent,`完了 ${count} / ${count}件 · 表示 ${count} / ${count}件`);
   assert.match(els.validation.textContent,/全件が完了/);
 }
 
 (async()=>{
   await checkUI(true,'play');await checkUI(true,'step');await checkUI(false,'seek');
+  const warningData=structuredClone(data);warningData.items[0].box_suspect=true;
+  await checkUI(true,'play',warningData);
   if(process.argv.includes('--csv'))process.stdout.write(csv);
-  else console.log('成功：本人打球の判定・CSV・全32件検証、拡大座標・固定切抜き・表示連動・両フレームAPI・初操作まで計時なし・60秒境界');
+  else console.log(`成功：本人打球の判定・CSV・全${count}件検証、警告表示・保存キー分離・拡大範囲と欠測時の代替・固定切抜き・表示連動・両フレームAPI・初操作まで計時なし・60秒境界`);
 })().catch(e=>{console.error(e);process.exitCode=1;});

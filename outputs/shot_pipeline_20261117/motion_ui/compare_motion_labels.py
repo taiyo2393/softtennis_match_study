@@ -211,7 +211,7 @@ def report(labels, items, sources, stream=None):
     print('\n一致の方向・単複は本人が動きありで該当回答がある行。予測がなし／判定不能なら不一致。', file=out)
     print('打球修正行も元の分類との比較に含む（分類の再計算なし）。監査欄に件数を示す。', file=out)
     print('注意：予測を提示した確認作業であり、独立した盲検の正解率ではない。採用した予測と本人回答の一致には循環性がある。', file=out)
-    print('without_candidates の本人32打球を全件対象とする。同一試合の少数例であり、未知試合への汎化精度にはできない。', file=out)
+    print(f'without_candidates の本人打球から第8点手前を除いた{len(items)}件を対象とする。同一試合の少数例であり、未知試合への汎化精度にはできない。', file=out)
     composition_report(labels, items, out)
     return results
 
@@ -226,13 +226,17 @@ class ComparisonTests(unittest.TestCase):
         base = HERE.parent
         human = [r for r in read_csv(base/'labels_human/human_labels_20261118.csv')
                  if r['condition'] == 'without_candidates']
-        self.assertEqual({(i['point'], i['contact_frame']) for i in items.values()},
-                         {(int(h['point']), int(h['frame'])) for h in human})
-        order = sorted(items)
-        random.Random(20261118).shuffle(order)
-        self.assertEqual(list(items), order)
         main = read_csv(base/'v_human/net_motion/motions_main.csv')
         roles = {(int(r['point']), int(r['contact_frame'])):r for r in read_csv(base/'v_human/net_motion/role_selection.csv')}
+        self.assertEqual({(i['point'], i['contact_frame']) for i in items.values()},
+                         {(int(h['point']), int(h['frame'])) for h in human
+                          if roles[int(h['point']), int(h['frame'])]['exclude_p8_near'] != 'True'})
+        self.assertEqual(set(data['excluded_ids']), {'p08_1_01','p08_1_03','p08_1_05','p08_1_07'})
+        self.assertEqual(len(items), len(human) - len(data['excluded_ids']))
+        self.assertTrue(all(not i['exclude_p8_near'] for i in items.values()))
+        order = sorted({r['id'] for r in main})
+        random.Random(20261118).shuffle(order)
+        self.assertEqual(list(items), [ident for ident in order if ident not in data['excluded_ids']])
         for i in items.values():
             group = sorted((h for h in human if int(h['point']) == i['point'] and int(h['rally_no']) == i['rally']), key=lambda h:int(h['frame']))
             at = next(k for k,h in enumerate(group) if int(h['frame']) == i['contact_frame'])
@@ -247,9 +251,50 @@ class ComparisonTests(unittest.TestCase):
                 self.assertEqual(i['predictions'][method]['direction3'], r['final_direction3'])
                 self.assertEqual(i['predictions'][method]['direction8'], r['final_direction8'])
         for method in SOURCES:
-            self.assertEqual(sum(p['classification'] == 'unclassifiable' for p in sources[method].values()), 4)
+            self.assertEqual(sum(p['classification'] == 'unclassifiable' for p in sources[method].values()), 3)
         for rel, digest in data['input_sha256'].items():
             self.assertEqual(hashlib.sha256((base.parent.parent/rel).read_bytes()).hexdigest(), digest)
+
+    def test_box_suspect_threshold_window_and_missing(self):
+        from build_motion_ui import box_suspect_check
+        def track(x, y=.5):
+            return dict(court_proxy_x=str(x), court_proxy_y=str(y))
+        tracks = {(99,'front'):track(-1), (100,'front'):track(-.15),
+                  (101,'front'):track(1.15), (102,'front'):track(.5, 3),
+                  (104,'front'):track(-1), (102,'other'):track(-1)}
+        check = box_suspect_check(tracks,'front',100,103)
+        self.assertEqual(check, dict(outside_frames=2, observed_frames=3, interval_frames=4))
+        self.assertTrue(check['outside_frames'] * 2 >= check['interval_frames'])  # ちょうど半分
+        tracks[101,'front'] = track(1.149999)
+        check = box_suspect_check(tracks,'front',100,103)
+        self.assertEqual(check['outside_frames'],1)
+        self.assertFalse(check['outside_frames'] * 2 >= check['interval_frames'])
+        tracks[100,'front'] = track(-.149999)
+        self.assertEqual(box_suspect_check(tracks,'front',100,103)['outside_frames'],0)
+        tracks[100,'front'] = track('nan')
+        tracks[101,'front'] = track(-1,'')
+        self.assertEqual(box_suspect_check(tracks,'front',100,101),
+                         dict(outside_frames=0, observed_frames=0, interval_frames=2))
+        self.assertEqual(box_suspect_check({},'',100,103),
+                         dict(outside_frames=0, observed_frames=0, interval_frames=4))
+
+    def test_box_suspect_matches_tracking_csv(self):
+        from build_motion_ui import read_csv
+        items, _ = load_sources()
+        tracking = {}
+        for i in items.values():
+            point = i['point']
+            if point not in tracking:
+                tracking[point] = read_csv(HERE.parent/f'tracking/point_{point:02d}/player_court_proxies.csv')
+            coords = [(float(t['court_proxy_x']),float(t['court_proxy_y'])) for t in tracking[point]
+                      if t['player_slot'] == i['front_slot'] and i['contact_frame'] <= int(t['source_frame']) <= i['end_frame']
+                      and t['court_proxy_x'] and t['court_proxy_y']]
+            finite = [(x,y) for x,y in coords if math.isfinite(x) and math.isfinite(y)]
+            outside = sum(x <= -.15 or x >= 1.15 for x,y in finite)
+            total = i['end_frame'] - i['contact_frame'] + 1
+            self.assertEqual(i['box_suspect_check'], dict(outside_frames=outside,
+                             observed_frames=len(finite), interval_frames=total))
+            self.assertEqual(i['box_suspect'], outside * 2 >= total)
 
     def test_composition_uses_human_answers_and_explicit_denominators(self):
         items = {str(k):dict(front_slot='near_front', exclude_p8_near=k == 0) for k in range(6)}
@@ -270,20 +315,21 @@ class ComparisonTests(unittest.TestCase):
 
     def test_roundtrip_real_sources(self):
         items, sources = load_sources()
-        self.assertEqual(len(items), 32)
+        n = len(items)
+        self.assertEqual(n, 28)
         self.assertEqual(set(sources), {'bbox','ankle'})
-        self.assertTrue(all(len(s) == 32 for s in sources.values()))
-        # 実際のJS exporterで32件のダミーCSVを作り、Python loaderとCLIまで通す。
+        self.assertTrue(all(len(s) == n for s in sources.values()))
+        # 実際のJS exporterで全件のダミーCSVを作り、Python loaderとCLIまで通す。
         proc = subprocess.run(['node', str(HERE/'test_motion_ui.js'), '--csv'], capture_output=True, text=True, encoding='utf-8', check=True)
         with tempfile.TemporaryDirectory(prefix='.motion-review-test-', dir=HERE) as tmp:
             path = Path(tmp)/'motion_review.csv'
             path.write_bytes(proc.stdout.encode('utf-8'))
             labels = load_labels(path, items)
-            self.assertEqual(len(labels), 32)
+            self.assertEqual(len(labels), n)
             self.assertIn('改行\n', next(iter(labels.values()))['note'])
             result = report(labels, items, sources, io.StringIO())
-            self.assertEqual(result['bbox']['audit']['shared'], 32)
-            self.assertEqual(contact_stats(labels)['shifted'], 11)
+            self.assertEqual(result['bbox']['audit']['shared'], n)
+            self.assertEqual(contact_stats(labels)['shifted'], len(range(0,n,3)))
             self.assertEqual(contact_stats(labels)['deltas'][0][1], -3)
             cli = subprocess.run([sys.executable,'-X','utf8','-B',str(Path(__file__).resolve()),str(path)], capture_output=True,text=True,encoding='utf-8')
             self.assertEqual(cli.returncode, 0, cli.stderr)

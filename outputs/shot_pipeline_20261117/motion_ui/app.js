@@ -24,11 +24,20 @@
       `作業時間 ${(elapsed(t,now)/1000).toFixed(1)}秒（60秒以上の無操作は除外）`;
   }
   function zoomRegion(item) {
-    // 区間の最初の箱で中心・倍率を固定する。再生・シークで追従させない。
-    const first=item.boxes[0];
-    if (!first) return null;
-    const [,x1,y1,x2,y2]=first, size=3*(y2-y1);
-    return {sx:(x1+x2-size)/2,sy:(y1+y2-size)/2,size};
+    // 相手の打球から分類区間の終わりまでの箱で、中心・倍率を固定する。
+    // 表示範囲の最初の箱は打球の数秒前のことがあり、前衛が映らなかった（2026-11-18、本人の指摘）。
+    if (!item.boxes || !item.boxes.length) return null;
+    const lo=item.contact_frame ?? -Infinity, hi=item.end_frame ?? Infinity;
+    let use=item.boxes.filter(b=>b[0]>=lo&&b[0]<=hi);
+    if (!use.length) {
+      const near=[...item.boxes].sort((a,b)=>Math.abs(a[0]-lo)-Math.abs(b[0]-lo));
+      use=near.slice(0,1);
+    }
+    const X1=Math.min(...use.map(b=>b[1])), Y1=Math.min(...use.map(b=>b[2]));
+    const X2=Math.max(...use.map(b=>b[3])), Y2=Math.max(...use.map(b=>b[4]));
+    const h=Math.max(...use.map(b=>b[4]-b[2]));
+    const size=Math.max(3*h, 1.4*(X2-X1), 1.4*(Y2-Y1));
+    return {sx:(X1+X2-size)/2,sy:(Y1+Y2-size)/2,size};
   }
   function zoomPoint(region,x,y,width) { return [(x-region.sx)*width/region.size,(y-region.sy)*width/region.size]; }
   function sources(item) { return SOURCES.filter(s => item.predictions[s]); }
@@ -103,7 +112,7 @@
   const $ = id => document.getElementById(id);
   const video = $("video"), canvas = $("overlay"), ctx = canvas.getContext("2d");
   const zoomCanvas = $("zoom"), zoomCtx = zoomCanvas.getContext("2d");
-  const STORAGE = "softtennis-motion-human-20261118-v3";
+  const STORAGE = "softtennis-motion-human-20261118-v4";
   let data, index = 0, ready = false, blocked = false, storageWarning = "", db, selected = false;
   let shownFrame = 0, seekTarget = null, token = 0, blobUrl = null, blobFile = null;
   let timer = {ms:0,last:null}, frameCallbacks = "requestVideoFrameCallback" in video;
@@ -379,6 +388,8 @@
     $("side").textContent = item.front_side === "N" ? "手前の前衛 N" : "奥の前衛 F";
     $("target").textContent = `追跡slot：${item.front_slot || "未確定"} · 表示範囲：F${item.start_frame}〜F${item.stop_frame}`;
     $("roleReason").textContent = item.role_note;
+    $("boxWarning").hidden = !item.box_suspect;
+    $("boxWarning").textContent = item.box_suspect ? "枠が選手でない可能性（コートの外）" : "";
     canvas.width = item.box_width; canvas.height = item.box_height;
     $("timeline").min = item.start_frame; $("timeline").max = item.stop_frame;
     renderPredictions();
