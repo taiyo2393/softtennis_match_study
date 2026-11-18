@@ -1,0 +1,13 @@
+﻿version,metric,matches,denominator,percent,note
+v1,motion,13,17,76.47058824,role reference partly inferred; missing predictions count as mismatch
+v1,direction3,6,9,66.66666667,role reference partly inferred; missing predictions count as mismatch
+v1,single_compound,6,9,66.66666667,role reference partly inferred; missing predictions count as mismatch
+v1,front_selection,18,20,90,role reference partly inferred; missing predictions count as mismatch
+v2_ankle,motion,12,17,70.58823529,role reference partly inferred; missing predictions count as mismatch
+v2_ankle,direction3,4,9,44.44444444,role reference partly inferred; missing predictions count as mismatch
+v2_ankle,single_compound,6,9,66.66666667,role reference partly inferred; missing predictions count as mismatch
+v2_ankle,front_selection,20,20,100,role reference partly inferred; missing predictions count as mismatch
+v2_bbox,motion,12,17,70.58823529,role reference partly inferred; missing predictions count as mismatch
+v2_bbox,direction3,5,9,55.55555556,role reference partly inferred; missing predictions count as mismatch
+v2_bbox,single_compound,5,9,55.55555556,role reference partly inferred; missing predictions count as mismatch
+v2_bbox,front_selection,20,20,100,role reference partly inferred; missing predictions count as mismatch

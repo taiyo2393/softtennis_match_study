@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "v1_and_input_hashes_unchanged": true,
+  "motion_rows": 1548,
+  "interval_rules_checked": 1548,
+  "serve_roles_checked": 5,
+  "serve_receiver_baseline_fallbacks_checked": 1,
+  "raw_ankle_positions_checked": 1905,
+  "review_images_checked": 30,
+  "review_shapes": {
+    "motion_01": [
+      390,
+      2320
+    ],
+    "motion_02": [
+      390,
+      2320
+    ],
+    "motion_03": [
+      390,
+      2320
+    ],
+    "motion_04": [
+      390,
+      1920
+    ],
+    "motion_05": [
+      390,
+      2320
+    ],
+    "motion_06": [
+      390,
+      1920
+    ],
+    "motion_07": [
+      390,
+      1920
+    ],
+    "motion_08": [
+      390,
+      2320
+    ],
+    "motion_09": [
+      390,
+      2320
+    ],
+    "motion_10": [
+      390,
+      2320
+    ],
+    "motion_11": [
+      390,
+      1520
+    ],
+    "motion_12": [
+      390,
+      1520
+    ],
+    "motion_13": [
+      390,
+      2320
+    ],
+    "motion_14": [
+      390,
+      2320
+    ],
+    "motion_15": [
+      390,
+      1920
+    ],
+    "motion_16": [
+      390,
+      1520
+    ],
+    "motion_17": [
+      390,
+      1920
+    ],
+    "motion_18": [
+      390,
+      1920
+    ],
+    "motion_19": [
+      390,
+      1920
+    ],
+    "motion_20": [
+      390,
+      2320
+    ],
+    "motion_21": [
+      390,
+      1520
+    ],
+    "motion_22": [
+      390,
+      1920
+    ],
+    "motion_23": [
+      390,
+      1920
+    ],
+    "motion_24": [
+      390,
+      2320
+    ],
+    "motion_25": [
+      390,
+      2320
+    ],
+    "motion_26": [
+      390,
+      1520
+    ],
+    "motion_27": [
+      390,
+      1920
+    ],
+    "motion_28": [
+      390,
+      1520
+    ],
+    "motion_29": [
+      390,
+      2320
+    ],
+    "motion_30": [
+      390,
+      2320
+    ]
+  },
+  "large_artifacts_ignored": true,
+  "note": "Export consistency checks; not independent tracking or motion ground truth"
+}

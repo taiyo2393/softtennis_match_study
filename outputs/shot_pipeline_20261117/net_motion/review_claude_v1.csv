@@ -1,0 +1,21 @@
+review_id,id,auto_classification,auto_direction3,claude_motion,claude_direction3,claude_single_compound,claude_issue,claude_note
+motion_01,p07_B_01,none,,none,,,,サーブ時、赤の前衛はほぼ静止
+motion_02,p09_B_01,single,front,none,,,false_motion,赤はほぼ静止。小さな足の動きを0.5 mの前移動と判定
+motion_03,p10_B_01,single,lateral,,,,wrong_player,選ばれた赤はレシーバー（F30547-30549 に返球）。前衛ではない
+motion_04,p11_B_05,single,back,motion,back,single,,右後ろへ下がる動き。自動と一致
+motion_05,p08_B_04,compound,lateral,motion,lateral,single,compound_false,奥の白が画面右（本人の左）へ踏み込んでボレー。単モーションの横（やや前）
+motion_06,p11_B_02,none,,none,,,,赤は静止して構え
+motion_07,p08_B_02,single,front,motion,lateral,single,direction_wrong,小さく本人の右へ踏み出す。前ではなく横
+motion_08,p07_B_02,single,lateral,motion,lateral,single,,画面右（本人の左）へ寄ってネット前でボレー。自動と一致
+motion_09,p10_B_02,single,back,none,,,false_motion,構えの幅が広がっただけ。0.75 mの後ろ移動と判定
+motion_10,p09_B_11,compound,lateral,motion,lateral,single,compound_false,本人の右へクロスステップで横移動。単モーション
+motion_11,p09_B_05,none,,none,,,,静止
+motion_12,p07_B_03,single,front,motion,front,single,,小さく前へ詰める。量は過大（0.85 m）の可能性
+motion_13,p11_B_01,single,lateral,,,,wrong_player,選ばれた白はレシーバー（F32852 に返球）。前衛ではない
+motion_14,p10_B_03,single,back,none,,,false_motion,スプリットステップで足を開いただけ。0.83 mの後ろ移動と判定
+motion_15,p07_B_09,compound,back,motion,lateral,single,direction_wrong;compound_false,本人の左へ横移動。後ろでも複でもない
+motion_16,p08_B_12,none,,none,,,,静止して構え
+motion_17,p09_B_02,single,front,none,,,false_motion,奥の白はほぼ静止。0.5 mの前移動と判定
+motion_18,p11_B_03,motion,lateral,motion,lateral,single,,本人の右へ大きく踏み出す。自動と一致（自動は単・横）
+motion_19,p08_B_06,single,back,motion,lateral,single,direction_wrong,画面右（本人の左）へ横移動。後ろ成分は小さい
+motion_20,p07_B_14,compound,back,,,,window_too_long,次の打球まで1.5秒の区間を使っていた（前衛が次の打者のときの例外）。井箟ほかの終点（ネット通過）とずれる

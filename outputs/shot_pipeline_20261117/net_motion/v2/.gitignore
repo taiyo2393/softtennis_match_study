@@ -1,0 +1,4 @@
+# Generated files exceeding 256 KiB; refreshed by classify_net_motion_v2.py
+/motions.csv
+/summary.csv
+/trajectories_main.csv

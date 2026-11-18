@@ -1,0 +1,41 @@
+{
+  "input_sha256": {
+    "shot_table.csv": "891ca6ce2aa2d46bdf0164d06360811320b3a4b03a5538a6fbd55ad4bfe4c489",
+    "labels\\point_07.csv": "40d4b1f398d34c176a493c537c57a1b2687486c852c68ec8bf60e5312d6ac2af",
+    "tracking\\point_07\\player_court_proxies.csv": "2160ccb6f5ac660f0f0106d875d459c7a114a421ee124e42f11520685c3e6a3d",
+    "tracking\\point_07\\protocol.json": "fb7f3379f7cbbf651937949ac9e458699eb5384dca05edddf440947099c2533a",
+    "labels\\point_08.csv": "322ed9304ff2da63cd5f45588249f8c1fd03a0c2a5b19b075d47f50578e7b428",
+    "tracking\\point_08\\player_court_proxies.csv": "73fac804d7ccb502968d89007d176e4277a6d9f734cf9bdcc419bdc69df0f000",
+    "tracking\\point_08\\protocol.json": "6804e61428202e591b682a21e3562e915fb0bc4878a3c0a3431b3abbf0dede70",
+    "labels\\point_09.csv": "3b30d42456ccce2765b1b771aee57bb675abeab3a58e5f68fe01a9003e0f9027",
+    "tracking\\point_09\\player_court_proxies.csv": "a16f6adb3c44c45ceb88ee07c87b9b80a06283e8869f2c17d81ec0dcf6a82845",
+    "tracking\\point_09\\protocol.json": "5b8aae748be1ffaf42632561602b3234c496a73422c4aef43e1e2a7ce89bdbb5",
+    "labels\\point_10.csv": "8a21345afcf3b0cc32425d8d017367865d67a9d327c38cadc9ef67d924713f33",
+    "tracking\\point_10\\player_court_proxies.csv": "b9e88d7846404f8b8448b3a8a67dc1e7fbf7ce2011c86856b79ccedd7ecffd58",
+    "tracking\\point_10\\protocol.json": "77504c9e33132b93c8e0c365047070804683d0e5c9b465d6b836dca08a78113b",
+    "labels\\point_11.csv": "a433ac9c401db1813ffcc9b3a39e8c134c07c6197fff20a7f7600914f0aa4248",
+    "tracking\\point_11\\player_court_proxies.csv": "3c38b9ba3be7b5ab4d45ceb12aab3b38e074b6e138e5d25b805bb97be9cdbc7b",
+    "tracking\\point_11\\protocol.json": "b5bd48d8f04ee6f3ad552c69113dd0b26ae6b3add0eaa09ddd85f7dc8a4d31e8"
+  },
+  "input_hashes_unchanged": true,
+  "shots": 86,
+  "motion_rows": 774,
+  "review_sheets": 20,
+  "parameters": {
+    "WS": [
+      0.3,
+      0.4,
+      0.5
+    ],
+    "DS": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "MAX_MISSING": 0.2,
+    "MAX_GAP": 2,
+    "TURN_DEG": 60.0,
+    "CROSS_DEG": 10.0,
+    "MIN_SEG_FRAMES": 3
+  }
+}
