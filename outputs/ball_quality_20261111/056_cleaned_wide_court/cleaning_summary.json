@@ -219,6 +219,8 @@
   "rendering": {
     "encoded_frames_decoded": 401,
     "display_fps": 14.985014985014985,
+    "width": 1920,
+    "height": 1080,
     "x_normalized_limits": [
       -0.25,
       1.25
@@ -258,8 +260,166 @@
       }
     },
     "outside_policy": "Skip points beyond original view including original 7px circle margin; never clamp",
-    "existing_files_verified_unchanged": 273,
-    "left_panel_and_stroke_strip_unchanged_before_video_encoding": true,
-    "existing_routes_and_bounces_reused": true
+    "existing_files_verified_unchanged": 272,
+    "authorized_modified_existing_script": "render_056_cleaned_wide_court.py",
+    "other_existing_output_files_verified_unchanged": {
+      "cleaned_player_positions.csv": "4bff214848e373610ab50d0923802232ee4d70f91f60686eede2b2f2e5a778a5",
+      "existing_files_sha256_before.json": "ab266baa8ae6c09ee3bf953326c5df5df47c800a48ed284be4bb13054f3307d4",
+      "video_source_frame_map.csv": "6d7d7267883bfcd4fc6c40e58eee7bdab45d42192b499fdbf2bebf33e03b4697"
+    },
+    "source_images_verified_against_manifest": 401,
+    "source_image_resolution_policy": "Use only the Windows path basename in the registered rally_repair_056/frames directory",
+    "left_render_policy": "Raw observed/observed_after_height_reset: original solid box and name; raw rejected_box_height/rejected_speed: same-color 1px dashed box and name plus 除外, even when final status is interpolated; no raw box: no overlay",
+    "left_dashed_box_frames_by_player": {
+      "near_front": 2,
+      "near_rear": 3,
+      "far_rear": 19,
+      "far_front": 11
+    },
+    "left_dashed_box_frames_by_player_and_filter_status": {
+      "near_front": {
+        "rejected_box_height": 0,
+        "rejected_speed": 2
+      },
+      "near_rear": {
+        "rejected_box_height": 3,
+        "rejected_speed": 0
+      },
+      "far_rear": {
+        "rejected_box_height": 10,
+        "rejected_speed": 9
+      },
+      "far_front": {
+        "rejected_box_height": 5,
+        "rejected_speed": 6
+      }
+    },
+    "left_dashed_box_with_final_interpolated_by_player": {
+      "near_front": 2,
+      "near_rear": 2,
+      "far_rear": 18,
+      "far_front": 11
+    },
+    "frames_with_rejected_boxes": 35,
+    "source_frames_with_rejected_boxes": [
+      154132,
+      154134,
+      154278,
+      154280,
+      154282,
+      154288,
+      154312,
+      154314,
+      154372,
+      154374,
+      154376,
+      154552,
+      154554,
+      154558,
+      154566,
+      154568,
+      154570,
+      154572,
+      154574,
+      154576,
+      154580,
+      154582,
+      154636,
+      154638,
+      154644,
+      154688,
+      154690,
+      154692,
+      154694,
+      154760,
+      154762,
+      154764,
+      154766,
+      154804,
+      154854
+    ],
+    "all_frames_rendered_both_original_and_cleaned": 401,
+    "no_rejected_box_pixel_equality_asserted_frames": 366,
+    "pixel_equality_excluded_rectangle_xyxy_half_open": [
+      1320,
+      100,
+      1920,
+      921
+    ],
+    "no_rejected_box_outside_right_panel_exact_match": true,
+    "all_frame_title_and_stroke_strip_exact_match": true,
+    "left_panel_and_stroke_strip_unchanged_before_video_encoding": false,
+    "original_render_vs_source_video_comparison": {
+      "region": "All RGB pixels with x in [0,1320), y in [0,1080)",
+      "mean_absolute_difference_limit": 3.0,
+      "range_0_to_255": true,
+      "sample_count": 7,
+      "samples": [
+        {
+          "source_frame": 154080,
+          "left_rgb_mean_absolute_difference": 1.7028607837635616,
+          "video_tile_rgb_mean_absolute_difference": 1.5473658130787038,
+          "stroke_strip_rgb_mean_absolute_difference": 2.6447818396226417,
+          "left_rgb_95th_percentile_absolute_difference": 4.0,
+          "passed": true
+        },
+        {
+          "source_frame": 154086,
+          "left_rgb_mean_absolute_difference": 1.7399978956228956,
+          "video_tile_rgb_mean_absolute_difference": 1.6140751591435185,
+          "stroke_strip_rgb_mean_absolute_difference": 2.641173130677848,
+          "left_rgb_95th_percentile_absolute_difference": 4.0,
+          "passed": true
+        },
+        {
+          "source_frame": 154376,
+          "left_rgb_mean_absolute_difference": 1.8049062383090162,
+          "video_tile_rgb_mean_absolute_difference": 1.6895185908564814,
+          "stroke_strip_rgb_mean_absolute_difference": 2.7319597309573727,
+          "left_rgb_95th_percentile_absolute_difference": 4.0,
+          "passed": true
+        },
+        {
+          "source_frame": 154480,
+          "left_rgb_mean_absolute_difference": 1.8493109334081557,
+          "video_tile_rgb_mean_absolute_difference": 1.782195457175926,
+          "stroke_strip_rgb_mean_absolute_difference": 2.62648606743536,
+          "left_rgb_95th_percentile_absolute_difference": 4.0,
+          "passed": true
+        },
+        {
+          "source_frame": 154690,
+          "left_rgb_mean_absolute_difference": 1.7298321174710063,
+          "video_tile_rgb_mean_absolute_difference": 1.6213632089120371,
+          "stroke_strip_rgb_mean_absolute_difference": 2.6057247990915444,
+          "left_rgb_95th_percentile_absolute_difference": 4.0,
+          "passed": true
+        },
+        {
+          "source_frame": 154762,
+          "left_rgb_mean_absolute_difference": 1.7842178731762066,
+          "video_tile_rgb_mean_absolute_difference": 1.673244357638889,
+          "stroke_strip_rgb_mean_absolute_difference": 2.72482857267645,
+          "left_rgb_95th_percentile_absolute_difference": 4.0,
+          "passed": true
+        },
+        {
+          "source_frame": 154880,
+          "left_rgb_mean_absolute_difference": 1.7489658155630379,
+          "video_tile_rgb_mean_absolute_difference": 1.6805620659722222,
+          "stroke_strip_rgb_mean_absolute_difference": 2.6951115915443746,
+          "left_rgb_95th_percentile_absolute_difference": 4.0,
+          "passed": true
+        }
+      ],
+      "maximum_sample_mean_absolute_difference": 1.8493109334081557,
+      "all_samples_passed": true,
+      "note": "Original-style JPEG re-render vs decoded original H.264; small codec differences are expected, not exact pixel equality"
+    },
+    "existing_routes_and_bounces_reused": true,
+    "right_player_drawing_counts_unchanged": true,
+    "existing_ball_and_stroke_drawing_reproduced": true,
+    "renderer_sha256": "998c2017d75c8b9dac601f348b84911181ec55325f582ae26c08538abb55db3a",
+    "output_video_sha256": "556526778fb33fdd7b06f25e2c1397532b6b7100905afab0ce54a7c6f15dee36"
   }
 }
